@@ -1,20 +1,20 @@
-const Ft = Object.defineProperty;
-const r = (e, t) => Ft(e, "name", { value: t, configurable: !0 });
-let k,
+var Ft = Object.defineProperty;
+var r = (e, t) => Ft(e, "name", { value: t, configurable: !0 });
+var k,
   A,
   Ut = Object.defineProperty,
   Rt = r((e, t) => Ut(e, "name", { value: t, configurable: !0 }), "c$7");
 function I(e, t, n) {
   n = n || {};
-  let i = e.ownerDocument,
+  var i = e.ownerDocument,
     s = i.defaultView.CustomEvent;
-  (typeof s === "function"
+  (typeof s == "function"
     ? (s = new s(t, { detail: n }))
     : ((s = i.createEvent("Event")), s.initEvent(t, !1, !1), (s.detail = n)),
     e.dispatchEvent(s));
 }
 (r(I, "o$c"), Rt(I, "dispatch"));
-const zt = Object.defineProperty,
+var zt = Object.defineProperty,
   be = r((e, t) => zt(e, "name", { value: t, configurable: !0 }), "r$7");
 function ee(e) {
   return (
@@ -35,21 +35,21 @@ function te(e) {
   return e === (e | 0) + "";
 }
 (r(te, "s$4"), be(te, "isindex"));
-const Bt = Object.defineProperty,
+var Bt = Object.defineProperty,
   Ht = r((e, t) => Bt(e, "name", { value: t, configurable: !0 }), "n$8");
 function $(e) {
   const t = document.createElement("span");
   return ((t.className = "observablehq--cellname"), (t.textContent = `${e} = `), t);
 }
 (r($, "c$6"), Ht($, "inspectName"));
-const Vt = Object.defineProperty,
+var Vt = Object.defineProperty,
   Yt = r((e, t) => Vt(e, "name", { value: t, configurable: !0 }), "t$8");
 const Gt = Symbol.prototype.toString;
 function j(e) {
   return Gt.call(e);
 }
 (r(j, "e$6"), Yt(j, "formatSymbol"));
-const Jt = Object.defineProperty,
+var Jt = Object.defineProperty,
   ne = r((e, t) => Jt(e, "name", { value: t, configurable: !0 }), "n$6");
 const {
     getOwnPropertySymbols: Kt,
@@ -75,7 +75,7 @@ function _(e, t) {
   }
 }
 (r(_, "y$2"), ne(_, "valueof"));
-const Qt = Object.defineProperty,
+var Qt = Object.defineProperty,
   Wt = r((e, t) => Qt(e, "name", { value: t, configurable: !0 }), "i$4");
 const en = [
   { symbol: "@@__IMMUTABLE_INDEXED__@@", name: "Indexed", modifier: !0 },
@@ -89,7 +89,7 @@ const en = [
 ];
 function re(e) {
   try {
-    const t = en.filter(({ symbol: o }) => e[o] === !0);
+    let t = en.filter(({ symbol: o }) => e[o] === !0);
     if (!t.length) return;
     const n = t.find((o) => !o.modifier),
       i = n.name === "Map" && t.find((o) => o.modifier && o.prefix),
@@ -101,7 +101,7 @@ function re(e) {
   }
 }
 (r(re, "y$1"), Wt(re, "immutableName"));
-const tn = Object.defineProperty,
+var tn = Object.defineProperty,
   b = r((e, t) => tn(e, "name", { value: t, configurable: !0 }), "i$3");
 const { getPrototypeOf: ie, getOwnPropertyDescriptors: nn } = Object,
   ye = ie({});
@@ -246,7 +246,7 @@ function se(e) {
   );
 }
 (r(se, "k$2"), b(se, "formatSetField"));
-const rn = Object.defineProperty,
+var rn = Object.defineProperty,
   v = r((e, t) => rn(e, "name", { value: t, configurable: !0 }), "a$3");
 function ue(e) {
   const t = window.getSelection();
@@ -387,11 +387,10 @@ function ke(e, t) {
   );
 }
 (r(ke, "P$2"), v(ke, "formatMapField"));
-const on = Object.defineProperty,
+var on = Object.defineProperty,
   le = r((e, t) => on(e, "name", { value: t, configurable: !0 }), "i$2");
 function Ae(e, t) {
-  if ((e instanceof Date || (e = new Date(+e)), isNaN(e)))
-    return typeof t === "function" ? t(e) : t;
+  if ((e instanceof Date || (e = new Date(+e)), isNaN(e))) return typeof t == "function" ? t(e) : t;
   const n = e.getUTCHours(),
     i = e.getUTCMinutes(),
     s = e.getUTCSeconds(),
@@ -407,35 +406,35 @@ function C(e, t) {
   return `${e}`.padStart(t, "0");
 }
 (r(C, "t$7"), le(C, "pad"));
-const an = Object.defineProperty,
+var an = Object.defineProperty,
   sn = r((e, t) => an(e, "name", { value: t, configurable: !0 }), "t$6");
 const un =
   /^(?:[-+]\d{2})?\d{4}(?:-\d{2}(?:-\d{2})?)?(?:T\d{2}:\d{2}(?::\d{2}(?:\.\d{3})?)?(?:Z|[-+]\d{2}:?\d{2})?)?$/;
 function ln(e, t) {
-  return un.test((e += "")) ? new Date(e) : typeof t === "function" ? t(e) : t;
+  return un.test((e += "")) ? new Date(e) : typeof t == "function" ? t(e) : t;
 }
 (r(ln, "r$5"), sn(ln, "parse"));
-const cn = Object.defineProperty,
+var cn = Object.defineProperty,
   dn = r((e, t) => cn(e, "name", { value: t, configurable: !0 }), "r$4");
 function Le(e) {
   return Ae(e, "Invalid Date");
 }
 (r(Le, "f$5"), dn(Le, "formatDate"));
-const fn = Object.defineProperty,
+var fn = Object.defineProperty,
   pn = r((e, t) => fn(e, "name", { value: t, configurable: !0 }), "t$5"),
   mn = Error.prototype.toString;
 function De(e) {
   return e.stack || mn.call(e);
 }
 (r(De, "e$4"), pn(De, "formatError"));
-const hn = Object.defineProperty,
+var hn = Object.defineProperty,
   _n = r((e, t) => hn(e, "name", { value: t, configurable: !0 }), "r$3"),
   bn = RegExp.prototype.toString;
 function Fe(e) {
   return bn.call(e);
 }
 (r(Fe, "g$1"), _n(Fe, "formatRegExp"));
-const vn = Object.defineProperty,
+var vn = Object.defineProperty,
   G = r((e, t) => vn(e, "name", { value: t, configurable: !0 }), "s$1");
 const ce = 20;
 function Ue(e, t, n, i) {
@@ -494,7 +493,7 @@ function de(e) {
 }
 (r(de, "h$3"), G(de, "templatify"));
 function Re(e) {
-  const t = e.charCodeAt(0);
+  var t = e.charCodeAt(0);
   switch (t) {
     case 8:
       return "\\b";
@@ -515,7 +514,7 @@ function fe(e, t) {
   return n;
 }
 (r(fe, "C$2"), G(fe, "count"));
-const yn = Object.defineProperty,
+var yn = Object.defineProperty,
   ze = r((e, t) => yn(e, "name", { value: t, configurable: !0 }), "a$1"),
   gn = Function.prototype.toString,
   $n = { prefix: "async \u0192" },
@@ -524,7 +523,7 @@ const yn = Object.defineProperty,
   Cn = { prefix: "\u0192" },
   En = { prefix: "\u0192*" };
 function He(e, t) {
-  let n,
+  var n,
     i,
     s = gn.call(e);
   switch (e.constructor && e.constructor.name) {
@@ -555,9 +554,9 @@ function He(e, t) {
 }
 (r(He, "y"), ze(He, "inspectFunction"));
 function T(e, t, n) {
-  const i = document.createElement("span");
+  var i = document.createElement("span");
   ((i.className = "observablehq--function"), n && i.appendChild($(n)));
-  const s = i.appendChild(document.createElement("span"));
+  var s = i.appendChild(document.createElement("span"));
   return (
     (s.className = "observablehq--keyword"),
     (s.textContent = e.prefix),
@@ -566,7 +565,7 @@ function T(e, t, n) {
   );
 }
 (r(T, "c$3"), ze(T, "formatFunction"));
-const xn = Object.defineProperty,
+var xn = Object.defineProperty,
   Ve = r((e, t) => xn(e, "name", { value: t, configurable: !0 }), "c$2");
 const {
   prototype: { toString: Sn },
@@ -636,7 +635,7 @@ function U(e, t) {
     I(t, "load"));
 }
 (r(U, "z$2"), Ve(U, "replace"));
-const Nn = Object.defineProperty,
+var Nn = Object.defineProperty,
   Ye = r((e, t) => Nn(e, "name", { value: t, configurable: !0 }), "n$2");
 const On = /\s+\(\d+:\d+\)$/m,
   Ge =
@@ -678,7 +677,7 @@ const On = /\s+\(\d+:\d+\)$/m,
           i.lastChild;
         )
           i.removeChild(i.lastChild);
-        const s = document.createElement("div");
+        var s = document.createElement("div");
         ((s.className = "observablehq--inspect"),
           n && s.appendChild($(n)),
           s.appendChild(document.createTextNode((t + "").replace(On, ""))),
@@ -689,9 +688,9 @@ const On = /\s+\(\d+:\d+\)$/m,
     r(k, "o"),
     k);
 Ye(Ge, "Inspector");
-const pe = Ge;
+let pe = Ge;
 pe.into = function (e) {
-  if (typeof e === "string" && ((e = document.querySelector(e)), e == null))
+  if (typeof e == "string" && ((e = document.querySelector(e)), e == null))
     throw new Error("container not found");
   return function () {
     return new pe(e.appendChild(document.createElement("div")));
@@ -701,7 +700,7 @@ function Je(e) {
   return (e instanceof Element || e instanceof Text) && e instanceof e.constructor;
 }
 (r(Je, "p$2"), Ye(Je, "isnode"));
-const jn = Object.defineProperty,
+var jn = Object.defineProperty,
   Pn = r((e, t) => jn(e, "name", { value: t, configurable: !0 }), "o$4");
 const Ke =
   ((A = class extends Error {
@@ -712,27 +711,27 @@ const Ke =
   r(A, "e"),
   A);
 Pn(Ke, "RuntimeError");
-const E = Ke;
+let E = Ke;
 E.prototype.name = "RuntimeError";
-const qn = Object.defineProperty,
+var qn = Object.defineProperty,
   Mn = r((e, t) => qn(e, "name", { value: t, configurable: !0 }), "t$4");
 function Ze(e) {
-  return e && typeof e.next === "function" && typeof e.return === "function";
+  return e && typeof e.next == "function" && typeof e.return == "function";
 }
 (r(Ze, "f$1"), Mn(Ze, "generatorish"));
-const Tn = Object.defineProperty,
+var Tn = Object.defineProperty,
   kn = r((e, t) => Tn(e, "name", { value: t, configurable: !0 }), "t$3");
 function J(e) {
   return () => e;
 }
 (r(J, "e$2"), kn(J, "constant"));
-const An = Object.defineProperty,
+var An = Object.defineProperty,
   In = r((e, t) => An(e, "name", { value: t, configurable: !0 }), "n$1");
 function R(e) {
   return e;
 }
 (r(R, "o$3"), In(R, "identity"));
-const Ln = Object.defineProperty,
+var Ln = Object.defineProperty,
   Dn = r((e, t) => Ln(e, "name", { value: t, configurable: !0 }), "t$2");
 function Xe(e) {
   return () => {
@@ -742,11 +741,11 @@ function Xe(e) {
 (r(Xe, "h$2"), Dn(Xe, "rethrow"));
 const Fn = Array.prototype,
   Un = Fn.map;
-const Rn = Object.defineProperty,
+var Rn = Object.defineProperty,
   zn = r((e, t) => Rn(e, "name", { value: t, configurable: !0 }), "o$1");
 function x() {}
 (r(x, "e"), zn(x, "noop"));
-const Bn = Object.defineProperty,
+var Bn = Object.defineProperty,
   m = r((e, t) => Bn(e, "name", { value: t, configurable: !0 }), "r");
 const me = 1,
   z = 2,
@@ -833,7 +832,7 @@ function nt(e, t, n) {
       break;
     }
     case 2: {
-      ((n = t), typeof e === "string" ? (t = null) : ((t = e), (e = null)));
+      ((n = t), typeof e == "string" ? (t = null) : ((t = e), (e = null)));
       break;
     }
   }
@@ -841,7 +840,7 @@ function nt(e, t, n) {
     this,
     e == null ? null : String(e),
     t == null ? [] : Un.call(t, this._resolve, this),
-    typeof n === "function" ? n : J(n)
+    typeof n == "function" ? n : J(n)
   );
 }
 (r(nt, "I$1"), m(nt, "variable_define"));
@@ -948,7 +947,7 @@ function ut(e) {
   this._observer.rejected && this._observer.rejected(e, this._name);
 }
 (r(ut, "N$1"), m(ut, "variable_rejected"));
-const Vn = Object.defineProperty,
+var Vn = Object.defineProperty,
   y = r((e, t) => Vn(e, "name", { value: t, configurable: !0 }), "n");
 const lt = Symbol("variable"),
   ct = Symbol("invalidation"),
@@ -1038,7 +1037,7 @@ function bt(e, t) {
   (r(a, "v"), y(a, "alias"));
   const o = a(this);
   for (const l of e) {
-    const { alias: c, name: u } = typeof l === "object" ? l : { name: l };
+    const { alias: c, name: u } = typeof l == "object" ? l : { name: l };
     o.import(u, c ?? u, t);
   }
   for (const l of i)
@@ -1086,12 +1085,12 @@ function gt(e) {
   return e._name;
 }
 (r(gt, "N"), y(gt, "variable_name"));
-const Yn = Object.defineProperty,
+var Yn = Object.defineProperty,
   p = r((e, t) => Yn(e, "name", { value: t, configurable: !0 }), "o");
 const Gn =
-  typeof requestAnimationFrame === "function"
+  typeof requestAnimationFrame == "function"
     ? requestAnimationFrame
-    : typeof setImmediate === "function"
+    : typeof setImmediate == "function"
       ? setImmediate
       : (e) => setTimeout(e, 0);
 function _e(e, t = Dt) {
@@ -1237,7 +1236,7 @@ function W(e) {
 }
 (r(W, "h"), p(W, "variable_invalidator"));
 function Mt(e, t) {
-  let n = typeof IntersectionObserver === "function" && t._observer && t._observer._node,
+  let n = typeof IntersectionObserver == "function" && t._observer && t._observer._node,
     i = !n,
     s = x,
     a = x,

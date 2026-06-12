@@ -1,6 +1,6 @@
-const D = Object.defineProperty;
-const o = (t, e) => D(t, "name", { value: e, configurable: !0 });
-let f,
+var D = Object.defineProperty;
+var o = (t, e) => D(t, "name", { value: e, configurable: !0 });
+var f,
   m,
   I = Object.defineProperty,
   d = o((t, e) => I(t, "name", { value: e, configurable: !0 }), "o$2");
@@ -18,7 +18,7 @@ function b(t, e, r = location) {
 function w(t, e = location) {
   if (new.target !== void 0) throw new TypeError("FileAttachment is not a constructor");
   let r;
-  typeof t === "object" && t && "name" in t && ((r = t), (t = t.name));
+  typeof t == "object" && t && "name" in t && ((r = t), (t = t.name));
   const n = v.get(new URL(t, e).href);
   if (n) return n;
   if (r) return b(t, r, e);
@@ -151,7 +151,7 @@ const j =
   o(f, "m"),
   f);
 d(j, "AbstractFile");
-const x = j;
+let x = j;
 const k =
   ((m = class extends x {
     constructor(e, r, n, a, i) {
@@ -164,18 +164,18 @@ const k =
   o(m, "w"),
   m);
 d(k, "FileAttachmentImpl");
-const g = k;
+let g = k;
 (Object.defineProperty(g, "name", { value: "FileAttachment" }), (w.prototype = g.prototype));
-const S = Object.defineProperty,
+var S = Object.defineProperty,
   _ = o((t, e) => S(t, "name", { value: e, configurable: !0 }), "r$2");
 async function* u(t) {
   let e,
     r,
     n = !1;
   const a = t((i) => ((r = i), e ? (e(i), (e = null)) : (n = !0), i));
-  if (a != null && typeof a !== "function")
+  if (a != null && typeof a != "function")
     throw new Error(
-      typeof a.then === "function"
+      typeof a.then == "function"
         ? "async initializers are not supported"
         : "initializer returned something, but not a dispose function"
     );
@@ -186,7 +186,7 @@ async function* u(t) {
   }
 }
 (o(u, "u"), _(u, "observe"));
-const N = Object.defineProperty,
+var N = Object.defineProperty,
   E = o((t, e) => N(t, "name", { value: e, configurable: !0 }), "i$4");
 function A() {
   return u((t) => {
@@ -213,12 +213,12 @@ function A() {
   });
 }
 (o(A, "l$1"), E(A, "dark"));
-const V = Object.defineProperty,
+var V = Object.defineProperty,
   h = o((t, e) => V(t, "name", { value: e, configurable: !0 }), "e$1");
 function F(t) {
   return u((e) => {
     const r = z(t);
-    const n = P(t);
+    let n = P(t);
     const a = h(() => e(P(t)), "inputted");
     return (t.addEventListener(r, a), n !== void 0 && e(n), () => t.removeEventListener(r, a));
   });
@@ -255,21 +255,21 @@ function z(t) {
   }
 }
 (o(z, "f$2"), h(z, "eventof"));
-const G = Object.defineProperty,
+var G = Object.defineProperty,
   J = o((t, e) => G(t, "name", { value: e, configurable: !0 }), "e");
 async function* L() {
   for (;;) yield Date.now();
 }
 (o(L, "i$2"), J(L, "now"));
-const Q = Object.defineProperty,
+var Q = Object.defineProperty,
   W = o((t, e) => Q(t, "name", { value: e, configurable: !0 }), "r$1");
 async function* q(t) {
   let e;
   const r = [],
     n = t((a) => (r.push(a), e && (e(r.shift()), (e = null)), a));
-  if (n != null && typeof n !== "function")
+  if (n != null && typeof n != "function")
     throw new Error(
-      typeof n.then === "function"
+      typeof n.then == "function"
         ? "async initializers are not supported"
         : "initializer returned something, but not a dispose function"
     );
@@ -280,7 +280,7 @@ async function* q(t) {
   }
 }
 (o(q, "l"), W(q, "queue"));
-const Z = Object.defineProperty,
+var Z = Object.defineProperty,
   H = o((t, e) => Z(t, "name", { value: e, configurable: !0 }), "i$1");
 function R(t, e) {
   return u((r) => {
@@ -293,7 +293,7 @@ function R(t, e) {
   });
 }
 (o(R, "d"), H(R, "width"));
-const K = Object.freeze({
+var K = Object.freeze({
     __proto__: null,
     dark: A,
     input: F,
@@ -320,7 +320,7 @@ function C(t) {
   );
 }
 (o(C, "f$1"), $(C, "Mutable"));
-const Y = Object.defineProperty,
+var Y = Object.defineProperty,
   U = o((t, e) => Y(t, "name", { value: e, configurable: !0 }), "r");
 function B(t, e) {
   const r = document.createElement("div");
@@ -343,7 +343,7 @@ function B(t, e) {
 }
 (o(B, "p"), U(B, "resize"));
 function M(t) {
-  return typeof t === "object" && t.nodeType === 1;
+  return typeof t == "object" && t.nodeType === 1;
 }
 (o(M, "v"), U(M, "isElement"));
 export {

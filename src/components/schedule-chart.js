@@ -1,62 +1,63 @@
 import * as Plot from "@observablehq/plot";
 
 export function scheduleChart(matches) {
-  // Prepare data for visualization
-  const data = matches.map((match, i) => ({
-    ...match,
-    matchLabel: `${match.homeTeam} vs ${match.awayTeam}`,
-    status: match.homeScore !== null ? "played" : "upcoming",
-    totalGoals: (match.homeScore ?? 0) + (match.awayScore ?? 0),
-    index: i,
-  }));
-
-  // Sort by date
-  data.sort((a, b) => new Date(a.date) - new Date(b.date));
+  // Prepare data: sort by date
+  const data = matches
+    .map((m) => ({
+      ...m,
+      dateObj: new Date(m.date),
+      result: m.homeScore !== null ? `${m.homeScore}-${m.awayScore}` : "TBD",
+      played: m.homeScore !== null,
+    }))
+    .sort((a, b) => a.dateObj - b.dateObj);
 
   return Plot.plot({
     style: {
       background: "transparent",
       color: "var(--text-primary)",
-      fontFamily: "'DM Mono', monospace",
-      fontSize: "11px",
-      fontVariantNumeric: "tabular-nums",
+      fontFamily: "'Inter', sans-serif",
+      fontSize: "12px",
     },
-    marginLeft: 120,
-    marginBottom: 80,
+    width: 1100,
+    height: 500,
+    marginLeft: 100,
+    marginBottom: 40,
     marginTop: 20,
     marginRight: 20,
-    width: 1100,
-    height: 600,
-    x: { type: "band", label: "Match" },
-    y: { label: "Date" },
-    color: { scheme: "observable10", legend: true },
+    x: { type: "linear", label: "Match Sequence" },
+    y: (d) => d.dateObj,
     marks: [
-      Plot.rect(data, {
-        x: "matchLabel",
-        y: (d) => new Date(d.date),
-        fill: "status",
+      Plot.dot(data, {
+        x: (d, i) => i + 1,
+        y: "dateObj",
+        fill: (d) => (d.played ? "var(--positive)" : "var(--series-3)"),
+        r: 5,
         stroke: "var(--border)",
         strokeWidth: 1,
-        tip: {
-          anchor: "bottom",
-          format: {
-            x: false,
-            y: false,
-          },
-        },
       }),
       Plot.text(data, {
-        x: "matchLabel",
-        y: (d) => new Date(d.date),
-        text: (d) => (d.homeScore !== null ? `${d.homeScore}-${d.awayScore}` : "TBD"),
-        fontSize: 12,
+        x: (d, i) => i + 1,
+        y: "dateObj",
+        text: "result",
+        fontSize: 11,
         fontWeight: 600,
         fill: "var(--text-primary)",
-        dy: 0,
+        dy: -12,
       }),
-      Plot.axisX({ anchor: "bottom", label: null, tickSize: 0 }),
-      Plot.axisY({ anchor: "left", label: "Date", tickSize: 4 }),
-      Plot.gridY({ stroke: "var(--border-subtle)", strokeWidth: 1 }),
+      Plot.text(data, {
+        x: (d, i) => i + 1,
+        y: "dateObj",
+        text: (d) => `${d.homeTeam} vs ${d.awayTeam}`,
+        fontSize: 10,
+        fill: "var(--text-secondary)",
+        dy: 2,
+        anchor: "start",
+        dx: 10,
+      }),
+      Plot.axisX({ label: "Matches (chronological order)" }),
+      Plot.axisY({ label: "Date" }),
+      Plot.gridX({ stroke: "var(--border-subtle)", strokeOpacity: 0.2 }),
+      Plot.gridY({ stroke: "var(--border-subtle)", strokeOpacity: 0.2 }),
     ],
   });
 }

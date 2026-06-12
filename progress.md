@@ -2,11 +2,11 @@
 
 ## Summary
 
-| Task | Status | Completed At | Notes                                  |
-| ---- | ------ | ------------ | -------------------------------------- |
-| 1    | ✅     | 2026-06-12   | Scaffold project                       |
-| 2    | ✅     | 2026-06-12   | Scraper — matches list                 |
-| 3    | ✅     | 2026-06-12   | Matches data loader + schedule chart   |
+| Task | Status | Completed At | Notes                                |
+| ---- | ------ | ------------ | ------------------------------------ |
+| 1    | ✅     | 2026-06-12   | Scaffold project                     |
+| 2    | ✅     | 2026-06-12   | Scraper — matches list               |
+| 3    | ✅     | 2026-06-12   | Matches data loader + schedule chart |
 
 ---
 

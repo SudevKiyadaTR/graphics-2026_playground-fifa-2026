@@ -1,5 +1,5 @@
-const Ce = Object.defineProperty;
-const O = (r, e) => Ce(r, "name", { value: e, configurable: !0 });
+var Ce = Object.defineProperty;
+var O = (r, e) => Ce(r, "name", { value: e, configurable: !0 });
 var ze = Object.defineProperty,
   p = O((r, e) => ze(r, "name", { value: e, configurable: !0 }), "y"),
   I = p(function () {
@@ -9,7 +9,7 @@ var ze = Object.defineProperty,
         p(function (r) {
           for (var e, t = 1, o = arguments.length; t < o; t++) {
             e = arguments[t];
-            for (const i in e) Object.prototype.hasOwnProperty.call(e, i) && (r[i] = e[i]);
+            for (var i in e) Object.prototype.hasOwnProperty.call(e, i) && (r[i] = e[i]);
           }
           return r;
         }, "__assign")),
@@ -53,7 +53,7 @@ function ce(r, e, t, o) {
 }
 (O(ce, "vt"), p(ce, "__awaiter"));
 function he(r, e) {
-  let t = {
+  var t = {
       label: 0,
       sent: p(function () {
         if (n[0] & 1) throw n[1];
@@ -68,7 +68,7 @@ function he(r, e) {
     u;
   return (
     (u = { next: a(0), throw: a(1), return: a(2) }),
-    typeof Symbol === "function" &&
+    typeof Symbol == "function" &&
       (u[Symbol.iterator] = function () {
         return this;
       }),
@@ -138,11 +138,11 @@ function he(r, e) {
 }
 (O(he, "dt"), p(he, "__generator"));
 function _(r) {
-  let e = typeof Symbol === "function" && Symbol.iterator,
+  var e = typeof Symbol == "function" && Symbol.iterator,
     t = e && r[e],
     o = 0;
   if (t) return t.call(r);
-  if (r && typeof r.length === "number")
+  if (r && typeof r.length == "number")
     return {
       next: p(function () {
         return (r && o >= r.length && (r = void 0), { value: r && r[o++], done: !r });
@@ -152,9 +152,9 @@ function _(r) {
 }
 (O(_, "w"), p(_, "__values"));
 function V(r, e) {
-  let t = typeof Symbol === "function" && r[Symbol.iterator];
+  var t = typeof Symbol == "function" && r[Symbol.iterator];
   if (!t) return r;
-  let o = t.call(r),
+  var o = t.call(r),
     i,
     n = [],
     u;
@@ -171,14 +171,14 @@ function V(r, e) {
   }
   return n;
 }
-(O(V, "I"), p(V, "__read"), typeof SuppressedError === "function" && SuppressedError);
+(O(V, "I"), p(V, "__read"), typeof SuppressedError == "function" && SuppressedError);
 var ke = "ENTRIES",
   de = "KEYS",
   fe = "VALUES",
   L = "",
   Y = (function () {
     function r(e, t) {
-      const o = e._tree,
+      var o = e._tree,
         i = Array.from(o.keys());
       ((this.set = e), (this._type = t), (this._path = i.length > 0 ? [{ node: o, keys: i }] : []));
     }
@@ -186,21 +186,21 @@ var ke = "ENTRIES",
       O(r, "i"),
       p(r, "TreeIterator"),
       (r.prototype.next = function () {
-        const e = this.dive();
+        var e = this.dive();
         return (this.backtrack(), e);
       }),
       (r.prototype.dive = function () {
         if (this._path.length === 0) return { done: !0, value: void 0 };
-        const e = J(this._path),
+        var e = J(this._path),
           t = e.node,
           o = e.keys;
         if (J(o) === L) return { done: !1, value: this.result() };
-        const i = t.get(J(o));
+        var i = t.get(J(o));
         return (this._path.push({ node: i, keys: Array.from(i.keys()) }), this.dive());
       }),
       (r.prototype.backtrack = function () {
         if (this._path.length !== 0) {
-          const e = J(this._path).keys;
+          var e = J(this._path).keys;
           (e.pop(), !(e.length > 0) && (this._path.pop(), this.backtrack()));
         }
       }),
@@ -209,7 +209,7 @@ var ke = "ENTRIES",
           this.set._prefix +
           this._path
             .map(function (e) {
-              const t = e.keys;
+              var t = e.keys;
               return J(t);
             })
             .filter(function (e) {
@@ -241,22 +241,22 @@ var ke = "ENTRIES",
     return r[r.length - 1];
   }, "last$1"),
   Ie = p(function (r, e, t) {
-    const o = new Map();
+    var o = new Map();
     if (e === void 0) return o;
     for (var i = e.length + 1, n = i + t, u = new Uint8Array(n * i).fill(t + 1), a = 0; a < i; ++a)
       u[a] = a;
-    for (let s = 1; s < n; ++s) u[s * i] = s;
+    for (var s = 1; s < n; ++s) u[s * i] = s;
     return (ve(r, e, t, o, u, 1, i, ""), o);
   }, "fuzzySearch"),
   ve = p(function (r, e, t, o, i, n, u, a) {
-    let s,
+    var s,
       l,
       c = n * u;
     try {
       e: for (var h = _(r.keys()), d = h.next(); !d.done; d = h.next()) {
-        const f = d.value;
+        var f = d.value;
         if (f === L) {
-          const y = i[c - 1];
+          var y = i[c - 1];
           y <= t && o.set(a, [r.get(f), y]);
         } else {
           for (var m = n, v = 0; v < f.length; ++v, ++m) {
@@ -271,7 +271,7 @@ var ke = "ENTRIES",
               x < M;
               ++x
             ) {
-              const S = F !== e[x],
+              var S = F !== e[x],
                 C = i[g + x] + +S,
                 z = i[g + x + 1] + 1,
                 D = i[w + x] + 1,
@@ -305,20 +305,20 @@ var ke = "ENTRIES",
       O(r, "i"),
       p(r, "SearchableMap"),
       (r.prototype.atPrefix = function (e) {
-        let t, o;
+        var t, o;
         if (!e.startsWith(this._prefix)) throw new Error("Mismatched prefix");
-        const i = V(U(this._tree, e.slice(this._prefix.length)), 2),
+        var i = V(U(this._tree, e.slice(this._prefix.length)), 2),
           n = i[0],
           u = i[1];
         if (n === void 0) {
-          const a = V(te(u), 2),
+          var a = V(te(u), 2),
             s = a[0],
             l = a[1];
           try {
             for (var c = _(s.keys()), h = c.next(); !h.done; h = c.next()) {
-              const d = h.value;
+              var d = h.value;
               if (d !== L && d.startsWith(l)) {
-                const f = new Map();
+                var f = new Map();
                 return (f.set(d.slice(l.length), s.get(d)), new r(f, e));
               }
             }
@@ -344,10 +344,10 @@ var ke = "ENTRIES",
         return new Y(this, ke);
       }),
       (r.prototype.forEach = function (e) {
-        let t, o;
+        var t, o;
         try {
           for (var i = _(this), n = i.next(); !n.done; n = i.next()) {
-            const u = V(n.value, 2),
+            var u = V(n.value, 2),
               a = u[0],
               s = u[1];
             e(a, s, this);
@@ -366,42 +366,42 @@ var ke = "ENTRIES",
         return Ie(this._tree, e, t);
       }),
       (r.prototype.get = function (e) {
-        const t = Z(this._tree, e);
+        var t = Z(this._tree, e);
         return t !== void 0 ? t.get(L) : void 0;
       }),
       (r.prototype.has = function (e) {
-        const t = Z(this._tree, e);
+        var t = Z(this._tree, e);
         return t !== void 0 && t.has(L);
       }),
       (r.prototype.keys = function () {
         return new Y(this, de);
       }),
       (r.prototype.set = function (e, t) {
-        if (typeof e !== "string") throw new Error("key must be a string");
+        if (typeof e != "string") throw new Error("key must be a string");
         this._size = void 0;
-        const o = ee(this._tree, e);
+        var o = ee(this._tree, e);
         return (o.set(L, t), this);
       }),
       Object.defineProperty(r.prototype, "size", {
         get: p(function () {
           if (this._size) return this._size;
           this._size = 0;
-          for (let e = this.entries(); !e.next().done; ) this._size += 1;
+          for (var e = this.entries(); !e.next().done; ) this._size += 1;
           return this._size;
         }, "get"),
         enumerable: !1,
         configurable: !0,
       }),
       (r.prototype.update = function (e, t) {
-        if (typeof e !== "string") throw new Error("key must be a string");
+        if (typeof e != "string") throw new Error("key must be a string");
         this._size = void 0;
-        const o = ee(this._tree, e);
+        var o = ee(this._tree, e);
         return (o.set(L, t(o.get(L))), this);
       }),
       (r.prototype.fetch = function (e, t) {
-        if (typeof e !== "string") throw new Error("key must be a string");
+        if (typeof e != "string") throw new Error("key must be a string");
         this._size = void 0;
-        let o = ee(this._tree, e),
+        var o = ee(this._tree, e),
           i = o.get(L);
         return (i === void 0 && o.set(L, (i = t())), i);
       }),
@@ -412,12 +412,12 @@ var ke = "ENTRIES",
         return this.entries();
       }),
       (r.from = function (e) {
-        let t,
+        var t,
           o,
           i = new r();
         try {
           for (var n = _(e), u = n.next(); !u.done; u = n.next()) {
-            const a = V(u.value, 2),
+            var a = V(u.value, 2),
               s = a[0],
               l = a[1];
             i.set(s, l);
@@ -440,11 +440,11 @@ var ke = "ENTRIES",
     );
   })(),
   U = p(function (r, e, t) {
-    let o, i;
+    var o, i;
     if ((t === void 0 && (t = []), e.length === 0 || r == null)) return [r, t];
     try {
       for (var n = _(r.keys()), u = n.next(); !u.done; u = n.next()) {
-        const a = u.value;
+        var a = u.value;
         if (a !== L && e.startsWith(a)) return (t.push([r, a]), U(r.get(a), e.slice(a.length), t));
       }
     } catch (s) {
@@ -459,11 +459,11 @@ var ke = "ENTRIES",
     return (t.push([r, e]), U(void 0, "", t));
   }, "trackDown"),
   Z = p(function (r, e) {
-    let t, o;
+    var t, o;
     if (e.length === 0 || r == null) return r;
     try {
       for (var i = _(r.keys()), n = i.next(); !n.done; n = i.next()) {
-        const u = n.value;
+        var u = n.value;
         if (u !== L && e.startsWith(u)) return Z(r.get(u), e.slice(u.length));
       }
     } catch (a) {
@@ -477,19 +477,19 @@ var ke = "ENTRIES",
     }
   }, "lookup"),
   ee = p(function (r, e) {
-    let t,
+    var t,
       o,
       i = e.length;
-    e: for (let n = 0; r && n < i; ) {
+    e: for (var n = 0; r && n < i; ) {
       try {
         for (var u = ((t = void 0), _(r.keys())), a = u.next(); !a.done; a = u.next()) {
-          const s = a.value;
+          var s = a.value;
           if (s !== L && e[n] === s[0]) {
             for (var l = Math.min(i - n, s.length), c = 1; c < l && e[n + c] === s[c]; ) ++c;
-            const h = r.get(s);
+            var h = r.get(s);
             if (c === s.length) r = h;
             else {
-              const d = new Map();
+              var d = new Map();
               (d.set(s.slice(c), h), r.set(e.slice(n, n + c), d), r.delete(s), (r = d));
             }
             n += c;
@@ -505,19 +505,19 @@ var ke = "ENTRIES",
           if (t) throw t.error;
         }
       }
-      const f = new Map();
+      var f = new Map();
       return (r.set(e.slice(n), f), f);
     }
     return r;
   }, "createPath"),
   De = p(function (r, e) {
-    const t = V(U(r, e), 2),
+    var t = V(U(r, e), 2),
       o = t[0],
       i = t[1];
     if (o !== void 0) {
       if ((o.delete(L), o.size === 0)) ye(i);
       else if (o.size === 1) {
-        const n = V(o.entries().next().value, 2),
+        var n = V(o.entries().next().value, 2),
           u = n[0],
           a = n[1];
         pe(i, u, a);
@@ -526,12 +526,12 @@ var ke = "ENTRIES",
   }, "remove"),
   ye = p(function (r) {
     if (r.length !== 0) {
-      const e = V(te(r), 2),
+      var e = V(te(r), 2),
         t = e[0],
         o = e[1];
       if ((t.delete(o), t.size === 0)) ye(r.slice(0, -1));
       else if (t.size === 1) {
-        const i = V(t.entries().next().value, 2),
+        var i = V(t.entries().next().value, 2),
           n = i[0],
           u = i[1];
         n !== L && pe(r.slice(0, -1), n, u);
@@ -540,7 +540,7 @@ var ke = "ENTRIES",
   }, "cleanup"),
   pe = p(function (r, e, t) {
     if (r.length !== 0) {
-      const o = V(te(r), 2),
+      var o = V(te(r), 2),
         i = o[0],
         n = o[1];
       (i.set(n + e, t), i.delete(n));
@@ -556,7 +556,7 @@ var ke = "ENTRIES",
   Te = (function () {
     function r(e) {
       if (e?.fields == null) throw new Error('MiniSearch: option "fields" must be provided');
-      const t = e.autoVacuum == null || e.autoVacuum === !0 ? ae : e.autoVacuum;
+      var t = e.autoVacuum == null || e.autoVacuum === !0 ? ae : e.autoVacuum;
       ((this._options = I(I(I({}, oe), e), {
         autoVacuum: t,
         searchOptions: I(I({}, ge), e.searchOptions || {}),
@@ -581,7 +581,7 @@ var ke = "ENTRIES",
       O(r, "i"),
       p(r, "MiniSearch"),
       (r.prototype.add = function (e) {
-        let t,
+        var t,
           o,
           i,
           n,
@@ -597,25 +597,25 @@ var ke = "ENTRIES",
         if (y == null)
           throw new Error('MiniSearch: document does not have ID field "'.concat(f, '"'));
         if (this._idToShortId.has(y)) throw new Error("MiniSearch: duplicate ID ".concat(y));
-        const m = this.addDocumentId(y);
+        var m = this.addDocumentId(y);
         this.saveStoredFields(m, e);
         try {
           for (var v = _(d), F = v.next(); !F.done; F = v.next()) {
-            const w = F.value,
+            var w = F.value,
               g = l(e, w);
             if (g != null) {
-              const E = c(g.toString(), w),
+              var E = c(g.toString(), w),
                 A = this._fieldIds[w],
                 M = new Set(E).size;
               this.addFieldLength(m, A, this._documentCount - 1, M);
               try {
                 for (var x = ((i = void 0), _(E)), S = x.next(); !S.done; S = x.next()) {
-                  const C = S.value,
+                  var C = S.value,
                     z = h(C, w);
                   if (Array.isArray(z))
                     try {
                       for (var D = ((u = void 0), _(z)), b = D.next(); !b.done; b = D.next()) {
-                        const T = b.value;
+                        var T = b.value;
                         this.addTerm(A, m, T);
                       }
                     } catch (k) {
@@ -651,10 +651,10 @@ var ke = "ENTRIES",
         }
       }),
       (r.prototype.addAll = function (e) {
-        let t, o;
+        var t, o;
         try {
           for (var i = _(e), n = i.next(); !n.done; n = i.next()) {
-            const u = n.value;
+            var u = n.value;
             this.add(u);
           }
         } catch (a) {
@@ -668,13 +668,13 @@ var ke = "ENTRIES",
         }
       }),
       (r.prototype.addAllAsync = function (e, t) {
-        const o = this;
+        var o = this;
         t === void 0 && (t = {});
-        const i = t.chunkSize,
+        var i = t.chunkSize,
           n = i === void 0 ? 10 : i,
           u = { chunk: [], promise: Promise.resolve() },
           a = e.reduce(function (c, h, d) {
-            const f = c.chunk,
+            var f = c.chunk,
               y = c.promise;
             return (
               f.push(h),
@@ -701,7 +701,7 @@ var ke = "ENTRIES",
         });
       }),
       (r.prototype.remove = function (e) {
-        let t,
+        var t,
           o,
           i,
           n,
@@ -716,28 +716,28 @@ var ke = "ENTRIES",
           y = h(e, f);
         if (y == null)
           throw new Error('MiniSearch: document does not have ID field "'.concat(f, '"'));
-        const m = this._idToShortId.get(y);
+        var m = this._idToShortId.get(y);
         if (m == null)
           throw new Error(
             "MiniSearch: cannot remove document with ID ".concat(y, ": it is not in the index")
           );
         try {
           for (var v = _(d), F = v.next(); !F.done; F = v.next()) {
-            const w = F.value,
+            var w = F.value,
               g = h(e, w);
             if (g != null) {
-              const E = l(g.toString(), w),
+              var E = l(g.toString(), w),
                 A = this._fieldIds[w],
                 M = new Set(E).size;
               this.removeFieldLength(m, A, this._documentCount, M);
               try {
                 for (var x = ((i = void 0), _(E)), S = x.next(); !S.done; S = x.next()) {
-                  const C = S.value,
+                  var C = S.value,
                     z = c(C, w);
                   if (Array.isArray(z))
                     try {
                       for (var D = ((u = void 0), _(z)), b = D.next(); !b.done; b = D.next()) {
-                        const T = b.value;
+                        var T = b.value;
                         this.removeTerm(A, m, T);
                       }
                     } catch (k) {
@@ -778,11 +778,11 @@ var ke = "ENTRIES",
           (this._documentCount -= 1));
       }),
       (r.prototype.removeAll = function (e) {
-        let t, o;
+        var t, o;
         if (e)
           try {
             for (var i = _(e), n = i.next(); !n.done; n = i.next()) {
-              const u = n.value;
+              var u = n.value;
               this.remove(u);
             }
           } catch (a) {
@@ -810,7 +810,7 @@ var ke = "ENTRIES",
         }
       }),
       (r.prototype.discard = function (e) {
-        const t = this,
+        var t = this,
           o = this._idToShortId.get(e);
         if (o == null)
           throw new Error(
@@ -829,7 +829,7 @@ var ke = "ENTRIES",
       }),
       (r.prototype.maybeAutoVacuum = function () {
         if (this._options.autoVacuum !== !1) {
-          const e = this._options.autoVacuum,
+          var e = this._options.autoVacuum,
             t = e.minDirtFactor,
             o = e.minDirtCount,
             i = e.batchSize,
@@ -841,14 +841,14 @@ var ke = "ENTRIES",
         }
       }),
       (r.prototype.discardAll = function (e) {
-        let t,
+        var t,
           o,
           i = this._options.autoVacuum;
         try {
           this._options.autoVacuum = !1;
           try {
             for (var n = _(e), u = n.next(); !u.done; u = n.next()) {
-              const a = u.value;
+              var a = u.value;
               this.discard(a);
             }
           } catch (s) {
@@ -866,7 +866,7 @@ var ke = "ENTRIES",
         this.maybeAutoVacuum();
       }),
       (r.prototype.replace = function (e) {
-        const t = this._options,
+        var t = this._options,
           o = t.idField,
           i = t.extractField,
           n = i(e, o);
@@ -876,13 +876,13 @@ var ke = "ENTRIES",
         return (e === void 0 && (e = {}), this.conditionalVacuum(e));
       }),
       (r.prototype.conditionalVacuum = function (e, t) {
-        const o = this;
+        var o = this;
         return this._currentVacuum
           ? ((this._enqueuedVacuumConditions = this._enqueuedVacuumConditions && t),
             this._enqueuedVacuum != null
               ? this._enqueuedVacuum
               : ((this._enqueuedVacuum = this._currentVacuum.then(function () {
-                  const i = o._enqueuedVacuumConditions;
+                  var i = o._enqueuedVacuumConditions;
                   return ((o._enqueuedVacuumConditions = ue), o.performVacuuming(e, i));
                 })),
                 this._enqueuedVacuum))
@@ -892,7 +892,7 @@ var ke = "ENTRIES",
       }),
       (r.prototype.performVacuuming = function (e, t) {
         return ce(this, void 0, void 0, function () {
-          let o, i, n, u, a, s, l, c, h, d, f, y, m, v, F, w, g, E, A, M, x, S, C, z, D;
+          var o, i, n, u, a, s, l, c, h, d, f, y, m, v, F, w, g, E, A, M, x, S, C, z, D;
           return he(this, function (b) {
             switch (b.label) {
               case 0:
@@ -978,7 +978,7 @@ var ke = "ENTRIES",
       }),
       (r.prototype.vacuumConditionsMet = function (e) {
         if (e == null) return !0;
-        let t = e.minDirtCount,
+        var t = e.minDirtCount,
           o = e.minDirtFactor;
         return (
           (t = t || ae.minDirtCount),
@@ -1011,17 +1011,17 @@ var ke = "ENTRIES",
         return this._idToShortId.has(e);
       }),
       (r.prototype.getStoredFields = function (e) {
-        const t = this._idToShortId.get(e);
+        var t = this._idToShortId.get(e);
         if (t != null) return this._storedFields.get(t);
       }),
       (r.prototype.search = function (e, t) {
-        let o, i;
+        var o, i;
         t === void 0 && (t = {});
-        const n = this.executeQuery(e, t),
+        var n = this.executeQuery(e, t),
           u = [];
         try {
           for (var a = _(n), s = a.next(); !s.done; s = a.next()) {
-            const l = V(s.value, 2),
+            var l = V(s.value, 2),
               c = l[0],
               h = l[1],
               d = h.score,
@@ -1056,9 +1056,9 @@ var ke = "ENTRIES",
         );
       }),
       (r.prototype.autoSuggest = function (e, t) {
-        let o, i, n, u;
+        var o, i, n, u;
         (t === void 0 && (t = {}), (t = I(I({}, this._options.autoSuggestOptions), t)));
-        const a = new Map();
+        var a = new Map();
         try {
           for (var s = _(this.search(e, t)), l = s.next(); !l.done; l = s.next()) {
             var c = l.value,
@@ -1079,7 +1079,7 @@ var ke = "ENTRIES",
             if (o) throw o.error;
           }
         }
-        const m = [];
+        var m = [];
         try {
           for (var v = _(a), F = v.next(); !F.done; F = v.next()) {
             var w = V(F.value, 2),
@@ -1127,7 +1127,7 @@ var ke = "ENTRIES",
         throw new Error('MiniSearch: unknown option "'.concat(e, '"'));
       }),
       (r.loadJS = function (e, t) {
-        let o,
+        var o,
           i,
           n,
           u,
@@ -1147,7 +1147,7 @@ var ke = "ENTRIES",
           throw new Error(
             "MiniSearch: cannot deserialize an index created with an incompatible version"
           );
-        const g = new r(t);
+        var g = new r(t);
         ((g._documentCount = c),
           (g._nextId = h),
           (g._documentIds = Q(d)),
@@ -1160,7 +1160,7 @@ var ke = "ENTRIES",
           (g._index = new X()));
         try {
           for (var E = _(g._documentIds), A = E.next(); !A.done; A = E.next()) {
-            const M = V(A.value, 2),
+            var M = V(A.value, 2),
               x = M[0],
               S = M[1];
             g._idToShortId.set(S, x);
@@ -1176,13 +1176,13 @@ var ke = "ENTRIES",
         }
         try {
           for (var C = _(l), z = C.next(); !z.done; z = C.next()) {
-            const D = V(z.value, 2),
+            var D = V(z.value, 2),
               b = D[0],
               T = D[1],
               k = new Map();
             try {
               for (var q = ((a = void 0), _(Object.keys(T))), j = q.next(); !j.done; j = q.next()) {
-                let P = j.value,
+                var P = j.value,
                   R = T[P];
                 (w === 1 && (R = R.ds), k.set(parseInt(P, 10), Q(R)));
               }
@@ -1209,16 +1209,16 @@ var ke = "ENTRIES",
         return g;
       }),
       (r.prototype.executeQuery = function (e, t) {
-        const o = this;
+        var o = this;
         if ((t === void 0 && (t = {}), e === r.wildcard)) return this.executeWildcardQuery(t);
-        if (typeof e !== "string") {
-          const i = I(I(I({}, t), e), { queries: void 0 }),
+        if (typeof e != "string") {
+          var i = I(I(I({}, t), e), { queries: void 0 }),
             n = e.queries.map(function (v) {
               return o.executeQuery(v, i);
             });
           return this.combineResults(n, i.combineWith);
         }
-        const u = this._options,
+        var u = this._options,
           a = u.tokenize,
           s = u.processTerm,
           l = u.searchOptions,
@@ -1239,13 +1239,13 @@ var ke = "ENTRIES",
         return this.combineResults(m, c.combineWith);
       }),
       (r.prototype.executeQuerySpec = function (e, t) {
-        let o,
+        var o,
           i,
           n,
           u,
           a = I(I({}, this._options.searchOptions), t),
           s = (a.fields || this._options.fields).reduce(function (P, R) {
-            let B;
+            var B;
             return I(I({}, P), ((B = {}), (B[R] = ne(a.boost, R) || 1), B));
           }, {}),
           l = a.boostDocument,
@@ -1260,7 +1260,7 @@ var ke = "ENTRIES",
           w,
           g;
         if ((e.prefix && (w = this._index.atPrefix(e.term)), e.fuzzy)) {
-          const E = e.fuzzy === !0 ? 0.2 : e.fuzzy,
+          var E = e.fuzzy === !0 ? 0.2 : e.fuzzy,
             A = E < 1 ? Math.min(h, Math.round(e.term.length * E)) : E;
           A && (g = this._index.fuzzyGet(e.term, A));
         }
@@ -1310,13 +1310,13 @@ var ke = "ENTRIES",
         return F;
       }),
       (r.prototype.executeWildcardQuery = function (e) {
-        let t,
+        var t,
           o,
           i = new Map(),
           n = I(I({}, this._options.searchOptions), e);
         try {
           for (var u = _(this._documentIds), a = u.next(); !a.done; a = u.next()) {
-            const s = V(a.value, 2),
+            var s = V(a.value, 2),
               l = s[0],
               c = s[1],
               h = n.boostDocument ? n.boostDocument(c, "", this._storedFields.get(l)) : 1;
@@ -1335,24 +1335,24 @@ var ke = "ENTRIES",
       }),
       (r.prototype.combineResults = function (e, t) {
         if ((t === void 0 && (t = re), e.length === 0)) return new Map();
-        const o = t.toLowerCase();
+        var o = t.toLowerCase();
         return e.reduce(Ve[o]) || new Map();
       }),
       (r.prototype.toJSON = function () {
-        let e,
+        var e,
           t,
           o,
           i,
           n = [];
         try {
           for (var u = _(this._index), a = u.next(); !a.done; a = u.next()) {
-            const s = V(a.value, 2),
+            var s = V(a.value, 2),
               l = s[0],
               c = s[1],
               h = {};
             try {
               for (var d = ((o = void 0), _(c)), f = d.next(); !f.done; f = d.next()) {
-                const y = V(f.value, 2),
+                var y = V(f.value, 2),
                   m = y[0],
                   v = y[1];
                 h[m] = Object.fromEntries(v);
@@ -1391,34 +1391,34 @@ var ke = "ENTRIES",
         };
       }),
       (r.prototype.termResults = function (e, t, o, i, n, u, a, s) {
-        let l, c, h, d, f;
+        var l, c, h, d, f;
         if ((s === void 0 && (s = new Map()), i == null)) return s;
         try {
           for (var y = _(Object.keys(n)), m = y.next(); !m.done; m = y.next()) {
-            const v = m.value,
+            var v = m.value,
               F = n[v],
               w = this._fieldIds[v],
               g = i.get(w);
             if (g != null) {
-              let E = g.size,
+              var E = g.size,
                 A = this._avgFieldLength[w];
               try {
                 for (var M = ((h = void 0), _(g.keys())), x = M.next(); !x.done; x = M.next()) {
-                  const S = x.value;
+                  var S = x.value;
                   if (!this._documentIds.has(S)) {
                     (this.removeTerm(w, S, t), (E -= 1));
                     continue;
                   }
-                  const C = u ? u(this._documentIds.get(S), t, this._storedFields.get(S)) : 1;
+                  var C = u ? u(this._documentIds.get(S), t, this._storedFields.get(S)) : 1;
                   if (C) {
-                    const z = g.get(S),
+                    var z = g.get(S),
                       D = this._fieldLength.get(S)[w],
                       b = Le(z, E, this._documentCount, D, A, a),
                       T = o * F * C * b,
                       k = s.get(S);
                     if (k) {
                       ((k.score += T), Be(k.terms, e));
-                      const q = ne(k.match, t);
+                      var q = ne(k.match, t);
                       q ? q.push(v) : (k.match[t] = [v]);
                     } else s.set(S, { score: T, terms: [e], match: ((f = {}), (f[t] = [v]), f) });
                   }
@@ -1446,11 +1446,11 @@ var ke = "ENTRIES",
         return s;
       }),
       (r.prototype.addTerm = function (e, t, o) {
-        let i = this._index.fetch(o, we),
+        var i = this._index.fetch(o, we),
           n = i.get(e);
         if (n == null) ((n = new Map()), n.set(t, 1), i.set(e, n));
         else {
-          const u = n.get(t);
+          var u = n.get(t);
           n.set(t, (u || 0) + 1);
         }
       }),
@@ -1459,7 +1459,7 @@ var ke = "ENTRIES",
           this.warnDocumentChanged(t, e, o);
           return;
         }
-        const i = this._index.fetch(o, we),
+        var i = this._index.fetch(o, we),
           n = i.get(e);
         (n == null || n.get(t) == null
           ? this.warnDocumentChanged(t, e, o)
@@ -1471,10 +1471,10 @@ var ke = "ENTRIES",
           this._index.get(o).size === 0 && this._index.delete(o));
       }),
       (r.prototype.warnDocumentChanged = function (e, t, o) {
-        let i, n;
+        var i, n;
         try {
           for (var u = _(Object.keys(this._fieldIds)), a = u.next(); !a.done; a = u.next()) {
-            const s = a.value;
+            var s = a.value;
             if (this._fieldIds[s] === t) {
               this._options.logger(
                 "warn",
@@ -1498,7 +1498,7 @@ var ke = "ENTRIES",
         }
       }),
       (r.prototype.addDocumentId = function (e) {
-        const t = this._nextId;
+        var t = this._nextId;
         return (
           this._idToShortId.set(e, t),
           this._documentIds.set(t, e),
@@ -1508,12 +1508,12 @@ var ke = "ENTRIES",
         );
       }),
       (r.prototype.addFields = function (e) {
-        for (let t = 0; t < e.length; t++) this._fieldIds[e[t]] = t;
+        for (var t = 0; t < e.length; t++) this._fieldIds[e[t]] = t;
       }),
       (r.prototype.addFieldLength = function (e, t, o, i) {
-        let n = this._fieldLength.get(e);
+        var n = this._fieldLength.get(e);
         (n == null && this._fieldLength.set(e, (n = [])), (n[t] = i));
-        const u = this._avgFieldLength[t] || 0,
+        var u = this._avgFieldLength[t] || 0,
           a = u * o + i;
         this._avgFieldLength[t] = a / (o + 1);
       }),
@@ -1522,21 +1522,21 @@ var ke = "ENTRIES",
           this._avgFieldLength[t] = 0;
           return;
         }
-        const n = this._avgFieldLength[t] * o - i;
+        var n = this._avgFieldLength[t] * o - i;
         this._avgFieldLength[t] = n / (o - 1);
       }),
       (r.prototype.saveStoredFields = function (e, t) {
-        let o,
+        var o,
           i,
           n = this._options,
           u = n.storeFields,
           a = n.extractField;
         if (!(u == null || u.length === 0)) {
-          let s = this._storedFields.get(e);
+          var s = this._storedFields.get(e);
           s == null && this._storedFields.set(e, (s = {}));
           try {
             for (var l = _(u), c = l.next(); !c.done; c = l.next()) {
-              const h = c.value,
+              var h = c.value,
                 d = a(t, h);
               d !== void 0 && (s[h] = d);
             }
@@ -1561,14 +1561,14 @@ var ke = "ENTRIES",
   Ve =
     ((N = {}),
     (N[re] = function (r, e) {
-      let t, o;
+      var t, o;
       try {
         for (var i = _(e.keys()), n = i.next(); !n.done; n = i.next()) {
-          const u = n.value,
+          var u = n.value,
             a = r.get(u);
           if (a == null) r.set(u, e.get(u));
           else {
-            const s = e.get(u),
+            var s = e.get(u),
               l = s.score,
               c = s.terms,
               h = s.match;
@@ -1587,15 +1587,15 @@ var ke = "ENTRIES",
       return r;
     }),
     (N[me] = function (r, e) {
-      let t,
+      var t,
         o,
         i = new Map();
       try {
         for (var n = _(e.keys()), u = n.next(); !u.done; u = n.next()) {
-          const a = u.value,
+          var a = u.value,
             s = r.get(a);
           if (s != null) {
-            const l = e.get(a),
+            var l = e.get(a),
               c = l.score,
               h = l.terms,
               d = l.match;
@@ -1615,10 +1615,10 @@ var ke = "ENTRIES",
       return i;
     }),
     (N[Me] = function (r, e) {
-      let t, o;
+      var t, o;
       try {
         for (var i = _(e.keys()), n = i.next(); !n.done; n = i.next()) {
-          const u = n.value;
+          var u = n.value;
           r.delete(u);
         }
       } catch (a) {
@@ -1635,7 +1635,7 @@ var ke = "ENTRIES",
     N),
   Oe = { k: 1.2, b: 0.7, d: 0.5 },
   Le = p(function (r, e, t, o, i, n) {
-    const u = n.k,
+    var u = n.k,
       a = n.b,
       s = n.d,
       l = Math.log(1 + (t - e + 0.5) / (e + 0.5));
@@ -1643,8 +1643,8 @@ var ke = "ENTRIES",
   }, "calcBM25Score"),
   je = p(function (r) {
     return function (e, t, o) {
-      const i = typeof r.fuzzy === "function" ? r.fuzzy(e, t, o) : r.fuzzy || !1,
-        n = typeof r.prefix === "function" ? r.prefix(e, t, o) : r.prefix === !0;
+      var i = typeof r.fuzzy == "function" ? r.fuzzy(e, t, o) : r.fuzzy || !1,
+        n = typeof r.prefix == "function" ? r.prefix(e, t, o) : r.prefix === !0;
       return { term: e, fuzzy: i, prefix: n };
     };
   }, "termToQuerySpec"),
@@ -1663,7 +1663,7 @@ var ke = "ENTRIES",
     searchOptions: void 0,
     storeFields: [],
     logger: p(function (r, e) {
-      typeof console?.[r] === "function" && console[r](e);
+      typeof console?.[r] == "function" && console[r](e);
     }, "logger"),
     autoVacuum: !0,
   },
@@ -1689,10 +1689,10 @@ var ke = "ENTRIES",
     r.includes(e) || r.push(e);
   }, "assignUniqueTerm"),
   _e = p(function (r, e) {
-    let t, o;
+    var t, o;
     try {
       for (var i = _(e), n = i.next(); !n.done; n = i.next()) {
-        const u = n.value;
+        var u = n.value;
         r.includes(u) || r.push(u);
       }
     } catch (a) {
@@ -1706,7 +1706,7 @@ var ke = "ENTRIES",
     }
   }, "assignUniqueTerms"),
   Fe = p(function (r, e) {
-    const t = r.score,
+    var t = r.score,
       o = e.score;
     return o - t;
   }, "byScore"),
@@ -1714,12 +1714,12 @@ var ke = "ENTRIES",
     return new Map();
   }, "createMap"),
   Q = p(function (r) {
-    let e,
+    var e,
       t,
       o = new Map();
     try {
       for (var i = _(Object.keys(r)), n = i.next(); !n.done; n = i.next()) {
-        const u = n.value;
+        var u = n.value;
         o.set(parseInt(u, 10), r[u]);
       }
     } catch (a) {

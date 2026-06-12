@@ -1,8 +1,8 @@
-const ie = Object.defineProperty;
-const n = (e, t) => ie(e, "name", { value: t, configurable: !0 });
+var ie = Object.defineProperty;
+var n = (e, t) => ie(e, "name", { value: t, configurable: !0 });
 import { Inspector as j, Runtime as le } from "./runtime.js";
 import { Mutable as ce, Generators as $, FileAttachment as de, resize as ue } from "./stdlib.js";
-const pe = Object.defineProperty,
+var pe = Object.defineProperty,
   A = n((e, t) => pe(e, "name", { value: t, configurable: !0 }), "o$2");
 const B = document.createElement("template");
 ((B.innerHTML =
@@ -30,7 +30,7 @@ async function D({ currentTarget: e }) {
     }));
 }
 (n(D, "c$3"), A(D, "copy"));
-const me = Object.defineProperty,
+var me = Object.defineProperty,
   S = n((e, t) => me(e, "name", { value: t, configurable: !0 }), "s$2");
 const c = document.querySelector("#observablehq-sidebar-toggle");
 if (c) {
@@ -76,7 +76,7 @@ function I() {
 (n(I, "c$2"), S(I, "persistOpen"));
 for (const e of document.querySelectorAll("#observablehq-sidebar summary"))
   ((e.onmousedown = R), (e.parentElement.ontoggle = I));
-const fe = Object.defineProperty,
+var fe = Object.defineProperty,
   P = n((e, t) => fe(e, "name", { value: t, configurable: !0 }), "l$3");
 const x = document.querySelector("#observablehq-toc");
 if (x) {
@@ -117,7 +117,7 @@ if (x) {
     y = new IntersectionObserver(g, { rootMargin: "0px 0px -50% 0px" });
   for (const i of r) y.observe(i);
 }
-const he = Object.defineProperty,
+var he = Object.defineProperty,
   T = n((e, t) => he(e, "name", { value: t, configurable: !0 }), "r$1");
 function M(e, t) {
   const r = document.createElement("div");
@@ -135,7 +135,7 @@ function z(e) {
   return (new j(t).rejected(e), t.classList.add("observablehq--error"), t);
 }
 (n(z, "l$2"), T(z, "inspectError"));
-const be = Object.defineProperty,
+var be = Object.defineProperty,
   s = n((e, t) => be(e, "name", { value: t, configurable: !0 }), "o");
 const ve = s(() => import("../_npm/lodash@4.18.1/_esm.js").then((e) => e.default), "_"),
   ge = s(() => import("../_npm/arquero@8.0.3/_esm.js"), "aq"),
@@ -165,7 +165,7 @@ const ve = s(() => import("../_npm/lodash@4.18.1/_esm.js").then((e) => e.default
   Te = s(() => import("../_npm/topojson-client@3.1.0/_esm.js"), "topojson"),
   Me = s(() => import("./stdlib/vgplot.js").then((e) => e.default()), "vg"),
   ze = s(() => import("./stdlib/vega-lite.js").then((e) => e.default), "vl");
-const Qe = Object.freeze({
+var Qe = Object.freeze({
     __proto__: null,
     Arrow: ye,
     DuckDBClient: _e,
@@ -260,7 +260,7 @@ async function d(e, t) {
   return o.csvParse(r, t && o.autoType);
 }
 (n(d, "t$1"), l(d, "csv"));
-const ot = Object.freeze({
+var ot = Object.freeze({
     __proto__: null,
     aapl: Ve,
     alphabet: Fe,
@@ -311,7 +311,7 @@ function F(e) {
       (E.define(
         o.filter((u) => u !== "display" && u !== "view"),
         () => {
-          const u = p._version;
+          let u = p._version;
           return (_) => {
             if (u < b) throw new Error("stale display");
             return (u > b && L(i), (b = u), ae(i, _), _);
@@ -367,7 +367,7 @@ function v(e, t) {
 (n(v, "a"), a(v, "displayNode"));
 function Z(e, t) {
   if (C(t)) v(e, t);
-  else if (typeof t === "string" || !t?.[Symbol.iterator]) v(e, document.createTextNode(t));
+  else if (typeof t == "string" || !t?.[Symbol.iterator]) v(e, document.createTextNode(t));
   else for (const r of t) v(e, C(r) ? r : document.createTextNode(r));
 }
 (n(Z, "J"), a(Z, "displayInline"));
