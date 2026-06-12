@@ -13,6 +13,7 @@
 | 7    | ✅     | 2026-06-12   | Derived loaders (standings, scorers)   |
 | 8    | ✅     | 2026-06-12   | Heatmap + power rankings charts        |
 | 9    | ✅     | 2026-06-12   | Standings tables + scorers leaderboard |
+| —    | ✅     | 2026-06-12   | Refactor: Data hierarchy restructuring |
 
 ---
 
@@ -126,3 +127,17 @@ _Entries appended after each completed task._
   - ✅ Top scorers leaderboard displays ≥15 scorers (exceeds ≥10 requirement)
   - ✅ Leaderboard shows player, team, goals, assists columns with correct values
   - ✅ Both tables render with real match and player data
+
+### Data Hierarchy Restructuring — match-scoped data consolidation
+
+- **Completed:** 2026-06-12 20:15
+- **Files changed:** `scripts/scrape.js`, `src/data/top-scorers.json.js`, `src/data/power-ranking-players.json.js`, `src/data/match-[id].json.js`, all `scraped-data/` match files
+- **What was done:** Reorganized scraped-data from flat directory layout (timelines/, player-stats/, etc.) to hierarchical structure where all match-related data is co-located under `scraped-data/matches/{id}/`. Updated scraper to write to new nested paths, migrated all existing match data files, and updated all data loaders to read from new structure. Cleaned up old flat directories after successful migration.
+- **Verification:** `npm run build` succeeds without error, `npx vitest run` passes all data tests, Playwright test confirms dashboard renders correctly with new structure, all linting and formatting passes
+- **Acceptance criteria met:**
+  - ✅ Scraper writes to `scraped-data/matches/{id}/{timeline,player-stats,power-ranking,match-stats,team-stats}.json`
+  - ✅ All data loaders read from new nested paths
+  - ✅ Existing data successfully migrated to new structure
+  - ✅ Old flat directory structure cleaned up
+  - ✅ Dashboard renders correctly with no missing data
+  - ✅ All tests pass with deduplication regression test included
