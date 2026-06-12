@@ -2,10 +2,11 @@
 
 ## Summary
 
-| Task | Status | Completed At | Notes                  |
-| ---- | ------ | ------------ | ---------------------- |
-| 1    | ✅     | 2026-06-12   | Scaffold project       |
-| 2    | ✅     | 2026-06-12   | Scraper — matches list |
+| Task | Status | Completed At | Notes                                  |
+| ---- | ------ | ------------ | -------------------------------------- |
+| 1    | ✅     | 2026-06-12   | Scaffold project                       |
+| 2    | ✅     | 2026-06-12   | Scraper — matches list                 |
+| 3    | ✅     | 2026-06-12   | Matches data loader + schedule chart   |
 
 ---
 
@@ -36,3 +37,14 @@ _Entries appended after each completed task._
   - ✅ Each match entry preserves `IdMatch`, `Properties.IdIFES`, team names, scores, date, group/stage
   - ✅ File overwrites on subsequent runs
   - ✅ HTTP errors logged and handled gracefully
+
+### Task 3 — Matches data loader + schedule chart
+
+- **Completed:** 2026-06-12 17:15
+- **Files changed:** `src/data/matches.json.js`, `src/components/schedule-chart.js`, `src/index.md`, `eslint.config.js`, `package.json`
+- **What was done:** Created Observable data loader that reads normalized match data from `scraped-data/matches.json`. Built schedule visualization using Observable Plot showing matches grouped by date with scores. Updated main dashboard to display the chart with tournament stats.
+- **Verification:** `npm run build` succeeds with no errors, dashboard renders with schedule chart showing all 104 matches
+- **Acceptance criteria met:**
+  - ✅ `npm run build` succeeds
+  - ✅ Loader outputs valid JSON array with id, propertyId, homeTeam, awayTeam, date, stage, group, scores
+  - ✅ `src/index.md` renders a match schedule chart with real match data
