@@ -67,19 +67,13 @@ function saveManifest(manifest) {
 }
 
 function getMatchesToScrape(matches, manifest) {
-  const now = new Date();
+  if (FORCE) return matches.filter((m) => m.propertyId);
 
   return matches.filter((match) => {
-    const matchDate = new Date(match.date);
-
-    if (FORCE) return match.propertyId;
-
     if (!match.propertyId) return false;
-
-    const alreadyScrapped = manifest.scrapedMatches[match.id];
-    if (alreadyScrapped) return false;
-
-    return matchDate <= now;
+    if (manifest.scrapedMatches[match.id]) return false;
+    // Only scrape matches that have a final score (i.e. finished)
+    return match.homeScore !== null && match.awayScore !== null;
   });
 }
 
@@ -299,6 +293,37 @@ async function fetchPlayerStats(matches) {
   console.log(`✓ Fetched ${fetched} player statistics (skipped ${skipped} existing)`);
 }
 
+async function fetchLiveMatchData(matches) {
+  console.log("\nFetching live match data (player rosters)...");
+  let fetched = 0;
+  let skipped = 0;
+
+  for (const match of matches) {
+    const matchDir = path.join(DATA_DIR, "matches", String(match.id));
+    await ensureDir(matchDir);
+    const filepath = path.join(matchDir, "live.json");
+    if (!shouldFetch(filepath)) {
+      skipped++;
+      continue;
+    }
+
+    const url = `${BASE_URL}/live/football/${match.id}?language=en`;
+
+    try {
+      const data = await fetchJson(url);
+      if (data) {
+        fs.writeFileSync(filepath, JSON.stringify(data, null, 2));
+        fetched++;
+      }
+      await sleep(PER_MATCH_RATE_LIMIT_MS);
+    } catch (error) {
+      console.warn(`Error processing live data for ${match.id}: ${error.message}`);
+    }
+  }
+
+  console.log(`✓ Fetched ${fetched} live match records (skipped ${skipped} existing)`);
+}
+
 async function fetchPowerRanking(matches) {
   console.log("\nFetching power rankings...");
   let fetched = 0;
@@ -356,6 +381,7 @@ async function main() {
     await fetchTeamStats(toScrape);
     await fetchPlayerStats(toScrape);
     await fetchPowerRanking(toScrape);
+    await fetchLiveMatchData(toScrape);
 
     toScrape.forEach((m) => {
       manifest.scrapedMatches[m.id] = true;

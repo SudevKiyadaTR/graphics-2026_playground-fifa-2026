@@ -1,0 +1,199 @@
+{
+  "IdMatch": "400021472",
+  "IdStage": "289273",
+  "IdGroup": "289280",
+  "IdSeason": "285023",
+  "CoverageLevel": null,
+  "IdCompetition": "17",
+  "CompetitionName": [
+    {
+      "Locale": "en-GB",
+      "Description": "FIFA World Cup™"
+    }
+  ],
+  "SeasonName": [
+    {
+      "Locale": "en-GB",
+      "Description": "FIFA World Cup 2026™"
+    }
+  ],
+  "SeasonShortName": [],
+  "Stadium": {
+    "IdStadium": "400249385",
+    "Name": [
+      {
+        "Locale": "en-GB",
+        "Description": "Houston Stadium"
+      }
+    ],
+    "Capacity": null,
+    "WebAddress": null,
+    "Built": null,
+    "Roof": false,
+    "Turf": null,
+    "IdCity": "400249343",
+    "CityName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Houston"
+      }
+    ],
+    "IdCountry": "USA",
+    "PostalCode": null,
+    "Street": null,
+    "Email": null,
+    "Fax": null,
+    "Phone": null,
+    "AffiliationCountry": null,
+    "AffiliationRegion": null,
+    "Latitude": null,
+    "Longitude": null,
+    "Length": null,
+    "Width": null,
+    "Properties": {
+      "IdIFES": "5006825"
+    },
+    "IsUpdateable": null
+  },
+  "ResultType": 0,
+  "MatchDay": null,
+  "MatchNumber": 35,
+  "HomeTeamPenaltyScore": null,
+  "AwayTeamPenaltyScore": null,
+  "AggregateHomeTeamScore": null,
+  "AggregateAwayTeamScore": null,
+  "Weather": {
+    "Humidity": null,
+    "Temperature": null,
+    "WindSpeed": null,
+    "Type": null,
+    "TypeLocalized": []
+  },
+  "Attendance": null,
+  "Date": "2026-06-20T17:00:00Z",
+  "LocalDate": "2026-06-20T12:00:00Z",
+  "MatchTime": "0'",
+  "SecondHalfTime": null,
+  "FirstHalfTime": null,
+  "FirstHalfExtraTime": null,
+  "SecondHalfExtraTime": null,
+  "Winner": null,
+  "Period": 0,
+  "HomeTeam": {
+    "Score": null,
+    "Side": null,
+    "IdTeam": "43960",
+    "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+    "IdCountry": "NED",
+    "TeamType": 1,
+    "AgeType": 7,
+    "Tactics": null,
+    "TeamName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Netherlands"
+      }
+    ],
+    "Abbreviation": "NED",
+    "Coaches": [
+      {
+        "IdCoach": "174671",
+        "IdCountry": "NED",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/967ef7df-1538-4d8a-b3b7-d050c0d0a565/KOEMAN-Ronald_174671",
+        "Name": [
+          {
+            "Locale": "en-gb",
+            "Description": "Ronald Koeman"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-gb",
+            "Description": "R. Koeman"
+          }
+        ],
+        "Role": 0,
+        "SpecialStatus": null
+      }
+    ],
+    "Players": [],
+    "Bookings": [],
+    "Goals": [],
+    "Substitutions": [],
+    "Staffs": [],
+    "FootballType": 0,
+    "Gender": 1,
+    "IdAssociation": "NED",
+    "ShortClubName": "Netherlands"
+  },
+  "AwayTeam": {
+    "Score": null,
+    "Side": null,
+    "IdTeam": "43970",
+    "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+    "IdCountry": "SWE",
+    "TeamType": 1,
+    "AgeType": 7,
+    "Tactics": null,
+    "TeamName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Sweden"
+      }
+    ],
+    "Abbreviation": "SWE",
+    "Coaches": [
+      {
+        "IdCoach": "277650",
+        "IdCountry": "ENG",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/d1a2b34e-b091-483b-a7fc-22ce9e0cf6e2/POTTER-Graham_277650",
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Graham POTTER"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Graham POTTER"
+          }
+        ],
+        "Role": 0,
+        "SpecialStatus": null
+      }
+    ],
+    "Players": [],
+    "Bookings": [],
+    "Goals": [],
+    "Substitutions": [],
+    "Staffs": [],
+    "FootballType": 0,
+    "Gender": 1,
+    "IdAssociation": "SWE",
+    "ShortClubName": "Sweden"
+  },
+  "BallPossession": null,
+  "TerritorialPossesion": null,
+  "TerritorialThirdPossesion": null,
+  "Officials": [],
+  "MatchStatus": 1,
+  "GroupName": [
+    {
+      "Locale": "en-GB",
+      "Description": "Group F"
+    }
+  ],
+  "StageName": [
+    {
+      "Locale": "en-GB",
+      "Description": "First Stage"
+    }
+  ],
+  "OfficialityStatus": 0,
+  "TimeDefined": true,
+  "Properties": {
+    "IdIFES": "151640"
+  },
+  "IsUpdateable": null
+}

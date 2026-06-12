@@ -1,0 +1,199 @@
+{
+  "IdMatch": "400021488",
+  "IdStage": "289273",
+  "IdGroup": "289283",
+  "IdSeason": "285023",
+  "CoverageLevel": null,
+  "IdCompetition": "17",
+  "CompetitionName": [
+    {
+      "Locale": "en-GB",
+      "Description": "FIFA World Cup™"
+    }
+  ],
+  "SeasonName": [
+    {
+      "Locale": "en-GB",
+      "Description": "FIFA World Cup 2026™"
+    }
+  ],
+  "SeasonShortName": [],
+  "Stadium": {
+    "IdStadium": "400248623",
+    "Name": [
+      {
+        "Locale": "en-GB",
+        "Description": "Boston Stadium"
+      }
+    ],
+    "Capacity": null,
+    "WebAddress": null,
+    "Built": null,
+    "Roof": false,
+    "Turf": null,
+    "IdCity": "400221953",
+    "CityName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Boston"
+      }
+    ],
+    "IdCountry": "USA",
+    "PostalCode": null,
+    "Street": null,
+    "Email": null,
+    "Fax": null,
+    "Phone": null,
+    "AffiliationCountry": null,
+    "AffiliationRegion": null,
+    "Latitude": null,
+    "Longitude": null,
+    "Length": null,
+    "Width": null,
+    "Properties": {
+      "IdIFES": "5007073"
+    },
+    "IsUpdateable": null
+  },
+  "ResultType": 0,
+  "MatchDay": null,
+  "MatchNumber": 18,
+  "HomeTeamPenaltyScore": null,
+  "AwayTeamPenaltyScore": null,
+  "AggregateHomeTeamScore": null,
+  "AggregateAwayTeamScore": null,
+  "Weather": {
+    "Humidity": null,
+    "Temperature": null,
+    "WindSpeed": null,
+    "Type": null,
+    "TypeLocalized": []
+  },
+  "Attendance": null,
+  "Date": "2026-06-16T22:00:00Z",
+  "LocalDate": "2026-06-16T18:00:00Z",
+  "MatchTime": "0'",
+  "SecondHalfTime": null,
+  "FirstHalfTime": null,
+  "FirstHalfExtraTime": null,
+  "SecondHalfExtraTime": null,
+  "Winner": null,
+  "Period": 0,
+  "HomeTeam": {
+    "Score": null,
+    "Side": null,
+    "IdTeam": "43818",
+    "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/IRQ",
+    "IdCountry": "IRQ",
+    "TeamType": 1,
+    "AgeType": 7,
+    "Tactics": null,
+    "TeamName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Iraq"
+      }
+    ],
+    "Abbreviation": "IRQ",
+    "Coaches": [
+      {
+        "IdCoach": "175731",
+        "IdCountry": "AUS",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Graham James Arnold"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-gb",
+            "Description": "G. Arnold"
+          }
+        ],
+        "Role": 0,
+        "SpecialStatus": null
+      }
+    ],
+    "Players": [],
+    "Bookings": [],
+    "Goals": [],
+    "Substitutions": [],
+    "Staffs": [],
+    "FootballType": 0,
+    "Gender": 1,
+    "IdAssociation": "IRQ",
+    "ShortClubName": "Iraq"
+  },
+  "AwayTeam": {
+    "Score": null,
+    "Side": null,
+    "IdTeam": "43961",
+    "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+    "IdCountry": "NOR",
+    "TeamType": 1,
+    "AgeType": 7,
+    "Tactics": null,
+    "TeamName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Norway"
+      }
+    ],
+    "Abbreviation": "NOR",
+    "Coaches": [
+      {
+        "IdCoach": "157000",
+        "IdCountry": "NOR",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/8d00c35f-86f6-42e8-9b11-74b94609fd11/SOLBAKKEN-Stale_157000",
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Ståle Solbakken"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-gb",
+            "Description": "S. Solbakken"
+          }
+        ],
+        "Role": 0,
+        "SpecialStatus": null
+      }
+    ],
+    "Players": [],
+    "Bookings": [],
+    "Goals": [],
+    "Substitutions": [],
+    "Staffs": [],
+    "FootballType": 0,
+    "Gender": 1,
+    "IdAssociation": "NOR",
+    "ShortClubName": "Norway"
+  },
+  "BallPossession": null,
+  "TerritorialPossesion": null,
+  "TerritorialThirdPossesion": null,
+  "Officials": [],
+  "MatchStatus": 1,
+  "GroupName": [
+    {
+      "Locale": "en-GB",
+      "Description": "Group I"
+    }
+  ],
+  "StageName": [
+    {
+      "Locale": "en-GB",
+      "Description": "First Stage"
+    }
+  ],
+  "OfficialityStatus": 0,
+  "TimeDefined": true,
+  "Properties": {
+    "IdIFES": "151655"
+  },
+  "IsUpdateable": null
+}

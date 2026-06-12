@@ -1,0 +1,199 @@
+{
+  "IdMatch": "400021494",
+  "IdStage": "289273",
+  "IdGroup": "289284",
+  "IdSeason": "285023",
+  "CoverageLevel": null,
+  "IdCompetition": "17",
+  "CompetitionName": [
+    {
+      "Locale": "en-GB",
+      "Description": "FIFA World Cup™"
+    }
+  ],
+  "SeasonName": [
+    {
+      "Locale": "en-GB",
+      "Description": "FIFA World Cup 2026™"
+    }
+  ],
+  "SeasonShortName": [],
+  "Stadium": {
+    "IdStadium": "400257526",
+    "Name": [
+      {
+        "Locale": "en-GB",
+        "Description": "Dallas Stadium"
+      }
+    ],
+    "Capacity": null,
+    "WebAddress": null,
+    "Built": null,
+    "Roof": false,
+    "Turf": null,
+    "IdCity": "400221951",
+    "CityName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Dallas"
+      }
+    ],
+    "IdCountry": "USA",
+    "PostalCode": null,
+    "Street": null,
+    "Email": null,
+    "Fax": null,
+    "Phone": null,
+    "AffiliationCountry": null,
+    "AffiliationRegion": null,
+    "Latitude": null,
+    "Longitude": null,
+    "Length": null,
+    "Width": null,
+    "Properties": {
+      "IdIFES": "5020989"
+    },
+    "IsUpdateable": null
+  },
+  "ResultType": 0,
+  "MatchDay": null,
+  "MatchNumber": 43,
+  "HomeTeamPenaltyScore": null,
+  "AwayTeamPenaltyScore": null,
+  "AggregateHomeTeamScore": null,
+  "AggregateAwayTeamScore": null,
+  "Weather": {
+    "Humidity": null,
+    "Temperature": null,
+    "WindSpeed": null,
+    "Type": null,
+    "TypeLocalized": []
+  },
+  "Attendance": null,
+  "Date": "2026-06-22T17:00:00Z",
+  "LocalDate": "2026-06-22T12:00:00Z",
+  "MatchTime": "0'",
+  "SecondHalfTime": null,
+  "FirstHalfTime": null,
+  "FirstHalfExtraTime": null,
+  "SecondHalfExtraTime": null,
+  "Winner": null,
+  "Period": 0,
+  "HomeTeam": {
+    "Score": null,
+    "Side": null,
+    "IdTeam": "43922",
+    "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+    "IdCountry": "ARG",
+    "TeamType": 1,
+    "AgeType": 7,
+    "Tactics": null,
+    "TeamName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Argentina"
+      }
+    ],
+    "Abbreviation": "ARG",
+    "Coaches": [
+      {
+        "IdCoach": "183380",
+        "IdCountry": "ARG",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Lionel SCALONI"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-gb",
+            "Description": "L. Scaloni"
+          }
+        ],
+        "Role": 0,
+        "SpecialStatus": null
+      }
+    ],
+    "Players": [],
+    "Bookings": [],
+    "Goals": [],
+    "Substitutions": [],
+    "Staffs": [],
+    "FootballType": 0,
+    "Gender": 1,
+    "IdAssociation": "ARG",
+    "ShortClubName": "Argentina"
+  },
+  "AwayTeam": {
+    "Score": null,
+    "Side": null,
+    "IdTeam": "43934",
+    "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUT",
+    "IdCountry": "AUT",
+    "TeamType": 1,
+    "AgeType": 7,
+    "Tactics": null,
+    "TeamName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Austria"
+      }
+    ],
+    "Abbreviation": "AUT",
+    "Coaches": [
+      {
+        "IdCoach": "442093",
+        "IdCountry": "GER",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/329483e5-377d-49b4-a583-4ab882c7de2c/RANGNICK-Ralf_442093",
+        "Name": [
+          {
+            "Locale": "en-gb",
+            "Description": "Ralf Rangnick"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-gb",
+            "Description": "R. Rangnick"
+          }
+        ],
+        "Role": 0,
+        "SpecialStatus": null
+      }
+    ],
+    "Players": [],
+    "Bookings": [],
+    "Goals": [],
+    "Substitutions": [],
+    "Staffs": [],
+    "FootballType": 0,
+    "Gender": 1,
+    "IdAssociation": "AUT",
+    "ShortClubName": "Austria"
+  },
+  "BallPossession": null,
+  "TerritorialPossesion": null,
+  "TerritorialThirdPossesion": null,
+  "Officials": [],
+  "MatchStatus": 1,
+  "GroupName": [
+    {
+      "Locale": "en-GB",
+      "Description": "Group J"
+    }
+  ],
+  "StageName": [
+    {
+      "Locale": "en-GB",
+      "Description": "First Stage"
+    }
+  ],
+  "OfficialityStatus": 0,
+  "TimeDefined": true,
+  "Properties": {
+    "IdIFES": "151664"
+  },
+  "IsUpdateable": null
+}

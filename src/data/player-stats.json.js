@@ -10,45 +10,31 @@ function getStatValue(stats, statName) {
   return stat ? stat[1] : 0;
 }
 
-function getLocalizedDescription(entries) {
+function getLocalizedName(entries) {
+  // Handles both uppercase (live.json) and lowercase (power-ranking.json) key conventions
   return (
-    entries?.find((entry) => entry.locale === "en-GB")?.description || entries?.[0]?.description
+    entries?.find((e) => e.Locale === "en-GB")?.Description ||
+    entries?.find((e) => e.locale === "en-GB")?.description ||
+    entries?.[0]?.Description ||
+    entries?.[0]?.description
   );
 }
 
-function getPlayerTeamFromPowerRanking(powerRankingData, playerId) {
-  if (!powerRankingData || !powerRankingData.outfieldPlayers) {
-    return null;
+function getPlayerTeamFromLive(liveData, playerId) {
+  if (!liveData) return null;
+  for (const side of ["HomeTeam", "AwayTeam"]) {
+    const team = liveData[side];
+    if (!team) continue;
+    const found = (team.Players || []).find((p) => String(p.IdPlayer) === String(playerId));
+    if (found) return getLocalizedName(team.TeamName) || null;
   }
-
-  const player = powerRankingData.outfieldPlayers.find((p) => p.playerId === Number(playerId));
-  if (player) {
-    return getLocalizedDescription(player.teamName) || "Unknown";
-  }
-
   return null;
 }
 
-function getPlayerTeamFromTimeline(timelineData, playerId) {
-  if (!timelineData) return null;
-
-  const events = Array.isArray(timelineData) ? timelineData : timelineData.Event || [];
-
-  for (const event of events) {
-    if (String(event.IdPlayer) === String(playerId)) {
-      const description = event.EventDescription?.find(
-        (entry) => entry.Locale === "en-GB"
-      )?.Description;
-      if (description) {
-        const match = description.match(/^.+? \((.+?)\)/);
-        if (match) {
-          return match[1].trim();
-        }
-      }
-    }
-  }
-
-  return null;
+function getPlayerTeamFromPowerRanking(powerRankingData, playerId) {
+  if (!powerRankingData || !powerRankingData.outfieldPlayers) return null;
+  const player = powerRankingData.outfieldPlayers.find((p) => p.playerId === Number(playerId));
+  return player ? getLocalizedName(player.teamName) || null : null;
 }
 
 export default function () {
@@ -67,29 +53,25 @@ export default function () {
       continue;
     }
 
+    let liveData = null;
+    const liveFile = path.join(matchDir, "live.json");
+    if (fs.existsSync(liveFile)) {
+      liveData = JSON.parse(fs.readFileSync(liveFile, "utf-8"));
+    }
+
     let powerRankingData = null;
     const powerRankingFile = path.join(matchDir, "power-ranking.json");
     if (fs.existsSync(powerRankingFile)) {
       powerRankingData = JSON.parse(fs.readFileSync(powerRankingFile, "utf-8"));
     }
 
-    let timelineData = null;
-    const timelineFile = path.join(matchDir, "timeline.json");
-    if (fs.existsSync(timelineFile)) {
-      timelineData = JSON.parse(fs.readFileSync(timelineFile, "utf-8"));
-    }
-
     try {
       const allPlayerStats = JSON.parse(fs.readFileSync(statsFile, "utf-8"));
 
       for (const [playerId, stats] of Object.entries(allPlayerStats)) {
-        let team = getPlayerTeamFromPowerRanking(powerRankingData, playerId);
-        if (!team) {
-          team = getPlayerTeamFromTimeline(timelineData, playerId);
-        }
-        if (!team) {
-          team = "Unknown";
-        }
+        let team = getPlayerTeamFromLive(liveData, playerId);
+        if (!team) team = getPlayerTeamFromPowerRanking(powerRankingData, playerId);
+        if (!team) team = "Unknown";
 
         if (!playerData[playerId]) {
           playerData[playerId] = {

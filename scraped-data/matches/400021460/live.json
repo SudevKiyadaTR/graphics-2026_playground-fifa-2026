@@ -1,0 +1,199 @@
+{
+  "IdMatch": "400021460",
+  "IdStage": "289273",
+  "IdGroup": "289278",
+  "IdSeason": "285023",
+  "CoverageLevel": null,
+  "IdCompetition": "17",
+  "CompetitionName": [
+    {
+      "Locale": "en-GB",
+      "Description": "FIFA World Cup™"
+    }
+  ],
+  "SeasonName": [
+    {
+      "Locale": "en-GB",
+      "Description": "FIFA World Cup 2026™"
+    }
+  ],
+  "SeasonShortName": [],
+  "Stadium": {
+    "IdStadium": "400257521",
+    "Name": [
+      {
+        "Locale": "en-GB",
+        "Description": "San Francisco Bay Area Stadium"
+      }
+    ],
+    "Capacity": null,
+    "WebAddress": null,
+    "Built": null,
+    "Roof": false,
+    "Turf": null,
+    "IdCity": "400019416",
+    "CityName": [
+      {
+        "Locale": "en-GB",
+        "Description": "San Francisco Bay Area"
+      }
+    ],
+    "IdCountry": "USA",
+    "PostalCode": null,
+    "Street": null,
+    "Email": null,
+    "Fax": null,
+    "Phone": null,
+    "AffiliationCountry": null,
+    "AffiliationRegion": null,
+    "Latitude": null,
+    "Longitude": null,
+    "Length": null,
+    "Width": null,
+    "Properties": {
+      "IdIFES": "5030398"
+    },
+    "IsUpdateable": null
+  },
+  "ResultType": 0,
+  "MatchDay": null,
+  "MatchNumber": 31,
+  "HomeTeamPenaltyScore": null,
+  "AwayTeamPenaltyScore": null,
+  "AggregateHomeTeamScore": null,
+  "AggregateAwayTeamScore": null,
+  "Weather": {
+    "Humidity": null,
+    "Temperature": null,
+    "WindSpeed": null,
+    "Type": null,
+    "TypeLocalized": []
+  },
+  "Attendance": null,
+  "Date": "2026-06-20T03:00:00Z",
+  "LocalDate": "2026-06-19T20:00:00Z",
+  "MatchTime": "0'",
+  "SecondHalfTime": null,
+  "FirstHalfTime": null,
+  "FirstHalfExtraTime": null,
+  "SecondHalfExtraTime": null,
+  "Winner": null,
+  "Period": 0,
+  "HomeTeam": {
+    "Score": null,
+    "Side": null,
+    "IdTeam": "43972",
+    "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+    "IdCountry": "TUR",
+    "TeamType": 1,
+    "AgeType": 7,
+    "Tactics": null,
+    "TeamName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Türkiye"
+      }
+    ],
+    "Abbreviation": "TUR",
+    "Coaches": [
+      {
+        "IdCoach": "177662",
+        "IdCountry": "ITA",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/25576415-86bd-489a-83d1-bf1b9d5fb43f/MONTELLA-Vincenzo_177662",
+        "Name": [
+          {
+            "Locale": "en-gb",
+            "Description": "Vincenzo Montella"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-gb",
+            "Description": "V. Montella"
+          }
+        ],
+        "Role": 0,
+        "SpecialStatus": null
+      }
+    ],
+    "Players": [],
+    "Bookings": [],
+    "Goals": [],
+    "Substitutions": [],
+    "Staffs": [],
+    "FootballType": 0,
+    "Gender": 1,
+    "IdAssociation": "TUR",
+    "ShortClubName": "Türkiye"
+  },
+  "AwayTeam": {
+    "Score": null,
+    "Side": null,
+    "IdTeam": "43928",
+    "PictureUrl": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAR",
+    "IdCountry": "PAR",
+    "TeamType": 1,
+    "AgeType": 7,
+    "Tactics": null,
+    "TeamName": [
+      {
+        "Locale": "en-GB",
+        "Description": "Paraguay"
+      }
+    ],
+    "Abbreviation": "PAR",
+    "Coaches": [
+      {
+        "IdCoach": "428890",
+        "IdCountry": "ARG",
+        "PictureUrl": "https://digitalhub.fifa.com/transform/381ae0a7-c8c8-4d29-b437-c26dca406898/ALFARO-Gustavo_428890",
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Gustavo ALFARO"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-gb",
+            "Description": "G. Alfaro"
+          }
+        ],
+        "Role": 0,
+        "SpecialStatus": null
+      }
+    ],
+    "Players": [],
+    "Bookings": [],
+    "Goals": [],
+    "Substitutions": [],
+    "Staffs": [],
+    "FootballType": 0,
+    "Gender": 1,
+    "IdAssociation": "PAR",
+    "ShortClubName": "Paraguay"
+  },
+  "BallPossession": null,
+  "TerritorialPossesion": null,
+  "TerritorialThirdPossesion": null,
+  "Officials": [],
+  "MatchStatus": 1,
+  "GroupName": [
+    {
+      "Locale": "en-GB",
+      "Description": "Group D"
+    }
+  ],
+  "StageName": [
+    {
+      "Locale": "en-GB",
+      "Description": "First Stage"
+    }
+  ],
+  "OfficialityStatus": 0,
+  "TimeDefined": true,
+  "Properties": {
+    "IdIFES": "151628"
+  },
+  "IsUpdateable": null
+}
