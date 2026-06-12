@@ -1,59 +1,44 @@
-import * as Plot from "@observablehq/plot";
-
 export function scheduleChart(matches) {
-  const data = matches
-    .map((m, i) => ({
-      index: i + 1,
-      date: new Date(m.date),
-      homeTeam: m.homeTeam,
-      awayTeam: m.awayTeam,
-      score:
-        m.homeScore !== null ? `${m.homeScore}-${m.awayScore}` : "TBD",
-      played: m.homeScore !== null,
-    }))
-    .sort((a, b) => a.date - b.date);
+  const sorted = [...matches]
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
 
-  return Plot.plot({
-    style: {
-      background: "transparent",
-      color: "var(--text-primary)",
-    },
-    width: 1000,
-    height: 600,
-    marginLeft: 80,
-    marginBottom: 40,
-    marginTop: 20,
-    marginRight: 20,
-    marks: [
-      Plot.text(data, {
-        x: (d) => d.index,
-        y: (d) => d.date,
-        text: (d) => d.score,
-        fontSize: 12,
-        fontWeight: "bold",
-        fill: (d) =>
-          d.played ? "var(--positive)" : "var(--series-3)",
-      }),
-      Plot.text(data, {
-        x: (d) => d.index,
-        y: (d) => d.date,
-        text: (d) =>
-          `${d.homeTeam.substring(0, 3).toUpperCase()} vs ${d.awayTeam
-            .substring(0, 3)
-            .toUpperCase()}`,
-        fontSize: 9,
-        fill: "var(--text-secondary)",
-        dy: 12,
-      }),
-      Plot.axisX({
-        label: "Match #",
-        tickSize: 4,
-        labelOffset: 30,
-      }),
-      Plot.axisY({
-        label: "Date",
-        tickSize: 4,
-      }),
-    ],
-  });
+  const html = `
+    <table style="width: 100%; border-collapse: collapse; font-family: Inter, sans-serif; font-size: 13px;">
+      <thead>
+        <tr style="border-bottom: 1px solid var(--border); color: var(--text-muted); text-align: left;">
+          <th style="padding: 8px; font-weight: 500; text-transform: uppercase;">Date</th>
+          <th style="padding: 8px; font-weight: 500; text-transform: uppercase;">Match</th>
+          <th style="padding: 8px; font-weight: 500; text-transform: uppercase;">Score</th>
+          <th style="padding: 8px; font-weight: 500; text-transform: uppercase;">Stage</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${sorted
+          .map(
+            (m) => `
+          <tr style="border-bottom: 1px solid var(--border-subtle); hover: background var(--bg-raised);">
+            <td style="padding: 8px; color: var(--text-secondary);">
+              ${new Date(m.date).toLocaleDateString("en-US", {
+                month: "short",
+                day: "numeric",
+              })}
+            </td>
+            <td style="padding: 8px; color: var(--text-primary);">
+              ${m.homeTeam} vs ${m.awayTeam}
+            </td>
+            <td style="padding: 8px; color: ${m.homeScore !== null ? "var(--positive)" : "var(--series-3)"}; font-weight: 600;">
+              ${m.homeScore !== null ? `${m.homeScore}-${m.awayScore}` : "TBD"}
+            </td>
+            <td style="padding: 8px; color: var(--text-secondary);">
+              ${m.stage}
+            </td>
+          </tr>
+        `
+          )
+          .join("")}
+      </tbody>
+    </table>
+  `;
+
+  return html;
 }
