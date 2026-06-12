@@ -8,16 +8,16 @@ Build a self-updating FIFA 2026 tournament dashboard using Observable Framework.
 
 ## Architecture Decisions
 
-| Decision | Choice | Rationale |
-|---|---|---|
-| Scraper is standalone | `scripts/scrape.js` (pure Node.js, no framework) | Runs independently of dashboard build; simpler to schedule |
-| Data lives in `scraped-data/` | Flat JSON files per resource | Easy to inspect, diff, and re-run without full re-scrape |
-| Observable data loaders | Thin transform layer reading `scraped-data/` | Keeps FIFA API knowledge in the scraper; loaders just reshape |
-| Parameterized match pages | `src/matches/[id].md` + `src/data/match-[id].json.js` | Observable-native approach; generates static page per match at build time |
-| `dynamicPaths` in config | Async function reading `scraped-data/matches.json` | Automatically picks up new matches as scraper runs |
-| Scheduling | Shell script + cron (local) + GitHub Actions workflow (cloud) | Covers both local dev and CI/CD deployment |
-| `scraped-data/` in git | Committed | Persists between CI runs; workflow commits updated files after each scrape |
-| Theme | `["dashboard", "near-midnight"]` | Dark mode throughout |
+| Decision                      | Choice                                                        | Rationale                                                                  |
+| ----------------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Scraper is standalone         | `scripts/scrape.js` (pure Node.js, no framework)              | Runs independently of dashboard build; simpler to schedule                 |
+| Data lives in `scraped-data/` | Flat JSON files per resource                                  | Easy to inspect, diff, and re-run without full re-scrape                   |
+| Observable data loaders       | Thin transform layer reading `scraped-data/`                  | Keeps FIFA API knowledge in the scraper; loaders just reshape              |
+| Parameterized match pages     | `src/matches/[id].md` + `src/data/match-[id].json.js`         | Observable-native approach; generates static page per match at build time  |
+| `dynamicPaths` in config      | Async function reading `scraped-data/matches.json`            | Automatically picks up new matches as scraper runs                         |
+| Scheduling                    | Shell script + cron (local) + GitHub Actions workflow (cloud) | Covers both local dev and CI/CD deployment                                 |
+| `scraped-data/` in git        | Committed                                                     | Persists between CI runs; workflow commits updated files after each scrape |
+| Theme                         | `["dashboard", "near-midnight"]`                              | Dark mode throughout                                                       |
 
 ---
 
@@ -91,16 +91,17 @@ fifa-2026-dashboard/
 
 ## Key API Reference
 
-| API | Key fields used |
-|---|---|
+| API                                                            | Key fields used                                                                                                                     |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | `GET /calendar/matches?language=en&count=500&idCompetition=17` | `IdMatch` (routing key), `Properties.IdIFES` (stats property ID), `HomeTeam`, `AwayTeam`, `Date`, `Score`, `StageName`, `GroupName` |
-| `GET /timelines/{IdMatch}?language=en` | Event array: `Type` (goal/card/sub), `Minute`, `Team`, `Player` |
-| `GET /calendar/{IdMatch}?language=en` | Full match object incl. venue, officials, `Properties.IdIFES` |
-| `GET /v1/stats/match/{IdIFES}/teams.json` | Possession, shots, passes, fouls per team |
-| `GET /v1/stats/match/{IdIFES}/players.json` | Goals, assists, distance, rating per player |
-| `GET /v1/powerranking/match/{IdIFES}.json` | Pre/post-match power ranking per team |
+| `GET /timelines/{IdMatch}?language=en`                         | Event array: `Type` (goal/card/sub), `Minute`, `Team`, `Player`                                                                     |
+| `GET /calendar/{IdMatch}?language=en`                          | Full match object incl. venue, officials, `Properties.IdIFES`                                                                       |
+| `GET /v1/stats/match/{IdIFES}/teams.json`                      | Possession, shots, passes, fouls per team                                                                                           |
+| `GET /v1/stats/match/{IdIFES}/players.json`                    | Goals, assists, distance, rating per player                                                                                         |
+| `GET /v1/powerranking/match/{IdIFES}.json`                     | Pre/post-match power ranking per team                                                                                               |
 
 API hosts:
+
 - `https://api.fifa.com/api/v3/` — matches, timelines, calendar
 - `https://fdh-api.fifa.com/v1/` — stats, power ranking
 
@@ -111,9 +112,11 @@ API hosts:
 ### Phase 1: Foundation + Thin Vertical Slice
 
 #### Task 1: Scaffold project
+
 **Description:** Initialise Observable Framework project; create all directories; add `.gitignore`; write minimal `package.json` with scraper deps (`node-fetch`).
 
 **Acceptance criteria:**
+
 - [ ] `npm run dev` starts Observable dev server without errors
 - [ ] `scraped-data/` directory exists (not git-ignored — it is committed)
 - [ ] `scripts/`, `src/data/`, `src/components/`, `src/matches/`, `cron/` directories exist
@@ -128,9 +131,11 @@ API hosts:
 ---
 
 #### Task 2: Scraper — matches list
+
 **Description:** Write `scripts/scrape.js` that fetches the full matches list from `/calendar/matches`, handles pagination via `ContinuationToken`, and writes `scraped-data/matches.json`. Includes rate-limiting helper and error handling.
 
 **Acceptance criteria:**
+
 - [ ] `node scripts/scrape.js` produces `scraped-data/matches.json` with all FIFA 2026 matches
 - [ ] Each match entry preserves `IdMatch`, `Properties.IdIFES`, team names, scores, date, group/stage
 - [ ] Subsequent runs overwrite (not append) the file
@@ -145,9 +150,11 @@ API hosts:
 ---
 
 #### Task 3: Matches data loader + schedule chart (thin E2E slice)
+
 **Description:** Write `src/data/matches.json.js` that reads `scraped-data/matches.json` and outputs a normalised array. Build the schedule/bracket overview on `src/index.md` using Observable Plot — a timeline or grid of matches grouped by stage/group, coloured by match status.
 
 **Acceptance criteria:**
+
 - [ ] `npm run build` succeeds
 - [ ] Loader outputs valid JSON array with at minimum: `id`, `propertyId`, `homeTeam`, `awayTeam`, `date`, `stage`, `group`, `homeScore`, `awayScore`
 - [ ] `src/index.md` renders a match schedule chart in the browser
@@ -161,6 +168,7 @@ API hosts:
 ---
 
 ### Checkpoint 1 — Foundation
+
 - [ ] `node scripts/scrape.js` runs successfully
 - [ ] `npm run dev` shows main dashboard with schedule chart
 - [ ] `npm run build` exits 0
@@ -171,7 +179,9 @@ API hosts:
 ### Phase 2: Full Scraper + Per-Match Data Layer
 
 #### Task 4: Scraper — per-match data
+
 **Description:** Extend `scripts/scrape.js` to iterate all matches and fetch the five per-match endpoints, saving each to:
+
 - `scraped-data/timelines/{id}.json`
 - `scraped-data/match-stats/{id}.json`
 - `scraped-data/team-stats/{id}.json`
@@ -181,6 +191,7 @@ API hosts:
 Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 
 **Acceptance criteria:**
+
 - [ ] Running scraper populates all five subdirectories for played matches
 - [ ] Unplayed matches (no `IdIFES`) are skipped with a log message
 - [ ] Each file is valid parseable JSON
@@ -195,9 +206,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 #### Task 5: Per-match data loader
+
 **Description:** Write `src/data/match-[id].json.js` — a parameterised Observable data loader that reads all five per-match scraped files and merges them into a single bundle. Uses `parseArgs` to extract `--id`.
 
 **Acceptance criteria:**
+
 - [ ] `node 'src/data/match-[id].json.js' --id=<real_id>` outputs valid JSON with keys: `meta`, `timeline`, `teamStats`, `playerStats`, `powerRanking`
 - [ ] Missing files (unplayed match) output `null` for that key instead of crashing
 
@@ -210,9 +223,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 #### Task 6: Schedule cron / GitHub Actions
+
 **Description:** Write `cron/schedule.sh` (wrapper that cd's to project and runs scraper + build). Write `.github/workflows/scrape.yml` with `cron: '0 */12 * * *'` schedule, running scraper and committing updated `scraped-data/` files.
 
 **Acceptance criteria:**
+
 - [ ] `cron/schedule.sh` is executable and runs without error
 - [ ] `.github/workflows/scrape.yml` is valid YAML with 12-hour schedule
 - [ ] Workflow commits changed files with message `chore: scrape update {timestamp}`
@@ -226,6 +241,7 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 ### Checkpoint 2 — Data Layer Complete
+
 - [ ] All scraped-data subdirectories populated for played matches
 - [ ] Per-match loader outputs valid bundle JSON
 - [ ] Schedule script runs end-to-end without errors
@@ -236,9 +252,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ### Phase 3: Main Dashboard Visualisations
 
 #### Task 7: Derived loaders — standings + top scorers
+
 **Description:** Write `src/data/standings.json.js` (derives group table from matches data) and `src/data/top-scorers.json.js` (aggregates goals per player across all `scraped-data/player-stats/*.json` files).
 
 **Acceptance criteria:**
+
 - [ ] Standings loader outputs `{group, team, played, w, d, l, gf, ga, gd, pts}[]`
 - [ ] Top scorers loader outputs `{player, team, goals, assists}[]` sorted by goals desc
 - [ ] Both build without error
@@ -252,9 +270,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 #### Task 8: Main dashboard — goals heatmap + power rankings chart
+
 **Description:** Add to `src/index.md`: (1) goals-per-match timeline heatmap (Plot.rect, x=date, colour=total goals, tooltip=match name+score); (2) team power rankings bar/lollipop chart.
 
 **Acceptance criteria:**
+
 - [ ] Goals heatmap visible with real data and tooltips
 - [ ] Power rankings chart shows all teams sorted by ranking value
 
@@ -267,9 +287,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 #### Task 9: Main dashboard — standings table + top scorers leaderboard
+
 **Description:** Add to `src/index.md`: (1) group standings tables (one per group); (2) top scorers leaderboard (player, team, goals, assists).
 
 **Acceptance criteria:**
+
 - [ ] Standings table correct points/GD per group
 - [ ] Top scorers shows at least top 10
 
@@ -282,6 +304,7 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 ### Checkpoint 3 — Main Dashboard Complete
+
 - [ ] All five main dashboard sections render with real data
 - [ ] `npm run build` exits 0
 - [ ] No console errors in browser
@@ -292,9 +315,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ### Phase 4: Individual Match Pages
 
 #### Task 10: Match page scaffold + routing
+
 **Description:** Create `src/matches/[id].md` template. Configure `observablehq.config.js` `dynamicPaths` as an async function that reads `scraped-data/matches.json` and yields `/matches/{IdMatch}` for each match.
 
 **Acceptance criteria:**
+
 - [ ] `npm run build` generates a static page for every match
 - [ ] Navigating to `/matches/{id}` renders the page
 - [ ] Match title (`Home vs Away`) displays from loader data
@@ -308,9 +333,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 #### Task 11: Match page — timeline visualisation
+
 **Description:** Build `src/components/match-timeline.js` — vertical timeline of goals, yellow cards, red cards, substitutions with minute markers, home left / away right.
 
 **Acceptance criteria:**
+
 - [ ] All four event types render with distinct icons/colours
 - [ ] Events ordered by minute
 - [ ] Works for 0-event matches (no crash)
@@ -324,9 +351,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 #### Task 12: Match page — team stats comparison + player stats table
+
 **Description:** `src/components/team-stats-comparison.js` — horizontal diverging bar chart (possession, shots, passes, fouls). `src/components/player-stats-table.js` — sortable player stats table.
 
 **Acceptance criteria:**
+
 - [ ] Team stats chart renders correct values for both teams
 - [ ] Player table sortable by goals and rating
 - [ ] Both handle null data (unplayed match) gracefully
@@ -340,9 +369,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 #### Task 13: Match page — power ranking comparison
+
 **Description:** `src/components/power-rankings.js` — before/after ranking comparison with directional arrow (green=up, red=down). Shows "Not yet played" for null data.
 
 **Acceptance criteria:**
+
 - [ ] Shows pre/post ranking for both teams
 - [ ] Arrow direction/colour correct
 - [ ] Null data handled gracefully
@@ -356,6 +387,7 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 ### Checkpoint 4 — Match Pages Complete
+
 - [ ] Every played match has a fully rendered page
 - [ ] All four visualisation sections present
 - [ ] `npm run build` exits 0, no broken links
@@ -366,9 +398,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ### Phase 5: Config and Polish
 
 #### Task 14: Full sidebar config + dark theme
+
 **Description:** Complete `observablehq.config.js`: top-level pages (Home, Standings, Top Scorers), collapsible Matches section by stage, `theme: ["dashboard", "near-midnight"]`, `search: true`.
 
 **Acceptance criteria:**
+
 - [ ] Sidebar shows all main pages and collapsible Matches section
 - [ ] Dark theme applied
 - [ ] Search works
@@ -382,9 +416,11 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 #### Task 15: README + setup docs
+
 **Description:** Write `README.md` with: prerequisites, `npm install`, scraper usage, dev server, cron setup (macOS/Linux), deploy instructions.
 
 **Acceptance criteria:**
+
 - [ ] All setup steps covered
 - [ ] Cron instructions correct for macOS/Linux
 
@@ -395,6 +431,7 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 ---
 
 ### Checkpoint 5 — Complete
+
 - [ ] `node scripts/scrape.js && npm run build` produces working static site
 - [ ] All dashboard sections populated with real data
 - [ ] README accurate
@@ -404,10 +441,10 @@ Skip matches with no `IdIFES` (unplayed). Add 300ms delay between requests.
 
 ## Risks and Mitigations
 
-| Risk | Impact | Mitigation |
-|---|---|---|
-| FIFA API rate limiting / blocking | High | 300ms delay between requests; `--force` flag skips existing files on re-run |
-| `IdIFES` missing for future/unplayed matches | Med | Scraper skips with log; loaders output `null` for missing keys |
-| Observable FileAttachment static string requirement | Med | Resolved by parameterised data loader `match-[id].json.js` which reads filesystem |
-| FIFA API schema changes mid-tournament | Med | Data loaders are single normalisation point; only they need updating |
-| Large match count slowing build | Low | Observable builds loaders lazily; only referenced IDs built |
+| Risk                                                | Impact | Mitigation                                                                        |
+| --------------------------------------------------- | ------ | --------------------------------------------------------------------------------- |
+| FIFA API rate limiting / blocking                   | High   | 300ms delay between requests; `--force` flag skips existing files on re-run       |
+| `IdIFES` missing for future/unplayed matches        | Med    | Scraper skips with log; loaders output `null` for missing keys                    |
+| Observable FileAttachment static string requirement | Med    | Resolved by parameterised data loader `match-[id].json.js` which reads filesystem |
+| FIFA API schema changes mid-tournament              | Med    | Data loaders are single normalisation point; only they need updating              |
+| Large match count slowing build                     | Low    | Observable builds loaders lazily; only referenced IDs built                       |
