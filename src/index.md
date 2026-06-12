@@ -95,24 +95,7 @@ matchData.length > 0
 ## Team Power Rankings
 
 ```js
-teamPower.length > 0
-  ? Plot.plot({
-      title: "Team Power Ratings",
-      width: 960,
-      height: 500,
-      margin: { left: 180 },
-      x: { label: "Power Score" },
-      y: { label: null },
-      marks: [
-        Plot.barX(teamPower.slice(0, 16), {
-          y: "team",
-          x: "power",
-          fill: "#4CAF50",
-          title: (d) => `${d.team}: ${d.power.toFixed(2)}`,
-        }),
-      ],
-    })
-  : html`<p style="color:#999">No power ranking data yet</p>`;
+html`<p style="color:#999">Power rankings temporarily disabled for debugging</p>`;
 ```
 
 ## Group Standings
