@@ -8,7 +8,7 @@ import { scheduleChart } from "./components/schedule-chart.js";
 
 const matches = await FileAttachment("./data/matches.json").json();
 const standings = await FileAttachment("./data/standings.json").json();
-const topScorers = await FileAttachment("./data/top-scorers.json").json();
+const playerStats = await FileAttachment("./data/player-stats.json").json();
 const powerRankingData = await FileAttachment("./data/latest-power-ranking.json").json();
 const powerRankingPlayers = await FileAttachment("./data/power-ranking-players.json").json();
 
@@ -46,15 +46,15 @@ function aggregateTeamPower(prData) {
     .sort((a, b) => b.power - a.power);
 }
 
-function enrichTopScorerNames(scorers, playerLookup) {
-  if (!playerLookup) return scorers;
+function enrichPlayerNames(players, playerLookup) {
+  if (!playerLookup) return players;
 
-  return scorers.map((scorer) => {
-    const playerId = parseInt(scorer.player.match(/\d+/)?.[0] || 0);
+  return players.map((player) => {
+    const playerId = parseInt(player.player.match(/\d+/)?.[0] || 0);
     const playerName = playerLookup[playerId]?.playerName;
     return {
-      ...scorer,
-      playerName: playerName || scorer.player,
+      ...player,
+      playerName: playerName || player.player,
     };
   });
 }
@@ -75,7 +75,7 @@ function getTopPlayerPower(prData) {
 
 const teamPower = aggregateTeamPower(powerRankingData);
 const topPlayerPower = getTopPlayerPower(powerRankingData);
-const enrichedTopScorers = enrichTopScorerNames(topScorers, powerRankingPlayers);
+const enrichedPlayerStats = enrichPlayerNames(playerStats, powerRankingPlayers);
 ```
 
 ## Match Schedule
@@ -89,7 +89,7 @@ display(scheduleChart(matches));
 - **Total Matches:** ${matches.length}
 - **Played:** ${matches.filter((m) => m.homeScore !== null).length}
 - **Upcoming:** ${matches.filter((m) => m.homeScore === null).length}
-- **Debug:** Standings: ${standings.length} items, TopScorers: ${topScorers.length} items
+- **Debug:** Standings: ${standings.length} items, PlayerStats: ${playerStats.length} items
 
 ## Goals Heatmap
 
@@ -192,17 +192,41 @@ groups.forEach((group) => {
 });
 ```
 
-## Top Scorers
+## Player Stats
 
 ```js
+const playerStatsData = playerStats;
+const enrichedPlayerStatsDisplay = enrichPlayerNames(playerStatsData, powerRankingPlayers);
+
 display(
-  Inputs.table(enrichedTopScorers.slice(0, 15), {
-    columns: ["playerName", "team", "goals", "assists"],
+  Inputs.table(enrichedPlayerStatsDisplay.slice(0, 15), {
+    columns: [
+      "playerName",
+      "team",
+      "matchesPlayed",
+      "goals",
+      "assists",
+      "passes",
+      "passesCompleted",
+      "timePlayed",
+      "totalDistance",
+      "avgSpeed",
+      "topSpeed",
+      "threat",
+    ],
     header: {
       playerName: "Player",
       team: "Team",
+      matchesPlayed: "Matches",
       goals: "Goals",
       assists: "Assists",
+      passes: "Passes",
+      passesCompleted: "Completed",
+      timePlayed: "Time (min)",
+      totalDistance: "Distance (m)",
+      avgSpeed: "Avg Speed",
+      topSpeed: "Top Speed",
+      threat: "Threat",
     },
   })
 );

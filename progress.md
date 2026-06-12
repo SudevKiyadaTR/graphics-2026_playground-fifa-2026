@@ -14,6 +14,7 @@
 | 8    | ✅     | 2026-06-12   | Heatmap + power rankings charts        |
 | 9    | ✅     | 2026-06-12   | Standings tables + scorers leaderboard |
 | —    | ✅     | 2026-06-12   | Refactor: Data hierarchy restructuring |
+| —    | ✅     | 2026-06-12   | Feature: Player Stats (expanded 20 fields) |
 
 ---
 
@@ -141,3 +142,16 @@ _Entries appended after each completed task._
   - ✅ Old flat directory structure cleaned up
   - ✅ Dashboard renders correctly with no missing data
   - ✅ All tests pass with deduplication regression test included
+
+### Feature — Player Stats (expanded 20 fields)
+
+- **Completed:** 2026-06-12 20:45
+- **Files changed:** `src/data/player-stats.json.js` (renamed from `top-scorers.json.js`), `src/data/player-stats.json` (regenerated), `src/data/power-ranking-players.json` (generated), `src/index.md`
+- **What was done:** Renamed "Top Scorers" to "Player Stats" and expanded from 4 to 20 fields. Loader now aggregates sum stats (goals, assists, passes, passesCompleted, penalties, penaltiesScored, speedRuns, sprints, timePlayed, totalDistance, 5 distance breakdowns) and average stats (avgSpeed, threat, topSpeed) across all matches per player. Dashboard table shows 12 key columns. Fixed syntax error (`\?.` → `?.`) in src/index.md that prevented module initialization. Generated `power-ranking-players.json` from loader.
+- **Verification:** `npm run build` succeeds, `npm run lint:fix` and `npm run format` pass clean with zero warnings, Playwright debug test confirms 3 tables render with 0 errors in HTML output
+- **Acceptance criteria met:**
+  - ✅ Top Scorers renamed to Player Stats throughout
+  - ✅ 15 new sum fields added (passes, passesCompleted, penalties, penaltiesScored, speedRuns, sprints, timePlayed, totalDistance, 5 distance breakdowns)
+  - ✅ 3 average fields added (avgSpeed, threat, topSpeed)
+  - ✅ Aggregation correctly sums integer stats and averages speed/threat stats
+  - ✅ Dashboard table renders with 12 columns and no errors
