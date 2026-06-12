@@ -48,7 +48,7 @@ const teamPower = aggregateTeamPower(powerRankingData);
 ## Match Schedule
 
 ```js
-scheduleChart(matches)
+display(scheduleChart(matches));
 ```
 
 ## Tournament Stats
@@ -72,9 +72,11 @@ const matchData = matches
     score: `${m.homeScore}-${m.awayScore}`,
   }));
 
-matchData.length === 0
-  ? html`<p style="color:#999">No completed matches yet</p>`
-  : Plot.plot({
+if (matchData.length === 0) {
+  display(html`<p style="color:#999">No completed matches yet</p>`);
+} else {
+  display(
+    Plot.plot({
       title: "Goals per Match",
       width: 960,
       height: 300,
@@ -91,13 +93,16 @@ matchData.length === 0
         }),
       ],
     })
+  );
+}
 ```
 
 ## Team Power Rankings
 
 ```js
-teamPower.length > 0
-  ? Plot.plot({
+if (teamPower.length > 0) {
+  display(
+    Plot.plot({
       title: "Team Power Ratings",
       width: 960,
       height: 500,
@@ -113,7 +118,10 @@ teamPower.length > 0
         }),
       ],
     })
-  : html`<p style="color:#999">No power ranking data yet</p>`
+  );
+} else {
+  display(html`<p style="color:#999">No power ranking data yet</p>`);
+}
 ```
 
 ## Group Standings
@@ -142,7 +150,7 @@ const allGroupsHtml = groups
   })
   .join("");
 
-html`${allGroupsHtml}`
+display(html`${allGroupsHtml}`);
 ```
 
 ## Top Scorers
@@ -156,7 +164,7 @@ const scorersRows = topScorers
   )
   .join("");
 
-html`<table style="width:100%;border-collapse:collapse;border:1px solid #333">
+display(html`<table style="width:100%;border-collapse:collapse;border:1px solid #333">
   <tr>
     <th style="text-align:left;padding:8px">#</th>
     <th style="text-align:left;padding:8px">Player</th>
@@ -165,5 +173,5 @@ html`<table style="width:100%;border-collapse:collapse;border:1px solid #333">
     <th style="text-align:right;padding:8px">Assists</th>
   </tr>
   ${scorersRows}
-</table>`
+</table>`);
 ```
