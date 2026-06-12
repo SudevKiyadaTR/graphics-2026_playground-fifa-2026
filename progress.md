@@ -12,6 +12,7 @@
 | 6    | ✅     | 2026-06-12   | Schedule cron + GitHub Actions       |
 | 7    | ✅     | 2026-06-12   | Derived loaders (standings, scorers) |
 | 8    | ✅     | 2026-06-12   | Heatmap + power rankings charts      |
+| 9    | ✅     | 2026-06-12   | Standings tables + scorers leaderboard |
 
 ---
 
@@ -112,3 +113,16 @@ _Entries appended after each completed task._
   - ✅ Power rankings bar chart displays top 16 teams with scores
   - ✅ Power rankings include text labels showing power scores
   - ✅ Both charts render with real data from matches and power ranking files
+
+### Task 9 — Standings tables + top scorers leaderboard
+
+- **Completed:** 2026-06-12 19:55
+- **Files changed:** `src/index.md`
+- **What was done:** Added two data table sections to the main dashboard. Group Standings displays one table per tournament group showing team records (played, wins, draws, losses, goals for/against, goal differential, points) sorted by points then goal differential. Top Scorers Leaderboard displays the top 15 scorers with player name, team, goals, and assists columns. Both tables use HTML table elements with color-coded values (green for positive GD/goals, gold for rankings/points).
+- **Verification:** `npm run build` succeeds without error, `npm run lint:fix` and `npm run format` pass clean, tables render with real data from standings and top-scorers loaders
+- **Acceptance criteria met:**
+  - ✅ Group standings tables show correct points calculation (3 per win, 1 per draw)
+  - ✅ Standings correctly sorted by group, then points, then goal differential
+  - ✅ Top scorers leaderboard displays ≥15 scorers (exceeds ≥10 requirement)
+  - ✅ Leaderboard shows player, team, goals, assists columns with correct values
+  - ✅ Both tables render with real match and player data
