@@ -1,5 +1,11 @@
 # FIFA 2026 Dashboard
 
+## Project Overview
+
+Self-updating tournament dashboard for FIFA World Cup 2026. A Node.js scraper hits the official FIFA APIs every 12 hours and writes raw JSON to `scraped-data/`. Observable Framework reads those files at build time and serves two levels of views: a main aggregated dashboard (schedule, group standings, top scorers, power rankings) and one static page per match (timeline, team stats, player stats, pre/post power ranking).
+
+The scraper and dashboard are decoupled — the scraper runs on a cron/GitHub Actions schedule and commits updated data; the dashboard just reads whatever's on disk. No database, no server-side logic.
+
 ## Agent Behavior
 
 After completing **every task**, the agent must do both of these steps — no exceptions, no batching:
