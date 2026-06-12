@@ -5,7 +5,7 @@ Live tournament overview for FIFA World Cup 2026™.
 ```js
 import { scheduleChart } from "./components/schedule-chart.js";
 
-const matches = await FileAttachment("./data/matches.json").json();
+const matches = await FileAttachment("../scraped-data/matches.json").json();
 ```
 
 ## Match Schedule
