@@ -1,0 +1,23 @@
+{
+  "name": "fifa-2026-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "observable preview",
+    "build": "observable build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@observablehq/framework": "^1.13.0",
+    "eslint": "^9.25.0",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.3"
+  }
+}

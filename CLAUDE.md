@@ -75,3 +75,14 @@ All visual decisions must follow `DESIGN.md` (typography, colour tokens, chart c
 - Node.js scraper (`scripts/scrape.js`)
 - Observable Plot for all charts
 - Dark theme: `["dashboard", "near-midnight"]`
+
+## Code Quality
+
+Before committing on any task, run:
+
+```bash
+npm run lint:fix   # auto-fix ESLint issues
+npm run format     # auto-format with Prettier
+```
+
+Both must pass clean before a task branch is merged to main. Fix any remaining lint errors manually — do not disable rules to silence them.
