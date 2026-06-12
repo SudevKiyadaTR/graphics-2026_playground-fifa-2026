@@ -1,7 +1,5 @@
 export function scheduleChart(matches) {
-  const sorted = [...matches].sort(
-    (a, b) => new Date(a.date) - new Date(b.date)
-  );
+  const sorted = [...matches].sort((a, b) => new Date(a.date) - new Date(b.date));
 
   const table = document.createElement("table");
   table.style.cssText =
@@ -9,8 +7,7 @@ export function scheduleChart(matches) {
 
   const thead = document.createElement("thead");
   const headerRow = document.createElement("tr");
-  headerRow.style.cssText =
-    "border-bottom: 1px solid var(--border); color: var(--text-muted);";
+  headerRow.style.cssText = "border-bottom: 1px solid var(--border); color: var(--text-muted);";
 
   ["Date", "Match", "Score", "Stage"].forEach((text) => {
     const th = document.createElement("th");
@@ -33,25 +30,21 @@ export function scheduleChart(matches) {
       month: "short",
       day: "numeric",
     });
-    date.style.cssText =
-      "padding: 8px; color: var(--text-secondary);";
+    date.style.cssText = "padding: 8px; color: var(--text-secondary);";
 
     const match = document.createElement("td");
     match.textContent = `${m.homeTeam} vs ${m.awayTeam}`;
-    match.style.cssText =
-      "padding: 8px; color: var(--text-primary);";
+    match.style.cssText = "padding: 8px; color: var(--text-primary);";
 
     const score = document.createElement("td");
-    score.textContent =
-      m.homeScore !== null ? `${m.homeScore}-${m.awayScore}` : "TBD";
+    score.textContent = m.homeScore !== null ? `${m.homeScore}-${m.awayScore}` : "TBD";
     score.style.cssText = `padding: 8px; color: ${
       m.homeScore !== null ? "var(--positive)" : "var(--series-3)"
     }; font-weight: 600;`;
 
     const stage = document.createElement("td");
     stage.textContent = m.stage;
-    stage.style.cssText =
-      "padding: 8px; color: var(--text-secondary);";
+    stage.style.cssText = "padding: 8px; color: var(--text-secondary);";
 
     row.appendChild(date);
     row.appendChild(match);

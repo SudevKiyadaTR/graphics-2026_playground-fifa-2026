@@ -1,0 +1,2276 @@
+{
+  "competitionId": 285023,
+  "matchId": 151600,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-11T22:59:59.078619Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 390475,
+      "attackingRank": 22,
+      "defensiveRank": 20,
+      "creativityRank": 23,
+      "attackingScore": 3.408412456512451,
+      "defensiveScore": 4.801172733306885,
+      "creativityScore": 3.9230198860168457,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Sphephelo SITHOLE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سفيفيلو سيثول"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スフィフェロ・シソレ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페펠로 시톨"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Сфефело СИТОЛ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "斯佩菲罗-西特莱"
+        }
+      ],
+      "playerPicture": {
+        "id": "200F1C50-A60A-4C33-AD94B4DABD605F35",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/200f1c50-a60a-4c33-ad94-b4dabd605f35/SITHOLE-Sphephelo_390475"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 395050,
+      "attackingRank": 3,
+      "defensiveRank": 19,
+      "creativityRank": 19,
+      "attackingScore": 5.411383628845215,
+      "defensiveScore": 4.858479976654053,
+      "creativityScore": 4.981457233428955,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Aubrey MODIBA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوبري موديبا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Aubrey MODIBA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Aubrey MODIBA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Aubrey MODIBA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aubrey MODIBA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーブリー・モディバ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오브리 모디바"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Aubrey MODIBA"
+        }
+      ],
+      "playerPicture": {
+        "id": "E5DDFBFB-B601-4FF8-83A5F55162967798",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e5ddfbfb-b601-4ff8-83a5-f55162967798/MODIBA-Aubrey_395050"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 403616,
+      "attackingRank": 20,
+      "defensiveRank": 10,
+      "creativityRank": 9,
+      "attackingScore": 4.143212795257568,
+      "defensiveScore": 5.992782115936279,
+      "creativityScore": 5.816622734069824,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Teboho MOKOENA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تيبوهو موكوينا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Teboho MOKOENA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Teboho MOKOENA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Teboho MOKOENA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Teboho MOKOENA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "テボホ・モコエナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "테보호 모코에나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Teboho MOKOENA"
+        }
+      ],
+      "playerPicture": {
+        "id": "BF36679B-73EB-4813-A99DB9673439DD05",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/bf36679b-73eb-4813-a99d-b9673439dd05/MOKOENA-Teboho_403616"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 419211,
+      "attackingRank": 7,
+      "defensiveRank": 21,
+      "creativityRank": 18,
+      "attackingScore": 4.977478504180908,
+      "defensiveScore": 4.600480556488037,
+      "creativityScore": 5.0285115242004395,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lyle FOSTER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لايل فوستر"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ライル・フォスター"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라일 포스터"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лайл ФОСТЕР"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "莱尔 福斯特"
+        }
+      ],
+      "playerPicture": {
+        "id": "155C969C-63E1-438E-BD3DCE587AC212C6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/155c969c-63e1-438e-bd3d-ce587ac212c6/FOSTER-Lyle_419211"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 463218,
+      "attackingRank": 14,
+      "defensiveRank": 12,
+      "creativityRank": 15,
+      "attackingScore": 4.637723445892334,
+      "defensiveScore": 5.911128997802734,
+      "creativityScore": 5.321812152862549,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Khuliso MUDAU"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "خوليسو موداو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Khuliso MUDAU"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Khuliso MUDAU"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Khuliso MUDAU"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Khuliso MUDAU"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クリソ・ムダウ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "쿨리소 무다우"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Khuliso MUDAU"
+        }
+      ],
+      "playerPicture": {
+        "id": "29D0B36B-2727-4FC0-AB1E4D21B5858F5A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/29d0b36b-2727-4fc0-ab1e-4d21b5858f5a/MUDAU-Khuliso_463218"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 463221,
+      "attackingRank": 20,
+      "defensiveRank": 14,
+      "creativityRank": 11,
+      "attackingScore": 4.143212795257568,
+      "defensiveScore": 5.818229675292969,
+      "creativityScore": 5.708597660064697,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nkosinathi SIBISI"
+        }
+      ],
+      "playerPicture": {
+        "id": "1FB66990-444A-4E4B-904741C2542EA91A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1fb66990-444a-4e4b-9047-41c2542ea91a/SIBISI-Nkosinathi_463221"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 463236,
+      "attackingRank": 17,
+      "defensiveRank": 16,
+      "creativityRank": 4,
+      "attackingScore": 4.324925422668457,
+      "defensiveScore": 5.361848831176758,
+      "creativityScore": 6.308829307556152,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jayden ADAMS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جايدن آدامز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jayden ADAMS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jayden ADAMS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jayden ADAMS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jayden ADAMS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジェイデン・アダムス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "제이든 애덤스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jayden ADAMS"
+        }
+      ],
+      "playerPicture": {
+        "id": "D238F3D6-BC5D-44C6-B3122989524BEA12",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/d238f3d6-bc5d-44c6-b312-2989524bea12/ADAMS-Jayden_463236"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 481242,
+      "attackingRank": 18,
+      "defensiveRank": 23,
+      "creativityRank": 16,
+      "attackingScore": 4.252643585205078,
+      "defensiveScore": 4.353978633880615,
+      "creativityScore": 5.254514217376709,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Iqraam RAYNERS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إقرام راينرز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Iqraam RAYNERS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Iqraam RAYNERS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Iqraam RAYNERS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Iqraam RAYNERS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イクラーム・レイナーズ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이크람 레이너스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Iqraam RAYNERS"
+        }
+      ],
+      "playerPicture": {
+        "id": "F13EBF2A-3CAC-4AF7-BD732B70ED5ECC1A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f13ebf2a-3cac-4af7-bd73-2b70ed5ecc1a/RAYNERS-Iqraam_481242"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 494248,
+      "attackingRank": 10,
+      "defensiveRank": 7,
+      "creativityRank": 13,
+      "attackingScore": 4.738789081573486,
+      "defensiveScore": 6.214962005615234,
+      "creativityScore": 5.523025989532471,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Thalente MBATHA"
+        }
+      ],
+      "playerPicture": {
+        "id": "5B2D0A1A-FE59-4136-90D34315C34B8500",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5b2d0a1a-fe59-4136-90d3-4315c34b8500/MBATHA-Thalente_494248"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 504199,
+      "attackingRank": 9,
+      "defensiveRank": 9,
+      "creativityRank": 10,
+      "attackingScore": 4.8083906173706055,
+      "defensiveScore": 6.083930492401123,
+      "creativityScore": 5.757302284240723,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mbekezeli MBOKAZI"
+        }
+      ],
+      "playerPicture": {
+        "id": "978B666D-F320-4D49-B717A08FA7AE456F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/978b666d-f320-4d49-b717-a08fa7ae456f/MBOKAZI-Mbekezeli_504199"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 506039,
+      "attackingRank": 16,
+      "defensiveRank": 3,
+      "creativityRank": 21,
+      "attackingScore": 4.335619926452637,
+      "defensiveScore": 6.676825046539307,
+      "creativityScore": 4.893107891082764,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ime OKON"
+        }
+      ],
+      "playerPicture": {
+        "id": "5F5D2EB3-3964-486F-9FAA800200078576",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5f5d2eb3-3964-486f-9faa-800200078576/OKON-Ime_506039"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 356731,
+      "attackingRank": 2,
+      "defensiveRank": 11,
+      "creativityRank": 14,
+      "attackingScore": 7.3576178550720215,
+      "defensiveScore": 5.9813690185546875,
+      "creativityScore": 5.43528413772583,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Raul JIMENEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "راؤول خيمينيز"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラウル・ヒメネス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라울 히메네스"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рауль ХИМЕНЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "劳尔·希门尼斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "EC48D7A7-0CF7-4FC8-B999E3C15FEE5E98",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ec48d7a7-0cf7-4fc8-b999-e3c15fee5e98/JIMENEZ-Raul_356731"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 395516,
+      "attackingRank": 23,
+      "defensiveRank": 15,
+      "creativityRank": 22,
+      "attackingScore": 3.0148110389709473,
+      "defensiveScore": 5.447761535644531,
+      "creativityScore": 4.131003379821777,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Cesar MONTES"
+        }
+      ],
+      "playerPicture": {
+        "id": "C8C3FA3A-9001-4221-AB3C754158C0AD8A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c8c3fa3a-9001-4221-ab3c-754158c0ad8a/MONTES-Cesar_395516"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 402772,
+      "attackingRank": 11,
+      "defensiveRank": 1,
+      "creativityRank": 20,
+      "attackingScore": 4.6962385177612305,
+      "defensiveScore": 8.059459686279297,
+      "creativityScore": 4.898683071136475,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jesus GALLARDO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "خوسيه أورتيز"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヘスス・ガジャルド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "헤수스 가야르도"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хесус ГАЛЬЯРДО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "热苏斯·加利亚多"
+        }
+      ],
+      "playerPicture": {
+        "id": "F1417540-93CB-4B82-9CFE223E877D5923",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f1417540-93cb-4b82-9cfe-223e877d5923/GALLARDO-Jesus_402772"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 403585,
+      "attackingRank": 4,
+      "defensiveRank": 5,
+      "creativityRank": 1,
+      "attackingScore": 5.2386651039123535,
+      "defensiveScore": 6.490314483642578,
+      "creativityScore": 8.876916885375977,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Roberto ALVARADO"
+        }
+      ],
+      "playerPicture": {
+        "id": "B1A8A14A-2A27-4524-A6ED679ACA39D35D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b1a8a14a-2a27-4524-a6ed-679aca39d35d/ALVARADO-Roberto_403585"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 416576,
+      "attackingRank": 8,
+      "defensiveRank": 17,
+      "creativityRank": 5,
+      "attackingScore": 4.968447208404541,
+      "defensiveScore": 5.14560604095459,
+      "creativityScore": 6.09702205657959,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alvaro FIDALGO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألفارو فيدالغو"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルバロ・フィダルゴ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알바로 피달고"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Альваро ФИДАЛЬГО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔瓦罗·菲达尔戈"
+        }
+      ],
+      "playerPicture": {
+        "id": "FDA68F1A-ECEB-4219-8F1BED6B1F2E37ED",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/fda68f1a-eceb-4219-8f1b-ed6b1f2e37ed/FIDALGO-Alvaro_416576"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 419518,
+      "attackingRank": 6,
+      "defensiveRank": 4,
+      "creativityRank": 6,
+      "attackingScore": 5.003652095794678,
+      "defensiveScore": 6.605576038360596,
+      "creativityScore": 6.09185266494751,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Erik LIRA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إريك ليرا"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エリック・エドマン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에릭 리라"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эрик ЛИРА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃里克·里拉"
+        }
+      ],
+      "playerPicture": {
+        "id": "83109586-542D-4950-83EBF3388757EF90",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/83109586-542d-4950-83eb-f3388757ef90/LIRA-Erik_419518"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 425701,
+      "attackingRank": 19,
+      "defensiveRank": 6,
+      "creativityRank": 17,
+      "attackingScore": 4.2355265617370605,
+      "defensiveScore": 6.489650726318359,
+      "creativityScore": 5.10613489151001,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Johan VASQUEZ"
+        }
+      ],
+      "playerPicture": {
+        "id": "838CB65F-3D60-4ACB-855D35A364C25F1A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/838cb65f-3d60-4acb-855d-35a364c25f1a/VASQUEZ-Johan_425701"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 429157,
+      "attackingRank": 1,
+      "defensiveRank": 18,
+      "creativityRank": 2,
+      "attackingScore": 9.15585994720459,
+      "defensiveScore": 4.935051441192627,
+      "creativityScore": 7.714485168457031,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Julian QUINONES"
+        }
+      ],
+      "playerPicture": {
+        "id": "EA06BECB-97B2-4F89-84645E0854CB7F81",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ea06becb-97b2-4f89-8464-5e0854cb7f81/QUINONES-Julian_429157"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 441261,
+      "attackingRank": 15,
+      "defensiveRank": 2,
+      "creativityRank": 8,
+      "attackingScore": 4.367770195007324,
+      "defensiveScore": 7.353736400604248,
+      "creativityScore": 5.93725061416626,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Israel REYES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسرائيل رييس"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イスラエル・レジェス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "Israel REYES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Израиль РЕЙЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "伊斯列尔·雷耶斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "1E7C7C32-135C-46BA-9AFF429BFB1478AA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1e7c7c32-135c-46ba-9aff-429bfb1478aa/REYES-Israel_441261"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 448051,
+      "attackingRank": 12,
+      "defensiveRank": 8,
+      "creativityRank": 3,
+      "attackingScore": 4.692302227020264,
+      "defensiveScore": 6.1367974281311035,
+      "creativityScore": 7.073294639587402,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Luis CHAVEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لويس شافيز"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルイス・チャベス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루이스 차베즈"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Луис ЧАВЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "路易斯·查韦斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "A09B97D9-6B02-45D4-AAE8B8ED274E5634",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a09b97d9-6b02-45d4-aae8-b8ed274e5634/CHAVEZ-Luis_448051"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 464533,
+      "attackingRank": 13,
+      "defensiveRank": 22,
+      "creativityRank": 12,
+      "attackingScore": 4.651299476623535,
+      "defensiveScore": 4.4745612144470215,
+      "creativityScore": 5.557660102844238,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Brian GUTIERREZ"
+        }
+      ],
+      "playerPicture": {
+        "id": "DBCA9708-0922-4D1D-97CB1AA53696D6BD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/dbca9708-0922-4d1d-97cb-1aa53696d6bd/GUTIERREZ-Brian_464533"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 500037,
+      "attackingRank": 5,
+      "defensiveRank": 13,
+      "creativityRank": 7,
+      "attackingScore": 5.219127178192139,
+      "defensiveScore": 5.865814208984375,
+      "creativityScore": 6.00623083114624,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Gilberto MORA"
+        }
+      ],
+      "playerPicture": {
+        "id": "028C85E0-509A-43C4-904A58CE2D4F6F24",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/028c85e0-509a-43c4-904a-58ce2d4f6f24/MORA-Gilberto_500037"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 485070,
+      "inPossessionRank": 2,
+      "inPossessionScore": 5.922333717346191,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 6.88406229019165,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Raul RANGEL"
+        }
+      ],
+      "playerPicture": {
+        "id": "3EA092AE-841D-4DC6-9CA078EB4DFB97C7",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3ea092ae-841d-4dc6-9ca0-78eb4dfb97c7/RANGEL-Raul_485070"
+      }
+    },
+    {
+      "teamId": 43883,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "South Africa"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جنوب أفريقيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Südafrika"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sudáfrica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Afrique du Sud"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Afrika Selatan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sudafrica"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "南アフリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "남아프리카공화국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "África do Sul"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Южная Африка"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "南非"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/RSA",
+      "playerId": 395986,
+      "inPossessionRank": 1,
+      "inPossessionScore": 7.0651702880859375,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 5.039687156677246,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ronwen WILLIAMS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رونوين ويليامز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ronwen WILLIAMS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ronwen WILLIAMS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ronwen WILLIAMS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ronwen WILLIAMS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ロンウェン・ウィリアムズ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "론웬 윌리엄스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ronwen WILLIAMS"
+        }
+      ],
+      "playerPicture": {
+        "id": "B95F9142-251C-4943-911C9C8D7AD8DD1C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b95f9142-251c-4943-911c-9c8d7ad8dd1c/WILLIAMS-Ronwen_395986"
+      }
+    }
+  ]
+}
