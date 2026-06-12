@@ -311,13 +311,13 @@ Plot.mark(Plot.dot, {
 
 ### Basic Usage Pattern
 
-Observable Framework automatically renders values returned from code cells. The idiomatic pattern is to return the visualization directly:
+Observable Framework cells must use `display()` to render visualizations. Simply returning a value doesn't render:
 
 ```javascript
 import * as Plot from "@observablehq/plot";
 
-// In a markdown code cell, return the chart directly:
-Plot.plot({
+// In a markdown code cell, use display() to render:
+display(Plot.plot({
   title: "Chart Title",
   width: 800,
   height: 400,
@@ -340,10 +340,10 @@ Plot.plot({
     Plot.axisX(),
     Plot.axisY(),
   ],
-})
+}))
 ```
 
-**Key pattern:** In Observable Framework markdown cells, simply **return** the visualization object—no `display()` call needed. The framework automatically renders it in the page.
+**Key pattern:** Use `display()` to render visualizations in Observable Framework markdown cells.
 
 ### Advanced Features
 
@@ -395,9 +395,7 @@ Plot.plot({
 
 ### Observable Framework + Plot
 
-**Idiomatic Pattern (Recommended):**
-
-Code cells automatically render their return value. Just return the Plot visualization:
+**Working Pattern (use display()):**
 
 ```javascript
 // src/index.md
@@ -406,23 +404,25 @@ import * as Plot from "@observablehq/plot";
 const data = await FileAttachment("./data.json").json();
 
 \`\`\`js
-Plot.plot({
+display(Plot.plot({
   marks: [Plot.dot(data, { x: "x", y: "y" })]
-})
+}))
 \`\`\`
 ```
 
 **Conditional Rendering:**
 
-Use a ternary or early return to conditionally render different content:
+Use if/else with display() for conditional content:
 
 ```javascript
 \`\`\`js
-data.length > 0
-  ? Plot.plot({
-      marks: [Plot.dot(data, { x: "x", y: "y" })]
-    })
-  : html\`<p style="color:#999">No data available</p>\`
+if (data.length > 0) {
+  display(Plot.plot({
+    marks: [Plot.dot(data, { x: "x", y: "y" })]
+  }));
+} else {
+  display(html\`<p>No data available</p>\`);
+}
 \`\`\`
 ```
 
@@ -441,29 +441,17 @@ export default function () {
 
 // src/index.md
 const data = await FileAttachment("./data/processed.json").json();
-```
 
-**Using `display()` (When Necessary):**
-
-The `display()` function is rarely needed. Use it only when you need explicit control over rendering, such as imperative updates or side effects:
-
-```javascript
 \`\`\`js
-if (shouldRender) {
-  display(Plot.plot({...}));
-} else {
-  display(html\`<p>Loading...</p>\`);
-}
+display(Plot.plot({ marks: [Plot.dot(data, { x: "x", y: "y" })] }))
 \`\`\`
 ```
-
-However, the return-value pattern above is preferred in most cases.
 
 ### Observable Framework + D3
 
 **Direct DOM Manipulation:**
 
-Return the SVG node from the D3 visualization:
+Use `display()` to render D3 visualizations:
 
 ```javascript
 // src/components/chart.js
@@ -486,14 +474,14 @@ export function chart(data) {
     .attr("cy", (d, i) => 50 + i * 10)
     .attr("r", 3);
 
-  return svg.node();  // Return the SVG element
+  return svg.node();
 }
 
 // src/index.md
 import { chart } from "./components/chart.js";
 
 \`\`\`js
-chart(data)  // Just return the result—framework renders it
+display(chart(data))
 \`\`\`
 ```
 
@@ -652,30 +640,27 @@ This ensures charts reflow when the window resizes.
 
 ## 6. Observable Framework Idioms & Best Practices
 
-### The Cell Return Pattern (Idiomatic)
+### The display() Pattern (Required for Rendering)
 
-In Observable Framework markdown, code cells automatically render their return value. This is the preferred pattern:
+In Observable Framework markdown, cells must use `display()` to render their content. Returning a value alone does NOT render:
 
 ```javascript
-// Idiomatic: return the value
+// ✅ Correct: use display()
 \`\`\`js
-Plot.plot({ marks: [Plot.dot(data, { x: "x", y: "y" })] })
+display(Plot.plot({...}))
 \`\`\`
 
-// Idiomatic: conditional with ternary
+// ❌ Incorrect: return value alone won't render
 \`\`\`js
-data.length > 0
-  ? Plot.plot({ marks: [Plot.dot(data, { x: "x", y: "y" })] })
-  : html\`<p>No data</p>\`
+Plot.plot({...})
 \`\`\`
 ```
 
-### When to Use `display()` (Rarely)
+### Conditional Rendering
 
-The `display()` function is for imperative rendering when you need explicit control:
+Use if/else with display() for different outputs:
 
 ```javascript
-// Use display() only when necessary
 \`\`\`js
 if (condition) {
   display(plot1);
@@ -687,30 +672,38 @@ if (condition) {
 \`\`\`
 ```
 
-In most cases, **ternary or early returns are cleaner**:
+### HTML Tables with display()
+
+Use `display()` with html template literals for table rendering:
 
 ```javascript
-// Better: use ternary
 \`\`\`js
-condition
-  ? plot1
-  : otherCondition
-    ? plot2
-    : html\`<p>No data</p>\`
+const rows = data.map(d => html\`
+  <tr>
+    <td>\${d.name}</td>
+    <td>\${d.value}</td>
+  </tr>
+\`);
+
+display(html\`
+  <table>
+    \${rows}
+  </table>
+\`)
 \`\`\`
 ```
 
 ### Responsive Charts with `resize()`
 
-Observable Framework provides `resize()` for charts that reflow with viewport:
+For charts that adapt to viewport width, use `resize()`:
 
 ```javascript
 \`\`\`js
-resize((width) => Plot.plot({
+display(resize((width) => Plot.plot({
   width,
   height: 400,
   marks: [Plot.dot(data, { x: "x", y: "y" })]
-}))
+})))
 \`\`\`
 ```
 
@@ -719,25 +712,25 @@ resize((width) => Plot.plot({
 **❌ Don't:**
 ```javascript
 \`\`\`js
-display(Plot.plot({...}));  // Unnecessary display()
+Plot.plot({...})  // Returns value but won't render
 \`\`\`
 
 **✅ Do:**
 ```javascript
 \`\`\`js
-Plot.plot({...})  // Just return it
+display(Plot.plot({...}))  // Actually renders
 \`\`\`
 
 **❌ Don't:**
 ```javascript
 \`\`\`js
-const x = Plot.plot({...});  // Dead variable
+const x = Plot.plot({...});  // Dead variable, won't render
 \`\`\`
 
 **✅ Do:**
 ```javascript
 \`\`\`js
-Plot.plot({...})  // Direct return renders immediately
+display(Plot.plot({...}))  // Renders immediately
 \`\`\`
 
 ### Data Files (Static vs. Computed)
@@ -774,6 +767,7 @@ export default function() {
 4. **Combine** them: Plot for quick charts, D3 for advanced control
 5. **Data loaders** separate data fetching from visualization rendering (run at build time)
 6. **Composition** over chart types: layer simple marks to build complex visualizations
-7. **Return values, not `display()`**: Let Observable Framework render values automatically
+7. **Use `display()`** to render visualizations and HTML in Observable cells
 8. **`resize()` for responsive charts**: Adapts to viewport width changes
 9. **Static data files** are ideal for CI/CD pipelines (like the FIFA scraper)
+10. **Conditional rendering**: Use if/else with display() for different outputs
