@@ -10,7 +10,8 @@
 | 4    | ✅     | 2026-06-12   | Scraper — per-match data             |
 | 5    | ✅     | 2026-06-12   | Per-match data loader                |
 | 6    | ✅     | 2026-06-12   | Schedule cron + GitHub Actions       |
-| 7    | ✅     | 2026-06-12   | Derived loaders (standings, scorers)  |
+| 7    | ✅     | 2026-06-12   | Derived loaders (standings, scorers) |
+| 8    | ✅     | 2026-06-12   | Heatmap + power rankings charts      |
 
 ---
 
@@ -80,7 +81,7 @@ _Entries appended after each completed task._
 - **Completed:** 2026-06-12 18:50
 - **Files changed:** `cron/schedule.sh`, `.github/workflows/scrape.yml`
 - **What was done:** Created executable cron wrapper script (schedule.sh) that runs scraper and builds dashboard. Created GitHub Actions workflow (scrape.yml) with 12-hour schedule that fetches updated data and commits to git with timestamped message.
-- **Verification:** Tested schedule.sh locally; verified .github/workflows/scrape.yml has valid YAML syntax and correct cron schedule (0 */12 * * *)
+- **Verification:** Tested schedule.sh locally; verified .github/workflows/scrape.yml has valid YAML syntax and correct cron schedule (0 _/12 _ \* \*)
 - **Acceptance criteria met:**
   - ✅ `cron/schedule.sh` is executable and runs without error
   - ✅ `.github/workflows/scrape.yml` is valid YAML with 12-hour schedule
@@ -98,3 +99,16 @@ _Entries appended after each completed task._
   - ✅ Top scorers loader outputs correct structure (player, team, goals, assists)
   - ✅ Top scorers sorted by goals descending → assists descending
   - ✅ Both build without error
+
+### Task 8 — Goals heatmap + power rankings chart
+
+- **Completed:** 2026-06-12 19:45
+- **Files changed:** `src/index.md`, `src/data/latest-power-ranking.json.js`
+- **What was done:** Added two new visualizations to the main dashboard using Observable Plot. Goals heatmap shows total goals per match over time using Plot.rect with color intensity. Power rankings chart displays teams ranked by aggregated player power scores (attacking, defensive, creativity) from the latest match power ranking data. Created latest-power-ranking loader to fetch the most recent power ranking file.
+- **Verification:** `npm run build` succeeds, `npm run lint:fix` passes with no warnings, visualizations render with real data and tooltips
+- **Acceptance criteria met:**
+  - ✅ Heatmap renders with Plot.rect showing matches colored by total goals
+  - ✅ Heatmap includes tooltips showing teams and score
+  - ✅ Power rankings bar chart displays top 16 teams with scores
+  - ✅ Power rankings include text labels showing power scores
+  - ✅ Both charts render with real data from matches and power ranking files
