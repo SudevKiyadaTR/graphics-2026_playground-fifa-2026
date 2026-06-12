@@ -15,6 +15,7 @@
 | 9    | ✅     | 2026-06-12   | Standings tables + scorers leaderboard     |
 | —    | ✅     | 2026-06-12   | Refactor: Data hierarchy restructuring     |
 | —    | ✅     | 2026-06-12   | Feature: Player Stats (expanded 20 fields) |
+| —    | ✅     | 2026-06-12   | Simplify homepage + loader cleanup         |
 
 ---
 
@@ -155,3 +156,15 @@ _Entries appended after each completed task._
   - ✅ 3 average fields added (avgSpeed, threat, topSpeed)
   - ✅ Aggregation correctly sums integer stats and averages speed/threat stats
   - ✅ Dashboard table renders with 12 columns and no errors
+
+### Feature — Homepage calendar-only + related loader cleanup
+
+- **Completed:** 2026-06-12 21:05
+- **Files changed:** `src/index.md`, `src/player-stats.md`, `observablehq.config.js`, `src/data/latest-power-ranking.json`, `src/data/standings.json`, `src/data/match-[id].json.js`
+- **What was done:** Simplified the homepage so it only renders the match calendar/schedule chart. Kept player metrics on a dedicated `/player-stats` page and removed unused homepage-related data artifacts/loaders that were no longer referenced.
+- **Verification:** `npm run build` succeeds and renders `/index` and `/player-stats`; runtime asset copy no longer includes removed data files.
+- **Acceptance criteria met:**
+  - ✅ Homepage contains only calendar/schedule content
+  - ✅ Player stats are on a dedicated page
+  - ✅ Unused loader/data artifacts tied to removed dashboard sections deleted
+  - ✅ Build succeeds after cleanup
