@@ -106,3 +106,85 @@ Plot.plot({
   ],
 });
 ```
+
+## Group Standings
+
+```js
+const groups = [...new Set(standings.map((s) => s.group))].sort();
+
+function createStandingsTable(group) {
+  const teamStandings = standings
+    .filter((s) => s.group === group)
+    .sort((a, b) => {
+      if (b.pts !== a.pts) return b.pts - a.pts;
+      if (b.gd !== a.gd) return b.gd - a.gd;
+      return b.gf - a.gf;
+    });
+
+  const cols = ["Team", "P", "W", "D", "L", "GF", "GA", "GD", "Pts"];
+  const header = html`<tr>
+    ${cols.map((c) => html`<th style="text-align:right;padding:6px 8px">${c}</th>`)}
+  </tr>`;
+  const rows = teamStandings.map(
+    (row) =>
+      html`<tr>
+        <td style="text-align:left;padding:6px 8px">${row.team}</td>
+        <td style="text-align:right;padding:6px 8px">${row.played}</td>
+        <td style="text-align:right;padding:6px 8px">${row.w}</td>
+        <td style="text-align:right;padding:6px 8px">${row.d}</td>
+        <td style="text-align:right;padding:6px 8px">${row.l}</td>
+        <td style="text-align:right;padding:6px 8px">${row.gf}</td>
+        <td style="text-align:right;padding:6px 8px">${row.ga}</td>
+        <td style="text-align:right;padding:6px 8px;color:${row.gd >= 0 ? "#4CAF50" : "#ff6b6b"}">
+          ${row.gd > 0 ? "+" : ""}${row.gd}
+        </td>
+        <td style="text-align:right;padding:6px 8px;font-weight:bold;color:#FFD700">${row.pts}</td>
+      </tr>`
+  );
+
+  return html`<table style="width:100%;border-collapse:collapse;border:1px solid #333">
+    ${header}${rows}
+  </table>`;
+}
+
+html`
+  ${groups.map(
+    (group) =>
+      html`<h3 style="margin-top:24px">${group}</h3>
+        ${createStandingsTable(group)}`
+  )}
+`;
+```
+
+## Top Scorers
+
+```js
+const scorersDisplay = topScorers.slice(0, 15).map((s) => ({
+  ...s,
+  rank: topScorers.indexOf(s) + 1,
+}));
+
+html`
+  <table style="width:100%;border-collapse:collapse;border:1px solid #333">
+    <tr>
+      <th style="text-align:left;padding:8px">#</th>
+      <th style="text-align:left;padding:8px">Player</th>
+      <th style="text-align:left;padding:8px">Team</th>
+      <th style="text-align:right;padding:8px">Goals</th>
+      <th style="text-align:right;padding:8px">Assists</th>
+    </tr>
+    ${scorersDisplay
+      .map(
+        (s) =>
+          html`<tr>
+            <td style="text-align:left;padding:8px;font-weight:bold;color:#FFD700">${s.rank}</td>
+            <td style="text-align:left;padding:8px">${s.player}</td>
+            <td style="text-align:left;padding:8px">${s.team}</td>
+            <td style="text-align:right;padding:8px;font-weight:bold;color:#4CAF50">${s.goals}</td>
+            <td style="text-align:right;padding:8px">${s.assists}</td>
+          </tr>`
+      )
+      .join("")}
+  </table>
+`;
+```
