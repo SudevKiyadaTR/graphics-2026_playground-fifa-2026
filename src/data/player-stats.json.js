@@ -69,6 +69,9 @@ export default function () {
       const allPlayerStats = JSON.parse(fs.readFileSync(statsFile, "utf-8"));
 
       for (const [playerId, stats] of Object.entries(allPlayerStats)) {
+        // Skip invalid player IDs from API artifacts
+        if (playerId === "-1" || playerId === "-1") continue;
+
         let team = getPlayerTeamFromLive(liveData, playerId);
         if (!team) team = getPlayerTeamFromPowerRanking(powerRankingData, playerId);
         if (!team) team = "Unknown";
