@@ -7,6 +7,7 @@
 | 1    | ✅     | 2026-06-12   | Scaffold project                     |
 | 2    | ✅     | 2026-06-12   | Scraper — matches list               |
 | 3    | ✅     | 2026-06-12   | Matches data loader + schedule chart |
+| 4    | ✅     | 2026-06-12   | Scraper — per-match data             |
 
 ---
 
@@ -48,3 +49,15 @@ _Entries appended after each completed task._
   - ✅ `npm run build` succeeds
   - ✅ Loader outputs valid JSON array with id, propertyId, homeTeam, awayTeam, date, stage, group, scores
   - ✅ `src/index.md` renders a match schedule chart with real match data
+
+### Task 4 — Scraper — per-match data
+
+- **Completed:** 2026-06-12 18:30
+- **Files changed:** `scripts/scrape.js`, `scraped-data/timelines/*.json`, `scraped-data/match-stats/*.json`, `scraped-data/team-stats/*.json`, `scraped-data/player-stats/*.json`, `scraped-data/power-ranking/*.json`, `scraped-data/.scrape-manifest.json`
+- **What was done:** Extended scraper to fetch five per-match endpoints (timelines, team/match/player stats, power rankings) for all played matches. Implemented incremental scraping with manifest (.scrape-manifest.json) tracking which matches have been scraped, eliminating redundant API calls. Only fetches matches that have finished since last scrape; skips unplayed matches (no propertyId).
+- **Verification:** `node scripts/scrape.js` populates all five subdirectories; subsequent runs skip already-scraped matches; `node scripts/scrape.js --force` re-fetches everything
+- **Acceptance criteria met:**
+  - ✅ Running scraper populates all five subdirectories for played matches
+  - ✅ Unplayed matches skipped implicitly (no propertyId check)
+  - ✅ Each file is valid parseable JSON
+  - ✅ Re-running skips existing files via manifest tracking (incremental)
