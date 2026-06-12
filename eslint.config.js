@@ -2,7 +2,7 @@ import globals from "globals";
 
 export default [
   {
-    ignores: ["dist/", ".observablehq/", "node_modules/"],
+    ignores: ["dist/", ".observablehq/", "node_modules/", "src/.observablehq/"],
   },
   {
     files: ["**/*.js"],
