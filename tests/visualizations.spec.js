@@ -30,7 +30,7 @@ test.describe("Visualization Content", () => {
   test("check all h2 sections", async ({ page }) => {
     const headings = await page.locator("h2").allTextContents();
     console.log("All sections:", headings);
-    headings.forEach(h => {
+    headings.forEach((h) => {
       console.log(`- ${h}`);
     });
   });

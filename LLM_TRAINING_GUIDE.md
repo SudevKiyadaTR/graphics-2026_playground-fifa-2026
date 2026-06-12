@@ -317,30 +317,32 @@ Observable Framework cells must use `display()` to render visualizations. Simply
 import * as Plot from "@observablehq/plot";
 
 // In a markdown code cell, use display() to render:
-display(Plot.plot({
-  title: "Chart Title",
-  width: 800,
-  height: 400,
-  marginLeft: 60,
-  marginBottom: 40,
+display(
+  Plot.plot({
+    title: "Chart Title",
+    width: 800,
+    height: 400,
+    marginLeft: 60,
+    marginBottom: 40,
 
-  x: { type: "linear", label: "X Axis" },
-  y: { type: "linear", label: "Y Axis" },
-  color: { scheme: "tableau10" },
+    x: { type: "linear", label: "X Axis" },
+    y: { type: "linear", label: "Y Axis" },
+    color: { scheme: "tableau10" },
 
-  marks: [
-    // Data visualization layer
-    Plot.dot(data, { x: "date", y: "value", fill: "category" }),
+    marks: [
+      // Data visualization layer
+      Plot.dot(data, { x: "date", y: "value", fill: "category" }),
 
-    // Grid lines
-    Plot.gridX({ stroke: "#eee" }),
-    Plot.gridY({ stroke: "#eee" }),
+      // Grid lines
+      Plot.gridX({ stroke: "#eee" }),
+      Plot.gridY({ stroke: "#eee" }),
 
-    // Axis labels
-    Plot.axisX(),
-    Plot.axisY(),
-  ],
-}))
+      // Axis labels
+      Plot.axisX(),
+      Plot.axisY(),
+    ],
+  })
+);
 ```
 
 **Key pattern:** Use `display()` to render visualizations in Observable Framework markdown cells.
@@ -710,7 +712,8 @@ display(resize((width) => Plot.plot({
 ### Avoiding Common Mistakes
 
 **❌ Don't:**
-```javascript
+
+````javascript
 \`\`\`js
 Plot.plot({...})  // Returns value but won't render
 \`\`\`
@@ -732,6 +735,21 @@ const x = Plot.plot({...});  // Dead variable, won't render
 \`\`\`js
 display(Plot.plot({...}))  // Renders immediately
 \`\`\`
+
+**❌ Don't (HTML Tables):**
+```javascript
+\`\`\`js
+const rows = data.map(d => `<tr><td>${d.value}</td></tr>`).join("");
+display(html`<table>${rows}</table>`);  // Renders as escaped text!
+\`\`\`
+
+**✅ Do (HTML Tables):**
+```javascript
+\`\`\`js
+const rows = data.map(d => html`<tr><td>${d.value}</td></tr>`);
+display(html`<table>${rows}</table>`);  // Renders correctly
+\`\`\`
+Always use `html` template literals for HTML content, never build plain strings and interpolate them.
 
 ### Data Files (Static vs. Computed)
 
@@ -755,7 +773,7 @@ export default function() {
   // Transform and aggregate
   return raw.map(item => ({...item, computed: item.x + item.y}));
 }
-```
+````
 
 ---
 

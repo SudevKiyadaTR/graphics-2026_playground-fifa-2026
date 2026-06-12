@@ -19,11 +19,11 @@ function aggregateTeamPower(prData) {
     const attackScore = player.attackingScore || 0;
     const defScore = player.defensiveScore || 0;
     const creScore = player.creativityScore || 0;
-    
+
     if (!isFinite(attackScore) || !isFinite(defScore) || !isFinite(creScore)) {
       return;
     }
-    
+
     if (!teams[teamName]) {
       teams[teamName] = { attacking: 0, defensive: 0, creativity: 0, count: 0 };
     }
@@ -32,11 +32,14 @@ function aggregateTeamPower(prData) {
     teams[teamName].creativity += creScore;
     teams[teamName].count += 1;
   });
-  
+
   return Object.entries(teams)
     .map(([team, scores]) => ({
       team,
-      power: scores.count > 0 ? (scores.attacking + scores.defensive + scores.creativity) / (3 * scores.count) : 0,
+      power:
+        scores.count > 0
+          ? (scores.attacking + scores.defensive + scores.creativity) / (3 * scores.count)
+          : 0,
     }))
     .filter((t) => isFinite(t.power))
     .sort((a, b) => b.power - a.power);
@@ -89,7 +92,8 @@ if (matchData.length === 0) {
           y: "totalGoals",
           fill: "totalGoals",
           r: 6,
-          title: (d) => `Match ${d.matchIndex + 1}: ${d.homeTeam} vs ${d.awayTeam}\n${d.score}\nTotal Goals: ${d.totalGoals}`,
+          title: (d) =>
+            `Match ${d.matchIndex + 1}: ${d.homeTeam} vs ${d.awayTeam}\n${d.score}\nTotal Goals: ${d.totalGoals}`,
         }),
       ],
     })
@@ -129,49 +133,46 @@ if (teamPower.length > 0) {
 ```js
 const groups = [...new Set(standings.map((s) => s.group))].sort();
 
-const allGroupsHtml = groups
-  .map((group) => {
-    const teamStandings = standings
-      .filter((s) => s.group === group)
-      .sort((a, b) => {
-        if (b.pts !== a.pts) return b.pts - a.pts;
-        if (b.gd !== a.gd) return b.gd - a.gd;
-        return b.gf - a.gf;
-      });
+groups.forEach((group) => {
+  const teamStandings = standings
+    .filter((s) => s.group === group)
+    .sort((a, b) => {
+      if (b.pts !== a.pts) return b.pts - a.pts;
+      if (b.gd !== a.gd) return b.gd - a.gd;
+      return b.gf - a.gf;
+    });
 
-    const rows = teamStandings
-      .map(
-        (row) =>
-          `<tr><td style="text-align:left;padding:6px 8px">${row.team}</td><td style="text-align:right;padding:6px 8px">${row.played}</td><td style="text-align:right;padding:6px 8px">${row.w}</td><td style="text-align:right;padding:6px 8px">${row.d}</td><td style="text-align:right;padding:6px 8px">${row.l}</td><td style="text-align:right;padding:6px 8px">${row.gf}</td><td style="text-align:right;padding:6px 8px">${row.ga}</td><td style="text-align:right;padding:6px 8px;color:${row.gd >= 0 ? "#4CAF50" : "#ff6b6b"}">${row.gd > 0 ? "+" : ""}${row.gd}</td><td style="text-align:right;padding:6px 8px;font-weight:bold;color:#FFD700">${row.pts}</td></tr>`,
-      )
-      .join("");
-
-    return `<h3 style="margin-top:24px">${group}</h3><table style="width:100%;border-collapse:collapse;border:1px solid #333"><tr><th style="text-align:left;padding:6px 8px">Team</th><th style="text-align:right;padding:6px 8px">P</th><th style="text-align:right;padding:6px 8px">W</th><th style="text-align:right;padding:6px 8px">D</th><th style="text-align:right;padding:6px 8px">L</th><th style="text-align:right;padding:6px 8px">GF</th><th style="text-align:right;padding:6px 8px">GA</th><th style="text-align:right;padding:6px 8px">GD</th><th style="text-align:right;padding:6px 8px">Pts</th></tr>${rows}</table>`;
-  })
-  .join("");
-
-display(html`${allGroupsHtml}`);
+  display(
+    html`<h3 style="margin-top: 24px">${group}</h3>${Inputs.table(teamStandings, {
+      columns: ["team", "played", "w", "d", "l", "gf", "ga", "gd", "pts"],
+      header: {
+        team: "Team",
+        played: "P",
+        w: "W",
+        d: "D",
+        l: "L",
+        gf: "GF",
+        ga: "GA",
+        gd: "GD",
+        pts: "Pts",
+      },
+    })}`
+  );
+});
 ```
 
 ## Top Scorers
 
 ```js
-const scorersRows = topScorers
-  .slice(0, 15)
-  .map(
-    (s, i) =>
-      `<tr><td style="text-align:left;padding:8px;font-weight:bold;color:#FFD700">${i + 1}</td><td style="text-align:left;padding:8px">${s.player}</td><td style="text-align:left;padding:8px">${s.team}</td><td style="text-align:right;padding:8px;font-weight:bold;color:#4CAF50">${s.goals}</td><td style="text-align:right;padding:8px">${s.assists}</td></tr>`,
-  )
-  .join("");
-
-display(html`<table style="width:100%;border-collapse:collapse;border:1px solid #333">
-  <tr>
-    <th style="text-align:left;padding:8px">#</th>
-    <th style="text-align:left;padding:8px">Player</th>
-    <th style="text-align:left;padding:8px">Team</th>
-    <th style="text-align:right;padding:8px">Goals</th>
-    <th style="text-align:right;padding:8px">Assists</th>
-  </tr>
-  ${scorersRows}
-</table>`);
+display(
+  Inputs.table(topScorers.slice(0, 15), {
+    columns: ["player", "team", "goals", "assists"],
+    header: {
+      player: "Player",
+      team: "Team",
+      goals: "Goals",
+      assists: "Assists",
+    },
+  })
+);
 ```

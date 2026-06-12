@@ -6,7 +6,12 @@ const dataDir = "./src/data";
 
 describe("Data Files", () => {
   it("should have all required JSON files", () => {
-    const files = ["matches.json", "standings.json", "top-scorers.json", "latest-power-ranking.json"];
+    const files = [
+      "matches.json",
+      "standings.json",
+      "top-scorers.json",
+      "latest-power-ranking.json",
+    ];
     files.forEach((file) => {
       const filepath = path.join(dataDir, file);
       expect(fs.existsSync(filepath), `${file} should exist`).toBe(true);
@@ -49,7 +54,9 @@ describe("Data Quality", () => {
   });
 
   it("power ranking data should have valid structure", () => {
-    const pr = JSON.parse(fs.readFileSync(path.join(dataDir, "latest-power-ranking.json"), "utf-8"));
+    const pr = JSON.parse(
+      fs.readFileSync(path.join(dataDir, "latest-power-ranking.json"), "utf-8")
+    );
     expect(pr).toHaveProperty("outfieldPlayers");
     expect(Array.isArray(pr.outfieldPlayers)).toBe(true);
     pr.outfieldPlayers.slice(0, 5).forEach((player) => {
@@ -65,7 +72,9 @@ describe("Data Quality", () => {
 
 describe("Aggregation Logic", () => {
   it("should aggregate team power correctly", () => {
-    const pr = JSON.parse(fs.readFileSync(path.join(dataDir, "latest-power-ranking.json"), "utf-8"));
+    const pr = JSON.parse(
+      fs.readFileSync(path.join(dataDir, "latest-power-ranking.json"), "utf-8")
+    );
 
     const teams = {};
     pr.outfieldPlayers.forEach((player) => {
@@ -90,7 +99,10 @@ describe("Aggregation Logic", () => {
     const result = Object.entries(teams)
       .map(([team, scores]) => ({
         team,
-        power: scores.count > 0 ? (scores.attacking + scores.defensive + scores.creativity) / (3 * scores.count) : 0,
+        power:
+          scores.count > 0
+            ? (scores.attacking + scores.defensive + scores.creativity) / (3 * scores.count)
+            : 0,
       }))
       .filter((t) => isFinite(t.power))
       .sort((a, b) => b.power - a.power);
