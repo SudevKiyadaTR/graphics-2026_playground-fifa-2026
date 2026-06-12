@@ -38,8 +38,8 @@ export default function () {
 
     let liveData = JSON.parse(fs.readFileSync(liveFile, "utf-8"));
     const statsFile = path.join(matchDir, "player-stats.json");
-    const allPlayerStats = fs.existsSync(statsFile) 
-      ? JSON.parse(fs.readFileSync(statsFile, "utf-8")) 
+    const allPlayerStats = fs.existsSync(statsFile)
+      ? JSON.parse(fs.readFileSync(statsFile, "utf-8"))
       : {};
 
     try {
@@ -49,82 +49,82 @@ export default function () {
         if (!team || !team.Players) continue;
 
         const teamName = getLocalizedName(team.TeamName) || "Unknown";
-        
+
         for (const player of team.Players) {
           const playerId = String(player.IdPlayer);
           const playerName = getLocalizedName(player.PlayerName) || `Player ${playerId}`;
           const stats = allPlayerStats[playerId] || [];
 
-        if (!playerData[playerId]) {
-          playerData[playerId] = {
-            player: playerName,
-            team: teamName,
-            matchesPlayed: 0,
-            // Sum fields
-            goals: 0,
-            assists: 0,
-            passes: 0,
-            passesCompleted: 0,
-            penalties: 0,
-            penaltiesScored: 0,
-            speedRuns: 0,
-            sprints: 0,
-            timePlayed: 0,
-            totalDistance: 0,
-            distanceHighSpeedRunning: 0,
-            distanceHighSpeedSprinting: 0,
-            distanceJogging: 0,
-            distanceLowSpeedSprinting: 0,
-            distanceWalking: 0,
-            // Average fields (store as arrays for later averaging)
-            avgSpeed: [],
-            threat: [],
-            topSpeed: [],
-          };
-        }
+          if (!playerData[playerId]) {
+            playerData[playerId] = {
+              player: playerName,
+              team: teamName,
+              matchesPlayed: 0,
+              // Sum fields
+              goals: 0,
+              assists: 0,
+              passes: 0,
+              passesCompleted: 0,
+              penalties: 0,
+              penaltiesScored: 0,
+              speedRuns: 0,
+              sprints: 0,
+              timePlayed: 0,
+              totalDistance: 0,
+              distanceHighSpeedRunning: 0,
+              distanceHighSpeedSprinting: 0,
+              distanceJogging: 0,
+              distanceLowSpeedSprinting: 0,
+              distanceWalking: 0,
+              // Average fields (store as arrays for later averaging)
+              avgSpeed: [],
+              threat: [],
+              topSpeed: [],
+            };
+          }
 
-        // Increment match count
-        playerData[playerId].matchesPlayed += 1;
+          // Increment match count
+          playerData[playerId].matchesPlayed += 1;
 
-        // Accumulate sum stats
-        playerData[playerId].goals += getStatValue(stats, "Goals");
-        playerData[playerId].assists += getStatValue(stats, "Assists");
-        playerData[playerId].passes += getStatValue(stats, "Passes");
-        playerData[playerId].passesCompleted += getStatValue(stats, "PassesCompleted");
-        playerData[playerId].penalties += getStatValue(stats, "Penalties");
-        playerData[playerId].penaltiesScored += getStatValue(stats, "PenaltiesScored");
-        playerData[playerId].speedRuns += getStatValue(stats, "SpeedRuns");
-        playerData[playerId].sprints += getStatValue(stats, "Sprints");
-        playerData[playerId].timePlayed += getStatValue(stats, "TimePlayed");
-        playerData[playerId].totalDistance += getStatValue(stats, "TotalDistance");
-        playerData[playerId].distanceHighSpeedRunning += getStatValue(
-          stats,
-          "DistanceHighSpeedRunning"
-        );
-        playerData[playerId].distanceHighSpeedSprinting += getStatValue(
-          stats,
-          "DistanceHighSpeedSprinting"
-        );
-        playerData[playerId].distanceJogging += getStatValue(stats, "DistanceJogging");
-        playerData[playerId].distanceLowSpeedSprinting += getStatValue(
-          stats,
-          "DistanceLowSpeedSprinting"
-        );
-        playerData[playerId].distanceWalking += getStatValue(stats, "DistanceWalking");
+          // Accumulate sum stats
+          playerData[playerId].goals += getStatValue(stats, "Goals");
+          playerData[playerId].assists += getStatValue(stats, "Assists");
+          playerData[playerId].passes += getStatValue(stats, "Passes");
+          playerData[playerId].passesCompleted += getStatValue(stats, "PassesCompleted");
+          playerData[playerId].penalties += getStatValue(stats, "Penalties");
+          playerData[playerId].penaltiesScored += getStatValue(stats, "PenaltiesScored");
+          playerData[playerId].speedRuns += getStatValue(stats, "SpeedRuns");
+          playerData[playerId].sprints += getStatValue(stats, "Sprints");
+          playerData[playerId].timePlayed += getStatValue(stats, "TimePlayed");
+          playerData[playerId].totalDistance += getStatValue(stats, "TotalDistance");
+          playerData[playerId].distanceHighSpeedRunning += getStatValue(
+            stats,
+            "DistanceHighSpeedRunning"
+          );
+          playerData[playerId].distanceHighSpeedSprinting += getStatValue(
+            stats,
+            "DistanceHighSpeedSprinting"
+          );
+          playerData[playerId].distanceJogging += getStatValue(stats, "DistanceJogging");
+          playerData[playerId].distanceLowSpeedSprinting += getStatValue(
+            stats,
+            "DistanceLowSpeedSprinting"
+          );
+          playerData[playerId].distanceWalking += getStatValue(stats, "DistanceWalking");
 
-        // Collect average stats
-        const avgSpeedVal = getStatValue(stats, "AvgSpeed");
-        if (avgSpeedVal > 0) {
-          playerData[playerId].avgSpeed.push(avgSpeedVal);
-        }
-        const threatVal = getStatValue(stats, "Threat");
-        if (threatVal > 0) {
-          playerData[playerId].threat.push(threatVal);
-        }
-        const topSpeedVal = getStatValue(stats, "TopSpeed");
-        if (topSpeedVal > 0) {
-          playerData[playerId].topSpeed.push(topSpeedVal);
-        }
+          // Collect average stats
+          const avgSpeedVal = getStatValue(stats, "AvgSpeed");
+          if (avgSpeedVal > 0) {
+            playerData[playerId].avgSpeed.push(avgSpeedVal);
+          }
+          const threatVal = getStatValue(stats, "Threat");
+          if (threatVal > 0) {
+            playerData[playerId].threat.push(threatVal);
+          }
+          const topSpeedVal = getStatValue(stats, "TopSpeed");
+          if (topSpeedVal > 0) {
+            playerData[playerId].topSpeed.push(topSpeedVal);
+          }
         }
       }
     } catch (error) {
