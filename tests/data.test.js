@@ -51,6 +51,9 @@ describe("Data Quality", () => {
       expect(isFinite(entry.goals)).toBe(true);
       expect(isNaN(entry.goals)).toBe(false);
     });
+
+    const uniquePlayers = new Set(scorers.map((entry) => entry.player));
+    expect(uniquePlayers.size).toBe(scorers.length);
   });
 
   it("power ranking data should have valid structure", () => {

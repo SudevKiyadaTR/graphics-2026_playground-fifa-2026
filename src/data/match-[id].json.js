@@ -26,12 +26,14 @@ function getMatchBundle(matchId) {
     throw new Error(`Match ${matchId} not found`);
   }
 
+  const matchDir = path.join(DATA_DIR, "matches", String(matchId));
+
   return {
     meta: match,
-    timeline: readJsonFile(path.join(DATA_DIR, "timelines", `${matchId}.json`)),
-    teamStats: readJsonFile(path.join(DATA_DIR, "team-stats", `${matchId}.json`)),
-    playerStats: readJsonFile(path.join(DATA_DIR, "player-stats", `${matchId}.json`)),
-    powerRanking: readJsonFile(path.join(DATA_DIR, "power-ranking", `${matchId}.json`)),
+    timeline: readJsonFile(path.join(matchDir, "timeline.json")),
+    teamStats: readJsonFile(path.join(matchDir, "team-stats.json")),
+    playerStats: readJsonFile(path.join(matchDir, "player-stats.json")),
+    powerRanking: readJsonFile(path.join(matchDir, "power-ranking.json")),
   };
 }
 
