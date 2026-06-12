@@ -110,13 +110,6 @@ teamPower.length > 0
           fill: "#4CAF50",
           title: (d) => `${d.team}: ${d.power.toFixed(2)}`,
         }),
-        Plot.text(teamPower.slice(0, 16), {
-          y: "team",
-          x: "power",
-          text: (d) => d.power.toFixed(2),
-          dx: 4,
-          textAnchor: "start",
-        }),
       ],
     })
   : html`<p style="color:#999">No power ranking data yet</p>`;
