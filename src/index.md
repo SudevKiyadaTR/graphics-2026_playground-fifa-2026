@@ -75,16 +75,16 @@ matchData.length > 0
   ? Plot.plot({
       title: "Goals per Match",
       width: 960,
-      height: 60,
-      marginLeft: 40,
-      marginRight: 20,
+      height: 300,
       x: { label: "Match Index" },
-      y: { axis: null },
+      y: { label: "Total Goals" },
       color: { scheme: "RdYlBu", type: "linear", reverse: true, label: "Total Goals" },
       marks: [
-        Plot.cell(matchData, {
+        Plot.dot(matchData, {
           x: "matchIndex",
+          y: "totalGoals",
           fill: "totalGoals",
+          r: 6,
           title: (d) => `Match ${d.matchIndex + 1}: ${d.homeTeam} vs ${d.awayTeam}\n${d.score}\nTotal Goals: ${d.totalGoals}`,
         }),
       ],
