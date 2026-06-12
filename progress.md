@@ -10,6 +10,7 @@
 | 4    | ✅     | 2026-06-12   | Scraper — per-match data             |
 | 5    | ✅     | 2026-06-12   | Per-match data loader                |
 | 6    | ✅     | 2026-06-12   | Schedule cron + GitHub Actions       |
+| 7    | ✅     | 2026-06-12   | Derived loaders (standings, scorers)  |
 
 ---
 
@@ -84,3 +85,16 @@ _Entries appended after each completed task._
   - ✅ `cron/schedule.sh` is executable and runs without error
   - ✅ `.github/workflows/scrape.yml` is valid YAML with 12-hour schedule
   - ✅ Workflow commits changed files with timestamped message
+
+### Task 7 — Derived loaders (standings, top scorers)
+
+- **Completed:** 2026-06-12 19:15
+- **Files changed:** `src/data/standings.json.js`, `src/data/top-scorers.json.js`
+- **What was done:** Created two derived Observable data loaders that compute derived datasets from raw scraped data. Standings loader aggregates group standings from matches.json with win/loss/draw counts, goal differential, and points (3 per win, 1 per draw). Top scorers loader aggregates player goals and assists across all player-stats files, extracting stats from array-based format.
+- **Verification:** `npm run build` succeeds without error; both loaders output correct JSON structure and sort order
+- **Acceptance criteria met:**
+  - ✅ Standings loader outputs correct structure (team, group, played, w, d, l, gf, ga, gd, pts)
+  - ✅ Standings sorted by group → points descending → goal difference descending
+  - ✅ Top scorers loader outputs correct structure (player, team, goals, assists)
+  - ✅ Top scorers sorted by goals descending → assists descending
+  - ✅ Both build without error
