@@ -8,7 +8,21 @@ The scraper and dashboard are decoupled — the scraper runs on a cron/GitHub Ac
 
 ## Agent Behavior
 
-After completing **every task**, the agent must do both of these steps — no exceptions, no batching:
+### Before starting a task
+
+Create a branch for each task:
+
+```bash
+git checkout main
+git pull
+git checkout -b task/N-<short-slug>   # e.g. task/1-scaffold, task/7-standings-loader
+```
+
+Work entirely on that branch. Do not commit directly to `main`.
+
+---
+
+After completing **every task**, the agent must do all three of these steps — no exceptions, no batching:
 
 ### 1. Update `progress.md`
 
@@ -25,15 +39,25 @@ Append a new entry under `## Task Log` in this format:
 
 Also update the summary table at the top of `progress.md` — replace the placeholder row or add a new row for the completed task.
 
-### 2. Commit and push
+### 2. Commit and push the branch
 
 ```bash
 git add -A
 git commit -m "feat: complete Task N — <task name>"
+git push -u origin task/N-<short-slug>
+```
+
+### 3. Merge to main
+
+```bash
+git checkout main
+git merge --no-ff task/N-<short-slug> -m "feat(task-N): <task name>
+
+<2–4 sentence description of what was built, why it matters, and any notable decisions or trade-offs.>"
 git push
 ```
 
-Both steps are **required before starting the next task**. Do not skip or defer them.
+All three steps are **required before starting the next task**. Do not skip or defer them.
 
 ---
 
