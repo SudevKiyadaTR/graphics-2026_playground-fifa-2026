@@ -157,9 +157,6 @@ async function fetchMatches() {
 }
 
 async function fetchTimelines(matches) {
-  const timelinesDir = path.join(DATA_DIR, "timelines");
-  await ensureDir(timelinesDir);
-
   console.log("\nFetching match timelines...");
   let fetched = 0;
   let skipped = 0;
@@ -169,7 +166,9 @@ async function fetchTimelines(matches) {
       continue;
     }
 
-    const filepath = path.join(timelinesDir, `${match.id}.json`);
+    const matchDir = path.join(DATA_DIR, "matches", String(match.id));
+    await ensureDir(matchDir);
+    const filepath = path.join(matchDir, "timeline.json");
     if (!shouldFetch(filepath)) {
       skipped++;
       continue;
@@ -193,9 +192,6 @@ async function fetchTimelines(matches) {
 }
 
 async function fetchMatchStats(matches) {
-  const statsDir = path.join(DATA_DIR, "match-stats");
-  await ensureDir(statsDir);
-
   console.log("\nFetching match statistics...");
   let fetched = 0;
   let skipped = 0;
@@ -205,7 +201,9 @@ async function fetchMatchStats(matches) {
       continue;
     }
 
-    const filepath = path.join(statsDir, `${match.id}.json`);
+    const matchDir = path.join(DATA_DIR, "matches", String(match.id));
+    await ensureDir(matchDir);
+    const filepath = path.join(matchDir, "match-stats.json");
     if (!shouldFetch(filepath)) {
       skipped++;
       continue;
@@ -229,9 +227,6 @@ async function fetchMatchStats(matches) {
 }
 
 async function fetchTeamStats(matches) {
-  const statsDir = path.join(DATA_DIR, "team-stats");
-  await ensureDir(statsDir);
-
   console.log("\nFetching team statistics...");
   let fetched = 0;
   let skipped = 0;
@@ -241,7 +236,9 @@ async function fetchTeamStats(matches) {
       continue;
     }
 
-    const filepath = path.join(statsDir, `${match.id}.json`);
+    const matchDir = path.join(DATA_DIR, "matches", String(match.id));
+    await ensureDir(matchDir);
+    const filepath = path.join(matchDir, "team-stats.json");
     if (!shouldFetch(filepath)) {
       skipped++;
       continue;
@@ -265,9 +262,6 @@ async function fetchTeamStats(matches) {
 }
 
 async function fetchPlayerStats(matches) {
-  const statsDir = path.join(DATA_DIR, "player-stats");
-  await ensureDir(statsDir);
-
   console.log("\nFetching player statistics...");
   let fetched = 0;
   let skipped = 0;
@@ -277,7 +271,9 @@ async function fetchPlayerStats(matches) {
       continue;
     }
 
-    const filepath = path.join(statsDir, `${match.id}.json`);
+    const matchDir = path.join(DATA_DIR, "matches", String(match.id));
+    await ensureDir(matchDir);
+    const filepath = path.join(matchDir, "player-stats.json");
     if (!shouldFetch(filepath)) {
       skipped++;
       continue;
@@ -301,9 +297,6 @@ async function fetchPlayerStats(matches) {
 }
 
 async function fetchPowerRanking(matches) {
-  const powerDir = path.join(DATA_DIR, "power-ranking");
-  await ensureDir(powerDir);
-
   console.log("\nFetching power rankings...");
   let fetched = 0;
   let skipped = 0;
@@ -313,7 +306,9 @@ async function fetchPowerRanking(matches) {
       continue;
     }
 
-    const filepath = path.join(powerDir, `${match.id}.json`);
+    const matchDir = path.join(DATA_DIR, "matches", String(match.id));
+    await ensureDir(matchDir);
+    const filepath = path.join(matchDir, "power-ranking.json");
     if (!shouldFetch(filepath)) {
       skipped++;
       continue;

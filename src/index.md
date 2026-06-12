@@ -10,6 +10,7 @@ const matches = await FileAttachment("./data/matches.json").json();
 const standings = await FileAttachment("./data/standings.json").json();
 const topScorers = await FileAttachment("./data/top-scorers.json").json();
 const powerRankingData = await FileAttachment("./data/latest-power-ranking.json").json();
+const powerRankingPlayers = await FileAttachment("./data/power-ranking-players.json").json();
 
 function aggregateTeamPower(prData) {
   if (!prData || !prData.outfieldPlayers) return [];
@@ -45,18 +46,12 @@ function aggregateTeamPower(prData) {
     .sort((a, b) => b.power - a.power);
 }
 
-function enrichTopScorerNames(scorers, prData) {
-  if (!prData || !prData.outfieldPlayers) return scorers;
-  
-  const playerNameMap = {};
-  prData.outfieldPlayers.forEach((player) => {
-    const enGbName = player.playerName?.find((n) => n.locale === "en-GB")?.description;
-    playerNameMap[player.playerId] = enGbName || player.playerName?.[0]?.description;
-  });
-  
+function enrichTopScorerNames(scorers, playerLookup) {
+  if (!playerLookup) return scorers;
+
   return scorers.map((scorer) => {
     const playerId = parseInt(scorer.player.match(/\d+/)?.[0] || 0);
-    const playerName = playerNameMap[playerId];
+    const playerName = playerLookup[playerId]?.playerName;
     return {
       ...scorer,
       playerName: playerName || scorer.player,
@@ -71,9 +66,7 @@ function getTopPlayerPower(prData) {
       name: player.playerName?.[0]?.description || "Unknown",
       team: player.teamName?.[0]?.description || "Unknown",
       power:
-        (player.attackingScore || 0) +
-        (player.defensiveScore || 0) +
-        (player.creativityScore || 0),
+        (player.attackingScore || 0) + (player.defensiveScore || 0) + (player.creativityScore || 0),
     }))
     .filter((p) => isFinite(p.power) && p.power > 0)
     .sort((a, b) => b.power - a.power)
@@ -82,7 +75,7 @@ function getTopPlayerPower(prData) {
 
 const teamPower = aggregateTeamPower(powerRankingData);
 const topPlayerPower = getTopPlayerPower(powerRankingData);
-const enrichedTopScorers = enrichTopScorerNames(topScorers, powerRankingData);
+const enrichedTopScorers = enrichTopScorerNames(topScorers, powerRankingPlayers);
 ```
 
 ## Match Schedule
@@ -180,20 +173,21 @@ groups.forEach((group) => {
     });
 
   display(
-    html`<h3 style="margin-top: 24px">${group}</h3>${Inputs.table(teamStandings, {
-      columns: ["team", "played", "w", "d", "l", "gf", "ga", "gd", "pts"],
-      header: {
-        team: "Team",
-        played: "P",
-        w: "W",
-        d: "D",
-        l: "L",
-        gf: "GF",
-        ga: "GA",
-        gd: "GD",
-        pts: "Pts",
-      },
-    })}`
+    html`<h3 style="margin-top: 24px">${group}</h3>
+      ${Inputs.table(teamStandings, {
+        columns: ["team", "played", "w", "d", "l", "gf", "ga", "gd", "pts"],
+        header: {
+          team: "Team",
+          played: "P",
+          w: "W",
+          d: "D",
+          l: "L",
+          gf: "GF",
+          ga: "GA",
+          gd: "GD",
+          pts: "Pts",
+        },
+      })}`
   );
 });
 ```
