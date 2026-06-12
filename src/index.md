@@ -50,7 +50,8 @@ function enrichTopScorerNames(scorers, prData) {
   
   const playerNameMap = {};
   prData.outfieldPlayers.forEach((player) => {
-    playerNameMap[player.playerId] = player.playerName?.[0]?.description;
+    const enGbName = player.playerName?.find((n) => n.locale === "en-GB")?.description;
+    playerNameMap[player.playerId] = enGbName || player.playerName?.[0]?.description;
   });
   
   return scorers.map((scorer) => {
