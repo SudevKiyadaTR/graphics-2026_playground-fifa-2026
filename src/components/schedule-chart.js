@@ -2,58 +2,58 @@ import * as Plot from "@observablehq/plot";
 
 export function scheduleChart(matches) {
   const data = matches
-    .map((m) => ({
-      ...m,
-      dateObj: new Date(m.date),
-      result: m.homeScore !== null ? `${m.homeScore}-${m.awayScore}` : "TBD",
+    .map((m, i) => ({
+      index: i + 1,
+      date: new Date(m.date),
+      homeTeam: m.homeTeam,
+      awayTeam: m.awayTeam,
+      score:
+        m.homeScore !== null ? `${m.homeScore}-${m.awayScore}` : "TBD",
       played: m.homeScore !== null,
     }))
-    .sort((a, b) => a.dateObj - b.dateObj);
+    .sort((a, b) => a.date - b.date);
 
   return Plot.plot({
     style: {
       background: "transparent",
       color: "var(--text-primary)",
-      fontFamily: "'Inter', sans-serif",
-      fontSize: "12px",
     },
-    width: 1100,
-    height: 500,
-    marginLeft: 100,
+    width: 1000,
+    height: 600,
+    marginLeft: 80,
     marginBottom: 40,
     marginTop: 20,
     marginRight: 20,
     marks: [
-      Plot.dot(data, {
-        x: (d, i) => i + 1,
-        y: (d) => d.dateObj,
-        fill: (d) => (d.played ? "var(--positive)" : "var(--series-3)"),
-        stroke: "var(--border)",
-        strokeWidth: 1,
+      Plot.text(data, {
+        x: (d) => d.index,
+        y: (d) => d.date,
+        text: (d) => d.score,
+        fontSize: 12,
+        fontWeight: "bold",
+        fill: (d) =>
+          d.played ? "var(--positive)" : "var(--series-3)",
       }),
       Plot.text(data, {
-        x: (d, i) => i + 1,
-        y: (d) => d.dateObj,
-        text: (d) => d.result,
-        fontSize: 11,
-        fontWeight: 600,
-        fill: "var(--text-primary)",
-        dy: -12,
-      }),
-      Plot.text(data, {
-        x: (d, i) => i + 1,
-        y: (d) => d.dateObj,
-        text: (d) => `${d.homeTeam} vs ${d.awayTeam}`,
-        fontSize: 10,
+        x: (d) => d.index,
+        y: (d) => d.date,
+        text: (d) =>
+          `${d.homeTeam.substring(0, 3).toUpperCase()} vs ${d.awayTeam
+            .substring(0, 3)
+            .toUpperCase()}`,
+        fontSize: 9,
         fill: "var(--text-secondary)",
-        dy: 2,
-        dx: 10,
+        dy: 12,
       }),
-      Plot.axisX({ label: "Matches (chronological order)" }),
-      Plot.axisY({ label: "Date" }),
-      Plot.gridX({ stroke: "var(--border-subtle)", opacity: 0.2 }),
-      Plot.gridY({ stroke: "var(--border-subtle)", opacity: 0.2 }),
+      Plot.axisX({
+        label: "Match #",
+        tickSize: 4,
+        labelOffset: 30,
+      }),
+      Plot.axisY({
+        label: "Date",
+        tickSize: 4,
+      }),
     ],
   });
 }
-
