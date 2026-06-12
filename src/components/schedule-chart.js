@@ -1,7 +1,6 @@
 import * as Plot from "@observablehq/plot";
 
 export function scheduleChart(matches) {
-  // Prepare data: sort by date
   const data = matches
     .map((m) => ({
       ...m,
@@ -24,21 +23,18 @@ export function scheduleChart(matches) {
     marginBottom: 40,
     marginTop: 20,
     marginRight: 20,
-    x: { type: "linear", label: "Match Sequence" },
-    y: (d) => d.dateObj,
     marks: [
       Plot.dot(data, {
         x: (d, i) => i + 1,
-        y: "dateObj",
+        y: (d) => d.dateObj,
         fill: (d) => (d.played ? "var(--positive)" : "var(--series-3)"),
-        r: 5,
         stroke: "var(--border)",
         strokeWidth: 1,
       }),
       Plot.text(data, {
         x: (d, i) => i + 1,
-        y: "dateObj",
-        text: "result",
+        y: (d) => d.dateObj,
+        text: (d) => d.result,
         fontSize: 11,
         fontWeight: 600,
         fill: "var(--text-primary)",
@@ -46,18 +42,18 @@ export function scheduleChart(matches) {
       }),
       Plot.text(data, {
         x: (d, i) => i + 1,
-        y: "dateObj",
+        y: (d) => d.dateObj,
         text: (d) => `${d.homeTeam} vs ${d.awayTeam}`,
         fontSize: 10,
         fill: "var(--text-secondary)",
         dy: 2,
-        anchor: "start",
         dx: 10,
       }),
       Plot.axisX({ label: "Matches (chronological order)" }),
       Plot.axisY({ label: "Date" }),
-      Plot.gridX({ stroke: "var(--border-subtle)", strokeOpacity: 0.2 }),
-      Plot.gridY({ stroke: "var(--border-subtle)", strokeOpacity: 0.2 }),
+      Plot.gridX({ stroke: "var(--border-subtle)", opacity: 0.2 }),
+      Plot.gridY({ stroke: "var(--border-subtle)", opacity: 0.2 }),
     ],
   });
 }
+
