@@ -45,11 +45,29 @@ function aggregateTeamPower(prData) {
     .sort((a, b) => b.power - a.power);
 }
 
+function enrichTopScorerNames(scorers, prData) {
+  if (!prData || !prData.outfieldPlayers) return scorers;
+  
+  const playerNameMap = {};
+  prData.outfieldPlayers.forEach((player) => {
+    playerNameMap[player.playerId] = player.playerName?.[0]?.description;
+  });
+  
+  return scorers.map((scorer) => {
+    const playerId = parseInt(scorer.player.match(/\d+/)?.[0] || 0);
+    const playerName = playerNameMap[playerId];
+    return {
+      ...scorer,
+      playerName: playerName || scorer.player,
+    };
+  });
+}
+
 function getTopPlayerPower(prData) {
   if (!prData || !prData.outfieldPlayers) return [];
   return prData.outfieldPlayers
     .map((player) => ({
-      name: player.name || "Unknown",
+      name: player.playerName?.[0]?.description || "Unknown",
       team: player.teamName?.[0]?.description || "Unknown",
       power:
         (player.attackingScore || 0) +
@@ -63,6 +81,7 @@ function getTopPlayerPower(prData) {
 
 const teamPower = aggregateTeamPower(powerRankingData);
 const topPlayerPower = getTopPlayerPower(powerRankingData);
+const enrichedTopScorers = enrichTopScorerNames(topScorers, powerRankingData);
 ```
 
 ## Match Schedule
@@ -182,10 +201,10 @@ groups.forEach((group) => {
 
 ```js
 display(
-  Inputs.table(topScorers.slice(0, 15), {
-    columns: ["player", "team", "goals", "assists"],
+  Inputs.table(enrichedTopScorers.slice(0, 15), {
+    columns: ["playerName", "team", "goals", "assists"],
     header: {
-      player: "Player",
+      playerName: "Player",
       team: "Team",
       goals: "Goals",
       assists: "Assists",
