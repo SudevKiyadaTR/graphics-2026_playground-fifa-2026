@@ -16,19 +16,29 @@ function aggregateTeamPower(prData) {
   const teams = {};
   prData.outfieldPlayers.forEach((player) => {
     const teamName = player.teamName?.[0]?.description || "Unknown";
+    const attackScore = player.attackingScore || 0;
+    const defScore = player.defensiveScore || 0;
+    const creScore = player.creativityScore || 0;
+    
+    if (!isFinite(attackScore) || !isFinite(defScore) || !isFinite(creScore)) {
+      return;
+    }
+    
     if (!teams[teamName]) {
       teams[teamName] = { attacking: 0, defensive: 0, creativity: 0, count: 0 };
     }
-    teams[teamName].attacking += player.attackingScore || 0;
-    teams[teamName].defensive += player.defensiveScore || 0;
-    teams[teamName].creativity += player.creativityScore || 0;
+    teams[teamName].attacking += attackScore;
+    teams[teamName].defensive += defScore;
+    teams[teamName].creativity += creScore;
     teams[teamName].count += 1;
   });
+  
   return Object.entries(teams)
     .map(([team, scores]) => ({
       team,
-      power: (scores.attacking + scores.defensive + scores.creativity) / (3 * scores.count),
+      power: scores.count > 0 ? (scores.attacking + scores.defensive + scores.creativity) / (3 * scores.count) : 0,
     }))
+    .filter((t) => isFinite(t.power))
     .sort((a, b) => b.power - a.power);
 }
 
