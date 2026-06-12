@@ -2,18 +2,18 @@
 
 ## Summary
 
-| Task | Status | Completed At | Notes                                  |
-| ---- | ------ | ------------ | -------------------------------------- |
-| 1    | ✅     | 2026-06-12   | Scaffold project                       |
-| 2    | ✅     | 2026-06-12   | Scraper — matches list                 |
-| 3    | ✅     | 2026-06-12   | Matches data loader + schedule chart   |
-| 4    | ✅     | 2026-06-12   | Scraper — per-match data               |
-| 5    | ✅     | 2026-06-12   | Per-match data loader                  |
-| 6    | ✅     | 2026-06-12   | Schedule cron + GitHub Actions         |
-| 7    | ✅     | 2026-06-12   | Derived loaders (standings, scorers)   |
-| 8    | ✅     | 2026-06-12   | Heatmap + power rankings charts        |
-| 9    | ✅     | 2026-06-12   | Standings tables + scorers leaderboard |
-| —    | ✅     | 2026-06-12   | Refactor: Data hierarchy restructuring |
+| Task | Status | Completed At | Notes                                      |
+| ---- | ------ | ------------ | ------------------------------------------ |
+| 1    | ✅     | 2026-06-12   | Scaffold project                           |
+| 2    | ✅     | 2026-06-12   | Scraper — matches list                     |
+| 3    | ✅     | 2026-06-12   | Matches data loader + schedule chart       |
+| 4    | ✅     | 2026-06-12   | Scraper — per-match data                   |
+| 5    | ✅     | 2026-06-12   | Per-match data loader                      |
+| 6    | ✅     | 2026-06-12   | Schedule cron + GitHub Actions             |
+| 7    | ✅     | 2026-06-12   | Derived loaders (standings, scorers)       |
+| 8    | ✅     | 2026-06-12   | Heatmap + power rankings charts            |
+| 9    | ✅     | 2026-06-12   | Standings tables + scorers leaderboard     |
+| —    | ✅     | 2026-06-12   | Refactor: Data hierarchy restructuring     |
 | —    | ✅     | 2026-06-12   | Feature: Player Stats (expanded 20 fields) |
 
 ---

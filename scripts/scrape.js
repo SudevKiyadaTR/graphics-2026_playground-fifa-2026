@@ -9,6 +9,9 @@ const MANIFEST_FILE = path.join(DATA_DIR, ".scrape-manifest.json");
 
 const BASE_URL = "https://api.fifa.com/api/v3";
 const STATS_BASE_URL = "https://fdh-api.fifa.com/v1";
+// Live match endpoint: https://api.fifa.com/api/v3/live/football/{matchId}?language=en
+// Returns full squad rosters with player names, IDs, positions, and team assignments.
+// Preferred source for player identity data — more complete than power-ranking or timeline.
 const RATE_LIMIT_MS = 50;
 const PER_MATCH_RATE_LIMIT_MS = 300;
 

@@ -6,6 +6,13 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "../../scraped-data");
 const MATCHES_DIR = path.join(DATA_DIR, "matches");
 
+// NOTE: The authoritative source for player names and team assignments is the live match endpoint:
+//   https://api.fifa.com/api/v3/live/football/{matchId}?language=en
+// This returns full squad rosters with player IDs, names, positions, and teams.
+// The current implementation falls back to power-ranking.json and timeline.json,
+// which do not always include all players (e.g. substitutes without events).
+// Consider adding a scraped-data/matches/{id}/live.json file populated from this endpoint.
+
 function getLocalizedDescription(entries) {
   return (
     entries?.find((entry) => entry.locale === "en-GB")?.description || entries?.[0]?.description

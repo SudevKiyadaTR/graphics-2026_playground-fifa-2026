@@ -751,6 +751,27 @@ display(html`<table>${rows}</table>`);  // Renders correctly
 \`\`\`
 Always use `html` template literals for HTML content, never build plain strings and interpolate them.
 
+### FIFA API Endpoints
+
+The scraper uses two base URLs:
+
+| Base | Purpose |
+|------|---------|
+| `https://api.fifa.com/api/v3` | Match lists, timelines, live match data |
+| `https://fdh-api.fifa.com/v1` | Stats (player stats, team stats, power ranking) |
+
+**Key endpoints:**
+
+- **Matches list:** `GET /calendar/matches?language=en&count=100` (paginated)
+- **Timeline:** `GET /timelines/{matchId}?language=en`
+- **Player stats:** `GET https://fdh-api.fifa.com/v1/stats/match/{propertyId}/players.json`
+- **Power ranking:** `GET https://fdh-api.fifa.com/v1/powerranking/match/{propertyId}.json`
+- **Live match (player names):** `GET /live/football/{matchId}?language=en`
+
+**Player identity:** The live match endpoint is the authoritative source for player names, IDs, positions, and team assignments. It returns full squad rosters and is more complete than power-ranking or timeline data (which may omit substitutes without match events).
+
+---
+
 ### Data Files (Static vs. Computed)
 
 **Static JSON files** (checked into repo):
