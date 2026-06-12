@@ -30,6 +30,7 @@ Append a new entry under `## Task Log` in this format:
 
 ```markdown
 ### Task N — <task name>
+
 - **Completed:** YYYY-MM-DD HH:MM
 - **Files changed:** list every file created or modified
 - **What was done:** 1–3 sentences describing what was implemented

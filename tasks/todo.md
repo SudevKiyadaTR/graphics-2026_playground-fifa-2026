@@ -7,6 +7,7 @@
 - [ ] **Task 3** — Matches data loader + schedule chart on `src/index.md` (thin E2E slice)
 
 ### Checkpoint 1
+
 - [ ] Scraper runs, dev server shows schedule chart, build passes — **human review**
 
 ---
@@ -18,6 +19,7 @@
 - [ ] **Task 6** — Schedule: `cron/schedule.sh` + `.github/workflows/scrape.yml` (every 12h)
 
 ### Checkpoint 2
+
 - [ ] All scraped-data subdirectories populated, loader outputs valid bundle, schedule script works — **human review**
 
 ---
@@ -29,6 +31,7 @@
 - [ ] **Task 9** — Main dashboard: standings table + top scorers leaderboard
 
 ### Checkpoint 3
+
 - [ ] All five main dashboard sections render with real data — **human review**
 
 ---
@@ -41,6 +44,7 @@
 - [ ] **Task 13** — Match page: power ranking before/after comparison
 
 ### Checkpoint 4
+
 - [ ] Every played match renders with all four sections — **human review**
 
 ---
@@ -51,4 +55,5 @@
 - [ ] **Task 15** — README + setup docs (scraper usage, cron, deploy)
 
 ### Checkpoint 5
+
 - [ ] Full `scrape → build` pipeline works, all sections populated, README accurate — **ready to deploy**
