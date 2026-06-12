@@ -7,8 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "../scraped-data");
 
 const BASE_URL = "https://api.fifa.com/api/v3";
-const COMPETITION_ID = 17; // FIFA World Cup 2026
-const RATE_LIMIT_MS = 50; // ms between requests
+const RATE_LIMIT_MS = 50;
 
 // Ensure output directory exists
 if (!fs.existsSync(DATA_DIR)) {
@@ -24,14 +23,16 @@ async function fetchMatches() {
   let continuationToken = null;
   let pageCount = 0;
 
-  console.log("Fetching matches from FIFA API...");
+  console.log("Fetching 2026 FIFA World Cup matches...");
 
   do {
     try {
       const params = new URLSearchParams({
+        from: "2026-06-10",
+        to: "2026-07-21",
         language: "en",
         count: "500",
-        idCompetition: COMPETITION_ID,
+        idCompetition: "17",
       });
 
       if (continuationToken) {
@@ -51,17 +52,26 @@ async function fetchMatches() {
       pageCount++;
 
       if (data.Results && Array.isArray(data.Results)) {
-        const normalized = data.Results.map((match) => ({
-          id: match.IdMatch,
-          propertyId: match.Properties?.IdIFES || null,
-          homeTeam: match.HomeTeam?.Country || "Unknown",
-          awayTeam: match.AwayTeam?.Country || "Unknown",
-          date: match.Date,
-          homeScore: match.HomeTeam?.Score || null,
-          awayScore: match.AwayTeam?.Score || null,
-          stage: match.StageName || "Unknown",
-          group: match.GroupName || null,
-        }));
+        const normalized = data.Results.map((match) => {
+          const stage = Array.isArray(match.StageName)
+            ? match.StageName[0]?.Description || "Unknown"
+            : match.StageName || "Unknown";
+          const group = Array.isArray(match.GroupName)
+            ? match.GroupName[0]?.Description || null
+            : match.GroupName || null;
+
+          return {
+            id: match.IdMatch,
+            propertyId: match.Properties?.IdIFES || null,
+            homeTeam: match.HomeTeam?.Country || "Unknown",
+            awayTeam: match.AwayTeam?.Country || "Unknown",
+            date: match.Date,
+            homeScore: match.HomeTeam?.Score || null,
+            awayScore: match.AwayTeam?.Score || null,
+            stage,
+            group,
+          };
+        });
 
         matches.push(...normalized);
       }

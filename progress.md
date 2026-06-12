@@ -2,10 +2,10 @@
 
 ## Summary
 
-| Task | Status | Completed At | Notes                   |
-| ---- | ------ | ------------ | ----------------------- |
-| 1    | ✅     | 2026-06-12   | Scaffold project        |
-| 2    | ✅     | 2026-06-12   | Scraper — matches list  |
+| Task | Status | Completed At | Notes                  |
+| ---- | ------ | ------------ | ---------------------- |
+| 1    | ✅     | 2026-06-12   | Scaffold project       |
+| 2    | ✅     | 2026-06-12   | Scraper — matches list |
 
 ---
 
