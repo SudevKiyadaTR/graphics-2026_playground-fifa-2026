@@ -63,11 +63,13 @@ async function fetchMatches() {
           return {
             id: match.IdMatch,
             propertyId: match.Properties?.IdIFES || null,
-            homeTeam: match.HomeTeam?.Country || "Unknown",
-            awayTeam: match.AwayTeam?.Country || "Unknown",
+            homeTeam:
+              match.Home?.TeamName?.[0]?.Description || match.Home?.ShortClubName || "Unknown",
+            awayTeam:
+              match.Away?.TeamName?.[0]?.Description || match.Away?.ShortClubName || "Unknown",
             date: match.Date,
-            homeScore: match.HomeTeam?.Score || null,
-            awayScore: match.AwayTeam?.Score || null,
+            homeScore: match.Home?.Score || null,
+            awayScore: match.Away?.Score || null,
             stage,
             group,
           };
