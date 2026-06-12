@@ -61,50 +61,54 @@ const matchData = matches
     score: `${m.homeScore}-${m.awayScore}`,
   }));
 
-Plot.plot({
-  title: "Goals per Match",
-  width: 960,
-  height: 400,
-  x: { label: "Match", type: "point", domain: matchData.map((_, i) => i) },
-  y: { label: "Total Goals", type: "point" },
-  color: { scheme: "RdYlBu", type: "linear", reverse: true },
-  marks: [
-    Plot.rect(matchData, {
-      x: "matchIndex",
-      y: "totalGoals",
-      fill: "totalGoals",
-      title: (d) => `${d.homeTeam} vs ${d.awayTeam}\n${d.score}\nTotal: ${d.totalGoals}`,
-    }),
-  ],
-});
+matchData.length > 0
+  ? Plot.plot({
+      title: "Goals per Match",
+      width: 960,
+      height: 400,
+      x: { label: "Match", type: "point", domain: matchData.map((_, i) => i) },
+      y: { label: "Total Goals", type: "point" },
+      color: { scheme: "RdYlBu", type: "linear", reverse: true },
+      marks: [
+        Plot.rect(matchData, {
+          x: "matchIndex",
+          y: "totalGoals",
+          fill: "totalGoals",
+          title: (d) => `${d.homeTeam} vs ${d.awayTeam}\n${d.score}\nTotal: ${d.totalGoals}`,
+        }),
+      ],
+    })
+  : html`<p style="color:#999">No completed matches yet</p>`;
 ```
 
 ## Team Power Rankings
 
 ```js
-Plot.plot({
-  title: "Team Power Ratings",
-  width: 960,
-  height: 500,
-  margin: { left: 180 },
-  x: { label: "Power Score" },
-  y: { label: null },
-  marks: [
-    Plot.barX(teamPower.slice(0, 16), {
-      y: "team",
-      x: "power",
-      fill: "#4CAF50",
-      title: (d) => `${d.team}: ${d.power.toFixed(2)}`,
-    }),
-    Plot.text(teamPower.slice(0, 16), {
-      y: "team",
-      x: "power",
-      text: (d) => d.power.toFixed(2),
-      dx: 4,
-      textAnchor: "start",
-    }),
-  ],
-});
+teamPower.length > 0
+  ? Plot.plot({
+      title: "Team Power Ratings",
+      width: 960,
+      height: 500,
+      margin: { left: 180 },
+      x: { label: "Power Score" },
+      y: { label: null },
+      marks: [
+        Plot.barX(teamPower.slice(0, 16), {
+          y: "team",
+          x: "power",
+          fill: "#4CAF50",
+          title: (d) => `${d.team}: ${d.power.toFixed(2)}`,
+        }),
+        Plot.text(teamPower.slice(0, 16), {
+          y: "team",
+          x: "power",
+          text: (d) => d.power.toFixed(2),
+          dx: 4,
+          textAnchor: "start",
+        }),
+      ],
+    })
+  : html`<p style="color:#999">No power ranking data yet</p>`;
 ```
 
 ## Group Standings
@@ -112,22 +116,20 @@ Plot.plot({
 ```js
 const groups = [...new Set(standings.map((s) => s.group))].sort();
 
-function createStandingsTable(group) {
-  const teamStandings = standings
-    .filter((s) => s.group === group)
-    .sort((a, b) => {
-      if (b.pts !== a.pts) return b.pts - a.pts;
-      if (b.gd !== a.gd) return b.gd - a.gd;
-      return b.gf - a.gf;
-    });
+groups
+  .map((group) => {
+    const teamStandings = standings
+      .filter((s) => s.group === group)
+      .sort((a, b) => {
+        if (b.pts !== a.pts) return b.pts - a.pts;
+        if (b.gd !== a.gd) return b.gd - a.gd;
+        return b.gf - a.gf;
+      });
 
-  const cols = ["Team", "P", "W", "D", "L", "GF", "GA", "GD", "Pts"];
-  const header = html`<tr>
-    ${cols.map((c) => html`<th style="text-align:right;padding:6px 8px">${c}</th>`)}
-  </tr>`;
-  const rows = teamStandings.map(
-    (row) =>
-      html`<tr>
+    const table = teamStandings
+      .map(
+        (row) =>
+          `<tr>
         <td style="text-align:left;padding:6px 8px">${row.team}</td>
         <td style="text-align:right;padding:6px 8px">${row.played}</td>
         <td style="text-align:right;padding:6px 8px">${row.w}</td>
@@ -139,52 +141,50 @@ function createStandingsTable(group) {
           ${row.gd > 0 ? "+" : ""}${row.gd}
         </td>
         <td style="text-align:right;padding:6px 8px;font-weight:bold;color:#FFD700">${row.pts}</td>
-      </tr>`
-  );
+      </tr>`,
+      )
+      .join("");
 
-  return html`<table style="width:100%;border-collapse:collapse;border:1px solid #333">
-    ${header}${rows}
-  </table>`;
-}
-
-html`
-  ${groups.map(
-    (group) =>
-      html`<h3 style="margin-top:24px">${group}</h3>
-        ${createStandingsTable(group)}`
-  )}
-`;
+    return `<h3 style="margin-top:24px">${group}</h3>
+      <table style="width:100%;border-collapse:collapse;border:1px solid #333">
+        <tr>
+          <th style="text-align:left;padding:6px 8px">Team</th>
+          <th style="text-align:right;padding:6px 8px">P</th>
+          <th style="text-align:right;padding:6px 8px">W</th>
+          <th style="text-align:right;padding:6px 8px">D</th>
+          <th style="text-align:right;padding:6px 8px">L</th>
+          <th style="text-align:right;padding:6px 8px">GF</th>
+          <th style="text-align:right;padding:6px 8px">GA</th>
+          <th style="text-align:right;padding:6px 8px">GD</th>
+          <th style="text-align:right;padding:6px 8px">Pts</th>
+        </tr>
+        ${table}
+      </table>`;
+  })
+  .join("");
 ```
 
 ## Top Scorers
 
 ```js
-const scorersDisplay = topScorers.slice(0, 15).map((s) => ({
-  ...s,
-  rank: topScorers.indexOf(s) + 1,
-}));
+const scorersDisplay = topScorers.slice(0, 15);
 
-html`
-  <table style="width:100%;border-collapse:collapse;border:1px solid #333">
+scorersDisplay
+  .map(
+    (s, i) => `<tr>
+      <td style="text-align:left;padding:8px;font-weight:bold;color:#FFD700">${i + 1}</td>
+      <td style="text-align:left;padding:8px">${s.player}</td>
+      <td style="text-align:left;padding:8px">${s.team}</td>
+      <td style="text-align:right;padding:8px;font-weight:bold;color:#4CAF50">${s.goals}</td>
+      <td style="text-align:right;padding:8px">${s.assists}</td>
+    </tr>`,
+  )
+  .reduce((acc, row) => acc + row, `<table style="width:100%;border-collapse:collapse;border:1px solid #333">
     <tr>
       <th style="text-align:left;padding:8px">#</th>
       <th style="text-align:left;padding:8px">Player</th>
       <th style="text-align:left;padding:8px">Team</th>
       <th style="text-align:right;padding:8px">Goals</th>
       <th style="text-align:right;padding:8px">Assists</th>
-    </tr>
-    ${scorersDisplay
-      .map(
-        (s) =>
-          html`<tr>
-            <td style="text-align:left;padding:8px;font-weight:bold;color:#FFD700">${s.rank}</td>
-            <td style="text-align:left;padding:8px">${s.player}</td>
-            <td style="text-align:left;padding:8px">${s.team}</td>
-            <td style="text-align:right;padding:8px;font-weight:bold;color:#4CAF50">${s.goals}</td>
-            <td style="text-align:right;padding:8px">${s.assists}</td>
-          </tr>`
-      )
-      .join("")}
-  </table>
-`;
+    </tr>`) + `</table>`;
 ```
