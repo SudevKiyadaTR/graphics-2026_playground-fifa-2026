@@ -20,23 +20,6 @@ function getLocalizedName(entries) {
   );
 }
 
-function getPlayerTeamFromLive(liveData, playerId) {
-  if (!liveData) return null;
-  for (const side of ["HomeTeam", "AwayTeam"]) {
-    const team = liveData[side];
-    if (!team) continue;
-    const found = (team.Players || []).find((p) => String(p.IdPlayer) === String(playerId));
-    if (found) return getLocalizedName(team.TeamName) || null;
-  }
-  return null;
-}
-
-function getPlayerTeamFromPowerRanking(powerRankingData, playerId) {
-  if (!powerRankingData || !powerRankingData.outfieldPlayers) return null;
-  const player = powerRankingData.outfieldPlayers.find((p) => p.playerId === Number(playerId));
-  return player ? getLocalizedName(player.teamName) || null : null;
-}
-
 export default function () {
   const matches = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "matches.json"), "utf-8"));
 
@@ -48,38 +31,34 @@ export default function () {
     }
 
     const matchDir = path.join(DATA_DIR, "matches", String(match.id));
-    const statsFile = path.join(matchDir, "player-stats.json");
-    if (!fs.existsSync(statsFile)) {
+    const liveFile = path.join(matchDir, "live.json");
+    if (!fs.existsSync(liveFile)) {
       continue;
     }
 
-    let liveData = null;
-    const liveFile = path.join(matchDir, "live.json");
-    if (fs.existsSync(liveFile)) {
-      liveData = JSON.parse(fs.readFileSync(liveFile, "utf-8"));
-    }
-
-    let powerRankingData = null;
-    const powerRankingFile = path.join(matchDir, "power-ranking.json");
-    if (fs.existsSync(powerRankingFile)) {
-      powerRankingData = JSON.parse(fs.readFileSync(powerRankingFile, "utf-8"));
-    }
+    let liveData = JSON.parse(fs.readFileSync(liveFile, "utf-8"));
+    const statsFile = path.join(matchDir, "player-stats.json");
+    const allPlayerStats = fs.existsSync(statsFile) 
+      ? JSON.parse(fs.readFileSync(statsFile, "utf-8")) 
+      : {};
 
     try {
-      const allPlayerStats = JSON.parse(fs.readFileSync(statsFile, "utf-8"));
+      // Process players from live.json as source of truth
+      for (const side of ["HomeTeam", "AwayTeam"]) {
+        const team = liveData[side];
+        if (!team || !team.Players) continue;
 
-      for (const [playerId, stats] of Object.entries(allPlayerStats)) {
-        // Skip invalid player IDs from API artifacts
-        if (playerId === "-1" || playerId === "-1") continue;
-
-        let team = getPlayerTeamFromLive(liveData, playerId);
-        if (!team) team = getPlayerTeamFromPowerRanking(powerRankingData, playerId);
-        if (!team) team = "Unknown";
+        const teamName = getLocalizedName(team.TeamName) || "Unknown";
+        
+        for (const player of team.Players) {
+          const playerId = String(player.IdPlayer);
+          const playerName = getLocalizedName(player.PlayerName) || `Player ${playerId}`;
+          const stats = allPlayerStats[playerId] || [];
 
         if (!playerData[playerId]) {
           playerData[playerId] = {
-            player: `Player ${playerId}`,
-            team,
+            player: playerName,
+            team: teamName,
             matchesPlayed: 0,
             // Sum fields
             goals: 0,
@@ -146,14 +125,10 @@ export default function () {
         if (topSpeedVal > 0) {
           playerData[playerId].topSpeed.push(topSpeedVal);
         }
-
-        // Update team if we had Unknown
-        if (playerData[playerId].team === "Unknown" && team !== "Unknown") {
-          playerData[playerId].team = team;
         }
       }
     } catch (error) {
-      console.warn(`Error reading player stats for match ${match.id}: ${error.message}`);
+      console.warn(`Error reading player data for match ${match.id}: ${error.message}`);
     }
   }
 
@@ -195,7 +170,7 @@ export default function () {
   result.sort((a, b) => {
     if (b.goals !== a.goals) return b.goals - a.goals;
     if (b.assists !== a.assists) return b.assists - a.assists;
-    return a.player.localeCompare(b.player);
+    return String(a.player).localeCompare(String(b.player));
   });
 
   return result;
