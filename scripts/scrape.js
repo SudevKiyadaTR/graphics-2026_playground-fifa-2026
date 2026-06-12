@@ -72,8 +72,8 @@ function getMatchesToScrape(matches, manifest) {
   return matches.filter((match) => {
     if (!match.propertyId) return false;
     if (manifest.scrapedMatches[match.id]) return false;
-    // Only scrape matches that have a final score (i.e. finished)
-    return match.homeScore !== null && match.awayScore !== null;
+    // Only scrape finished matches: if either score is recorded (null = 0), match is finished
+    return match.homeScore !== null || match.awayScore !== null;
   });
 }
 
