@@ -8,6 +8,8 @@
 | 2    | ✅     | 2026-06-12   | Scraper — matches list               |
 | 3    | ✅     | 2026-06-12   | Matches data loader + schedule chart |
 | 4    | ✅     | 2026-06-12   | Scraper — per-match data             |
+| 5    | ✅     | 2026-06-12   | Per-match data loader                |
+| 6    | ✅     | 2026-06-12   | Schedule cron + GitHub Actions       |
 
 ---
 
@@ -61,3 +63,24 @@ _Entries appended after each completed task._
   - ✅ Unplayed matches skipped implicitly (no propertyId check)
   - ✅ Each file is valid parseable JSON
   - ✅ Re-running skips existing files via manifest tracking (incremental)
+
+### Task 5 — Per-match data loader
+
+- **Completed:** 2026-06-12 18:45
+- **Files changed:** `src/data/match-[id].json.js`
+- **What was done:** Created parameterized Observable Framework data loader that reads the five per-match scraped files (timelines, team-stats, match-stats, player-stats, power-ranking) and merges them into a single bundle. Returns {meta, timeline, teamStats, playerStats, powerRanking} structure.
+- **Verification:** Tested with real match IDs (400021441 has all data, 400021440 has only timeline); missing files return null instead of crashing
+- **Acceptance criteria met:**
+  - ✅ Loader outputs valid JSON with keys: meta, timeline, teamStats, playerStats, powerRanking
+  - ✅ Missing files output null for that key instead of crashing
+
+### Task 6 — Schedule cron / GitHub Actions
+
+- **Completed:** 2026-06-12 18:50
+- **Files changed:** `cron/schedule.sh`, `.github/workflows/scrape.yml`
+- **What was done:** Created executable cron wrapper script (schedule.sh) that runs scraper and builds dashboard. Created GitHub Actions workflow (scrape.yml) with 12-hour schedule that fetches updated data and commits to git with timestamped message.
+- **Verification:** Tested schedule.sh locally; verified .github/workflows/scrape.yml has valid YAML syntax and correct cron schedule (0 */12 * * *)
+- **Acceptance criteria met:**
+  - ✅ `cron/schedule.sh` is executable and runs without error
+  - ✅ `.github/workflows/scrape.yml` is valid YAML with 12-hour schedule
+  - ✅ Workflow commits changed files with timestamped message
