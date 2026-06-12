@@ -311,9 +311,12 @@ Plot.mark(Plot.dot, {
 
 ### Basic Usage Pattern
 
+Observable Framework automatically renders values returned from code cells. The idiomatic pattern is to return the visualization directly:
+
 ```javascript
 import * as Plot from "@observablehq/plot";
 
+// In a markdown code cell, return the chart directly:
 Plot.plot({
   title: "Chart Title",
   width: 800,
@@ -337,8 +340,10 @@ Plot.plot({
     Plot.axisX(),
     Plot.axisY(),
   ],
-});
+})
 ```
+
+**Key pattern:** In Observable Framework markdown cells, simply **return** the visualization object—no `display()` call needed. The framework automatically renders it in the page.
 
 ### Advanced Features
 
@@ -390,7 +395,9 @@ Plot.plot({
 
 ### Observable Framework + Plot
 
-**Simplest Integration:**
+**Idiomatic Pattern (Recommended):**
+
+Code cells automatically render their return value. Just return the Plot visualization:
 
 ```javascript
 // src/index.md
@@ -399,9 +406,23 @@ import * as Plot from "@observablehq/plot";
 const data = await FileAttachment("./data.json").json();
 
 \`\`\`js
-display(Plot.plot({
+Plot.plot({
   marks: [Plot.dot(data, { x: "x", y: "y" })]
-}))
+})
+\`\`\`
+```
+
+**Conditional Rendering:**
+
+Use a ternary or early return to conditionally render different content:
+
+```javascript
+\`\`\`js
+data.length > 0
+  ? Plot.plot({
+      marks: [Plot.dot(data, { x: "x", y: "y" })]
+    })
+  : html\`<p style="color:#999">No data available</p>\`
 \`\`\`
 ```
 
@@ -422,9 +443,27 @@ export default function () {
 const data = await FileAttachment("./data/processed.json").json();
 ```
 
+**Using `display()` (When Necessary):**
+
+The `display()` function is rarely needed. Use it only when you need explicit control over rendering, such as imperative updates or side effects:
+
+```javascript
+\`\`\`js
+if (shouldRender) {
+  display(Plot.plot({...}));
+} else {
+  display(html\`<p>Loading...</p>\`);
+}
+\`\`\`
+```
+
+However, the return-value pattern above is preferred in most cases.
+
 ### Observable Framework + D3
 
 **Direct DOM Manipulation:**
+
+Return the SVG node from the D3 visualization:
 
 ```javascript
 // src/components/chart.js
@@ -447,13 +486,14 @@ export function chart(data) {
     .attr("cy", (d, i) => 50 + i * 10)
     .attr("r", 3);
 
-  return svg.node();
+  return svg.node();  // Return the SVG element
 }
 
 // src/index.md
 import { chart } from "./components/chart.js";
+
 \`\`\`js
-display(chart(data))
+chart(data)  // Just return the result—framework renders it
 \`\`\`
 ```
 
@@ -526,6 +566,7 @@ Plot.plot({
 ### Interactive Comparison: Faceted Scatter
 
 ```javascript
+\`\`\`js
 Plot.plot({
   facetX: "category",
   marks: [
@@ -536,7 +577,8 @@ Plot.plot({
       tip: true,
     }),
   ],
-});
+})
+\`\`\`
 ```
 
 ### Data Table with Sorting
@@ -555,12 +597,13 @@ html\`
     \`)}
   </table>
 \`
-\`\`
+\`\`\`
 ```
 
 ### Heatmap with Plot
 
 ```javascript
+\`\`\`js
 Plot.plot({
   x: { scale: "band", label: "Hour" },
   y: { scale: "band", label: "Day" },
@@ -572,7 +615,153 @@ Plot.plot({
       fill: "temperature",
     }),
   ],
-});
+})
+\`\`\`
+```
+
+### Responsive Charts with `resize()`
+
+For charts that adapt to viewport width, use the `resize()` function:
+
+```javascript
+// src/components/responsive-chart.js
+export function responsiveChart(data) {
+  return (width) => {
+    return Plot.plot({
+      width,
+      height: 400,
+      marks: [Plot.dot(data, { x: "x", y: "y" })]
+    });
+  };
+}
+
+// src/index.md
+\`\`\`js
+resize((width) => Plot.plot({
+  width,
+  marks: [Plot.dot(data, { x: "x", y: "y" })]
+}))
+\`\`\`
+```
+
+This ensures charts reflow when the window resizes.
+
+---
+
+---
+
+## 6. Observable Framework Idioms & Best Practices
+
+### The Cell Return Pattern (Idiomatic)
+
+In Observable Framework markdown, code cells automatically render their return value. This is the preferred pattern:
+
+```javascript
+// Idiomatic: return the value
+\`\`\`js
+Plot.plot({ marks: [Plot.dot(data, { x: "x", y: "y" })] })
+\`\`\`
+
+// Idiomatic: conditional with ternary
+\`\`\`js
+data.length > 0
+  ? Plot.plot({ marks: [Plot.dot(data, { x: "x", y: "y" })] })
+  : html\`<p>No data</p>\`
+\`\`\`
+```
+
+### When to Use `display()` (Rarely)
+
+The `display()` function is for imperative rendering when you need explicit control:
+
+```javascript
+// Use display() only when necessary
+\`\`\`js
+if (condition) {
+  display(plot1);
+} else if (otherCondition) {
+  display(plot2);
+} else {
+  display(html\`<p>No data</p>\`);
+}
+\`\`\`
+```
+
+In most cases, **ternary or early returns are cleaner**:
+
+```javascript
+// Better: use ternary
+\`\`\`js
+condition
+  ? plot1
+  : otherCondition
+    ? plot2
+    : html\`<p>No data</p>\`
+\`\`\`
+```
+
+### Responsive Charts with `resize()`
+
+Observable Framework provides `resize()` for charts that reflow with viewport:
+
+```javascript
+\`\`\`js
+resize((width) => Plot.plot({
+  width,
+  height: 400,
+  marks: [Plot.dot(data, { x: "x", y: "y" })]
+}))
+\`\`\`
+```
+
+### Avoiding Common Mistakes
+
+**❌ Don't:**
+```javascript
+\`\`\`js
+display(Plot.plot({...}));  // Unnecessary display()
+\`\`\`
+
+**✅ Do:**
+```javascript
+\`\`\`js
+Plot.plot({...})  // Just return it
+\`\`\`
+
+**❌ Don't:**
+```javascript
+\`\`\`js
+const x = Plot.plot({...});  // Dead variable
+\`\`\`
+
+**✅ Do:**
+```javascript
+\`\`\`js
+Plot.plot({...})  // Direct return renders immediately
+\`\`\`
+
+### Data Files (Static vs. Computed)
+
+**Static JSON files** (checked into repo):
+- Use when data is stable or updated offline
+- Load with `FileAttachment("./data.json").json()`
+- Preferred for CI/CD-generated data (like scraped tournament data)
+
+**Data loaders** (computed at build time):
+- Use when data needs transformation or aggregation
+- File named `data.json.js` exports a function
+- Great for derived datasets (standings, rankings)
+- Observable Framework runs these at build time and generates `.json` files
+
+```javascript
+// src/data/derived.json.js
+import fs from "fs";
+
+export default function() {
+  const raw = JSON.parse(fs.readFileSync("./raw.json"));
+  // Transform and aggregate
+  return raw.map(item => ({...item, computed: item.x + item.y}));
+}
 ```
 
 ---
@@ -583,5 +772,8 @@ Plot.plot({
 2. **Observable Plot** is the modern choice for declarative, data-driven visualizations
 3. **D3** remains powerful for custom interactions and complex visualizations
 4. **Combine** them: Plot for quick charts, D3 for advanced control
-5. **Data loaders** separate data fetching from visualization rendering
+5. **Data loaders** separate data fetching from visualization rendering (run at build time)
 6. **Composition** over chart types: layer simple marks to build complex visualizations
+7. **Return values, not `display()`**: Let Observable Framework render values automatically
+8. **`resize()` for responsive charts**: Adapts to viewport width changes
+9. **Static data files** are ideal for CI/CD pipelines (like the FIFA scraper)
