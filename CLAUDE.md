@@ -70,6 +70,22 @@ Tasks are defined in `tasks/plan.md`. Work through them in order. Stop at each C
 
 All visual decisions must follow `DESIGN.md` (typography, colour tokens, chart conventions, spacing system).
 
+## LLM Documentation
+
+Before making decisions about display conventions, data formatting, terminology, or football/soccer rules, consult these references:
+
+- **`LLM_TRAINING_GUIDE.md`** — Observable Framework, D3.js, and Observable Plot technical patterns. Reference when deciding on chart types, data binding patterns, and reactive updates.
+- **`FIFA_CONVENTIONS.md`** — Tournament structure, scoring notation, display standards, rules, and terminology. Reference for:
+  - Score notation (always `HomeScore-AwayScore`)
+  - How to display unplayed matches (use "TBD", not "0-0")
+  - Tiebreaker logic and group advancement rules
+  - Match classification (Group Stage, Round of 16, Quarterfinal, etc.)
+  - Data table column names and sort order
+  - Color coding (green for completed, gray for pending)
+  - How to avoid common mistakes
+
+Always default to these standards for consistency across the dashboard. If a decision about how data should look or behave is needed, check these files first.
+
 ## Tech Stack
 
 - Observable Framework (`npm run dev`, `npm run build`)
