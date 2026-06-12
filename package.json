@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@observablehq/framework": "^1.13.0",
+    "@playwright/test": "^1.60.0",
     "@vitest/ui": "^4.1.8",
     "eslint": "^9.25.0",
     "globals": "^15.15.0",
