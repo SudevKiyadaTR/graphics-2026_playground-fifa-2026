@@ -45,7 +45,24 @@ function aggregateTeamPower(prData) {
     .sort((a, b) => b.power - a.power);
 }
 
+function getTopPlayerPower(prData) {
+  if (!prData || !prData.outfieldPlayers) return [];
+  return prData.outfieldPlayers
+    .map((player) => ({
+      name: player.name || "Unknown",
+      team: player.teamName?.[0]?.description || "Unknown",
+      power:
+        (player.attackingScore || 0) +
+        (player.defensiveScore || 0) +
+        (player.creativityScore || 0),
+    }))
+    .filter((p) => isFinite(p.power) && p.power > 0)
+    .sort((a, b) => b.power - a.power)
+    .slice(0, 16);
+}
+
 const teamPower = aggregateTeamPower(powerRankingData);
+const topPlayerPower = getTopPlayerPower(powerRankingData);
 ```
 
 ## Match Schedule
@@ -101,30 +118,30 @@ if (matchData.length === 0) {
 }
 ```
 
-## Team Power Rankings
+## Player Power Rankings
 
 ```js
-if (teamPower.length > 0) {
+if (topPlayerPower.length > 0) {
   display(
     Plot.plot({
-      title: "Team Power Ratings",
+      title: "Top Player Power Ratings",
       width: 960,
       height: 500,
       margin: { left: 180 },
       x: { label: "Power Score" },
       y: { label: null },
       marks: [
-        Plot.barX(teamPower.slice(0, 16), {
-          y: "team",
+        Plot.barX(topPlayerPower, {
+          y: "name",
           x: "power",
           fill: "#4CAF50",
-          title: (d) => `${d.team}: ${d.power.toFixed(2)}`,
+          title: (d) => `${d.name} (${d.team}): ${d.power.toFixed(2)}`,
         }),
       ],
     })
   );
 } else {
-  display(html`<p style="color:#999">No power ranking data yet</p>`);
+  display(html`<p style="color:#999">No player power data yet</p>`);
 }
 ```
 
