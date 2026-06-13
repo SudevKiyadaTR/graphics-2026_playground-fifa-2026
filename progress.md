@@ -13,6 +13,7 @@
 | 7    | ✅     | 2026-06-12   | Derived loaders (standings, scorers)       |
 | 8    | ✅     | 2026-06-12   | Heatmap + power rankings charts            |
 | 9    | ✅     | 2026-06-12   | Standings tables + scorers leaderboard     |
+| 10   | ✅     | 2026-06-12   | Match page scaffold + routing              |
 | —    | ✅     | 2026-06-12   | Refactor: Data hierarchy restructuring     |
 | —    | ✅     | 2026-06-12   | Feature: Player Stats (expanded 20 fields) |
 | —    | ✅     | 2026-06-12   | Simplify homepage + loader cleanup         |
@@ -168,3 +169,16 @@ _Entries appended after each completed task._
   - ✅ Player stats are on a dedicated page
   - ✅ Unused loader/data artifacts tied to removed dashboard sections deleted
   - ✅ Build succeeds after cleanup
+
+### Task 10 — Match page scaffold + routing
+
+- **Completed:** 2026-06-12 21:30
+- **Files changed:** `observablehq.config.js`, `src/matches/[id].md`
+- **What was done:** Created parameterized match page template `src/matches/[id].md` that loads match metadata from matches.json and dynamically fetches per-match data files (timeline, team-stats, player-stats, power-ranking). Updated `observablehq.config.js` to add `dynamicPaths` async generator that reads all matches from `scraped-data/matches.json` and yields route paths for each match. Configured parametrized page entry for `/matches/:id`.
+- **Verification:** `npm run build` succeeds, page template renders with match data lookup and error handling for missing per-match files. Dev server routes to specific match pages (e.g., `/matches/400021441`) with page.params.id populated.
+- **Acceptance criteria met:**
+  - ✅ `npm run build` succeeds
+  - ✅ Parameterized page template created at `src/matches/[id].md`
+  - ✅ `dynamicPaths` configured as async generator reading `scraped-data/matches.json`
+  - ✅ Match metadata loads from matches.json; title renders as "Home Team vs Away Team"
+  - ✅ Per-match data bundles load gracefully (null if missing)
