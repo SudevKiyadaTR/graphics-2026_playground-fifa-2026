@@ -70,15 +70,99 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("width", fieldWidth)
     .attr("height", fieldHeight);
 
+  // Define arrow marker for trajectory lines
+  fieldGroup
+    .append("defs")
+    .append("marker")
+    .attr("id", "arrowhead")
+    .attr("markerWidth", 10)
+    .attr("markerHeight", 10)
+    .attr("refX", 9)
+    .attr("refY", 3)
+    .attr("orient", "auto")
+    .append("polygon")
+    .attr("points", "0 0, 10 3, 0 6")
+    .attr("fill", "#fbbf24");
+
+  // Create trajectory lines group (behind points)
+  const trajectoriesGroup = fieldGroup
+    .append("g")
+    .attr("class", "trajectories")
+    .attr("clip-path", "url(#field-clip)");
+
   // Create points group
   const pointsGroup = fieldGroup
     .append("g")
     .attr("class", "event-points")
     .attr("clip-path", "url(#field-clip)");
 
+  /**
+   * Convert goal gate position to field coordinates
+   * GoalGatePositionX/Y are in the goal frame's local coordinate system
+   * Goal is 7.32m wide × 2.44m tall, centered on field
+   */
+  function convertGoalGateToFieldPosition(goalGateX, goalGateY, isLeftGoal) {
+    // Goal dimensions as percentage of field
+    const goalWidthPercent = (7.32 / 105) * 100; // ~6.97%
+    const goalHeightPercent = (2.44 / 68) * 100; // ~3.59%
+
+    const fieldX = isLeftGoal
+      ? (goalGateX / 100) * goalWidthPercent
+      : 100 - (goalGateX / 100) * goalWidthPercent;
+
+    // Goal is centered vertically at y=50
+    const goalCenter = 50;
+    const goalHalfHeight = goalHeightPercent / 2;
+    const fieldY = goalCenter - goalHalfHeight + (goalGateY / 100) * goalHeightPercent;
+
+    return { x: fieldX, y: fieldY };
+  }
+
   // Function to update visible points based on current time
   function updatePoints(time) {
     const visibleEvents = eventsWithPosition.filter((e) => parseMinute(e.MatchMinute) <= time);
+
+    // Update trajectory lines for goal attempts and goals
+    const eventsWithGoal = visibleEvents.filter(
+      (e) => e.GoalGatePositionX !== undefined && e.GoalGatePositionY !== undefined
+    );
+
+    const trajectories = trajectoriesGroup.selectAll("line").data(eventsWithGoal, (d) => d.EventId);
+
+    // Enter - draw trajectory lines
+    trajectories
+      .enter()
+      .append("line")
+      .attr("x1", (d) => (d.PositionX / 100) * fieldWidth)
+      .attr("y1", (d) => (d.PositionY / 100) * fieldHeight)
+      .attr("x2", (d) => {
+        const isLeftGoal = d.PositionX < 50;
+        const goalPos = convertGoalGateToFieldPosition(
+          d.GoalGatePositionX,
+          d.GoalGatePositionY,
+          isLeftGoal
+        );
+        return (goalPos.x / 100) * fieldWidth;
+      })
+      .attr("y2", (d) => {
+        const isLeftGoal = d.PositionX < 50;
+        const goalPos = convertGoalGateToFieldPosition(
+          d.GoalGatePositionX,
+          d.GoalGatePositionY,
+          isLeftGoal
+        );
+        return (goalPos.y / 100) * fieldHeight;
+      })
+      .attr("stroke", (d) => {
+        // Goals in red, attempts in blue
+        return d.Type === 0 ? "#e8394b" : "#4fb3e8";
+      })
+      .attr("stroke-width", 1.5)
+      .attr("opacity", 0.6)
+      .attr("marker-end", "url(#arrowhead)");
+
+    // Exit
+    trajectories.exit().remove();
 
     const points = pointsGroup.selectAll("circle").data(visibleEvents, (d) => d.EventId);
 
