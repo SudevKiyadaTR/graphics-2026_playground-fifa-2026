@@ -140,6 +140,14 @@
   height: auto;
 }
 
+.field-timeline-container {
+}
+
+.field-timeline-container svg {
+  width: 100%;
+  height: auto;
+}
+
 .timeline-event {
   padding: 12px;
   border-left: 3px solid var(--border);
@@ -187,8 +195,9 @@ const timelines = await FileAttachment("../data/match-timelines.json").json();
 const stadiums = await FileAttachment("../data/stadium-info.json").json();
 const liveDataMap = await FileAttachment("../data/live-data.json").json();
 
-// Import D3 and timeline chart component
+// Import D3 and chart components
 import { matchTimelineChart } from "../components/match-timeline-chart.js";
+import { footballFieldTimeline } from "../components/football-field-timeline.js";
 const d3 = await import("https://cdn.jsdelivr.net/npm/d3@7.8.5/+esm");
 
 // Extract match ID from URL path
@@ -260,6 +269,14 @@ display(html`
           <section class="section-card">
             <h2 class="section-title">Match Timeline</h2>
             <div class="timeline-chart-container">${matchTimelineChart(match, events, d3)}</div>
+          </section>
+        `
+      : ""}
+    ${events.length > 0
+      ? html`
+          <section class="section-card">
+            <h2 class="section-title">Field Timeline</h2>
+            <div class="field-timeline-container">${footballFieldTimeline(match, events, d3)}</div>
           </section>
         `
       : ""}
