@@ -17,3 +17,6 @@
 [   40018ms] [INFO] socket open @ http://localhost:3000/_observablehq/client.js:409
 [   40019ms] [INFO] ↑ {type: hello, path: /matches/400021443, hash: f90ea89bc529b44c789abed8295fddea76dd4883c52ccb5c4e3c86addbc9d943} @ http://localhost:3000/_observablehq/client.js:561
 [   40037ms] [INFO] ↓ {type: welcome} @ http://localhost:3000/_observablehq/client.js:415
+[  238799ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[  302968ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[  331985ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415

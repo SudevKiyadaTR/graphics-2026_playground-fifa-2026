@@ -197,3 +197,17 @@ _Entries appended after each completed task._
   - ✅ Color-coded left borders match event type colors
   - ✅ Tooltip positioning, shadow, and typography match dark theme design
   - ✅ No console errors or warnings
+
+### Feature — Tooltip polish: instant hide + full event descriptions
+
+- **Completed:** 2026-06-13 15:05
+- **Files changed:** `src/components/match-timeline-chart.js`
+- **What was done:** Polished tooltip behavior for better UX. (1) Removed 2.5-second auto-hide timeout; tooltip now disappears instantly when pointer leaves marker via mouseout handler. (2) Changed description priority to show full detailed event text (e.g., "Alexis VEGA (in) comes off the bench to replace Julian QUINONES (out) (Mexico)") instead of just event type labels (e.g., "Substitution"). Event description now takes priority over TypeLocalized, ensuring rich context is always visible.
+- **Verification:** Tested on localhost:3000/matches/400021443. (1) Moved pointer away from markers at 76'; tooltip disappeared within 100ms (instant). (2) Hovered over 76' marker; tooltip shows full substitution descriptions with player names, actions, and team. Tested with fouls, substitutions, and yellow cards—all show complete event text. `npm run lint:fix` and `npm run format` pass clean.
+- **Acceptance criteria met:**
+  - ✅ Tooltip hides instantly on mouseout (no delay)
+  - ✅ Event descriptions show full text from EventDescription.Description field
+  - ✅ Substitution events show player names and actions
+  - ✅ Foul events show player name and action text
+  - ✅ Team grouping and color-coded borders preserved
+  - ✅ Pointer-events properly managed on circle elements
