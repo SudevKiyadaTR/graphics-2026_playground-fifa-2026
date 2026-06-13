@@ -184,6 +184,7 @@
 ```js
 const matches = await FileAttachment("../data/matches.json").json();
 const timelines = await FileAttachment("../data/match-timelines.json").json();
+const stadiums = await FileAttachment("../data/stadium-info.json").json();
 
 // Import D3 and timeline chart component
 import { matchTimelineChart } from "../components/match-timeline-chart.js";
@@ -202,6 +203,22 @@ if (!match) {
 
 const timeline = timelines[String(match.id)] || { Event: [] };
 const events = timeline.Event || [];
+
+// Load live data for stadium and attendance info
+let liveData = null;
+try {
+  const liveResponse = await fetch(`https://raw.githubusercontent.com/SudevKiyadaTR/graphics-2026_playground-fifa-2026/main/scraped-data/matches/${matchId}/live.json`);
+  if (liveResponse.ok) {
+    liveData = await liveResponse.json();
+  }
+} catch (e) {
+  console.error("Could not load live data:", e);
+}
+
+const stadiumName = liveData?.Stadium?.Name?.[0]?.Description || "Unknown Stadium";
+const attendance = liveData?.Attendance ? Number(liveData.Attendance).toLocaleString() : "–";
+const stadiumInfo = stadiums.stadiums.find((s) => s.name === stadiumName) || {};
+const capacity = stadiumInfo.capacity ? stadiumInfo.capacity.toLocaleString() : "–";
 ```
 
 ```js
@@ -230,18 +247,16 @@ display(html`
       </div>
       <div class="match-meta">
         <div class="meta-item">
-          <div class="meta-label">Status</div>
-          <div class="meta-value">${match.homeScore !== null ? "Final" : "Upcoming"}</div>
+          <div class="meta-label">Stadium</div>
+          <div class="meta-value">${stadiumName}</div>
         </div>
         <div class="meta-item">
-          <div class="meta-label">Events</div>
-          <div class="meta-value">${events.length}</div>
+          <div class="meta-label">Capacity</div>
+          <div class="meta-value">${capacity}</div>
         </div>
         <div class="meta-item">
-          <div class="meta-label">Goals</div>
-          <div class="meta-value">
-            ${match.homeScore !== null ? Number(match.homeScore) + Number(match.awayScore) : "–"}
-          </div>
+          <div class="meta-label">Attendance</div>
+          <div class="meta-value">${attendance}</div>
         </div>
       </div>
     </section>
