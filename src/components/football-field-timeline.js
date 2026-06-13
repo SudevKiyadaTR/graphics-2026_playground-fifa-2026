@@ -174,17 +174,21 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("stroke", "white")
     .attr("stroke-width", 2);
 
-  // Time labels
+  // Time labels - responsive alignment with timeline
   const timeLabel = timelineContainer
     .append("div")
     .attr(
       "style",
-      "margin-top: 6px; display: flex; justify-content: space-between; font: 400 0.75rem DM Mono, monospace; color: var(--text-secondary);"
+      `margin-top: 6px; display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 0 ${margin.left}px; font: 400 0.75rem DM Mono, monospace; color: var(--text-secondary);`
     );
 
   timeLabel.append("span").text("0'");
-  timeLabel.append("span").attr("class", "current-time").text("0'");
-  timeLabel.append("span").text(`${matchDuration}'`);
+  timeLabel
+    .append("span")
+    .attr("class", "current-time")
+    .attr("style", "text-align: center;")
+    .text("0'");
+  timeLabel.append("span").attr("style", "text-align: right;").text(`${matchDuration}'`);
 
   // Make timeline interactive
   const timelineArea = timelineSvg
