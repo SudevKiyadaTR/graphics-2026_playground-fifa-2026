@@ -6,6 +6,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "../scraped-data");
 const MANIFEST_FILE = path.join(DATA_DIR, ".scrape-manifest.json");
+const STADIUMS_FILE = path.join(__dirname, "stadium-coordinates.json");
 
 const BASE_URL = "https://api.fifa.com/api/v3";
 const STATS_BASE_URL = "https://fdh-api.fifa.com/v1";
@@ -380,6 +381,112 @@ async function fetchLiveMatchData(matches) {
   console.log(`✓ Fetched ${fetched} live match records (skipped ${skipped} existing)`);
 }
 
+async function enrichWeatherData(matches) {
+  console.log("\nEnriching match data with historical weather...");
+
+  const stadiums = JSON.parse(fs.readFileSync(STADIUMS_FILE, "utf-8")).stadiums;
+  let enriched = 0;
+
+  for (const match of matches) {
+    const matchDir = path.join(DATA_DIR, "matches", String(match.id));
+    const liveFile = path.join(matchDir, "live.json");
+
+    if (!fs.existsSync(liveFile)) continue;
+
+    try {
+      const liveData = JSON.parse(fs.readFileSync(liveFile, "utf-8"));
+
+      // Skip if weather already populated
+      if (liveData.Weather && liveData.Weather.Temperature !== null) {
+        continue;
+      }
+
+      // Get stadium coordinates
+      const stadiumName = liveData.Stadium?.Name?.[0]?.Description;
+      if (!stadiumName || !stadiums[stadiumName]) {
+        continue;
+      }
+
+      const { lat, lon } = stadiums[stadiumName];
+      const matchDate = liveData.LocalDate
+        ? new Date(liveData.LocalDate).toISOString().split("T")[0]
+        : null;
+
+      if (!matchDate) continue;
+
+      // Fetch historical weather from Open-Meteo
+      const weatherUrl = `https://archive-api.open-meteo.com/v1/archive?latitude=${lat}&longitude=${lon}&start_date=${matchDate}&end_date=${matchDate}&hourly=temperature_2m,weather_code,wind_speed_10m,relative_humidity_2m&timezone=auto`;
+
+      const response = await fetch(weatherUrl);
+      if (!response.ok) {
+        console.warn(`Could not fetch weather for ${stadiumName}`);
+        continue;
+      }
+
+      const weatherData = await response.json();
+
+      if (weatherData.hourly && weatherData.hourly.temperature_2m.length > 0) {
+        // Get the temperature at match time (noon as default)
+        const matchHour = 12;
+        const tempIndex = Math.min(matchHour, weatherData.hourly.temperature_2m.length - 1);
+
+        const temperature = weatherData.hourly.temperature_2m[tempIndex];
+        const humidity = weatherData.hourly.relative_humidity_2m[tempIndex];
+        const windSpeed = weatherData.hourly.wind_speed_10m[tempIndex];
+        const weatherCode = weatherData.hourly.weather_code[tempIndex];
+
+        // Map weather code to description
+        const weatherTypes = {
+          0: "Clear sky",
+          1: "Mainly clear",
+          2: "Partly cloudy",
+          3: "Overcast",
+          45: "Foggy",
+          48: "Foggy",
+          51: "Light drizzle",
+          53: "Moderate drizzle",
+          55: "Dense drizzle",
+          61: "Slight rain",
+          63: "Moderate rain",
+          65: "Heavy rain",
+          71: "Slight snow",
+          73: "Moderate snow",
+          75: "Heavy snow",
+          77: "Snow grains",
+          80: "Slight rain showers",
+          81: "Moderate rain showers",
+          82: "Violent rain showers",
+          85: "Slight snow showers",
+          86: "Heavy snow showers",
+          95: "Thunderstorm",
+          96: "Thunderstorm with hail",
+          99: "Thunderstorm with hail",
+        };
+
+        liveData.Weather = {
+          Temperature: Math.round(temperature * 10) / 10,
+          Humidity: humidity,
+          WindSpeed: Math.round(windSpeed * 10) / 10,
+          Type: weatherTypes[weatherCode] || "Unknown",
+          TypeLocalized: [{ Locale: "en-GB", Description: weatherTypes[weatherCode] || "Unknown" }],
+        };
+
+        fs.writeFileSync(liveFile, JSON.stringify(liveData, null, 2));
+        enriched++;
+        console.log(
+          `  ✓ Weather for match ${match.id} (${stadiumName}): ${liveData.Weather.Temperature}°C, ${liveData.Weather.Type}`
+        );
+      }
+
+      await sleep(200); // Rate limit for Open-Meteo
+    } catch (error) {
+      console.warn(`Error enriching weather for match ${match.id}: ${error.message}`);
+    }
+  }
+
+  console.log(`✓ Enriched ${enriched} matches with weather data`);
+}
+
 async function fetchPowerRanking(matches) {
   console.log("\nFetching power rankings...");
   let fetched = 0;
@@ -438,6 +545,7 @@ async function main() {
     await fetchPlayerStats(toScrape);
     await fetchPowerRanking(toScrape);
     await fetchLiveMatchData(toScrape);
+    await enrichWeatherData(toScrape);
 
     toScrape.forEach((m) => {
       manifest.scrapedMatches[m.id] = true;
