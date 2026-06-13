@@ -96,11 +96,11 @@ export function footballFieldTimeline(match, events, d3) {
       .attr("class", "event-point")
       .on("mouseenter", function (event, d) {
         d3.select(this).attr("r", 7).attr("opacity", 1);
-        showTooltip(event, d);
+        showTooltip(event, d, this);
       })
       .on("mouseleave", function () {
         d3.select(this).attr("r", 5).attr("opacity", 0.7);
-        hideTooltip();
+        hideTooltip(this);
       });
 
     // Exit
@@ -417,9 +417,9 @@ function getEventColor(event) {
 }
 
 /**
- * Show tooltip on point hover using floating-ui
+ * Show tooltip on point hover using viewport-based positioning
  */
-function showTooltip(event, data) {
+function showTooltip(event, data, element) {
   const tooltip = document.createElement("div");
   tooltip.style.cssText = `
     position: fixed;
@@ -471,24 +471,18 @@ function showTooltip(event, data) {
   });
 
   // Store reference for cleanup
-  if (event.target.__eventTooltip) {
-    event.target.__eventTooltip.remove();
+  if (element.__eventTooltip) {
+    element.__eventTooltip.remove();
   }
-  event.target.__eventTooltip = tooltip;
+  element.__eventTooltip = tooltip;
 }
 
 /**
- * Hide tooltip
+ * Hide tooltip on pointer leave
  */
-function hideTooltip() {
-  const activeElements = document.querySelectorAll("[data-has-tooltip]");
-  activeElements.forEach((el) => {
-    if (el.__eventTooltip) {
-      el.__eventTooltip.__isActive = false;
-      if (el.__eventTooltip.parentNode) {
-        el.__eventTooltip.remove();
-      }
-      delete el.__eventTooltip;
-    }
-  });
+function hideTooltip(element) {
+  if (element && element.__eventTooltip) {
+    element.__eventTooltip.remove();
+    element.__eventTooltip = null;
+  }
 }
