@@ -182,3 +182,18 @@ _Entries appended after each completed task._
   - ✅ `dynamicPaths` configured as async generator reading `scraped-data/matches.json`
   - ✅ Match metadata loads from matches.json; title renders as "Home Team vs Away Team"
   - ✅ Per-match data bundles load gracefully (null if missing)
+
+### Feature — Match timeline tooltips: vertical multi-event layout
+
+- **Completed:** 2026-06-13 14:50
+- **Files changed:** `src/components/match-timeline-chart.js`
+- **What was done:** Redesigned tooltip component to display events in a vertical, team-grouped format. When hovering over timeline markers, tooltip now shows: time header (e.g. "76'"), team labels (uppercase, secondary color), and all events at that minute grouped by team with color-coded left borders matching event type. Handles multi-team scenarios naturally (e.g., 76' marker showing 4 Mexico events + 2 South Africa events). Groups teams by match order (home first, then away). Improved visual hierarchy with better spacing, typography, and shadow treatment.
+- **Verification:** Hovered over markers at various times (17', 74', 76', 79', 84') on localhost:3000/matches/400021443. Tooltips correctly display: (1) single events with time, team, description; (2) multiple events per team at same minute; (3) multi-team events at same minute with proper grouping. Color-coded borders match event category colors (blue for substitution, yellow for yellow card, gray for foul, etc.). `npm run lint:fix` and `npm run format` pass clean.
+- **Acceptance criteria met:**
+  - ✅ Tooltip displays in vertical format: time → team → events
+  - ✅ Multiple events at same minute are grouped and displayed
+  - ✅ Multi-team events handled with separate team labels
+  - ✅ Event descriptions show from EventDescription.Description field
+  - ✅ Color-coded left borders match event type colors
+  - ✅ Tooltip positioning, shadow, and typography match dark theme design
+  - ✅ No console errors or warnings
