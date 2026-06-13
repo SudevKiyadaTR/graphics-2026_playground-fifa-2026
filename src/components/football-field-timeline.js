@@ -114,7 +114,7 @@ export function footballFieldTimeline(match, events, d3) {
 
   const timelineSvg = timelineContainer
     .append("svg")
-    .attr("viewBox", `0 0 ${chartWidth} 60`)
+    .attr("viewBox", `0 0 ${chartWidth} 40`)
     .attr("preserveAspectRatio", "xMidYMid meet")
     .style("width", "100%")
     .style("height", "auto");
@@ -179,7 +179,7 @@ export function footballFieldTimeline(match, events, d3) {
     .append("div")
     .attr(
       "style",
-      `margin-top: 6px; display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 0 ${margin.left}px; font: 400 0.75rem DM Mono, monospace; color: var(--text-secondary);`
+      `display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 0 ${margin.left}px; font: 400 0.75rem DM Mono, monospace; color: var(--text-secondary);`
     );
 
   timeLabel.append("span").text("0'");
