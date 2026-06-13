@@ -382,12 +382,13 @@ export function matchTimelineChart(match, events, d3) {
       .attr("x2", `${xPercent}%`)
       .attr("y1", goalMarkerY)
       .attr("y2", timelineHeight / 2)
-      .attr("stroke", eventCategories.goal.color)
-      .attr("stroke-width", 1)
-      .attr("opacity", visibleCategories.has("goal") ? 0.4 : 0)
+      .attr("stroke", "var(--border)")
+      .attr("stroke-width", 2)
+      .attr("opacity", visibleCategories.has("goal") ? 1 : 0)
+      .style("vector-effect", "non-scaling-stroke")
       .style("pointer-events", "none");
 
-    // Football emoji marker
+    // Football emoji marker with tooltip support
     chart
       .append("text")
       .attr("class", "goal-icon")
@@ -397,8 +398,113 @@ export function matchTimelineChart(match, events, d3) {
       .attr("dominant-baseline", "middle")
       .attr("font-size", "18px")
       .attr("opacity", visibleCategories.has("goal") ? 1 : 0)
-      .style("pointer-events", "auto")
+      .style("pointer-events", visibleCategories.has("goal") ? "auto" : "none")
+      .style("cursor", "pointer")
       .style("z-index", "100")
+      .on("mouseover", function () {
+        // Show tooltip for goal
+        if (!visibleCategories.has("goal")) {
+          return;
+        }
+
+        try {
+          // Create structured tooltip
+          const tooltip = document.createElement("div");
+          tooltip.style.cssText = `
+            position: fixed;
+            background: var(--bg-raised);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 12px;
+            font-family: "Inter", sans-serif;
+            z-index: 1000;
+            pointer-events: none;
+            min-width: 220px;
+            max-width: 32ch;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+          `;
+
+          // Time header
+          const timeHeader = document.createElement("div");
+          timeHeader.style.cssText = `
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-subtle);
+            font-variant-numeric: tabular-nums;
+          `;
+          timeHeader.textContent = goal.MatchMinute;
+          tooltip.appendChild(timeHeader);
+
+          // Team label
+          const teamLabel = document.createElement("div");
+          teamLabel.style.cssText = `
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-top: 4px;
+            margin-bottom: 4px;
+          `;
+          teamLabel.textContent = goal.teamName || "Unknown Team";
+          tooltip.appendChild(teamLabel);
+
+          // Goal description
+          const goalDesc = document.createElement("div");
+          goalDesc.style.cssText = `
+            font-size: 0.8rem;
+            line-height: 1.4;
+            color: var(--text-primary);
+            padding-left: 12px;
+            border-left: 2px solid ${eventCategories.goal.color};
+          `;
+          goalDesc.textContent = goal.eventDescription || eventCategories.goal.label || "Goal";
+          tooltip.appendChild(goalDesc);
+
+          // Add to DOM first so it can be measured for positioning
+          document.body.appendChild(tooltip);
+
+          // Track if this tooltip is still active (not removed by mouseout)
+          tooltip.__isActive = true;
+
+          // Use floating-ui for intelligent positioning
+          const referenceElement = this; // The text element
+          computePosition(referenceElement, tooltip, {
+            placement: "right",
+            middleware: [
+              offset(10), // 10px offset from the marker
+              flip(), // Flip to opposite side if near viewport edge
+              shift({ padding: 8 }), // Shift if viewport collision, with 8px padding
+            ],
+          }).then(({ x, y }) => {
+            // Only apply positioning if tooltip is still active
+            if (tooltip.__isActive && tooltip.parentNode) {
+              Object.assign(tooltip.style, {
+                left: `${x}px`,
+                top: `${y}px`,
+              });
+            }
+          });
+
+          // Store tooltip on the element for cleanup on mouseout
+          d3.select(this).node().__tooltip = tooltip;
+        } catch (err) {
+          console.error("Error showing goal tooltip:", err);
+        }
+      })
+      .on("mouseout", function () {
+        if (this.__tooltip) {
+          this.__tooltip.__isActive = false;
+          if (this.__tooltip.parentNode) {
+            this.__tooltip.remove();
+          }
+          delete this.__tooltip;
+        }
+      })
       .text("⚽");
 
     // Label: "Team @ 45'"
