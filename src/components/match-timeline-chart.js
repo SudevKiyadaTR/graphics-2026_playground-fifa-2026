@@ -8,11 +8,8 @@ export function matchTimelineChart(match, events, d3, html) {
   // Categorize events
   const eventCategories = {
     goal: { label: "Goals", types: [0], color: "#e8394b" },
-    yellowCard: { label: "Yellow Cards", types: [24], color: "#f4b644" },
-    redCard: { label: "Red Cards", types: [25], color: "#e8394b" },
-    substitution: { label: "Substitutions", types: [19, 20, 21], color: "#4fb3e8" },
+    substitution: { label: "Substitutions", types: [5], color: "#4fb3e8" },
     foul: { label: "Fouls", types: [18], color: "#7d95b0" },
-    corner: { label: "Corners", types: [16], color: "#2bb56a" },
   };
 
   // Identify event type categories
@@ -146,10 +143,7 @@ export function matchTimelineChart(match, events, d3, html) {
     .append("circle")
     .attr("class", "event-marker")
     .attr("cx", (d) => xScale(d.minute))
-    .attr("cy", (d, i) => {
-      // Stagger markers vertically to avoid overlap
-      return chartHeight / 2 - 30 + ((i % 4) * 15);
-    })
+    .attr("cy", chartHeight / 2) // All events on same y-axis
     .attr("r", 5)
     .attr("fill", (d) => {
       const config = eventCategories[d.category];
@@ -293,7 +287,9 @@ export function matchTimelineChart(match, events, d3, html) {
   `;
   buttonsContainer.appendChild(label);
 
-  const visibleCategories = new Set(Object.keys(eventCategories));
+  const visibleCategories = new Set(
+    Object.keys(eventCategories).filter((cat) => cat !== "foul")
+  );
   const buttons = {};
 
   for (const [cat, config] of Object.entries(eventCategories)) {
@@ -328,6 +324,11 @@ export function matchTimelineChart(match, events, d3, html) {
         .duration(200)
         .attr("opacity", (d) => (visibleCategories.has(d.category) ? 0.8 : 0));
     });
+
+    // Set initial opacity for disabled button (fouls)
+    if (cat === "foul") {
+      button.style.opacity = "0.5";
+    }
 
     buttons[cat] = button;
     buttonsContainer.appendChild(button);
