@@ -1,3 +1,5 @@
+import { computePosition, flip, shift, offset } from "@floating-ui/dom";
+
 /**
  * Football Field Timeline Component
  * Displays a football field with event markers that can be scrubbed through a timeline.
@@ -120,7 +122,7 @@ export function footballFieldTimeline(match, events, d3) {
     .style("height", "auto");
 
   const timelineY = 20;
-  const timelineStart = margin.left + 30;
+  const timelineStart = margin.left;
   const timelineWidth = fieldWidth;
 
   // Draw timeline track
@@ -179,7 +181,7 @@ export function footballFieldTimeline(match, events, d3) {
     .append("div")
     .attr(
       "style",
-      "margin-top: 12px; display: flex; justify-content: space-between; font: 400 0.75rem DM Mono, monospace; color: var(--text-secondary);"
+      "margin-top: 6px; display: flex; justify-content: space-between; font: 400 0.75rem DM Mono, monospace; color: var(--text-secondary);"
     );
 
   timeLabel.append("span").text("0'");
@@ -197,18 +199,24 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("cursor", "pointer");
 
   function handleTimelineClick(e) {
-    const containerRect = timelineContainer.node().getBoundingClientRect();
-    const x = e.clientX - containerRect.left - margin.left;
-    const newTime = Math.max(0, Math.min(matchDuration, (x / timelineWidth) * matchDuration));
+    const svgRect = timelineSvg.node().getBoundingClientRect();
+    const x = e.clientX - svgRect.left - (timelineStart / chartWidth) * svgRect.width;
+    const newTime = Math.max(
+      0,
+      Math.min(matchDuration, (x / ((timelineWidth / chartWidth) * svgRect.width)) * matchDuration)
+    );
     currentTime = newTime;
     updateTimeline();
   }
 
   function handleTimelineDrag(e) {
     e.preventDefault();
-    const containerRect = timelineContainer.node().getBoundingClientRect();
-    const x = e.clientX - containerRect.left - margin.left;
-    const newTime = Math.max(0, Math.min(matchDuration, (x / timelineWidth) * matchDuration));
+    const svgRect = timelineSvg.node().getBoundingClientRect();
+    const x = e.clientX - svgRect.left - (timelineStart / chartWidth) * svgRect.width;
+    const newTime = Math.max(
+      0,
+      Math.min(matchDuration, (x / ((timelineWidth / chartWidth) * svgRect.width)) * matchDuration)
+    );
     currentTime = newTime;
     updateTimeline();
   }
@@ -411,11 +419,10 @@ function getEventColor(event) {
 }
 
 /**
- * Show tooltip on point hover
+ * Show tooltip on point hover using floating-ui
  */
 function showTooltip(event, data) {
   const tooltip = document.createElement("div");
-  tooltip.id = "event-tooltip";
   tooltip.style.cssText = `
     position: fixed;
     background: var(--bg-raised);
@@ -426,6 +433,8 @@ function showTooltip(event, data) {
     color: var(--text-primary);
     pointer-events: none;
     z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 200px;
   `;
 
   const typeDesc = data.TypeLocalized?.[0]?.Description || "Event";
@@ -437,19 +446,46 @@ function showTooltip(event, data) {
     <div style="color: var(--text-secondary); font-size: 0.7rem;">${description}</div>
   `;
 
+  // Track if tooltip is active
+  tooltip.__isActive = true;
+
+  // Add to DOM first so it can be measured
   document.body.appendChild(tooltip);
 
-  const rect = event.target.getBoundingClientRect();
-  tooltip.style.left = rect.left + 15 + "px";
-  tooltip.style.top = rect.top - 10 + "px";
+  // Use floating-ui for intelligent positioning
+  const referenceElement = event.target;
+  computePosition(referenceElement, tooltip, {
+    placement: "top",
+    middleware: [offset(8), flip({ padding: 8 }), shift({ padding: 8 })],
+  }).then(({ x, y }) => {
+    if (tooltip.__isActive && tooltip.parentNode) {
+      Object.assign(tooltip.style, {
+        left: `${x}px`,
+        top: `${y}px`,
+      });
+    }
+  });
+
+  // Store reference for cleanup
+  if (event.target.__eventTooltip) {
+    event.target.__eventTooltip.__isActive = false;
+    event.target.__eventTooltip.remove();
+  }
+  event.target.__eventTooltip = tooltip;
 }
 
 /**
  * Hide tooltip
  */
 function hideTooltip() {
-  const tooltip = document.getElementById("event-tooltip");
-  if (tooltip) {
-    tooltip.remove();
-  }
+  const activeElements = document.querySelectorAll("[data-has-tooltip]");
+  activeElements.forEach((el) => {
+    if (el.__eventTooltip) {
+      el.__eventTooltip.__isActive = false;
+      if (el.__eventTooltip.parentNode) {
+        el.__eventTooltip.remove();
+      }
+      delete el.__eventTooltip;
+    }
+  });
 }
