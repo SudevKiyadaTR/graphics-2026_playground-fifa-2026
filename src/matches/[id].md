@@ -185,6 +185,7 @@
 const matches = await FileAttachment("../data/matches.json").json();
 const timelines = await FileAttachment("../data/match-timelines.json").json();
 const stadiums = await FileAttachment("../data/stadium-info.json").json();
+const liveDataMap = await FileAttachment("../data/live-data.json").json();
 
 // Import D3 and timeline chart component
 import { matchTimelineChart } from "../components/match-timeline-chart.js";
@@ -204,21 +205,14 @@ if (!match) {
 const timeline = timelines[String(match.id)] || { Event: [] };
 const events = timeline.Event || [];
 
-// Load live data for stadium and attendance info
-let liveData = null;
-try {
-  const liveResponse = await fetch(`https://raw.githubusercontent.com/SudevKiyadaTR/graphics-2026_playground-fifa-2026/main/scraped-data/matches/${matchId}/live.json`);
-  if (liveResponse.ok) {
-    liveData = await liveResponse.json();
-  }
-} catch (e) {
-  console.error("Could not load live data:", e);
-}
-
+// Get live data for this match
+const liveData = liveDataMap[matchId];
 const stadiumName = liveData?.Stadium?.Name?.[0]?.Description || "Unknown Stadium";
 const attendance = liveData?.Attendance ? Number(liveData.Attendance).toLocaleString() : "–";
-const stadiumInfo = stadiums.stadiums.find((s) => s.name === stadiumName) || {};
-const capacity = stadiumInfo.capacity ? stadiumInfo.capacity.toLocaleString() : "–";
+
+// Look up capacity from stadium database
+const stadiumInfo = stadiums.stadiums.find((s) => s.name === stadiumName);
+const capacity = stadiumInfo ? stadiumInfo.capacity.toLocaleString() : "–";
 ```
 
 ```js
