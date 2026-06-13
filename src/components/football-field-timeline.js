@@ -432,8 +432,9 @@ function showTooltip(event, data) {
     pointer-events: none;
     z-index: 1000;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    max-width: 200px;
-    white-space: nowrap;
+    max-width: 280px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   `;
 
   const typeDesc = data.TypeLocalized?.[0]?.Description || "Event";
@@ -441,8 +442,8 @@ function showTooltip(event, data) {
   const description = data.EventDescription?.[0]?.Description || typeDesc;
 
   tooltip.innerHTML = `
-    <div style="font-weight: 600; margin-bottom: 4px;">${typeDesc} – ${minute}</div>
-    <div style="color: var(--text-secondary); font-size: 0.7rem;">${description}</div>
+    <div style="font-weight: 600; margin-bottom: 4px; word-wrap: break-word; overflow-wrap: break-word;">${typeDesc} – ${minute}</div>
+    <div style="color: var(--text-secondary); font-size: 0.7rem; word-wrap: break-word; overflow-wrap: break-word;">${description}</div>
   `;
 
   // Add to DOM first so it can be measured
