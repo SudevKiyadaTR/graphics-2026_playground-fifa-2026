@@ -26,6 +26,7 @@
 
 #observablehq-main {
   width: 100%;
+  padding-right: 0 !important;
 }
 
 .players-shell {
