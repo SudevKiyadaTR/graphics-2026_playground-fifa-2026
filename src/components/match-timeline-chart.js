@@ -98,18 +98,18 @@ export function matchTimelineChart(match, events, d3, html) {
     .attr("fill", "var(--bg-raised)")
     .attr("rx", 4);
 
-  // Clip path for chart
+  // Clip path for chart - allow line to start from 0
   svg
     .append("defs")
     .append("clipPath")
     .attr("id", "clip")
     .append("rect")
-    .attr("x", marginLeft)
+    .attr("x", 0)
     .attr("y", marginTop)
-    .attr("width", chartWidth)
+    .attr("width", width)
     .attr("height", chartHeight);
 
-  // Create chart group
+  // Create chart group - don't translate x, only y
   const chart = svg
     .append("g")
     .attr("transform", `translate(${marginLeft},${marginTop})`)
@@ -203,21 +203,82 @@ export function matchTimelineChart(match, events, d3, html) {
     .selectAll("text")
     .style("fill", "var(--text-secondary)");
 
-  // Style axis
-  svg.selectAll(".domain").style("stroke", "var(--border)").style("stroke-width", 1);
-  svg.selectAll(".tick line").style("stroke", "var(--border-subtle)");
+  // Add y-axis label
+  svg
+    .append("text")
+    .attr("x", 15)
+    .attr("y", marginTop + chartHeight / 2)
+    .attr("text-anchor", "middle")
+    .attr("dominant-baseline", "middle")
+    .attr("transform", `rotate(-90, 15, ${marginTop + chartHeight / 2})`)
+    .style("font-size", "11px")
+    .style("fill", "var(--text-secondary)")
+    .text("Events");
 
   // Create wrapper container
   const wrapper = document.createElement("div");
   wrapper.style.cssText = "width: 100%;";
 
-  // Create toggle buttons
+  // Create legend
+  const legendContainer = document.createElement("div");
+  legendContainer.style.cssText = `
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 16px;
+    align-items: center;
+    font-size: 0.85rem;
+  `;
+
+  const teamLegend = document.createElement("div");
+  teamLegend.style.cssText = `
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  `;
+
+  // Home team legend
+  const homeLegend = document.createElement("div");
+  homeLegend.style.cssText = "display: flex; gap: 8px; align-items: center;";
+  const homeCircle = document.createElement("div");
+  homeCircle.style.cssText =
+    "width: 12px; height: 12px; border-radius: 50%; background: var(--accent);";
+  const homeLabel = document.createElement("span");
+  homeLabel.textContent = `${match.homeTeam} (darker)`;
+  homeLabel.style.color = "var(--text-secondary)";
+  homeLegend.appendChild(homeCircle);
+  homeLegend.appendChild(homeLabel);
+
+  // Away team legend
+  const awayLegend = document.createElement("div");
+  awayLegend.style.cssText = "display: flex; gap: 8px; align-items: center;";
+  const awayCircle = document.createElement("div");
+  awayCircle.style.cssText =
+    "width: 12px; height: 12px; border-radius: 50%; background: " +
+    d3.color("#e8394b").brighter(0.5).hex() +
+    ";";
+  const awayLabel = document.createElement("span");
+  awayLabel.textContent = `${match.awayTeam} (lighter)`;
+  awayLabel.style.color = "var(--text-secondary)";
+  awayLegend.appendChild(awayCircle);
+  awayLegend.appendChild(awayLabel);
+
+  teamLegend.appendChild(homeLegend);
+  teamLegend.appendChild(awayLegend);
+
+  legendContainer.appendChild(teamLegend);
+  
+  // Add some space
+  const spacer = document.createElement("div");
+  spacer.style.width = "100%";
+  legendContainer.appendChild(spacer);
+  
+  // Create toggle buttons inside legend container
   const buttonsContainer = document.createElement("div");
   buttonsContainer.style.cssText = `
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-bottom: 12px;
     align-items: center;
   `;
 
@@ -272,7 +333,8 @@ export function matchTimelineChart(match, events, d3, html) {
     buttonsContainer.appendChild(button);
   }
 
-  wrapper.appendChild(buttonsContainer);
+  legendContainer.appendChild(buttonsContainer);
+  wrapper.appendChild(legendContainer);
   wrapper.appendChild(svg.node());
 
   return wrapper;
