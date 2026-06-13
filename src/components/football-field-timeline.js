@@ -84,30 +84,35 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("points", "0 0, 10 3, 0 6")
     .attr("fill", "#fbbf24");
 
-  // Draw goal posts (vertical posts at goal line)
-  const goalWidthPercent = (7.32 / 68) * 100; // ~10.76% of field width (goal is 7.32m on 68m wide field)
+  // Draw goal posts (extend outside field boundary)
+  // Goal opening: 7.32m wide (along goal line)
+  // Goal depth: 2.44m deep (extending beyond goal line)
+  const goalOpeningPercent = (7.32 / 68) * 100; // ~10.76% of field width
+  const goalDepthPercent = (2.44 / 105) * 100; // ~2.33% of field length
   const goalCenterY = 50; // Center of field vertically
-  const goalTopY = goalCenterY - goalWidthPercent / 2;
+  const goalTopY = goalCenterY - goalOpeningPercent / 2;
 
-  // Left goal post (at x=0, goal line)
+  const goalDepthPixels = (goalDepthPercent / 100) * fieldWidth;
+
+  // Left goal post (extends left from x=0)
   fieldGroup
     .append("rect")
-    .attr("x", 0)
+    .attr("x", -goalDepthPixels)
     .attr("y", (goalTopY / 100) * fieldHeight)
-    .attr("width", 2)
-    .attr("height", (goalWidthPercent / 100) * fieldHeight)
+    .attr("width", goalDepthPixels)
+    .attr("height", (goalOpeningPercent / 100) * fieldHeight)
     .attr("fill", "#9ca3af")
-    .attr("opacity", 0.6);
+    .attr("opacity", 0.7);
 
-  // Right goal post (at x=100, goal line)
+  // Right goal post (extends right from x=fieldWidth)
   fieldGroup
     .append("rect")
-    .attr("x", fieldWidth - 2)
+    .attr("x", fieldWidth)
     .attr("y", (goalTopY / 100) * fieldHeight)
-    .attr("width", 2)
-    .attr("height", (goalWidthPercent / 100) * fieldHeight)
+    .attr("width", goalDepthPixels)
+    .attr("height", (goalOpeningPercent / 100) * fieldHeight)
     .attr("fill", "#9ca3af")
-    .attr("opacity", 0.6);
+    .attr("opacity", 0.7);
 
   // Create trajectory lines group (behind points)
   const trajectoriesGroup = fieldGroup
