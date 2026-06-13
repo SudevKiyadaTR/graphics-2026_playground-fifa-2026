@@ -84,35 +84,30 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("points", "0 0, 10 3, 0 6")
     .attr("fill", "#fbbf24");
 
-  // Draw goal posts
-  const goalWidthPercent = (7.32 / 105) * 100; // ~6.97% of field width
-  const goalHeightPercent = (2.44 / 68) * 100; // ~3.59% of field height
+  // Draw goal posts (vertical posts at goal line)
+  const goalWidthPercent = (7.32 / 68) * 100; // ~10.76% of field width (goal is 7.32m on 68m wide field)
   const goalCenterY = 50; // Center of field vertically
-  const goalTopY = goalCenterY - goalHeightPercent / 2;
+  const goalTopY = goalCenterY - goalWidthPercent / 2;
 
-  // Left goal post
+  // Left goal post (at x=0, goal line)
   fieldGroup
     .append("rect")
     .attr("x", 0)
     .attr("y", (goalTopY / 100) * fieldHeight)
-    .attr("width", (goalWidthPercent / 100) * fieldWidth)
-    .attr("height", (goalHeightPercent / 100) * fieldHeight)
-    .attr("fill", "none")
-    .attr("stroke", "#9ca3af")
-    .attr("stroke-width", 1.5)
-    .attr("opacity", 0.5);
+    .attr("width", 2)
+    .attr("height", (goalWidthPercent / 100) * fieldHeight)
+    .attr("fill", "#9ca3af")
+    .attr("opacity", 0.6);
 
-  // Right goal post
+  // Right goal post (at x=100, goal line)
   fieldGroup
     .append("rect")
-    .attr("x", fieldWidth - (goalWidthPercent / 100) * fieldWidth)
+    .attr("x", fieldWidth - 2)
     .attr("y", (goalTopY / 100) * fieldHeight)
-    .attr("width", (goalWidthPercent / 100) * fieldWidth)
-    .attr("height", (goalHeightPercent / 100) * fieldHeight)
-    .attr("fill", "none")
-    .attr("stroke", "#9ca3af")
-    .attr("stroke-width", 1.5)
-    .attr("opacity", 0.5);
+    .attr("width", 2)
+    .attr("height", (goalWidthPercent / 100) * fieldHeight)
+    .attr("fill", "#9ca3af")
+    .attr("opacity", 0.6);
 
   // Create trajectory lines group (behind points)
   const trajectoriesGroup = fieldGroup
