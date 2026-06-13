@@ -461,8 +461,10 @@ export function matchTimelineChart(match, events, d3) {
       try {
         d3.select(this).transition().duration(150).attr("r", 6);
 
-        // Find all events at the same minute
-        const eventsAtMinute = parsedEvents.filter((e) => e.minute === d.minute);
+        // Find all events at the same minute that are visible (not hidden by toggle)
+        const eventsAtMinute = parsedEvents.filter(
+          (e) => e.minute === d.minute && visibleCategories.has(e.category)
+        );
         const minuteDisplay = d.MatchMinute || `${d.minute}'`;
 
         // Group events by team
@@ -488,6 +490,7 @@ export function matchTimelineChart(match, events, d3) {
           z-index: 1000;
           pointer-events: none;
           min-width: 220px;
+          max-width: 32ch;
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         `;
 
