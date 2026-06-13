@@ -8,6 +8,8 @@ export function matchTimelineChart(match, events, d3, html) {
   // Categorize events
   const eventCategories = {
     goal: { label: "Goals", types: [0], color: "#e8394b" },
+    yellowCard: { label: "Yellow Cards", types: [2], color: "#f4b644" },
+    redCard: { label: "Red Cards", types: [3], color: "#e8394b" },
     substitution: { label: "Substitutions", types: [5], color: "#4fb3e8" },
     foul: { label: "Fouls", types: [18], color: "#7d95b0" },
   };
@@ -25,14 +27,37 @@ export function matchTimelineChart(match, events, d3, html) {
   // Find team info for an event
   const getTeamInfo = (eventTeamId) => {
     if (!eventTeamId) return null;
-    // Map based on the events we see - first team is home, second is away
-    const teamIds = new Set();
+    
+    // Determine home/away team IDs by finding which team had the first goal
+    // Or use the first team in events as home
+    let homeTeamId = null;
+    let awayTeamId = null;
+    
     for (const e of events) {
-      if (e.IdTeam) teamIds.add(e.IdTeam);
+      if (e.TypeLocalized?.[0]?.Description === "Goal!") {
+        // If we find a goal, the team that scored when HomeGoals=1 and AwayGoals=0 is home
+        if (e.HomeGoals === 1 && e.AwayGoals === 0) {
+          homeTeamId = e.IdTeam;
+        } else if (e.HomeGoals === 0 && e.AwayGoals === 1) {
+          awayTeamId = e.IdTeam;
+        }
+        if (homeTeamId && awayTeamId) break;
+      }
     }
-    const teamIdArray = Array.from(teamIds);
-    if (eventTeamId === teamIdArray[0]) return { name: match.homeTeam, id: "home" };
-    if (eventTeamId === teamIdArray[1]) return { name: match.awayTeam, id: "away" };
+    
+    // If no goals found, use order of appearance
+    if (!homeTeamId || !awayTeamId) {
+      const teamIds = new Set();
+      for (const e of events) {
+        if (e.IdTeam) teamIds.add(e.IdTeam);
+      }
+      const teamIdArray = Array.from(teamIds);
+      if (!homeTeamId) homeTeamId = teamIdArray[0];
+      if (!awayTeamId) awayTeamId = teamIdArray[1];
+    }
+    
+    if (eventTeamId === homeTeamId) return { name: match.homeTeam, id: "home" };
+    if (eventTeamId === awayTeamId) return { name: match.awayTeam, id: "away" };
     return null;
   };
 
@@ -149,7 +174,7 @@ export function matchTimelineChart(match, events, d3, html) {
       const config = eventCategories[d.category];
       if (d.team?.id === "away") {
         // Lighter shade for away team
-        return d3.color(config.color).brighter(0.5).hex();
+        return d3.color(config.color).brighter(1).hex();
       }
       return config.color;
     })
@@ -235,22 +260,20 @@ export function matchTimelineChart(match, events, d3, html) {
   const homeLegend = document.createElement("div");
   homeLegend.style.cssText = "display: flex; gap: 8px; align-items: center;";
   const homeCircle = document.createElement("div");
-  homeCircle.style.cssText =
-    "width: 12px; height: 12px; border-radius: 50%; background: var(--accent);";
+  const homeColor = "#e8394b"; // Red for goals (most common event type for teams)
+  homeCircle.style.cssText = `width: 12px; height: 12px; border-radius: 50%; background: ${homeColor};`;
   const homeLabel = document.createElement("span");
   homeLabel.textContent = `${match.homeTeam} (darker)`;
   homeLabel.style.color = "var(--text-secondary)";
   homeLegend.appendChild(homeCircle);
   homeLegend.appendChild(homeLabel);
 
-  // Away team legend
+  // Away team legend - lighter shade
   const awayLegend = document.createElement("div");
   awayLegend.style.cssText = "display: flex; gap: 8px; align-items: center;";
   const awayCircle = document.createElement("div");
-  awayCircle.style.cssText =
-    "width: 12px; height: 12px; border-radius: 50%; background: " +
-    d3.color("#e8394b").brighter(0.5).hex() +
-    ";";
+  const awayColor = d3.color(homeColor).brighter(1).hex();
+  awayCircle.style.cssText = `width: 12px; height: 12px; border-radius: 50%; background: ${awayColor};`;
   const awayLabel = document.createElement("span");
   awayLabel.textContent = `${match.awayTeam} (lighter)`;
   awayLabel.style.color = "var(--text-secondary)";
