@@ -110,10 +110,7 @@ export function footballFieldTimeline(match, events, d3) {
   const timelineContainer = d3
     .select(container.node())
     .append("div")
-    .attr(
-      "style",
-      "padding: 20px 20px; border-top: 1px solid var(--border); width: 100%; box-sizing: border-box;"
-    );
+    .attr("style", "width: 100%; box-sizing: border-box;");
 
   const timelineSvg = timelineContainer
     .append("svg")
@@ -182,7 +179,7 @@ export function footballFieldTimeline(match, events, d3) {
     .append("div")
     .attr(
       "style",
-      "margin-top: 12px; display: flex; justify-content: space-between; font: 400 0.75rem DM Mono, monospace; color: var(--text-secondary); padding: 0 20px;"
+      "margin-top: 12px; display: flex; justify-content: space-between; font: 400 0.75rem DM Mono, monospace; color: var(--text-secondary);"
     );
 
   timeLabel.append("span").text("0'");
@@ -201,7 +198,7 @@ export function footballFieldTimeline(match, events, d3) {
 
   function handleTimelineClick(e) {
     const containerRect = timelineContainer.node().getBoundingClientRect();
-    const x = e.clientX - containerRect.left - margin.left - 20;
+    const x = e.clientX - containerRect.left - margin.left;
     const newTime = Math.max(0, Math.min(matchDuration, (x / timelineWidth) * matchDuration));
     currentTime = newTime;
     updateTimeline();
@@ -210,7 +207,7 @@ export function footballFieldTimeline(match, events, d3) {
   function handleTimelineDrag(e) {
     e.preventDefault();
     const containerRect = timelineContainer.node().getBoundingClientRect();
-    const x = e.clientX - containerRect.left - margin.left - 20;
+    const x = e.clientX - containerRect.left - margin.left;
     const newTime = Math.max(0, Math.min(matchDuration, (x / timelineWidth) * matchDuration));
     currentTime = newTime;
     updateTimeline();
@@ -230,58 +227,6 @@ export function footballFieldTimeline(match, events, d3) {
     scrubberHandle.attr("cx", xPos);
     timelineContainer.select(".current-time").text(`${Math.round(currentTime)}'`);
     updatePoints(currentTime);
-  }
-
-  // Add play/pause buttons
-  const controlsDiv = timelineContainer
-    .insert("div", ":first-child")
-    .attr(
-      "style",
-      "display: flex; gap: 8px; margin-bottom: 12px; align-items: center; padding: 0 20px;"
-    );
-
-  const playButton = controlsDiv
-    .append("button")
-    .attr(
-      "style",
-      "padding: 6px 12px; background: var(--accent); color: white; border: none; border-radius: 4px; cursor: pointer; font: 500 0.75rem Inter, sans-serif; text-transform: uppercase;"
-    )
-    .text("Play")
-    .on("click", startPlayback);
-
-  controlsDiv
-    .append("button")
-    .attr(
-      "style",
-      "padding: 6px 12px; background: var(--border); color: var(--text-primary); border: none; border-radius: 4px; cursor: pointer; font: 500 0.75rem Inter, sans-serif; text-transform: uppercase;"
-    )
-    .text("Reset")
-    .on("click", () => {
-      currentTime = 0;
-      updateTimeline();
-    });
-
-  let isPlaying = false;
-  let playbackInterval = null;
-
-  function startPlayback() {
-    if (isPlaying) {
-      clearInterval(playbackInterval);
-      isPlaying = false;
-      playButton.text("Play");
-    } else {
-      isPlaying = true;
-      playButton.text("Pause");
-      playbackInterval = setInterval(() => {
-        currentTime += 0.5; // Advance by 0.5 minutes (30 seconds)
-        if (currentTime >= matchDuration) {
-          clearInterval(playbackInterval);
-          isPlaying = false;
-          playButton.text("Play");
-        }
-        updateTimeline();
-      }, 100);
-    }
   }
 
   // Initialize
