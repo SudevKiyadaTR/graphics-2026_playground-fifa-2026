@@ -11,11 +11,13 @@ export function scheduleChart(matches, Inputs) {
       Match: `${m.homeTeam} vs ${m.awayTeam}`,
       Score: hasScore ? `${m.homeScore ?? 0}-${m.awayScore ?? 0}` : "TBD",
       Stage: m.stage,
+      matchId: m.id,
     };
   });
 
   return observableTable(rows, Inputs, {
     columns: ["Date", "Match", "Score", "Stage"],
+    rowHref: (row) => `/matches/${row.matchId}`,
     rows: 25,
     wrapperClass: "schedule-table-wrap",
   });

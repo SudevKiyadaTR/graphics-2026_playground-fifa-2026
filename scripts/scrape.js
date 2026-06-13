@@ -189,9 +189,8 @@ async function fetchMatches() {
           await sleep(RATE_LIMIT_MS);
         }
 
-        // Keep the master schedule complete so dashboard views can show upcoming fixtures.
-        // Per-match detail scraping is still gated by isFinishedMatch in getMatchesToScrape().
-        matches.push(...normalized);
+        const finishedOnly = normalized.filter((match) => isFinishedMatch(match));
+        matches.push(...finishedOnly);
       }
 
       continuationToken = data.ContinuationToken || null;

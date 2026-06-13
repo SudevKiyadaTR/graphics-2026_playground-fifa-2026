@@ -20,31 +20,12 @@
   font-family: Inter, sans-serif;
 }
 
-.observablehq-toc,
-nav.observablehq-toc {
-  display: none !important;
-}
-
-/* Keep homepage TOC/sidebar available; hide it on this detail page only. */
-body > div > aside,
-.observablehq-sidebar {
-  display: none !important;
-}
-
-body > div {
-  grid-template-columns: minmax(0, 1fr) !important;
-}
-
-.observablehq-main,
-main.observablehq-main,
-body > div > main {
-  width: 100% !important;
-  max-width: none !important;
+.observablehq-toc {
+  display: none;
 }
 
 .players-shell {
-  max-width: none;
-  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   gap: 24px;
@@ -320,12 +301,18 @@ const topScorer = sortedPlayers[0];
 const totalPlayers = sortedPlayers.length;
 const totalGoals = sortedPlayers.reduce((sum, p) => sum + Number(p.goals || 0), 0);
 const totalAssists = sortedPlayers.reduce((sum, p) => sum + Number(p.assists || 0), 0);
-const topPlayerOptions = [10, 25, 50, 100, Math.max(100, totalPlayers)];
-const topPlayerCountInput = Inputs.select(topPlayerOptions, {
+const topPlayerCountInput = Inputs.select([10, 25, 50, 100, Math.max(100, totalPlayers)], {
   label: "Top Players",
   value: Math.min(25, totalPlayers),
   format: (value) => `${value}`,
 });
+const selectedTopPlayersRaw = Generators.input(topPlayerCountInput);
+const selectedTopPlayers = Number(selectedTopPlayersRaw);
+const topPlayerCount =
+  Number.isFinite(selectedTopPlayers) && selectedTopPlayers > 0
+    ? selectedTopPlayers
+    : Math.min(25, totalPlayers);
+const rows = sortedPlayers.slice(0, topPlayerCount);
 
 const teamAbbreviations = {
   "Korea Republic": "KOR",
@@ -406,43 +393,29 @@ function applyColumnTooltips(container) {
   }
 }
 
-function buildLeaderboardRows(limit) {
-  const rows = sortedPlayers.slice(0, limit);
-  return rows.map((p, index) => ({
-    Rank: Number(index + 1),
-    Player: `${p.player ?? "Unknown"}|||${roleAbbreviation(p.position)}`,
-    Team: abbreviateTeam(p.team),
-    Matches: toNumber(p.matchesPlayed),
-    Goals: toNumber(p.goals),
-    Assists: toNumber(p.assists),
-    Passes: toNumber(p.passes),
-    "Passes Completed": toNumber(p.passesCompleted),
-    "Pass Accuracy %":
-      toNumber(p.passes) > 0
-        ? round2((toNumber(p.passesCompleted) / toNumber(p.passes)) * 100)
-        : 0,
-    Sprints: toNumber(p.sprints),
-    "Speed Runs": toNumber(p.speedRuns),
-    "Total Distance (m)": toNumber(p.totalDistance),
-    "HSR Distance (m)": toNumber(p.distanceHighSpeedRunning),
-    "HSS Distance (m)": toNumber(p.distanceHighSpeedSprinting),
-    "Jogging Distance (m)": toNumber(p.distanceJogging),
-    "LSS Distance (m)": toNumber(p.distanceLowSpeedSprinting),
-    "Walking Distance (m)": toNumber(p.distanceWalking),
-    "Top Speed": round2(p.topSpeed),
-    "Avg Speed": round2(p.avgSpeed),
-    Threat: round2(p.threat),
-  }));
-}
-
-function getSelectedTopPlayerCount() {
-  const selectEl = topPlayerCountInput.querySelector("select");
-  const optionIndex = selectEl ? Number(selectEl.value) : NaN;
-  if (Number.isInteger(optionIndex) && optionIndex >= 0 && optionIndex < topPlayerOptions.length) {
-    return topPlayerOptions[optionIndex];
-  }
-  return Math.min(25, totalPlayers);
-}
+const leaderboardRows = rows.map((p, index) => ({
+  Rank: Number(index + 1),
+  Player: `${p.player ?? "Unknown"}|||${roleAbbreviation(p.position)}`,
+  Team: abbreviateTeam(p.team),
+  Matches: toNumber(p.matchesPlayed),
+  Goals: toNumber(p.goals),
+  Assists: toNumber(p.assists),
+  Passes: toNumber(p.passes),
+  "Passes Completed": toNumber(p.passesCompleted),
+  "Pass Accuracy %":
+    toNumber(p.passes) > 0 ? round2((toNumber(p.passesCompleted) / toNumber(p.passes)) * 100) : 0,
+  Sprints: toNumber(p.sprints),
+  "Speed Runs": toNumber(p.speedRuns),
+  "Total Distance (m)": toNumber(p.totalDistance),
+  "HSR Distance (m)": toNumber(p.distanceHighSpeedRunning),
+  "HSS Distance (m)": toNumber(p.distanceHighSpeedSprinting),
+  "Jogging Distance (m)": toNumber(p.distanceJogging),
+  "LSS Distance (m)": toNumber(p.distanceLowSpeedSprinting),
+  "Walking Distance (m)": toNumber(p.distanceWalking),
+  "Top Speed": round2(p.topSpeed),
+  "Avg Speed": round2(p.avgSpeed),
+  Threat: round2(p.threat),
+}));
 ```
 
 ```js
@@ -459,55 +432,39 @@ function renderPlayerCell(value) {
   return html`<span>${name}<span class="player-role-suffix">${role}</span></span>`;
 }
 
+const leaderboardTable = observableTable(leaderboardRows, Inputs, {
+  columns: [
+    "Rank",
+    "Player",
+    "Team",
+    "Matches",
+    "Goals",
+    "Assists",
+    "Passes",
+    "Passes Completed",
+    "Pass Accuracy %",
+    "Sprints",
+    "Speed Runs",
+    "Total Distance (m)",
+    "HSR Distance (m)",
+    "HSS Distance (m)",
+    "Jogging Distance (m)",
+    "LSS Distance (m)",
+    "Walking Distance (m)",
+    "Top Speed",
+    "Avg Speed",
+    "Threat",
+  ],
+  format: {
+    Player: renderPlayerCell,
+  },
+  sort: "Goals",
+  reverse: true,
+});
+
+applyColumnTooltips(leaderboardTable);
 leaderboardSection.querySelector(".table-controls").append(topPlayerCountInput);
-
-const leaderboardTableMount = html`<div class="leaderboard-table-mount"></div>`;
-leaderboardSection.append(leaderboardTableMount);
-
-function renderLeaderboardTable() {
-  const limit = getSelectedTopPlayerCount();
-  const leaderboardTable = observableTable(buildLeaderboardRows(limit), Inputs, {
-    columns: [
-      "Rank",
-      "Player",
-      "Team",
-      "Matches",
-      "Goals",
-      "Assists",
-      "Passes",
-      "Passes Completed",
-      "Pass Accuracy %",
-      "Sprints",
-      "Speed Runs",
-      "Total Distance (m)",
-      "HSR Distance (m)",
-      "HSS Distance (m)",
-      "Jogging Distance (m)",
-      "LSS Distance (m)",
-      "Walking Distance (m)",
-      "Top Speed",
-      "Avg Speed",
-      "Threat",
-    ],
-    format: {
-      Player: renderPlayerCell,
-    },
-    rows: limit,
-    sort: "Goals",
-    reverse: true,
-  });
-
-  applyColumnTooltips(leaderboardTable);
-  leaderboardTableMount.replaceChildren(leaderboardTable);
-}
-
-const topPlayerSelect = topPlayerCountInput.querySelector("select");
-if (topPlayerSelect) {
-  topPlayerSelect.addEventListener("input", renderLeaderboardTable);
-  topPlayerSelect.addEventListener("change", renderLeaderboardTable);
-}
-
-renderLeaderboardTable();
+leaderboardSection.append(leaderboardTable);
 
 display(
   html`<div class="players-shell">

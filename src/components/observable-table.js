@@ -11,42 +11,36 @@ export function observableTable(data, Inputs, options = {}) {
 
   const table = Inputs.table(data, tableOptions);
 
-  const makeRowClickable = (container) => {
-    if (typeof rowHref !== "function") return;
-
-    const rowEls = container.querySelectorAll("tbody tr");
-    rowEls.forEach((rowEl, index) => {
-      const href = rowHref(data[index], index);
-      if (!href) return;
-
-      rowEl.style.cursor = "pointer";
-      rowEl.tabIndex = 0;
-      rowEl.setAttribute("role", "link");
-      const rowId = data[index]?.id;
-      rowEl.setAttribute("aria-label", rowId ? `Open match ${rowId}` : `Open row ${index + 1}`);
-
-      rowEl.addEventListener("click", (event) => {
-        if (event.target.closest("a,button,input,select,textarea,label")) return;
-        window.location.assign(href);
-      });
-
-      rowEl.addEventListener("keydown", (event) => {
-        if (event.key !== "Enter" && event.key !== " ") return;
-        event.preventDefault();
-        window.location.assign(href);
-      });
-    });
-  };
-
-  if (!wrapperClass) {
-    // Wait a tick so table rows are mounted before wiring row click handlers.
-    setTimeout(() => makeRowClickable(table), 0);
-    return table;
+  // Add click handlers to table rows if rowHref is provided
+  if (rowHref) {
+    setTimeout(() => {
+      const tbody = table.querySelector("tbody");
+      if (tbody) {
+        const rows = tbody.querySelectorAll("tr");
+        rows.forEach((row, index) => {
+          const rowData = data[index];
+          if (rowData) {
+            const href = rowHref(rowData);
+            row.style.cursor = "pointer";
+            row.addEventListener("click", () => {
+              window.location.href = href;
+            });
+            row.addEventListener("mouseenter", () => {
+              row.style.opacity = "0.8";
+            });
+            row.addEventListener("mouseleave", () => {
+              row.style.opacity = "1";
+            });
+          }
+        });
+      }
+    }, 0);
   }
+
+  if (!wrapperClass) return table;
 
   const wrapper = document.createElement("div");
   wrapper.className = wrapperClass;
   wrapper.append(table);
-  setTimeout(() => makeRowClickable(wrapper), 0);
   return wrapper;
 }
