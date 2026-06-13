@@ -53,8 +53,13 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("height", chartHeight)
     .attr("fill", "transparent");
 
-  // Create field group
-  const fieldGroup = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+  // Create field group with horizontal flip
+  const fieldGroup = svg
+    .append("g")
+    .attr(
+      "transform",
+      `translate(${margin.left + fieldWidth},${margin.top}) scale(-1,1)`
+    );
 
   // Draw football field
   drawFootballField(fieldGroup, fieldWidth, fieldHeight);
@@ -94,7 +99,7 @@ export function footballFieldTimeline(match, events, d3) {
 
   const goalDepthPixels = (goalDepthPercent / 100) * fieldWidth;
 
-  // Right goal post (extends right from x=fieldWidth) - flipped horizontally
+  // Left goal post (extends left from x=0)
   fieldGroup
     .append("rect")
     .attr("x", -goalDepthPixels)
@@ -104,7 +109,7 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("fill", "#9ca3af")
     .attr("opacity", 0.7);
 
-  // Left goal post (extends left from x=0) - flipped horizontally
+  // Right goal post (extends right from x=fieldWidth)
   fieldGroup
     .append("rect")
     .attr("x", fieldWidth)
@@ -131,7 +136,7 @@ export function footballFieldTimeline(match, events, d3) {
    * GoalGatePositionX (0-100) maps to the vertical position on the goal post
    * Goal is 7.32m wide, centered on field at y=50%
    */
-  function convertGoalGateToFieldPosition(goalGateX, isRightGoal) {
+  function convertGoalGateToFieldPosition(goalGateX, isLeftGoal) {
     // Goal dimensions as percentage of field
     const goalOpeningPercent = (7.32 / 68) * 100; // ~10.76% of field height
 
@@ -142,8 +147,8 @@ export function footballFieldTimeline(match, events, d3) {
     // Map GoalGatePositionX (0-100) to vertical position on field
     const fieldY = goalCenter - goalHalfWidth + (goalGateX / 100) * goalOpeningPercent;
 
-    // X position is at the goal line (100 for right, 0 for left) - flipped
-    const fieldX = isRightGoal ? 100 : 0;
+    // X position is at the goal line (0 for left, 100 for right)
+    const fieldX = isLeftGoal ? 0 : 100;
 
     return { x: fieldX, y: fieldY };
   }
@@ -166,13 +171,13 @@ export function footballFieldTimeline(match, events, d3) {
       .attr("x1", (d) => (d.PositionX / 100) * fieldWidth)
       .attr("y1", (d) => (d.PositionY / 100) * fieldHeight)
       .attr("x2", (d) => {
-        const isRightGoal = d.PositionX < 50; // Flipped: left side of field attacks right goal
-        const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isRightGoal);
+        const isLeftGoal = d.PositionX < 50;
+        const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isLeftGoal);
         return (goalPos.x / 100) * fieldWidth;
       })
       .attr("y2", (d) => {
-        const isRightGoal = d.PositionX < 50; // Flipped: left side of field attacks right goal
-        const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isRightGoal);
+        const isLeftGoal = d.PositionX < 50;
+        const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isLeftGoal);
         return (goalPos.y / 100) * fieldHeight;
       })
       .attr("stroke", (d) => {
