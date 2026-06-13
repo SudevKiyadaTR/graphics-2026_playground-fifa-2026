@@ -182,4 +182,3 @@ _Entries appended after each completed task._
   - ✅ `dynamicPaths` configured as async generator reading `scraped-data/matches.json`
   - ✅ Match metadata loads from matches.json; title renders as "Home Team vs Away Team"
   - ✅ Per-match data bundles load gracefully (null if missing)
-

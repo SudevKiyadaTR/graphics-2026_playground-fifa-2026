@@ -63,11 +63,16 @@
   "AggregateHomeTeamScore": null,
   "AggregateAwayTeamScore": null,
   "Weather": {
-    "Humidity": null,
-    "Temperature": null,
-    "WindSpeed": null,
-    "Type": null,
-    "TypeLocalized": []
+    "Temperature": 30.9,
+    "Humidity": 38,
+    "WindSpeed": 5.8,
+    "Type": "Mainly clear",
+    "TypeLocalized": [
+      {
+        "Locale": "en-GB",
+        "Description": "Mainly clear"
+      }
+    ]
   },
   "Attendance": "70492",
   "Date": "2026-06-13T01:00:00Z",
@@ -96,25 +101,6 @@
     ],
     "Abbreviation": "USA",
     "Coaches": [
-      {
-        "IdCoach": "407399",
-        "IdCountry": "ESP",
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Jesus PEREZ"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Jesus PEREZ"
-          }
-        ],
-        "Role": 1,
-        "SpecialStatus": null
-      },
       {
         "IdCoach": "523476",
         "IdCountry": "ARG",
@@ -151,6 +137,25 @@
           }
         ],
         "Role": 0,
+        "SpecialStatus": null
+      },
+      {
+        "IdCoach": "407399",
+        "IdCountry": "ESP",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Jesus PEREZ"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Jesus PEREZ"
+          }
+        ],
+        "Role": 1,
         "SpecialStatus": null
       }
     ],
@@ -1028,6 +1033,42 @@
     ],
     "Staffs": [
       {
+        "IdStaff": "459083",
+        "IdCountry": "ESP",
+        "Role": 6,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Sebastiano POCHETTINO"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Sebastiano POCHETTINO"
+          }
+        ]
+      },
+      {
+        "IdStaff": "398207",
+        "IdCountry": "USA",
+        "Role": 1,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Kyle ROBERTSON"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Kyle ROBERTSON"
+          }
+        ]
+      },
+      {
         "IdStaff": "379724",
         "IdCountry": "ENG",
         "Role": 9999,
@@ -1064,60 +1105,6 @@
         ]
       },
       {
-        "IdStaff": "523475",
-        "IdCountry": "ESP",
-        "Role": 2,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Antoni JIMENEZ"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Antoni JIMENEZ"
-          }
-        ]
-      },
-      {
-        "IdStaff": "398207",
-        "IdCountry": "USA",
-        "Role": 1,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Kyle ROBERTSON"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Kyle ROBERTSON"
-          }
-        ]
-      },
-      {
-        "IdStaff": "459083",
-        "IdCountry": "ESP",
-        "Role": 6,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Sebastiano POCHETTINO"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Sebastiano POCHETTINO"
-          }
-        ]
-      },
-      {
         "IdStaff": "398208",
         "IdCountry": "USA",
         "Role": 16,
@@ -1132,6 +1119,24 @@
           {
             "Locale": "en-GB",
             "Description": "Sam ZAPATKA"
+          }
+        ]
+      },
+      {
+        "IdStaff": "523475",
+        "IdCountry": "ESP",
+        "Role": 2,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Antoni JIMENEZ"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Antoni JIMENEZ"
           }
         ]
       }
@@ -2152,78 +2157,6 @@
     ],
     "Staffs": [
       {
-        "IdStaff": "522383",
-        "IdCountry": "PAR",
-        "Role": 15,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Luis MUSSI"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Luis MUSSI"
-          }
-        ]
-      },
-      {
-        "IdStaff": "448301",
-        "IdCountry": "ARG",
-        "Role": 2,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Diego CARRANZA"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Diego CARRANZA"
-          }
-        ]
-      },
-      {
-        "IdStaff": "252147",
-        "IdCountry": "PAR",
-        "Role": 15,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Osvaldo INSFRAN"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Osvaldo INSFRAN"
-          }
-        ]
-      },
-      {
-        "IdStaff": "448314",
-        "IdCountry": "ARG",
-        "Role": 12,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Pedro ARBELAIZ"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Pedro ARBELAIZ"
-          }
-        ]
-      },
-      {
         "IdStaff": "442733",
         "IdCountry": "ARG",
         "Role": 12,
@@ -2256,6 +2189,78 @@
           {
             "Locale": "en-GB",
             "Description": "Walter LOPEZ"
+          }
+        ]
+      },
+      {
+        "IdStaff": "448301",
+        "IdCountry": "ARG",
+        "Role": 2,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Diego CARRANZA"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Diego CARRANZA"
+          }
+        ]
+      },
+      {
+        "IdStaff": "448314",
+        "IdCountry": "ARG",
+        "Role": 12,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Pedro ARBELAIZ"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Pedro ARBELAIZ"
+          }
+        ]
+      },
+      {
+        "IdStaff": "252147",
+        "IdCountry": "PAR",
+        "Role": 15,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Osvaldo INSFRAN"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Osvaldo INSFRAN"
+          }
+        ]
+      },
+      {
+        "IdStaff": "522383",
+        "IdCountry": "PAR",
+        "Role": 15,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Luis MUSSI"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Luis MUSSI"
           }
         ]
       }

@@ -439,6 +439,34 @@
       ]
     },
     {
+      "EventId": "410926178",
+      "IdTeam": "43928",
+      "IdPlayer": "494531",
+      "Timestamp": "2026-06-13T01:29:47.159Z",
+      "MatchMinute": "28'",
+      "Period": 3,
+      "HomeGoals": 1,
+      "AwayGoals": 0,
+      "Type": 57,
+      "Qualifiers": [],
+      "TypeLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goal Prevention"
+        }
+      ],
+      "PositionX": 96.92071,
+      "PositionY": 58.075899,
+      "HomePenaltyGoals": 0,
+      "AwayPenaltyGoals": 0,
+      "EventDescription": [
+        {
+          "Locale": "en-GB",
+          "Description": "The goalkeeper of Paraguay pulls off a save."
+        }
+      ]
+    },
+    {
       "EventId": "1250192481",
       "IdTeam": "43921",
       "IdPlayer": "466624",
@@ -779,6 +807,34 @@
         {
           "Locale": "en-GB",
           "Description": "TILLMAN (USA) attempts an effort on goal."
+        }
+      ]
+    },
+    {
+      "EventId": "1344390719",
+      "IdTeam": "43928",
+      "IdPlayer": "494531",
+      "Timestamp": "2026-06-13T01:44:57.108Z",
+      "MatchMinute": "43'",
+      "Period": 3,
+      "HomeGoals": 2,
+      "AwayGoals": 0,
+      "Type": 57,
+      "Qualifiers": [],
+      "TypeLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goal Prevention"
+        }
+      ],
+      "PositionX": 97.68357,
+      "PositionY": 43.778436,
+      "HomePenaltyGoals": 0,
+      "AwayPenaltyGoals": 0,
+      "EventDescription": [
+        {
+          "Locale": "en-GB",
+          "Description": "The goalkeeper of Paraguay pulls off a save."
         }
       ]
     },
@@ -1855,6 +1911,34 @@
         {
           "Locale": "en-GB",
           "Description": "TILLMAN (USA) attempts an effort on goal."
+        }
+      ]
+    },
+    {
+      "EventId": "317130413",
+      "IdTeam": "43928",
+      "IdPlayer": "494531",
+      "Timestamp": "2026-06-13T02:38:10.959Z",
+      "MatchMinute": "75'",
+      "Period": 5,
+      "HomeGoals": 3,
+      "AwayGoals": 1,
+      "Type": 57,
+      "Qualifiers": [],
+      "TypeLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goal Prevention"
+        }
+      ],
+      "PositionX": 1.99066,
+      "PositionY": 52.5905,
+      "HomePenaltyGoals": 0,
+      "AwayPenaltyGoals": 0,
+      "EventDescription": [
+        {
+          "Locale": "en-GB",
+          "Description": "The goalkeeper of Paraguay pulls off a save."
         }
       ]
     },
