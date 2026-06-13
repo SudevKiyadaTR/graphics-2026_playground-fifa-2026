@@ -428,27 +428,58 @@ function showTooltip(event, data, element) {
   tooltip.style.cssText = `
     position: fixed;
     background: var(--bg-raised);
+    color: var(--text-primary);
     border: 1px solid var(--border);
     border-radius: 4px;
-    padding: 8px 12px;
-    font: 400 0.75rem DM Mono, monospace;
-    color: var(--text-primary);
-    pointer-events: none;
+    padding: 12px;
+    font-family: "Inter", sans-serif;
     z-index: 1000;
+    pointer-events: none;
+    min-width: 220px;
+    max-width: 32ch;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    max-width: 280px;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
   `;
 
-  const typeDesc = data.TypeLocalized?.[0]?.Description || "Event";
-  const minute = data.MatchMinute;
-  const description = data.EventDescription?.[0]?.Description || typeDesc;
-
-  tooltip.innerHTML = `
-    <div style="font-weight: 600; margin-bottom: 4px; word-wrap: break-word; overflow-wrap: break-word;">${typeDesc} – ${minute}</div>
-    <div style="color: var(--text-secondary); font-size: 0.7rem; word-wrap: break-word; overflow-wrap: break-word;">${description}</div>
+  // Time header
+  const timeHeader = document.createElement("div");
+  timeHeader.style.cssText = `
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-subtle);
+    font-variant-numeric: tabular-nums;
   `;
+  timeHeader.textContent = data.MatchMinute;
+  tooltip.appendChild(timeHeader);
+
+  // Event type label
+  const typeLabel = document.createElement("div");
+  typeLabel.style.cssText = `
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    margin-top: 4px;
+    margin-bottom: 4px;
+  `;
+  typeLabel.textContent = data.TypeLocalized?.[0]?.Description || "Event";
+  tooltip.appendChild(typeLabel);
+
+  // Event description with accent border
+  const description = document.createElement("div");
+  description.style.cssText = `
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--text-primary);
+    padding-left: 12px;
+    border-left: 2px solid ${getEventColor(data)};
+  `;
+  description.textContent =
+    data.EventDescription?.[0]?.Description || data.TypeLocalized?.[0]?.Description || "Event";
+  tooltip.appendChild(description);
 
   // Add to DOM first so it can be measured
   document.body.appendChild(tooltip);
