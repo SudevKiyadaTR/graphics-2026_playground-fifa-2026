@@ -127,6 +127,19 @@
   overflow-x: auto;
 }
 
+.timeline-chart-container {
+  background: var(--bg-raised);
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.timeline-chart-container svg {
+  width: 100%;
+  height: auto;
+  min-height: 240px;
+}
+
 .timeline-event {
   padding: 12px;
   border-left: 3px solid var(--border);
@@ -172,12 +185,16 @@
 const matches = await FileAttachment("../data/matches.json").json();
 const timelines = await FileAttachment("../data/match-timelines.json").json();
 
+// Import D3 and timeline chart component
+import { matchTimelineChart } from "../components/match-timeline-chart.js";
+const d3 = await import("https://cdn.jsdelivr.net/npm/d3@7.8.5/+esm");
+
 // Extract match ID from URL path
-const pathname = typeof window !== 'undefined' ? window.location.pathname : '';
+const pathname = typeof window !== "undefined" ? window.location.pathname : "";
 const idMatch = pathname.match(/\/matches\/(\d+)/);
 const matchId = idMatch ? idMatch[1] : null;
 
-const match = matches.find(m => String(m.id) === matchId);
+const match = matches.find((m) => String(m.id) === matchId);
 
 if (!match) {
   throw new Error(`Match with ID ${matchId} not found`);
@@ -197,18 +214,24 @@ display(html`
       <div class="match-scoreline">
         <div class="team-box">
           <div class="team-name">${match.homeTeam}</div>
-          <div class="team-score${match.homeScore === null ? ' tbd' : ''}">${match.homeScore ?? 'TBD'}</div>
+          <div class="team-score${match.homeScore === null ? " tbd" : ""}">
+            ${match.homeScore ?? "TBD"}
+          </div>
         </div>
-        <div class="scoreline-divider">${new Date(match.date).toLocaleDateString("en-US", { month: "short", day: "numeric" })}</div>
+        <div class="scoreline-divider">
+          ${new Date(match.date).toLocaleDateString("en-US", { month: "short", day: "numeric" })}
+        </div>
         <div class="team-box">
           <div class="team-name">${match.awayTeam}</div>
-          <div class="team-score${match.awayScore === null ? ' tbd' : ''}">${match.awayScore ?? 'TBD'}</div>
+          <div class="team-score${match.awayScore === null ? " tbd" : ""}">
+            ${match.awayScore ?? "TBD"}
+          </div>
         </div>
       </div>
       <div class="match-meta">
         <div class="meta-item">
           <div class="meta-label">Status</div>
-          <div class="meta-value">${match.homeScore !== null ? 'Final' : 'Upcoming'}</div>
+          <div class="meta-value">${match.homeScore !== null ? "Final" : "Upcoming"}</div>
         </div>
         <div class="meta-item">
           <div class="meta-label">Events</div>
@@ -216,24 +239,23 @@ display(html`
         </div>
         <div class="meta-item">
           <div class="meta-label">Goals</div>
-          <div class="meta-value">${match.homeScore !== null ? Number(match.homeScore) + Number(match.awayScore) : '–'}</div>
+          <div class="meta-value">
+            ${match.homeScore !== null ? Number(match.homeScore) + Number(match.awayScore) : "–"}
+          </div>
         </div>
       </div>
     </section>
 
-    ${events.length > 0 ? html`
-    <section class="section-card">
-      <h2 class="section-title">Match Timeline</h2>
-      <div class="section-content">
-        ${events.slice(0, 50).map(e => html`
-          <div class="timeline-event${(e.Type === 1 || e.Type === 2) ? ' goal' : ''}">
-            <span class="event-minute">${e.MatchMinute}</span>
-            <span class="event-type">${e.TypeLocalized?.[0]?.Description || 'Event'}</span>
-          </div>
-        `)}
-      </div>
-    </section>
-    ` : ''}
+    ${events.length > 0
+      ? html`
+          <section class="section-card">
+            <h2 class="section-title">Match Timeline</h2>
+            <div class="timeline-chart-container">
+              ${matchTimelineChart(match, events, d3, html)}
+            </div>
+          </section>
+        `
+      : ""}
 
     <section class="section-card">
       <h2 class="section-title">Match Summary</h2>
@@ -241,10 +263,15 @@ display(html`
         <strong>${match.homeTeam}</strong> vs <strong>${match.awayTeam}</strong>
         <br />
         <span style="color: var(--text-muted); font-size: 0.9rem;">
-          ${match.stage} • ${match.group} • ${new Date(match.date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+          ${match.stage} • ${match.group} •
+          ${new Date(match.date).toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
         </span>
       </div>
     </section>
   </div>
-`)
+`);
 ```
