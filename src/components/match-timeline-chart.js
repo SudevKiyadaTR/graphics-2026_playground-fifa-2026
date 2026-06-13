@@ -186,9 +186,10 @@ export function matchTimelineChart(match, events, d3, html) {
       .append("text")
       .attr("class", "goal-icon")
       .attr("x", x)
-      .attr("y", y - 25)
+      .attr("y", y)
       .attr("text-anchor", "middle")
-      .attr("font-size", "24px")
+      .attr("dominant-baseline", "middle")
+      .attr("font-size", "16px")
       .attr("opacity", visibleCategories.has("goal") ? 1 : 0)
       .text("⚽");
 
