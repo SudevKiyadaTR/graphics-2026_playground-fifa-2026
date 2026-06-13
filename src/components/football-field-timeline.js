@@ -98,22 +98,22 @@ export function footballFieldTimeline(match, events, d3) {
 
   /**
    * Convert goal gate position to field coordinates
-   * GoalGatePositionX/Y are in the goal frame's local coordinate system
-   * Goal is 7.32m wide × 2.44m tall, centered on field
+   * GoalGatePositionX (0-100) maps to the vertical position on the goal post
+   * Goal is 2.44m tall, centered on field at y=50%
    */
-  function convertGoalGateToFieldPosition(goalGateX, goalGateY, isLeftGoal) {
+  function convertGoalGateToFieldPosition(goalGateX, isLeftGoal) {
     // Goal dimensions as percentage of field
-    const goalWidthPercent = (7.32 / 105) * 100; // ~6.97%
     const goalHeightPercent = (2.44 / 68) * 100; // ~3.59%
-
-    const fieldX = isLeftGoal
-      ? (goalGateX / 100) * goalWidthPercent
-      : 100 - (goalGateX / 100) * goalWidthPercent;
 
     // Goal is centered vertically at y=50
     const goalCenter = 50;
     const goalHalfHeight = goalHeightPercent / 2;
-    const fieldY = goalCenter - goalHalfHeight + (goalGateY / 100) * goalHeightPercent;
+
+    // Map GoalGatePositionX (0-100) to vertical position on field
+    const fieldY = goalCenter - goalHalfHeight + (goalGateX / 100) * goalHeightPercent;
+
+    // X position is at the goal line (0 for left, 100 for right)
+    const fieldX = isLeftGoal ? 0 : 100;
 
     return { x: fieldX, y: fieldY };
   }
@@ -137,20 +137,12 @@ export function footballFieldTimeline(match, events, d3) {
       .attr("y1", (d) => (d.PositionY / 100) * fieldHeight)
       .attr("x2", (d) => {
         const isLeftGoal = d.PositionX < 50;
-        const goalPos = convertGoalGateToFieldPosition(
-          d.GoalGatePositionX,
-          d.GoalGatePositionY,
-          isLeftGoal
-        );
+        const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isLeftGoal);
         return (goalPos.x / 100) * fieldWidth;
       })
       .attr("y2", (d) => {
         const isLeftGoal = d.PositionX < 50;
-        const goalPos = convertGoalGateToFieldPosition(
-          d.GoalGatePositionX,
-          d.GoalGatePositionY,
-          isLeftGoal
-        );
+        const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isLeftGoal);
         return (goalPos.y / 100) * fieldHeight;
       })
       .attr("stroke", (d) => {
