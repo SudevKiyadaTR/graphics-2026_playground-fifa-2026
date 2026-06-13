@@ -171,15 +171,15 @@ export function matchTimelineChart(match, events, d3, html) {
     .attr("cy", chartHeight / 2) // All events on same y-axis
     .attr("r", 5)
     .attr("fill", (d) => {
+      // Fill color = event type
       const config = eventCategories[d.category];
-      if (d.team?.id === "away") {
-        // Lighter shade for away team
-        return d3.color(config.color).brighter(1).hex();
-      }
       return config.color;
     })
-    .attr("stroke", "var(--bg-raised)")
-    .attr("stroke-width", 2)
+    .attr("stroke", (d) => {
+      // Stroke color = team (home=green, away=orange)
+      return d.team?.id === "away" ? "#f97316" : "#10b981";
+    })
+    .attr("stroke-width", 3)
     .attr("opacity", 0.8)
     .on("mouseover", function (event, d) {
       d3.select(this)
@@ -260,22 +260,22 @@ export function matchTimelineChart(match, events, d3, html) {
   const homeLegend = document.createElement("div");
   homeLegend.style.cssText = "display: flex; gap: 8px; align-items: center;";
   const homeCircle = document.createElement("div");
-  const homeColor = "#e8394b"; // Red for goals (most common event type for teams)
-  homeCircle.style.cssText = `width: 12px; height: 12px; border-radius: 50%; background: ${homeColor};`;
+  // Draw a circle with green border to show home team
+  homeCircle.style.cssText = "width: 12px; height: 12px; border-radius: 50%; background: transparent; border: 2px solid #10b981;";
   const homeLabel = document.createElement("span");
-  homeLabel.textContent = `${match.homeTeam} (darker)`;
+  homeLabel.textContent = `${match.homeTeam} (green outline)`;
   homeLabel.style.color = "var(--text-secondary)";
   homeLegend.appendChild(homeCircle);
   homeLegend.appendChild(homeLabel);
 
-  // Away team legend - lighter shade
+  // Away team legend
   const awayLegend = document.createElement("div");
   awayLegend.style.cssText = "display: flex; gap: 8px; align-items: center;";
   const awayCircle = document.createElement("div");
-  const awayColor = d3.color(homeColor).brighter(1).hex();
-  awayCircle.style.cssText = `width: 12px; height: 12px; border-radius: 50%; background: ${awayColor};`;
+  // Draw a circle with orange border to show away team
+  awayCircle.style.cssText = "width: 12px; height: 12px; border-radius: 50%; background: transparent; border: 2px solid #f97316;";
   const awayLabel = document.createElement("span");
-  awayLabel.textContent = `${match.awayTeam} (lighter)`;
+  awayLabel.textContent = `${match.awayTeam} (orange outline)`;
   awayLabel.style.color = "var(--text-secondary)";
   awayLegend.appendChild(awayCircle);
   awayLegend.appendChild(awayLabel);
@@ -284,6 +284,17 @@ export function matchTimelineChart(match, events, d3, html) {
   teamLegend.appendChild(awayLegend);
 
   legendContainer.appendChild(teamLegend);
+
+  // Add legend section explaining color scheme
+  const schemeNote = document.createElement("div");
+  schemeNote.style.cssText = `
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+    font-style: italic;
+  `;
+  schemeNote.textContent = "Marker color = event type • Outline color = team";
+  legendContainer.appendChild(schemeNote);
   
   // Add some space
   const spacer = document.createElement("div");
