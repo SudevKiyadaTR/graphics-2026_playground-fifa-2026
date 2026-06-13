@@ -70,6 +70,14 @@ Tasks are defined in `tasks/plan.md`. Work through them in order. Stop at each C
 
 All visual decisions must follow `DESIGN.md` (typography, colour tokens, chart conventions, spacing system).
 
+## Table Rendering Rule
+
+For any table UI in Observable pages, always use Observable Framework's `Inputs.table(...)`.
+
+- Do not hand-build HTML tables with `<table>`, `<thead>`, `<tbody>`, or DOM `createElement("table")` for page rendering.
+- If custom styling is needed, style the rendered `Inputs.table` output via scoped CSS wrappers.
+- If a legacy HTML table exists, refactor it to `Inputs.table` when touching that feature.
+
 ## LLM Documentation
 
 Before making decisions about display conventions, data formatting, terminology, or football/soccer rules, consult these references:

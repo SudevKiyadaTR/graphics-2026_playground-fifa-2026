@@ -66,14 +66,20 @@ function saveManifest(manifest) {
   fs.writeFileSync(MANIFEST_FILE, JSON.stringify(manifest, null, 2));
 }
 
+function isFinishedMatch(match) {
+  return (
+    match.winner !== null || Number(match.period || 0) >= 10 || Number(match.resultType || 0) > 0
+  );
+}
+
 function getMatchesToScrape(matches, manifest) {
-  if (FORCE) return matches.filter((m) => m.propertyId);
+  if (FORCE) return matches.filter((m) => m.propertyId && isFinishedMatch(m));
 
   return matches.filter((match) => {
     if (!match.propertyId) return false;
     if (manifest.scrapedMatches[match.id]) return false;
-    // Only scrape finished matches: if either score is recorded (null = 0), match is finished
-    return match.homeScore !== null || match.awayScore !== null;
+    // Only scrape finished matches.
+    return isFinishedMatch(match);
   });
 }
 
@@ -127,13 +133,64 @@ async function fetchMatches() {
             awayTeam:
               match.Away?.TeamName?.[0]?.Description || match.Away?.ShortClubName || "Unknown",
             date: match.Date,
-            homeScore: match.Home?.Score || null,
-            awayScore: match.Away?.Score || null,
+            // Use nullish coalescing so legitimate zero scores are preserved.
+            homeScore: match.Home?.Score ?? null,
+            awayScore: match.Away?.Score ?? null,
+            winner: match.Winner ?? null,
+            period: match.Period ?? null,
+            resultType: match.ResultType ?? null,
             stage,
             group,
           };
         });
 
+        const nowMs = Date.now();
+        for (const match of normalized) {
+          if (!match.propertyId) continue;
+
+          const kickoffMs = Date.parse(match.date);
+          const isPastKickoff = Number.isFinite(kickoffMs) && kickoffMs <= nowMs;
+          const hasCompletePair = match.homeScore !== null && match.awayScore !== null;
+          if (!isPastKickoff || hasCompletePair) continue;
+
+          const live = await fetchJson(`${BASE_URL}/live/football/${match.id}?language=en`);
+          if (!live) continue;
+
+          const liveHomeScore = live.HomeTeam?.Score ?? null;
+          const liveAwayScore = live.AwayTeam?.Score ?? null;
+          const liveWinner = live.Winner ?? null;
+          const livePeriod = live.Period ?? null;
+          const liveResultType = live.ResultType ?? null;
+
+          const hasLiveResultSignal =
+            liveHomeScore !== null ||
+            liveAwayScore !== null ||
+            liveWinner !== null ||
+            Number(livePeriod || 0) >= 10 ||
+            Number(liveResultType || 0) > 0;
+
+          if (!hasLiveResultSignal) continue;
+
+          const resultLooksFinal =
+            liveWinner !== null || Number(livePeriod || 0) >= 10 || Number(liveResultType || 0) > 0;
+
+          if (resultLooksFinal) {
+            match.homeScore = liveHomeScore ?? match.homeScore ?? 0;
+            match.awayScore = liveAwayScore ?? match.awayScore ?? 0;
+          } else {
+            if (liveHomeScore !== null) match.homeScore = liveHomeScore;
+            if (liveAwayScore !== null) match.awayScore = liveAwayScore;
+          }
+
+          match.winner = liveWinner;
+          match.period = livePeriod;
+          match.resultType = liveResultType;
+
+          await sleep(RATE_LIMIT_MS);
+        }
+
+        // Keep the master schedule complete so dashboard views can show upcoming fixtures.
+        // Per-match detail scraping is still gated by isFinishedMatch in getMatchesToScrape().
         matches.push(...normalized);
       }
 

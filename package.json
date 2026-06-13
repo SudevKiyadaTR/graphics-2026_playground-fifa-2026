@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "observable preview",
     "build": "observable build",
+    "scrape": "node scripts/scrape.js",
+    "scrape:force": "node scripts/scrape.js --force",
+    "seed:data": "bash scripts/seed-data.sh",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",

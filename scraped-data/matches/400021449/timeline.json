@@ -315,6 +315,34 @@
       ]
     },
     {
+      "EventId": "1219311018",
+      "IdTeam": "44037",
+      "IdPlayer": "482978",
+      "Timestamp": "2026-06-12T19:18:28.492Z",
+      "MatchMinute": "17'",
+      "Period": 3,
+      "HomeGoals": 0,
+      "AwayGoals": 0,
+      "Type": 57,
+      "Qualifiers": [],
+      "TypeLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goal Prevention"
+        }
+      ],
+      "PositionX": 1.92051,
+      "PositionY": 48.478112,
+      "HomePenaltyGoals": 0,
+      "AwayPenaltyGoals": 0,
+      "EventDescription": [
+        {
+          "Locale": "en-GB",
+          "Description": "The goalkeeper of Bosnia and Herzegovina pulls off a save."
+        }
+      ]
+    },
+    {
       "EventId": "369447946",
       "IdTeam": "44037",
       "IdPlayer": "482974",
@@ -1345,6 +1373,34 @@
         {
           "Locale": "en-GB",
           "Description": "Richie LARYEA (Canada) attempts an effort on goal."
+        }
+      ]
+    },
+    {
+      "EventId": "354686313",
+      "IdTeam": "44037",
+      "IdPlayer": "482978",
+      "Timestamp": "2026-06-12T20:14:18.719Z",
+      "MatchMinute": "53'",
+      "Period": 5,
+      "HomeGoals": 0,
+      "AwayGoals": 1,
+      "Type": 57,
+      "Qualifiers": [],
+      "TypeLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Goal Prevention"
+        }
+      ],
+      "PositionX": 97.57588,
+      "PositionY": 55.401179,
+      "HomePenaltyGoals": 0,
+      "AwayPenaltyGoals": 0,
+      "EventDescription": [
+        {
+          "Locale": "en-GB",
+          "Description": "The goalkeeper of Bosnia and Herzegovina pulls off a save."
         }
       ]
     },
