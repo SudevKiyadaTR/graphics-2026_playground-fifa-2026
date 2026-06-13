@@ -112,37 +112,6 @@
   color: var(--text-primary);
 }
 
-.weather-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 12px;
-  margin-top: 20px;
-  padding-top: 20px;
-  border-top: 1px solid var(--border);
-}
-
-.weather-item {
-  text-align: center;
-}
-
-.weather-icon {
-  font-size: 2rem;
-  margin-bottom: 6px;
-}
-
-.weather-label {
-  font: 500 0.72rem/1 Inter, sans-serif;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-secondary);
-}
-
-.weather-value {
-  margin-top: 4px;
-  font: 600 0.9rem/1.4 "DM Mono", monospace;
-  color: var(--text-primary);
-}
-
 .section-card {
   background: var(--bg-surface);
   border: 1px solid var(--border);
@@ -214,7 +183,6 @@
 ```js
 const matches = await FileAttachment("../data/matches.json").json();
 const timelines = await FileAttachment("../data/match-timelines.json").json();
-const liveDataMap = await FileAttachment("../data/live-data.json").json();
 
 // Import D3 and timeline chart component
 import { matchTimelineChart } from "../components/match-timeline-chart.js";
@@ -233,21 +201,6 @@ if (!match) {
 
 const timeline = timelines[String(match.id)] || { Event: [] };
 const events = timeline.Event || [];
-const liveData = liveDataMap[String(match.id)] || {};
-const weather = liveData.Weather;
-
-function getWeatherEmoji(weatherType) {
-  if (!weatherType) return "🌡️";
-  const lower = weatherType.toLowerCase();
-  if (lower.includes("clear")) return "☀️";
-  if (lower.includes("cloud")) return "☁️";
-  if (lower.includes("rain")) return "🌧️";
-  if (lower.includes("snow")) return "🌨️";
-  if (lower.includes("thunder") || lower.includes("storm")) return "⛈️";
-  if (lower.includes("fog")) return "🌫️";
-  if (lower.includes("wind")) return "💨";
-  return "🌡️";
-}
 ```
 
 ```js
@@ -290,32 +243,6 @@ display(html`
           </div>
         </div>
       </div>
-      ${weather && weather.Temperature !== null
-        ? html`
-            <div class="weather-container">
-              <div class="weather-item">
-                <div class="weather-icon">${getWeatherEmoji(weather.Type)}</div>
-                <div class="weather-label">Condition</div>
-                <div class="weather-value">${weather.Type}</div>
-              </div>
-              <div class="weather-item">
-                <div class="weather-icon">🌡️</div>
-                <div class="weather-label">Temperature</div>
-                <div class="weather-value">${weather.Temperature}°C</div>
-              </div>
-              <div class="weather-item">
-                <div class="weather-icon">💧</div>
-                <div class="weather-label">Humidity</div>
-                <div class="weather-value">${weather.Humidity}%</div>
-              </div>
-              <div class="weather-item">
-                <div class="weather-icon">💨</div>
-                <div class="weather-label">Wind Speed</div>
-                <div class="weather-value">${weather.WindSpeed} m/s</div>
-              </div>
-            </div>
-          `
-        : ""}
     </section>
 
     ${events.length > 0
