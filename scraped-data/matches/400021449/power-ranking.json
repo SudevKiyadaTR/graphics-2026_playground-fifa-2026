@@ -1,0 +1,2434 @@
+{
+  "competitionId": 285023,
+  "matchId": 151614,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-13T00:38:18.75848Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 371958,
+      "attackingRank": 23,
+      "defensiveRank": 1,
+      "creativityRank": 23,
+      "attackingScore": 4.297677516937256,
+      "defensiveScore": 7.8658576011657715,
+      "creativityScore": 4.940194129943848,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Derek CORNELIUS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ديريك كورنيليوس"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "デレク・コーネリアス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "데릭 코넬리우스"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дерек КОРНЕЛИУС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德里克·科尼利厄斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "EFE78874-6CB4-4156-A6CEAF7C6374D11F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/efe78874-6cb4-4156-a6ce-af7c6374d11f/CORNELIUS-Derek_371958"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 430138,
+      "attackingRank": 9,
+      "defensiveRank": 22,
+      "creativityRank": 17,
+      "attackingScore": 4.876385688781738,
+      "defensiveScore": 4.936904430389404,
+      "creativityScore": 5.67547082901001,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Tajon BUCHANAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تاجون بوكانان"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "タジョン・ブキャナン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "타존 뷰캐넌"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тейджон БЬЮКЕНЕН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "塔琼·布坎南"
+        }
+      ],
+      "playerPicture": {
+        "id": "A607B6F5-FE42-4A89-9E88CB9690E4BCD1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a607b6f5-fe42-4a89-9e88-cb9690e4bcd1/BUCHANAN-Tajon_430138"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 431696,
+      "attackingRank": 21,
+      "defensiveRank": 10,
+      "creativityRank": 5,
+      "attackingScore": 4.461640357971191,
+      "defensiveScore": 6.054222106933594,
+      "creativityScore": 6.789225101470947,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Richie LARYEA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ريتشي لاريا"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "リッチー・ラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "리치 라리에아"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ричи ЛАРЬЯ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "里奇•拉耶尔"
+        }
+      ],
+      "playerPicture": {
+        "id": "612F188F-BB60-45DB-8932FC7DD2CA13EC",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/612f188f-bb60-45db-8932-fc7dd2ca13ec/LARYEA-Richie_431696"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 433635,
+      "attackingRank": 17,
+      "defensiveRank": 19,
+      "creativityRank": 7,
+      "attackingScore": 4.61542272567749,
+      "defensiveScore": 5.366734027862549,
+      "creativityScore": 6.563691139221191,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Stephen EUSTAQUIO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ستيفن أوستاكيو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Stephen EUSTAQUIO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Stephen EUSTAQUIO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Stephen EUSTAQUIO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Stephen EUSTAQUIO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ステファン・エウスタキオ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스티븐 에우스타키오"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Stephen EUSTAQUIO"
+        }
+      ],
+      "playerPicture": {
+        "id": "1C0650A1-BBA7-4998-B6B6EBDDEED58058",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1c0650a1-bba7-4998-b6b6-ebddeed58058/EUSTAQUIO-Stephen_433635"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 441252,
+      "attackingRank": 19,
+      "defensiveRank": 11,
+      "creativityRank": 4,
+      "attackingScore": 4.558715343475342,
+      "defensiveScore": 5.844024181365967,
+      "creativityScore": 6.8962836265563965,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alistair JOHNSTON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أليستير جونستون"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アリスター・ジョンストン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "Alistair JOHNSTON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алистер ДЖОНСТОН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿利斯泰尔·约翰斯顿"
+        }
+      ],
+      "playerPicture": {
+        "id": "BD760593-4ED3-405E-B497F508DBC8BBDF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/bd760593-4ed3-405e-b497-f508dbc8bbdf/JOHNSTON-Alistair_441252"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 441257,
+      "attackingRank": 11,
+      "defensiveRank": 17,
+      "creativityRank": 24,
+      "attackingScore": 4.792885780334473,
+      "defensiveScore": 5.4617018699646,
+      "creativityScore": 4.799305438995361,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jonathan DAVID"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جوناثان ديفيد"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョナサン・デイヴィッド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "Jonathan DAVID"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джонатан ДЭВИД"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乔纳森·大卫"
+        }
+      ],
+      "playerPicture": {
+        "id": "97AD628A-B97D-4657-AC41F2A667C534E6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/97ad628a-b97d-4657-ac41-f2a667c534e6/DAVID-Jonathan_441257"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 441258,
+      "attackingRank": 13,
+      "defensiveRank": 20,
+      "creativityRank": 12,
+      "attackingScore": 4.726643085479736,
+      "defensiveScore": 5.3124003410339355,
+      "creativityScore": 6.157749652862549,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ismael KONE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسماعيل كونيه"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イスマエル・コネ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "Ismael KONE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Исмаэль КОНЕ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "伊斯梅尔·科内"
+        }
+      ],
+      "playerPicture": {
+        "id": "51344B42-77DE-4109-A1677723DC1D4DD2",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/51344b42-77de-4109-a167-7723dc1d4dd2/KONE-Ismael_441258"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 441259,
+      "attackingRank": 12,
+      "defensiveRank": 12,
+      "creativityRank": 1,
+      "attackingScore": 4.765654563903809,
+      "defensiveScore": 5.598028659820557,
+      "creativityScore": 7.342265605926514,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Liam MILLAR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ليام ميلر"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "リアム・ミラー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "Liam MILLAR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лиам МИЛЛАР"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "利亚姆·米勒"
+        }
+      ],
+      "playerPicture": {
+        "id": "3F5479A0-7D7D-408F-B9C8B0185E1D8AE4",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3f5479a0-7d7d-408f-b9c8-b0185e1d8ae4/MILLAR-Liam_441259"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 448411,
+      "attackingRank": 16,
+      "defensiveRank": 16,
+      "creativityRank": 8,
+      "attackingScore": 4.6435065269470215,
+      "defensiveScore": 5.47327184677124,
+      "creativityScore": 6.523021697998047,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jacob SHAFFELBURG"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يعقوب شافلبورغ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジェイコブ・シャッフェルバーグ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "제이콥 샤펠버그"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джейкоб ШАФФЕЛЬБУРГ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "雅各布·沙菲尔博格"
+        }
+      ],
+      "playerPicture": {
+        "id": "FD23F2A2-EB9D-4232-97FF03C924D6B24E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/fd23f2a2-eb9d-4232-97ff-03c924d6b24e/SHAFFELBURG-Jacob_448411"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 466687,
+      "attackingRank": 8,
+      "defensiveRank": 15,
+      "creativityRank": 9,
+      "attackingScore": 4.919332981109619,
+      "defensiveScore": 5.495414733886719,
+      "creativityScore": 6.436700344085693,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ali AHMED"
+        }
+      ],
+      "playerPicture": {
+        "id": "123BDAA9-E54B-4B1C-8FD45DAC88DE915E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/123bdaa9-e54b-4b1c-8fd4-5dac88de915e/AHMED-Ali_466687"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 480322,
+      "attackingRank": 25,
+      "defensiveRank": 9,
+      "creativityRank": 20,
+      "attackingScore": 4.1087236404418945,
+      "defensiveScore": 6.110684871673584,
+      "creativityScore": 5.371614933013916,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Luc DE FOUGEROLLES"
+        }
+      ],
+      "playerPicture": {
+        "id": "5A74297E-1AA4-41FA-A151782F1211D1A0",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5a74297e-1aa4-41fa-a151-782f1211d1a0/DE-FOUGEROLLES-Luc_480322"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 486929,
+      "attackingRank": 10,
+      "defensiveRank": 6,
+      "creativityRank": 11,
+      "attackingScore": 4.8260955810546875,
+      "defensiveScore": 6.256868839263916,
+      "creativityScore": 6.177909851074219,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Tani OLUWASEYI"
+        }
+      ],
+      "playerPicture": {
+        "id": "C761FB38-4F2B-47A9-9EDE6BEE5F09D6BD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c761fb38-4f2b-47a9-9ede-6bee5f09d6bd/OLUWASEYI-Tani_486929"
+      }
+    },
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 493970,
+      "attackingRank": 2,
+      "defensiveRank": 13,
+      "creativityRank": 6,
+      "attackingScore": 5.578623294830322,
+      "defensiveScore": 5.575894832611084,
+      "creativityScore": 6.577542781829834,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Promise DAVID"
+        }
+      ],
+      "playerPicture": {
+        "id": "5E47F75F-C26F-4A7B-81E57957CC1027EB",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5e47f75f-c26f-4a7b-81e5-7957cc1027eb/DAVID-Promise_493970"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 376230,
+      "attackingRank": 3,
+      "defensiveRank": 7,
+      "creativityRank": 3,
+      "attackingScore": 5.232165813446045,
+      "defensiveScore": 6.149824619293213,
+      "creativityScore": 6.96036958694458,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Sead KOLASINAC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سعاد كولاسيناك"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "セアド・コラシナツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "세아드 콜라시나츠"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Сеад КОЛАШИНАЦ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西德 科拉西纳克"
+        }
+      ],
+      "playerPicture": {
+        "id": "BED62578-6B40-402E-8C6394159988FE95",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/bed62578-6b40-402e-8c63-94159988fe95/KOLASINAC-Sead_376230"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 436743,
+      "attackingRank": 4,
+      "defensiveRank": 25,
+      "creativityRank": 22,
+      "attackingScore": 5.130046844482422,
+      "defensiveScore": 4.703923225402832,
+      "creativityScore": 4.982506275177002,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ermedin DEMIROVIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ارميدين ديميروفيتش"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エルメディン・デミロヴィッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에르메딘 데미로비치"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эрмедин ДЕМИРОВИЧ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃梅丁•德米洛维奇"
+        }
+      ],
+      "playerPicture": {
+        "id": "B9E9F187-0936-4ABA-9C702A4BCF2281E0",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b9e9f187-0936-4aba-9c70-2a4bcf2281e0/DEMIROVIC-Ermedin_436743"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 464566,
+      "attackingRank": 5,
+      "defensiveRank": 8,
+      "creativityRank": 16,
+      "attackingScore": 5.051783561706543,
+      "defensiveScore": 6.132876873016357,
+      "creativityScore": 5.714798450469971,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Esmir BAJRAKTAREVIC"
+        }
+      ],
+      "playerPicture": {
+        "id": "6A74409C-C030-405E-A0421C01F408EEFF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6a74409c-c030-405e-a042-1c01f408eeff/BAJRAKTAREVIC-Esmir_464566"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 482974,
+      "attackingRank": 18,
+      "defensiveRank": 21,
+      "creativityRank": 2,
+      "attackingScore": 4.560708999633789,
+      "defensiveScore": 4.978119373321533,
+      "creativityScore": 6.984354496002197,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ivan BASIC"
+        }
+      ],
+      "playerPicture": {
+        "id": "7AB9C56E-39F0-4D4A-B5C4E0583FD57319",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7ab9c56e-39f0-4d4a-b5c4-e0583fd57319/BASIC-Ivan_482974"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 482976,
+      "attackingRank": 22,
+      "defensiveRank": 4,
+      "creativityRank": 14,
+      "attackingScore": 4.3962202072143555,
+      "defensiveScore": 6.908928394317627,
+      "creativityScore": 5.781243324279785,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Amar DEDIC"
+        }
+      ],
+      "playerPicture": {
+        "id": "87DCEC5A-FBF4-45D7-8F1E26E00140CCE7",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/87dcec5a-fbf4-45d7-8f1e-26e00140cce7/DEDIC-Amar_482976"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 483966,
+      "attackingRank": 15,
+      "defensiveRank": 24,
+      "creativityRank": 25,
+      "attackingScore": 4.658595561981201,
+      "defensiveScore": 4.704566955566406,
+      "creativityScore": 4.514730930328369,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Benjamin TAHIROVIC"
+        }
+      ],
+      "playerPicture": {
+        "id": "998F85B6-06DB-4822-99DE68010B6CDC61",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/998f85b6-06db-4822-99de-68010b6cdc61/TAHIROVIC-Benjamin_483966"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 484022,
+      "attackingRank": 20,
+      "defensiveRank": 3,
+      "creativityRank": 19,
+      "attackingScore": 4.548292636871338,
+      "defensiveScore": 7.252040386199951,
+      "creativityScore": 5.479931354522705,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Tarik MUHAREMOVIC"
+        }
+      ],
+      "playerPicture": {
+        "id": "A230CB00-997C-4A8C-9983B03FA2DBE2AD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a230cb00-997c-4a8c-9983-b03fa2dbe2ad/MUHAREMOVIC-Tarik_484022"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 485063,
+      "attackingRank": 7,
+      "defensiveRank": 14,
+      "creativityRank": 15,
+      "attackingScore": 4.991485595703125,
+      "defensiveScore": 5.5124077796936035,
+      "creativityScore": 5.72603178024292,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Samed BAZDAR"
+        }
+      ],
+      "playerPicture": {
+        "id": "5BD9C46F-FB55-4097-AE919C7E4F6BB308",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5bd9c46f-fb55-4097-ae91-9c7e4f6bb308/BAZDAR-Samed_485063"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 489520,
+      "attackingRank": 24,
+      "defensiveRank": 2,
+      "creativityRank": 21,
+      "attackingScore": 4.185370922088623,
+      "defensiveScore": 7.416676998138428,
+      "creativityScore": 5.2057647705078125,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nikola KATIC"
+        }
+      ],
+      "playerPicture": {
+        "id": "71B1A703-25AA-4193-8BD7DAF0108E7009",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/71b1a703-25aa-4193-8bd7-daf0108e7009/KATIC-Nikola_489520"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 489523,
+      "attackingRank": 14,
+      "defensiveRank": 5,
+      "creativityRank": 10,
+      "attackingScore": 4.708643913269043,
+      "defensiveScore": 6.438507556915283,
+      "creativityScore": 6.179114818572998,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Armin GIGOVIC"
+        }
+      ],
+      "playerPicture": {
+        "id": "41529CF6-4725-4885-ABC100DC358CA8B9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/41529cf6-4725-4885-abc1-00dc358ca8b9/GIGOVIC-Armin_489523"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 494640,
+      "attackingRank": 6,
+      "defensiveRank": 23,
+      "creativityRank": 18,
+      "attackingScore": 5.034200191497803,
+      "defensiveScore": 4.847439289093018,
+      "creativityScore": 5.593123435974121,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Amar MEMIC"
+        }
+      ],
+      "playerPicture": {
+        "id": "C57E2C22-F510-4109-B3E772B5A6B862A9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c57e2c22-f510-4109-b3e7-72b5a6b862a9/MEMIC-Amar_494640"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 519954,
+      "attackingRank": 1,
+      "defensiveRank": 18,
+      "creativityRank": 13,
+      "attackingScore": 8.654162406921387,
+      "defensiveScore": 5.409040451049805,
+      "creativityScore": 5.78501558303833,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jovo LUKIC"
+        }
+      ],
+      "playerPicture": {
+        "id": "8FC08945-7C3E-4E0F-95B40C94A72A718D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8fc08945-7c3e-4e0f-95b4-0c94a72a718d/LUKIC-Jovo_519954"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43899,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Canada"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kanada"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Canadá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Canada"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kanada"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Canada"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カナダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "캐나다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Canadá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Канада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "加拿大"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CAN",
+      "playerId": 331732,
+      "inPossessionRank": 2,
+      "inPossessionScore": 5.919302940368652,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 6.093422889709473,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Maxime CREPEAU"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماكسيم كريبيو"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マクシム・クレポー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "막심 크레포"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Максим КРЕПО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "马克西姆·克雷波"
+        }
+      ],
+      "playerPicture": {
+        "id": "C4570CA7-10A7-44CA-901DFEE1E11E4400",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c4570ca7-10a7-44ca-901d-fee1e11e4400/CREPEAU-Maxime_331732"
+      }
+    },
+    {
+      "teamId": 44037,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Bosnia and Herzegovina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البوسنة والهرسك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bosnien und Herzegowina"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bosnia y Herzegovina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bosnie-et-Herzégovine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bosnia dan Herzegovina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bosnia ed Erzegovina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ボスニア・ヘルツェゴビナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "보스니아 헤르체고비나"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Bośnia i Hercegowina"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bósnia e Herzegovina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Босния и Герцеговина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "波斯尼亚和黑塞哥维那"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BIH",
+      "playerId": 482978,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.57526159286499,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 5.856549263000488,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nikola VASILJ"
+        }
+      ],
+      "playerPicture": {
+        "id": "BE1C5819-9BC1-4BF3-B6779172D1BE6BEA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/be1c5819-9bc1-4bf3-b677-9172d1be6bea/VASILJ-Nikola_482978"
+      }
+    }
+  ]
+}
