@@ -72,7 +72,7 @@ for (const match of matches) {
     continue;
   }
 
-  let liveData = JSON.parse(fs.readFileSync(liveFile, "utf-8"));
+  const liveData = JSON.parse(fs.readFileSync(liveFile, "utf-8"));
   const goalsByPlayer = getGoalsByPlayerFromLive(liveData);
   const statsFile = path.join(matchDir, "player-stats.json");
   const allPlayerStats = fs.existsSync(statsFile)
