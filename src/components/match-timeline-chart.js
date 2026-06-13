@@ -63,11 +63,10 @@ export function matchTimelineChart(match, events, d3, html) {
     }
   }
 
-  // Determine max minute
-  const maxMinute = Math.max(
-    parsedEvents.length > 0 ? Math.max(...parsedEvents.map((e) => e.minute)) : 90,
-    90
-  );
+  // Determine max minute - cap at 120 for standard matches + extra time
+  const eventMinutes = parsedEvents.map((e) => e.minute).filter((m) => m <= 200);
+  const maxEventMinute = eventMinutes.length > 0 ? Math.max(...eventMinutes) : 90;
+  const maxMinute = Math.min(Math.max(maxEventMinute + 5, 95), 120);
 
   // SVG dimensions
   const width = 800;
@@ -192,7 +191,7 @@ export function matchTimelineChart(match, events, d3, html) {
   // Draw minute markers on x-axis
   const xAxis = d3
     .axisBottom(xScale)
-    .tickValues(d3.range(0, maxMinute + 1, Math.ceil((maxMinute + 1) / 10)))
+    .tickValues(d3.range(0, maxMinute + 1, 15))
     .tickFormat((d) => (d === 0 ? "0'" : d + "'"));
 
   svg
