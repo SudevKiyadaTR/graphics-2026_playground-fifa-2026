@@ -1,5 +1,3 @@
-import { computePosition, flip, shift, offset } from "@floating-ui/dom";
-
 /**
  * Football Field Timeline Component
  * Displays a football field with event markers that can be scrubbed through a timeline.
@@ -435,6 +433,7 @@ function showTooltip(event, data) {
     z-index: 1000;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     max-width: 200px;
+    white-space: nowrap;
   `;
 
   const typeDesc = data.TypeLocalized?.[0]?.Description || "Event";
@@ -446,29 +445,32 @@ function showTooltip(event, data) {
     <div style="color: var(--text-secondary); font-size: 0.7rem;">${description}</div>
   `;
 
-  // Track if tooltip is active
-  tooltip.__isActive = true;
-
   // Add to DOM first so it can be measured
   document.body.appendChild(tooltip);
 
-  // Use floating-ui for intelligent positioning
-  const referenceElement = event.target;
-  computePosition(referenceElement, tooltip, {
-    placement: "top",
-    middleware: [offset(8), flip({ padding: 8 }), shift({ padding: 8 })],
-  }).then(({ x, y }) => {
-    if (tooltip.__isActive && tooltip.parentNode) {
-      Object.assign(tooltip.style, {
-        left: `${x}px`,
-        top: `${y}px`,
-      });
-    }
+  // Calculate position relative to the event target (SVG circle)
+  const rect = event.target.getBoundingClientRect();
+  const tooltipRect = tooltip.getBoundingClientRect();
+
+  let x = rect.left + rect.width / 2 - tooltipRect.width / 2;
+  let y = rect.top - tooltipRect.height - 8;
+
+  // Keep within viewport bounds
+  const padding = 8;
+  x = Math.max(padding, Math.min(x, window.innerWidth - tooltipRect.width - padding));
+
+  if (y < padding) {
+    // Flip to bottom if not enough space at top
+    y = rect.bottom + 8;
+  }
+
+  Object.assign(tooltip.style, {
+    left: `${x}px`,
+    top: `${y}px`,
   });
 
   // Store reference for cleanup
   if (event.target.__eventTooltip) {
-    event.target.__eventTooltip.__isActive = false;
     event.target.__eventTooltip.remove();
   }
   event.target.__eventTooltip = tooltip;
