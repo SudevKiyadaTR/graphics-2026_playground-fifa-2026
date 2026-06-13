@@ -136,8 +136,19 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("stroke", "var(--border)")
     .attr("stroke-width", 2);
 
-  // Draw timeline markers for events
-  const uniqueMinutes = [...new Set(eventsWithPosition.map((e) => parseMinute(e.MatchMinute)))];
+  // Draw timeline markers for events with color coding
+  const eventsByMinute = {};
+  eventsWithPosition.forEach((e) => {
+    const minute = parseMinute(e.MatchMinute);
+    if (!eventsByMinute[minute]) {
+      eventsByMinute[minute] = [];
+    }
+    eventsByMinute[minute].push(e);
+  });
+
+  const uniqueMinutes = Object.keys(eventsByMinute)
+    .map(Number)
+    .sort((a, b) => a - b);
   timelineSvg
     .selectAll(".timeline-marker")
     .data(uniqueMinutes)
@@ -148,9 +159,13 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("y1", timelineY - 4)
     .attr("x2", (d) => timelineStart + (d / matchDuration) * timelineWidth)
     .attr("y2", timelineY + 4)
-    .attr("stroke", "var(--text-secondary)")
-    .attr("stroke-width", 1)
-    .attr("opacity", 0.5);
+    .attr("stroke", (d) => {
+      // Use color of first event at this minute
+      const firstEvent = eventsByMinute[d][0];
+      return getEventColor(firstEvent);
+    })
+    .attr("stroke-width", 2)
+    .attr("opacity", 0.8);
 
   // Scrubber handle
   const scrubberHandle = timelineSvg
@@ -379,26 +394,53 @@ function drawFootballField(group, width, height) {
     .attr("stroke-width", 1.5)
     .attr("opacity", 0.7);
 
-  // Corner arcs - radius at each corner
+  // Corner arcs - properly clipped inside field
   const cornerRadius = 13;
-  const corners = [
-    { x: 0, y: 0 },
-    { x: width, y: 0 },
-    { x: 0, y: height },
-    { x: width, y: height },
-  ];
 
-  corners.forEach((corner) => {
-    group
-      .append("circle")
-      .attr("cx", corner.x)
-      .attr("cy", corner.y)
-      .attr("r", cornerRadius)
-      .attr("fill", "none")
-      .attr("stroke", "var(--text-secondary)")
-      .attr("stroke-width", 1.5)
-      .attr("opacity", 0.5);
-  });
+  // Top-left corner arc
+  group
+    .append("path")
+    .attr("d", `M ${cornerRadius} 0 A ${cornerRadius} ${cornerRadius} 0 0 1 0 ${cornerRadius}`)
+    .attr("fill", "none")
+    .attr("stroke", "var(--text-secondary)")
+    .attr("stroke-width", 1.5)
+    .attr("opacity", 0.5);
+
+  // Top-right corner arc
+  group
+    .append("path")
+    .attr(
+      "d",
+      `M ${width - cornerRadius} 0 A ${cornerRadius} ${cornerRadius} 0 0 0 ${width} ${cornerRadius}`
+    )
+    .attr("fill", "none")
+    .attr("stroke", "var(--text-secondary)")
+    .attr("stroke-width", 1.5)
+    .attr("opacity", 0.5);
+
+  // Bottom-left corner arc
+  group
+    .append("path")
+    .attr(
+      "d",
+      `M 0 ${height - cornerRadius} A ${cornerRadius} ${cornerRadius} 0 0 0 ${cornerRadius} ${height}`
+    )
+    .attr("fill", "none")
+    .attr("stroke", "var(--text-secondary)")
+    .attr("stroke-width", 1.5)
+    .attr("opacity", 0.5);
+
+  // Bottom-right corner arc
+  group
+    .append("path")
+    .attr(
+      "d",
+      `M ${width - cornerRadius} ${height} A ${cornerRadius} ${cornerRadius} 0 0 0 ${width} ${height - cornerRadius}`
+    )
+    .attr("fill", "none")
+    .attr("stroke", "var(--text-secondary)")
+    .attr("stroke-width", 1.5)
+    .attr("opacity", 0.5);
 }
 
 /**
