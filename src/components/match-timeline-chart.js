@@ -1,3 +1,5 @@
+import { computePosition, flip, shift, offset } from "@floating-ui/dom";
+
 export function matchTimelineChart(match, events, d3) {
   const parseMinute = (minute) => {
     // Handle formats like "45'", "45'+5'"
@@ -553,13 +555,32 @@ export function matchTimelineChart(match, events, d3) {
 
         tooltip.appendChild(eventsContainer);
 
-        // Position tooltip
-        tooltip.style.left = `${event.pageX + 10}px`;
-        tooltip.style.top = `${event.pageY + 10}px`;
-
+        // Add to DOM first so it can be measured for positioning
         document.body.appendChild(tooltip);
 
-        // Store tooltip and timeout ID on the circle element for cleanup on mouseout
+        // Track if this tooltip is still active (not removed by mouseout)
+        tooltip.__isActive = true;
+
+        // Use floating-ui for intelligent positioning
+        const referenceElement = this; // The SVG circle element
+        computePosition(referenceElement, tooltip, {
+          placement: "right",
+          middleware: [
+            offset(10), // 10px offset from the marker
+            flip(), // Flip to opposite side if near viewport edge
+            shift({ padding: 8 }), // Shift if viewport collision, with 8px padding
+          ],
+        }).then(({ x, y }) => {
+          // Only apply positioning if tooltip is still active
+          if (tooltip.__isActive && tooltip.parentNode) {
+            Object.assign(tooltip.style, {
+              left: `${x}px`,
+              top: `${y}px`,
+            });
+          }
+        });
+
+        // Store tooltip on the circle element for cleanup on mouseout
         const circleElement = d3.select(this);
         circleElement.node().__tooltip = tooltip;
       } catch (err) {
@@ -572,8 +593,12 @@ export function matchTimelineChart(match, events, d3) {
       // Immediately remove tooltip on mouseout
       const circleElement = d3.select(this);
       const tooltip = circleElement.node().__tooltip;
-      if (tooltip && tooltip.parentNode) {
-        tooltip.remove();
+      if (tooltip) {
+        // Mark tooltip as inactive so floating-ui promise won't position it
+        tooltip.__isActive = false;
+        if (tooltip.parentNode) {
+          tooltip.remove();
+        }
       }
       circleElement.node().__tooltip = null;
     });
