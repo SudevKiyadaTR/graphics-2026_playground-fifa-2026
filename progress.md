@@ -17,6 +17,7 @@
 | —    | ✅     | 2026-06-12   | Refactor: Data hierarchy restructuring     |
 | —    | ✅     | 2026-06-12   | Feature: Player Stats (expanded 20 fields) |
 | —    | ✅     | 2026-06-12   | Simplify homepage + loader cleanup         |
+| —    | ✅     | 2026-06-12   | Weather integration (Open-Meteo API)       |
 
 ---
 
@@ -182,3 +183,20 @@ _Entries appended after each completed task._
   - ✅ `dynamicPaths` configured as async generator reading `scraped-data/matches.json`
   - ✅ Match metadata loads from matches.json; title renders as "Home Team vs Away Team"
   - ✅ Per-match data bundles load gracefully (null if missing)
+
+### Feature — Weather data integration (Open-Meteo API)
+
+- **Completed:** 2026-06-12 22:30
+- **Files changed:** `scripts/scrape.js`, `scripts/stadium-coordinates.json` (new), `src/data/live-data.json.js` (new), `src/matches/[id].md`
+- **What was done:** Integrated Open-Meteo historical weather API into the scraper pipeline. Created stadium-coordinates.json mapping all 12 FIFA 2026 venues to GPS coordinates. Scraper now fetches historical weather (temperature, humidity, wind speed, weather code) for each match venue at match date/time and stores in live.json Weather object. Created live-data.json.js loader to surface weather data to Observable pages. Added weather display component to match detail page showing temperature (°C), humidity (%), wind speed (m/s), and weather condition with emoji icons.
+- **Verification:** `npm run scrape.js --force` enriches matches with weather data; `npm run build` succeeds; weather displays correctly on match detail pages for matches with available weather data
+- **Acceptance criteria met:**
+  - ✅ Stadium coordinates mapping includes all 12 FIFA 2026 venues
+  - ✅ Scraper fetches historical weather from Open-Meteo Archive API
+  - ✅ Weather data persisted in live.json Weather object with all required fields
+  - ✅ live-data.json.js loader successfully surfaces weather to Observable
+  - ✅ Match detail page displays weather card with temperature, humidity, wind speed, condition
+  - ✅ Weather emoji icons map to weather condition type
+  - ✅ Code passes linting and formatting checks
+  - ✅ Build completes successfully
+  - ✅ Changes committed to main with merge commit preserving history
