@@ -25,30 +25,83 @@ export function matchTimelineChart(match, events, d3) {
     return null;
   };
 
-  const getTeamInfo = (eventTeamId) => {
+  // Map team IDs to team names by analyzing the first few events
+  const teamIdMap = new Map();
+  for (const e of events) {
+    if (e.IdTeam && e.EventDescription) {
+      const desc = e.EventDescription[0]?.Description || "";
+      const teamMatch = desc.match(/\(([^)]+)\)/);
+      if (teamMatch) {
+        const potentialTeamName = teamMatch[1];
+        if (potentialTeamName === match.homeTeam || potentialTeamName === match.awayTeam) {
+          teamIdMap.set(e.IdTeam, potentialTeamName);
+        }
+      }
+    }
+  }
+
+  const getTeamInfo = (eventTeamId, eventDescription) => {
     if (!eventTeamId) return null;
+
+    // First, try to extract team name from event description
+    // Handles: "PLAYER (Czechia) commits a foul" and "PLAYER (in) ... (Korea Republic)"
+    if (eventDescription) {
+      // Find all parentheses content and check each one
+      const matches = eventDescription.match(/\(([^)]+)\)/g);
+      if (matches) {
+        // Check from end to start to find team name
+        for (let i = matches.length - 1; i >= 0; i--) {
+          const content = matches[i].slice(1, -1); // remove parentheses
+          if (content === match.homeTeam || content === match.awayTeam) {
+            return content;
+          }
+        }
+      }
+    }
+
+    // Second, try to use the team ID map we built
+    if (teamIdMap.has(eventTeamId)) {
+      return teamIdMap.get(eventTeamId);
+    }
+
+    // Fallback: try to map team IDs by looking at goal events
     let homeTeamId = null;
     let awayTeamId = null;
 
     for (const e of events) {
-      if (e.TypeLocalized?.[0]?.Description === "Goal!") {
-        if (e.HomeGoals === 1 && e.AwayGoals === 0) {
+      if (e.TypeLocalized?.[0]?.Description === "Goal!" && e.IdTeam) {
+        // Map by comparing HomeGoals and AwayGoals changes
+        const prevGoalIndex = events.indexOf(e) - 1;
+        let prevHome = 0;
+        let prevAway = 0;
+
+        if (prevGoalIndex >= 0) {
+          const prevEvent = events[prevGoalIndex];
+          if (prevEvent.HomeGoals !== undefined) {
+            prevHome = prevEvent.HomeGoals - (e.HomeGoals > prevEvent.HomeGoals ? 1 : 0);
+            prevAway = prevEvent.AwayGoals - (e.AwayGoals > prevEvent.AwayGoals ? 1 : 0);
+          }
+        }
+
+        if (e.HomeGoals > prevHome && e.AwayGoals === prevAway) {
           homeTeamId = e.IdTeam;
-        } else if (e.HomeGoals === 0 && e.AwayGoals === 1) {
+        } else if (e.AwayGoals > prevAway && e.HomeGoals === prevHome) {
           awayTeamId = e.IdTeam;
         }
+
         if (homeTeamId && awayTeamId) break;
       }
     }
 
+    // Last resort: use unique team IDs from events
     if (!homeTeamId || !awayTeamId) {
       const teamIds = new Set();
       for (const e of events) {
         if (e.IdTeam) teamIds.add(e.IdTeam);
       }
-      const teamIdArray = Array.from(teamIds);
-      if (!homeTeamId) homeTeamId = teamIdArray[0];
-      if (!awayTeamId) awayTeamId = teamIdArray[1];
+      const teamIdArray = Array.from(teamIds).sort();
+      if (!homeTeamId && teamIdArray[0]) homeTeamId = teamIdArray[0];
+      if (!awayTeamId && teamIdArray[1]) awayTeamId = teamIdArray[1];
     }
 
     if (eventTeamId === homeTeamId) return match.homeTeam;
@@ -58,12 +111,16 @@ export function matchTimelineChart(match, events, d3) {
 
   const parsedEvents = events
     .filter((e) => categorizeEvent(e) !== null)
-    .map((e) => ({
-      ...e,
-      minute: parseMinute(e.MatchMinute),
-      category: categorizeEvent(e),
-      teamName: getTeamInfo(e.IdTeam),
-    }))
+    .map((e) => {
+      const eventDesc = e.EventDescription?.[0]?.Description || "";
+      return {
+        ...e,
+        minute: parseMinute(e.MatchMinute),
+        category: categorizeEvent(e),
+        eventDescription: eventDesc,
+        teamName: getTeamInfo(e.IdTeam, eventDesc),
+      };
+    })
     .sort((a, b) => a.minute - b.minute);
 
   const eventMinutes = parsedEvents.map((e) => e.minute).filter((m) => m <= 200);
@@ -390,32 +447,125 @@ export function matchTimelineChart(match, events, d3) {
     .attr("r", 4)
     .attr("fill", (d) => eventCategories[d.category].color)
     .attr("opacity", (d) => (visibleCategories.has(d.category) ? 1 : 0))
+    .attr("pointer-events", (d) => (visibleCategories.has(d.category) ? "auto" : "none"))
     .style("cursor", "pointer")
     .style("z-index", "100")
-    .style("pointer-events", "auto")
     .on("mouseover", function (event, d) {
-      d3.select(this).transition().duration(150).attr("r", 6);
+      // Only show tooltip if marker is visible
+      if (!visibleCategories.has(d.category)) {
+        return;
+      }
 
-      const tooltip = document.createElement("div");
-      const eventDesc = d.TypeLocalized?.[0]?.Description || d.category;
-      tooltip.style.cssText = `
-        position: fixed;
-        background: var(--bg-raised);
-        color: var(--text-primary);
-        padding: 8px 12px;
-        border-radius: 4px;
-        font-size: 0.8rem;
-        font-family: "DM Mono", monospace;
-        z-index: 1000;
-        white-space: nowrap;
-        border: 1px solid var(--border);
-        left: ${event.pageX + 10}px;
-        top: ${event.pageY + 10}px;
-      `;
-      tooltip.textContent = `${d.teamName} • ${eventDesc} @ ${d.MatchMinute}`;
-      document.body.appendChild(tooltip);
+      try {
+        d3.select(this).transition().duration(150).attr("r", 6);
 
-      setTimeout(() => tooltip.remove(), 2000);
+        // Find all events at the same minute
+        const eventsAtMinute = parsedEvents.filter((e) => e.minute === d.minute);
+        const minuteDisplay = d.MatchMinute || `${d.minute}'`;
+
+        // Group events by team
+        const eventsByTeam = {};
+        for (const evt of eventsAtMinute) {
+          const team = evt.teamName || "Unknown Team";
+          if (!eventsByTeam[team]) {
+            eventsByTeam[team] = [];
+          }
+          eventsByTeam[team].push(evt);
+        }
+
+        // Create structured tooltip
+        const tooltip = document.createElement("div");
+        tooltip.style.cssText = `
+          position: fixed;
+          background: var(--bg-raised);
+          color: var(--text-primary);
+          border: 1px solid var(--border);
+          border-radius: 4px;
+          padding: 12px;
+          font-family: "Inter", sans-serif;
+          z-index: 1000;
+          pointer-events: none;
+          min-width: 220px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        `;
+
+        // Time header
+        const timeHeader = document.createElement("div");
+        timeHeader.style.cssText = `
+          font-size: 0.85rem;
+          font-weight: 600;
+          color: var(--text-primary);
+          margin-bottom: 8px;
+          padding-bottom: 8px;
+          border-bottom: 1px solid var(--border-subtle);
+          font-variant-numeric: tabular-nums;
+        `;
+        timeHeader.textContent = minuteDisplay;
+        tooltip.appendChild(timeHeader);
+
+        // Events container
+        const eventsContainer = document.createElement("div");
+        eventsContainer.style.cssText = `
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        `;
+
+        // Group order: home team first, then away team
+        const teamOrder = [match.homeTeam, match.awayTeam].filter((team) => team in eventsByTeam);
+        const otherTeams = Object.keys(eventsByTeam).filter((team) => !teamOrder.includes(team));
+        const orderedTeams = [...teamOrder, ...otherTeams];
+
+        for (const team of orderedTeams) {
+          const teamEvents = eventsByTeam[team];
+
+          // Team label
+          const teamLabel = document.createElement("div");
+          teamLabel.style.cssText = `
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-top: 4px;
+          `;
+          teamLabel.textContent = team;
+          eventsContainer.appendChild(teamLabel);
+
+          // Events for this team
+          for (const evt of teamEvents) {
+            const eventDesc =
+              evt.TypeLocalized?.[0]?.Description || evt.eventDescription || evt.category;
+
+            const eventItem = document.createElement("div");
+            eventItem.style.cssText = `
+              font-size: 0.8rem;
+              line-height: 1.4;
+              color: var(--text-primary);
+              padding-left: 12px;
+              border-left: 2px solid ${eventCategories[evt.category].color};
+            `;
+            eventItem.textContent = eventDesc;
+            eventsContainer.appendChild(eventItem);
+          }
+        }
+
+        tooltip.appendChild(eventsContainer);
+
+        // Position tooltip
+        tooltip.style.left = `${event.pageX + 10}px`;
+        tooltip.style.top = `${event.pageY + 10}px`;
+
+        document.body.appendChild(tooltip);
+
+        setTimeout(() => {
+          if (tooltip.parentNode) {
+            tooltip.remove();
+          }
+        }, 2500);
+      } catch (err) {
+        console.error("Tooltip error:", err);
+      }
     })
     .on("mouseout", function () {
       d3.select(this).transition().duration(150).attr("r", 4);

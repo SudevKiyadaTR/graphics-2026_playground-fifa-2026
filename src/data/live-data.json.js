@@ -8,7 +8,7 @@ const DATA_DIR = path.join(__dirname, "../../scraped-data/matches");
 const liveData = {};
 
 // Read all match directories and load live.json files
-const matchIds = fs.readdirSync(DATA_DIR).filter(f => {
+const matchIds = fs.readdirSync(DATA_DIR).filter((f) => {
   return fs.statSync(path.join(DATA_DIR, f)).isDirectory();
 });
 
