@@ -10,7 +10,7 @@ export function footballFieldTimeline(match, events, d3) {
   // Standardized field dimensions for proper aspect ratio
   const fieldWidth = 1050; // Full width
   const fieldHeight = 680; // Full height - maintains proper soccer field proportions
-  const margin = { top: 20, right: 20, bottom: 80, left: 20 };
+  const margin = { top: 20, right: 20, bottom: 20, left: 20 };
   const chartWidth = fieldWidth + margin.left + margin.right;
   const chartHeight = fieldHeight + margin.top + margin.bottom;
 
