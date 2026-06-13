@@ -84,33 +84,33 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("points", "0 0, 10 3, 0 6")
     .attr("fill", "#fbbf24");
 
-  // Draw goal posts (extend outside field boundary)
-  // Goal opening: 7.32m wide (along goal line)
+  // Draw goal posts (extend outside field boundary at top and bottom)
+  // Goal opening: 7.32m wide (across goal line)
   // Goal depth: 2.44m deep (extending beyond goal line)
-  const goalOpeningPercent = (7.32 / 68) * 100; // ~10.76% of field width
-  const goalDepthPercent = (2.44 / 105) * 100; // ~2.33% of field length
-  const goalCenterY = 50; // Center of field vertically
-  const goalTopY = goalCenterY - goalOpeningPercent / 2;
+  const goalOpeningPercent = (7.32 / 68) * 100; // ~10.76% of field width (goal is 7.32m on 68m wide field)
+  const goalDepthPercent = (2.44 / 105) * 100; // ~2.33% of field height (goal is 2.44m on 105m long field)
+  const goalCenterX = 50; // Center of field horizontally
+  const goalLeftX = goalCenterX - goalOpeningPercent / 2;
 
-  const goalDepthPixels = (goalDepthPercent / 100) * fieldWidth;
+  const goalDepthPixels = (goalDepthPercent / 100) * fieldHeight;
 
-  // Left goal post (extends left from x=0)
+  // Top goal post (extends up from y=0)
   fieldGroup
     .append("rect")
-    .attr("x", -goalDepthPixels)
-    .attr("y", (goalTopY / 100) * fieldHeight)
-    .attr("width", goalDepthPixels)
-    .attr("height", (goalOpeningPercent / 100) * fieldHeight)
+    .attr("x", (goalLeftX / 100) * fieldWidth)
+    .attr("y", -goalDepthPixels)
+    .attr("width", (goalOpeningPercent / 100) * fieldWidth)
+    .attr("height", goalDepthPixels)
     .attr("fill", "#9ca3af")
     .attr("opacity", 0.7);
 
-  // Right goal post (extends right from x=fieldWidth)
+  // Bottom goal post (extends down from y=fieldHeight)
   fieldGroup
     .append("rect")
-    .attr("x", fieldWidth)
-    .attr("y", (goalTopY / 100) * fieldHeight)
-    .attr("width", goalDepthPixels)
-    .attr("height", (goalOpeningPercent / 100) * fieldHeight)
+    .attr("x", (goalLeftX / 100) * fieldWidth)
+    .attr("y", fieldHeight)
+    .attr("width", (goalOpeningPercent / 100) * fieldWidth)
+    .attr("height", goalDepthPixels)
     .attr("fill", "#9ca3af")
     .attr("opacity", 0.7);
 
@@ -128,22 +128,22 @@ export function footballFieldTimeline(match, events, d3) {
 
   /**
    * Convert goal gate position to field coordinates
-   * GoalGatePositionX (0-100) maps to the vertical position on the goal post
-   * Goal is 2.44m tall, centered on field at y=50%
+   * GoalGatePositionX (0-100) maps to the horizontal position on the goal post
+   * Goal is 7.32m wide, centered on field at x=50%
    */
-  function convertGoalGateToFieldPosition(goalGateX, isLeftGoal) {
+  function convertGoalGateToFieldPosition(goalGateX, isTopGoal) {
     // Goal dimensions as percentage of field
-    const goalHeightPercent = (2.44 / 68) * 100; // ~3.59%
+    const goalOpeningPercent = (7.32 / 68) * 100; // ~10.76% of field width
 
-    // Goal is centered vertically at y=50
+    // Goal is centered horizontally at x=50
     const goalCenter = 50;
-    const goalHalfHeight = goalHeightPercent / 2;
+    const goalHalfWidth = goalOpeningPercent / 2;
 
-    // Map GoalGatePositionX (0-100) to vertical position on field
-    const fieldY = goalCenter - goalHalfHeight + (goalGateX / 100) * goalHeightPercent;
+    // Map GoalGatePositionX (0-100) to horizontal position on field
+    const fieldX = goalCenter - goalHalfWidth + (goalGateX / 100) * goalOpeningPercent;
 
-    // X position is at the goal line (0 for left, 100 for right)
-    const fieldX = isLeftGoal ? 0 : 100;
+    // Y position is at the goal line (0 for top, 100 for bottom)
+    const fieldY = isTopGoal ? 0 : 100;
 
     return { x: fieldX, y: fieldY };
   }
@@ -166,13 +166,13 @@ export function footballFieldTimeline(match, events, d3) {
       .attr("x1", (d) => (d.PositionX / 100) * fieldWidth)
       .attr("y1", (d) => (d.PositionY / 100) * fieldHeight)
       .attr("x2", (d) => {
-        const isLeftGoal = d.PositionX < 50;
-        const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isLeftGoal);
+        const isTopGoal = d.PositionY < 50;
+        const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isTopGoal);
         return (goalPos.x / 100) * fieldWidth;
       })
       .attr("y2", (d) => {
-        const isLeftGoal = d.PositionX < 50;
-        const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isLeftGoal);
+        const isTopGoal = d.PositionY < 50;
+        const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isTopGoal);
         return (goalPos.y / 100) * fieldHeight;
       })
       .attr("stroke", (d) => {
