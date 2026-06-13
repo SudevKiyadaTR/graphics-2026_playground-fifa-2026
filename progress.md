@@ -211,3 +211,19 @@ _Entries appended after each completed task._
   - ✅ Foul events show player name and action text
   - ✅ Team grouping and color-coded borders preserved
   - ✅ Pointer-events properly managed on circle elements
+
+### Feature — Tooltip positioning with @floating-ui/dom
+
+- **Completed:** 2026-06-13 15:25
+- **Files changed:** `src/components/match-timeline-chart.js`, `package.json`
+- **What was done:** Integrated `@floating-ui/dom` library for intelligent tooltip positioning that automatically handles viewport collisions. Tooltips now position to the right of markers by default, with middleware stack: `offset(10)` for 10px spacing, `flip()` to switch to opposite side if near viewport edge, and `shift({ padding: 8 })` to prevent edge clipping. Resolved async/instant-hide conflict by tracking tooltip lifecycle with `tooltip.__isActive` flag—checked before applying positions from Promise resolution, preventing race conditions when user quickly moves pointer away.
+- **Verification:** Tested on localhost:3000/matches/400021443 across multiple screen positions. (1) Tooltips position to right of marker by default. (2) When marker near right edge, tooltip flips to left side. (3) When marker near vertical edges, tooltip shifts within padding. (4) Instant hide still works despite async positioning—tooltip disappears within 100ms and no stale positions apply. (5) Full event descriptions render correctly with floating-ui positioning. `npm run lint:fix && npm run format` pass clean with no warnings in match-timeline-chart.js.
+- **Acceptance criteria met:**
+  - ✅ Tooltip positions with floating-ui library (offset 10px, flip/shift middleware)
+  - ✅ Tooltips position right by default, flip left at viewport edge
+  - ✅ Tooltips shift vertically if near top/bottom edge
+  - ✅ Instant hide works correctly (no lingering stale tooltips)
+  - ✅ Async Promise doesn't cause positioning race conditions
+  - ✅ Full event descriptions display with correct positioning
+  - ✅ No console errors or linting warnings
+  - ✅ Package.json includes @floating-ui/dom dependency
