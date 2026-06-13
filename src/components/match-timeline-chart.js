@@ -534,8 +534,9 @@ export function matchTimelineChart(match, events, d3) {
 
           // Events for this team
           for (const evt of teamEvents) {
+            // Use detailed description first, then type label, then category
             const eventDesc =
-              evt.TypeLocalized?.[0]?.Description || evt.eventDescription || evt.category;
+              evt.eventDescription || evt.TypeLocalized?.[0]?.Description || evt.category;
 
             const eventItem = document.createElement("div");
             eventItem.style.cssText = `
@@ -558,17 +559,23 @@ export function matchTimelineChart(match, events, d3) {
 
         document.body.appendChild(tooltip);
 
-        setTimeout(() => {
-          if (tooltip.parentNode) {
-            tooltip.remove();
-          }
-        }, 2500);
+        // Store tooltip and timeout ID on the circle element for cleanup on mouseout
+        const circleElement = d3.select(this);
+        circleElement.node().__tooltip = tooltip;
       } catch (err) {
         console.error("Tooltip error:", err);
       }
     })
     .on("mouseout", function () {
       d3.select(this).transition().duration(150).attr("r", 4);
+
+      // Immediately remove tooltip on mouseout
+      const circleElement = d3.select(this);
+      const tooltip = circleElement.node().__tooltip;
+      if (tooltip && tooltip.parentNode) {
+        tooltip.remove();
+      }
+      circleElement.node().__tooltip = null;
     });
 
   wrapper.appendChild(svg.node());
