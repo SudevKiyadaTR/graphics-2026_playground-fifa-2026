@@ -84,6 +84,36 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("points", "0 0, 10 3, 0 6")
     .attr("fill", "#fbbf24");
 
+  // Draw goal posts
+  const goalWidthPercent = (7.32 / 105) * 100; // ~6.97% of field width
+  const goalHeightPercent = (2.44 / 68) * 100; // ~3.59% of field height
+  const goalCenterY = 50; // Center of field vertically
+  const goalTopY = goalCenterY - goalHeightPercent / 2;
+
+  // Left goal post
+  fieldGroup
+    .append("rect")
+    .attr("x", 0)
+    .attr("y", (goalTopY / 100) * fieldHeight)
+    .attr("width", (goalWidthPercent / 100) * fieldWidth)
+    .attr("height", (goalHeightPercent / 100) * fieldHeight)
+    .attr("fill", "none")
+    .attr("stroke", "#9ca3af")
+    .attr("stroke-width", 1.5)
+    .attr("opacity", 0.5);
+
+  // Right goal post
+  fieldGroup
+    .append("rect")
+    .attr("x", fieldWidth - (goalWidthPercent / 100) * fieldWidth)
+    .attr("y", (goalTopY / 100) * fieldHeight)
+    .attr("width", (goalWidthPercent / 100) * fieldWidth)
+    .attr("height", (goalHeightPercent / 100) * fieldHeight)
+    .attr("fill", "none")
+    .attr("stroke", "#9ca3af")
+    .attr("stroke-width", 1.5)
+    .attr("opacity", 0.5);
+
   // Create trajectory lines group (behind points)
   const trajectoriesGroup = fieldGroup
     .append("g")
