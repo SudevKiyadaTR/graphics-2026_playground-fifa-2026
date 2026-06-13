@@ -22,8 +22,12 @@
   font-family: Inter, sans-serif;
 }
 
-.observablehq-toc {
-  display: none;
+#observablehq-toc {
+  display: none !important;
+}
+
+#observablehq-main {
+  width: 100%;
 }
 
 .match-shell {
@@ -128,16 +132,11 @@
 }
 
 .timeline-chart-container {
-  background: var(--bg-raised);
-  border-radius: 6px;
-  padding: 16px;
-  margin-bottom: 16px;
 }
 
 .timeline-chart-container svg {
   width: 100%;
   height: auto;
-  min-height: 240px;
 }
 
 .timeline-event {
@@ -250,9 +249,7 @@ display(html`
       ? html`
           <section class="section-card">
             <h2 class="section-title">Match Timeline</h2>
-            <div class="timeline-chart-container">
-              ${matchTimelineChart(match, events, d3, html)}
-            </div>
+            <div class="timeline-chart-container">${matchTimelineChart(match, events, d3)}</div>
           </section>
         `
       : ""}

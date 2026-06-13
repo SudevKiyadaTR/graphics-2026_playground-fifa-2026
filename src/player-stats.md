@@ -20,8 +20,12 @@
   font-family: Inter, sans-serif;
 }
 
-.observablehq-toc {
-  display: none;
+#observablehq-toc {
+  display: none !important;
+}
+
+#observablehq-main {
+  width: 100%;
 }
 
 .players-shell {
