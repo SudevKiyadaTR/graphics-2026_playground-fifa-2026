@@ -124,9 +124,9 @@ export function powerRankingRadarOverlay(powerRankingData, homeTeam, awayTeam) {
     label.setAttribute("text-anchor", "middle");
     label.setAttribute("dominant-baseline", "middle");
     label.setAttribute("font-family", '"DM Mono", monospace');
-    label.setAttribute("font-size", "14");
+    label.setAttribute("font-size", "16");
     label.setAttribute("font-weight", "600");
-    label.setAttribute("fill", color);
+    label.setAttribute("fill", "#ffffff");
     label.textContent = name;
     svg.appendChild(label);
   });
@@ -272,13 +272,11 @@ export function powerRankingRadarOverlay(powerRankingData, homeTeam, awayTeam) {
     polygonsGroup.appendChild(polygon);
   });
 
-  container.appendChild(svg);
-
   // Add legend
   const legendContainer = document.createElement("div");
   legendContainer.style.display = "grid";
   legendContainer.style.gap = "24px";
-  legendContainer.style.marginTop = "24px";
+  legendContainer.style.marginBottom = "24px";
   legendContainer.style.width = "100%";
 
   // Team legend
@@ -313,6 +311,7 @@ export function powerRankingRadarOverlay(powerRankingData, homeTeam, awayTeam) {
 
   legendContainer.appendChild(teamLegend);
   container.appendChild(legendContainer);
+  container.appendChild(svg);
 
   return container;
 }

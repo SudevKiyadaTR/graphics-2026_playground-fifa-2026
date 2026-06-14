@@ -23,7 +23,7 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
     Crosses: "Crosses",
     CrossesCompleted: "Crosses Completed",
     Corners: "Corners",
-    TotalPressure: "Total Pressure",
+    TotalPressure: "Direct Pressure / Total Pressure",
     BallRecoveryTime: "Avg Recovery Time (s)",
     FoulsFor: "Fouls Committed",
     GKSaves: "Goalkeeper Saves",
