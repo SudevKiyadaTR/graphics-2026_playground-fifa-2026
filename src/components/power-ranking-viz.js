@@ -316,10 +316,11 @@ export function powerRankingViz(powerRankingData, d3) {
     const title = document.createElement("h3");
     title.textContent = statLabels[stat];
     title.style.margin = "0 0 12px";
-    title.style.fontSize = "0.85rem";
+    title.style.fontSize = "0.95rem";
     title.style.fontWeight = "600";
+    title.style.fontFamily = '"Inter", sans-serif';
     title.style.textTransform = "uppercase";
-    title.style.letterSpacing = "0.04em";
+    title.style.letterSpacing = "0.06em";
     title.style.color = statColors[stat];
     card.appendChild(title);
 

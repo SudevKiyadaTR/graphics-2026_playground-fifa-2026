@@ -156,7 +156,10 @@ export function crossEfficiency(teamStats, match, d3) {
   legend.style.display = "flex";
   legend.style.gap = "20px";
   legend.style.fontSize = "0.75rem";
-  legend.style.color = "var(--text-secondary)";
+  legend.style.fontWeight = "500";
+  legend.style.letterSpacing = "0.06em";
+  legend.style.textTransform = "uppercase";
+  legend.style.color = "var(--text-muted)";
   legend.style.justifyContent = "center";
   legend.style.flexWrap = "wrap";
 

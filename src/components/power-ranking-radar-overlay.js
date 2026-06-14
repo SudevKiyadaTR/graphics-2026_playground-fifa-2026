@@ -285,7 +285,10 @@ export function powerRankingRadarOverlay(powerRankingData, homeTeam, awayTeam) {
   teamLegend.style.display = "flex";
   teamLegend.style.gap = "24px";
   teamLegend.style.flexWrap = "wrap";
-  teamLegend.style.fontSize = "12px";
+  teamLegend.style.fontSize = "0.75rem";
+  teamLegend.style.fontWeight = "500";
+  teamLegend.style.letterSpacing = "0.06em";
+  teamLegend.style.textTransform = "uppercase";
   teamLegend.style.fontFamily = '"DM Mono", monospace';
 
   teams.forEach((team) => {
@@ -302,7 +305,8 @@ export function powerRankingRadarOverlay(powerRankingData, homeTeam, awayTeam) {
     item.appendChild(dot);
 
     const label = document.createElement("span");
-    label.style.color = "var(--text-secondary)";
+    label.style.color = "var(--text-muted)";
+    label.style.fontFamily = '"DM Mono", monospace';
     label.textContent = team;
     item.appendChild(label);
 

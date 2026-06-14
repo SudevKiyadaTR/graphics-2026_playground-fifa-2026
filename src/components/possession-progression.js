@@ -4,8 +4,8 @@ export function possessionProgression(teamStats, match, d3) {
 
   // Main description
   const description = document.createElement("p");
-  description.style.fontSize = "0.85rem";
-  description.style.color = "#7d95b0";
+  description.style.fontSize = "0.875rem";
+  description.style.color = "var(--text-secondary)";
   description.style.marginBottom = "20px";
   description.style.lineHeight = "1.5";
   description.textContent =
@@ -82,6 +82,7 @@ export function possessionProgression(teamStats, match, d3) {
   overallTitle.textContent = "Ball Progression";
   overallTitle.style.fontSize = "0.95rem";
   overallTitle.style.fontWeight = "600";
+  overallTitle.style.fontFamily = "Inter, sans-serif";
   overallTitle.style.color = "var(--text-primary)";
   overallTitle.style.marginBottom = "12px";
   overallSection.appendChild(overallTitle);
@@ -92,7 +93,10 @@ export function possessionProgression(teamStats, match, d3) {
   legend.style.display = "flex";
   legend.style.gap = "20px";
   legend.style.fontSize = "0.75rem";
-  legend.style.color = "#7d95b0";
+  legend.style.fontWeight = "500";
+  legend.style.letterSpacing = "0.06em";
+  legend.style.textTransform = "uppercase";
+  legend.style.color = "var(--text-muted)";
 
   [
     { label: "Attempted", color: "#4fb3e8", opacity: "0.3" },
@@ -193,7 +197,7 @@ export function possessionProgression(teamStats, match, d3) {
   zoneTitle.textContent = "Linebreaks by Zone";
   zoneTitle.style.fontSize = "0.95rem";
   zoneTitle.style.fontWeight = "600";
-  zoneTitle.style.fontFamily = "DM Mono, monospace";
+  zoneTitle.style.fontFamily = "Inter, sans-serif";
   zoneTitle.style.color = "var(--text-primary)";
   zoneTitle.style.marginBottom = "16px";
   zoneSection.appendChild(zoneTitle);

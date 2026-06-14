@@ -160,8 +160,11 @@ export function playerDistance(playerStats, match, d3) {
   legend.style.marginTop = "12px";
   legend.style.display = "flex";
   legend.style.gap = "16px";
-  legend.style.fontSize = "0.7rem";
-  legend.style.color = "var(--text-secondary)";
+  legend.style.fontSize = "0.75rem";
+  legend.style.fontWeight = "500";
+  legend.style.letterSpacing = "0.06em";
+  legend.style.textTransform = "uppercase";
+  legend.style.color = "var(--text-muted)";
   legend.style.justifyContent = "center";
   legend.style.flexWrap = "wrap";
 
