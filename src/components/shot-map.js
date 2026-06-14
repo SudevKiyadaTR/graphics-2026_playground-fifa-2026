@@ -83,16 +83,18 @@ export function shotMap(teamStats, timeline, match, d3) {
     timeline.Event.forEach((event) => {
       if (event.Type === 14 || event.Type === 18) {
         // Type 14 = Goal, Type 18 = Attempt at Goal
-        const qualifiers = event.Qualifiers || [];
-        let x = qualifiers.find((q) => q.qualifierId === 140)?.value || null;
-        let y = qualifiers.find((q) => q.qualifierId === 141)?.value || null;
+        let x = event.PositionX;
+        let y = event.PositionY;
 
-        if (x !== null && y !== null) {
+        if (x !== null && x !== undefined && y !== null && y !== undefined) {
+          // PositionX and PositionY are already in percentage (0-100)
           x = (x / 100) * fieldWidth;
           y = (y / 100) * fieldHeight;
 
           const isGoal = event.Type === 14;
-          const isOnTarget = qualifiers.some((q) => q.qualifierId === 321); // On target
+          const qualifiers = event.Qualifiers || [];
+          const isOnTarget =
+            isGoal || qualifiers.some((q) => q.qualifierId === 321); // Goals are always on target
           const teamId = event.IdTeam;
 
           shots.push({
