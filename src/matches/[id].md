@@ -329,8 +329,8 @@ display(html`
       : ""}
 
     <section class="section-card" style="padding: 0; background: none; border: none;">
-      <h2 class="section-title" style="padding: 0 20px;">Match Analytics</h2>
-      <div class="viz-grid" style="padding: 0 20px;">
+      <h2 class="section-title">Match Analytics</h2>
+      <div class="viz-grid">
         ${teamStats
           ? html`
               <div class="section-card">
