@@ -342,16 +342,6 @@ display(html`
               </div>
             `
           : ""}
-        ${teamStats
-          ? html`
-              <div class="section-card">
-                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
-                  Pressing Intensity
-                </h3>
-                <div class="section-content">${pressingIntensityHeat(teamStats, match, d3)}</div>
-              </div>
-            `
-          : ""}
       </div>
     </section>
 
