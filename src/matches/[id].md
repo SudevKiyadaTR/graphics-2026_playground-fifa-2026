@@ -213,6 +213,7 @@ const liveDataMap = await FileAttachment("../data/live-data.json").json();
 const teamStatsMap = await FileAttachment("../data/team-stats.json").json();
 const powerRankingMap = await FileAttachment("../data/power-ranking.json").json();
 const playerStatsMap = await FileAttachment("../data/player-stats.json").json();
+const matchPlayerStatsMap = await FileAttachment("../data/match-player-stats.json").json();
 
 // Import D3 and chart components
 import { matchTimelineChart } from "../components/match-timeline-chart.js";
@@ -224,6 +225,7 @@ import { pressingIntensityHeat } from "../components/pressing-intensity.js";
 import { crossEfficiency } from "../components/cross-efficiency.js";
 import { playerDistance } from "../components/player-distance.js";
 import { defensiveActionsMatrix } from "../components/defensive-actions.js";
+import { playerIntensity } from "../components/player-intensity.js";
 const d3 = await import("https://cdn.jsdelivr.net/npm/d3@7.8.5/+esm");
 
 // Extract match ID from URL path
@@ -383,6 +385,15 @@ display(html`
           : ""}
       </div>
     </section>
+
+    ${matchPlayerStatsMap && matchPlayerStatsMap[matchId] && Object.keys(matchPlayerStatsMap[matchId]).length > 0 && liveData
+      ? html`
+          <section class="section-card">
+            <h2 class="section-title">Player Intensity</h2>
+            <div class="section-content">${playerIntensity(matchPlayerStatsMap[matchId], liveData, d3)}</div>
+          </section>
+        `
+      : ""}
 
     <section class="section-card">
       <h2 class="section-title">Match Summary</h2>
