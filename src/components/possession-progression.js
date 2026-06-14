@@ -215,7 +215,7 @@ export function possessionProgression(teamStats, match, d3) {
     { team: match.awayTeam, data: zoneData.map((z) => z.away) },
   ].forEach(({ team, data }) => {
     const teamRow = document.createElement("div");
-    teamRow.style.marginBottom = "16px";
+    teamRow.style.marginBottom = "20px";
 
     // Team name
     const teamLabel = document.createElement("div");
@@ -226,41 +226,69 @@ export function possessionProgression(teamStats, match, d3) {
     teamLabel.style.marginBottom = "8px";
     teamRow.appendChild(teamLabel);
 
-    // Bar container (full width, stacked edge to edge)
-    const barRow = document.createElement("div");
-    barRow.style.display = "flex";
-    barRow.style.width = "100%";
-    barRow.style.height = "36px";
-    barRow.style.gap = "0";
-    barRow.style.borderRadius = "4px";
-    barRow.style.overflow = "hidden";
+    // Bar container (three equal-width zones with progress bars)
+    const barContainer = document.createElement("div");
+    barContainer.style.display = "flex";
+    barContainer.style.width = "100%";
+    barContainer.style.gap = "12px";
 
-    // Three zone bars horizontally
+    // Three zone bars
     const zoneNames = ["Defensive", "Midfield", "Attacking"];
     zoneNames.forEach((zoneName, idx) => {
       const currentData = data[idx];
       const completion = currentData.attempted > 0 ? (currentData.completed / currentData.attempted) * 100 : 0;
 
-      const bar = document.createElement("div");
-      bar.style.flex = "1";
-      bar.style.backgroundColor = completion > 60 ? "#2bb56a" : completion > 40 ? "#f0ad4e" : "#e8394b";
-      bar.style.display = "flex";
-      bar.style.alignItems = "center";
-      bar.style.justifyContent = "center";
-      bar.style.position = "relative";
-      bar.style.color = "white";
-      bar.style.fontSize = "0.9rem";
-      bar.style.fontWeight = "700";
-      bar.style.textShadow = "0 1px 2px rgba(0,0,0,0.3)";
-      bar.textContent = `${Math.round(completion)}%`;
+      // Zone wrapper
+      const zoneWrapper = document.createElement("div");
+      zoneWrapper.style.flex = "1";
+      zoneWrapper.style.display = "flex";
+      zoneWrapper.style.flexDirection = "column";
+      zoneWrapper.style.gap = "4px";
 
-      // Add zone label as tooltip on hover
-      bar.title = `${zoneName}: ${Math.round(completion)}% (${currentData.completed}/${currentData.attempted})`;
+      // Zone label
+      const zoneLabel = document.createElement("div");
+      zoneLabel.textContent = zoneName;
+      zoneLabel.style.fontSize = "0.75rem";
+      zoneLabel.style.fontWeight = "500";
+      zoneLabel.style.color = "#7d95b0";
+      zoneLabel.style.textTransform = "uppercase";
+      zoneWrapper.appendChild(zoneLabel);
 
-      barRow.appendChild(bar);
+      // Progress bar background
+      const barBackground = document.createElement("div");
+      barBackground.style.width = "100%";
+      barBackground.style.height = "24px";
+      barBackground.style.backgroundColor = "#1a2332";
+      barBackground.style.borderRadius = "2px";
+      barBackground.style.position = "relative";
+      barBackground.style.overflow = "hidden";
+
+      // Progress bar fill
+      const barFill = document.createElement("div");
+      barFill.style.height = "100%";
+      barFill.style.width = `${completion}%`;
+      barFill.style.backgroundColor = completion > 60 ? "#2bb56a" : completion > 40 ? "#f0ad4e" : "#e8394b";
+      barFill.style.display = "flex";
+      barFill.style.alignItems = "center";
+      barFill.style.justifyContent = "center";
+      barFill.style.transition = "width 0.3s ease";
+      barFill.style.fontSize = "0.75rem";
+      barFill.style.fontWeight = "700";
+      barFill.style.color = "white";
+      barFill.style.textShadow = "0 1px 2px rgba(0,0,0,0.3)";
+
+      if (completion > 0) {
+        barFill.textContent = `${Math.round(completion)}%`;
+      }
+
+      barBackground.appendChild(barFill);
+      barBackground.title = `${zoneName}: ${Math.round(completion)}% (${currentData.completed}/${currentData.attempted})`;
+
+      zoneWrapper.appendChild(barBackground);
+      barContainer.appendChild(zoneWrapper);
     });
 
-    teamRow.appendChild(barRow);
+    teamRow.appendChild(barContainer);
     zoneSection.appendChild(teamRow);
   });
 
