@@ -209,56 +209,56 @@ export function possessionProgression(teamStats, match, d3) {
   zoneTitle.style.marginBottom = "16px";
   zoneSection.appendChild(zoneTitle);
 
-  // Stacked horizontal bars visualization
-  const barsContainer = document.createElement("div");
-  barsContainer.style.display = "grid";
-  barsContainer.style.gridTemplateColumns = "1fr 1fr";
-  barsContainer.style.gap = "24px";
-
+  // Teams row
   [
     { team: match.homeTeam, data: zoneData.map((z) => z.home) },
     { team: match.awayTeam, data: zoneData.map((z) => z.away) },
   ].forEach(({ team, data }) => {
-    const teamColumn = document.createElement("div");
+    const teamRow = document.createElement("div");
+    teamRow.style.display = "grid";
+    teamRow.style.gridTemplateColumns = "120px 1fr 1fr 1fr";
+    teamRow.style.gap = "12px";
+    teamRow.style.alignItems = "center";
+    teamRow.style.marginBottom = "12px";
 
+    // Team name
     const teamLabel = document.createElement("div");
     teamLabel.textContent = team;
     teamLabel.style.fontSize = "0.9rem";
     teamLabel.style.fontWeight = "600";
     teamLabel.style.color = "var(--text-primary)";
-    teamLabel.style.marginBottom = "12px";
-    teamColumn.appendChild(teamLabel);
+    teamRow.appendChild(teamLabel);
 
-    zoneData.forEach((zone, idx) => {
-      const zoneRow = document.createElement("div");
-      zoneRow.style.marginBottom = "16px";
+    // Three zone bars horizontally
+    const zoneNames = ["Defensive Line", "Midfield Line", "Attacking Line"];
+    zoneNames.forEach((zoneName, idx) => {
+      const zoneContainer = document.createElement("div");
+      zoneContainer.style.display = "flex";
+      zoneContainer.style.flexDirection = "column";
+      zoneContainer.style.gap = "4px";
 
       // Zone label
       const label = document.createElement("div");
-      label.textContent = zone.zone;
-      label.style.fontSize = "0.75rem";
-      label.style.color = "var(--text-secondary)";
-      label.style.marginBottom = "6px";
+      label.textContent = zoneName.split(" ")[0]; // Just "Defensive", "Midfield", "Attacking"
+      label.style.fontSize = "0.7rem";
+      label.style.color = "var(--text-muted)";
       label.style.textTransform = "uppercase";
       label.style.letterSpacing = "0.05em";
-      zoneRow.appendChild(label);
+      zoneContainer.appendChild(label);
 
-      // Bar container
-      const barContainer = document.createElement("div");
-      barContainer.style.display = "flex";
-      barContainer.style.alignItems = "center";
-      barContainer.style.gap = "8px";
+      // Bar
+      const barWrapper = document.createElement("div");
+      barWrapper.style.display = "flex";
+      barWrapper.style.alignItems = "center";
+      barWrapper.style.gap = "6px";
 
-      // Background bar (total attempts)
       const bgBar = document.createElement("div");
       bgBar.style.flex = "1";
-      bgBar.style.height = "16px";
+      bgBar.style.height = "20px";
       bgBar.style.backgroundColor = "var(--border)";
-      bgBar.style.borderRadius = "3px";
+      bgBar.style.borderRadius = "2px";
       bgBar.style.overflow = "hidden";
-      bgBar.style.position = "relative";
 
-      // Filled bar (completed)
       const currentData = data[idx];
       const completion = currentData.attempted > 0 ? (currentData.completed / currentData.attempted) * 100 : 0;
 
@@ -269,35 +269,25 @@ export function possessionProgression(teamStats, match, d3) {
       fillBar.style.transition = "width 0.3s ease";
       bgBar.appendChild(fillBar);
 
-      barContainer.appendChild(bgBar);
+      barWrapper.appendChild(bgBar);
 
-      // Percentage text
+      // Percentage
       const percentText = document.createElement("div");
       percentText.textContent = `${Math.round(completion)}%`;
-      percentText.style.fontSize = "0.8rem";
+      percentText.style.fontSize = "0.75rem";
       percentText.style.fontWeight = "600";
       percentText.style.color = completion > 60 ? "#2bb56a" : completion > 40 ? "#f0ad4e" : "#e8394b";
-      percentText.style.minWidth = "32px";
+      percentText.style.minWidth = "28px";
       percentText.style.textAlign = "right";
-      barContainer.appendChild(percentText);
+      barWrapper.appendChild(percentText);
 
-      // Count text
-      const countText = document.createElement("div");
-      countText.textContent = `${currentData.completed}/${currentData.attempted}`;
-      countText.style.fontSize = "0.75rem";
-      countText.style.color = "var(--text-muted)";
-      countText.style.minWidth = "45px";
-      countText.style.textAlign = "right";
-      barContainer.appendChild(countText);
-
-      zoneRow.appendChild(barContainer);
-      teamColumn.appendChild(zoneRow);
+      zoneContainer.appendChild(barWrapper);
+      teamRow.appendChild(zoneContainer);
     });
 
-    barsContainer.appendChild(teamColumn);
+    zoneSection.appendChild(teamRow);
   });
 
-  zoneSection.appendChild(barsContainer);
   container.appendChild(zoneSection);
 
   return container;
