@@ -219,7 +219,6 @@ import { matchTimelineChart } from "../components/match-timeline-chart.js";
 import { footballFieldTimeline } from "../components/football-field-timeline.js";
 import { teamStatsBars } from "../components/team-stats-bars.js";
 import { powerRankingRadarOverlay } from "../components/power-ranking-radar-overlay.js";
-import { shotMap } from "../components/shot-map.js";
 import { possessionProgression } from "../components/possession-progression.js";
 import { pressingIntensityHeat } from "../components/pressing-intensity.js";
 import { crossEfficiency } from "../components/cross-efficiency.js";
@@ -332,16 +331,6 @@ display(html`
     <section class="section-card" style="padding: 0; background: none; border: none;">
       <h2 class="section-title" style="padding: 0 20px;">Match Analytics</h2>
       <div class="viz-grid" style="padding: 0 20px;">
-        ${teamStats
-          ? html`
-              <div class="section-card">
-                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
-                  Shot Map
-                </h3>
-                <div class="section-content">${shotMap(teamStats, timeline, match, d3)}</div>
-              </div>
-            `
-          : ""}
         ${teamStats
           ? html`
               <div class="section-card">
