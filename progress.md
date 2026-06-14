@@ -17,6 +17,7 @@
 | —    | ✅     | 2026-06-12   | Refactor: Data hierarchy restructuring     |
 | —    | ✅     | 2026-06-12   | Feature: Player Stats (expanded 20 fields) |
 | —    | ✅     | 2026-06-12   | Simplify homepage + loader cleanup         |
+| —    | ✅     | 2026-06-14   | Feature: 6 Match Analytics Visualizations  |
 
 ---
 
@@ -227,3 +228,23 @@ _Entries appended after each completed task._
   - ✅ Full event descriptions display with correct positioning
   - ✅ No console errors or linting warnings
   - ✅ Package.json includes @floating-ui/dom dependency
+
+### Feature — 6 Match Analytics Visualizations
+
+- **Completed:** 2026-06-14 12:45
+- **Files changed:** `src/components/shot-map.js`, `src/components/possession-progression.js`, `src/components/pressing-intensity.js`, `src/components/cross-efficiency.js`, `src/components/player-distance.js`, `src/components/defensive-actions.js`, `src/matches/[id].md`, `src/data/power-ranking.json.js`, `src/data/team-stats.json.js`
+- **What was done:** Implemented comprehensive analytics suite for match detail pages with six new visualizations. Shot Map displays shot locations on soccer field with outcome classification (goal/on-target/off-target). Possession Progression compares ball progression efficiency with grouped bar charts. Pressing Intensity shows defensive pressure profile with recovery time metrics. Cross Efficiency tracks crossing effectiveness and goal-scoring from crosses. Player Workload visualizes player movement intensity across five speed categories. Defensive Actions displays fouls, turnovers, and cards with matrix layout. All components implement responsive sizing using Math.min() viewport calculations and SVG viewBox scaling. Integrated into match page template with conditional rendering based on data availability and graceful fallback messages for missing data.
+- **Verification:** Tested on multiple match pages (400021458, 400021449) with `npm run dev` on localhost:3000. All 6 visualizations render correctly with real match data. Page reloads without console errors. Responsive layout tested with grid auto-fit and minmax(500px, 1fr). Data binding verified with null checks and graceful fallbacks. `npm run lint:fix && npm run format` pass with minor unused variable warnings (non-blocking).
+- **Acceptance criteria met:**
+  - ✅ Shot Map renders soccer field with shot locations and outcome legend
+  - ✅ Possession Progression shows attempted vs completed passes for both teams
+  - ✅ Pressing Intensity displays pressure counts and recovery time metrics
+  - ✅ Cross Efficiency tracks crosses, completions, and goals from crosses
+  - ✅ Player Workload visualizes player movement intensity (or shows "No player distance data")
+  - ✅ Defensive Actions shows fouls, turnovers, and card indicators
+  - ✅ All components use responsive sizing with Math.min() and viewBox
+  - ✅ All components handle missing data gracefully
+  - ✅ Integrated into match page template with conditional rendering
+  - ✅ Tested across multiple match pages with real data
+  - ✅ No console errors on page load or during interaction
+
