@@ -54,5 +54,61 @@
     "resultType": 1,
     "stage": "First Stage",
     "group": "Group D"
+  },
+  {
+    "id": "400021447",
+    "propertyId": "151613",
+    "homeTeam": "Qatar",
+    "awayTeam": "Switzerland",
+    "date": "2026-06-13T19:00:00Z",
+    "homeScore": 1,
+    "awayScore": 1,
+    "winner": null,
+    "period": null,
+    "resultType": 1,
+    "stage": "First Stage",
+    "group": "Group B"
+  },
+  {
+    "id": "400021456",
+    "propertyId": "151620",
+    "homeTeam": "Brazil",
+    "awayTeam": "Morocco",
+    "date": "2026-06-13T22:00:00Z",
+    "homeScore": 1,
+    "awayScore": 1,
+    "winner": null,
+    "period": null,
+    "resultType": 1,
+    "stage": "First Stage",
+    "group": "Group C"
+  },
+  {
+    "id": "400021453",
+    "propertyId": "151619",
+    "homeTeam": "Haiti",
+    "awayTeam": "Scotland",
+    "date": "2026-06-14T01:00:00Z",
+    "homeScore": 0,
+    "awayScore": 1,
+    "winner": "43967",
+    "period": null,
+    "resultType": 1,
+    "stage": "First Stage",
+    "group": "Group C"
+  },
+  {
+    "id": "400021463",
+    "propertyId": "151626",
+    "homeTeam": "Australia",
+    "awayTeam": "Türkiye",
+    "date": "2026-06-14T04:00:00Z",
+    "homeScore": 2,
+    "awayScore": 0,
+    "winner": "43976",
+    "period": null,
+    "resultType": 1,
+    "stage": "First Stage",
+    "group": "Group D"
   }
 ]
