@@ -6,6 +6,108 @@
 export function footballFieldTimeline(match, events, d3) {
   const container = d3.select(document.createElement("div"));
   container.style("width", "100%");
+  container.style("display", "flex");
+  container.style("flex-direction", "column");
+  container.style("gap", "16px");
+
+  // Event type categories
+  const eventCategories = {
+    goal: { label: "Goals", types: [0, 34], color: "#e8394b" },
+    assist: { label: "Assists", types: [1], color: "#10b981" },
+    attempt: { label: "Attempts", types: [12, 57], color: "#4fb3e8" },
+    corner: { label: "Corners", types: [16], color: "#f59e0b" },
+    yellowCard: { label: "Yellow Cards", types: [2], color: "#f0c040" },
+    redCard: { label: "Red Cards", types: [3], color: "#e8394b" },
+    foul: { label: "Fouls", types: [18], color: "#7d95b0" },
+  };
+
+  const categorizeEvent = (event) => {
+    for (const [cat, config] of Object.entries(eventCategories)) {
+      if (config.types.includes(event.Type)) {
+        return cat;
+      }
+    }
+    return null;
+  };
+
+  // Toggle state for event types - only goals visible by default
+  const visibleCategories = new Set(["goal"]);
+
+  // Create buttons container
+  const buttonsContainer = document.createElement("div");
+  buttonsContainer.style.cssText = `
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  `;
+
+  const label = document.createElement("span");
+  label.textContent = "Event Types:";
+  label.style.cssText = `
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-secondary);
+  `;
+  buttonsContainer.appendChild(label);
+
+  // Create toggle buttons
+  for (const [cat, config] of Object.entries(eventCategories)) {
+    const button = document.createElement("button");
+    button.style.cssText = `
+      padding: 6px 12px;
+      border: 1.5px solid var(--border-subtle);
+      background: transparent;
+      color: var(--text-secondary);
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      font-family: Inter, sans-serif;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    `;
+
+    const markerSpan = document.createElement("span");
+    if (cat === "goal") {
+      markerSpan.textContent = "⚽";
+      markerSpan.style.fontSize = "1.1em";
+    } else {
+      markerSpan.style.cssText = `
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: ${config.color};
+        display: inline-block;
+      `;
+    }
+
+    const labelSpan = document.createElement("span");
+    labelSpan.textContent = config.label;
+
+    button.appendChild(markerSpan);
+    button.appendChild(labelSpan);
+
+    button.addEventListener("click", function () {
+      if (visibleCategories.has(cat)) {
+        visibleCategories.delete(cat);
+        button.style.opacity = "0.5";
+      } else {
+        visibleCategories.add(cat);
+        button.style.opacity = "1";
+      }
+      updatePoints(currentTime);
+    });
+
+    buttonsContainer.appendChild(button);
+  }
+
+  container.node().appendChild(buttonsContainer);
 
   // Standardized field dimensions for proper aspect ratio
   const fieldWidth = 1050; // Full width
@@ -53,13 +155,8 @@ export function footballFieldTimeline(match, events, d3) {
     .attr("height", chartHeight)
     .attr("fill", "transparent");
 
-  // Create field group with horizontal flip
-  const fieldGroup = svg
-    .append("g")
-    .attr(
-      "transform",
-      `translate(${margin.left + fieldWidth},${margin.top}) scale(-1,1)`
-    );
+  // Create field group
+  const fieldGroup = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
 
   // Draw football field
   drawFootballField(fieldGroup, fieldWidth, fieldHeight);
@@ -144,8 +241,9 @@ export function footballFieldTimeline(match, events, d3) {
     const goalCenter = 50;
     const goalHalfWidth = goalOpeningPercent / 2;
 
-    // Map GoalGatePositionX (0-100) to vertical position on field
-    const fieldY = goalCenter - goalHalfWidth + (goalGateX / 100) * goalOpeningPercent;
+    // Map GoalGatePositionX (0=ground/bottom, 100=crossbar/top) to field Y
+    // In SVG, Y increases downward, so invert: higher goalGateX = lower fieldY
+    const fieldY = goalCenter + goalHalfWidth - (goalGateX / 100) * goalOpeningPercent;
 
     // X position is at the goal line (0 for left, 100 for right)
     const fieldX = isLeftGoal ? 0 : 100;
@@ -153,14 +251,25 @@ export function footballFieldTimeline(match, events, d3) {
     return { x: fieldX, y: fieldY };
   }
 
-  // Function to update visible points based on current time
+  // Function to update visible points based on current time and event type filters
   function updatePoints(time) {
-    const visibleEvents = eventsWithPosition.filter((e) => parseMinute(e.MatchMinute) <= time);
+    const timeFilteredEvents = eventsWithPosition.filter((e) => parseMinute(e.MatchMinute) <= time);
 
-    // Update trajectory lines for goal attempts and goals
-    const eventsWithGoal = visibleEvents.filter(
-      (e) => e.GoalGatePositionX !== undefined && e.GoalGatePositionY !== undefined
-    );
+    // Trajectories only show for visible event types that have goal data
+    const eventsWithGoal = timeFilteredEvents.filter((e) => {
+      const cat = categorizeEvent(e);
+      return (
+        (cat === null || visibleCategories.has(cat)) &&
+        e.GoalGatePositionX !== undefined &&
+        e.GoalGatePositionY !== undefined
+      );
+    });
+
+    // Points are filtered by visible categories
+    const visibleEvents = timeFilteredEvents.filter((e) => {
+      const cat = categorizeEvent(e);
+      return cat === null || visibleCategories.has(cat);
+    });
 
     const trajectories = trajectoriesGroup.selectAll("line").data(eventsWithGoal, (d) => d.EventId);
 
@@ -168,21 +277,36 @@ export function footballFieldTimeline(match, events, d3) {
     trajectories
       .enter()
       .append("line")
-      .attr("x1", (d) => (d.PositionX / 100) * fieldWidth)
+      .attr("x1", (d) => {
+        const matchMinute = parseMinute(d.MatchMinute);
+        const isSecondHalf = matchMinute > 45;
+        const posX = isSecondHalf ? 100 - d.PositionX : d.PositionX;
+        return (posX / 100) * fieldWidth;
+      })
       .attr("y1", (d) => (d.PositionY / 100) * fieldHeight)
       .attr("x2", (d) => {
-        const isLeftGoal = d.PositionX < 50;
+        const matchMinute = parseMinute(d.MatchMinute);
+        const isSecondHalf = matchMinute > 45;
+        let isLeftGoal = d.PositionX < 50;
+        if (isSecondHalf) {
+          isLeftGoal = !isLeftGoal;
+        }
         const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isLeftGoal);
         return (goalPos.x / 100) * fieldWidth;
       })
       .attr("y2", (d) => {
-        const isLeftGoal = d.PositionX < 50;
+        const matchMinute = parseMinute(d.MatchMinute);
+        const isSecondHalf = matchMinute > 45;
+        let isLeftGoal = d.PositionX < 50;
+        if (isSecondHalf) {
+          isLeftGoal = !isLeftGoal;
+        }
         const goalPos = convertGoalGateToFieldPosition(d.GoalGatePositionX, isLeftGoal);
         return (goalPos.y / 100) * fieldHeight;
       })
       .attr("stroke", (d) => {
-        // Goals in red, attempts in blue
-        return d.Type === 0 ? "#e8394b" : "#4fb3e8";
+        const cat = categorizeEvent(d);
+        return eventCategories[cat]?.color || "#7d95b0";
       })
       .attr("stroke-width", 1.5)
       .attr("opacity", 0.6)
@@ -197,7 +321,12 @@ export function footballFieldTimeline(match, events, d3) {
     points
       .enter()
       .append("circle")
-      .attr("cx", (d) => (d.PositionX / 100) * fieldWidth)
+      .attr("cx", (d) => {
+        const matchMinute = parseMinute(d.MatchMinute);
+        const isSecondHalf = matchMinute > 45;
+        const posX = isSecondHalf ? 100 - d.PositionX : d.PositionX;
+        return (posX / 100) * fieldWidth;
+      })
       .attr("cy", (d) => (d.PositionY / 100) * fieldHeight)
       .attr("r", 5)
       .attr("fill", (d) => getEventColor(d))
@@ -382,12 +511,12 @@ function drawFootballField(group, width, height) {
     .attr("stroke-width", 1.5)
     .attr("opacity", 0.7);
 
-  // Center circle
+  // Center circle (9.15m radius = 8.7% of field width)
   group
     .append("circle")
     .attr("cx", width / 2)
     .attr("cy", height / 2)
-    .attr("r", 55)
+    .attr("r", width * 0.087)
     .attr("fill", "none")
     .attr("stroke", "var(--text-secondary)")
     .attr("stroke-width", 1.5)
@@ -403,8 +532,8 @@ function drawFootballField(group, width, height) {
     .attr("opacity", 0.7);
 
   // Goal lines and penalty areas - left side (x = 0)
-  const penaltyAreaWidth = width * 0.165; // 16.5% of field width
-  const penaltyAreaHeight = height * 0.68; // 68% of field height
+  const penaltyAreaWidth = width * 0.157; // 16.5m ÷ 105m = 15.7% of field width
+  const penaltyAreaHeight = height * 0.593; // 40.32m ÷ 68m = 59.3% of field height
   const penaltyAreaY = (height - penaltyAreaHeight) / 2;
 
   // Left penalty area
@@ -432,8 +561,8 @@ function drawFootballField(group, width, height) {
     .attr("opacity", 0.7);
 
   // Goal areas (smaller) - left side
-  const goalAreaWidth = width * 0.055; // 5.5% of field width
-  const goalAreaHeight = height * 0.44; // 44% of field height
+  const goalAreaWidth = width * 0.052; // 5.5m ÷ 105m = 5.2% of field width
+  const goalAreaHeight = height * 0.269; // 18.32m ÷ 68m = 26.9% of field height
   const goalAreaY = (height - goalAreaHeight) / 2;
 
   // Left goal area
@@ -515,17 +644,20 @@ function drawFootballField(group, width, height) {
 function getEventColor(event) {
   const type = event.Type;
 
-  // 1 = Goal
-  if (type === 1) return "#e8394b";
-
-  // 18 = Foul, 32 = Yellow Card, 33 = Red Card
-  if (type === 18 || type === 32 || type === 33) return "#fbbf24";
+  // 0 = Goal
+  if (type === 0) return "#e8394b";
 
   // 12 = Attempt at Goal, 57 = Goal Prevention
   if (type === 12 || type === 57) return "#4fb3e8";
 
-  // 5 = Substitution
-  if (type === 5) return "#a78bfa";
+  // 2 = Yellow Card
+  if (type === 2) return "#f0c040";
+
+  // 3 = Red Card
+  if (type === 3) return "#e8394b";
+
+  // 18 = Foul
+  if (type === 18) return "#7d95b0";
 
   // Default
   return "#7d95b0";

@@ -30,3 +30,113 @@
 [  812621ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
 [  849127ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
 [  861950ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[  986053ms] [INFO] socket close @ http://localhost:3000/_observablehq/client.js:551
+[  987566ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[  989819ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[  993197ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[  998265ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1005864ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1017264ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1034359ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1060013ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1090046ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1120053ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1150057ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1180065ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1210074ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1240104ms] [INFO] socket open @ http://localhost:3000/_observablehq/client.js:409
+[ 1240105ms] [INFO] ↑ {type: hello, path: /matches/400021443, hash: 5fa8a886a2117c1595843fbf7b624b1c217d4362a5f15af8285bd985a74dbdfe} @ http://localhost:3000/_observablehq/client.js:561
+[ 1240138ms] [INFO] ↓ {type: reload} @ http://localhost:3000/_observablehq/client.js:415
+[ 1240544ms] [INFO] socket open @ http://localhost:3000/_observablehq/client.js:409
+[ 1240544ms] [INFO] ↑ {type: hello, path: /matches/400021443, hash: 2ef786404ac9a2df5fdbdf726a63545e4c04fb86c4fe4e6a2ac246f048ebbdeb} @ http://localhost:3000/_observablehq/client.js:561
+[ 1240566ms] [INFO] ↓ {type: welcome} @ http://localhost:3000/_observablehq/client.js:415
+[ 1241515ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1267000ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1267008ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_import/components/football-field-timeline.js?sha=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855:0
+[ 1267009ms] [ERROR] TypeError: Failed to fetch dynamically imported module: http://localhost:3000/_import/components/football-field-timeline.js?sha=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 @ http://localhost:3000/_observablehq/client.js:192
+[ 1267011ms] [ERROR] RuntimeError: Failed to fetch dynamically imported module: http://localhost:3000/_import/components/football-field-timeline.js?sha=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    at http://localhost:3000/_observablehq/runtime.js:796:56
+    at async Promise.all (index 4) @ http://localhost:3000/_observablehq/client.js:192
+[ 1275534ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1322970ms] [INFO] socket close @ http://localhost:3000/_observablehq/client.js:551
+[ 1324474ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1326726ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1330151ms] [INFO] socket open @ http://localhost:3000/_observablehq/client.js:409
+[ 1330151ms] [INFO] ↑ {type: hello, path: /matches/400021443, hash: 7e52f810ea381b658c34e443fb762e190f21e776726e6e24ae0336df0e04eb85} @ http://localhost:3000/_observablehq/client.js:561
+[ 1330317ms] [INFO] ↓ {type: welcome} @ http://localhost:3000/_observablehq/client.js:415
+[ 1331691ms] [INFO] socket close @ http://localhost:3000/_observablehq/client.js:551
+[ 1333195ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1335447ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1338825ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1343890ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1351486ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_observablehq' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_observablehq/client.js:403
+[ 1362882ms] [INFO] socket open @ http://localhost:3000/_observablehq/client.js:409
+[ 1362882ms] [INFO] ↑ {type: hello, path: /matches/400021443, hash: 7e52f810ea381b658c34e443fb762e190f21e776726e6e24ae0336df0e04eb85} @ http://localhost:3000/_observablehq/client.js:561
+[ 1362903ms] [INFO] ↓ {type: welcome} @ http://localhost:3000/_observablehq/client.js:415
+[ 1554690ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1559135ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1562564ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1566629ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1569942ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1575322ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1580635ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1586265ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1684056ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1688263ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1699549ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1703577ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1708065ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1757213ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1757250ms] [INFO] ↓ {type: update, html: Array(2), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 1807021ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 2106433ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 2145863ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 2249085ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 2283988ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 3723054ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 3781453ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 3889116ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 3892729ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 3931270ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 3969062ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4049400ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4071243ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4192324ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4254072ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4301730ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4326169ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4478863ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4567846ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4679686ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4800795ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 4850897ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 7876048ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 7882228ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 7921452ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 7927296ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 8406250ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 8412689ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 8609939ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 8844712ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[ 9028969ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10290716ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10306709ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10316089ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10479789ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10485937ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10496966ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10731135ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10738160ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10744205ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10789181ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10796533ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10802490ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[10808338ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[15028103ms] [INFO] socket close @ http://localhost:3000/_observablehq/client.js:551
+[15029701ms] [INFO] socket open @ http://localhost:3000/_observablehq/client.js:409
+[15029703ms] [INFO] ↑ {type: hello, path: /matches/400021443, hash: 1ea1ee88bc4be5f0661ebef688401169cfacc2640734a3ff2ae7f1a695fc169b} @ http://localhost:3000/_observablehq/client.js:561
+[15029828ms] [INFO] ↓ {type: welcome} @ http://localhost:3000/_observablehq/client.js:415
+[50744849ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[50749884ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[50755049ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415
+[50869528ms] [INFO] ↓ {type: update, html: Array(0), code: Object, files: Object, tables: Object} @ http://localhost:3000/_observablehq/client.js:415

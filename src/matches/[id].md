@@ -120,6 +120,19 @@
   padding: 20px;
 }
 
+.viz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .viz-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .section-title {
   margin: 0 0 16px;
   font: 700 1.4rem/1 "Barlow Condensed", sans-serif;
@@ -130,6 +143,9 @@
 
 .section-content {
   overflow-x: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .timeline-chart-container {
@@ -194,10 +210,21 @@ const matches = await FileAttachment("../data/matches.json").json();
 const timelines = await FileAttachment("../data/match-timelines.json").json();
 const stadiums = await FileAttachment("../data/stadium-info.json").json();
 const liveDataMap = await FileAttachment("../data/live-data.json").json();
+const teamStatsMap = await FileAttachment("../data/team-stats.json").json();
+const powerRankingMap = await FileAttachment("../data/power-ranking.json").json();
+const playerStatsMap = await FileAttachment("../data/player-stats.json").json();
 
 // Import D3 and chart components
 import { matchTimelineChart } from "../components/match-timeline-chart.js";
 import { footballFieldTimeline } from "../components/football-field-timeline.js";
+import { teamStatsBars } from "../components/team-stats-bars.js";
+import { powerRankingRadarOverlay } from "../components/power-ranking-radar-overlay.js";
+import { shotMap } from "../components/shot-map.js";
+import { possessionProgression } from "../components/possession-progression.js";
+import { pressingIntensityHeat } from "../components/pressing-intensity.js";
+import { crossEfficiency } from "../components/cross-efficiency.js";
+import { playerDistance } from "../components/player-distance.js";
+import { defensiveActionsMatrix } from "../components/defensive-actions.js";
 const d3 = await import("https://cdn.jsdelivr.net/npm/d3@7.8.5/+esm");
 
 // Extract match ID from URL path
@@ -222,6 +249,9 @@ const attendance = liveData?.Attendance ? Number(liveData.Attendance).toLocaleSt
 // Look up capacity from stadium database
 const stadiumInfo = stadiums.stadiums.find((s) => s.name === stadiumName);
 const capacity = stadiumInfo ? stadiumInfo.capacity.toLocaleString() : "–";
+
+// Get team stats for this match
+const teamStats = teamStatsMap[matchId] || null;
 ```
 
 ```js
@@ -280,6 +310,90 @@ display(html`
           </section>
         `
       : ""}
+    ${teamStats
+      ? html`
+          <section class="section-card">
+            <h2 class="section-title">Team Stats Comparison</h2>
+            <div class="section-content">
+              ${teamStatsBars(teamStats, match.homeTeam, match.awayTeam, d3)}
+            </div>
+          </section>
+        `
+      : ""}
+    ${powerRankingMap[matchId]
+      ? html`
+          <section class="section-card">
+            <h2 class="section-title">Player Power Profiles</h2>
+            <div class="section-content">${powerRankingRadarOverlay(powerRankingMap[matchId])}</div>
+          </section>
+        `
+      : ""}
+
+    <section class="section-card" style="padding: 0; background: none; border: none;">
+      <h2 class="section-title" style="padding: 0 20px;">Match Analytics</h2>
+      <div class="viz-grid" style="padding: 0 20px;">
+        ${teamStats
+          ? html`
+              <div class="section-card">
+                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
+                  Shot Map
+                </h3>
+                <div class="section-content">${shotMap(teamStats, timeline, match, d3)}</div>
+              </div>
+            `
+          : ""}
+        ${teamStats
+          ? html`
+              <div class="section-card">
+                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
+                  Possession Progression
+                </h3>
+                <div class="section-content">${possessionProgression(teamStats, match, d3)}</div>
+              </div>
+            `
+          : ""}
+        ${teamStats
+          ? html`
+              <div class="section-card">
+                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
+                  Pressing Intensity
+                </h3>
+                <div class="section-content">${pressingIntensityHeat(teamStats, match, d3)}</div>
+              </div>
+            `
+          : ""}
+        ${teamStats
+          ? html`
+              <div class="section-card">
+                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
+                  Cross Efficiency
+                </h3>
+                <div class="section-content">${crossEfficiency(teamStats, match, d3)}</div>
+              </div>
+            `
+          : ""}
+        ${playerStatsMap && Object.keys(playerStatsMap).length > 0
+          ? html`
+              <div class="section-card">
+                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
+                  Player Workload
+                </h3>
+                <div class="section-content">${playerDistance(playerStatsMap, match, d3)}</div>
+              </div>
+            `
+          : ""}
+        ${teamStats
+          ? html`
+              <div class="section-card">
+                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
+                  Defensive Actions
+                </h3>
+                <div class="section-content">${defensiveActionsMatrix(teamStats, match, d3)}</div>
+              </div>
+            `
+          : ""}
+      </div>
+    </section>
 
     <section class="section-card">
       <h2 class="section-title">Match Summary</h2>
