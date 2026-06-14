@@ -2,6 +2,15 @@ export function possessionProgression(teamStats, match, d3) {
   const container = document.createElement("div");
   container.style.width = "100%";
 
+  // Main description
+  const description = document.createElement("p");
+  description.style.fontSize = "0.85rem";
+  description.style.color = "#7d95b0";
+  description.style.marginBottom = "20px";
+  description.style.lineHeight = "1.5";
+  description.textContent = "Possession progression measures the team's ability to move the ball forward through the pitch. Ball progression tracks completed passes vs attempts. Linebreaks show offensive organization across defensive, midfield, and attacking zones.";
+  container.appendChild(description);
+
   // Get team IDs
   const teamIds = Object.keys(teamStats);
   if (teamIds.length < 2) {
@@ -119,23 +128,40 @@ export function possessionProgression(teamStats, match, d3) {
     completedBar.style.fontSize = "0.9rem";
     completedBar.style.fontWeight = "700";
     completedBar.style.fontFamily = "DM Mono, monospace";
-    completedBar.style.color = "white";
-    completedBar.style.textShadow = "0 1px 2px rgba(0,0,0,0.3)";
-    completedBar.textContent = `${d.completed}/${d.attempted}`;
+    completedBar.style.color = "transparent";
+    completedBar.style.textShadow = "none";
     barContainer.appendChild(completedBar);
 
-    // Completion percentage display
-    const percentageRow = document.createElement("div");
-    percentageRow.style.marginTop = "8px";
-    percentageRow.style.fontSize = "0.75rem";
-    percentageRow.style.fontFamily = "DM Mono, monospace";
-    percentageRow.style.color = "#7d95b0";
-    percentageRow.textContent = `${Math.round(completion)}%`;
-
     teamRow.appendChild(barContainer);
-    teamRow.appendChild(percentageRow);
     overallSection.appendChild(teamRow);
   });
+
+  // Legend
+  const legend = document.createElement("div");
+  legend.style.marginTop = "16px";
+  legend.style.display = "flex";
+  legend.style.gap = "20px";
+  legend.style.fontSize = "0.75rem";
+  legend.style.color = "#7d95b0";
+
+  [{ label: "Attempted", color: "#4fb3e8", opacity: "0.3" }, { label: "Completed", color: "#2bb56a", opacity: "1" }].forEach(({ label, color, opacity }) => {
+    const item = document.createElement("div");
+    item.style.display = "flex";
+    item.style.alignItems = "center";
+    item.style.gap = "6px";
+
+    const box = document.createElement("div");
+    box.style.width = "12px";
+    box.style.height = "12px";
+    box.style.backgroundColor = color;
+    box.style.opacity = opacity;
+
+    item.appendChild(box);
+    item.appendChild(document.createTextNode(label));
+    legend.appendChild(item);
+  });
+
+  overallSection.appendChild(legend);
 
   const spacer = document.createElement("div");
   spacer.style.marginBottom = "24px";
