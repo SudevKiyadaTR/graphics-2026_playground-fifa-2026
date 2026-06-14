@@ -155,8 +155,9 @@ export function possessionProgression(teamStats, match, d3) {
     completedBar.style.fontSize = "0.9rem";
     completedBar.style.fontWeight = "700";
     completedBar.style.fontFamily = "DM Mono, monospace";
-    completedBar.style.color = "transparent";
-    completedBar.style.textShadow = "none";
+    completedBar.style.color = "white";
+    completedBar.style.textShadow = "0 1px 2px rgba(0,0,0,0.3)";
+    completedBar.textContent = `${d.completed}/${d.attempted}`;
     barContainer.appendChild(completedBar);
 
     teamRow.appendChild(barContainer);
