@@ -116,7 +116,8 @@ export function shotMap(teamStats, timeline, match, d3) {
 
     // Circle for shot
     const shotCircle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-    shotCircle.setAttribute("cx", shot.isHome ? shot.x : fieldWidth - shot.x);
+    // Position is already from consistent broadcast view - no need to flip
+    shotCircle.setAttribute("cx", shot.x);
     shotCircle.setAttribute("cy", shot.y);
     shotCircle.setAttribute("r", shot.isGoal ? "1.2" : "0.8");
 
