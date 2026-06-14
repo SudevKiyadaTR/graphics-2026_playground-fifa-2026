@@ -205,6 +205,7 @@ export function possessionProgression(teamStats, match, d3) {
   zoneTitle.textContent = "Linebreaks by Zone";
   zoneTitle.style.fontSize = "0.95rem";
   zoneTitle.style.fontWeight = "600";
+  zoneTitle.style.fontFamily = "DM Mono, monospace";
   zoneTitle.style.color = "var(--text-primary)";
   zoneTitle.style.marginBottom = "16px";
   zoneSection.appendChild(zoneTitle);
@@ -222,48 +223,37 @@ export function possessionProgression(teamStats, match, d3) {
     teamLabel.textContent = team;
     teamLabel.style.fontSize = "0.9rem";
     teamLabel.style.fontWeight = "600";
+    teamLabel.style.fontFamily = "DM Mono, monospace";
     teamLabel.style.color = "var(--text-primary)";
     teamLabel.style.marginBottom = "8px";
     teamRow.appendChild(teamLabel);
 
-    // Bar container (three equal-width zones with progress bars)
+    // Bar container (edge-to-edge, no gaps)
     const barContainer = document.createElement("div");
     barContainer.style.display = "flex";
     barContainer.style.width = "100%";
-    barContainer.style.gap = "12px";
+    barContainer.style.height = "36px";
+    barContainer.style.gap = "0";
+    barContainer.style.borderRadius = "4px";
+    barContainer.style.overflow = "hidden";
 
-    // Three zone bars
-    const zoneNames = ["Defensive", "Midfield", "Attacking"];
+    // Three zone bars edge-to-edge with progress fill
+    const zoneNames = ["Defensive Line", "Midfield Line", "Attacking Line"];
     zoneNames.forEach((zoneName, idx) => {
       const currentData = data[idx];
       const completion = currentData.attempted > 0 ? (currentData.completed / currentData.attempted) * 100 : 0;
 
-      // Zone wrapper
-      const zoneWrapper = document.createElement("div");
-      zoneWrapper.style.flex = "1";
-      zoneWrapper.style.display = "flex";
-      zoneWrapper.style.flexDirection = "column";
-      zoneWrapper.style.gap = "4px";
+      // Zone bar (background)
+      const zoneBar = document.createElement("div");
+      zoneBar.style.flex = "1";
+      zoneBar.style.backgroundColor = "#1a2332";
+      zoneBar.style.display = "flex";
+      zoneBar.style.alignItems = "center";
+      zoneBar.style.justifyContent = "flex-start";
+      zoneBar.style.position = "relative";
+      zoneBar.style.overflow = "hidden";
 
-      // Zone label
-      const zoneLabel = document.createElement("div");
-      zoneLabel.textContent = zoneName;
-      zoneLabel.style.fontSize = "0.75rem";
-      zoneLabel.style.fontWeight = "500";
-      zoneLabel.style.color = "#7d95b0";
-      zoneLabel.style.textTransform = "uppercase";
-      zoneWrapper.appendChild(zoneLabel);
-
-      // Progress bar background
-      const barBackground = document.createElement("div");
-      barBackground.style.width = "100%";
-      barBackground.style.height = "24px";
-      barBackground.style.backgroundColor = "#1a2332";
-      barBackground.style.borderRadius = "2px";
-      barBackground.style.position = "relative";
-      barBackground.style.overflow = "hidden";
-
-      // Progress bar fill
+      // Filled progress inside zone
       const barFill = document.createElement("div");
       barFill.style.height = "100%";
       barFill.style.width = `${completion}%`;
@@ -272,8 +262,9 @@ export function possessionProgression(teamStats, match, d3) {
       barFill.style.alignItems = "center";
       barFill.style.justifyContent = "center";
       barFill.style.transition = "width 0.3s ease";
-      barFill.style.fontSize = "0.75rem";
+      barFill.style.fontSize = "0.9rem";
       barFill.style.fontWeight = "700";
+      barFill.style.fontFamily = "DM Mono, monospace";
       barFill.style.color = "white";
       barFill.style.textShadow = "0 1px 2px rgba(0,0,0,0.3)";
 
@@ -281,14 +272,37 @@ export function possessionProgression(teamStats, match, d3) {
         barFill.textContent = `${Math.round(completion)}%`;
       }
 
-      barBackground.appendChild(barFill);
-      barBackground.title = `${zoneName}: ${Math.round(completion)}% (${currentData.completed}/${currentData.attempted})`;
+      zoneBar.appendChild(barFill);
+      zoneBar.title = `${zoneName}: ${Math.round(completion)}% (${currentData.completed}/${currentData.attempted})`;
 
-      zoneWrapper.appendChild(barBackground);
-      barContainer.appendChild(zoneWrapper);
+      barContainer.appendChild(zoneBar);
     });
 
-    teamRow.appendChild(barContainer);
+    // Zone labels below the bars
+    const labelsRow = document.createElement("div");
+    labelsRow.style.display = "flex";
+    labelsRow.style.width = "100%";
+    labelsRow.style.gap = "0";
+    labelsRow.style.marginTop = "6px";
+    labelsRow.style.fontSize = "0.7rem";
+    labelsRow.style.fontFamily = "DM Mono, monospace";
+    labelsRow.style.color = "#7d95b0";
+    labelsRow.style.textTransform = "uppercase";
+    labelsRow.style.fontWeight = "500";
+
+    zoneNames.forEach((zoneName) => {
+      const label = document.createElement("div");
+      label.textContent = zoneName;
+      label.style.flex = "1";
+      label.style.textAlign = "center";
+      labelsRow.appendChild(label);
+    });
+
+    const labelContainer = document.createElement("div");
+    labelContainer.appendChild(barContainer);
+    labelContainer.appendChild(labelsRow);
+
+    teamRow.appendChild(labelContainer);
     zoneSection.appendChild(teamRow);
   });
 
