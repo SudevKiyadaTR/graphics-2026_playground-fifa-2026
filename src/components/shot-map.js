@@ -42,6 +42,17 @@ export function shotMap(teamStats, timeline, match, d3) {
   // Draw field
   const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
 
+  // Field boundary
+  const boundary = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  boundary.setAttribute("x", 0);
+  boundary.setAttribute("y", 0);
+  boundary.setAttribute("width", fieldWidth);
+  boundary.setAttribute("height", fieldHeight);
+  boundary.setAttribute("fill", "none");
+  boundary.setAttribute("stroke", "#3a6a3a");
+  boundary.setAttribute("stroke-width", "0.4");
+  g.appendChild(boundary);
+
   // Center line
   const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
   line.setAttribute("x1", fieldWidth / 2);
@@ -51,6 +62,14 @@ export function shotMap(teamStats, timeline, match, d3) {
   line.setAttribute("stroke", "#3a6a3a");
   line.setAttribute("stroke-width", "0.3");
   g.appendChild(line);
+
+  // Center spot
+  const centerSpot = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+  centerSpot.setAttribute("cx", fieldWidth / 2);
+  centerSpot.setAttribute("cy", fieldHeight / 2);
+  centerSpot.setAttribute("r", 0.3);
+  centerSpot.setAttribute("fill", "#3a6a3a");
+  g.appendChild(centerSpot);
 
   // Center circle
   const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
@@ -62,19 +81,34 @@ export function shotMap(teamStats, timeline, match, d3) {
   circle.setAttribute("stroke-width", "0.3");
   g.appendChild(circle);
 
-  // Penalty areas
+  // Penalty areas and goal areas
   const penaltyWidth = 40.32;
   const penaltyHeight = 16.5;
+  const goalWidth = 18.32;
+  const goalHeight = 5.5;
+
   for (const x of [0, fieldWidth - penaltyWidth]) {
-    const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-    rect.setAttribute("x", x);
-    rect.setAttribute("y", (fieldHeight - penaltyHeight) / 2);
-    rect.setAttribute("width", penaltyWidth);
-    rect.setAttribute("height", penaltyHeight);
-    rect.setAttribute("fill", "none");
-    rect.setAttribute("stroke", "#3a6a3a");
-    rect.setAttribute("stroke-width", "0.3");
-    g.appendChild(rect);
+    // Penalty area
+    const penaltyRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    penaltyRect.setAttribute("x", x);
+    penaltyRect.setAttribute("y", (fieldHeight - penaltyHeight) / 2);
+    penaltyRect.setAttribute("width", penaltyWidth);
+    penaltyRect.setAttribute("height", penaltyHeight);
+    penaltyRect.setAttribute("fill", "none");
+    penaltyRect.setAttribute("stroke", "#3a6a3a");
+    penaltyRect.setAttribute("stroke-width", "0.3");
+    g.appendChild(penaltyRect);
+
+    // Goal area
+    const goalRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    goalRect.setAttribute("x", x);
+    goalRect.setAttribute("y", (fieldHeight - goalHeight) / 2);
+    goalRect.setAttribute("width", goalWidth);
+    goalRect.setAttribute("height", goalHeight);
+    goalRect.setAttribute("fill", "none");
+    goalRect.setAttribute("stroke", "#3a6a3a");
+    goalRect.setAttribute("stroke-width", "0.25");
+    g.appendChild(goalRect);
   }
 
   // Extract shot data from timeline
