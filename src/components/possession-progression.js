@@ -206,87 +206,98 @@ export function possessionProgression(teamStats, match, d3) {
   zoneTitle.style.fontSize = "0.95rem";
   zoneTitle.style.fontWeight = "600";
   zoneTitle.style.color = "var(--text-primary)";
-  zoneTitle.style.marginBottom = "12px";
+  zoneTitle.style.marginBottom = "16px";
   zoneSection.appendChild(zoneTitle);
 
-  // Zone table
-  const table = document.createElement("table");
-  table.style.width = "100%";
-  table.style.borderCollapse = "collapse";
-  table.style.fontSize = "0.85rem";
+  // Stacked horizontal bars visualization
+  const barsContainer = document.createElement("div");
+  barsContainer.style.display = "grid";
+  barsContainer.style.gridTemplateColumns = "1fr 1fr";
+  barsContainer.style.gap = "24px";
 
-  // Header
-  const headerRow = document.createElement("tr");
-  const headers = ["Zone", `${match.homeTeam}`, "", `${match.awayTeam}`, ""];
-  headers.forEach((h) => {
-    const th = document.createElement("th");
-    th.textContent = h;
-    th.style.padding = "8px";
-    th.style.textAlign = h === "Zone" ? "left" : "center";
-    th.style.borderBottom = "1px solid var(--border)";
-    th.style.color = "var(--text-secondary)";
-    th.style.fontWeight = "500";
-    th.style.fontSize = "0.75rem";
-    th.style.textTransform = "uppercase";
-    headerRow.appendChild(th);
+  [
+    { team: match.homeTeam, data: zoneData.map((z) => z.home) },
+    { team: match.awayTeam, data: zoneData.map((z) => z.away) },
+  ].forEach(({ team, data }) => {
+    const teamColumn = document.createElement("div");
+
+    const teamLabel = document.createElement("div");
+    teamLabel.textContent = team;
+    teamLabel.style.fontSize = "0.9rem";
+    teamLabel.style.fontWeight = "600";
+    teamLabel.style.color = "var(--text-primary)";
+    teamLabel.style.marginBottom = "12px";
+    teamColumn.appendChild(teamLabel);
+
+    zoneData.forEach((zone, idx) => {
+      const zoneRow = document.createElement("div");
+      zoneRow.style.marginBottom = "16px";
+
+      // Zone label
+      const label = document.createElement("div");
+      label.textContent = zone.zone;
+      label.style.fontSize = "0.75rem";
+      label.style.color = "var(--text-secondary)";
+      label.style.marginBottom = "6px";
+      label.style.textTransform = "uppercase";
+      label.style.letterSpacing = "0.05em";
+      zoneRow.appendChild(label);
+
+      // Bar container
+      const barContainer = document.createElement("div");
+      barContainer.style.display = "flex";
+      barContainer.style.alignItems = "center";
+      barContainer.style.gap = "8px";
+
+      // Background bar (total attempts)
+      const bgBar = document.createElement("div");
+      bgBar.style.flex = "1";
+      bgBar.style.height = "16px";
+      bgBar.style.backgroundColor = "var(--border)";
+      bgBar.style.borderRadius = "3px";
+      bgBar.style.overflow = "hidden";
+      bgBar.style.position = "relative";
+
+      // Filled bar (completed)
+      const currentData = data[idx];
+      const completion = currentData.attempted > 0 ? (currentData.completed / currentData.attempted) * 100 : 0;
+
+      const fillBar = document.createElement("div");
+      fillBar.style.height = "100%";
+      fillBar.style.width = `${completion}%`;
+      fillBar.style.backgroundColor = completion > 60 ? "#2bb56a" : completion > 40 ? "#f0ad4e" : "#e8394b";
+      fillBar.style.transition = "width 0.3s ease";
+      bgBar.appendChild(fillBar);
+
+      barContainer.appendChild(bgBar);
+
+      // Percentage text
+      const percentText = document.createElement("div");
+      percentText.textContent = `${Math.round(completion)}%`;
+      percentText.style.fontSize = "0.8rem";
+      percentText.style.fontWeight = "600";
+      percentText.style.color = completion > 60 ? "#2bb56a" : completion > 40 ? "#f0ad4e" : "#e8394b";
+      percentText.style.minWidth = "32px";
+      percentText.style.textAlign = "right";
+      barContainer.appendChild(percentText);
+
+      // Count text
+      const countText = document.createElement("div");
+      countText.textContent = `${currentData.completed}/${currentData.attempted}`;
+      countText.style.fontSize = "0.75rem";
+      countText.style.color = "var(--text-muted)";
+      countText.style.minWidth = "45px";
+      countText.style.textAlign = "right";
+      barContainer.appendChild(countText);
+
+      zoneRow.appendChild(barContainer);
+      teamColumn.appendChild(zoneRow);
+    });
+
+    barsContainer.appendChild(teamColumn);
   });
-  table.appendChild(headerRow);
 
-  // Data rows
-  zoneData.forEach((row) => {
-    const tr = document.createElement("tr");
-
-    // Zone name
-    const zoneTd = document.createElement("td");
-    zoneTd.textContent = row.zone;
-    zoneTd.style.padding = "10px 8px";
-    zoneTd.style.borderBottom = "1px solid var(--border-subtle)";
-    zoneTd.style.color = "var(--text-primary)";
-    zoneTd.style.fontWeight = "500";
-    tr.appendChild(zoneTd);
-
-    // Home team
-    const homeCompRate = row.home.attempted > 0 ? Math.round((row.home.completed / row.home.attempted) * 100) : 0;
-    const homeTd = document.createElement("td");
-    homeTd.textContent = `${row.home.completed}/${row.home.attempted}`;
-    homeTd.style.padding = "10px 8px";
-    homeTd.style.borderBottom = "1px solid var(--border-subtle)";
-    homeTd.style.textAlign = "center";
-    homeTd.style.color = "var(--text-secondary)";
-    tr.appendChild(homeTd);
-
-    const homePercent = document.createElement("td");
-    homePercent.textContent = `${homeCompRate}%`;
-    homePercent.style.padding = "10px 8px";
-    homePercent.style.borderBottom = "1px solid var(--border-subtle)";
-    homePercent.style.textAlign = "center";
-    homePercent.style.color = homeCompRate > 50 ? "#2bb56a" : homeCompRate > 30 ? "#f0ad4e" : "#e8394b";
-    homePercent.style.fontWeight = "600";
-    tr.appendChild(homePercent);
-
-    // Away team
-    const awayCompRate = row.away.attempted > 0 ? Math.round((row.away.completed / row.away.attempted) * 100) : 0;
-    const awayTd = document.createElement("td");
-    awayTd.textContent = `${row.away.completed}/${row.away.attempted}`;
-    awayTd.style.padding = "10px 8px";
-    awayTd.style.borderBottom = "1px solid var(--border-subtle)";
-    awayTd.style.textAlign = "center";
-    awayTd.style.color = "var(--text-secondary)";
-    tr.appendChild(awayTd);
-
-    const awayPercent = document.createElement("td");
-    awayPercent.textContent = `${awayCompRate}%`;
-    awayPercent.style.padding = "10px 8px";
-    awayPercent.style.borderBottom = "1px solid var(--border-subtle)";
-    awayPercent.style.textAlign = "center";
-    awayPercent.style.color = awayCompRate > 50 ? "#2bb56a" : awayCompRate > 30 ? "#f0ad4e" : "#e8394b";
-    awayPercent.style.fontWeight = "600";
-    tr.appendChild(awayPercent);
-
-    table.appendChild(tr);
-  });
-
-  zoneSection.appendChild(table);
+  zoneSection.appendChild(barsContainer);
   container.appendChild(zoneSection);
 
   return container;
