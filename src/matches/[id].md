@@ -222,9 +222,6 @@ import { teamStatsBars } from "../components/team-stats-bars.js";
 import { powerRankingRadarOverlay } from "../components/power-ranking-radar-overlay.js";
 import { possessionProgression } from "../components/possession-progression.js";
 import { pressingIntensityHeat } from "../components/pressing-intensity.js";
-import { crossEfficiency } from "../components/cross-efficiency.js";
-import { playerDistance } from "../components/player-distance.js";
-import { defensiveActionsMatrix } from "../components/defensive-actions.js";
 import { playerIntensity } from "../components/player-intensity.js";
 const d3 = await import("https://cdn.jsdelivr.net/npm/d3@7.8.5/+esm");
 
@@ -353,36 +350,7 @@ display(html`
               </div>
             `
           : ""}
-        ${teamStats
-          ? html`
-              <div class="section-card">
-                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
-                  Cross Efficiency
-                </h3>
-                <div class="section-content">${crossEfficiency(teamStats, match, d3)}</div>
-              </div>
-            `
-          : ""}
-        ${playerStatsMap && Object.keys(playerStatsMap).length > 0
-          ? html`
-              <div class="section-card">
-                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
-                  Player Workload
-                </h3>
-                <div class="section-content">${playerDistance(playerStatsMap, match, d3)}</div>
-              </div>
-            `
-          : ""}
-        ${teamStats
-          ? html`
-              <div class="section-card">
-                <h3 class="section-title" style="margin-bottom: 12px; font-size: 1.1rem;">
-                  Defensive Actions
-                </h3>
-                <div class="section-content">${defensiveActionsMatrix(teamStats, match, d3)}</div>
-              </div>
-            `
-          : ""}
+
       </div>
     </section>
 
