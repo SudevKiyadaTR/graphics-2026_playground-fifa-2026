@@ -64,138 +64,116 @@ export function possessionProgression(teamStats, match, d3) {
   overallTitle.style.marginBottom = "12px";
   overallSection.appendChild(overallTitle);
 
-  const margin = { top: 10, right: 20, bottom: 30, left: 50 };
-  const width = Math.min(400, window.innerWidth - 40);
-  const height = 200;
-
-  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  svg.setAttribute("width", width);
-  svg.setAttribute("height", height);
-  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
-
-  const innerWidth = width - margin.left - margin.right;
-  const innerHeight = height - margin.top - margin.bottom;
-
-  // Y scale
-  const maxVal = Math.max(...overallData.flatMap((d) => [d.attempted, d.completed]));
-  const yScale = d3.scaleLinear().domain([0, maxVal]).range([innerHeight, 0]);
-
-  // X scale
-  const xScale = d3
-    .scaleBand()
-    .domain(overallData.map((d) => d.team))
-    .range([0, innerWidth])
-    .padding(0.3);
-
-  const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  g.setAttribute("transform", `translate(${margin.left}, ${margin.top})`);
-
-  // Bars
+  // Overall progression bars (edge-to-edge style)
   overallData.forEach((d) => {
-    const x = xScale(d.team);
-    const barWidth = xScale.bandwidth();
+    const completion = d.attempted > 0 ? (d.completed / d.attempted) * 100 : 0;
 
-    // Attempted bar
-    const attemptedBar = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-    attemptedBar.setAttribute("x", x);
-    attemptedBar.setAttribute("y", yScale(d.attempted));
-    attemptedBar.setAttribute("width", barWidth * 0.45);
-    attemptedBar.setAttribute("height", innerHeight - yScale(d.attempted));
-    attemptedBar.setAttribute("fill", "#4fb3e8");
-    attemptedBar.setAttribute("opacity", "0.6");
-    g.appendChild(attemptedBar);
+    // Team row
+    const teamRow = document.createElement("div");
+    teamRow.style.marginBottom = "16px";
 
-    // Completed bar
-    const completedBar = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-    completedBar.setAttribute("x", x + barWidth * 0.5);
-    completedBar.setAttribute("y", yScale(d.completed));
-    completedBar.setAttribute("width", barWidth * 0.45);
-    completedBar.setAttribute("height", innerHeight - yScale(d.completed));
-    completedBar.setAttribute("fill", "#2bb56a");
-    g.appendChild(completedBar);
+    // Team name
+    const teamLabel = document.createElement("div");
+    teamLabel.textContent = d.team;
+    teamLabel.style.fontSize = "0.9rem";
+    teamLabel.style.fontWeight = "600";
+    teamLabel.style.fontFamily = "DM Mono, monospace";
+    teamLabel.style.color = "var(--text-primary)";
+    teamLabel.style.marginBottom = "8px";
+    teamRow.appendChild(teamLabel);
 
-    // Completion percentage
-    const completion = d.attempted > 0 ? Math.round((d.completed / d.attempted) * 100) : 0;
-    const textX = x + barWidth / 2;
-    const textY = yScale(d.attempted) - 10;
-    const percentText = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    percentText.setAttribute("x", textX);
-    percentText.setAttribute("y", textY);
-    percentText.setAttribute("text-anchor", "middle");
-    percentText.setAttribute("font-size", "12px");
-    percentText.setAttribute("font-weight", "600");
-    percentText.setAttribute("fill", "#2bb56a");
-    percentText.textContent = `${completion}%`;
-    g.appendChild(percentText);
+    // Bar container (edge-to-edge)
+    const barContainer = document.createElement("div");
+    barContainer.style.display = "flex";
+    barContainer.style.width = "100%";
+    barContainer.style.height = "36px";
+    barContainer.style.gap = "0";
+    barContainer.style.borderRadius = "4px";
+    barContainer.style.overflow = "hidden";
+
+    // Attempted and Completed as two zones
+    const zones = [
+      { label: "Attempted", color: "#4fb3e8", value: d.attempted },
+      { label: "Completed", color: "#2bb56a", value: d.completed },
+    ];
+
+    const maxVal = Math.max(d.attempted, d.completed) || 1;
+    const totalWidth = d.attempted + d.completed;
+
+    zones.forEach(({ label, color, value }) => {
+      const zoneBar = document.createElement("div");
+      const percentage = (value / maxVal) * 100;
+      zoneBar.style.flex = "1";
+      zoneBar.style.backgroundColor = "#1a2332";
+      zoneBar.style.display = "flex";
+      zoneBar.style.alignItems = "center";
+      zoneBar.style.justifyContent = "flex-start";
+      zoneBar.style.position = "relative";
+      zoneBar.style.overflow = "hidden";
+
+      // Filled progress inside zone
+      const barFill = document.createElement("div");
+      barFill.style.height = "100%";
+      barFill.style.width = `${percentage}%`;
+      barFill.style.backgroundColor = color;
+      barFill.style.display = "flex";
+      barFill.style.alignItems = "center";
+      barFill.style.justifyContent = "center";
+      barFill.style.transition = "width 0.3s ease";
+      barFill.style.fontSize = "0.9rem";
+      barFill.style.fontWeight = "700";
+      barFill.style.fontFamily = "DM Mono, monospace";
+      barFill.style.color = "white";
+      barFill.style.textShadow = "0 1px 2px rgba(0,0,0,0.3)";
+
+      if (percentage > 0) {
+        barFill.textContent = `${value}`;
+      }
+
+      zoneBar.appendChild(barFill);
+      zoneBar.title = `${label}: ${value}`;
+
+      barContainer.appendChild(zoneBar);
+    });
+
+    // Zone labels below the bars
+    const labelsRow = document.createElement("div");
+    labelsRow.style.display = "flex";
+    labelsRow.style.width = "100%";
+    labelsRow.style.gap = "0";
+    labelsRow.style.marginTop = "6px";
+    labelsRow.style.fontSize = "0.7rem";
+    labelsRow.style.fontFamily = "DM Mono, monospace";
+    labelsRow.style.color = "#7d95b0";
+    labelsRow.style.textTransform = "uppercase";
+    labelsRow.style.fontWeight = "500";
+
+    ["Attempted", "Completed"].forEach((label) => {
+      const labelDiv = document.createElement("div");
+      labelDiv.textContent = label;
+      labelDiv.style.flex = "1";
+      labelDiv.style.textAlign = "center";
+      labelsRow.appendChild(labelDiv);
+    });
+
+    // Completion percentage display
+    const percentageRow = document.createElement("div");
+    percentageRow.style.marginTop = "12px";
+    percentageRow.style.fontSize = "0.85rem";
+    percentageRow.style.fontFamily = "DM Mono, monospace";
+    percentageRow.style.color = "#7d95b0";
+    percentageRow.textContent = `Completion: ${Math.round(completion)}%`;
+
+    teamRow.appendChild(barContainer);
+    teamRow.appendChild(labelsRow);
+    teamRow.appendChild(percentageRow);
+    overallSection.appendChild(teamRow);
   });
 
-  // Y axis
-  const yAxis = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  for (let i = 0; i <= maxVal; i += Math.ceil(maxVal / 4)) {
-    const y = yScale(i);
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
-    line.setAttribute("x1", -5);
-    line.setAttribute("x2", innerWidth);
-    line.setAttribute("y1", y);
-    line.setAttribute("y2", y);
-    line.setAttribute("stroke", "#253144");
-    line.setAttribute("stroke-width", "0.5");
-    yAxis.appendChild(line);
+  const spacer = document.createElement("div");
+  spacer.style.marginBottom = "24px";
+  overallSection.appendChild(spacer);
 
-    const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    text.setAttribute("x", -10);
-    text.setAttribute("y", y);
-    text.setAttribute("dy", "0.3em");
-    text.setAttribute("text-anchor", "end");
-    text.setAttribute("font-size", "11px");
-    text.setAttribute("fill", "#7d95b0");
-    text.textContent = i;
-    yAxis.appendChild(text);
-  }
-  g.appendChild(yAxis);
-
-  // X axis
-  overallData.forEach((d) => {
-    const x = xScale(d.team) + xScale.bandwidth() / 2;
-    const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    text.setAttribute("x", x);
-    text.setAttribute("y", innerHeight + 20);
-    text.setAttribute("text-anchor", "middle");
-    text.setAttribute("font-size", "12px");
-    text.setAttribute("fill", "#7d95b0");
-    text.textContent = d.team;
-    g.appendChild(text);
-  });
-
-  svg.appendChild(g);
-  overallSection.appendChild(svg);
-
-  // Legend
-  const legend = document.createElement("div");
-  legend.style.marginTop = "12px";
-  legend.style.display = "flex";
-  legend.style.gap = "20px";
-  legend.style.fontSize = "0.75rem";
-  legend.style.color = "var(--text-secondary)";
-  legend.style.justifyContent = "center";
-
-  ["Attempted", "Completed"].forEach((label, i) => {
-    const item = document.createElement("div");
-    item.style.display = "flex";
-    item.style.alignItems = "center";
-    item.style.gap = "6px";
-
-    const box = document.createElement("div");
-    box.style.width = "12px";
-    box.style.height = "12px";
-    box.style.backgroundColor = i === 0 ? "#4fb3e8" : "#2bb56a";
-
-    item.appendChild(box);
-    item.appendChild(document.createTextNode(label));
-    legend.appendChild(item);
-  });
-
-  overallSection.appendChild(legend);
   container.appendChild(overallSection);
 
   // ===== Zone Breakdown =====
