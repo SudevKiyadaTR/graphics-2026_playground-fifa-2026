@@ -215,11 +215,7 @@ export function possessionProgression(teamStats, match, d3) {
     { team: match.awayTeam, data: zoneData.map((z) => z.away) },
   ].forEach(({ team, data }) => {
     const teamRow = document.createElement("div");
-    teamRow.style.display = "grid";
-    teamRow.style.gridTemplateColumns = "120px 1fr 1fr 1fr";
-    teamRow.style.gap = "12px";
-    teamRow.style.alignItems = "center";
-    teamRow.style.marginBottom = "12px";
+    teamRow.style.marginBottom = "16px";
 
     // Team name
     const teamLabel = document.createElement("div");
@@ -227,64 +223,44 @@ export function possessionProgression(teamStats, match, d3) {
     teamLabel.style.fontSize = "0.9rem";
     teamLabel.style.fontWeight = "600";
     teamLabel.style.color = "var(--text-primary)";
+    teamLabel.style.marginBottom = "8px";
     teamRow.appendChild(teamLabel);
 
+    // Bar container (full width, stacked edge to edge)
+    const barRow = document.createElement("div");
+    barRow.style.display = "flex";
+    barRow.style.width = "100%";
+    barRow.style.height = "36px";
+    barRow.style.gap = "0";
+    barRow.style.borderRadius = "4px";
+    barRow.style.overflow = "hidden";
+
     // Three zone bars horizontally
-    const zoneNames = ["Defensive Line", "Midfield Line", "Attacking Line"];
+    const zoneNames = ["Defensive", "Midfield", "Attacking"];
     zoneNames.forEach((zoneName, idx) => {
-      const zoneContainer = document.createElement("div");
-      zoneContainer.style.display = "flex";
-      zoneContainer.style.flexDirection = "column";
-      zoneContainer.style.gap = "4px";
-
-      // Zone label
-      const label = document.createElement("div");
-      label.textContent = zoneName.split(" ")[0]; // Just "Defensive", "Midfield", "Attacking"
-      label.style.fontSize = "0.7rem";
-      label.style.color = "var(--text-muted)";
-      label.style.textTransform = "uppercase";
-      label.style.letterSpacing = "0.05em";
-      zoneContainer.appendChild(label);
-
-      // Bar
-      const barWrapper = document.createElement("div");
-      barWrapper.style.display = "flex";
-      barWrapper.style.alignItems = "center";
-      barWrapper.style.gap = "6px";
-
-      const bgBar = document.createElement("div");
-      bgBar.style.flex = "1";
-      bgBar.style.height = "20px";
-      bgBar.style.backgroundColor = "var(--border)";
-      bgBar.style.borderRadius = "2px";
-      bgBar.style.overflow = "hidden";
-
       const currentData = data[idx];
       const completion = currentData.attempted > 0 ? (currentData.completed / currentData.attempted) * 100 : 0;
 
-      const fillBar = document.createElement("div");
-      fillBar.style.height = "100%";
-      fillBar.style.width = `${completion}%`;
-      fillBar.style.backgroundColor = completion > 60 ? "#2bb56a" : completion > 40 ? "#f0ad4e" : "#e8394b";
-      fillBar.style.transition = "width 0.3s ease";
-      bgBar.appendChild(fillBar);
+      const bar = document.createElement("div");
+      bar.style.flex = "1";
+      bar.style.backgroundColor = completion > 60 ? "#2bb56a" : completion > 40 ? "#f0ad4e" : "#e8394b";
+      bar.style.display = "flex";
+      bar.style.alignItems = "center";
+      bar.style.justifyContent = "center";
+      bar.style.position = "relative";
+      bar.style.color = "white";
+      bar.style.fontSize = "0.9rem";
+      bar.style.fontWeight = "700";
+      bar.style.textShadow = "0 1px 2px rgba(0,0,0,0.3)";
+      bar.textContent = `${Math.round(completion)}%`;
 
-      barWrapper.appendChild(bgBar);
+      // Add zone label as tooltip on hover
+      bar.title = `${zoneName}: ${Math.round(completion)}% (${currentData.completed}/${currentData.attempted})`;
 
-      // Percentage
-      const percentText = document.createElement("div");
-      percentText.textContent = `${Math.round(completion)}%`;
-      percentText.style.fontSize = "0.75rem";
-      percentText.style.fontWeight = "600";
-      percentText.style.color = completion > 60 ? "#2bb56a" : completion > 40 ? "#f0ad4e" : "#e8394b";
-      percentText.style.minWidth = "28px";
-      percentText.style.textAlign = "right";
-      barWrapper.appendChild(percentText);
-
-      zoneContainer.appendChild(barWrapper);
-      teamRow.appendChild(zoneContainer);
+      barRow.appendChild(bar);
     });
 
+    teamRow.appendChild(barRow);
     zoneSection.appendChild(teamRow);
   });
 
