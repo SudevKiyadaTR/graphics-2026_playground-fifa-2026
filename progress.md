@@ -18,6 +18,7 @@
 | —    | ✅     | 2026-06-12   | Feature: Player Stats (expanded 20 fields) |
 | —    | ✅     | 2026-06-12   | Simplify homepage + loader cleanup         |
 | —    | ✅     | 2026-06-14   | Feature: 6 Match Analytics Visualizations  |
+| —    | ✅     | 2026-06-14   | Feature: Player Intensity Chart            |
 
 ---
 
@@ -247,4 +248,24 @@ _Entries appended after each completed task._
   - ✅ Integrated into match page template with conditional rendering
   - ✅ Tested across multiple match pages with real data
   - ✅ No console errors on page load or during interaction
+
+### Feature — Player Intensity Chart
+
+- **Completed:** 2026-06-14 15:30
+- **Files changed:** `src/components/player-intensity.js` (created), `src/data/match-player-stats.json.js` (created), `src/matches/[id].md` (updated to integrate component)
+- **What was done:** Implemented Player Intensity visualization component displaying top 12 players by total distance covered in a match. Chart shows stacked horizontal bars with four distinct intensity segments: Walking (light gray #9ca3af), Jogging (medium gray #6b7280), Running (light blue #60a5fa), and Sprinting (dark blue #1e40af). Player names extracted from liveData team rosters instead of generic P1/P2 labels. Each bar segment positioned cumulatively using D3 scales. On hover, tooltips display exact distance values per intensity category with format "Segment: X.XXkm". Created match-player-stats.json.js data loader aggregating per-match player statistics from scraped data into playerStatsMap keyed by playerId. Component handles missing data gracefully with empty state message.
+- **Verification:** Tested on match pages 400021441, 400021443, 400021447 with `npm run dev` on localhost:3000. All 12 player names display correctly. Four-segment bars render with correct colors and opacity levels. Tooltips appear on hover showing correct intensity type and distance value (e.g., "Running: 1.82km", "Sprinting: 0.08km"). Bar segments accumulate correctly from left to right. `npm run build` succeeds without errors. `npm run lint:fix` and `npm run format` pass clean with no warnings in player-intensity.js.
+- **Acceptance criteria met:**
+  - ✅ Component displays top 12 players by total distance covered
+  - ✅ Four movement intensity categories rendered as stacked bar segments
+  - ✅ Colors correct: Walking (light gray), Jogging (medium gray), Running (light blue), Sprinting (dark blue)
+  - ✅ Player names extracted from liveData instead of generic labels
+  - ✅ Hover tooltips show exact distance per segment in format "Segment: X.XXkm"
+  - ✅ Bar segments positioned cumulatively left to right
+  - ✅ Responsive SVG sizing with viewBox
+  - ✅ Legend displayed with all four intensity categories
+  - ✅ Data loader aggregates player stats correctly from scraped data
+  - ✅ Gracefully handles missing data
+  - ✅ Tested on multiple match pages with real data
+  - ✅ No console errors; lint and format pass clean
 
