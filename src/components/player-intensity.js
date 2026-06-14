@@ -121,9 +121,9 @@ export function playerIntensity(playerStatsMap, liveData, d3) {
   const showTooltip = (event, text) => {
     tooltip.textContent = text;
     tooltip.style.display = "block";
-    // Use clientX/clientY + scroll offset for more reliable positioning
-    tooltip.style.left = (event.clientX + window.scrollX + 10) + "px";
-    tooltip.style.top = (event.clientY + window.scrollY - 30) + "px";
+    // Use clientX/clientY directly (viewport coordinates for fixed positioning)
+    tooltip.style.left = (event.clientX + 10) + "px";
+    tooltip.style.top = (event.clientY - 30) + "px";
   };
 
   const hideTooltip = () => {
