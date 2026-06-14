@@ -177,7 +177,7 @@ export function matchTimelineChart(match, events, d3) {
       border-radius: 9999px;
       font-size: 0.75rem;
       font-weight: 500;
-      font-family: Inter, sans-serif;
+      font-family: DM Mono, monospace;
       letter-spacing: 0.05em;
       cursor: pointer;
       transition: all 0.2s ease;
@@ -311,7 +311,7 @@ export function matchTimelineChart(match, events, d3) {
     .attr("y", totalHeight - 5)
     .attr("text-anchor", "middle")
     .attr("font-size", "10px")
-    .attr("font-family", "Inter, sans-serif")
+    .attr("font-family", "DM Mono, monospace")
     .attr("font-weight", "500")
     .attr("letter-spacing", "0.05em")
     .attr("text-transform", "uppercase")
@@ -417,7 +417,7 @@ export function matchTimelineChart(match, events, d3) {
             border: 1px solid var(--border);
             border-radius: 4px;
             padding: 12px;
-            font-family: "Inter", sans-serif;
+            font-family: "DM Mono", monospace;
             z-index: 1000;
             pointer-events: none;
             min-width: 220px;
@@ -592,7 +592,7 @@ export function matchTimelineChart(match, events, d3) {
           border: 1px solid var(--border);
           border-radius: 4px;
           padding: 12px;
-          font-family: "Inter", sans-serif;
+          font-family: "DM Mono", monospace;
           z-index: 1000;
           pointer-events: none;
           min-width: 220px;

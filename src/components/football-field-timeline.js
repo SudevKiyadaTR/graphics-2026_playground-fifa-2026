@@ -64,7 +64,7 @@ export function footballFieldTimeline(match, events, d3) {
       border-radius: 9999px;
       font-size: 0.75rem;
       font-weight: 500;
-      font-family: Inter, sans-serif;
+      font-family: DM Mono, monospace;
       letter-spacing: 0.05em;
       cursor: pointer;
       transition: all 0.2s ease;

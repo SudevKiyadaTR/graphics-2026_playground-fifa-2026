@@ -311,14 +311,14 @@ export function powerRankingViz(powerRankingData, d3) {
     card.style.border = "1px solid var(--border)";
     card.style.borderRadius = "6px";
     card.style.padding = "16px";
-    card.style.fontFamily = '"Inter", sans-serif';
+    card.style.fontFamily = '"DM Mono", monospace';
 
     const title = document.createElement("h3");
     title.textContent = statLabels[stat];
     title.style.margin = "0 0 12px";
     title.style.fontSize = "0.95rem";
     title.style.fontWeight = "600";
-    title.style.fontFamily = '"Inter", sans-serif';
+    title.style.fontFamily = '"DM Mono", monospace';
     title.style.textTransform = "uppercase";
     title.style.letterSpacing = "0.06em";
     title.style.color = statColors[stat];

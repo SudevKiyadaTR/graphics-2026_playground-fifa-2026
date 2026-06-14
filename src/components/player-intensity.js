@@ -235,7 +235,7 @@ export function playerIntensity(playerStatsMap, liveData, d3) {
     text.setAttribute("text-anchor", "end");
     text.setAttribute("font-size", "11px");
     text.setAttribute("fill", "var(--text-secondary)");
-    text.setAttribute("font-family", "Inter, sans-serif");
+    text.setAttribute("font-family", "DM Mono, monospace");
     text.textContent = p.playerName;
     g.appendChild(text);
   });

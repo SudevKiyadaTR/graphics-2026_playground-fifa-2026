@@ -132,7 +132,7 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
     .attr("text-anchor", "middle")
     .style("font-size", "13px")
     .style("fill", "var(--text-primary)")
-    .style("font-family", "Inter, sans-serif")
+    .style("font-family", "DM Mono, monospace")
     .style("font-weight", "600")
     .text((d) => d.stat);
 
@@ -282,7 +282,7 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
     .attr("y", 12)
     .style("font-size", "12px")
     .style("fill", "var(--text-secondary)")
-    .style("font-family", "Inter, sans-serif")
+    .style("font-family", "DM Mono, monospace")
     .text(homeTeam);
 
   // Away team legend item
@@ -299,7 +299,7 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
     .attr("y", 12)
     .style("font-size", "12px")
     .style("fill", "var(--text-secondary)")
-    .style("font-family", "Inter, sans-serif")
+    .style("font-family", "DM Mono, monospace")
     .text(awayTeam);
 
   return svg.node();
