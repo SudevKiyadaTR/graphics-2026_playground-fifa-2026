@@ -8,7 +8,8 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
     "Crosses",
     "CrossesCompleted",
     "Corners",
-    "DefensivePressuresApplied",
+    "TotalPressure",
+    "BallRecoveryTime",
     "FoulsFor",
     "GKSaves",
   ];
@@ -22,7 +23,8 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
     Crosses: "Crosses",
     CrossesCompleted: "Crosses Completed",
     Corners: "Corners",
-    DefensivePressuresApplied: "Pressures Applied",
+    TotalPressure: "Total Pressure",
+    BallRecoveryTime: "Avg Recovery Time (s)",
     FoulsFor: "Fouls Committed",
     GKSaves: "Goalkeeper Saves",
   };
@@ -30,6 +32,7 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
   // Value formatters for special cases
   const formatters = {
     Possession: (val) => Math.round(val * 100),
+    BallRecoveryTime: (val) => Math.round(val * 10) / 10,
   };
 
   // Extract team IDs from the data
@@ -48,16 +51,34 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
   const homeStatsMap = new Map(homeStats.map(([name, value]) => [name, value]));
   const awayStatsMap = new Map(awayStats.map(([name, value]) => [name, value]));
 
+  // Map virtual stat names to actual data fields
+  const statFieldMap = {
+    TotalPressure: "DefensivePressuresApplied",
+    BallRecoveryTime: "BallRecoveryTime",
+  };
+
   // Build data array
-  const data = statsToShow.map((stat) => ({
-    stat: statLabels[stat],
-    home: formatters[stat]
-      ? formatters[stat](homeStatsMap.get(stat) || 0)
-      : homeStatsMap.get(stat) || 0,
-    away: formatters[stat]
-      ? formatters[stat](awayStatsMap.get(stat) || 0)
-      : awayStatsMap.get(stat) || 0,
-  }));
+  const data = statsToShow.map((stat) => {
+    const sourceField = statFieldMap[stat] || stat;
+    return {
+      stat: statLabels[stat],
+      statKey: stat,
+      home: formatters[stat]
+        ? formatters[stat](homeStatsMap.get(sourceField) || 0)
+        : homeStatsMap.get(sourceField) || 0,
+      away: formatters[stat]
+        ? formatters[stat](awayStatsMap.get(sourceField) || 0)
+        : awayStatsMap.get(sourceField) || 0,
+    };
+  });
+
+  // Calculate direct pressure for overlay (not displayed as separate row)
+  const directPressureHome = homeStatsMap.get("DirectDefensivePressuresApplied") || 0;
+  const directPressureAway = awayStatsMap.get("DirectDefensivePressuresApplied") || 0;
+
+  // For pressure stats, calculate the max of total pressure for scaling
+  const pressureData = data.find((d) => d.statKey === "TotalPressure");
+  const pressureMaxVal = pressureData ? Math.max(pressureData.home, pressureData.away) : 0;
 
   // Dimensions
   const width = 700;
@@ -122,19 +143,19 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
     .append("rect")
     .attr("class", "home-bar")
     .attr("x", (d) => {
-      const maxVal = Math.max(d.home, d.away);
+      const maxVal = d.statKey === "TotalPressure" ? pressureMaxVal : Math.max(d.home, d.away);
       const scale = createAttributeScale(maxVal);
       return centerX - margin.left - scale(d.home);
     })
     .attr("y", (d) => yScale(d.stat) + 22)
     .attr("width", (d) => {
-      const maxVal = Math.max(d.home, d.away);
+      const maxVal = d.statKey === "TotalPressure" ? pressureMaxVal : Math.max(d.home, d.away);
       const scale = createAttributeScale(maxVal);
       return scale(d.home);
     })
     .attr("height", barHeight)
     .style("fill", "var(--series-1)")
-    .style("opacity", 0.8);
+    .style("opacity", (d) => (d.statKey === "TotalPressure" ? 0.2 : 0.8));
 
   // Add away team bars (right) - positioned below label
   g.selectAll(".away-bar")
@@ -145,13 +166,69 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
     .attr("x", centerX - margin.left)
     .attr("y", (d) => yScale(d.stat) + 22)
     .attr("width", (d) => {
-      const maxVal = Math.max(d.home, d.away);
+      const maxVal = d.statKey === "TotalPressure" ? pressureMaxVal : Math.max(d.home, d.away);
       const scale = createAttributeScale(maxVal);
       return scale(d.away);
     })
     .attr("height", barHeight)
     .style("fill", "var(--series-2)")
-    .style("opacity", 0.8);
+    .style("opacity", (d) => (d.statKey === "TotalPressure" ? 0.2 : 0.8));
+
+  // Add direct pressure overlays on top of total pressure (home team, left)
+  const totalPressureRow = data.find((d) => d.statKey === "TotalPressure");
+  if (totalPressureRow) {
+    const pressureScale = createAttributeScale(pressureMaxVal);
+
+    // Calculate direct pressure width as a proportion of each team's total pressure
+    const homeDirectWidth = pressureScale(directPressureHome);
+    const awayDirectWidth = pressureScale(directPressureAway);
+
+    // Home team direct pressure overlay (nested within total pressure bar)
+    g.append("rect")
+      .attr("class", "home-direct-pressure")
+      .attr("x", centerX - margin.left - homeDirectWidth)
+      .attr("y", yScale(totalPressureRow.stat) + 22)
+      .attr("width", homeDirectWidth)
+      .attr("height", barHeight)
+      .style("fill", "var(--series-1)")
+      .style("opacity", 0.8);
+
+    // Away team direct pressure overlay (nested within total pressure bar)
+    g.append("rect")
+      .attr("class", "away-direct-pressure")
+      .attr("x", centerX - margin.left)
+      .attr("y", yScale(totalPressureRow.stat) + 22)
+      .attr("width", awayDirectWidth)
+      .attr("height", barHeight)
+      .style("fill", "var(--series-2)")
+      .style("opacity", 0.8);
+
+    // Home direct pressure value
+    g.append("text")
+      .attr("class", "direct-pressure-value")
+      .attr("x", centerX - margin.left - homeDirectWidth - 5)
+      .attr("y", yScale(totalPressureRow.stat) + 22 + barHeight / 2)
+      .attr("dy", "0.35em")
+      .attr("text-anchor", "end")
+      .style("font-size", "12px")
+      .style("fill", "var(--text-primary)")
+      .style("font-family", "DM Mono, monospace")
+      .style("font-weight", "500")
+      .text(directPressureHome);
+
+    // Away direct pressure value
+    g.append("text")
+      .attr("class", "direct-pressure-value")
+      .attr("x", centerX - margin.left + awayDirectWidth + 5)
+      .attr("y", yScale(totalPressureRow.stat) + 22 + barHeight / 2)
+      .attr("dy", "0.35em")
+      .attr("text-anchor", "start")
+      .style("font-size", "12px")
+      .style("fill", "var(--text-primary)")
+      .style("font-family", "DM Mono, monospace")
+      .style("font-weight", "500")
+      .text(directPressureAway);
+  }
 
   // Add home team values (on left)
   g.selectAll(".home-value")
@@ -160,7 +237,7 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
     .append("text")
     .attr("class", "home-value")
     .attr("x", (d) => {
-      const maxVal = Math.max(d.home, d.away);
+      const maxVal = d.statKey === "TotalPressure" ? pressureMaxVal : Math.max(d.home, d.away);
       const scale = createAttributeScale(maxVal);
       return centerX - margin.left - scale(d.home) - 5;
     })
@@ -180,7 +257,7 @@ export function teamStatsBars(teamStatsData, homeTeam, awayTeam, d3) {
     .append("text")
     .attr("class", "away-value")
     .attr("x", (d) => {
-      const maxVal = Math.max(d.home, d.away);
+      const maxVal = d.statKey === "TotalPressure" ? pressureMaxVal : Math.max(d.home, d.away);
       const scale = createAttributeScale(maxVal);
       return centerX - margin.left + scale(d.away) + 5;
     })

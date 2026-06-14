@@ -8,7 +8,8 @@ export function possessionProgression(teamStats, match, d3) {
   description.style.color = "#7d95b0";
   description.style.marginBottom = "20px";
   description.style.lineHeight = "1.5";
-  description.textContent = "Possession progression measures the team's ability to move the ball forward through the pitch. Ball progression tracks completed passes vs attempts. Linebreaks show offensive organization across defensive, midfield, and attacking zones.";
+  description.textContent =
+    "Possession progression measures the team's ability to move the ball forward through the pitch. Ball progression tracks completed passes vs attempts. Linebreaks show offensive organization across defensive, midfield, and attacking zones.";
   container.appendChild(description);
 
   // Get team IDs
@@ -44,9 +45,21 @@ export function possessionProgression(teamStats, match, d3) {
 
   // Build zone breakdown data
   const zones = [
-    { name: "Defensive Line", attemptKey: "LinebreaksAttemptedDefensiveLine", completedKey: "LinebreaksAttemptedDefensiveLineCompleted" },
-    { name: "Midfield Line", attemptKey: "LinebreaksAttemptedMidfieldLine", completedKey: "LinebreaksAttemptedMidfieldLineCompleted" },
-    { name: "Attacking Line", attemptKey: "LinebreaksAttemptedAttackingLine", completedKey: "LinebreaksAttemptedAttackingLineCompleted" },
+    {
+      name: "Defensive Line",
+      attemptKey: "LinebreaksAttemptedDefensiveLine",
+      completedKey: "LinebreaksAttemptedDefensiveLineCompleted",
+    },
+    {
+      name: "Midfield Line",
+      attemptKey: "LinebreaksAttemptedMidfieldLine",
+      completedKey: "LinebreaksAttemptedMidfieldLineCompleted",
+    },
+    {
+      name: "Attacking Line",
+      attemptKey: "LinebreaksAttemptedAttackingLine",
+      completedKey: "LinebreaksAttemptedAttackingLineCompleted",
+    },
   ];
 
   const zoneData = zones.map((zone) => ({
@@ -81,7 +94,10 @@ export function possessionProgression(teamStats, match, d3) {
   legend.style.fontSize = "0.75rem";
   legend.style.color = "#7d95b0";
 
-  [{ label: "Attempted", color: "#4fb3e8", opacity: "0.3" }, { label: "Completed", color: "#2bb56a", opacity: "1" }].forEach(({ label, color, opacity }) => {
+  [
+    { label: "Attempted", color: "#4fb3e8", opacity: "0.3" },
+    { label: "Completed", color: "#2bb56a", opacity: "1" },
+  ].forEach(({ label, color, opacity }) => {
     const item = document.createElement("div");
     item.style.display = "flex";
     item.style.alignItems = "center";
@@ -172,7 +188,7 @@ export function possessionProgression(teamStats, match, d3) {
 
   // ===== Zone Breakdown =====
   const zoneSection = document.createElement("div");
-  
+
   const zoneTitle = document.createElement("h4");
   zoneTitle.textContent = "Linebreaks by Zone";
   zoneTitle.style.fontSize = "0.95rem";
@@ -213,7 +229,8 @@ export function possessionProgression(teamStats, match, d3) {
     const zoneNames = ["Defensive Line", "Midfield Line", "Attacking Line"];
     zoneNames.forEach((zoneName, idx) => {
       const currentData = data[idx];
-      const completion = currentData.attempted > 0 ? (currentData.completed / currentData.attempted) * 100 : 0;
+      const completion =
+        currentData.attempted > 0 ? (currentData.completed / currentData.attempted) * 100 : 0;
 
       // Zone bar (background)
       const zoneBar = document.createElement("div");
@@ -229,7 +246,8 @@ export function possessionProgression(teamStats, match, d3) {
       const barFill = document.createElement("div");
       barFill.style.height = "100%";
       barFill.style.width = `${completion}%`;
-      barFill.style.backgroundColor = completion > 60 ? "#2bb56a" : completion > 40 ? "#f0ad4e" : "#e8394b";
+      barFill.style.backgroundColor =
+        completion > 60 ? "#2bb56a" : completion > 40 ? "#f0ad4e" : "#e8394b";
       barFill.style.display = "flex";
       barFill.style.alignItems = "center";
       barFill.style.justifyContent = "center";

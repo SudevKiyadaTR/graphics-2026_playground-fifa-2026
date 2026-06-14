@@ -268,4 +268,3 @@ _Entries appended after each completed task._
   - ✅ Gracefully handles missing data
   - ✅ Tested on multiple match pages with real data
   - ✅ No console errors; lint and format pass clean
-

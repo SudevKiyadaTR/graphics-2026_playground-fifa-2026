@@ -127,8 +127,7 @@ export function shotMap(teamStats, timeline, match, d3) {
 
           const isGoal = event.Type === 0;
           const qualifiers = event.Qualifiers || [];
-          const isOnTarget =
-            isGoal || qualifiers.some((q) => q.qualifierId === 321); // Goals are always on target
+          const isOnTarget = isGoal || qualifiers.some((q) => q.qualifierId === 321); // Goals are always on target
           const teamId = event.IdTeam;
 
           shots.push({

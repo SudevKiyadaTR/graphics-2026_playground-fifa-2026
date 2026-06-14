@@ -1,4 +1,4 @@
-export function powerRankingRadarOverlay(powerRankingData) {
+export function powerRankingRadarOverlay(powerRankingData, homeTeam, awayTeam) {
   if (
     !powerRankingData ||
     !powerRankingData.outfieldPlayers ||
@@ -32,15 +32,15 @@ export function powerRankingRadarOverlay(powerRankingData) {
     creativity: p.creativityScore,
   }));
 
-  // Team colors
-  const teamColors = {
-    USA: "#4fb3e8",
-    Paraguay: "#e8394b",
-    Mexico: "#2bb56a",
-    Canada: "#f0c040",
+  // Get team color based on home/away match
+  const getTeamColor = (teamName) => {
+    if (teamName === homeTeam) {
+      return "var(--series-1)"; // Home team color (cool blue)
+    } else if (teamName === awayTeam) {
+      return "var(--series-2)"; // Away team color (red)
+    }
+    return "var(--series-1)"; // Default fallback
   };
-
-  const getTeamColor = (teamName) => teamColors[teamName] || "#8b5cf6";
 
   // Container
   const container = document.createElement("div");

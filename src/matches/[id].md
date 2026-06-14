@@ -322,7 +322,9 @@ display(html`
       ? html`
           <section class="section-card">
             <h2 class="section-title">Player Power Profiles</h2>
-            <div class="section-content">${powerRankingRadarOverlay(powerRankingMap[matchId])}</div>
+            <div class="section-content">
+              ${powerRankingRadarOverlay(powerRankingMap[matchId], match.homeTeam, match.awayTeam)}
+            </div>
           </section>
         `
       : ""}
@@ -350,15 +352,19 @@ display(html`
               </div>
             `
           : ""}
-
       </div>
     </section>
 
-    ${matchPlayerStatsMap && matchPlayerStatsMap[matchId] && Object.keys(matchPlayerStatsMap[matchId]).length > 0 && liveData
+    ${matchPlayerStatsMap &&
+    matchPlayerStatsMap[matchId] &&
+    Object.keys(matchPlayerStatsMap[matchId]).length > 0 &&
+    liveData
       ? html`
           <section class="section-card">
             <h2 class="section-title">Player Intensity</h2>
-            <div class="section-content">${playerIntensity(matchPlayerStatsMap[matchId], liveData, d3)}</div>
+            <div class="section-content">
+              ${playerIntensity(matchPlayerStatsMap[matchId], liveData, d3)}
+            </div>
           </section>
         `
       : ""}

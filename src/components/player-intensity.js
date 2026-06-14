@@ -132,11 +132,11 @@ export function playerIntensity(playerStatsMap, liveData, d3) {
       <div style="margin-bottom: 2px;"><span style="display: inline-block; width: 8px; height: 8px; background-color: #60a5fa; border-radius: 50%; margin-right: 6px; vertical-align: middle; opacity: 0.9;"></span>Running: ${Math.round(playerData.running)} metres</div>
       <div><span style="display: inline-block; width: 8px; height: 8px; background-color: #1e40af; border-radius: 50%; margin-right: 6px; vertical-align: middle;"></span>Sprinting: ${Math.round(playerData.sprinting)} metres</div>
     `;
-    
+
     tooltip.style.display = "block";
     // Use clientX/clientY directly (viewport coordinates for fixed positioning)
-    tooltip.style.left = (event.clientX + 10) + "px";
-    tooltip.style.top = (event.clientY - 30) + "px";
+    tooltip.style.left = event.clientX + 10 + "px";
+    tooltip.style.top = event.clientY - 30 + "px";
   };
 
   const hideTooltip = () => {
