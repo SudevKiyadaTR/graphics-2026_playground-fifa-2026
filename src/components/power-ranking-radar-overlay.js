@@ -124,7 +124,7 @@ export function powerRankingRadarOverlay(powerRankingData, homeTeam, awayTeam) {
     label.setAttribute("text-anchor", "middle");
     label.setAttribute("dominant-baseline", "middle");
     label.setAttribute("font-family", '"DM Mono", monospace');
-    label.setAttribute("font-size", "16");
+    label.setAttribute("font-size", "12");
     label.setAttribute("font-weight", "600");
     label.setAttribute("fill", "#ffffff");
     label.textContent = name;
