@@ -73,6 +73,33 @@ export function possessionProgression(teamStats, match, d3) {
   overallTitle.style.marginBottom = "12px";
   overallSection.appendChild(overallTitle);
 
+  // Legend
+  const legend = document.createElement("div");
+  legend.style.marginBottom = "16px";
+  legend.style.display = "flex";
+  legend.style.gap = "20px";
+  legend.style.fontSize = "0.75rem";
+  legend.style.color = "#7d95b0";
+
+  [{ label: "Attempted", color: "#4fb3e8", opacity: "0.3" }, { label: "Completed", color: "#2bb56a", opacity: "1" }].forEach(({ label, color, opacity }) => {
+    const item = document.createElement("div");
+    item.style.display = "flex";
+    item.style.alignItems = "center";
+    item.style.gap = "6px";
+
+    const box = document.createElement("div");
+    box.style.width = "12px";
+    box.style.height = "12px";
+    box.style.backgroundColor = color;
+    box.style.opacity = opacity;
+
+    item.appendChild(box);
+    item.appendChild(document.createTextNode(label));
+    legend.appendChild(item);
+  });
+
+  overallSection.appendChild(legend);
+
   // Get max value across both teams for consistent scale
   const maxProgressValue = Math.max(...overallData.flatMap((d) => [d.attempted, d.completed])) || 1;
 
@@ -135,33 +162,6 @@ export function possessionProgression(teamStats, match, d3) {
     teamRow.appendChild(barContainer);
     overallSection.appendChild(teamRow);
   });
-
-  // Legend
-  const legend = document.createElement("div");
-  legend.style.marginTop = "16px";
-  legend.style.display = "flex";
-  legend.style.gap = "20px";
-  legend.style.fontSize = "0.75rem";
-  legend.style.color = "#7d95b0";
-
-  [{ label: "Attempted", color: "#4fb3e8", opacity: "0.3" }, { label: "Completed", color: "#2bb56a", opacity: "1" }].forEach(({ label, color, opacity }) => {
-    const item = document.createElement("div");
-    item.style.display = "flex";
-    item.style.alignItems = "center";
-    item.style.gap = "6px";
-
-    const box = document.createElement("div");
-    box.style.width = "12px";
-    box.style.height = "12px";
-    box.style.backgroundColor = color;
-    box.style.opacity = opacity;
-
-    item.appendChild(box);
-    item.appendChild(document.createTextNode(label));
-    legend.appendChild(item);
-  });
-
-  overallSection.appendChild(legend);
 
   const spacer = document.createElement("div");
   spacer.style.marginBottom = "24px";
