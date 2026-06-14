@@ -81,8 +81,8 @@ export function shotMap(teamStats, timeline, match, d3) {
   const shots = [];
   if (timeline && timeline.Event) {
     timeline.Event.forEach((event) => {
-      if (event.Type === 14 || event.Type === 18) {
-        // Type 14 = Goal, Type 18 = Attempt at Goal
+      if (event.Type === 0 || event.Type === 12) {
+        // Type 0 = Goal, Type 12 = Attempt at Goal
         let x = event.PositionX;
         let y = event.PositionY;
 
@@ -91,7 +91,7 @@ export function shotMap(teamStats, timeline, match, d3) {
           x = (x / 100) * fieldWidth;
           y = (y / 100) * fieldHeight;
 
-          const isGoal = event.Type === 14;
+          const isGoal = event.Type === 0;
           const qualifiers = event.Qualifiers || [];
           const isOnTarget =
             isGoal || qualifiers.some((q) => q.qualifierId === 321); // Goals are always on target
