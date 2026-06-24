@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "chrome": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-chrome"
+      ]
+    }
+  },
+  "enabledPlugins": {
+    "chrome-devtools-mcp@claude-plugins-official": true
+  }
+}
