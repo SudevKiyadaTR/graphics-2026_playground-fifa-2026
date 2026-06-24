@@ -1,0 +1,3374 @@
+{
+  "competitionId": 285023,
+  "matchId": 151632,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-15T03:21:10.109167Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 371609,
+      "attackingRank": 23,
+      "defensiveRank": 16,
+      "creativityRank": 12,
+      "attackingScore": 4.0943922996521,
+      "defensiveScore": 5.509376525878906,
+      "creativityScore": 5.727066993713379,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Franck KESSIE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرانك كيسي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Franck KESSIE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Franck KESSIE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Franck KESSIE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Franck KESSIE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Franck KESSIE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランク・ケシエ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑크 케시"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Franck KESSIE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Franck KESSIE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франк КЕССИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "弗兰克·凯西"
+        }
+      ],
+      "playerPicture": {
+        "id": "2E649ED1-5E23-4DE2-AAFC79FAC130F5F0",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2e649ed1-5e23-4de2-aafc-79fac130f5f0/KESSIE-Franck_371609"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 402261,
+      "attackingRank": 7,
+      "defensiveRank": 22,
+      "creativityRank": 3,
+      "attackingScore": 4.742231845855713,
+      "defensiveScore": 5.049062252044678,
+      "creativityScore": 7.496575355529785,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nicolas PEPE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيكولاس بيبي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nicolas PEPE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nicolas PEPE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nicolas PEPE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nicolas PEPE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nicolas PEPE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニコラス・ペペ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "니콜라스 페페"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nicolas PEPE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nicolas PEPE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Николя ПЕПЕ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "尼古拉斯·佩佩"
+        }
+      ],
+      "playerPicture": {
+        "id": "1C7519D2-960C-4D19-83E740A155F1A8EB",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1c7519d2-960c-4d19-83e7-40a155f1a8eb/PEPE-Nicolas_402261"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 405175,
+      "attackingRank": 6,
+      "defensiveRank": 18,
+      "creativityRank": 22,
+      "attackingScore": 4.7801079750061035,
+      "defensiveScore": 5.151564598083496,
+      "creativityScore": 5.0417304039001465,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Seko Fofana"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سيكو فوفانا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Seko Fofana"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Seko Fofana"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Seko Fofana"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Seko Fofana"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Seko Fofana"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "セコ・フォファナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "세코 포파나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Seko Fofana"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Seko Fofana"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Секо Фофана"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "塞科·福法纳"
+        }
+      ],
+      "playerPicture": {
+        "id": "08197D78-88B8-458F-9AD9DE192F25313C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/08197d78-88b8-458f-9ad9-de192f25313c/FOFANA-Seko_405175"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 407343,
+      "attackingRank": 17,
+      "defensiveRank": 13,
+      "creativityRank": 7,
+      "attackingScore": 4.4657158851623535,
+      "defensiveScore": 5.825003147125244,
+      "creativityScore": 6.097928524017334,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ghislain KONAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غيسلان كونان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ghislain KONAN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ghislain KONAN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ghislain KONAN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ghislain KONAN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ghislain KONAN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ギスラン・コナン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "기슬랭 코난"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ghislain KONAN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ghislain KONAN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Гислан КОНАН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "吉斯兰·科南"
+        }
+      ],
+      "playerPicture": {
+        "id": "8B0C92B7-4756-42A3-8CC8B997693FF4AA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8b0c92b7-4756-42a3-8cc8-b997693ff4aa/KONAN-Ghislain_407343"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 430822,
+      "attackingRank": 1,
+      "defensiveRank": 14,
+      "creativityRank": 2,
+      "attackingScore": 9.105874061584473,
+      "defensiveScore": 5.7466888427734375,
+      "creativityScore": 7.921523094177246,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Amad DIALLO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أماد ديالو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Amad DIALLO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Amad DIALLO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Amad DIALLO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Amad DIALLO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Amad DIALLO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アマド・ディアロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아마드 디알로"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Amad DIALLO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Amad DIALLO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Амад ДИАЛЛО"
+        }
+      ],
+      "playerPicture": {
+        "id": "92354F59-681A-4409-B1EB0E0744A78DA8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/92354f59-681a-4409-b1eb-0e0744a78da8/DIALLO-Amad_430822"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 430854,
+      "attackingRank": 2,
+      "defensiveRank": 1,
+      "creativityRank": 4,
+      "attackingScore": 5.731892108917236,
+      "defensiveScore": 7.832891464233398,
+      "creativityScore": 7.469746112823486,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Wilfried SINGO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ويلفريد سينغو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Wilfried SINGO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Wilfried SINGO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Wilfried SINGO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Wilfried SINGO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Wilfried SINGO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウィルフリード・シンゴ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "윌프리드 싱고"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Wilfried SINGO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Wilfried SINGO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Вильфрид СИНГО"
+        }
+      ],
+      "playerPicture": {
+        "id": "3B02F719-A68A-46AE-A249E7B6538A5714",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3b02f719-a68a-46ae-a249-e7b6538a5714/SINGO-Wilfried_430854"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 464103,
+      "attackingRank": 12,
+      "defensiveRank": 12,
+      "creativityRank": 11,
+      "attackingScore": 4.539115905761719,
+      "defensiveScore": 5.840646266937256,
+      "creativityScore": 5.73590087890625,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ange-Yoan BONNY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أنجي-يوان بوني"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ange-Yoan BONNY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ange-Yoan BONNY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ange-Yoan BONNY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ange-Yoan BONNY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ange-Yoan BONNY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アンジェ＝ヨアン・ボニー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "앙주-요안 보니"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ange-Yoan BONNY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ange-Yoan BONNY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Анж-Йоан БОННИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "C2BD7F75-2634-437D-9B8E45D23380A755",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c2bd7f75-2634-437d-9b8e-45d23380a755/BONNY-Ange-Yoan_464103"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 464133,
+      "attackingRank": 8,
+      "defensiveRank": 23,
+      "creativityRank": 14,
+      "attackingScore": 4.700602054595947,
+      "defensiveScore": 5.018503189086914,
+      "creativityScore": 5.529944896697998,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Elye WAHI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إيلي واهي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elye WAHI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Elye WAHI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Elye WAHI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Elye WAHI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Elye WAHI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エリー・ワヒ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엘리 와히"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Elye WAHI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Elye WAHI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Элие ВАХИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "088CEEA5-0BDC-4615-9FC2A99FE888FE44",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/088ceea5-0bdc-4615-9fc2-a99fe888fe44/WAHI-Elye_464133"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 486268,
+      "attackingRank": 23,
+      "defensiveRank": 2,
+      "creativityRank": 17,
+      "attackingScore": 4.0943922996521,
+      "defensiveScore": 7.544405460357666,
+      "creativityScore": 5.3780341148376465,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Emmanuel AGBADOU"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إيمانويل أغبادو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Emmanuel AGBADOU"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Emmanuel AGBADOU"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Emmanuel AGBADOU"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Emmanuel AGBADOU"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Emmanuel AGBADOU"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エマニュエル・アグバドゥ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엠마누엘 아그바두"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Emmanuel AGBADOU"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Emmanuel AGBADOU"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эммануэль АГБАДУ"
+        }
+      ],
+      "playerPicture": {
+        "id": "D092F8C9-F80E-40E0-AD73BFA861784408",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/d092f8c9-f80e-40e0-ad73-bfa861784408/AGBADOU-Emmanuel_486268"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 486317,
+      "attackingRank": 21,
+      "defensiveRank": 3,
+      "creativityRank": 10,
+      "attackingScore": 4.146920680999756,
+      "defensiveScore": 7.229602813720703,
+      "creativityScore": 5.774731159210205,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Guela DOUE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غويلا دوي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Guela DOUE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Guela DOUE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Guela DOUE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Guela DOUE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Guela DOUE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ゲラ・ドゥエ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "겔라 두에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Guela DOUE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Guela DOUE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Гела ДУЭ"
+        }
+      ],
+      "playerPicture": {
+        "id": "9C597F58-AD63-4248-AC8BB36E71F7B811",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9c597f58-ad63-4248-ac8b-b36e71f7b811/DOUE-Guela_486317"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 506202,
+      "attackingRank": 10,
+      "defensiveRank": 25,
+      "creativityRank": 16,
+      "attackingScore": 4.564627170562744,
+      "defensiveScore": 4.476369857788086,
+      "creativityScore": 5.388641357421875,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Bazoumana TOURE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بازومانا توري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bazoumana TOURE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bazoumana TOURE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bazoumana TOURE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bazoumana TOURE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bazoumana TOURE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "バズマナ・トゥーレ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "바주마나 투레"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bazoumana TOURE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bazoumana TOURE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Базумана ТУРЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "FA213CF7-928A-49AB-ACC9B6F5059B188C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/fa213cf7-928a-49ab-acc9-b6f5059b188c/TOURE-Bazoumana_506202"
+      }
+    },
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 510922,
+      "attackingRank": 3,
+      "defensiveRank": 19,
+      "creativityRank": 1,
+      "attackingScore": 5.37211275100708,
+      "defensiveScore": 5.130095481872559,
+      "creativityScore": 7.993880271911621,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Yan DIOMANDE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يان ديوماندي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Yan DIOMANDE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Yan DIOMANDE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Yan DIOMANDE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Yan DIOMANDE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Yan DIOMANDE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヤン・ディオマンデ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "얀 디오망드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Yan DIOMANDE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Yan DIOMANDE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ян ДИОМАНДЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "4218DAFB-B39B-4640-AC2FE1D9F104AA6A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4218dafb-b39b-4640-ac2f-e1d9f104aa6a/DIOMANDE-Yan_510922"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 373400,
+      "attackingRank": 16,
+      "defensiveRank": 24,
+      "creativityRank": 20,
+      "attackingScore": 4.470853328704834,
+      "defensiveScore": 4.904124736785889,
+      "creativityScore": 5.144852638244629,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Enner VALENCIA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنر فالنسيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Enner VALENCIA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Enner VALENCIA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Enner VALENCIA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Enner VALENCIA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Enner VALENCIA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エンナー・バレンシア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엔너 발렌시아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Enner VALENCIA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Enner VALENCIA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эннер ВАЛЕНСИЯ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "恩纳·瓦伦西亚"
+        }
+      ],
+      "playerPicture": {
+        "id": "4688CB2A-6446-4439-BA5FE4DB7B5A18C5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4688cb2a-6446-4439-ba5f-e4db7b5a18c5/VALENCIA-Enner_373400"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 389784,
+      "attackingRank": 20,
+      "defensiveRank": 7,
+      "creativityRank": 23,
+      "attackingScore": 4.228792667388916,
+      "defensiveScore": 6.706405162811279,
+      "creativityScore": 4.915504455566406,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alan FRANCO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "آلان فرانكو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Alan FRANCO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alan FRANCO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Alan FRANCO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Alan FRANCO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Alan FRANCO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アラン・フランコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알란 프랑코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alan FRANCO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Alan FRANCO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алан ФРАНКО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "艾伦·弗兰科"
+        }
+      ],
+      "playerPicture": {
+        "id": "59FFE3D1-0963-44F5-861E9EB6590D8FCE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/59ffe3d1-0963-44f5-861e-9eb6590d8fce/FRANCO-Alan_389784"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 402974,
+      "attackingRank": 9,
+      "defensiveRank": 6,
+      "creativityRank": 6,
+      "attackingScore": 4.582730770111084,
+      "defensiveScore": 6.708719730377197,
+      "creativityScore": 6.425693035125732,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Angelo PRECIADO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أنجيلو بريسيادو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Angelo PRECIADO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Angelo PRECIADO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angelo PRECIADO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Angelo PRECIADO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Angelo PRECIADO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アンジェロ・プレシアド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "안젤로 프레시아도"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Angelo PRECIADO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Angelo PRECIADO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Анджело ПРЕСИАДО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "安杰洛·普雷西亚多"
+        }
+      ],
+      "playerPicture": {
+        "id": "2E9BE79F-76B7-4F12-8BA0C4C21EC8B39D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2e9be79f-76b7-4f12-8ba0-c4c21ec8b39d/PRECIADO-Angelo_402974"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 405920,
+      "attackingRank": 5,
+      "defensiveRank": 15,
+      "creativityRank": 21,
+      "attackingScore": 4.841673851013184,
+      "defensiveScore": 5.73712682723999,
+      "creativityScore": 5.08907413482666,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "John YEBOAH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جون ييبوا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "John YEBOAH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "John YEBOAH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "John YEBOAH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "John YEBOAH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "John YEBOAH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョン・イェボア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "존 예보아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "John YEBOAH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "John YEBOAH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джон ЙЕБОА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "约翰·耶博"
+        }
+      ],
+      "playerPicture": {
+        "id": "1FC64D7C-4383-4C61-BD76F22F22B91A8F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1fc64d7c-4383-4c61-bd76-f22f22b91a8f/YEBOAH-John_405920"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 419003,
+      "attackingRank": 15,
+      "defensiveRank": 17,
+      "creativityRank": 19,
+      "attackingScore": 4.496954917907715,
+      "defensiveScore": 5.3372721672058105,
+      "creativityScore": 5.165672302246094,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jackson POROZO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جاكسون بوروزو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jackson POROZO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jackson POROZO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jackson POROZO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jackson POROZO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jackson POROZO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジャクソン・ポロソ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잭슨 포로조"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jackson POROZO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jackson POROZO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джексон ПОРОЗО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "杰克逊波罗佐"
+        }
+      ],
+      "playerPicture": {
+        "id": "17CCF39C-5480-439A-BE5F90045606CA37",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/17ccf39c-5480-439a-be5f-90045606ca37/POROZO-Jackson_419003"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 419020,
+      "attackingRank": 4,
+      "defensiveRank": 21,
+      "creativityRank": 5,
+      "attackingScore": 4.9110107421875,
+      "defensiveScore": 5.075483322143555,
+      "creativityScore": 6.645760536193848,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Gonzalo PLATA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غونزالو بلاتا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Gonzalo PLATA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Gonzalo PLATA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Gonzalo PLATA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Gonzalo PLATA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Gonzalo PLATA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ゴンサロ・プラタ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "곤살로 플라타"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Gonzalo PLATA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Gonzalo PLATA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Гонсало ПЛАТА"
+        }
+      ],
+      "playerPicture": {
+        "id": "743CC231-AB9E-45B7-8D59CE8655280AE1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/743cc231-ab9e-45b7-8d59-ce8655280ae1/PLATA-Gonzalo_419020"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 424031,
+      "attackingRank": 19,
+      "defensiveRank": 9,
+      "creativityRank": 15,
+      "attackingScore": 4.398631572723389,
+      "defensiveScore": 6.209935665130615,
+      "creativityScore": 5.420829772949219,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Piero HINCAPIE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بييرو هينكابي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Piero HINCAPIE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Piero HINCAPIE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Piero HINCAPIE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Piero HINCAPIE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Piero HINCAPIE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ピエロ・ヒンカピー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "피에로 힌카피"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Piero HINCAPIE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Piero HINCAPIE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Пьеро ХИНКАПИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "皮耶罗·欣卡皮"
+        }
+      ],
+      "playerPicture": {
+        "id": "B8F68E80-3057-4FBF-BE1E8CF885A713E1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b8f68e80-3057-4fbf-be1e-8cf885a713e1/HINCAPIE-Piero_424031"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 424036,
+      "attackingRank": 13,
+      "defensiveRank": 4,
+      "creativityRank": 9,
+      "attackingScore": 4.51599645614624,
+      "defensiveScore": 7.15788459777832,
+      "creativityScore": 5.7829742431640625,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Pedro VITE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بيدرو فيتي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Pedro VITE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Pedro VITE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pedro VITE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pedro VITE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Pedro VITE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ペドロ・ヴィテ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "페드로 비테"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Pedro VITE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Pedro VITE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Педро ВИТЕ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "佩德罗·维特"
+        }
+      ],
+      "playerPicture": {
+        "id": "0ECEBA19-8CEB-4CBC-BA7C81B158E277BD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0eceba19-8ceb-4cbc-ba7c-81b158e277bd/VITE-Pedro_424036"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 428885,
+      "attackingRank": 18,
+      "defensiveRank": 5,
+      "creativityRank": 13,
+      "attackingScore": 4.458403587341309,
+      "defensiveScore": 6.759670734405518,
+      "creativityScore": 5.688228607177734,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Moises CAICEDO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مويسيس كايسيدو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Moises CAICEDO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Moises CAICEDO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Moises CAICEDO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Moises CAICEDO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Moises CAICEDO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モイセス・カイセド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모이세스 카이세도"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Moises CAICEDO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Moises CAICEDO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Моисес КАЙСЕДО"
+        }
+      ],
+      "playerPicture": {
+        "id": "AE32BBC5-09F0-4743-AE0A5B80461BDC79",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ae32bbc5-09f0-4743-ae0a-5b80461bdc79/CAICEDO-Moises_428885"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 448290,
+      "attackingRank": 25,
+      "defensiveRank": 10,
+      "creativityRank": 25,
+      "attackingScore": 4.0427327156066895,
+      "defensiveScore": 6.128230571746826,
+      "creativityScore": 4.533557891845703,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Willian PACHO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ويليان باتشو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Willian PACHO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Willian PACHO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Willian PACHO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Willian PACHO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Willian PACHO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウィリアン・パチョ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "윌리안 파초"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Willian PACHO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Willian PACHO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Уильян ПАЧО"
+        }
+      ],
+      "playerPicture": {
+        "id": "CDA5E4C5-69A6-46EE-B6D1230BE57C4847",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/cda5e4c5-69a6-46ee-b6d1-230be57c4847/PACHO-Willian_448290"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 448312,
+      "attackingRank": 11,
+      "defensiveRank": 20,
+      "creativityRank": 8,
+      "attackingScore": 4.559121608734131,
+      "defensiveScore": 5.096004009246826,
+      "creativityScore": 6.025867938995361,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nilson ANGULO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيلسون أنغولو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nilson ANGULO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nilson ANGULO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nilson ANGULO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nilson ANGULO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nilson ANGULO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニルソン・アングロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "닐손 앙굴로"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nilson ANGULO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nilson ANGULO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нилсон АНГУЛО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "尼尔森·安古罗"
+        }
+      ],
+      "playerPicture": {
+        "id": "B90DF9F2-8054-4D40-B375F7728A31A069",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b90df9f2-8054-4d40-b375-f7728a31a069/ANGULO-Nilson_448312"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 463465,
+      "attackingRank": 22,
+      "defensiveRank": 8,
+      "creativityRank": 24,
+      "attackingScore": 4.140688419342041,
+      "defensiveScore": 6.241081714630127,
+      "creativityScore": 4.878237247467041,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Joel ORDONEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جويل أوردونيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Joel ORDONEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Joel ORDONEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Joel ORDONEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Joel ORDONEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Joel ORDONEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョエル・オルドネス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "조엘 오르도네즈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Joel ORDONEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Joel ORDONEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джоэл ОРДОНЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "54A42D16-279A-4566-8C46AC75D8EA095A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/54a42d16-279a-4566-8c46-ac75d8ea095a/ORDONEZ-Joel_463465"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 463468,
+      "attackingRank": 14,
+      "defensiveRank": 11,
+      "creativityRank": 18,
+      "attackingScore": 4.514731407165527,
+      "defensiveScore": 5.872039794921875,
+      "creativityScore": 5.3442511558532715,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alan MINDA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "آلان ميندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Alan MINDA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alan MINDA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Alan MINDA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Alan MINDA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Alan MINDA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アラン・ミンダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "앨런 민다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alan MINDA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Alan MINDA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алан МИНДА"
+        }
+      ],
+      "playerPicture": {
+        "id": "B43C46A0-9E62-4202-B9E4C625B36AFC16",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b43c46a0-9e62-4202-b9e4-c625b36afc16/MINDA-Alan_463468"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43854,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Côte d'Ivoire"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوت ديفوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elfenbeinküste"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Costa de Marfil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Côte d’Ivoire"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pantai Gading"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Costa d'Avorio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コートジボワール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코트디부아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Costa do Marfim"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кот-д'Ивуар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科特迪瓦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CIV",
+      "playerId": 405873,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.499841213226318,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 6.062137126922607,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Yahia Fofana"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يحيى فوفانا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Yahia Fofana"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Yahia Fofana"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Yahia Fofana"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Yahia Fofana"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Yahia Fofana"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヤヒア・フォファナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "야히아 포파나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Yahia Fofana"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Yahia Fofana"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Яхия Фофана"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "叶海亚·福法纳"
+        }
+      ],
+      "playerPicture": {
+        "id": "C5BC8A38-479F-4C33-B8F69AB95BB45B57",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c5bc8a38-479f-4c33-b8f6-9ab95bb45b57/FOFANA-Yahia_405873"
+      }
+    },
+    {
+      "teamId": 43927,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الإكوادور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Équateur"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ekuador"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ecuador"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エクアドル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에콰도르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Equador"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эквадор"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "厄瓜多尔"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ECU",
+      "playerId": 441236,
+      "inPossessionRank": 2,
+      "inPossessionScore": 5.936858654022217,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 6.022280693054199,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Hernan GALINDEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هيرنان غالينديز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Hernan GALINDEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Hernan GALINDEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Hernan GALINDEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Hernan GALINDEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Hernan GALINDEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エルナン・ガリンドス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에르난 갈린데스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Hernan GALINDEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Hernan GALINDEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эрнан ГАЛИНДЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃尔南·加林德斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "679FC90E-2F98-4494-A4DDF26442FAE6D3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/679fc90e-2f98-4494-a4dd-f26442fae6d3/GALINDEZ-Hernan_441236"
+      }
+    }
+  ]
+}

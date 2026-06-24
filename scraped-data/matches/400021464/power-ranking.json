@@ -1,0 +1,3467 @@
+{
+  "competitionId": 285023,
+  "matchId": 151631,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-15T20:12:10.689935Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 379953,
+      "attackingRank": 14,
+      "defensiveRank": 7,
+      "creativityRank": 2,
+      "attackingScore": 5.0674028396606445,
+      "defensiveScore": 5.650696754455566,
+      "creativityScore": 7.684628009796143,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Leon GORETZKA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ليون غوريتزكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Leon GORETZKA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Leon GORETZKA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Leon GORETZKA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Leon GORETZKA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Leon GORETZKA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "レオン・ゴレツカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "레온 고레츠카"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Leon GORETZKA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Leon GORETZKA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Леон Горецка"
+        }
+      ],
+      "playerPicture": {
+        "id": "A5E5E083-D89C-4BE7-A3678456E0F8CB35",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a5e5e083-d89c-4be7-a367-8456e0f8cb35/GORETZKA-Leon_379953"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 379955,
+      "attackingRank": 15,
+      "defensiveRank": 10,
+      "creativityRank": 22,
+      "attackingScore": 5.033905982971191,
+      "defensiveScore": 5.633654594421387,
+      "creativityScore": 5.634165287017822,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 14,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Antonio RUEDIGER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أنطونيو روديجر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Antonio RUEDIGER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Antonio RUEDIGER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Antonio RUEDIGER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Antonio RUEDIGER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Antonio RUEDIGER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アントニオ・リュディガー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "안토니오 루디거"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Antonio RUEDIGER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Antonio RUEDIGER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Антонио РЮДИГЕР"
+        }
+      ],
+      "playerPicture": {
+        "id": "88C43FE2-0C78-437C-A2BF388C3673C58C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/88c43fe2-0c78-437c-a2bf-388c3673c58c/RUEDIGER-Antonio_379955"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 386413,
+      "attackingRank": 17,
+      "defensiveRank": 5,
+      "creativityRank": 5,
+      "attackingScore": 4.842806816101074,
+      "defensiveScore": 5.695925235748291,
+      "creativityScore": 7.459499835968018,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Joshua KIMMICH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جوشوا كيميش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Joshua KIMMICH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Joshua KIMMICH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Joshua KIMMICH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Joshua KIMMICH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Joshua KIMMICH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョシュア・キミッヒ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "조슈아 키미히"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Joshua KIMMICH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Joshua KIMMICH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джошуа Киммих"
+        }
+      ],
+      "playerPicture": {
+        "id": "ADA33DFD-5B01-4792-88F414C06641509E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ada33dfd-5b01-4792-88f4-14c06641509e/KIMMICH-Joshua_386413"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 401378,
+      "attackingRank": 23,
+      "defensiveRank": 12,
+      "creativityRank": 20,
+      "attackingScore": 4.256670951843262,
+      "defensiveScore": 5.318800449371338,
+      "creativityScore": 5.7950005531311035,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 14,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jonathan TAH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جوناثان تاه"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jonathan TAH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jonathan TAH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jonathan TAH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jonathan TAH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jonathan TAH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョナサン・ター"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "조나단 타"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jonathan TAH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jonathan TAH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джонатан ТАХ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乔纳森·塔"
+        }
+      ],
+      "playerPicture": {
+        "id": "34F74CA0-1102-446C-B09802DECDF58B8D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/34f74ca0-1102-446c-b098-02decdf58b8d/TAH-Jonathan_401378"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 404353,
+      "attackingRank": 18,
+      "defensiveRank": 6,
+      "creativityRank": 10,
+      "attackingScore": 4.7976908683776855,
+      "defensiveScore": 5.67873477935791,
+      "creativityScore": 6.372794151306152,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Leroy SANE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ليروي ساني"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Leroy SANE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Leroy SANE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Leroy SANE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Leroy SANE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Leroy SANE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "レロイ・サネ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "레로이 사네"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Leroy SANE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Leroy SANE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лерой САНЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "097A6749-47B0-4285-A1F98AA0AC0E2C12",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/097a6749-47b0-4285-a1f9-8aa0ac0e2c12/SANE-Leroy_404353"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 411367,
+      "attackingRank": 7,
+      "defensiveRank": 17,
+      "creativityRank": 21,
+      "attackingScore": 7.092122554779053,
+      "defensiveScore": 4.755229473114014,
+      "creativityScore": 5.7512006759643555,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 14,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Kai HAVERTZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كاي هافيرتز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kai HAVERTZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Kai HAVERTZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Kai HAVERTZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kai HAVERTZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Kai HAVERTZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カイ・ハフェルツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "카이 하베르츠"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Kai HAVERTZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Kai HAVERTZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кай Хаверц"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "凯哈弗茨"
+        }
+      ],
+      "playerPicture": {
+        "id": "1FDD4D11-97D1-4392-B3455A5EECC54839",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1fdd4d11-97d1-4392-b345-5a5eecc54839/HAVERTZ-Kai_411367"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 429642,
+      "attackingRank": 4,
+      "defensiveRank": 9,
+      "creativityRank": 12,
+      "attackingScore": 7.266346454620361,
+      "defensiveScore": 5.645740032196045,
+      "creativityScore": 6.306352138519287,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jamal MUSIALA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جمال موسيالا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jamal MUSIALA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jamal MUSIALA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jamal MUSIALA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jamal MUSIALA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jamal MUSIALA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジャマル・ムシアラ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "자말 무지알라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jamal MUSIALA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jamal MUSIALA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джамал МУСИАЛА"
+        }
+      ],
+      "playerPicture": {
+        "id": "05F50027-268F-43FF-BA751B477B37CA60",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/05f50027-268f-43ff-ba75-1b477b37ca60/MUSIALA-Jamal_429642"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 430657,
+      "attackingRank": 9,
+      "defensiveRank": 4,
+      "creativityRank": 4,
+      "attackingScore": 5.598459720611572,
+      "defensiveScore": 5.805811405181885,
+      "creativityScore": 7.507309913635254,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "David RAUM"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ديفيد راوم"
+        },
+        {
+          "locale": "de-DE",
+          "description": "David RAUM"
+        },
+        {
+          "locale": "es-ES",
+          "description": "David RAUM"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "David RAUM"
+        },
+        {
+          "locale": "id-ID",
+          "description": "David RAUM"
+        },
+        {
+          "locale": "it-IT",
+          "description": "David RAUM"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "デビッド・ラウム"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다비드 라움"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "David RAUM"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "David RAUM"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Давид РАУМ"
+        }
+      ],
+      "playerPicture": {
+        "id": "CE3509C6-13AD-441A-8D059D42F8A4578C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ce3509c6-13ad-441a-8d05-9d42f8a4578c/RAUM-David_430657"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 430667,
+      "attackingRank": 5,
+      "defensiveRank": 1,
+      "creativityRank": 13,
+      "attackingScore": 7.226466178894043,
+      "defensiveScore": 7.221730709075928,
+      "creativityScore": 6.108428478240967,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nico SCHLOTTERBECK"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيكو شلوتربيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nico SCHLOTTERBECK"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nico SCHLOTTERBECK"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nico SCHLOTTERBECK"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nico SCHLOTTERBECK"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nico SCHLOTTERBECK"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニコ・シュロッターベック"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "니코 슐로터벡"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nico SCHLOTTERBECK"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nico SCHLOTTERBECK"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нико ШЛОТТЕРБЕК"
+        }
+      ],
+      "playerPicture": {
+        "id": "3ECE206C-50AE-4B63-AC21A174F2FBB35A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3ece206c-50ae-4b63-ac21-a174f2fbb35a/SCHLOTTERBECK-Nico_430667"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 430669,
+      "attackingRank": 13,
+      "defensiveRank": 15,
+      "creativityRank": 1,
+      "attackingScore": 5.398681640625,
+      "defensiveScore": 5.126749515533447,
+      "creativityScore": 7.962496757507324,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Florian WIRTZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فلوريان فيرتز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Florian WIRTZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Florian WIRTZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Florian WIRTZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Florian WIRTZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Florian WIRTZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フロリアン・ヴィルツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "플로리안 비르츠"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Florian WIRTZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Florian WIRTZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Флориан ВИРЦ"
+        }
+      ],
+      "playerPicture": {
+        "id": "3A120189-62CC-441F-B8627FDD2A9ABFA4",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3a120189-62cc-441f-b862-7fdd2a9abfa4/WIRTZ-Florian_430669"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 484849,
+      "attackingRank": 20,
+      "defensiveRank": 13,
+      "creativityRank": 16,
+      "attackingScore": 4.756594181060791,
+      "defensiveScore": 5.2258100509643555,
+      "creativityScore": 5.87238073348999,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Aleksandar PAVLOVIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألكسندر بافلوفيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Aleksandar PAVLOVIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Aleksandar PAVLOVIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Aleksandar PAVLOVIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aleksandar PAVLOVIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Aleksandar PAVLOVIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アレクサンダル・パブロヴィッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알렉산다르 파블로비치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Aleksandar PAVLOVIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Aleksandar PAVLOVIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Александр ПАВЛОВИЧ"
+        }
+      ],
+      "playerPicture": {
+        "id": "7CFB5F20-6F8A-4329-97A2BE3CB66FEA0F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7cfb5f20-6f8a-4329-97a2-be3cb66fea0f/PAVLOVIC-Aleksandar_484849"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 484851,
+      "attackingRank": 1,
+      "defensiveRank": 16,
+      "creativityRank": 6,
+      "attackingScore": 8.160840034484863,
+      "defensiveScore": 4.8901591300964355,
+      "creativityScore": 7.457549095153809,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Deniz UNDAV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دينيز أونداف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deniz UNDAV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Deniz UNDAV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Deniz UNDAV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Deniz UNDAV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Deniz UNDAV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "デニズ・ウンダヴ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "데니즈 운다브"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Deniz UNDAV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Deniz UNDAV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дениз УНДАВ"
+        }
+      ],
+      "playerPicture": {
+        "id": "3EC30E08-A7EB-4781-AEA80E9FF86EBEF1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3ec30e08-a7eb-4781-aea8-0e9ff86ebef1/UNDAV-Deniz_484851"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 492363,
+      "attackingRank": 2,
+      "defensiveRank": 2,
+      "creativityRank": 8,
+      "attackingScore": 7.862919330596924,
+      "defensiveScore": 6.922903537750244,
+      "creativityScore": 6.530208110809326,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Felix NMECHA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فيليكس نميشا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Felix NMECHA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Felix NMECHA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Felix NMECHA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Felix NMECHA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Felix NMECHA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フェリックス・ンメチャ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "펠릭스 은메차"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Felix NMECHA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Felix NMECHA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Феликс НМЕЧА"
+        }
+      ],
+      "playerPicture": {
+        "id": "9895941B-9BE6-4900-A336493F1237B0E6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9895941b-9be6-4900-a336-493f1237b0e6/NMECHA-Felix_492363"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 511015,
+      "attackingRank": 6,
+      "defensiveRank": 14,
+      "creativityRank": 3,
+      "attackingScore": 7.205080509185791,
+      "defensiveScore": 5.214178562164307,
+      "creativityScore": 7.573557376861572,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nathaniel BROWN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ناثانيال براون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nathaniel BROWN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nathaniel BROWN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nathaniel BROWN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nathaniel BROWN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nathaniel BROWN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ナサニエル・ブラウン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네이선 브라운"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nathaniel BROWN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nathaniel BROWN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Натаниэль БРАУН"
+        }
+      ],
+      "playerPicture": {
+        "id": "68E13808-182E-46B6-A6ECA54136A57C1B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/68e13808-182e-46b6-a6ec-a54136a57c1b/BROWN-Nathaniel_511015"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 398569,
+      "attackingRank": 26,
+      "defensiveRank": 26,
+      "creativityRank": 26,
+      "attackingScore": 3.1418585777282715,
+      "defensiveScore": 2.8946266174316406,
+      "creativityScore": 4.164675235748291,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Riechedly Bazoer"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ريتشيدلي بازوير"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Riechedly Bazoer"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Riechedly Bazoer"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Riechedly Bazoer"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Riechedly Bazoer"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Riechedly Bazoer"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "リーチェドリー・バゾーア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "리체들리 바조어"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Riechedly Bazoer"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Riechedly Bazoer"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ричедли Базоер"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "里切德利·巴佐尔"
+        }
+      ],
+      "playerPicture": {
+        "id": "93FCBE0F-13CA-41F6-B453447B45AEA6EF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/93fcbe0f-13ca-41f6-b453-447b45aea6ef/BAZOER-Riechedly_398569"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 407680,
+      "attackingRank": 21,
+      "defensiveRank": 25,
+      "creativityRank": 17,
+      "attackingScore": 4.744874000549316,
+      "defensiveScore": 3.165182113647461,
+      "creativityScore": 5.842848300933838,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Juergen LOCADIA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يورغن لوكاديا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Juergen LOCADIA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Juergen LOCADIA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Juergen LOCADIA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Juergen LOCADIA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Juergen LOCADIA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ユルゲン・ロカディア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "유르겐 로카디아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Juergen LOCADIA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Juergen LOCADIA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Юрген ЛОКАДИЯ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "尤尔根·洛卡达尔"
+        }
+      ],
+      "playerPicture": {
+        "id": "95D67C13-C534-48F4-A2DEE831079A0D42",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/95d67c13-c534-48f4-a2de-e831079a0d42/LOCADIA-Juergen_407680"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 424047,
+      "attackingRank": 19,
+      "defensiveRank": 20,
+      "creativityRank": 19,
+      "attackingScore": 4.784679412841797,
+      "defensiveScore": 4.40830135345459,
+      "creativityScore": 5.824385643005371,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jeremy Antonisse"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيريمي أنتونيس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jeremy Antonisse"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jeremy Antonisse"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jeremy Antonisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jeremy Antonisse"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jeremy Antonisse"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジェレミー・アントニッセ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "제레미 안토니스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jeremy Antonisse"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jeremy Antonisse"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джереми Антониссе"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "杰里米·安东尼斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "CD0B7EE9-50B8-4043-A95744DF5860E935",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/cd0b7ee9-50b8-4043-a957-44df5860e935/ANTONISSE-Jeremy_424047"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 424056,
+      "attackingRank": 10,
+      "defensiveRank": 19,
+      "creativityRank": 15,
+      "attackingScore": 5.548866271972656,
+      "defensiveScore": 4.52117919921875,
+      "creativityScore": 5.993905067443848,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Sontje HANSEN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سونتي هانسن"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Sontje HANSEN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sontje HANSEN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Sontje HANSEN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Sontje HANSEN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sontje HANSEN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ソンチェ・ハンセン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "손트예 한센"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Sontje HANSEN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Sontje HANSEN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Сонтье ХАНСЕН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "桑杰·汉森"
+        }
+      ],
+      "playerPicture": {
+        "id": "35E4773D-8580-4100-A87A239C2E03E179",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/35e4773d-8580-4100-a87a-239c2e03e179/HANSEN-Sontje_424056"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 466317,
+      "attackingRank": 11,
+      "defensiveRank": 18,
+      "creativityRank": 7,
+      "attackingScore": 5.518955707550049,
+      "defensiveScore": 4.701263427734375,
+      "creativityScore": 6.998871803283691,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Juninho BACUNA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جونينيو باكونا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Juninho BACUNA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Juninho BACUNA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Juninho BACUNA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Juninho BACUNA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Juninho BACUNA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジュニーニョ・バクーナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "주니뉴 바쿠나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Juninho BACUNA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Juninho BACUNA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Жуниньо БАКУНА"
+        }
+      ],
+      "playerPicture": {
+        "id": "804768D8-BADB-4492-9AEF1E523440AED4",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/804768d8-badb-4492-9aef-1e523440aed4/BACUNA-Juninho_466317"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 466340,
+      "attackingRank": 16,
+      "defensiveRank": 11,
+      "creativityRank": 24,
+      "attackingScore": 4.85060977935791,
+      "defensiveScore": 5.370887756347656,
+      "creativityScore": 5.311203956604004,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Leandro BACUNA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لياندرو باكونا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Leandro BACUNA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Leandro BACUNA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Leandro BACUNA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Leandro BACUNA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Leandro BACUNA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "レアンドロ・バクーナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "레안드로 바쿠나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Leandro BACUNA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Leandro BACUNA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Леандро БАКУНА"
+        }
+      ],
+      "playerPicture": {
+        "id": "AE48F357-6B53-4D49-B62FFBFB4A041B62",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ae48f357-6b53-4d49-b62f-fbfb4a041b62/BACUNA-Leandro_466340"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 466350,
+      "attackingRank": 24,
+      "defensiveRank": 22,
+      "creativityRank": 25,
+      "attackingScore": 4.1418585777282715,
+      "defensiveScore": 3.709336757659912,
+      "creativityScore": 4.793242931365967,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Sherel FLORANUS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "شيريل فلورانوس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Sherel FLORANUS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sherel FLORANUS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Sherel FLORANUS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Sherel FLORANUS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sherel FLORANUS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "シェレル・フロラヌス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "셰렐 플로라누스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Sherel FLORANUS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Sherel FLORANUS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шерел ФЛОРАНУС"
+        }
+      ],
+      "playerPicture": {
+        "id": "8BAACB6B-39CD-4A37-899958DD5A1D9FEC",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8baacb6b-39cd-4a37-8999-58dd5a1d9fec/FLORANUS-Sherel_466350"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 466363,
+      "attackingRank": 8,
+      "defensiveRank": 21,
+      "creativityRank": 18,
+      "attackingScore": 5.602561950683594,
+      "defensiveScore": 3.7525601387023926,
+      "creativityScore": 5.837498664855957,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jearl MARGARITHA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيرل مارغريتا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jearl MARGARITHA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jearl MARGARITHA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jearl MARGARITHA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jearl MARGARITHA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jearl MARGARITHA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジャール・マルガリータ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "제얼 마르가리타"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jearl MARGARITHA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jearl MARGARITHA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джеарл МАРГАРИТА"
+        }
+      ],
+      "playerPicture": {
+        "id": "C0D47AD2-FCB1-4D7F-B85499B99CC0CADF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c0d47ad2-fcb1-4d7f-b854-99b99cc0cadf/MARGARITHA-Jearl_466363"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 485347,
+      "attackingRank": 12,
+      "defensiveRank": 24,
+      "creativityRank": 11,
+      "attackingScore": 5.48018741607666,
+      "defensiveScore": 3.1663455963134766,
+      "creativityScore": 6.3284196853637695,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Tahith CHONG"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تاهيث تشونغ"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tahith CHONG"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Tahith CHONG"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tahith CHONG"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tahith CHONG"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tahith CHONG"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "タヒス・チョン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "타히트 쳉"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tahith CHONG"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Tahith CHONG"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тахит ЧОНГ"
+        }
+      ],
+      "playerPicture": {
+        "id": "402300D2-89F5-4C17-97BE494664B73565",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/402300d2-89f5-4c17-97be-494664b73565/CHONG-Tahith_485347"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 494989,
+      "attackingRank": 3,
+      "defensiveRank": 3,
+      "creativityRank": 14,
+      "attackingScore": 7.6934661865234375,
+      "defensiveScore": 6.090787887573242,
+      "creativityScore": 6.009608745574951,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Livano COMENENCIA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ليفانو كومينينسيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Livano COMENENCIA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Livano COMENENCIA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Livano COMENENCIA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Livano COMENENCIA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Livano COMENENCIA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "リヴァノ・コメネンシア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "리바노 코메넨시아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Livano COMENENCIA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Livano COMENENCIA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ливано КОМЕНЕНСИЯ"
+        }
+      ],
+      "playerPicture": {
+        "id": "860CC6E0-A995-485F-AE2156B451017ADF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/860cc6e0-a995-485f-ae21-56b451017adf/COMENENCIA-Livano_494989"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 506471,
+      "attackingRank": 22,
+      "defensiveRank": 23,
+      "creativityRank": 9,
+      "attackingScore": 4.734529972076416,
+      "defensiveScore": 3.6965646743774414,
+      "creativityScore": 6.4061598777771,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Deveron FONVILLE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ديفيرون فونفيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deveron FONVILLE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Deveron FONVILLE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Deveron FONVILLE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Deveron FONVILLE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Deveron FONVILLE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "デヴェロン・フォンヴィル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "데버론 폰빌"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Deveron FONVILLE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Deveron FONVILLE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Деверон ФОНВИЛЛ"
+        }
+      ],
+      "playerPicture": {
+        "id": "29ABB3B9-0B95-4101-AE190AA95D77E362",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/29abb3b9-0b95-4101-ae19-0aa95d77e362/FONVILLE-Deveron_506471"
+      }
+    },
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 511141,
+      "attackingRank": 24,
+      "defensiveRank": 8,
+      "creativityRank": 23,
+      "attackingScore": 4.1418585777282715,
+      "defensiveScore": 5.645896911621094,
+      "creativityScore": 5.518608093261719,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Armando OBISPO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أرماندو أوبيسبو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Armando OBISPO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Armando OBISPO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Armando OBISPO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Armando OBISPO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Armando OBISPO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルマンド・オビスポ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르만도 오비스포"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Armando OBISPO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Armando OBISPO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Армандо ОБИСПО"
+        }
+      ],
+      "playerPicture": {
+        "id": "C2384459-9CA9-4DCE-B2325BBFBCD07316",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c2384459-9ca9-4dce-b232-5bbfbcd07316/OBISPO-Armando_511141"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 1895293,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوراساو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Curazao"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Curaçao"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キュラソー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀴라소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Curaçau"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кюрасао"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "库拉索"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CUW",
+      "playerId": 390650,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.273728370666504,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 5.333532810211182,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Eloy ROOM"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إلوي روم"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Eloy ROOM"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Eloy ROOM"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Eloy ROOM"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Eloy ROOM"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Eloy ROOM"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エロイ・ルーム"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엘로이 룸"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Eloy ROOM"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Eloy ROOM"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Элой РУМ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃罗伊-罗姆"
+        }
+      ],
+      "playerPicture": {
+        "id": "5BD9FF87-6801-46D2-8F10CA9EB3EA2EA4",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5bd9ff87-6801-46d2-8f10-ca9eb3ea2ea4/ROOM-Eloy_390650"
+      }
+    },
+    {
+      "teamId": 43948,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Germany"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألمانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Deutschland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alemania"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Allemagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jerman"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Germania"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドイツ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "독일"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alemanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Германия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "德国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/GER",
+      "playerId": 228912,
+      "inPossessionRank": 2,
+      "inPossessionScore": 5.321017742156982,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 5.3126020431518555,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Manuel NEUER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مانويل نوير"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Manuel NEUER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Manuel NEUER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Manuel NEUER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Manuel NEUER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Manuel NEUER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マヌエル・ノイアー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마누엘 노이어"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Manuel NEUER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Manuel NEUER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мануэль НОЙЕР"
+        }
+      ],
+      "playerPicture": {
+        "id": "E3701D06-66B5-4728-8BADFEA05319B6B8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e3701d06-66b5-4728-8bad-fea05319b6b8/NEUER-Manuel_228912"
+      }
+    }
+  ]
+}

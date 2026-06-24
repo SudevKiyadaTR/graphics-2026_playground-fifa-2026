@@ -209,7 +209,7 @@
         "ShortName": [
           {
             "Locale": "en-GB",
-            "Description": "Crépeau"
+            "Description": "Maxime CREPEAU"
           }
         ],
         "Position": 0,
@@ -349,7 +349,7 @@
         "ShortName": [
           {
             "Locale": "en-GB",
-            "Description": "EUSTAQUIO"
+            "Description": "Stephen EUSTAQUIO"
           }
         ],
         "Position": 2,
@@ -601,7 +601,7 @@
         "ShortName": [
           {
             "Locale": "en-GB",
-            "Description": "WATERMAN"
+            "Description": "Joel WATERMAN"
           }
         ],
         "Position": 1,
@@ -741,7 +741,7 @@
         "ShortName": [
           {
             "Locale": "en-GB",
-            "Description": "SHAFFELBURG"
+            "Description": "Jacob SHAFFELBURG"
           }
         ],
         "Position": 2,
@@ -1765,7 +1765,7 @@
         "ShortName": [
           {
             "Locale": "en-GB",
-            "Description": "ŠUNJIĆ"
+            "Description": "Ivan SUNJIC"
           }
         ],
         "Position": 2,
@@ -1821,7 +1821,7 @@
         "ShortName": [
           {
             "Locale": "en-GB",
-            "Description": "BURNIC"
+            "Description": "Dzenis BURNIC"
           }
         ],
         "Position": 2,
@@ -2209,6 +2209,24 @@
         ]
       },
       {
+        "IdStaff": "522848",
+        "IdCountry": "BIH",
+        "Role": 1,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Ermin CEHAJIC"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Ermin CEHAJIC"
+          }
+        ]
+      },
+      {
         "IdStaff": "522841",
         "IdCountry": "BIH",
         "Role": 15,
@@ -2241,6 +2259,24 @@
           {
             "Locale": "en-GB",
             "Description": "Adi OSMANOVIC"
+          }
+        ]
+      },
+      {
+        "IdStaff": "520862",
+        "IdCountry": "BIH",
+        "Role": 15,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Ensar NUHOVIC"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Ensar NUHOVIC"
           }
         ]
       }

@@ -1,174 +1,1426 @@
 {
   "43872": [
-    ["Assists", 1, false],
-    ["AttemptAtGoal", 14, false],
-    ["AttemptAtGoalAgainst", 12, false],
-    ["AttemptAtGoalAgainstOnTarget", 0, false],
-    ["AttemptAtGoalBlocked", 7, false],
-    ["AttemptAtGoalFromBallProgression", 4, false],
-    ["AttemptAtGoalFromCorner", 0, false],
-    ["AttemptAtGoalFromCross", 1, false],
-    ["AttemptAtGoalFromFreekick", 1, false],
-    ["AttemptAtGoalFromFreeKicks", 0, false],
-    ["AttemptAtGoalFromOther", 3, false],
-    ["AttemptAtGoalFromPass", 4, false],
-    ["AttemptAtGoalFromPenalty", 0, false],
-    ["AttemptAtGoalFromRebound", 0, false],
-    ["AttemptAtGoalInsideThePenaltyArea", 5, false],
-    ["AttemptAtGoalInsideThePenaltyAreaOnTarget", 1, false],
-    ["AttemptAtGoalOffTarget", 3, false],
-    ["AttemptAtGoalOnTarget", 4, false],
-    ["AttemptAtGoalOutsideThePenaltyArea", 8, false],
-    ["AttemptAtGoalOutsideThePenaltyAreaOnTarget", 2, false],
-    ["AvgSpeed", 6.12, false],
-    ["BallRecoveryTime", 15.44, false],
-    ["CleanSheets", 0, false],
-    ["Corners", 0, false],
-    ["Crosses", 12, false],
-    ["CrossesCompleted", 1, false],
-    ["DirectFreeKicks", 16, false],
-    ["DirectRedCards", 0, false],
-    ["DistanceHighSpeedRunning", 15200.92, false],
-    ["DistanceHighSpeedSprinting", 2234.41, false],
-    ["DistanceJogging", 48482.82, false],
-    ["DistanceLowSpeedSprinting", 6235.17, false],
-    ["DistanceWalking", 41645.63, false],
-    ["FinalThirdPitchControl", 31, false],
-    ["ForcedTurnovers", 21, false],
-    ["FoulsAgainst", 14, false],
-    ["FoulsFor", 16, false],
-    ["FreeKicks", 16, false],
-    ["GKSaves", 2, false],
-    ["GKSavesOnTarget", 0, false],
-    ["GoalKicks", 4, false],
-    ["Goals", 1, false],
-    ["GoalsConceded", 1, false],
-    ["GoalsFromDirectFreeKicks", 0, false],
-    ["GoalsInsideThePenaltyArea", 0, false],
-    ["GoalsOutsideThePenaltyArea", 1, false],
-    ["HeadedAttemptAtGoal", 1, false],
-    ["IndirectFreeKicks", 0, false],
-    ["IndirectRedCards", 0, false],
-    ["MatchesPlayed", 1, false],
-    ["Offsides", 1, false],
-    ["OwnGoals", 0, false],
-    ["Passes", 493, false],
-    ["PassesCompleted", 424, false],
-    ["Penalties", 0, false],
-    ["PenaltiesScored", 0, false],
-    ["PhaseAggregateAttackingTransition", 16, false],
-    ["PhaseAggregateBuildUpOpposed", 17.54, false],
-    ["PhaseAggregateBuildUpUnopposed", 23.54, false],
-    ["PhaseAggregateCounterattack", 0.65, false],
-    ["PhaseAggregateCounterPress", 6.73, false],
-    ["PhaseAggregateDefensiveTransition", 8.27, false],
-    ["PhaseAggregateFinalThird", 17.1, false],
-    ["PhaseAggregateHighBlock", 2.66, false],
-    ["PhaseAggregateHighPress", 5.07, false],
-    ["PhaseAggregateLongBall", 5.34, false],
-    ["PhaseAggregateLowBlock", 19.92, false],
-    ["PhaseAggregateLowPress", 0.25, false],
-    ["PhaseAggregateMidBlock", 24.45, false],
-    ["PhaseAggregateMidPress", 3.65, false],
-    ["PhaseAggregateProgression", 17.56, false],
-    ["PhaseAggregateRecovery", 5.59, false],
-    ["PhaseAggregateSetPieces", 2.63, false],
-    ["PitchControl", 44, false],
-    ["Possession", 0.44, false],
-    ["RedCards", 0, false],
-    ["SubstitutionsIn", 5, false],
-    ["SubstitutionsOut", 5, false],
-    ["Threat", 47, false],
-    ["ThrowIns", 12, false],
-    ["TopSpeed", 33.37, false],
-    ["TotalDistance", 114839.5, false],
-    ["XG", 1, false],
-    ["YellowCards", 0, false]
+    [
+      "Assists",
+      1,
+      true
+    ],
+    [
+      "AttemptAtGoal",
+      14,
+      true
+    ],
+    [
+      "AttemptAtGoalAgainst",
+      12,
+      true
+    ],
+    [
+      "AttemptAtGoalAgainstOnTarget",
+      5,
+      true
+    ],
+    [
+      "AttemptAtGoalBlocked",
+      5,
+      true
+    ],
+    [
+      "AttemptAtGoalFromBallProgression",
+      0,
+      true
+    ],
+    [
+      "AttemptAtGoalFromCorner",
+      0,
+      true
+    ],
+    [
+      "AttemptAtGoalFromCross",
+      0,
+      true
+    ],
+    [
+      "AttemptAtGoalFromFreeKicks",
+      0,
+      true
+    ],
+    [
+      "AttemptAtGoalFromOther",
+      4,
+      true
+    ],
+    [
+      "AttemptAtGoalFromPass",
+      8,
+      true
+    ],
+    [
+      "AttemptAtGoalFromPenalty",
+      0,
+      true
+    ],
+    [
+      "AttemptAtGoalFromRebound",
+      1,
+      true
+    ],
+    [
+      "AttemptAtGoalInsideThePenaltyArea",
+      6,
+      true
+    ],
+    [
+      "AttemptAtGoalInsideThePenaltyAreaOnTarget",
+      2,
+      true
+    ],
+    [
+      "AttemptAtGoalOffTarget",
+      4,
+      true
+    ],
+    [
+      "AttemptAtGoalOnTarget",
+      3,
+      true
+    ],
+    [
+      "AttemptAtGoalOutsideThePenaltyArea",
+      8,
+      true
+    ],
+    [
+      "AttemptAtGoalOutsideThePenaltyAreaOnTarget",
+      1,
+      true
+    ],
+    [
+      "AttemptedBallProgressions",
+      49,
+      true
+    ],
+    [
+      "AttemptedSwitchesOfPlay",
+      4,
+      true
+    ],
+    [
+      "AvgSpeed",
+      6.017343997955322,
+      true
+    ],
+    [
+      "BallRecoveryTime",
+      16.834657669067383,
+      true
+    ],
+    [
+      "CleanSheets",
+      0,
+      true
+    ],
+    [
+      "CompletedBallProgressions",
+      30,
+      true
+    ],
+    [
+      "CompletedSwitchesOfPlay",
+      3,
+      true
+    ],
+    [
+      "Corners",
+      2,
+      true
+    ],
+    [
+      "Crosses",
+      14,
+      true
+    ],
+    [
+      "CrossesCompleted",
+      2,
+      true
+    ],
+    [
+      "DefensivePressuresApplied",
+      285,
+      true
+    ],
+    [
+      "DirectDefensivePressuresApplied",
+      41,
+      true
+    ],
+    [
+      "DirectFreeKicks",
+      16,
+      true
+    ],
+    [
+      "DirectRedCards",
+      0,
+      true
+    ],
+    [
+      "DistanceHighSpeedRunning",
+      15507.2802734375,
+      true
+    ],
+    [
+      "DistanceHighSpeedSprinting",
+      2307.630126953125,
+      true
+    ],
+    [
+      "DistanceJogging",
+      48292.0703125,
+      true
+    ],
+    [
+      "DistanceLowSpeedSprinting",
+      6457.1201171875,
+      true
+    ],
+    [
+      "DistanceWalking",
+      42336.26171875,
+      true
+    ],
+    [
+      "DistributionsCompletedUnderPressure",
+      248,
+      true
+    ],
+    [
+      "DistributionsUnderPressure",
+      338,
+      true
+    ],
+    [
+      "FinalThirdEntriesReceptionCentralChannel",
+      10,
+      true
+    ],
+    [
+      "FinalThirdEntriesReceptionInsideLeftChannel",
+      7,
+      true
+    ],
+    [
+      "FinalThirdEntriesReceptionInsideRightChannel",
+      6,
+      true
+    ],
+    [
+      "FinalThirdEntriesReceptionLeftChannel",
+      10,
+      true
+    ],
+    [
+      "FinalThirdEntriesReceptionRightChannel",
+      20,
+      true
+    ],
+    [
+      "FinalThirdPitchControl",
+      48,
+      true
+    ],
+    [
+      "ForcedTurnovers",
+      50,
+      true
+    ],
+    [
+      "FoulsAgainst",
+      14,
+      true
+    ],
+    [
+      "FoulsFor",
+      16,
+      true
+    ],
+    [
+      "FreeKicks",
+      16,
+      true
+    ],
+    [
+      "GoalkeeperDefensiveActionsInsidePenaltyArea",
+      23,
+      true
+    ],
+    [
+      "GoalkeeperDefensiveActionsOutsidePenaltyArea",
+      18,
+      true
+    ],
+    [
+      "GoalkeeperSavePercentage",
+      0.800000011920929,
+      true
+    ],
+    [
+      "GoalkeeperSaves",
+      4,
+      true
+    ],
+    [
+      "GoalkeeperSavesOnTarget",
+      4,
+      true
+    ],
+    [
+      "GoalKicks",
+      4,
+      true
+    ],
+    [
+      "Goals",
+      1,
+      true
+    ],
+    [
+      "GoalsConceded",
+      1,
+      true
+    ],
+    [
+      "GoalsConcededFromAttemptAtGoalAgainst",
+      1,
+      true
+    ],
+    [
+      "GoalsFromDirectFreeKicks",
+      0,
+      true
+    ],
+    [
+      "GoalsInsideThePenaltyArea",
+      0,
+      true
+    ],
+    [
+      "GoalsOutsideThePenaltyArea",
+      1,
+      true
+    ],
+    [
+      "HeadedAttemptAtGoal",
+      1,
+      true
+    ],
+    [
+      "IndirectFreeKicks",
+      0,
+      true
+    ],
+    [
+      "IndirectRedCards",
+      0,
+      true
+    ],
+    [
+      "LinebreaksAttempted",
+      179,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAllLines",
+      9,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAttackingAndMidfieldLine",
+      26,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAttackingLine",
+      70,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAttackingLineCompleted",
+      38,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAttackingLineCompletedOnly",
+      26,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAttackingLineOnly",
+      35,
+      true
+    ],
+    [
+      "LinebreaksAttemptedCompleted",
+      96,
+      true
+    ],
+    [
+      "LinebreaksAttemptedDefensiveLine",
+      15,
+      true
+    ],
+    [
+      "LinebreaksAttemptedDefensiveLineCompleted",
+      5,
+      true
+    ],
+    [
+      "LinebreaksAttemptedDefensiveLineCompletedOnly",
+      1,
+      true
+    ],
+    [
+      "LinebreaksAttemptedDefensiveLineOnly",
+      2,
+      true
+    ],
+    [
+      "LinebreaksAttemptedMidfieldAndDefensiveLine",
+      4,
+      true
+    ],
+    [
+      "LinebreaksAttemptedMidfieldLine",
+      94,
+      true
+    ],
+    [
+      "LinebreaksAttemptedMidfieldLineCompleted",
+      53,
+      true
+    ],
+    [
+      "LinebreaksAttemptedMidfieldLineCompletedOnly",
+      40,
+      true
+    ],
+    [
+      "LinebreaksAttemptedMidfieldLineOnly",
+      55,
+      true
+    ],
+    [
+      "LinebreaksAttemptedUnderPressure",
+      108,
+      true
+    ],
+    [
+      "LinebreaksCompletedAllLines",
+      3,
+      true
+    ],
+    [
+      "LinebreaksCompletedAttackingAndMidfieldLine",
+      9,
+      true
+    ],
+    [
+      "LinebreaksCompletedMidfieldAndDefensiveLine",
+      1,
+      true
+    ],
+    [
+      "LinebreaksCompletedUnderPressure",
+      59,
+      true
+    ],
+    [
+      "MatchesPlayed",
+      1,
+      true
+    ],
+    [
+      "NumberOfInvolvements",
+      0,
+      true
+    ],
+    [
+      "NumberOfPossessionSequences",
+      0,
+      true
+    ],
+    [
+      "NumberOfShotEndingSequences",
+      0,
+      true
+    ],
+    [
+      "OffersToReceiveInBehind",
+      115,
+      true
+    ],
+    [
+      "OffersToReceiveInBetween",
+      169,
+      true
+    ],
+    [
+      "OffersToReceiveInFront",
+      116,
+      true
+    ],
+    [
+      "OffersToReceiveInside",
+      226,
+      true
+    ],
+    [
+      "OffersToReceiveOutside",
+      174,
+      true
+    ],
+    [
+      "OffersToReceiveTotal",
+      400,
+      true
+    ],
+    [
+      "Offsides",
+      1,
+      true
+    ],
+    [
+      "OwnGoals",
+      0,
+      true
+    ],
+    [
+      "Passes",
+      503,
+      true
+    ],
+    [
+      "PassesCompleted",
+      431,
+      true
+    ],
+    [
+      "Penalties",
+      0,
+      true
+    ],
+    [
+      "PenaltiesScored",
+      0,
+      true
+    ],
+    [
+      "PhaseAggregateAttackingTransition",
+      15.571492910385132,
+      true
+    ],
+    [
+      "PhaseAggregateBuildUpOpposed",
+      14.109107851982117,
+      true
+    ],
+    [
+      "PhaseAggregateBuildUpUnopposed",
+      30.501174926757812,
+      true
+    ],
+    [
+      "PhaseAggregateCounterattack",
+      1.6282225027680397,
+      true
+    ],
+    [
+      "PhaseAggregateCounterPress",
+      8.374719321727753,
+      true
+    ],
+    [
+      "PhaseAggregateDefensiveTransition",
+      12.361806631088257,
+      true
+    ],
+    [
+      "PhaseAggregateFinalThird",
+      17.008033394813538,
+      true
+    ],
+    [
+      "PhaseAggregateHighBlock",
+      3.182760253548622,
+      true
+    ],
+    [
+      "PhaseAggregateHighPress",
+      4.051865637302399,
+      true
+    ],
+    [
+      "PhaseAggregateLongBall",
+      4.716676473617554,
+      true
+    ],
+    [
+      "PhaseAggregateLowBlock",
+      20.368370413780212,
+      true
+    ],
+    [
+      "PhaseAggregateLowPress",
+      0.6715322379022837,
+      true
+    ],
+    [
+      "PhaseAggregateMidBlock",
+      34.128302335739136,
+      true
+    ],
+    [
+      "PhaseAggregateMidPress",
+      3.747408837080002,
+      true
+    ],
+    [
+      "PhaseAggregateProgression",
+      14.581853151321411,
+      true
+    ],
+    [
+      "PhaseAggregateRecovery",
+      5.0278544425964355,
+      true
+    ],
+    [
+      "PhaseAggregateSetPieces",
+      6.180138140916824,
+      true
+    ],
+    [
+      "PitchControl",
+      47,
+      true
+    ],
+    [
+      "Possession",
+      0.45190590620040894,
+      true
+    ],
+    [
+      "ReceivedOffersToReceive",
+      148,
+      true
+    ],
+    [
+      "ReceptionsBetweenMidfieldAndDefensiveLine",
+      128,
+      true
+    ],
+    [
+      "ReceptionsInBehind",
+      5,
+      true
+    ],
+    [
+      "ReceptionsUnderDirectPressure",
+      11,
+      true
+    ],
+    [
+      "ReceptionsUnderIndirectPressure",
+      197,
+      true
+    ],
+    [
+      "ReceptionsUnderNoPressure",
+      331,
+      true
+    ],
+    [
+      "ReceptionsUnderPressure",
+      208,
+      true
+    ],
+    [
+      "RedCards",
+      0,
+      true
+    ],
+    [
+      "SpeedRuns",
+      1292,
+      true
+    ],
+    [
+      "Sprints",
+      489,
+      true
+    ],
+    [
+      "SubstitutionsIn",
+      5,
+      true
+    ],
+    [
+      "SubstitutionsOut",
+      5,
+      true
+    ],
+    [
+      "TakeOnsCompleted",
+      19,
+      true
+    ],
+    [
+      "Threat",
+      49,
+      true
+    ],
+    [
+      "ThrowIns",
+      13,
+      true
+    ],
+    [
+      "TimePlayed",
+      104.09348333333334,
+      true
+    ],
+    [
+      "TopSpeed",
+      33.66965103149414,
+      true
+    ],
+    [
+      "TotalDistance",
+      114900.359375,
+      true
+    ],
+    [
+      "XG",
+      1.330631971359253,
+      true
+    ],
+    [
+      "YellowCards",
+      0,
+      true
+    ]
   ],
   "43924": [
-    ["Assists", 1, false],
-    ["AttemptAtGoal", 12, false],
-    ["AttemptAtGoalAgainst", 14, false],
-    ["AttemptAtGoalAgainstOnTarget", 0, false],
-    ["AttemptAtGoalBlocked", 3, false],
-    ["AttemptAtGoalFromBallProgression", 1, false],
-    ["AttemptAtGoalFromCorner", 0, false],
-    ["AttemptAtGoalFromCross", 2, false],
-    ["AttemptAtGoalFromFreekick", 0, false],
-    ["AttemptAtGoalFromFreeKicks", 0, false],
-    ["AttemptAtGoalFromOther", 7, false],
-    ["AttemptAtGoalFromPass", 2, false],
-    ["AttemptAtGoalFromPenalty", 0, false],
-    ["AttemptAtGoalFromRebound", 0, false],
-    ["AttemptAtGoalInsideThePenaltyArea", 9, false],
-    ["AttemptAtGoalInsideThePenaltyAreaOnTarget", 5, false],
-    ["AttemptAtGoalOffTarget", 4, false],
-    ["AttemptAtGoalOnTarget", 5, false],
-    ["AttemptAtGoalOutsideThePenaltyArea", 3, false],
-    ["AttemptAtGoalOutsideThePenaltyAreaOnTarget", 0, false],
-    ["AvgSpeed", 6.12, false],
-    ["BallRecoveryTime", 15.98, false],
-    ["CleanSheets", 0, false],
-    ["Corners", 6, false],
-    ["Crosses", 14, false],
-    ["CrossesCompleted", 3, false],
-    ["DirectFreeKicks", 14, false],
-    ["DirectRedCards", 0, false],
-    ["DistanceHighSpeedRunning", 15796.15, false],
-    ["DistanceHighSpeedSprinting", 1954.34, false],
-    ["DistanceJogging", 45185.99, false],
-    ["DistanceLowSpeedSprinting", 6545.81, false],
-    ["DistanceWalking", 43547.37, false],
-    ["FinalThirdPitchControl", 30, false],
-    ["ForcedTurnovers", 22, false],
-    ["FoulsAgainst", 16, false],
-    ["FoulsFor", 14, false],
-    ["FreeKicks", 15, false],
-    ["GKSaves", 0, false],
-    ["GKSavesOnTarget", 0, false],
-    ["GoalKicks", 4, false],
-    ["Goals", 1, false],
-    ["GoalsConceded", 1, false],
-    ["GoalsFromDirectFreeKicks", 0, false],
-    ["GoalsInsideThePenaltyArea", 1, false],
-    ["GoalsOutsideThePenaltyArea", 0, false],
-    ["HeadedAttemptAtGoal", 1, false],
-    ["IndirectFreeKicks", 1, false],
-    ["IndirectRedCards", 0, false],
-    ["MatchesPlayed", 1, false],
-    ["Offsides", 0, false],
-    ["OwnGoals", 0, false],
-    ["Passes", 524, false],
-    ["PassesCompleted", 457, false],
-    ["Penalties", 0, false],
-    ["PenaltiesScored", 0, false],
-    ["PhaseAggregateAttackingTransition", 8.27, false],
-    ["PhaseAggregateBuildUpOpposed", 15.67, false],
-    ["PhaseAggregateBuildUpUnopposed", 40.21, false],
-    ["PhaseAggregateCounterattack", 0.25, false],
-    ["PhaseAggregateCounterPress", 11.43, false],
-    ["PhaseAggregateDefensiveTransition", 16, false],
-    ["PhaseAggregateFinalThird", 12.26, false],
-    ["PhaseAggregateHighBlock", 5.02, false],
-    ["PhaseAggregateHighPress", 8.23, false],
-    ["PhaseAggregateLongBall", 2.09, false],
-    ["PhaseAggregateLowBlock", 25, false],
-    ["PhaseAggregateLowPress", 0.45, false],
-    ["PhaseAggregateMidBlock", 13.83, false],
-    ["PhaseAggregateMidPress", 3.43, false],
-    ["PhaseAggregateProgression", 18.43, false],
-    ["PhaseAggregateRecovery", 6.71, false],
-    ["PhaseAggregateSetPieces", 1.67, false],
-    ["PitchControl", 49, false],
-    ["Possession", 0.48, false],
-    ["RedCards", 0, false],
-    ["SubstitutionsIn", 5, false],
-    ["SubstitutionsOut", 5, false],
-    ["Threat", 53, false],
-    ["ThrowIns", 17, false],
-    ["TopSpeed", 34.16, false],
-    ["TotalDistance", 114078.06, false],
-    ["XG", 0.73, false],
-    ["YellowCards", 2, false]
+    [
+      "Assists",
+      1,
+      true
+    ],
+    [
+      "AttemptAtGoal",
+      12,
+      true
+    ],
+    [
+      "AttemptAtGoalAgainst",
+      14,
+      true
+    ],
+    [
+      "AttemptAtGoalAgainstOnTarget",
+      3,
+      true
+    ],
+    [
+      "AttemptAtGoalBlocked",
+      2,
+      true
+    ],
+    [
+      "AttemptAtGoalFromBallProgression",
+      1,
+      true
+    ],
+    [
+      "AttemptAtGoalFromCorner",
+      2,
+      true
+    ],
+    [
+      "AttemptAtGoalFromCross",
+      4,
+      true
+    ],
+    [
+      "AttemptAtGoalFromFreeKicks",
+      0,
+      true
+    ],
+    [
+      "AttemptAtGoalFromOther",
+      1,
+      true
+    ],
+    [
+      "AttemptAtGoalFromPass",
+      4,
+      true
+    ],
+    [
+      "AttemptAtGoalFromPenalty",
+      0,
+      true
+    ],
+    [
+      "AttemptAtGoalFromRebound",
+      0,
+      true
+    ],
+    [
+      "AttemptAtGoalInsideThePenaltyArea",
+      9,
+      true
+    ],
+    [
+      "AttemptAtGoalInsideThePenaltyAreaOnTarget",
+      5,
+      true
+    ],
+    [
+      "AttemptAtGoalOffTarget",
+      2,
+      true
+    ],
+    [
+      "AttemptAtGoalOnTarget",
+      5,
+      true
+    ],
+    [
+      "AttemptAtGoalOutsideThePenaltyArea",
+      3,
+      true
+    ],
+    [
+      "AttemptAtGoalOutsideThePenaltyAreaOnTarget",
+      0,
+      true
+    ],
+    [
+      "AttemptedBallProgressions",
+      30,
+      true
+    ],
+    [
+      "AttemptedSwitchesOfPlay",
+      5,
+      true
+    ],
+    [
+      "AvgSpeed",
+      5.958889961242676,
+      true
+    ],
+    [
+      "BallRecoveryTime",
+      18.02904510498047,
+      true
+    ],
+    [
+      "CleanSheets",
+      0,
+      true
+    ],
+    [
+      "CompletedBallProgressions",
+      11,
+      true
+    ],
+    [
+      "CompletedSwitchesOfPlay",
+      5,
+      true
+    ],
+    [
+      "Corners",
+      6,
+      true
+    ],
+    [
+      "Crosses",
+      19,
+      true
+    ],
+    [
+      "CrossesCompleted",
+      7,
+      true
+    ],
+    [
+      "DefensivePressuresApplied",
+      315,
+      true
+    ],
+    [
+      "DirectDefensivePressuresApplied",
+      54,
+      true
+    ],
+    [
+      "DirectFreeKicks",
+      14,
+      true
+    ],
+    [
+      "DirectRedCards",
+      0,
+      true
+    ],
+    [
+      "DistanceHighSpeedRunning",
+      16135.6796875,
+      true
+    ],
+    [
+      "DistanceHighSpeedSprinting",
+      2015.760009765625,
+      true
+    ],
+    [
+      "DistanceJogging",
+      44733.7421875,
+      true
+    ],
+    [
+      "DistanceLowSpeedSprinting",
+      6808.830078125,
+      true
+    ],
+    [
+      "DistanceWalking",
+      43966.94140625,
+      true
+    ],
+    [
+      "DistributionsCompletedUnderPressure",
+      187,
+      true
+    ],
+    [
+      "DistributionsUnderPressure",
+      268,
+      true
+    ],
+    [
+      "FinalThirdEntriesReceptionCentralChannel",
+      7,
+      true
+    ],
+    [
+      "FinalThirdEntriesReceptionInsideLeftChannel",
+      5,
+      true
+    ],
+    [
+      "FinalThirdEntriesReceptionInsideRightChannel",
+      4,
+      true
+    ],
+    [
+      "FinalThirdEntriesReceptionLeftChannel",
+      22,
+      true
+    ],
+    [
+      "FinalThirdEntriesReceptionRightChannel",
+      14,
+      true
+    ],
+    [
+      "FinalThirdPitchControl",
+      48,
+      true
+    ],
+    [
+      "ForcedTurnovers",
+      41,
+      true
+    ],
+    [
+      "FoulsAgainst",
+      16,
+      true
+    ],
+    [
+      "FoulsFor",
+      14,
+      true
+    ],
+    [
+      "FreeKicks",
+      15,
+      true
+    ],
+    [
+      "GoalkeeperDefensiveActionsInsidePenaltyArea",
+      19,
+      true
+    ],
+    [
+      "GoalkeeperDefensiveActionsOutsidePenaltyArea",
+      16,
+      true
+    ],
+    [
+      "GoalkeeperSavePercentage",
+      0.6666666865348816,
+      true
+    ],
+    [
+      "GoalkeeperSaves",
+      3,
+      true
+    ],
+    [
+      "GoalkeeperSavesOnTarget",
+      2,
+      true
+    ],
+    [
+      "GoalKicks",
+      4,
+      true
+    ],
+    [
+      "Goals",
+      1,
+      true
+    ],
+    [
+      "GoalsConceded",
+      1,
+      true
+    ],
+    [
+      "GoalsConcededFromAttemptAtGoalAgainst",
+      1,
+      true
+    ],
+    [
+      "GoalsFromDirectFreeKicks",
+      0,
+      true
+    ],
+    [
+      "GoalsInsideThePenaltyArea",
+      1,
+      true
+    ],
+    [
+      "GoalsOutsideThePenaltyArea",
+      0,
+      true
+    ],
+    [
+      "HeadedAttemptAtGoal",
+      3,
+      true
+    ],
+    [
+      "IndirectFreeKicks",
+      1,
+      true
+    ],
+    [
+      "IndirectRedCards",
+      0,
+      true
+    ],
+    [
+      "LinebreaksAttempted",
+      154,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAllLines",
+      9,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAttackingAndMidfieldLine",
+      15,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAttackingLine",
+      71,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAttackingLineCompleted",
+      55,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAttackingLineCompletedOnly",
+      43,
+      true
+    ],
+    [
+      "LinebreaksAttemptedAttackingLineOnly",
+      47,
+      true
+    ],
+    [
+      "LinebreaksAttemptedCompleted",
+      107,
+      true
+    ],
+    [
+      "LinebreaksAttemptedDefensiveLine",
+      18,
+      true
+    ],
+    [
+      "LinebreaksAttemptedDefensiveLineCompleted",
+      11,
+      true
+    ],
+    [
+      "LinebreaksAttemptedDefensiveLineCompletedOnly",
+      5,
+      true
+    ],
+    [
+      "LinebreaksAttemptedDefensiveLineOnly",
+      7,
+      true
+    ],
+    [
+      "LinebreaksAttemptedMidfieldAndDefensiveLine",
+      2,
+      true
+    ],
+    [
+      "LinebreaksAttemptedMidfieldLine",
+      65,
+      true
+    ],
+    [
+      "LinebreaksAttemptedMidfieldLineCompleted",
+      41,
+      true
+    ],
+    [
+      "LinebreaksAttemptedMidfieldLineCompletedOnly",
+      27,
+      true
+    ],
+    [
+      "LinebreaksAttemptedMidfieldLineOnly",
+      39,
+      true
+    ],
+    [
+      "LinebreaksAttemptedUnderPressure",
+      82,
+      true
+    ],
+    [
+      "LinebreaksCompletedAllLines",
+      4,
+      true
+    ],
+    [
+      "LinebreaksCompletedAttackingAndMidfieldLine",
+      8,
+      true
+    ],
+    [
+      "LinebreaksCompletedMidfieldAndDefensiveLine",
+      2,
+      true
+    ],
+    [
+      "LinebreaksCompletedUnderPressure",
+      51,
+      true
+    ],
+    [
+      "MatchesPlayed",
+      1,
+      true
+    ],
+    [
+      "NumberOfInvolvements",
+      0,
+      true
+    ],
+    [
+      "NumberOfPossessionSequences",
+      0,
+      true
+    ],
+    [
+      "NumberOfShotEndingSequences",
+      0,
+      true
+    ],
+    [
+      "OffersToReceiveInBehind",
+      79,
+      true
+    ],
+    [
+      "OffersToReceiveInBetween",
+      147,
+      true
+    ],
+    [
+      "OffersToReceiveInFront",
+      122,
+      true
+    ],
+    [
+      "OffersToReceiveInside",
+      174,
+      true
+    ],
+    [
+      "OffersToReceiveOutside",
+      174,
+      true
+    ],
+    [
+      "OffersToReceiveTotal",
+      348,
+      true
+    ],
+    [
+      "Offsides",
+      0,
+      true
+    ],
+    [
+      "OwnGoals",
+      0,
+      true
+    ],
+    [
+      "Passes",
+      514,
+      true
+    ],
+    [
+      "PassesCompleted",
+      457,
+      true
+    ],
+    [
+      "Penalties",
+      0,
+      true
+    ],
+    [
+      "PenaltiesScored",
+      0,
+      true
+    ],
+    [
+      "PhaseAggregateAttackingTransition",
+      12.361806631088257,
+      true
+    ],
+    [
+      "PhaseAggregateBuildUpOpposed",
+      13.48678469657898,
+      true
+    ],
+    [
+      "PhaseAggregateBuildUpUnopposed",
+      40.88141322135925,
+      true
+    ],
+    [
+      "PhaseAggregateCounterattack",
+      0.6758507341146469,
+      true
+    ],
+    [
+      "PhaseAggregateCounterPress",
+      10.266847908496857,
+      true
+    ],
+    [
+      "PhaseAggregateDefensiveTransition",
+      15.571492910385132,
+      true
+    ],
+    [
+      "PhaseAggregateFinalThird",
+      11.077042669057846,
+      true
+    ],
+    [
+      "PhaseAggregateHighBlock",
+      6.109065189957619,
+      true
+    ],
+    [
+      "PhaseAggregateHighPress",
+      7.207468897104263,
+      true
+    ],
+    [
+      "PhaseAggregateLongBall",
+      1.8839608877897263,
+      true
+    ],
+    [
+      "PhaseAggregateLowBlock",
+      19.36314105987549,
+      true
+    ],
+    [
+      "PhaseAggregateLowPress",
+      0.411363085731864,
+      true
+    ],
+    [
+      "PhaseAggregateMidBlock",
+      16.10454171895981,
+      true
+    ],
+    [
+      "PhaseAggregateMidPress",
+      3.3393636345863342,
+      true
+    ],
+    [
+      "PhaseAggregateProgression",
+      17.777249217033386,
+      true
+    ],
+    [
+      "PhaseAggregateRecovery",
+      5.684779584407806,
+      true
+    ],
+    [
+      "PhaseAggregateSetPieces",
+      4.619752988219261,
+      true
+    ],
+    [
+      "PitchControl",
+      52,
+      true
+    ],
+    [
+      "Possession",
+      0.4668981432914734,
+      true
+    ],
+    [
+      "ReceivedOffersToReceive",
+      155,
+      true
+    ],
+    [
+      "ReceptionsBetweenMidfieldAndDefensiveLine",
+      61,
+      true
+    ],
+    [
+      "ReceptionsInBehind",
+      10,
+      true
+    ],
+    [
+      "ReceptionsUnderDirectPressure",
+      17,
+      true
+    ],
+    [
+      "ReceptionsUnderIndirectPressure",
+      176,
+      true
+    ],
+    [
+      "ReceptionsUnderNoPressure",
+      353,
+      true
+    ],
+    [
+      "ReceptionsUnderPressure",
+      193,
+      true
+    ],
+    [
+      "RedCards",
+      0,
+      true
+    ],
+    [
+      "SpeedRuns",
+      1382,
+      true
+    ],
+    [
+      "Sprints",
+      509,
+      true
+    ],
+    [
+      "SubstitutionsIn",
+      5,
+      true
+    ],
+    [
+      "SubstitutionsOut",
+      5,
+      true
+    ],
+    [
+      "TakeOnsCompleted",
+      9,
+      true
+    ],
+    [
+      "Threat",
+      51,
+      true
+    ],
+    [
+      "ThrowIns",
+      17,
+      true
+    ],
+    [
+      "TimePlayed",
+      104.09348333333334,
+      true
+    ],
+    [
+      "TopSpeed",
+      34.140018463134766,
+      true
+    ],
+    [
+      "TotalDistance",
+      113660.953125,
+      true
+    ],
+    [
+      "XG",
+      0.9921513795852661,
+      true
+    ],
+    [
+      "YellowCards",
+      2,
+      true
+    ]
   ]
 }

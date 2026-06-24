@@ -189,8 +189,7 @@ async function fetchMatches() {
           await sleep(RATE_LIMIT_MS);
         }
 
-        const finishedOnly = normalized.filter((match) => isFinishedMatch(match));
-        matches.push(...finishedOnly);
+        matches.push(...normalized);
       }
 
       continuationToken = data.ContinuationToken || null;

@@ -1,0 +1,3120 @@
+{
+  "competitionId": 285023,
+  "matchId": 151667,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-18T05:57:13.501087Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 269058,
+      "attackingRank": 12,
+      "defensiveRank": 14,
+      "creativityRank": 16,
+      "attackingScore": 4.801690101623535,
+      "defensiveScore": 4.679006099700928,
+      "creativityScore": 5.728137493133545,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيمس رودريغيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ハメス・ロドリゲス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "하메스 로드리게스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хамес РОДРИГЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "詹姆斯·罗德里格斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "800CC17F-8F64-4D16-90E9C5AB79C4D302",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/800cc17f-8f64-4d16-90e9-c5ab79c4d302/RODRIGUEZ-James_269058"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 386013,
+      "attackingRank": 22,
+      "defensiveRank": 2,
+      "creativityRank": 20,
+      "attackingScore": 4.152480125427246,
+      "defensiveScore": 6.836561679840088,
+      "creativityScore": 5.126179218292236,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دافينسون سانشيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダビンソン・サンチェス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다빈손 산체스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Давинсон САНЧЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "戴文森·桑切斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "CE6F352E-52E7-4265-9BC9D482292FE4FB",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ce6f352e-52e7-4265-9bc9-d482292fe4fb/SANCHEZ-Davinson_386013"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 394500,
+      "attackingRank": 19,
+      "defensiveRank": 10,
+      "creativityRank": 17,
+      "attackingScore": 4.393080234527588,
+      "defensiveScore": 5.428252696990967,
+      "creativityScore": 5.493288993835449,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يوهان موخيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヨハン・モヒカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "요한 모히카"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Йохан МОХИКА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "约翰·莫吉卡"
+        }
+      ],
+      "playerPicture": {
+        "id": "EFD8E0C0-6D52-43F0-95CEB9C258914603",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/efd8e0c0-6d52-43f0-95ce-b9c258914603/MOJICA-Johan_394500"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 395550,
+      "attackingRank": 17,
+      "defensiveRank": 3,
+      "creativityRank": 11,
+      "attackingScore": 4.454850196838379,
+      "defensiveScore": 6.8021440505981445,
+      "creativityScore": 5.937886714935303,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيفرسون ليرما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジェファーソン・レルマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "제퍼슨 레르마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джефферсон ЛЕРМА"
+        }
+      ],
+      "playerPicture": {
+        "id": "961B906C-13D4-4869-942A5F5D2E3FAB3E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/961b906c-13d4-4869-942a-5f5d2e3fab3e/LERMA-Jefferson_395550"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 405755,
+      "attackingRank": 2,
+      "defensiveRank": 7,
+      "creativityRank": 8,
+      "attackingScore": 8.080462455749512,
+      "defensiveScore": 6.144530773162842,
+      "creativityScore": 6.36853551864624,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جامينتون كامباز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジャミントン・カンパス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "자민톤 캄파즈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джаминтон КАМПАЗ"
+        }
+      ],
+      "playerPicture": {
+        "id": "CD3D4AFC-5780-444F-80CAFC55B53A5329",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/cd3d4afc-5780-444f-80ca-fc55b53a5329/CAMPAZ-Leandro_405755"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 428886,
+      "attackingRank": 1,
+      "defensiveRank": 8,
+      "creativityRank": 1,
+      "attackingScore": 9.487805366516113,
+      "defensiveScore": 6.0525922775268555,
+      "creativityScore": 8.802103042602539,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لويس دياز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルイス・ディアス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루이스 디아스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Луис ДИАС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "路易斯·迪亚兹"
+        }
+      ],
+      "playerPicture": {
+        "id": "E1E5FB3A-67CB-4E0D-9A7095B7CC6D5EBF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e1e5fb3a-67cb-4e0d-9a70-95b7cc6d5ebf/DIAZ-Luis_428886"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 428905,
+      "attackingRank": 18,
+      "defensiveRank": 16,
+      "creativityRank": 22,
+      "attackingScore": 4.411441802978516,
+      "defensiveScore": 4.65295934677124,
+      "creativityScore": 4.867724418640137,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لويس سواريز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルイス・スアレス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루이스 수아레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Луис СУАРЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "路易斯·苏亚雷斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "898B7742-30E2-4B72-8470DBCDF5D5E058",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/898b7742-30e2-4b72-8470-dbcdf5d5e058/SUAREZ-Luis_428905"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 431200,
+      "attackingRank": 4,
+      "defensiveRank": 1,
+      "creativityRank": 18,
+      "attackingScore": 7.919914245605469,
+      "defensiveScore": 7.464907169342041,
+      "creativityScore": 5.48824405670166,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دانييل مونوز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダニエル・ムニョス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다니엘 무뇨스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Даниэль МУНОС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "丹尼尔·穆诺兹"
+        }
+      ],
+      "playerPicture": {
+        "id": "597B88E8-D3AB-4F1F-9BA5C031478769D3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/597b88e8-d3ab-4f1f-9ba5-c031478769d3/MUNOZ-Daniel_431200"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 441622,
+      "attackingRank": 23,
+      "defensiveRank": 13,
+      "creativityRank": 23,
+      "attackingScore": 4,
+      "defensiveScore": 5.198024272918701,
+      "creativityScore": 4.656918048858643,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جون لوكومي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョン・ルクミ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "존 루쿠미"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джон ЛУКУМИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乔恩·卢库米"
+        }
+      ],
+      "playerPicture": {
+        "id": "73D7EA6F-CA50-4665-97CF4C319351DCE6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/73d7ea6f-ca50-4665-97cf-4c319351dce6/LUCUMI-Jhon_441622"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 463902,
+      "attackingRank": 5,
+      "defensiveRank": 5,
+      "creativityRank": 5,
+      "attackingScore": 5.379708290100098,
+      "defensiveScore": 6.305878639221191,
+      "creativityScore": 6.698757648468018,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غوستافو بويرتا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "グスタボ・プエルタ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "구스타보 푸에르타"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Густаво ПУЭРТА"
+        }
+      ],
+      "playerPicture": {
+        "id": "818F768E-54DA-4C5F-88EF8F596240C2B5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/818f768e-54da-4c5f-88ef-8f596240c2b5/PUERTA-Gustavo_463902"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 470760,
+      "attackingRank": 11,
+      "defensiveRank": 4,
+      "creativityRank": 6,
+      "attackingScore": 4.88297176361084,
+      "defensiveScore": 6.342198848724365,
+      "creativityScore": 6.546234130859375,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جون أرياس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョン・アリアス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "존 아리아스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джон АРИАС"
+        }
+      ],
+      "playerPicture": {
+        "id": "1449EFE8-A491-4D19-8C7DC6FB0B6E8D0F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1449efe8-a491-4d19-8c7d-c6fb0b6e8d0f/ARIAS-Jhon_470760"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 371348,
+      "attackingRank": 14,
+      "defensiveRank": 17,
+      "creativityRank": 2,
+      "attackingScore": 4.706667900085449,
+      "defensiveScore": 4.570613861083984,
+      "creativityScore": 7.53731107711792,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Otabek Shukurov"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوتابيك شوكوروف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Otabek Shukurov"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Otabek Shukurov"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Otabek Shukurov"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Otabek Shukurov"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Otabek Shukurov"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オタベク・シュクロフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오타벡 슈쿠로프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Otabek Shukurov"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Otabek Shukurov"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Отабек Шукуров"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "奥塔别克·舒库罗夫"
+        }
+      ],
+      "playerPicture": {
+        "id": "EB1DAF2F-C27B-45A4-A5747AC0ABD24061",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/eb1daf2f-c27b-45a4-a574-7ac0abd24061/SHUKUROV-Otabek_371348"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 371393,
+      "attackingRank": 8,
+      "defensiveRank": 9,
+      "creativityRank": 10,
+      "attackingScore": 4.949051380157471,
+      "defensiveScore": 5.540676116943359,
+      "creativityScore": 6.047108173370361,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Dostonbek Khamdamov"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دستونبيك خامداموف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Dostonbek Khamdamov"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Dostonbek Khamdamov"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Dostonbek Khamdamov"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Dostonbek Khamdamov"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Dostonbek Khamdamov"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドストンベク・ハムダモフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "도스톤베크 함다모프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Dostonbek Khamdamov"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Dostonbek Khamdamov"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Достонбек Хамдамов"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "多斯顿别克·哈姆达莫夫"
+        }
+      ],
+      "playerPicture": {
+        "id": "E49AA204-3009-462C-920BC9DFCD8B9C03",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e49aa204-3009-462c-920b-c9dfcd8b9c03/KHAMDAMOV-Dostonbek_371393"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 371415,
+      "attackingRank": 16,
+      "defensiveRank": 12,
+      "creativityRank": 15,
+      "attackingScore": 4.473601818084717,
+      "defensiveScore": 5.212515830993652,
+      "creativityScore": 5.742410182952881,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Rustam ASHURMATOV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "روستام أشورماتوف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Rustam ASHURMATOV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Rustam ASHURMATOV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Rustam ASHURMATOV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Rustam ASHURMATOV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Rustam ASHURMATOV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルスタム・アシュルマトフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루스탐 아슈르마토프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Rustam ASHURMATOV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Rustam ASHURMATOV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рустам АШУРМАТОВ"
+        }
+      ],
+      "playerPicture": {
+        "id": "8F306071-778F-4A11-BB2976DE06BA7A30",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8f306071-778f-4a11-bb29-76de06ba7a30/ASHURMATOV-Rustam_371415"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 385139,
+      "attackingRank": 9,
+      "defensiveRank": 20,
+      "creativityRank": 3,
+      "attackingScore": 4.943978309631348,
+      "defensiveScore": 4.3888349533081055,
+      "creativityScore": 7.063939094543457,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Farrukh SAYFIEV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فاروق سيفيف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Farrukh SAYFIEV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Farrukh SAYFIEV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Farrukh SAYFIEV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Farrukh SAYFIEV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Farrukh SAYFIEV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ファルーク・サイフィエフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파루크 사이피예프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Farrukh SAYFIEV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Farrukh SAYFIEV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Фаррух САЙФИЕВ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法鲁克·萨伊菲耶夫"
+        }
+      ],
+      "playerPicture": {
+        "id": "2DB8B1E8-A601-41AD-AAF5051040C9325C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2db8b1e8-a601-41ad-aaf5-051040c9325c/SAYFIEV-Farrukh_385139"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 385475,
+      "attackingRank": 6,
+      "defensiveRank": 23,
+      "creativityRank": 12,
+      "attackingScore": 5.19144868850708,
+      "defensiveScore": 3.962862968444824,
+      "creativityScore": 5.922310829162598,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Eldor SHOMURODOV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إلدور شومورودوف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Eldor SHOMURODOV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Eldor SHOMURODOV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Eldor SHOMURODOV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Eldor SHOMURODOV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Eldor SHOMURODOV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エルドル・ショムロドフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엘도르 쇼무로도프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Eldor SHOMURODOV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Eldor SHOMURODOV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эльдор ШОМУРОДОВ"
+        }
+      ],
+      "playerPicture": {
+        "id": "D311D575-B59C-4D9F-8825B506B0AA3C49",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/d311d575-b59c-4d9f-8825-b506b0aa3c49/SHOMURODOV-Eldor_385475"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 464924,
+      "attackingRank": 20,
+      "defensiveRank": 6,
+      "creativityRank": 21,
+      "attackingScore": 4.1962738037109375,
+      "defensiveScore": 6.282735824584961,
+      "creativityScore": 4.908648490905762,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Abdukodir KHUSANOV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "عبد القادر خوسانوف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Abdukodir KHUSANOV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Abdukodir KHUSANOV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Abdukodir KHUSANOV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Abdukodir KHUSANOV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Abdukodir KHUSANOV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アブドゥコディル・フサノフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "압두코디르 쿠사노프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Abdukodir KHUSANOV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Abdukodir KHUSANOV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Абдукодир ХУСАНОВ"
+        }
+      ],
+      "playerPicture": {
+        "id": null,
+        "pictureUrl": null
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 464933,
+      "attackingRank": 3,
+      "defensiveRank": 11,
+      "creativityRank": 7,
+      "attackingScore": 8.007919311523438,
+      "defensiveScore": 5.359289646148682,
+      "creativityScore": 6.413357257843018,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Abbosbek FAYZULLAEV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أبوسبيك فايزولايف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Abbosbek FAYZULLAEV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Abbosbek FAYZULLAEV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Abbosbek FAYZULLAEV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Abbosbek FAYZULLAEV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Abbosbek FAYZULLAEV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アッボスベク・ファイズラエフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "압보스베크 파이즈울라예프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Abbosbek FAYZULLAEV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Abbosbek FAYZULLAEV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аббосбек ФАЙЗУЛЛАЕВ"
+        }
+      ],
+      "playerPicture": {
+        "id": "184C6D22-8CE0-4701-858239E1653B77F8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/184c6d22-8ce0-4701-8582-39e1653b77f8/FAYZULLAEV-Abbosbek_464933"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 475260,
+      "attackingRank": 7,
+      "defensiveRank": 19,
+      "creativityRank": 4,
+      "attackingScore": 5.029699802398682,
+      "defensiveScore": 4.476129055023193,
+      "creativityScore": 6.829078197479248,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Behruzjon KARIMOV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بهروزجون كاريموف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Behruzjon KARIMOV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Behruzjon KARIMOV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Behruzjon KARIMOV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Behruzjon KARIMOV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Behruzjon KARIMOV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベフルズジョン・カリモフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "베루즈존 카리모프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Behruzjon KARIMOV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Behruzjon KARIMOV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бехрузджон КАРИМОВ"
+        }
+      ],
+      "playerPicture": {
+        "id": "0B62BDAC-FEAF-4B23-A22B31A73C68A475",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0b62bdac-feaf-4b23-a22b-31a73c68a475/KARIMOV-Behruzjon_475260"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 479042,
+      "attackingRank": 20,
+      "defensiveRank": 15,
+      "creativityRank": 19,
+      "attackingScore": 4.1962738037109375,
+      "defensiveScore": 4.67873477935791,
+      "creativityScore": 5.225289344787598,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Abdulla ABDULLAEV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "عبد الله عبد الله"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Abdulla ABDULLAEV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Abdulla ABDULLAEV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Abdulla ABDULLAEV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Abdulla ABDULLAEV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Abdulla ABDULLAEV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アブドゥッラー・アブドゥラエフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "압둘라 압둘라예프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Abdulla ABDULLAEV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Abdulla ABDULLAEV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Абдулла АБДУЛЛАЕВ"
+        }
+      ],
+      "playerPicture": {
+        "id": "F771F66D-6EB1-41EC-AA83644325F6B8FA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f771f66d-6eb1-41ec-aa83-644325f6b8fa/ABDULLAEV-Abdulla_479042"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 479075,
+      "attackingRank": 13,
+      "defensiveRank": 22,
+      "creativityRank": 14,
+      "attackingScore": 4.786587238311768,
+      "defensiveScore": 4.1117706298828125,
+      "creativityScore": 5.780954837799072,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Sherzod NASRULLAEV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "شيرزود نصر الله"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Sherzod NASRULLAEV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sherzod NASRULLAEV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Sherzod NASRULLAEV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Sherzod NASRULLAEV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sherzod NASRULLAEV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "シェルゾド・ナスルラエフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "셰르조드 나스룰라예프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Sherzod NASRULLAEV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Sherzod NASRULLAEV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шерзод НАСРУЛЛАЕВ"
+        }
+      ],
+      "playerPicture": {
+        "id": "A985D3F1-344F-45C8-947CE8E458DCA32C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a985d3f1-344f-45c8-947c-e8e458dca32c/NASRULLAEV-Sherzod_479075"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 479080,
+      "attackingRank": 10,
+      "defensiveRank": 21,
+      "creativityRank": 13,
+      "attackingScore": 4.941935062408447,
+      "defensiveScore": 4.117984771728516,
+      "creativityScore": 5.9031219482421875,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Oston URUNOV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوستون أورونوف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Oston URUNOV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Oston URUNOV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Oston URUNOV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Oston URUNOV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Oston URUNOV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オストン・ウルノフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오스톤 우루노프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Oston URUNOV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Oston URUNOV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Остон УРУНОВ"
+        }
+      ],
+      "playerPicture": {
+        "id": "D7B6D477-EACD-4954-866207A51B5F29FA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/d7b6d477-eacd-4954-8662-07a51b5f29fa/URUNOV-Oston_479080"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 479106,
+      "attackingRank": 15,
+      "defensiveRank": 18,
+      "creativityRank": 9,
+      "attackingScore": 4.5551862716674805,
+      "defensiveScore": 4.512636661529541,
+      "creativityScore": 6.3128533363342285,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Akmal MOZGOVOY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أكمال موزغوفوي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Akmal MOZGOVOY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Akmal MOZGOVOY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Akmal MOZGOVOY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Akmal MOZGOVOY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Akmal MOZGOVOY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アクマル・モズゴヴォイ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아크말 모즈고보이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Akmal MOZGOVOY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Akmal MOZGOVOY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Акмал МОЗГОВОЙ"
+        }
+      ],
+      "playerPicture": {
+        "id": "ACEA76C2-8E6C-4335-90DA062B53054EC0",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/acea76c2-8e6c-4335-90da-062b53054ec0/MOZGOVOY-Akmal_479106"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 360642,
+      "inPossessionRank": 2,
+      "inPossessionScore": 6.221787452697754,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 5.506335735321045,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كاميلو فارغاس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カミロ・バルガス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "카밀로 바르가스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Камило Варгас"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "卡米洛·瓦加斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "0A3646B6-8B61-4004-A4600AAD23A8FF36",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0a3646b6-8b61-4004-a460-0aad23a8ff36/VARGAS-Camilo_360642"
+      }
+    },
+    {
+      "teamId": 44005,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزبكستان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Usbekistan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Uzbekistán"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ouzbékistan"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Uzbekistan"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウズベキスタン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우즈베키스탄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Uzbequistão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Узбекистан"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌兹别克斯坦"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/UZB",
+      "playerId": 479077,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.490422248840332,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 5.1097941398620605,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Utkir YUSUPOV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوتكير يوسوبوف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Utkir YUSUPOV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Utkir YUSUPOV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Utkir YUSUPOV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Utkir YUSUPOV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Utkir YUSUPOV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウトキル・ユスポフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우트키르 유수포프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Utkir YUSUPOV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Utkir YUSUPOV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Уткир Юсупов"
+        }
+      ],
+      "playerPicture": {
+        "id": "C3025D34-EB01-4B77-85BD127F692514C8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c3025d34-eb01-4b77-85bd-127f692514c8/YUSUPOV-Utkir_479077"
+      }
+    }
+  ]
+}

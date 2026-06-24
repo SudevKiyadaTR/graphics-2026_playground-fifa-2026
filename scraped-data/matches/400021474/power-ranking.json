@@ -1,0 +1,2947 @@
+{
+  "competitionId": 285023,
+  "matchId": 151637,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-15T20:20:03.168943Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 336459,
+      "attackingRank": 13,
+      "defensiveRank": 19,
+      "creativityRank": 19,
+      "attackingScore": 4.360510349273682,
+      "defensiveScore": 4.767230987548828,
+      "creativityScore": 4.806371212005615,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Rani Khedira"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "راني خيديرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Rani Khedira"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Rani Khedira"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Rani Khedira"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Rani Khedira"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Rani Khedira"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラニ・ケディラ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라니 케디라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Rani Khedira"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Rani Khedira"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рани Хедира"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "拉尼·赫迪拉"
+        }
+      ],
+      "playerPicture": {
+        "id": "21F404B3-B430-489B-819CC0460A2C3590",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/21f404b3-b430-489b-819c-c0460a2c3590/KHEDIRA-Rani_336459"
+      }
+    },
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 411658,
+      "attackingRank": 12,
+      "defensiveRank": 22,
+      "creativityRank": 17,
+      "attackingScore": 4.364271640777588,
+      "defensiveScore": 4.0355448722839355,
+      "creativityScore": 5.270472049713135,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ellyes SKHIRI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إلياس سخير"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ellyes SKHIRI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ellyes SKHIRI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ellyes SKHIRI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ellyes SKHIRI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ellyes SKHIRI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エリエス・スキリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엘리에스 스키리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ellyes SKHIRI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ellyes SKHIRI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эллиес СКИРИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃利耶·希斯里"
+        }
+      ],
+      "playerPicture": {
+        "id": "E2BA8E19-B4AB-435F-B12CE56D655C31E6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e2ba8e19-b4ab-435f-b12c-e56d655c31e6/SKHIRI-Ellyes_411658"
+      }
+    },
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 419189,
+      "attackingRank": 10,
+      "defensiveRank": 10,
+      "creativityRank": 9,
+      "attackingScore": 4.541295051574707,
+      "defensiveScore": 5.368372440338135,
+      "creativityScore": 6.171233654022217,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Yan Valery"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يان فاليري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Yan Valery"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Yan Valery"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Yan Valery"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Yan Valery"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Yan Valery"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヤン・ヴァレリー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "얀 발레리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Yan Valery"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Yan Valery"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ян Валери"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "颜·瓦莱里"
+        }
+      ],
+      "playerPicture": {
+        "id": "6FFA54D7-E23D-400D-A90A960903C63F8B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6ffa54d7-e23d-400d-a90a-960903c63f8b/VALERY-Yan_419189"
+      }
+    },
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 425607,
+      "attackingRank": 19,
+      "defensiveRank": 8,
+      "creativityRank": 12,
+      "attackingScore": 4.177086353302002,
+      "defensiveScore": 5.684330463409424,
+      "creativityScore": 5.6430230140686035,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mohamed Amine BEN HMIDA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "محمد أمين بن حميدة"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mohamed Amine BEN HMIDA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Mohamed Amine BEN HMIDA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mohamed Amine BEN HMIDA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mohamed Amine BEN HMIDA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Mohamed Amine BEN HMIDA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モハメド・アミン・ベン・フミダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모하메드 아민 벤 힛마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Mohamed Amine BEN HMIDA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Mohamed Amine BEN HMIDA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мохамед Амин БЕН ХМИДА"
+        }
+      ],
+      "playerPicture": {
+        "id": "CB5FCD59-CBD1-4E4F-B5E7F9ADC81441E5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/cb5fcd59-cbd1-4e4f-b5e7-f9adc81441e5/BEN-HMIDA-Mohamed-Amine_425607"
+      }
+    },
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 433361,
+      "attackingRank": 18,
+      "defensiveRank": 15,
+      "creativityRank": 11,
+      "attackingScore": 4.206686973571777,
+      "defensiveScore": 4.90911865234375,
+      "creativityScore": 5.673301696777344,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Anis SLIMANE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أنيس سليمان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Anis SLIMANE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Anis SLIMANE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Anis SLIMANE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Anis SLIMANE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Anis SLIMANE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アニス・スリマーン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아니스 슬리마네"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Anis SLIMANE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Anis SLIMANE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Анис СЛИМАН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尼斯·斯利曼"
+        }
+      ],
+      "playerPicture": {
+        "id": "5A0E929E-A66F-4563-849EC7BB62591B5D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5a0e929e-a66f-4563-849e-c7bb62591b5d/SLIMANE-Anis_433361"
+      }
+    },
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 433362,
+      "attackingRank": 16,
+      "defensiveRank": 16,
+      "creativityRank": 7,
+      "attackingScore": 4.2550368309021,
+      "defensiveScore": 4.901528835296631,
+      "creativityScore": 6.312008380889893,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ali ABDI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "علي عبدي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ali ABDI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ali ABDI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ali ABDI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ali ABDI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ali ABDI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アリ・アブディ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알리 압디"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ali ABDI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ali ABDI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Али АБДИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿里•阿布迪"
+        }
+      ],
+      "playerPicture": {
+        "id": "8FF3509C-8A73-40EA-AC0E1BEED4560B23",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8ff3509c-8a73-40ea-ac0e-1beed4560b23/ABDI-Ali_433362"
+      }
+    },
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 433367,
+      "attackingRank": 4,
+      "defensiveRank": 18,
+      "creativityRank": 10,
+      "attackingScore": 6.01388692855835,
+      "defensiveScore": 4.820580959320068,
+      "creativityScore": 5.760894775390625,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Omar Rekik"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "عمر ريك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Omar Rekik"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Omar Rekik"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Omar Rekik"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Omar Rekik"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Omar Rekik"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オマル・レキク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오마르 레키크"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Omar Rekik"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Omar Rekik"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Омар Рекик"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "奥马尔·雷基克"
+        }
+      ],
+      "playerPicture": {
+        "id": "2F586126-6A63-4E5B-9F856E15800449D9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2f586126-6a63-4e5b-9f85-6e15800449d9/REKIK-Omar_433367"
+      }
+    },
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 433378,
+      "attackingRank": 6,
+      "defensiveRank": 14,
+      "creativityRank": 1,
+      "attackingScore": 4.905390739440918,
+      "defensiveScore": 5.0122809410095215,
+      "creativityScore": 8.073798179626465,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Hannibal MEJBRI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هانيبال مجبري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Hannibal MEJBRI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Hannibal MEJBRI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Hannibal MEJBRI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Hannibal MEJBRI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Hannibal MEJBRI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ハンニバル・メジュブリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "한니발 메브리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Hannibal MEJBRI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Hannibal MEJBRI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ханнибал МЕЖБРИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "汉尼拔·梅布里"
+        }
+      ],
+      "playerPicture": {
+        "id": "856F0CC0-6DCC-48BC-A8DBF4FE26D8AE06",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/856f0cc0-6dcc-48bc-a8db-f4fe26d8ae06/MEJBRI-Hannibal_433378"
+      }
+    },
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 433380,
+      "attackingRank": 17,
+      "defensiveRank": 13,
+      "creativityRank": 22,
+      "attackingScore": 4.208863735198975,
+      "defensiveScore": 5.0351996421813965,
+      "creativityScore": 4.3074750900268555,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Montassar TALBI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مونتاسر تالبي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Montassar TALBI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Montassar TALBI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Montassar TALBI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Montassar TALBI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Montassar TALBI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モンタサール・タルビ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "몬타사르 탈비"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Montassar TALBI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Montassar TALBI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Монтассар ТАЛБИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "蒙塔萨·塔尔比"
+        }
+      ],
+      "playerPicture": {
+        "id": "253EF705-760C-457F-AFDE067D2FB39010",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/253ef705-760c-457f-afde-067d2fb39010/TALBI-Montassar_433380"
+      }
+    },
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 482885,
+      "attackingRank": 8,
+      "defensiveRank": 20,
+      "creativityRank": 16,
+      "attackingScore": 4.797488212585449,
+      "defensiveScore": 4.670361042022705,
+      "creativityScore": 5.335511207580566,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Elias SAAD"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إلياس سعد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elias SAAD"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Elias SAAD"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Elias SAAD"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Elias SAAD"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Elias SAAD"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エリアス・サアド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엘리아스 사드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Elias SAAD"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Elias SAAD"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Элиас СААД"
+        }
+      ],
+      "playerPicture": {
+        "id": "2037123B-A7B7-4922-ADCD37607CD92C43",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2037123b-a7b7-4922-adcd-37607cd92c43/SAAD-Elias_482885"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 395283,
+      "attackingRank": 15,
+      "defensiveRank": 7,
+      "creativityRank": 14,
+      "attackingScore": 4.255472660064697,
+      "defensiveScore": 5.685449123382568,
+      "creativityScore": 5.473536968231201,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Victor LINDELOF"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فيكتور ليندلوف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Victor LINDELOF"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Victor LINDELOF"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Victor LINDELOF"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Victor LINDELOF"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Victor LINDELOF"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヴィクトル・リンデロフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "빅토르 린델로프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Victor LINDELOF"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Victor LINDELOF"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Виктор ЛИНДЕЛОФ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "维克多·林德洛夫"
+        }
+      ],
+      "playerPicture": {
+        "id": "88B96376-9F31-40FD-A0FCAE12AAB484C4",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/88b96376-9f31-40fd-a0fc-ae12aab484c4/LINDELOF-Victor_395283"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 430150,
+      "attackingRank": 2,
+      "defensiveRank": 17,
+      "creativityRank": 4,
+      "attackingScore": 7.365940570831299,
+      "defensiveScore": 4.831411838531494,
+      "creativityScore": 7.13728666305542,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alexander Isak"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألكسندر إيساك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Alexander Isak"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alexander Isak"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Alexander Isak"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Alexander Isak"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Alexander Isak"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アレクサンダー・イサク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알렉산더 이사크"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alexander Isak"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Alexander Isak"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Александр Исак"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "亚历山大·伊萨克"
+        }
+      ],
+      "playerPicture": {
+        "id": "C6FFE63B-AEFD-43B8-BD9D3C6E31A8F418",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c6ffe63b-aefd-43b8-bd9d-3c6e31a8f418/ISAK-Alexander_430150"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 441135,
+      "attackingRank": 20,
+      "defensiveRank": 4,
+      "creativityRank": 20,
+      "attackingScore": 4.1067214012146,
+      "defensiveScore": 6.069797039031982,
+      "creativityScore": 4.436018943786621,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jesper KARLSTROM"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيسبر كارلستروم"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jesper KARLSTROM"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jesper KARLSTROM"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jesper KARLSTROM"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jesper KARLSTROM"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jesper KARLSTROM"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イェスパー・カールストロム"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "예스퍼 칼스트롬"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jesper KARLSTROM"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jesper KARLSTROM"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Йеспер КАРЛСТРОМ"
+        }
+      ],
+      "playerPicture": {
+        "id": "0ED50024-CB6D-4FA5-BC7CBA8A9AFA7FD3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0ed50024-cb6d-4fa5-bc7c-ba8a9afa7fd3/KARLSTROM-Jesper_441135"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 483276,
+      "attackingRank": 14,
+      "defensiveRank": 5,
+      "creativityRank": 18,
+      "attackingScore": 4.263730049133301,
+      "defensiveScore": 5.957407474517822,
+      "creativityScore": 4.960837364196777,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Gabriel GUDMUNDSSON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غابرييل غودموندسون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Gabriel GUDMUNDSSON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Gabriel GUDMUNDSSON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Gabriel GUDMUNDSSON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Gabriel GUDMUNDSSON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Gabriel GUDMUNDSSON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ガブリエル・グドムンドソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "가브리엘 구드문드손"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Gabriel GUDMUNDSSON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Gabriel GUDMUNDSSON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Габриэль ГУДМУНДССОН"
+        }
+      ],
+      "playerPicture": {
+        "id": "43FD52E9-E3A9-46F6-84327BFBBB394678",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/43fd52e9-e3a9-46f6-8432-7bfbbb394678/GUDMUNDSSON-Gabriel_483276"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 483304,
+      "attackingRank": 21,
+      "defensiveRank": 11,
+      "creativityRank": 8,
+      "attackingScore": 4,
+      "defensiveScore": 5.279527187347412,
+      "creativityScore": 6.219939231872559,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Gustaf LAGERBIELKE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غوستاف لاغربيلكي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Gustaf LAGERBIELKE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Gustaf LAGERBIELKE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Gustaf LAGERBIELKE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Gustaf LAGERBIELKE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Gustaf LAGERBIELKE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "グスタフ・ラーゲルビエルケ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "구스타프 라게르비엘케"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Gustaf LAGERBIELKE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Gustaf LAGERBIELKE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Густаф ЛАГЕРБИЛКЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "12A80A14-C33D-480F-8742315485C114C1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/12a80a14-c33d-480f-8742-315485c114c1/LAGERBIELKE-Gustaf_483304"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 483312,
+      "attackingRank": 21,
+      "defensiveRank": 3,
+      "creativityRank": 21,
+      "attackingScore": 4,
+      "defensiveScore": 6.220158576965332,
+      "creativityScore": 4.412994861602783,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Isak HIEN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إيزاك هين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Isak HIEN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Isak HIEN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Isak HIEN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Isak HIEN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Isak HIEN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イサク・ヒエン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이사크 히엔"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Isak HIEN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Isak HIEN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Исак ХИЕН"
+        }
+      ],
+      "playerPicture": {
+        "id": "0DAF43D1-2714-4CC3-AB8B3CF2020BF150",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0daf43d1-2714-4cc3-ab8b-3cf2020bf150/HIEN-Isak_483312"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 483327,
+      "attackingRank": 3,
+      "defensiveRank": 21,
+      "creativityRank": 2,
+      "attackingScore": 6.7508368492126465,
+      "defensiveScore": 4.408176898956299,
+      "creativityScore": 7.57492733001709,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Viktor GYOKERES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فيكتور جيوكيريس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Viktor GYOKERES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Viktor GYOKERES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Viktor GYOKERES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Viktor GYOKERES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Viktor GYOKERES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヴィクトル・ギョケレス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "빅토르 요케레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Viktor GYOKERES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Viktor GYOKERES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Виктор ГЬОКЕРЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "CA3D75BF-7E31-4269-9933B296EB3F5BFF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ca3d75bf-7e31-4269-9933-b296eb3f5bff/GYOKERES-Viktor_483327"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 489688,
+      "attackingRank": 1,
+      "defensiveRank": 1,
+      "creativityRank": 13,
+      "attackingScore": 8.366458892822266,
+      "defensiveScore": 6.782597541809082,
+      "creativityScore": 5.5977935791015625,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Yasin AYARI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ياسين أياري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Yasin AYARI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Yasin AYARI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Yasin AYARI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Yasin AYARI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Yasin AYARI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヤシン・アヤリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "야신 아야리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Yasin AYARI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Yasin AYARI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ясин АЯРИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "AC9ED8A6-7B39-4962-8245B80556224CA0",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ac9ed8a6-7b39-4962-8245-b80556224ca0/AYARI-Yasin_489688"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 489689,
+      "attackingRank": 5,
+      "defensiveRank": 9,
+      "creativityRank": 3,
+      "attackingScore": 5.206943035125732,
+      "defensiveScore": 5.533787250518799,
+      "creativityScore": 7.46909236907959,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lucas BERGVALL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لوكاس بيرغفال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Lucas BERGVALL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Lucas BERGVALL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Lucas BERGVALL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Lucas BERGVALL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Lucas BERGVALL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルーカス・ベルグヴァル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루카스 베르그발"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Lucas BERGVALL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Lucas BERGVALL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лукас БЕРГВАЛЛ"
+        }
+      ],
+      "playerPicture": {
+        "id": "BD927D6A-BB9D-4424-9E9653C2EBC7220B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/bd927d6a-bb9d-4424-9e96-53c2ebc7220b/BERGVALL-Lucas_489689"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 502945,
+      "attackingRank": 7,
+      "defensiveRank": 2,
+      "creativityRank": 15,
+      "attackingScore": 4.883652687072754,
+      "defensiveScore": 6.2239251136779785,
+      "creativityScore": 5.427584648132324,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alexander BERNHARDSSON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ألكسندر بيرنهاردسون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Alexander BERNHARDSSON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alexander BERNHARDSSON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Alexander BERNHARDSSON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Alexander BERNHARDSSON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Alexander BERNHARDSSON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アレクサンダー・ベルンハルドソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알렉산더 베른하르드손"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alexander BERNHARDSSON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Alexander BERNHARDSSON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Александр БЕРНХАРДССОН"
+        }
+      ],
+      "playerPicture": {
+        "id": "165D5004-48B5-4A8C-86EED7C982B9B96C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/165d5004-48b5-4a8c-86ee-d7c982b9b96c/BERNHARDSSON-Alexander_502945"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 502946,
+      "attackingRank": 11,
+      "defensiveRank": 6,
+      "creativityRank": 6,
+      "attackingScore": 4.431935787200928,
+      "defensiveScore": 5.718575477600098,
+      "creativityScore": 6.610687255859375,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Benjamin NYGREN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنجامين نيغرين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Benjamin NYGREN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Benjamin NYGREN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Benjamin NYGREN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Benjamin NYGREN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Benjamin NYGREN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベンジャミン・ニグレン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벤자민 니그렌"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Benjamin NYGREN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Benjamin NYGREN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бенджамин НЬЮГРЕН"
+        }
+      ],
+      "playerPicture": {
+        "id": "E464BE99-48C1-41A9-B5AA2C5760F1D302",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e464be99-48c1-41a9-b5aa-2c5760f1d302/NYGREN-Benjamin_502946"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 519958,
+      "attackingRank": 9,
+      "defensiveRank": 12,
+      "creativityRank": 5,
+      "attackingScore": 4.704402446746826,
+      "defensiveScore": 5.19142484664917,
+      "creativityScore": 6.886593341827393,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Elliot STROUD"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إليوت سترود"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elliot STROUD"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Elliot STROUD"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Elliot STROUD"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Elliot STROUD"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Elliot STROUD"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エリオット・ストラウド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엘리엇 스트라우드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Elliot STROUD"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Elliot STROUD"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эллиот СТРАУД"
+        }
+      ],
+      "playerPicture": {
+        "id": "12D24B4C-5628-4013-8F4DBDDEA4AE2258",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/12d24b4c-5628-4013-8f4d-bddea4ae2258/STROUD-Elliot_519958"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43888,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تونس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tunesien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Túnez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tunisie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tunisia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チュニジア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀니지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tunísia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тунис"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "突尼斯"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUN",
+      "playerId": 520245,
+      "inPossessionRank": 2,
+      "inPossessionScore": 5.07047176361084,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 5.2094011306762695,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mouhib CHAMAKH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "موهيب شاماخ"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mouhib CHAMAKH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Mouhib CHAMAKH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mouhib CHAMAKH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mouhib CHAMAKH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Mouhib CHAMAKH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ムヒブ・シャマク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "무히브 샤마크"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Mouhib CHAMAKH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Mouhib CHAMAKH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мухиб ЧАМАХ"
+        }
+      ],
+      "playerPicture": {
+        "id": "7047E775-2F2C-4EA2-9CA66FC23363C591",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7047e775-2f2c-4ea2-9ca6-6fc23363c591/CHAMAKH-Mouhib_520245"
+      }
+    },
+    {
+      "teamId": 43970,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Sweden"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "السويد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweden"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suecia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suède"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swedia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svezia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スウェーデン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스웨덴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suécia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швеция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞典"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SWE",
+      "playerId": 360496,
+      "inPossessionRank": 1,
+      "inPossessionScore": 5.514252662658691,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 4.962361812591553,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Kristoffer NORDFELDT"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كريستوفر نوردفيلت"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kristoffer NORDFELDT"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Kristoffer NORDFELDT"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Kristoffer NORDFELDT"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kristoffer NORDFELDT"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Kristoffer NORDFELDT"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クリストファー・ノードフェルト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크리스토퍼 노르드펠트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Kristoffer NORDFELDT"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Kristoffer NORDFELDT"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кристофер Нордфельдт"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克里斯托弗·诺德费尔德"
+        }
+      ],
+      "playerPicture": {
+        "id": "747828C3-0592-411D-889A9A59AE78E0B6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/747828c3-0592-411d-889a-9a59ae78e0b6/NORDFELDT-Kristoffer_360496"
+      }
+    }
+  ]
+}

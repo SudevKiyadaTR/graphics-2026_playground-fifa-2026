@@ -1,0 +1,3673 @@
+{
+  "competitionId": 285023,
+  "matchId": 151662,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-17T04:36:48.545675Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 376285,
+      "attackingRank": 24,
+      "defensiveRank": 19,
+      "creativityRank": 13,
+      "attackingScore": 4.028571605682373,
+      "defensiveScore": 5.149380683898926,
+      "creativityScore": 5.639191150665283,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Aissa MANDI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "عيسى ماندي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Aissa MANDI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Aissa MANDI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Aissa MANDI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aissa MANDI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Aissa MANDI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アイッサ・マンディ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아이사 만디"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Aissa MANDI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Aissa MANDI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Айсса МАНДИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "艾萨 曼迪"
+        }
+      ],
+      "playerPicture": {
+        "id": "DC4250AC-0A37-44DA-9AE0C858225AD8A1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/dc4250ac-0a37-44da-9ae0-c858225ad8a1/MANDI-Aissa_376285"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 379939,
+      "attackingRank": 23,
+      "defensiveRank": 3,
+      "creativityRank": 21,
+      "attackingScore": 4.103327751159668,
+      "defensiveScore": 7.1488518714904785,
+      "creativityScore": 5.168673038482666,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nabil Bentaleb"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نبيل بن طالب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nabil Bentaleb"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nabil Bentaleb"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nabil Bentaleb"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nabil Bentaleb"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nabil Bentaleb"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ナビル・ベンタレブ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "나빌 벤탈레브"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nabil Bentaleb"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nabil Bentaleb"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Набиль Бенталеб"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "纳比尔·本塔莱布"
+        }
+      ],
+      "playerPicture": {
+        "id": "02FBF423-AFA1-4863-8DDCAF2136FB5685",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/02fbf423-afa1-4863-8ddc-af2136fb5685/BENTALEB-Nabil_379939"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 379942,
+      "attackingRank": 12,
+      "defensiveRank": 20,
+      "creativityRank": 6,
+      "attackingScore": 4.4255781173706055,
+      "defensiveScore": 5.1457977294921875,
+      "creativityScore": 6.244823455810547,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Riyad Mahrez"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رياض محرز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Riyad Mahrez"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Riyad Mahrez"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Riyad Mahrez"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Riyad Mahrez"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Riyad Mahrez"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "リヤド・マフレズ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "리야드 마레즈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Riyad Mahrez"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Riyad Mahrez"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рияд Махрез"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "里亚德·马赫雷斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "172FB59C-24F2-4BC0-82A2CDC869BADF53",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/172fb59c-24f2-4bc0-82a2-cdc869badf53/MAHREZ-Riyad_379942"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 395113,
+      "attackingRank": 24,
+      "defensiveRank": 15,
+      "creativityRank": 26,
+      "attackingScore": 4.028571605682373,
+      "defensiveScore": 5.737894058227539,
+      "creativityScore": 4.882133483886719,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ramy BENSEBAINI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رامي بنسيبايني"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ramy BENSEBAINI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ramy BENSEBAINI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ramy BENSEBAINI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ramy BENSEBAINI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ramy BENSEBAINI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラミー・ベンセバイニ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라미 벤세바이니"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ramy BENSEBAINI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ramy BENSEBAINI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рами БЕНСЕБАИНИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "329752FA-E310-4124-8FB2BE7CC478B929",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/329752fa-e310-4124-8fb2-be7cc478b929/BENSEBAINI-Ramy_395113"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 405877,
+      "attackingRank": 17,
+      "defensiveRank": 28,
+      "creativityRank": 23,
+      "attackingScore": 4.303111553192139,
+      "defensiveScore": 3.821591377258301,
+      "creativityScore": 5.11249303817749,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Amine GOUIRI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أمين غويري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Amine GOUIRI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Amine GOUIRI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Amine GOUIRI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Amine GOUIRI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Amine GOUIRI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アミン・グイリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아민 구이리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Amine GOUIRI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Amine GOUIRI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Амин ГУИРИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿明·古伊里"
+        }
+      ],
+      "playerPicture": {
+        "id": "4818D176-036A-4494-B53EADA08BBA749C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4818d176-036a-4494-b53e-ada08bba749c/GOUIRI-Amine_405877"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 430698,
+      "attackingRank": 9,
+      "defensiveRank": 22,
+      "creativityRank": 7,
+      "attackingScore": 4.4599609375,
+      "defensiveScore": 4.915857791900635,
+      "creativityScore": 6.240893840789795,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Houssem Aouar"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "حسّام أوار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Houssem Aouar"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Houssem Aouar"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Houssem Aouar"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Houssem Aouar"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Houssem Aouar"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウッセン・アウアル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "후셈 아우아르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Houssem Aouar"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Houssem Aouar"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Уссем Ауар"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "侯赛姆·奥亚尔"
+        }
+      ],
+      "playerPicture": {
+        "id": "AC743888-D671-4971-9DF9594B591F2425",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ac743888-d671-4971-9df9-594b591f2425/AOUAR-Houssem_430698"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 431858,
+      "attackingRank": 4,
+      "defensiveRank": 24,
+      "creativityRank": 5,
+      "attackingScore": 4.857142925262451,
+      "defensiveScore": 4.7993316650390625,
+      "creativityScore": 6.347738742828369,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Rayan AIT-NOURI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رايان آيت-نوري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Rayan AIT-NOURI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Rayan AIT-NOURI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Rayan AIT-NOURI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Rayan AIT-NOURI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Rayan AIT-NOURI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラヤン・アイト＝ヌリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라얀 아이트-누리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Rayan AIT-NOURI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Rayan AIT-NOURI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Раян АИТ-НУРИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "拉扬·阿伊特·努里"
+        }
+      ],
+      "playerPicture": {
+        "id": "7D7C26F5-81EE-4C6B-97B5A8C6F67F0772",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7d7c26f5-81ee-4c6b-97b5-a8c6f67f0772/ZIZO_431858"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 441350,
+      "attackingRank": 21,
+      "defensiveRank": 17,
+      "creativityRank": 12,
+      "attackingScore": 4.235579013824463,
+      "defensiveScore": 5.601876258850098,
+      "creativityScore": 5.640315055847168,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Hicham BOUDAOUI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هشام بوداوي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Hicham BOUDAOUI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Hicham BOUDAOUI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Hicham BOUDAOUI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Hicham BOUDAOUI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Hicham BOUDAOUI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヒシャム・ブダウイ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "히샴 부다우이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Hicham BOUDAOUI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Hicham BOUDAOUI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хичам БУДАУИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "希查姆·布道维"
+        }
+      ],
+      "playerPicture": {
+        "id": "76A28E94-3869-40E2-A82E9FB973181EB6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/76a28e94-3869-40e2-a82e-9fb973181eb6/BOUDAOUI-Hicham_441350"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 477790,
+      "attackingRank": 16,
+      "defensiveRank": 21,
+      "creativityRank": 18,
+      "attackingScore": 4.350093364715576,
+      "defensiveScore": 5.016348838806152,
+      "creativityScore": 5.328413963317871,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mohamed AMOURA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "محمد أمورا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mohamed AMOURA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Mohamed AMOURA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mohamed AMOURA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mohamed AMOURA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Mohamed AMOURA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モハメド・アムーラ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모하메드 아무라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Mohamed AMOURA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Mohamed AMOURA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мохамед АМУРА"
+        }
+      ],
+      "playerPicture": {
+        "id": "5AA32614-1AE5-49BE-AED3F9636A556385",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5aa32614-1ae5-49be-aed3-f9636a556385/AMOURA-Mohamed_477790"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 477795,
+      "attackingRank": 7,
+      "defensiveRank": 26,
+      "creativityRank": 4,
+      "attackingScore": 4.533461093902588,
+      "defensiveScore": 4.426037311553955,
+      "creativityScore": 6.421494483947754,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Fares CHAIBI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فارس شايبي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Fares CHAIBI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Fares CHAIBI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Fares CHAIBI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Fares CHAIBI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Fares CHAIBI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ファレス・チャイビ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파레스 차이비"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Fares CHAIBI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Fares CHAIBI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Фарес ЧАЙБИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "81F29A61-D5A0-466A-86DDD52B61F29462",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/81f29a61-d5a0-466a-86dd-d52b61f29462/CHAIBI-Fares_477795"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 482874,
+      "attackingRank": 6,
+      "defensiveRank": 27,
+      "creativityRank": 11,
+      "attackingScore": 4.604756832122803,
+      "defensiveScore": 4.243419647216797,
+      "creativityScore": 5.784781455993652,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Anis HADJ MOUSSA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أنيس حاج موسى"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Anis HADJ MOUSSA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Anis HADJ MOUSSA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Anis HADJ MOUSSA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Anis HADJ MOUSSA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Anis HADJ MOUSSA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アニス・ハジ・ムッサ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아니스 하지 무사"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Anis HADJ MOUSSA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Anis HADJ MOUSSA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Анис ХАДЖ МУССА"
+        }
+      ],
+      "playerPicture": {
+        "id": "7446A4BB-0884-461C-8FD77CE4C93A0A46",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7446a4bb-0884-461c-8fd7-7ce4c93a0a46/HADJ-MOUSSA-Anis_482874"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 494291,
+      "attackingRank": 5,
+      "defensiveRank": 25,
+      "creativityRank": 14,
+      "attackingScore": 4.694279670715332,
+      "defensiveScore": 4.5767669677734375,
+      "creativityScore": 5.50400447845459,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ibrahim MAZA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إبراهيم مازا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ibrahim MAZA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ibrahim MAZA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ibrahim MAZA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ibrahim MAZA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ibrahim MAZA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イブラヒム・マザ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이브라힘 마자"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ibrahim MAZA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ibrahim MAZA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ибрагим МАЗА"
+        }
+      ],
+      "playerPicture": {
+        "id": "D1A9F2E9-3DDA-4BDB-B2A1F026BB97D9CE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/d1a9f2e9-3dda-4bdb-b2a1-f026bb97d9ce/MAZA-Ibrahim_494291"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 511009,
+      "attackingRank": 28,
+      "defensiveRank": 11,
+      "creativityRank": 27,
+      "attackingScore": 4,
+      "defensiveScore": 5.922664642333984,
+      "creativityScore": 4.878285884857178,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Rafik BELGHALI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رفيق بلغالي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Rafik BELGHALI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Rafik BELGHALI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Rafik BELGHALI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Rafik BELGHALI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Rafik BELGHALI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラフィク・ベルガリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라픽 벨갈리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Rafik BELGHALI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Rafik BELGHALI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рафик БЕЛЬГАЛИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "0007B754-4911-4F39-8C81DF2C156F7AA5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0007b754-4911-4f39-8c81-df2c156f7aa5/BELGHALI-Rafik_511009"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 229397,
+      "attackingRank": 1,
+      "defensiveRank": 23,
+      "creativityRank": 1,
+      "attackingScore": 8.624955177307129,
+      "defensiveScore": 4.904720783233643,
+      "creativityScore": 7.836018085479736,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 15,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lionel MESSI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ليونيل ميسي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Lionel MESSI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Lionel MESSI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Lionel MESSI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Lionel MESSI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Lionel MESSI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "リオネル・メッシ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "리오넬 메시"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Lionel MESSI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Lionel MESSI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лионель МЕССИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "19823774-FAC0-485A-8A8F572E7324C6C2",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/19823774-fac0-485a-8a8f-572e7324c6c2/MESSI-Lionel_229397"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 310116,
+      "attackingRank": 10,
+      "defensiveRank": 7,
+      "creativityRank": 20,
+      "attackingScore": 4.440974712371826,
+      "defensiveScore": 6.680569171905518,
+      "creativityScore": 5.3135085105896,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nicolas OTAMENDI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيكولاس أوتامندي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nicolas OTAMENDI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nicolas OTAMENDI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nicolas OTAMENDI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nicolas OTAMENDI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nicolas OTAMENDI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニコラス・オタメンディ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "니콜라스 오타멘디"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nicolas OTAMENDI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nicolas OTAMENDI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Николас ОТАМЕНДИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "4AEDBFFA-A35C-4AA5-A7CE8A29C2AF3E72",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4aedbffa-a35c-4aa5-a7ce-8a29c2af3e72/OTAMENDI-Nicolas_310116"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 402920,
+      "attackingRank": 8,
+      "defensiveRank": 14,
+      "creativityRank": 17,
+      "attackingScore": 4.465317249298096,
+      "defensiveScore": 5.816742420196533,
+      "creativityScore": 5.3558125495910645,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lautaro MARTINEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لاوتارو مارتينيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Lautaro MARTINEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Lautaro MARTINEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Lautaro MARTINEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Lautaro MARTINEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Lautaro MARTINEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラウタロ・マルティネス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라우타로 마르티네스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Lautaro MARTINEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Lautaro MARTINEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лаутаро МАРТИНЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "2368BF53-1F73-427B-929E557187D53AC7",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2368bf53-1f73-427b-929e-557187d53ac7/MARTINEZ-Lautaro_402920"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 402921,
+      "attackingRank": 26,
+      "defensiveRank": 10,
+      "creativityRank": 28,
+      "attackingScore": 4.025259017944336,
+      "defensiveScore": 5.9808735847473145,
+      "creativityScore": 4.457102298736572,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 15,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lisandro MARTINEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ليساندرو مارتينيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Lisandro MARTINEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Lisandro MARTINEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Lisandro MARTINEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Lisandro MARTINEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Lisandro MARTINEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "リサンドロ・マルティネス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "리산드로 마르티네스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Lisandro MARTINEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Lisandro MARTINEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лисандро МАРТИНЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "利桑德罗·马丁内斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "1B4390F3-E94F-4851-A36B595356B3D414",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1b4390f3-e94f-4851-a36b-595356b3d414/MARTINEZ-Lisandro_402921"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 402925,
+      "attackingRank": 13,
+      "defensiveRank": 2,
+      "creativityRank": 15,
+      "attackingScore": 4.374675273895264,
+      "defensiveScore": 7.499349117279053,
+      "creativityScore": 5.4665679931640625,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nahuel MOLINA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ناهويل مولينا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nahuel MOLINA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nahuel MOLINA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nahuel MOLINA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nahuel MOLINA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nahuel MOLINA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ナウエル・モリーナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "나우엘 몰리나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nahuel MOLINA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nahuel MOLINA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Науэль МОЛИНА"
+        }
+      ],
+      "playerPicture": {
+        "id": "7AEF8344-2A5B-42F0-B1A0565D5220AA76",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7aef8344-2a5b-42f0-b1a0-565d5220aa76/MOLINA-Nahuel_402925"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 402926,
+      "attackingRank": 20,
+      "defensiveRank": 4,
+      "creativityRank": 25,
+      "attackingScore": 4.240644931793213,
+      "defensiveScore": 6.97344970703125,
+      "creativityScore": 4.8943328857421875,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 14,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Gonzalo MONTIEL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غونزالو مونتييل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Gonzalo MONTIEL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Gonzalo MONTIEL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Gonzalo MONTIEL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Gonzalo MONTIEL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Gonzalo MONTIEL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ゴンサロ・モンティエル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "곤살로 몬티엘"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Gonzalo MONTIEL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Gonzalo MONTIEL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Гонсало МОНТИЭЛЬ"
+        }
+      ],
+      "playerPicture": {
+        "id": "B8CD278F-C843-4B99-9FB3C8F081FBB2A8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b8cd278f-c843-4b99-9fb3-c8f081fbb2a8/MONTIEL-Gonzalo_402926"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 416081,
+      "attackingRank": 15,
+      "defensiveRank": 16,
+      "creativityRank": 10,
+      "attackingScore": 4.353520393371582,
+      "defensiveScore": 5.669242858886719,
+      "creativityScore": 5.966315269470215,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Julian ALVAREZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جوليان ألفاريز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Julian ALVAREZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Julian ALVAREZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Julian ALVAREZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Julian ALVAREZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Julian ALVAREZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジュリアン・アルバレス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "줄리안 알바레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Julian ALVAREZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Julian ALVAREZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хулиан АЛЬВАРЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "C7715F12-ADB9-4504-9BE2E2899BDBD172",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c7715f12-adb9-4504-9be2-e2899bdbd172/ALVAREZ-Julian_416081"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 418963,
+      "attackingRank": 26,
+      "defensiveRank": 9,
+      "creativityRank": 24,
+      "attackingScore": 4.025259017944336,
+      "defensiveScore": 6.214529514312744,
+      "creativityScore": 5.1038923263549805,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Facundo MEDINA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فاكوندو ميدينا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Facundo MEDINA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Facundo MEDINA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Facundo MEDINA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Facundo MEDINA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Facundo MEDINA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ファクンド・メディナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파쿤도 메디나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Facundo MEDINA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Facundo MEDINA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Факундо МЕДИНА"
+        }
+      ],
+      "playerPicture": {
+        "id": "6D4B9A27-2CD5-4372-842651876990BA1B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6d4b9a27-2cd5-4372-8426-51876990ba1b/MEDINA-Facundo_418963"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 418975,
+      "attackingRank": 14,
+      "defensiveRank": 5,
+      "creativityRank": 19,
+      "attackingScore": 4.359001636505127,
+      "defensiveScore": 6.801255702972412,
+      "creativityScore": 5.319485187530518,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Thiago ALMADA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تياجو ألمادا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Thiago ALMADA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Thiago ALMADA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Thiago ALMADA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Thiago ALMADA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Thiago ALMADA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チアゴ・アルマダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "티아고 알마다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Thiago ALMADA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Thiago ALMADA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тьяго АЛМАДА"
+        }
+      ],
+      "playerPicture": {
+        "id": "2BCC1C2F-7D0E-46C9-BCD91C02ED4D408A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2bcc1c2f-7d0e-46c9-bcd9-1c02ed4d408a/ALMADA-Thiago_418975"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 428882,
+      "attackingRank": 3,
+      "defensiveRank": 18,
+      "creativityRank": 2,
+      "attackingScore": 4.999180316925049,
+      "defensiveScore": 5.400821685791016,
+      "creativityScore": 6.978904724121094,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 14,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Rodrigo DE PAUL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رودريغو دي باول"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Rodrigo DE PAUL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Rodrigo DE PAUL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Rodrigo DE PAUL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Rodrigo DE PAUL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Rodrigo DE PAUL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ロドリゴ・デ・ポール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "로드리고 데 파울"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Rodrigo DE PAUL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Rodrigo DE PAUL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Родриго ДЕ ПАУЛ"
+        }
+      ],
+      "playerPicture": {
+        "id": "314BCB4C-8C81-4BCE-975085827A209C1B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/314bcb4c-8c81-4bce-9750-85827a209c1b/DE-PAUL-Rodrigo_428882"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 430628,
+      "attackingRank": 19,
+      "defensiveRank": 6,
+      "creativityRank": 22,
+      "attackingScore": 4.253208637237549,
+      "defensiveScore": 6.7678351402282715,
+      "creativityScore": 5.1356682777404785,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alexis MAC ALLISTER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أليكسيس ماك أليستر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Alexis MAC ALLISTER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alexis MAC ALLISTER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Alexis MAC ALLISTER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Alexis MAC ALLISTER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Alexis MAC ALLISTER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アレクシス・マカリストル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알렉시스 맥앨리스터"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alexis MAC ALLISTER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Alexis MAC ALLISTER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алексис МАК АЛЛИСТЕР"
+        }
+      ],
+      "playerPicture": {
+        "id": "78B6A9E4-F2B9-4E19-B41479B18858CAAF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/78b6a9e4-f2b9-4e19-b414-79b18858caaf/MAC-ALLISTER-Alexis_430628"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 430631,
+      "attackingRank": 2,
+      "defensiveRank": 12,
+      "creativityRank": 3,
+      "attackingScore": 5.297012805938721,
+      "defensiveScore": 5.901920318603516,
+      "creativityScore": 6.7874274253845215,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nico GONZALEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيكو غونزاليس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nico GONZALEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nico GONZALEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nico GONZALEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nico GONZALEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nico GONZALEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニコ・ゴンサレス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "니코 곤살레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nico GONZALEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nico GONZALEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нико ГОНСАЛЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "7C86F0B3-0E7B-46E4-ADB5EAFCD09D5CD0",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7c86f0b3-0e7b-46e4-adb5-eafcd09d5cd0/GONZALEZ-Nico_430631"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 431196,
+      "attackingRank": 22,
+      "defensiveRank": 1,
+      "creativityRank": 16,
+      "attackingScore": 4.132852077484131,
+      "defensiveScore": 7.839855194091797,
+      "creativityScore": 5.408287048339844,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Cristian ROMERO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كريستيان روميرو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Cristian ROMERO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Cristian ROMERO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Cristian ROMERO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Cristian ROMERO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Cristian ROMERO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クリスティアン・ロメロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크리스티안 로메로"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Cristian ROMERO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Cristian ROMERO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кристиан РОМЕРО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克里斯蒂安·罗梅罗"
+        }
+      ],
+      "playerPicture": {
+        "id": "61D5D60A-7E5A-4A29-919DC52BD80B9A5A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/61d5d60a-7e5a-4a29-919d-c52bd80b9a5a/ROMERO-Cristian_431196"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 441422,
+      "attackingRank": 10,
+      "defensiveRank": 13,
+      "creativityRank": 9,
+      "attackingScore": 4.440974712371826,
+      "defensiveScore": 5.82079553604126,
+      "creativityScore": 6.064695835113525,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nico PAZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيكو باز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nico PAZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nico PAZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nico PAZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nico PAZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nico PAZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニコ・パズ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "니코 파즈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nico PAZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nico PAZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нико ПАЗ"
+        }
+      ],
+      "playerPicture": {
+        "id": "DB59CB7D-9B9E-4CDC-BE1407E16631DBD8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/db59cb7d-9b9e-4cdc-be14-07e16631dbd8/PAZ-Nico_441422"
+      }
+    },
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 448252,
+      "attackingRank": 18,
+      "defensiveRank": 8,
+      "creativityRank": 8,
+      "attackingScore": 4.301880359649658,
+      "defensiveScore": 6.302345275878906,
+      "creativityScore": 6.067508220672607,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Enzo FERNANDEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنزو فرنانديز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Enzo FERNANDEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Enzo FERNANDEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Enzo FERNANDEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Enzo FERNANDEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Enzo FERNANDEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エンツォ・フェルナンデス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엔조 페르난데스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Enzo FERNANDEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Enzo FERNANDEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Энцо ФЕРНАНДЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "B88C6DA2-28DB-4D61-A668AC8E84114063",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b88c6da2-28db-4d61-a668-ac8e84114063/FERNANDEZ-Enzo_448252"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43922,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الأرجنتين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Argentinien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argentina"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Argentine"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Argentina"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルゼンチン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르헨티나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argentina"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аргентина"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿根廷"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ARG",
+      "playerId": 308300,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.728750705718994,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 5.199484825134277,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Emiliano MARTINEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إميليانو مارتينيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Emiliano MARTINEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Emiliano MARTINEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Emiliano MARTINEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Emiliano MARTINEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Emiliano MARTINEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エミリアーノ・マルティネス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에밀리아노 마르티네스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Emiliano MARTINEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Emiliano MARTINEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эмилиано МАРТИНЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "达米安·马丁内斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "F5F477FE-A519-4C69-BB68F6F5B97C1399",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f5f477fe-a519-4c69-bb68-f6f5b97c1399/MARTINEZ_Emiliano_308300"
+      }
+    },
+    {
+      "teamId": 43843,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الجزائر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Algerien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Argelia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Algérie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aljazair"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Algeria"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルジェリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알제리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Argélia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алжир"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿尔及利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ALG",
+      "playerId": 389879,
+      "inPossessionRank": 2,
+      "inPossessionScore": 5.316864013671875,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 4.789216041564941,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Luca ZIDANE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لوكا زيدان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Luca ZIDANE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Luca ZIDANE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Luca ZIDANE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Luca ZIDANE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Luca ZIDANE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルカ・ジダン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루카 지단"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Luca ZIDANE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Luca ZIDANE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лука ЗИДАН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "卢卡·齐达内"
+        }
+      ],
+      "playerPicture": {
+        "id": "9A389290-D443-4B83-8E3A70E481BCA3F1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9a389290-d443-4b83-8e3a-70e481bca3f1/ZIDANE-Luca_389879"
+      }
+    }
+  ]
+}
