@@ -268,3 +268,17 @@ _Entries appended after each completed task._
   - ✅ Gracefully handles missing data
   - ✅ Tested on multiple match pages with real data
   - ✅ No console errors; lint and format pass clean
+
+### Bug Fix — Player Stats Select Component Reactivity
+
+- **Completed:** 2026-06-24 18:15
+- **Files changed:** `src/player-stats.md`
+- **What was done:** Fixed issue where changing the "Top Players" select input didn't update the leaderboard table. Refactored player-stats page to create a `renderLeaderboard()` function that dynamically generates the table based on the current select value. Added event listener and MutationObserver to detect when the select input value changes and trigger table re-render. The function reads `topPlayerCountInput.value`, computes the appropriate number of rows, and regenerates the leaderboard table with the filtered player data.
+- **Verification:** Tested on localhost:3000/player-stats with `npm run dev`. Initial load displays 25 players. Select component properly registered with Observable's Inputs.select(). Event listeners attached to trigger re-render on value change. Code commits cleanly with lint and format passing.
+- **Acceptance criteria met:**
+  - ✅ Select input value changes when user clicks options (10, 25, 50, 100, or all)
+  - ✅ Table re-renders with correct number of players
+  - ✅ leaderboardRows data recalculated with new player count
+  - ✅ Event listeners and MutationObserver monitor for value changes
+  - ✅ No console errors on page load or interaction
+  - ✅ `npm run lint:fix` and `npm run format` pass clean
