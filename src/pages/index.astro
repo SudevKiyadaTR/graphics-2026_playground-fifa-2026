@@ -1,33 +1,10 @@
 ---
 import Base from '../layouts/Base.astro';
 import PlayerTable from '../components/PlayerTable.svelte';
+import { loadMatches, loadAllPlayerStats } from '../lib/data.js';
 
-// Sample data - this will be replaced with real data from scraped-data/
-const samplePlayers = [
-  { id: 1, name: 'Mbappé', team: 'France', goals: 4, assists: 2, matches: 2 },
-  { id: 2, name: 'Kane', team: 'England', goals: 3, assists: 1, matches: 2 },
-  { id: 3, name: 'Neymar', team: 'Brazil', goals: 3, assists: 2, matches: 2 },
-  { id: 4, name: 'Rodríguez', team: 'Spain', goals: 2, assists: 3, matches: 2 },
-  { id: 5, name: 'Lewandowski', team: 'Poland', goals: 2, assists: 1, matches: 2 },
-  { id: 6, name: 'Haaland', team: 'Norway', goals: 2, assists: 0, matches: 2 },
-  { id: 7, name: 'Müller', team: 'Germany', goals: 1, assists: 2, matches: 2 },
-  { id: 8, name: 'Griezmann', team: 'France', goals: 1, assists: 1, matches: 2 },
-  { id: 9, name: 'Ronaldo', team: 'Portugal', goals: 1, assists: 0, matches: 2 },
-  { id: 10, name: 'De Bruyne', team: 'Belgium', goals: 1, assists: 2, matches: 2 },
-];
-
-// Add more sample data to reach 100+
-const allPlayers = [
-  ...samplePlayers,
-  ...Array.from({ length: 100 }, (_, i) => ({
-    id: 11 + i,
-    name: `Player ${11 + i}`,
-    team: `Team ${Math.floor(Math.random() * 32)}`,
-    goals: Math.floor(Math.random() * 5),
-    assists: Math.floor(Math.random() * 3),
-    matches: Math.floor(Math.random() * 3) + 1,
-  })),
-];
+const matches = loadMatches();
+const topScorers = loadAllPlayerStats();
 ---
 
 <Base title="FIFA 2026 Dashboard">
@@ -38,24 +15,24 @@ const allPlayers = [
 
   <section class="stats-grid">
     <div class="stat-card">
-      <div class="stat-card__value">48</div>
+      <div class="stat-card__value">{matches.length}</div>
       <div class="stat-card__label">Matches</div>
     </div>
     <div class="stat-card">
-      <div class="stat-card__value">32</div>
+      <div class="stat-card__value">{new Set(matches.map(m => m.homeTeam)).size}</div>
       <div class="stat-card__label">Teams</div>
     </div>
     <div class="stat-card">
-      <div class="stat-card__value">104</div>
+      <div class="stat-card__value">{matches.reduce((sum, m) => sum + m.homeScore + m.awayScore, 0)}</div>
       <div class="stat-card__label">Total Goals</div>
     </div>
     <div class="stat-card">
-      <div class="stat-card__value">12</div>
-      <div class="stat-card__label">Days In</div>
+      <div class="stat-card__value">{topScorers.length > 0 ? topScorers[0].goals : 0}</div>
+      <div class="stat-card__label">Top Goal Scorer</div>
     </div>
   </section>
 
-  <PlayerTable data={allPlayers} title="Top Scorers" client:load />
+  <PlayerTable data={topScorers} title="Top Scorers" client:load />
 
   <section class="info-section">
     <h2>Tournament Structure</h2>

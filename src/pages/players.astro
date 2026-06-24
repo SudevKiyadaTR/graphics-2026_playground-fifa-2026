@@ -1,18 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import PlayerTable from '../components/PlayerTable.svelte';
+import { loadAllPlayerStats } from '../lib/data.js';
 
-// Sample player data
-const topScorers = Array.from({ length: 150 }, (_, i) => ({
-  id: i + 1,
-  name: `Player ${i + 1}`,
-  team: ['France', 'England', 'Brazil', 'Spain', 'Germany', 'Italy', 'Argentina', 'Portugal'][
-    i % 8
-  ],
-  goals: Math.max(0, 10 - Math.floor(i / 10)),
-  assists: Math.floor(Math.random() * 5),
-  matches: Math.floor(Math.random() * 4) + 1,
-})).sort((a, b) => b.goals - a.goals);
+const topScorers = loadAllPlayerStats();
 ---
 
 <Base title="Player Statistics — FIFA 2026 Dashboard">
