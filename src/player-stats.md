@@ -311,12 +311,7 @@ const topPlayerCountInput = Inputs.select([10, 25, 50, 100, Math.max(100, totalP
   value: Math.min(25, totalPlayers),
   format: (value) => `${value}`,
 });
-const selectedTopPlayersRaw = Generators.input(topPlayerCountInput);
-const selectedTopPlayers = Number(selectedTopPlayersRaw);
-const topPlayerCount =
-  Number.isFinite(selectedTopPlayers) && selectedTopPlayers > 0
-    ? selectedTopPlayers
-    : Math.min(25, totalPlayers);
+const topPlayerCount = Number(topPlayerCountInput.value);
 const rows = sortedPlayers.slice(0, topPlayerCount);
 
 const teamAbbreviations = {
@@ -424,13 +419,6 @@ const leaderboardRows = rows.map((p, index) => ({
 ```
 
 ```js
-const leaderboardSection = html`<section class="table-wrap">
-  <div class="table-header">
-    <h2 class="table-title">Leaderboard</h2>
-    <div class="table-controls"></div>
-  </div>
-</section>`;
-
 function renderPlayerCell(value) {
   const raw = String(value ?? "Unknown|||UNK");
   const [name, role] = raw.split("|||");
@@ -467,9 +455,94 @@ const leaderboardTable = observableTable(leaderboardRows, Inputs, {
   reverse: true,
 });
 
-applyColumnTooltips(leaderboardTable);
-leaderboardSection.querySelector(".table-controls").append(topPlayerCountInput);
-leaderboardSection.append(leaderboardTable);
+const leaderboardContainer = html`<div></div>`;
+
+function renderLeaderboard() {
+  leaderboardContainer.innerHTML = '';
+  
+  // Read the current input value
+  const topPlayerCount = Number(topPlayerCountInput.value);
+  const currentRows = sortedPlayers.slice(0, topPlayerCount);
+  const currentLeaderboardRows = currentRows.map((p, index) => ({
+    Rank: Number(index + 1),
+    Player: `${p.player ?? "Unknown"}|||${roleAbbreviation(p.position)}`,
+    Team: abbreviateTeam(p.team),
+    Matches: toNumber(p.matchesPlayed),
+    Goals: toNumber(p.goals),
+    Assists: toNumber(p.assists),
+    Passes: toNumber(p.passes),
+    "Passes Completed": toNumber(p.passesCompleted),
+    "Pass Accuracy %":
+      toNumber(p.passes) > 0 ? round2((toNumber(p.passesCompleted) / toNumber(p.passes)) * 100) : 0,
+    Sprints: toNumber(p.sprints),
+    "Speed Runs": toNumber(p.speedRuns),
+    "Total Distance (m)": toNumber(p.totalDistance),
+    "HSR Distance (m)": toNumber(p.distanceHighSpeedRunning),
+    "HSS Distance (m)": toNumber(p.distanceHighSpeedSprinting),
+    "Jogging Distance (m)": toNumber(p.distanceJogging),
+    "LSS Distance (m)": toNumber(p.distanceLowSpeedSprinting),
+    "Walking Distance (m)": toNumber(p.distanceWalking),
+    "Top Speed": round2(p.topSpeed),
+    "Avg Speed": round2(p.avgSpeed),
+    Threat: round2(p.threat),
+  }));
+  
+  const leaderboardSection = html`<section class="table-wrap">
+    <div class="table-header">
+      <h2 class="table-title">Leaderboard</h2>
+      <div class="table-controls"></div>
+    </div>
+  </section>`;
+
+  const leaderboardTable = observableTable(currentLeaderboardRows, Inputs, {
+    columns: [
+      "Rank",
+      "Player",
+      "Team",
+      "Matches",
+      "Goals",
+      "Assists",
+      "Passes",
+      "Passes Completed",
+      "Pass Accuracy %",
+      "Sprints",
+      "Speed Runs",
+      "Total Distance (m)",
+      "HSR Distance (m)",
+      "HSS Distance (m)",
+      "Jogging Distance (m)",
+      "LSS Distance (m)",
+      "Walking Distance (m)",
+      "Top Speed",
+      "Avg Speed",
+      "Threat",
+    ],
+    format: {
+      Player: renderPlayerCell,
+    },
+    sort: "Goals",
+    reverse: true,
+  });
+
+  leaderboardSection.querySelector(".table-controls").append(topPlayerCountInput);
+  leaderboardSection.append(leaderboardTable);
+  applyColumnTooltips(leaderboardSection);
+  leaderboardContainer.append(leaderboardSection);
+}
+
+// Watch for input value changes and re-render
+const observer = new MutationObserver((mutations) => {
+  for (const mutation of mutations) {
+    if (mutation.type === 'attributes' && mutation.attributeName === 'value') {
+      renderLeaderboard();
+      break;
+    }
+  }
+});
+
+observer.observe(topPlayerCountInput, { attributes: true, attributeFilter: ['value'] });
+topPlayerCountInput.addEventListener('change', renderLeaderboard);
+renderLeaderboard();
 
 display(
   html`<div class="players-shell">
@@ -503,7 +576,7 @@ display(
       </article>
     </section>
 
-    ${leaderboardSection}
+    ${leaderboardContainer}
   </div>`
 );
 ```
