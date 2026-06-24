@@ -1,0 +1,132 @@
+@import "./tokens.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--color-bg-base);
+  color: var(--color-text-primary);
+  font: var(--font-body-lg);
+  line-height: 1.6;
+}
+
+h1 {
+  font: var(--font-display-lg);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-lg);
+}
+
+h2 {
+  font: var(--font-display-md);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+h3 {
+  font: var(--font-body-lg);
+  font-weight: 600;
+  margin-bottom: var(--space-sm);
+}
+
+p {
+  margin-bottom: var(--space-md);
+}
+
+a {
+  color: var(--color-home);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-lg) 0;
+}
+
+thead {
+  background: var(--color-bg-raised);
+}
+
+th {
+  font: var(--font-label);
+  color: var(--color-text-muted);
+  text-align: right;
+  padding: var(--space-sm) var(--space-sm);
+  border-bottom: 1px solid var(--color-border);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+th:first-child {
+  text-align: left;
+}
+
+td {
+  color: var(--color-text-primary);
+  padding: var(--space-sm);
+  border-bottom: 1px solid var(--color-border-subtle);
+  font-variant-numeric: tabular-nums;
+}
+
+tbody tr:hover {
+  background: var(--color-bg-raised);
+}
+
+/* Inputs */
+select,
+input {
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text-primary);
+  font: var(--font-body-sm);
+  padding: var(--space-sm) var(--space-md);
+}
+
+select:hover,
+input:hover {
+  border-color: var(--color-border);
+  background-color: var(--color-bg-raised);
+}
+
+select:focus,
+input:focus {
+  outline: none;
+  border-color: var(--color-home);
+  box-shadow: 0 0 0 3px rgba(79, 179, 232, 0.1);
+}
+
+/* Utility classes */
+.container {
+  max-width: var(--bp-desktop);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-lg);
+}
+
+@media (min-width: var(--bp-tablet)) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

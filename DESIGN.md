@@ -1,20 +1,18 @@
 # Design System — FIFA 2026 Dashboard
 
-Dark, data-dense, sporty. Built on Observable Framework's `near-midnight` theme.
-
----
+Dark, data-dense, sporty. Focused on clarity and quick scanning of tournament information.
 
 ## Typography
 
 ### Typeface Stack
 
-| Role                             | Family               | Weight        | Notes                                                        |
-| -------------------------------- | -------------------- | ------------- | ------------------------------------------------------------ |
-| Display (titles, scorelines)     | **Barlow Condensed** | 700, 800      | Uppercase, tracking +0.04em. Sporty authority.               |
-| UI / Body                        | **Inter**            | 400, 500, 600 | Proportional. Never use monospace for paragraphs or labels.  |
-| Chart data (axes, stats, tables) | **DM Mono**          | 400, 500      | Tabular-nums enabled. Clean ascenders, no quirky stylistics. |
+| Role                      | Family               | Weight   | Usage                           |
+| ------------------------- | -------------------- | -------- | ------------------------------- |
+| Display (titles, scores)  | **Barlow Condensed** | 700, 800 | Uppercase, tournament authority |
+| UI / Body                 | **Inter**            | 400, 500 | All prose, labels, UI text      |
+| Data (tables, numbers)    | **DM Mono**          | 400, 500 | All numeric readouts            |
 
-All three are Google Fonts. Load a single `<link>` preconnect + stylesheet:
+Load from Google Fonts:
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,350 +24,277 @@ All three are Google Fonts. Load a single `<link>` preconnect + stylesheet:
 
 ### Type Scale
 
+Define in `src/styles/tokens.css`:
+
 ```css
-/* Display — match scorelines, page headings */
-.display-xl {
-  font:
-    800 4rem/1 "Barlow Condensed",
-    sans-serif;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-.display-lg {
-  font:
-    700 2.5rem/1 "Barlow Condensed",
-    sans-serif;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.display-md {
-  font:
-    700 1.75rem/1 "Barlow Condensed",
-    sans-serif;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+/* Display — scorelines, page headings */
+--font-display-xl: 800 4rem/1 "Barlow Condensed", sans-serif;
+--font-display-lg: 700 2.5rem/1 "Barlow Condensed", sans-serif;
+--font-display-md: 700 1.75rem/1 "Barlow Condensed", sans-serif;
 
-/* Body — prose, labels, captions */
-.body-lg {
-  font:
-    400 1rem/1.6 Inter,
-    sans-serif;
-}
-.body-sm {
-  font:
-    400 0.875rem/1.5 Inter,
-    sans-serif;
-}
-.label {
-  font:
-    500 0.75rem/1 Inter,
-    sans-serif;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
+/* Body — prose, labels */
+--font-body-lg: 400 1rem/1.6 Inter, sans-serif;
+--font-body-sm: 400 0.875rem/1.5 Inter, sans-serif;
+--font-label: 500 0.75rem/1 Inter, sans-serif;
 
-/* Data — all numeric readouts, table cells, chart ticks */
-.mono {
-  font:
-    400 0.875rem/1 "DM Mono",
-    monospace;
-  font-variant-numeric: tabular-nums;
-}
-.mono-lg {
-  font:
-    500 1.25rem/1 "DM Mono",
-    monospace;
-  font-variant-numeric: tabular-nums;
-}
+/* Data — numeric, tables, charts */
+--font-mono: 400 0.875rem/1 "DM Mono", monospace;
+--font-mono-lg: 500 1.25rem/1 "DM Mono", monospace;
 ```
 
-**Rule:** any number that a viewer will compare across rows (goals, minutes, rankings, possession %) must use `DM Mono` with `tabular-nums`.
+**Rule:** Any number compared across rows (goals, points, position) must use `DM Mono` with `font-variant-numeric: tabular-nums`.
 
 ---
 
 ## Color Palette
 
-The `near-midnight` Observable theme handles the base background (`#0d1017`). Layer these tokens on top.
+Dark background with layered surfaces. All colors designed for ≥ 3:1 contrast on dark backgrounds.
 
 ### Core Tokens
 
 ```css
 :root {
   /* Backgrounds */
-  --bg-base: #0d1017; /* near-midnight default */
-  --bg-surface: #141b27; /* cards, panels */
-  --bg-raised: #1c2638; /* hovered card, header row */
+  --color-bg-base: #0d1017;      /* page background */
+  --color-bg-surface: #141b27;   /* cards, panels */
+  --color-bg-raised: #1c2638;    /* hover, active */
 
   /* Borders */
-  --border: #253144;
-  --border-subtle: #1a2535;
+  --color-border: #253144;
+  --color-border-subtle: #1a2535;
 
   /* Text */
-  --text-primary: #f0f4f8;
-  --text-secondary: #7d95b0;
-  --text-muted: #4a6070;
+  --color-text-primary: #f0f4f8;    /* body, labels */
+  --color-text-secondary: #7d95b0;  /* secondary labels */
+  --color-text-muted: #4a6070;      /* captions, placeholders */
 
-  /* Accent — scarlet red (main tournament energy) */
-  --accent: #e8394b;
-  --accent-dim: #7a1c26;
+  /* Status colors */
+  --color-positive: #2bb56a;  /* wins, rankings up */
+  --color-negative: #e8394b;  /* losses, rankings down */
+  --color-neutral: #7d95b0;   /* draws, neutral state */
 
-  /* Positive / Negative */
-  --positive: #2bb56a; /* ranking up, wins */
-  --negative: #e8394b; /* ranking down, losses */
-  --neutral: #7d95b0; /* draws */
-
-  /* Data series (categorical, accessible at ≥ 3:1 contrast on --bg-surface) */
-  --series-1: #4fb3e8; /* home team / primary series */
-  --series-2: #e8394b; /* away team / secondary series */
-  --series-3: #f0a04a; /* third series / highlights */
-  --series-4: #7c5cce; /* fourth series */
-  --series-5: #2bb56a; /* fifth series */
+  /* Team colors */
+  --color-home: #4fb3e8;   /* home team (blue) */
+  --color-away: #e8394b;   /* away team (red) */
+  --color-accent-1: #f0a04a;  /* third series */
+  --color-accent-2: #7c5cce;  /* fourth series */
+  --color-accent-3: #2bb56a;  /* fifth series */
 }
 ```
 
-### Categorical Encoding Rules
+### Encoding Rules
 
-- Home team always `--series-1` (cool blue), away team always `--series-2` (red).
-- Do not use red for negative state when it already encodes the away team — use amber `--series-3` for warnings in that context.
-- The `--accent` scarlet is reserved for callouts, active state, and critical highlights. Don't use it as a series color.
-
----
-
-## Chart Conventions (Observable Plot)
-
-### Shared Plot Style Object
-
-Define once in `src/components/_theme.js` and import into every chart component:
-
-```js
-export const plotDefaults = {
-  style: {
-    background: "transparent",
-    color: "var(--text-primary)",
-    fontFamily: "'DM Mono', monospace", // all axes, tick labels, channel labels
-    fontSize: "11px",
-    fontVariantNumeric: "tabular-nums",
-  },
-  marginLeft: 48,
-  marginBottom: 36,
-  marginTop: 16,
-  marginRight: 16,
-  x: { tickSize: 4, tickPadding: 6 },
-  y: { tickSize: 4, tickPadding: 6 },
-  color: { scheme: "observable10" }, // override per-chart when using the tokens above
-};
-```
-
-Apply as:
-
-```js
-Plot.plot({ ...plotDefaults, marks: [...] })
-```
-
-### Axis & Grid
-
-```js
-// Gridlines: very subtle, never compete with data
-Plot.gridY({ stroke: "var(--border-subtle)", strokeWidth: 1 });
-Plot.gridX({ stroke: "var(--border-subtle)", strokeWidth: 1 });
-```
-
-- Tick labels: `DM Mono`, 11px, `--text-secondary`
-- Axis titles: `Inter`, 11px, `--text-muted`, uppercase, `letterSpacing: "0.06em"`
-- Remove both axes' domain lines (set `stroke: "none"` on axis marks)
-
-### Tooltip / Pointer
-
-Use Observable's built-in `Plot.tip()` mark. Style override:
-
-```css
-.plot-tip {
-  background: var(--bg-raised);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  font-family: "DM Mono", monospace;
-  font-size: 12px;
-  color: var(--text-primary);
-  padding: 8px 10px;
-}
-```
+- **Home team:** always `--color-home` (blue)
+- **Away team:** always `--color-away` (red)
+- **Wins/gains:** `--color-positive` (green)
+- **Losses/drops:** `--color-negative` (red, only if not already encoding away team)
+- **Draws/neutral:** `--color-neutral` (gray)
 
 ---
 
 ## Component Patterns
 
-### Score / Stat Callout Card
+### Stat Card (Scoreline)
 
-Large number display for scorelines and key stats.
+```svelte
+<div class="stat-card">
+  <div class="stat-card__value">2–1</div>
+  <div class="stat-card__label">Final Score</div>
+</div>
+```
 
 ```css
 .stat-card {
-  background: var(--bg-surface);
-  border: 1px solid var(--border);
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
   border-radius: 6px;
   padding: 16px 20px;
 }
 
 .stat-card__value {
-  font:
-    800 3rem/1 "Barlow Condensed",
-    sans-serif;
+  font: var(--font-display-xl);
+  color: var(--color-text-primary);
   letter-spacing: 0.02em;
-  color: var(--text-primary);
 }
 
 .stat-card__label {
-  font:
-    500 0.7rem/1 Inter,
-    sans-serif;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-secondary);
+  font: var(--font-label);
+  color: var(--color-text-secondary);
   margin-top: 4px;
+  text-transform: uppercase;
 }
 ```
 
-### Standings / Leaderboard Table
+### Data Table
+
+```svelte
+<table class="table">
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Goals</th>
+      <th>Assists</th>
+    </tr>
+  </thead>
+  <tbody>
+    {#each players as player}
+      <tr>
+        <td>{player.name}</td>
+        <td>{player.goals}</td>
+        <td>{player.assists}</td>
+      </tr>
+    {/each}
+  </tbody>
+</table>
+```
 
 ```css
-table.standings {
+.table {
   width: 100%;
   border-collapse: collapse;
-  font-family: "DM Mono", monospace;
-  font-size: 13px;
   font-variant-numeric: tabular-nums;
 }
 
-table.standings th {
-  font-family: Inter, sans-serif;
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  text-align: right;
-  padding: 6px 10px;
-  border-bottom: 1px solid var(--border);
-}
-
-table.standings th:first-child {
-  text-align: left;
-}
-
-table.standings td {
-  color: var(--text-primary);
+.table th {
+  font: var(--font-label);
+  color: var(--color-text-muted);
   text-align: right;
   padding: 8px 10px;
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg-raised);
 }
 
-table.standings td:first-child {
+.table th:first-child {
   text-align: left;
-  font-family: Inter, sans-serif;
 }
 
-table.standings tr:hover td {
-  background: var(--bg-raised);
+.table td {
+  font: var(--font-mono);
+  color: var(--color-text-primary);
+  text-align: right;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.table td:first-child {
+  font: var(--font-body-sm);
+  text-align: left;
+}
+
+.table tbody tr:hover {
+  background: var(--color-bg-raised);
 }
 ```
 
-Qualification spots: a 3px left border in `--positive` (green) for top 2 qualifying, `--series-3` (amber) for playoff spots.
+### Delta Badge (Rank Change)
 
-### Power Ranking Delta Badge
+```svelte
+<span class="delta delta--up">↑ 3</span>
+<span class="delta delta--flat">–</span>
+<span class="delta delta--down">↓ 1</span>
+```
 
 ```css
 .delta {
   display: inline-flex;
   align-items: center;
   gap: 3px;
-  font:
-    500 0.8rem/1 "DM Mono",
-    monospace;
-  font-variant-numeric: tabular-nums;
+  font: var(--font-mono);
   padding: 2px 6px;
   border-radius: 3px;
+  font-variant-numeric: tabular-nums;
 }
 
 .delta--up {
-  color: var(--positive);
-  background: color-mix(in srgb, var(--positive) 12%, transparent);
+  color: var(--color-positive);
+  background: rgba(43, 181, 106, 0.1);
 }
+
 .delta--down {
-  color: var(--negative);
-  background: color-mix(in srgb, var(--negative) 12%, transparent);
+  color: var(--color-negative);
+  background: rgba(232, 57, 75, 0.1);
 }
+
 .delta--flat {
-  color: var(--neutral);
-  background: transparent;
+  color: var(--color-text-muted);
 }
 ```
 
-### Timeline Event Marker
+### Form Inputs
 
-Colors for match timeline events:
+```svelte
+<select class="select">
+  <option value={25}>Top 25</option>
+  <option value={50}>Top 50</option>
+</select>
+```
 
-| Event              | Color                  |
-| ------------------ | ---------------------- |
-| Goal               | `--positive` (#2bb56a) |
-| Yellow card        | #f0c040                |
-| Red card           | `--negative` (#e8394b) |
-| Substitution (on)  | `--series-1` (blue)    |
-| Substitution (off) | `--text-muted`         |
-| Own goal           | `--series-3` (amber)   |
+```css
+.select {
+  appearance: none;
+  background: var(--color-bg-surface) url('data:image/svg+xml...') no-repeat right 8px center;
+  background-size: 16px;
+  padding: 8px 32px 8px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  color: var(--color-text-primary);
+  font: var(--font-body-sm);
+  cursor: pointer;
+}
 
-Minute labels in `DM Mono`, 11px, `--text-secondary`. Player names in `Inter`, 13px.
+.select:hover {
+  border-color: var(--color-border);
+  background-color: var(--color-bg-raised);
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--color-home);
+  box-shadow: 0 0 0 3px rgba(79, 179, 232, 0.1);
+}
+```
 
 ---
 
 ## Layout & Spacing
 
-8px base grid. Use multiples of 8 for all margin, padding, and gap values.
+Base grid: **8px**. All margins, padding, gaps in multiples of 8.
 
 ```
-4px  — tight internal padding (badge, chip)
-8px  — component internal gap
-16px — card padding, section gap (small)
-24px — card padding (comfortable), inter-component gap
-32px — section separation
-48px — major section break
+4px  — tight (badge, icon)
+8px  — component gap
+16px — card padding
+24px — section gap
+32px — major section
+48px — page-level break
 ```
 
-Page column width cap: `1200px`. Two-column layout at ≥ 900px.
+**Max content width:** `1200px`  
+**Responsive breakpoint:** `900px` (switches from single to two-column layouts)
 
 ---
 
-## Observable Framework Integration
+## Match Timeline Events
 
-Override CSS custom properties in `src/style.css` (loaded by Observable via `import` in the `.md` pages or globally via `observablehq.config.js`'s `styles` key if supported, otherwise inline `<style>` block at the top of each page):
+| Event            | Color                    |
+| ---------------- | ------------------------ |
+| Goal             | `--color-positive`       |
+| Yellow card      | `#f0c040`                |
+| Red card         | `--color-negative`       |
+| Substitution     | `--color-home` (generic) |
+| Own goal         | `--color-accent-1`       |
+| Penalty          | `--color-accent-2`       |
 
-```css
-/* src/style.css */
-:root {
-  /* Inherit near-midnight backgrounds; add tokens above */
-}
-
-/* Replace Observable's default monospace (Courier) on data tables */
-.observablehq table {
-  font-family: "DM Mono", monospace;
-  font-variant-numeric: tabular-nums;
-  font-size: 13px;
-}
-
-/* Keep body prose in Inter */
-.observablehq p,
-.observablehq li {
-  font-family: Inter, sans-serif;
-}
-```
+Minute labels: `--font-mono`, `--color-text-secondary`  
+Player names: `--font-body-sm`, `--color-text-primary`
 
 ---
 
 ## Don'ts
 
-- Do not use Barlow Condensed for body copy — it is display-only.
-- Do not use `monospace` (system fallback) for data — always specify `'DM Mono', monospace`.
-- Do not use more than two accent colors in a single chart.
-- Do not use pure `#ffffff` text — use `--text-primary` (`#f0f4f8`) to reduce harshness on dark backgrounds.
-- Do not add drop shadows to chart marks — they read as amateur. Use borders or opacity for layering.
-- Do not use pie charts. Use horizontal bar charts for part-to-whole data.
+- No pure white (`#fff`) text — use `--color-text-primary` to reduce eye strain
+- No decorative shadows on data — use borders for layering
+- No Barlow Condensed for body text (display only)
+- No mixing more than two team colors in a single chart
+- No pie charts (use horizontal bar charts instead)
+- All numeric tables must use `tabular-nums`
