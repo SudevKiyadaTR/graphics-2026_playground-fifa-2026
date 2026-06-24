@@ -1,0 +1,130 @@
+---
+import Base from '../layouts/Base.astro';
+import PlayerTable from '../components/PlayerTable.svelte';
+
+// Sample data - this will be replaced with real data from scraped-data/
+const samplePlayers = [
+  { id: 1, name: 'Mbappé', team: 'France', goals: 4, assists: 2, matches: 2 },
+  { id: 2, name: 'Kane', team: 'England', goals: 3, assists: 1, matches: 2 },
+  { id: 3, name: 'Neymar', team: 'Brazil', goals: 3, assists: 2, matches: 2 },
+  { id: 4, name: 'Rodríguez', team: 'Spain', goals: 2, assists: 3, matches: 2 },
+  { id: 5, name: 'Lewandowski', team: 'Poland', goals: 2, assists: 1, matches: 2 },
+  { id: 6, name: 'Haaland', team: 'Norway', goals: 2, assists: 0, matches: 2 },
+  { id: 7, name: 'Müller', team: 'Germany', goals: 1, assists: 2, matches: 2 },
+  { id: 8, name: 'Griezmann', team: 'France', goals: 1, assists: 1, matches: 2 },
+  { id: 9, name: 'Ronaldo', team: 'Portugal', goals: 1, assists: 0, matches: 2 },
+  { id: 10, name: 'De Bruyne', team: 'Belgium', goals: 1, assists: 2, matches: 2 },
+];
+
+// Add more sample data to reach 100+
+const allPlayers = [
+  ...samplePlayers,
+  ...Array.from({ length: 100 }, (_, i) => ({
+    id: 11 + i,
+    name: `Player ${11 + i}`,
+    team: `Team ${Math.floor(Math.random() * 32)}`,
+    goals: Math.floor(Math.random() * 5),
+    assists: Math.floor(Math.random() * 3),
+    matches: Math.floor(Math.random() * 3) + 1,
+  })),
+];
+---
+
+<Base title="FIFA 2026 Dashboard">
+  <div class="hero">
+    <h1>FIFA World Cup 2026</h1>
+    <p>Tournament dashboard with live standings, match results, and player statistics.</p>
+  </div>
+
+  <section class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-card__value">48</div>
+      <div class="stat-card__label">Matches</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__value">32</div>
+      <div class="stat-card__label">Teams</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__value">104</div>
+      <div class="stat-card__label">Total Goals</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__value">12</div>
+      <div class="stat-card__label">Days In</div>
+    </div>
+  </section>
+
+  <PlayerTable data={allPlayers} title="Top Scorers" client:load />
+
+  <section class="info-section">
+    <h2>Tournament Structure</h2>
+    <p>
+      The 2026 FIFA World Cup features 48 teams divided into 16 groups of 3. Each team plays two
+      matches in the group stage. The top two teams from each group advance to the Round of 16.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    margin-bottom: var(--space-2xl);
+    text-align: center;
+  }
+
+  .hero h1 {
+    margin-bottom: var(--space-md);
+  }
+
+  .hero p {
+    font: var(--font-body-lg);
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-lg);
+    margin-bottom: var(--space-2xl);
+  }
+
+  .stat-card {
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: var(--space-lg);
+    text-align: center;
+  }
+
+  .stat-card__value {
+    font: var(--font-display-lg);
+    color: var(--color-text-primary);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  .stat-card__label {
+    font: var(--font-label);
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    margin-top: var(--space-sm);
+  }
+
+  .info-section {
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: var(--space-lg);
+    margin-top: var(--space-2xl);
+  }
+
+  .info-section h2 {
+    margin-top: 0;
+  }
+
+  .info-section p {
+    color: var(--color-text-secondary);
+  }
+</style>

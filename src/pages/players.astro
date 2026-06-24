@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import PlayerTable from '../components/PlayerTable.svelte';
+
+// Sample player data
+const topScorers = Array.from({ length: 150 }, (_, i) => ({
+  id: i + 1,
+  name: `Player ${i + 1}`,
+  team: ['France', 'England', 'Brazil', 'Spain', 'Germany', 'Italy', 'Argentina', 'Portugal'][
+    i % 8
+  ],
+  goals: Math.max(0, 10 - Math.floor(i / 10)),
+  assists: Math.floor(Math.random() * 5),
+  matches: Math.floor(Math.random() * 4) + 1,
+})).sort((a, b) => b.goals - a.goals);
+---
+
+<Base title="Player Statistics — FIFA 2026 Dashboard">
+  <div class="page-header">
+    <h1>Player Statistics</h1>
+    <p>Filter and view top performers across all tournaments.</p>
+  </div>
+
+  <PlayerTable data={topScorers} title="Top Scorers" client:load />
+
+  <section class="about">
+    <h2>About This Page</h2>
+    <p>
+      Use the dropdown menu to filter the player table to show the top 25, 50, 100, or all players.
+      The table displays goals, assists, and match participation for each player during the
+      tournament.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .page-header {
+    margin-bottom: var(--space-2xl);
+  }
+
+  .page-header h1 {
+    margin-bottom: var(--space-md);
+  }
+
+  .page-header p {
+    font: var(--font-body-lg);
+    color: var(--color-text-secondary);
+    max-width: 600px;
+  }
+
+  .about {
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: var(--space-lg);
+    margin-top: var(--space-2xl);
+  }
+
+  .about h2 {
+    margin-top: 0;
+  }
+
+  .about p {
+    color: var(--color-text-secondary);
+  }
+</style>

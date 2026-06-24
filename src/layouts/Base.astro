@@ -1,0 +1,79 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+}
+
+const { title = 'FIFA 2026 Dashboard' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Inter:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1><a href="/">FIFA 2026 Dashboard</a></h1>
+      </div>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 FIFA World Cup. Data updates every 12 hours.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .header {
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-lg) 0;
+    margin-bottom: var(--space-2xl);
+  }
+
+  .header h1 {
+    margin: 0;
+  }
+
+  .header a {
+    color: var(--color-text-primary);
+  }
+
+  .header a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+  }
+
+  main {
+    min-height: calc(100vh - 200px);
+    padding: var(--space-lg) 0;
+  }
+
+  .footer {
+    border-top: 1px solid var(--color-border);
+    padding: var(--space-lg) 0;
+    margin-top: var(--space-2xl);
+    color: var(--color-text-secondary);
+    font-size: 0.875rem;
+  }
+
+  .footer p {
+    margin: 0;
+  }
+</style>
