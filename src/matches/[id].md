@@ -221,7 +221,6 @@ import { footballFieldTimeline } from "../components/football-field-timeline.js"
 import { teamStatsBars } from "../components/team-stats-bars.js";
 import { powerRankingRadarOverlay } from "../components/power-ranking-radar-overlay.js";
 import { possessionProgression } from "../components/possession-progression.js";
-import { pressingIntensityHeat } from "../components/pressing-intensity.js";
 import { playerIntensity } from "../components/player-intensity.js";
 const d3 = await import("https://cdn.jsdelivr.net/npm/d3@7.8.5/+esm");
 

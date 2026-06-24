@@ -244,8 +244,8 @@ async function fetchTimelines(matches) {
   console.log(`✓ Fetched ${fetched} timelines (skipped ${skipped} existing)`);
 }
 
-async function fetchMatchStats(matches) {
-  console.log("\nFetching match statistics...");
+async function fetchTeamsEndpoint(matches, label, filename) {
+  console.log(`\nFetching ${label}...`);
   let fetched = 0;
   let skipped = 0;
 
@@ -256,7 +256,7 @@ async function fetchMatchStats(matches) {
 
     const matchDir = path.join(DATA_DIR, "matches", String(match.id));
     await ensureDir(matchDir);
-    const filepath = path.join(matchDir, "match-stats.json");
+    const filepath = path.join(matchDir, filename);
     if (!shouldFetch(filepath)) {
       skipped++;
       continue;
@@ -272,46 +272,11 @@ async function fetchMatchStats(matches) {
       }
       await sleep(PER_MATCH_RATE_LIMIT_MS);
     } catch (error) {
-      console.warn(`Error processing match stats for ${match.id}: ${error.message}`);
+      console.warn(`Error processing ${label} for ${match.id}: ${error.message}`);
     }
   }
 
-  console.log(`✓ Fetched ${fetched} match statistics (skipped ${skipped} existing)`);
-}
-
-async function fetchTeamStats(matches) {
-  console.log("\nFetching team statistics...");
-  let fetched = 0;
-  let skipped = 0;
-
-  for (const match of matches) {
-    if (!match.propertyId) {
-      continue;
-    }
-
-    const matchDir = path.join(DATA_DIR, "matches", String(match.id));
-    await ensureDir(matchDir);
-    const filepath = path.join(matchDir, "team-stats.json");
-    if (!shouldFetch(filepath)) {
-      skipped++;
-      continue;
-    }
-
-    const url = `${STATS_BASE_URL}/stats/match/${match.propertyId}/teams.json`;
-
-    try {
-      const data = await fetchJson(url);
-      if (data) {
-        fs.writeFileSync(filepath, JSON.stringify(data, null, 2));
-        fetched++;
-      }
-      await sleep(PER_MATCH_RATE_LIMIT_MS);
-    } catch (error) {
-      console.warn(`Error processing team stats for ${match.id}: ${error.message}`);
-    }
-  }
-
-  console.log(`✓ Fetched ${fetched} team statistics (skipped ${skipped} existing)`);
+  console.log(`✓ Fetched ${fetched} ${label} (skipped ${skipped} existing)`);
 }
 
 async function fetchPlayerStats(matches) {
@@ -433,8 +398,8 @@ async function main() {
     }
 
     await fetchTimelines(toScrape);
-    await fetchMatchStats(toScrape);
-    await fetchTeamStats(toScrape);
+    await fetchTeamsEndpoint(toScrape, "match statistics", "match-stats.json");
+    await fetchTeamsEndpoint(toScrape, "team statistics", "team-stats.json");
     await fetchPlayerStats(toScrape);
     await fetchPowerRanking(toScrape);
     await fetchLiveMatchData(toScrape);

@@ -177,7 +177,7 @@
 </style>
 
 ```js
-import { scheduleChart } from "./components/schedule-chart.js";
+import { observableTable } from "./components/observable-table.js";
 
 const matches = await FileAttachment("./data/matches.json").json();
 const completed = matches.filter((m) => m.homeScore !== null || m.awayScore !== null);
@@ -238,7 +238,30 @@ display(html`
 
     <section class="section-card">
       <h2 class="section-title">Match Schedule</h2>
-      ${scheduleChart(matches, Inputs)}
+      ${observableTable(
+        [...matches]
+          .sort((a, b) => new Date(a.date) - new Date(b.date))
+          .map((m) => {
+            const hasScore = m.homeScore !== null || m.awayScore !== null;
+            return {
+              Date: new Date(m.date).toLocaleDateString("en-US", {
+                month: "short",
+                day: "numeric",
+              }),
+              Match: `${m.homeTeam} vs ${m.awayTeam}`,
+              Score: hasScore ? `${m.homeScore ?? 0}-${m.awayScore ?? 0}` : "TBD",
+              Stage: m.stage,
+              matchId: m.id,
+            };
+          }),
+        Inputs,
+        {
+          columns: ["Date", "Match", "Score", "Stage"],
+          rowHref: (row) => `/matches/${row.matchId}`,
+          rows: 25,
+          wrapperClass: "schedule-table-wrap",
+        }
+      )}
     </section>
   </div>
 `);
