@@ -1,51 +1,147 @@
 <script>
+  import { createSvelteTable, getCoreRowModel, getSortedRowModel, getFilteredRowModel } from '@tanstack/svelte-table';
+  import { writable } from 'svelte/store';
+
   export let data = [];
   export let title = 'Top Scorers';
 
   let selectedCount = 25;
-  $: filtered = data.slice(0, selectedCount);
+  let searchTerm = '';
+  let sorting = writable([]);
+  let globalFilter = writable('');
+
+  $: columns = [
+    {
+      accessorKey: 'rank',
+      header: 'Rank',
+      cell: (info) => info.row.index + 1,
+    },
+    {
+      accessorKey: 'name',
+      header: 'Player',
+    },
+    {
+      accessorKey: 'team',
+      header: 'Team',
+    },
+    {
+      accessorKey: 'goals',
+      header: 'Goals',
+      cell: (info) => info.getValue() || 0,
+    },
+    {
+      accessorKey: 'assists',
+      header: 'Assists',
+      cell: (info) => info.getValue() || 0,
+    },
+    {
+      accessorKey: 'matches',
+      header: 'Matches',
+      cell: (info) => info.getValue() || 0,
+    },
+  ];
+
+  $: table = createSvelteTable({
+    get data() {
+      return data.slice(0, selectedCount);
+    },
+    columns,
+    getCoreRowModel: getCoreRowModel(),
+    getSortedRowModel: getSortedRowModel(),
+    getFilteredRowModel: getFilteredRowModel(),
+    state: {
+      get sorting() {
+        return $sorting;
+      },
+      get globalFilter() {
+        return $globalFilter;
+      },
+    },
+    globalFilterFn: 'includesString',
+  });
+
+  const handleSort = (column) => {
+    sorting.update((s) => {
+      const existing = s.find((item) => item.id === column.id);
+      if (existing) {
+        if (existing.desc) {
+          return s.filter((item) => item.id !== column.id);
+        }
+        return s.map((item) => (item.id === column.id ? { ...item, desc: true } : item));
+      }
+      return [{ id: column.id, desc: false }];
+    });
+  };
+
+  $: rows = $table.getRowModel().rows;
 </script>
 
 <div class="player-table">
   <div class="player-table__header">
     <h2>{title}</h2>
     <div class="player-table__controls">
-      <label for="count-select">Show:</label>
-      <select id="count-select" bind:value={selectedCount}>
-        <option value={25}>Top 25</option>
-        <option value={50}>Top 50</option>
-        <option value={100}>Top 100</option>
-        <option value={1000}>All ({data.length})</option>
-      </select>
+      <div class="control-group">
+        <label for="search-input">Search:</label>
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Player or team..."
+          bind:value={$globalFilter}
+          class="search-input"
+        />
+      </div>
+      <div class="control-group">
+        <label for="count-select">Show:</label>
+        <select id="count-select" bind:value={selectedCount}>
+          <option value={25}>Top 25</option>
+          <option value={50}>Top 50</option>
+          <option value={100}>Top 100</option>
+          <option value={1000}>All ({data.length})</option>
+        </select>
+      </div>
     </div>
   </div>
 
   <table class="player-table__table">
     <thead>
       <tr>
-        <th>Rank</th>
-        <th>Player</th>
-        <th>Team</th>
-        <th style="text-align: right;">Goals</th>
-        <th style="text-align: right;">Assists</th>
-        <th style="text-align: right;">Matches</th>
+        {#each $table.getHeaderGroups()[0]?.headers ?? [] as header (header.id)}
+          <th
+            on:click={() => header.column.columnDef.header !== 'Rank' && handleSort(header.column)}
+            class={header.column.columnDef.header !== 'Rank' ? 'sortable' : ''}
+          >
+            <div class="header-cell">
+              {#if typeof header.column.columnDef.header === 'string'}
+                {header.column.columnDef.header}
+              {/if}
+              {#if header.column.columnDef.header !== 'Rank' && $sorting.find((s) => s.id === header.id)}
+                <span class="sort-indicator">
+                  {$sorting.find((s) => s.id === header.id)?.desc ? '↓' : '↑'}
+                </span>
+              {/if}
+            </div>
+          </th>
+        {/each}
       </tr>
     </thead>
     <tbody>
-      {#each filtered as player, index (player.id || `${player.name}-${index}`)}
+      {#each rows as row (row.id)}
         <tr>
-          <td>{index + 1}</td>
-          <td>{player.name}</td>
-          <td>{player.team}</td>
-          <td style="text-align: right;">{player.goals || 0}</td>
-          <td style="text-align: right;">{player.assists || 0}</td>
-          <td style="text-align: right;">{player.matches || 0}</td>
+          {#each row.getVisibleCells() as cell (cell.id)}
+            <td class={cell.column.id === 'goals' || cell.column.id === 'assists' || cell.column.id === 'matches' ? 'numeric' : ''}>
+              {#if cell.column.columnDef.cell}
+                {cell.column.columnDef.cell(cell.getContext())}
+              {:else}
+                {cell.getValue()}
+              {/if}
+            </td>
+          {/each}
         </tr>
       {/each}
     </tbody>
   </table>
 
-  {#if filtered.length === 0}
+  {#if rows.length === 0}
     <p class="player-table__empty">No players found</p>
   {/if}
 </div>
@@ -62,7 +158,7 @@
   .player-table__header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: var(--space-lg);
     flex-wrap: wrap;
     gap: var(--space-md);
@@ -78,6 +174,13 @@
   .player-table__controls {
     display: flex;
     align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+  }
+
+  .control-group {
+    display: flex;
+    align-items: center;
     gap: var(--space-sm);
   }
 
@@ -86,6 +189,24 @@
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--color-text-secondary);
+    white-space: nowrap;
+  }
+
+  .search-input {
+    appearance: none;
+    padding: var(--space-sm) var(--space-md);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background: var(--color-bg-raised);
+    color: var(--color-text-primary);
+    font: var(--font-mono);
+    min-width: 180px;
+  }
+
+  .search-input:focus {
+    outline: none;
+    border-color: var(--color-home);
+    box-shadow: 0 0 0 3px rgba(79, 179, 232, 0.1);
   }
 
   .player-table__controls select {
@@ -133,12 +254,37 @@
     letter-spacing: 0.06em;
   }
 
+  th.sortable {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  th.sortable:hover {
+    background: var(--color-bg-hover);
+  }
+
+  .header-cell {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs, 0.25rem);
+  }
+
+  .sort-indicator {
+    font-size: 0.75rem;
+    color: var(--color-home);
+    font-weight: bold;
+  }
+
   td {
     font: var(--font-mono);
     color: var(--color-text-primary);
     padding: var(--space-md);
     border-bottom: 1px solid var(--color-border-subtle);
     font-variant-numeric: tabular-nums;
+  }
+
+  td.numeric {
+    text-align: right;
   }
 
   tbody tr:hover {

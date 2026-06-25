@@ -1,10 +1,19 @@
 ---
 import Base from '../layouts/Base.astro';
-import PlayerTable from '../components/PlayerTable.svelte';
-import { loadMatches, loadAllPlayerStats } from '../lib/data.js';
+import FixturesTable from '../components/FixturesTable.svelte';
+import { loadMatches } from '../lib/data.js';
 
-const matches = loadMatches();
-const topScorers = loadAllPlayerStats();
+const matches = loadMatches() as any[];
+
+const allFixtures = matches.sort((a: any, b: any) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
+// Calculate tournament stats
+const played = matches.filter(m => m.homeScore !== null && m.awayScore !== null);
+const upcoming = matches.filter(m => m.homeScore === null || m.awayScore === null);
+const totalGoals = matches.reduce((sum, m) => sum + (m.homeScore || 0) + (m.awayScore || 0), 0);
+const avgGoalsPerMatch = played.length > 0 ? (totalGoals / played.length).toFixed(2) : '0';
+const maxGoalsInMatch = Math.max(...matches.map(m => (m.homeScore || 0) + (m.awayScore || 0)));
+const draws = played.filter(m => m.homeScore === m.awayScore).length;
 ---
 
 <Base title="FIFA 2026 Dashboard">
@@ -15,24 +24,37 @@ const topScorers = loadAllPlayerStats();
 
   <section class="stats-grid">
     <div class="stat-card">
-      <div class="stat-card__value">{matches.length}</div>
-      <div class="stat-card__label">Matches</div>
+      <div class="stat-card__value">{played.length}</div>
+      <div class="stat-card__label">Matches Played</div>
     </div>
     <div class="stat-card">
-      <div class="stat-card__value">{new Set(matches.map(m => m.homeTeam)).size}</div>
-      <div class="stat-card__label">Teams</div>
+      <div class="stat-card__value">{upcoming.length}</div>
+      <div class="stat-card__label">Matches Remaining</div>
     </div>
     <div class="stat-card">
-      <div class="stat-card__value">{matches.reduce((sum, m) => sum + m.homeScore + m.awayScore, 0)}</div>
+      <div class="stat-card__value">{totalGoals}</div>
       <div class="stat-card__label">Total Goals</div>
     </div>
     <div class="stat-card">
-      <div class="stat-card__value">{topScorers.length > 0 ? topScorers[0].goals : 0}</div>
-      <div class="stat-card__label">Top Goal Scorer</div>
+      <div class="stat-card__value">{avgGoalsPerMatch}</div>
+      <div class="stat-card__label">Goals Per Match</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__value">{draws}</div>
+      <div class="stat-card__label">Draws</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-card__value">{maxGoalsInMatch}</div>
+      <div class="stat-card__label">Most Goals in Match</div>
     </div>
   </section>
 
-  <PlayerTable data={topScorers} title="Top Scorers" client:load />
+  {allFixtures.length > 0 && (
+    <section class="fixtures-section">
+      <h2>Fixtures</h2>
+      <FixturesTable data={allFixtures} client:load />
+    </section>
+  )}
 
   <section class="info-section">
     <h2>Tournament Structure</h2>
@@ -103,5 +125,13 @@ const topScorers = loadAllPlayerStats();
 
   .info-section p {
     color: var(--color-text-secondary);
+  }
+
+  .fixtures-section {
+    margin-top: var(--space-2xl);
+  }
+
+  .fixtures-section h2 {
+    margin-bottom: var(--space-lg);
   }
 </style>
