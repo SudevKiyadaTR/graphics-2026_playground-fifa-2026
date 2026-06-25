@@ -282,3 +282,24 @@ _Entries appended after each completed task._
   - ✅ Event listeners and MutationObserver monitor for value changes
   - ✅ No console errors on page load or interaction
   - ✅ `npm run lint:fix` and `npm run format` pass clean
+
+### Feature — Dynamic Match Detail Pages with Four Visualizations
+
+- **Completed:** 2026-06-25 09:23
+- **Files changed:** `src/pages/matches/[id].astro` (created), `src/components/match/TeamStatsComparison.svelte` (created), `src/components/match/ShotMap.svelte` (created), `src/components/match/EventTimeline.svelte` (created), `src/components/match/PlayerHighlights.svelte` (created), `src/components/FixturesTable.svelte` (updated), `src/lib/data.js` (updated), `src/styles/tokens.css` (updated)
+- **What was done:** Implemented complete match detail pages for all 64 matches with dynamic Astro routing and four visualization types. Migrated from Observable Framework to Astro + Svelte stack. Created match page template with `getStaticPaths()` for static pre-rendering of all 106 pages (64 matches + home + players + variants). Made FixturesTable rows clickable with CSS hover effects. Built four Svelte visualization components: (1) TeamStatsComparison with side-by-side bar charts (shots, accuracy, fouls, etc.); (2) ShotMap with SVG soccer field showing shot placement for both teams; (3) EventTimeline with vertical event flow showing goals, cards, substitutions; (4) PlayerHighlights with performance cards showing goals, assists, shots, passes. Used native SVG and CSS (no external charting libraries). Added data loading functions to read match-specific JSON files (team-stats, match-stats, timeline, player-stats).
+- **Verification:** Tested on localhost:4322 with `npm run dev`. Homepage loads with fixtures table; clicking Mexico vs South Africa navigates to `/matches/400021443`. Match page renders all four visualizations with real data. Team stats bars show correct proportions. Shot map displays 3 Mexico shots and 15 South Africa shots. Player highlights cards show correct stats. Back link navigates to homepage. Build completes successfully with 106 pages generated. No console errors.
+- **Acceptance criteria met:**
+  - ✅ Dynamic match pages created for all 64 matches via Astro routing
+  - ✅ Homepage fixtures table rows clickable with hover effect
+  - ✅ Clicking match navigates to `/matches/{id}` page
+  - ✅ Match page header displays team names, score, stage, group, date
+  - ✅ Team Statistics visualization shows 6 key stats with bar charts
+  - ✅ Shot Map visualizes shot locations on SVG field with legend
+  - ✅ Event Timeline shows significant match events with icons
+  - ✅ Top Performers displays player highlight cards with stats
+  - ✅ Back link returns to homepage
+  - ✅ All 106 pages (64 matches + others) build statically
+  - ✅ No external charting libraries; native SVG + CSS used
+  - ✅ Responsive design with grid layout for visualizations
+  - ✅ No console errors; build succeeds
