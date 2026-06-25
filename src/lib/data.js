@@ -111,3 +111,31 @@ export function getMatchPlayerStats(matchId) {
 
   return JSON.parse(fs.readFileSync(playerStatsPath, 'utf-8'));
 }
+
+export function getMatchStats(matchId) {
+  const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
+  const statsPath = path.join(matchDir, 'match-stats.json');
+  if (!fs.existsSync(statsPath)) return {};
+  return JSON.parse(fs.readFileSync(statsPath, 'utf-8'));
+}
+
+export function getTeamStats(matchId) {
+  const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
+  const statsPath = path.join(matchDir, 'team-stats.json');
+  if (!fs.existsSync(statsPath)) return {};
+  return JSON.parse(fs.readFileSync(statsPath, 'utf-8'));
+}
+
+export function getMatchTimeline(matchId) {
+  const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
+  const timelinePath = path.join(matchDir, 'timeline.json');
+  if (!fs.existsSync(timelinePath)) return [];
+  return JSON.parse(fs.readFileSync(timelinePath, 'utf-8'));
+}
+
+export function getMatchLive(matchId) {
+  const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
+  const livePath = path.join(matchDir, 'live.json');
+  if (!fs.existsSync(livePath)) return {};
+  return JSON.parse(fs.readFileSync(livePath, 'utf-8'));
+}

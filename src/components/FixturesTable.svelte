@@ -113,7 +113,10 @@
     </thead>
     <tbody>
       {#each rows as row (row.id)}
-        <tr>
+        <tr
+          on:click={() => (window.location.href = `/matches/${row.original.id}`)}
+          class="clickable-row"
+        >
           {#each row.getVisibleCells() as cell (cell.id)}
             <td class={cell.column.id === 'result' ? 'result-cell' : ''}>
               {#if cell.column.columnDef.cell}
@@ -212,6 +215,14 @@
 
   .fixtures-table tbody tr:hover {
     background: rgba(255, 255, 255, 0.02);
+  }
+
+  .clickable-row {
+    cursor: pointer;
+  }
+
+  .clickable-row:hover {
+    background: rgba(79, 179, 232, 0.08) !important;
   }
 
   .result-cell {
