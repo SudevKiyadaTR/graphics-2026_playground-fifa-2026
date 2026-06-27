@@ -303,3 +303,16 @@ _Entries appended after each completed task._
   - ✅ No external charting libraries; native SVG + CSS used
   - ✅ Responsive design with grid layout for visualizations
   - ✅ No console errors; build succeeds
+
+### Code Cleanup — Remove dead code from PossessionLineHeight
+
+- **Completed:** 2026-06-27 12:40
+- **Files changed:** `src/components/match/PossessionLineHeight.svelte`
+- **What was done:** Removed unused metric calculations (`getTeamStats`, `getFormationMetrics`, `homeMetrics`, `awayMetrics`) that were computed but never used in the rendered SVG. The component displays static formation field diagrams, not dynamic ones based on calculated metrics. Replaced dead code with ponytail comment documenting the design: "static formation visualization (actual line height data unavailable)".
+- **Verification:** Tested on localhost:4326 with `npm run dev`. Match page renders correctly. Formation visualizations display without error. `npm run lint:fix` and `npm run format` pass clean.
+- **Acceptance criteria met:**
+  - ✅ Unused metric calculation functions removed
+  - ✅ Unused variables (homeMetrics, awayMetrics, maxWidth, maxHeight) removed
+  - ✅ Ponytail comment added documenting design intent
+  - ✅ No console errors; component still renders correctly
+  - ✅ All linting and formatting passes clean
