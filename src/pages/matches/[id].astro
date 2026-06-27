@@ -1,12 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { loadMatches, getMatchById, getMatchStats, getMatchTimeline, getMatchLive, getMatchPlayerStats } from '../../lib/data.js';
+import MatchHero from '../../components/match/MatchHero.svelte';
 import KeyStats from '../../components/match/KeyStats.svelte';
-import TeamStatsComparison from '../../components/match/TeamStatsComparison.svelte';
+import ShotMap from '../../components/match/ShotMap.svelte';
 import PhasesOfPlay from '../../components/match/PhasesOfPlay.svelte';
+import PressIntensity from '../../components/match/PressIntensity.svelte';
+import BallProgression from '../../components/match/BallProgression.svelte';
 import EventTimeline from '../../components/match/EventTimeline.svelte';
 import PlayerHighlights from '../../components/match/PlayerHighlights.svelte';
-import ShotMap from '../../components/match/ShotMap.svelte';
 
 export function getStaticPaths() {
   const matches = loadMatches();
@@ -29,69 +31,54 @@ const playerStats = getMatchPlayerStats(id);
 ---
 
 <Base title={`${match.homeTeam} vs ${match.awayTeam} - FIFA 2026`}>
-  <div class="match-header">
+  <div class="match-page">
     <a href="/" class="back-link">← Back to Dashboard</a>
 
-    <div class="match-info">
-      <div class="team">
-        <div class="team-name">{match.homeTeam}</div>
-        <div class="team-logo">{match.homeTeam.slice(0, 3).toUpperCase()}</div>
-      </div>
+    <MatchHero match={match} liveData={liveData} client:load />
 
-      <div class="score-section">
-        <div class="score">
-          {match.homeScore !== null ? match.homeScore : '-'}
-          <span class="score-separator">-</span>
-          {match.awayScore !== null ? match.awayScore : '-'}
-        </div>
-        <div class="match-meta">
-          <div>{match.stage}</div>
-          <div>{match.group}</div>
-          <div>{new Date(match.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</div>
-        </div>
-      </div>
+    <section class="key-stats-section">
+      <KeyStats matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
+    </section>
 
-      <div class="team">
-        <div class="team-logo">{match.awayTeam.slice(0, 3).toUpperCase()}</div>
-        <div class="team-name">{match.awayTeam}</div>
-      </div>
+    <div class="visualizations">
+      <!-- Row 1: Shot Map + Phases -->
+      <section class="viz-section">
+        <h2>Shots</h2>
+        <ShotMap matchStats={matchStats} timeline={timeline} homeTeam={match.homeTeam} awayTeam={match.awayTeam} homeScore={match.homeScore} awayScore={match.awayScore} client:load />
+      </section>
+
+      <section class="viz-section viz-full-width">
+        <h2>Phases of Play</h2>
+        <PhasesOfPlay matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
+      </section>
+
+      <!-- Row 2: Pressing + Ball Progression -->
+      <section class="viz-section">
+        <h2>Pressure & Possession</h2>
+        <PressIntensity matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
+      </section>
+
+      <section class="viz-section">
+        <h2>Ball Progression</h2>
+        <BallProgression matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
+      </section>
+
+      <!-- Row 3: Timeline + Players -->
+      <section class="viz-section viz-full-width">
+        <h2>Match Events</h2>
+        <EventTimeline timeline={timeline} homeTeam={match.homeTeam} awayTeam={match.awayTeam} liveData={liveData} client:load />
+      </section>
+
+      <section class="viz-section">
+        <h2>Top Performers</h2>
+        <PlayerHighlights playerStats={playerStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} liveData={liveData} client:load />
+      </section>
     </div>
-  </div>
-
-  <section class="key-stats-section">
-    <KeyStats matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
-  </section>
-
-  <div class="visualizations">
-    <section class="viz-section">
-      <h2>Team Statistics</h2>
-      <TeamStatsComparison matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
-    </section>
-
-    <section class="viz-section viz-full-width">
-      <h2>Phases of Play</h2>
-      <PhasesOfPlay matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
-    </section>
-
-    <section class="viz-section">
-      <h2>Shot Map</h2>
-      <ShotMap matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
-    </section>
-
-    <section class="viz-section">
-      <h2>Match Events</h2>
-      <EventTimeline timeline={timeline} homeTeam={match.homeTeam} awayTeam={match.awayTeam} liveData={liveData} client:load />
-    </section>
-
-    <section class="viz-section">
-      <h2>Top Performers</h2>
-      <PlayerHighlights playerStats={playerStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
-    </section>
   </div>
 </Base>
 
 <style>
-  .match-header {
+  .match-page {
     margin-bottom: var(--space-3xl);
   }
 
@@ -106,69 +93,6 @@ const playerStats = getMatchPlayerStats(id);
 
   .back-link:hover {
     opacity: 0.8;
-  }
-
-  .match-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--space-xl);
-    padding: var(--space-xl);
-    background: var(--color-bg-surface);
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-  }
-
-  .team {
-    flex: 1;
-    text-align: center;
-  }
-
-  .team-name {
-    font: var(--font-display-sm);
-    color: var(--color-text-primary);
-    margin-bottom: var(--space-sm);
-  }
-
-  .team-logo {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--color-home);
-    color: white;
-    border-radius: 50%;
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin: 0 auto;
-  }
-
-  .score-section {
-    flex: 0.8;
-    text-align: center;
-  }
-
-  .score {
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: var(--color-text-primary);
-    line-height: 1;
-    margin-bottom: var(--space-md);
-  }
-
-  .score-separator {
-    display: inline-block;
-    margin: 0 var(--space-sm);
-  }
-
-  .match-meta {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-xs);
-    font-size: 0.875rem;
-    color: var(--color-text-secondary);
-    text-transform: uppercase;
   }
 
   .key-stats-section {
@@ -200,21 +124,6 @@ const playerStats = getMatchPlayerStats(id);
   }
 
   @media (max-width: 768px) {
-    .match-info {
-      flex-direction: column;
-      gap: var(--space-lg);
-    }
-
-    .team-logo {
-      width: 60px;
-      height: 60px;
-      font-size: 1.25rem;
-    }
-
-    .score {
-      font-size: 2.5rem;
-    }
-
     .visualizations {
       grid-template-columns: 1fr;
     }

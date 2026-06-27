@@ -19,21 +19,29 @@
   const homeStats = getTeamStats(homeTeamId, matchStats);
   const awayStats = getTeamStats(awayTeamId, matchStats);
 
+  // Possession metrics
   const possession = {
     home: (homeStats.Possession * 100).toFixed(1),
     away: (awayStats.Possession * 100).toFixed(1)
   };
 
-  const xg = {
-    home: (homeStats.XG || 0).toFixed(2),
-    away: (awayStats.XG || 0).toFixed(2)
+  const finalThirdControl = {
+    home: (homeStats.FinalThirdPitchControl * 100).toFixed(1),
+    away: (awayStats.FinalThirdPitchControl * 100).toFixed(1)
   };
 
-  const passes = {
-    home: homeStats.PassesCompleted && homeStats.Passes ?
-      ((homeStats.PassesCompleted / homeStats.Passes) * 100).toFixed(0) : 0,
-    away: awayStats.PassesCompleted && awayStats.Passes ?
-      ((awayStats.PassesCompleted / awayStats.Passes) * 100).toFixed(0) : 0
+  // Pressing intensity
+  const pressures = {
+    home: homeStats.DefensivePressuresApplied || 0,
+    away: awayStats.DefensivePressuresApplied || 0
+  };
+
+  const maxPressures = Math.max(pressures.home, pressures.away) || 1;
+
+  // Ball recovery time (seconds)
+  const recoveryTime = {
+    home: (homeStats.BallRecoveryTime || 0).toFixed(1),
+    away: (awayStats.BallRecoveryTime || 0).toFixed(1)
   };
 </script>
 
@@ -52,27 +60,40 @@
   </div>
 
   <div class="stat-card">
-    <div class="stat-name">xG (Expected Goals)</div>
+    <div class="stat-name">Final Third Control</div>
     <div class="stat-comparison">
-      <div class="home" class:leading={xg.home > xg.away}>
-        {xg.home}
+      <div class="home" class:leading={finalThirdControl.home > finalThirdControl.away}>
+        {finalThirdControl.home}%
       </div>
       <div class="divider">:</div>
-      <div class="away" class:leading={xg.away > xg.home}>
-        {xg.away}
+      <div class="away" class:leading={finalThirdControl.away > finalThirdControl.home}>
+        {finalThirdControl.away}%
       </div>
     </div>
   </div>
 
   <div class="stat-card">
-    <div class="stat-name">Pass Completion</div>
+    <div class="stat-name">Pressures Applied</div>
     <div class="stat-comparison">
-      <div class="home" class:leading={passes.home > passes.away}>
-        {passes.home}%
+      <div class="home" class:leading={pressures.home > pressures.away}>
+        {pressures.home}
       </div>
       <div class="divider">:</div>
-      <div class="away" class:leading={passes.away > passes.home}>
-        {passes.away}%
+      <div class="away" class:leading={pressures.away > pressures.home}>
+        {pressures.away}
+      </div>
+    </div>
+  </div>
+
+  <div class="stat-card">
+    <div class="stat-name">Avg Recovery Time</div>
+    <div class="stat-comparison">
+      <div class="home" class:slower={recoveryTime.home > recoveryTime.away}>
+        {recoveryTime.home}s
+      </div>
+      <div class="divider">:</div>
+      <div class="away" class:slower={recoveryTime.away > recoveryTime.home}>
+        {recoveryTime.away}s
       </div>
     </div>
   </div>
@@ -130,6 +151,11 @@
   .away.leading {
     font-weight: 800;
     font-size: 1.5rem;
+  }
+
+  .home.slower,
+  .away.slower {
+    font-weight: 800;
   }
 
   .divider {

@@ -23,9 +23,21 @@
     return `Player ${playerId}`;
   };
 
+  // Map event Type integers to names
+  const typeMap = {
+    0: 'Goal',
+    2: 'YellowCard',
+    3: 'RedCard',
+    5: 'Substitution'
+  };
+
   // Filter key events only
-  const keyEventTypes = ['Goal', 'YellowCard', 'RedCard', 'Substitution'];
-  const filteredEvents = Array.isArray(timeline) ? timeline.filter(e => keyEventTypes.includes(e.EventType)) : [];
+  const keyEventTypeIds = [0, 2, 3, 5];
+  const filteredEvents = Array.isArray(timeline)
+    ? timeline
+        .filter(e => keyEventTypeIds.includes(e.Type))
+        .map(e => ({ ...e, eventTypeName: typeMap[e.Type] }))
+    : [];
 
   const getEventIcon = (type) => {
     switch (type) {
@@ -51,13 +63,13 @@
   {#if filteredEvents.length === 0}
     <div class="empty-message">No significant events recorded</div>
   {:else}
-    {#each filteredEvents as event (event.IdEvent)}
+    {#each filteredEvents as event (event.EventId)}
       <div class="event" class:home-event={liveData.HomeTeam?.IdTeam === event.IdTeam}>
-        <div class="event-time">{event.EventTime}'</div>
+        <div class="event-time">{event.MatchMinute}</div>
         <div class="event-content">
-          <div class="event-icon">{getEventIcon(event.EventType)}</div>
+          <div class="event-icon">{getEventIcon(event.eventTypeName)}</div>
           <div class="event-details">
-            <div class="event-type">{getEventLabel(event.EventType)}</div>
+            <div class="event-type">{getEventLabel(event.eventTypeName)}</div>
             <div class="event-team">{getTeamName(event.IdTeam)}</div>
             {#if event.IdPlayer}
               <div class="event-player">{getPlayerName(event.IdPlayer)}</div>

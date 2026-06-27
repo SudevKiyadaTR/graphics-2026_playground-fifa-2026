@@ -2,6 +2,19 @@
   export let playerStats = {};
   export let homeTeam = '';
   export let awayTeam = '';
+  export let liveData = {};
+
+  const getPlayerName = (playerId) => {
+    const allPlayers = [
+      ...(liveData.HomeTeam?.Players || []),
+      ...(liveData.AwayTeam?.Players || []),
+    ];
+    const player = allPlayers.find(p => p.IdPlayer === playerId);
+    if (player?.PlayerName?.[0]?.Description) {
+      return player.PlayerName[0].Description;
+    }
+    return null;
+  };
 
   const parsePlayerStats = () => {
     const players = [];
@@ -19,6 +32,7 @@
       if (goals > 0 || assists > 0 || shots >= 3 || passes >= 20) {
         players.push({
           id: playerId,
+          name: getPlayerName(playerId),
           goals,
           assists,
           shots,
@@ -47,6 +61,7 @@
     <div class="player-grid">
       {#each topPlayers as player (player.id)}
         <div class="player-card">
+          <div class="player-name">{player.name || `#${player.id}`}</div>
           <div class="player-impact" class:star={getImpactLevel(player.impact) === 'Star'} class:key={getImpactLevel(player.impact) === 'Key'}>
             {getImpactLevel(player.impact)}
           </div>
@@ -107,6 +122,15 @@
   .player-card:hover {
     border-color: var(--color-home);
     box-shadow: 0 2px 8px rgba(79, 179, 232, 0.1);
+  }
+
+  .player-name {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    text-align: center;
+    min-height: 2em;
+    line-height: 1;
   }
 
   .player-impact {

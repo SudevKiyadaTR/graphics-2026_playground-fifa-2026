@@ -130,7 +130,8 @@ export function getMatchTimeline(matchId) {
   const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
   const timelinePath = path.join(matchDir, 'timeline.json');
   if (!fs.existsSync(timelinePath)) return [];
-  return JSON.parse(fs.readFileSync(timelinePath, 'utf-8'));
+  const data = JSON.parse(fs.readFileSync(timelinePath, 'utf-8'));
+  return data.Event || [];
 }
 
 export function getMatchLive(matchId) {
