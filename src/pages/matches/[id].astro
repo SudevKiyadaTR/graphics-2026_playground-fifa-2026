@@ -1,7 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { loadMatches, getMatchById, getMatchStats, getMatchTimeline, getMatchLive, getMatchPlayerStats } from '../../lib/data.js';
+import KeyStats from '../../components/match/KeyStats.svelte';
 import TeamStatsComparison from '../../components/match/TeamStatsComparison.svelte';
+import PhasesOfPlay from '../../components/match/PhasesOfPlay.svelte';
 import EventTimeline from '../../components/match/EventTimeline.svelte';
 import PlayerHighlights from '../../components/match/PlayerHighlights.svelte';
 import ShotMap from '../../components/match/ShotMap.svelte';
@@ -56,10 +58,19 @@ const playerStats = getMatchPlayerStats(id);
     </div>
   </div>
 
+  <section class="key-stats-section">
+    <KeyStats matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
+  </section>
+
   <div class="visualizations">
     <section class="viz-section">
       <h2>Team Statistics</h2>
       <TeamStatsComparison matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
+    </section>
+
+    <section class="viz-section viz-full-width">
+      <h2>Phases of Play</h2>
+      <PhasesOfPlay matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
     </section>
 
     <section class="viz-section">
@@ -160,6 +171,10 @@ const playerStats = getMatchPlayerStats(id);
     text-transform: uppercase;
   }
 
+  .key-stats-section {
+    margin-bottom: var(--space-2xl);
+  }
+
   .visualizations {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -171,6 +186,10 @@ const playerStats = getMatchPlayerStats(id);
     border: 1px solid var(--color-border);
     border-radius: 8px;
     padding: var(--space-lg);
+  }
+
+  .viz-section.viz-full-width {
+    grid-column: 1 / -1;
   }
 
   .viz-section h2 {
