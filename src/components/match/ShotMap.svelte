@@ -6,6 +6,9 @@
   export let homeScore = 0;
   export let awayScore = 0;
 
+  let hoveredShot = null;
+  let tooltipPos = { x: 0, y: 0 };
+
   const getTeamStats = (teamId, stats) => {
     const teamStats = stats[teamId] || [];
     const statMap = {};
@@ -15,27 +18,106 @@
     return statMap;
   };
 
-  const teamIds = Object.keys(matchStats);
-  const homeTeamId = teamIds[0];
-  const awayTeamId = teamIds[1];
+  // Extract team IDs from first shot event
+  let homeTeamId = null;
+  let awayTeamId = null;
+
+  const timelineShots = (Array.isArray(timeline) ? timeline : []).filter(e => e.Type === 12 || e.Type === 0);
+  if (timelineShots.length > 0) {
+    const firstShot = timelineShots[0];
+    // Assume first team in timeline is home, find corresponding team for comparison
+    homeTeamId = String(firstShot.IdTeam);
+    // Find first shot from different team for away
+    awayTeamId = String(timelineShots.find(e => String(e.IdTeam) !== homeTeamId)?.IdTeam || firstShot.IdTeam);
+  }
 
   const homeStats = getTeamStats(homeTeamId, matchStats);
   const awayStats = getTeamStats(awayTeamId, matchStats);
 
   // Extract shots from timeline
-  const shots = (Array.isArray(timeline) ? timeline : [])
+  let shotEvents = (Array.isArray(timeline) ? timeline : [])
     .filter(e => e.Type === 12 || e.Type === 0) // 12=attempt, 0=goal
-    .map(e => ({
-      x: (e.PositionX !== undefined ? e.PositionX : 50) * 1.5,
-      y: e.PositionY !== undefined ? e.PositionY : 50,
-      isGoal: e.Type === 0,
-      team: String(e.IdTeam),
-      isHome: String(e.IdTeam) === homeTeamId
-    }))
+    .filter(e => e.PositionX !== undefined && e.PositionY !== undefined);
+
+  // Remove attempt if same player scored a goal at the same minute
+  shotEvents = shotEvents.filter(e => {
+    if (e.Type === 12) {
+      const hasGoal = shotEvents.some(
+        other => other.Type === 0 && other.IdPlayer === e.IdPlayer && other.MatchMinute === e.MatchMinute
+      );
+      if (hasGoal) return false;
+    }
+    return true;
+  });
+
+  const allShots = shotEvents.map(e => {
+      const description = e.EventDescription?.[0]?.Description || '';
+      let x = e.PositionX !== undefined ? e.PositionX : 50;
+      const isSecondHalf = e.Period === 5 || e.Period === 10; // Normalize second half coordinates
+
+      // In second half, coordinates are flipped - normalize to attacking direction
+      if (isSecondHalf && String(e.IdTeam) === homeTeamId) {
+        x = 100 - x;
+      }
+      if (isSecondHalf && String(e.IdTeam) !== homeTeamId) {
+        x = 100 - x;
+      }
+
+      let y = e.PositionY !== undefined ? e.PositionY : 50;
+
+      // Flip Y coordinate vertically for first half shots to normalize perspective
+      if (!isSecondHalf) {
+        y = 100 - y;
+      }
+
+      return {
+        x: x,
+        y: y,
+        isGoal: e.Type === 0,
+        team: String(e.IdTeam),
+        isHome: String(e.IdTeam) === homeTeamId,
+        time: e.MatchMinute || '',
+        description: description,
+        period: e.Period,
+        goalGateX: e.GoalGatePositionX,
+        goalGateY: e.GoalGatePositionY
+      };
+    })
     .filter(s => s.x !== undefined && s.y !== undefined);
 
-  const homeShots = shots.filter(s => s.isHome);
-  const awayShots = shots.filter(s => !s.isHome);
+  // Map coordinates to Opta field (800 x 524)
+  const FIELD_WIDTH = 800;
+  const FIELD_HEIGHT = 524;
+  const CENTER_X = 400;
+
+  // Split field: home team (left 0-400), away team (right 400-800)
+  const homeShots = allShots.filter(s => s.isHome).map((s, idx) => ({
+    ...s,
+    svgX: (s.x / 100) * FIELD_WIDTH,
+    svgY: (s.y / 100) * FIELD_HEIGHT,
+    shotNumber: idx + 1
+  }));
+
+  const awayShots = allShots.filter(s => !s.isHome).map((s, idx) => ({
+    ...s,
+    svgX: (s.x / 100) * FIELD_WIDTH,
+    svgY: (s.y / 100) * FIELD_HEIGHT,
+    shotNumber: idx + 1
+  }));
+
+  if (typeof window !== 'undefined') {
+    const toLog = e => ({
+      time: e.MatchMinute,
+      type: e.Type === 0 ? 'Goal' : 'Attempt',
+      description: e.EventDescription?.[0]?.Description || '',
+      x: e.PositionX,
+      y: e.PositionY,
+      period: e.Period
+    });
+    const allWithPos = (Array.isArray(timeline) ? timeline : []).filter(e => e.PositionX !== undefined && e.PositionY !== undefined);
+    console.log(`[ShotMap] ${homeTeam}:`, allWithPos.filter(e => String(e.IdTeam) === homeTeamId).map(toLog));
+    console.log(`[ShotMap] ${awayTeam}:`, allWithPos.filter(e => String(e.IdTeam) !== homeTeamId).map(toLog));
+  }
 
   // Stats summary
   const goals = {
@@ -60,53 +142,129 @@
 </script>
 
 <div class="container">
-  <svg class="pitch" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet">
-    <!-- Pitch background -->
-    <rect width="150" height="100" fill="var(--color-field)" />
+  <svg class="Opta-Responsive-Svg Opta-selectable-area" preserveAspectRatio="xMidYMid meet" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 843.2 552.8">
+    <g class="Opta-Field" transform="translate(20.8,12.8)">
+      <g class="Opta-Markings">
+        <rect y="0" x="0" width="800" height="524"></rect>
+        <line x1="400" y1="524" x2="400" y2="0"></line>
+        <circle cx="400" cy="262" r="69.71677559912854"></circle>
+        <circle cx="400" cy="262" r="2"></circle>
+        <circle cx="92" cy="262" class="Opta-Spot" r="2"></circle>
+        <circle cx="708" cy="262" class="Opta-Spot" r="2"></circle>
+        <path d="M0,413.43600000000004L136,413.43600000000004L136,110.56399999999996L0,110.56399999999996"></path>
+        <path d="M800,413.43600000000004L664,413.43600000000004L664,110.56399999999996L800,110.56399999999996"></path>
+        <path d="M0,331.168L46.4,331.168L46.4,192.832L0,192.832"></path>
+        <path d="M800,331.168L753.6,331.168L753.6,192.832L800,192.832"></path>
+        <path d="M0,287.152L-12,287.152L-12,236.848L0,236.848"></path>
+        <path d="M800,287.152L811.9999999999999,287.152L811.9999999999999,236.848L800,236.848"></path>
+        <path d="M5.763043760693427e-16,-9.411764705882353A9.411764705882353,9.411764705882353 0 0,1 9.411764705882353,0L9.411764705882353,0A9.411764705882353,9.411764705882353 0 0,0 5.763043760693427e-16,-9.411764705882353Z" transform="translate(0,524)"></path>
+        <path d="M9.411764705882353,0A9.411764705882353,9.411764705882353 0 0,1 5.763043760693427e-16,9.411764705882353L5.763043760693427e-16,9.411764705882353A9.411764705882353,9.411764705882353 0 0,0 9.411764705882353,0Z" transform="translate(0,0)"></path>
+        <path d="M5.763043760693427e-16,9.411764705882353A9.411764705882353,9.411764705882353 0 0,1 -9.411764705882353,1.1526087521386854e-15L-9.411764705882353,1.1526087521386854e-15A9.411764705882353,9.411764705882353 0 0,0 5.763043760693427e-16,9.411764705882353Z" transform="translate(800,0)"></path>
+        <path d="M-9.411764705882353,1.1526087521386854e-15A9.411764705882353,9.411764705882353 0 0,1 -1.728913128208028e-15,-9.411764705882353L-1.728913128208028e-15,-9.411764705882353A9.411764705882353,9.411764705882353 0 0,0 -9.411764705882353,1.1526087521386854e-15Z" transform="translate(800,524)"></path>
+        <path d="M44.43914525481061,-53.71769884275655A69.71677559912854,69.71677559912854 0 0,1 44.43914525481062,53.71769884275654L44.43914525481062,53.71769884275654A69.71677559912854,69.71677559912854 0 0,0 44.43914525481061,-53.71769884275655Z" transform="translate(92,262)"></path>
+        <path d="M-44.43914525481061,53.71769884275655A69.71677559912854,69.71677559912854 0 0,1 -44.4391452548106,-53.717698842756555L-44.4391452548106,-53.717698842756555A69.71677559912854,69.71677559912854 0 0,0 -44.43914525481061,53.71769884275655Z" transform="translate(708,262)"></path>
+      </g>
 
-    <!-- Field markings -->
-    <line x1="75" y1="0" x2="75" y2="100" stroke="rgba(255,255,255,0.2)" stroke-width="0.5" />
-    <circle cx="75" cy="50" r="15" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5" />
-    <circle cx="75" cy="50" r="0.75" fill="rgba(255,255,255,0.4)" />
+      <!-- Home team shots -->
+      {#each homeShots as shot, i (i)}
+        <circle
+          cx={shot.svgX}
+          cy={shot.svgY}
+          r="5"
+          fill={shot.isGoal ? 'var(--color-home)' : 'transparent'}
+          stroke="var(--color-home)"
+          stroke-width="2"
+          opacity="0.85"
+          class="shot-circle"
+          on:mouseenter={(e) => {
+            hoveredShot = shot;
+            const rect = e.currentTarget.getBoundingClientRect();
+            tooltipPos = { x: rect.left, y: rect.top };
+          }}
+          on:mouseleave={() => hoveredShot = null}
+        />
+        <text
+          x={shot.svgX}
+          y={shot.svgY}
+          text-anchor="middle"
+          dominant-baseline="middle"
+          class="shot-number home"
+          pointer-events="none"
+        >
+          {shot.shotNumber}
+        </text>
+      {/each}
 
-    <!-- Penalty areas -->
-    <rect x="0" y="17.5" width="24.75" height="65" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5" />
-    <rect x="125.25" y="17.5" width="24.75" height="65" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5" />
-
-    <!-- Goal areas -->
-    <rect x="0" y="32" width="8.25" height="36" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5" />
-    <rect x="141.75" y="32" width="8.25" height="36" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="0.5" />
-
-    <!-- Home team shots (blue) -->
-    {#each homeShots as shot}
-      <circle
-        cx={shot.x}
-        cy={shot.y}
-        r="1.5"
-        fill={shot.isGoal ? 'var(--color-home)' : 'none'}
-        stroke="var(--color-home)"
-        stroke-width="0.3"
-        opacity="0.8"
-      />
-    {/each}
-
-    <!-- Away team shots (red) -->
-    {#each awayShots as shot}
-      <circle
-        cx={shot.x}
-        cy={shot.y}
-        r="1.5"
-        fill={shot.isGoal ? 'var(--color-away)' : 'none'}
-        stroke="var(--color-away)"
-        stroke-width="0.3"
-        opacity="0.8"
-      />
-    {/each}
+      <!-- Away team shots -->
+      {#each awayShots as shot, i (homeShots.length + i)}
+        <circle
+          cx={shot.svgX}
+          cy={shot.svgY}
+          r="5"
+          fill={shot.isGoal ? 'var(--color-away)' : 'transparent'}
+          stroke="var(--color-away)"
+          stroke-width="2"
+          opacity="0.85"
+          class="shot-circle"
+          on:mouseenter={(e) => {
+            hoveredShot = shot;
+            const rect = e.currentTarget.getBoundingClientRect();
+            tooltipPos = { x: rect.left, y: rect.top };
+          }}
+          on:mouseleave={() => hoveredShot = null}
+        />
+        <text
+          x={shot.svgX}
+          y={shot.svgY}
+          text-anchor="middle"
+          dominant-baseline="middle"
+          class="shot-number away"
+          pointer-events="none"
+        >
+          {shot.shotNumber}
+        </text>
+      {/each}
+    </g>
+    <g class="Opta-events-layer"><rect x="0" y="0" width="838.4" height="549.6"></rect></g>
   </svg>
+
+  {#if hoveredShot}
+    <div class="tooltip" style="left: {tooltipPos.x + 15}px; top: {tooltipPos.y + 15}px;">
+      <div class="tooltip-row">
+        <span class="label">PositionX:</span>
+        <span class="value">{hoveredShot.x.toFixed(2)}</span>
+      </div>
+      <div class="tooltip-row">
+        <span class="label">PositionY:</span>
+        <span class="value">{hoveredShot.y.toFixed(2)}</span>
+      </div>
+      {#if hoveredShot.goalGateX !== undefined && hoveredShot.goalGateY !== undefined}
+        <div class="tooltip-row">
+          <span class="label">GoalGateX:</span>
+          <span class="value">{hoveredShot.goalGateX.toFixed(2)}</span>
+        </div>
+        <div class="tooltip-row">
+          <span class="label">GoalGateY:</span>
+          <span class="value">{hoveredShot.goalGateY.toFixed(2)}</span>
+        </div>
+      {/if}
+      <div class="tooltip-row">
+        <span class="label">Time:</span>
+        <span class="value">{hoveredShot.time}</span>
+      </div>
+      <div class="tooltip-row">
+        <span class="label">Type:</span>
+        <span class="value">{hoveredShot.isGoal ? '⚽ Goal' : 'Shot'}</span>
+      </div>
+      <div class="tooltip-row description">
+        <span class="value">{hoveredShot.description}</span>
+      </div>
+    </div>
+  {/if}
 
   <div class="legend">
     <div class="legend-row">
-      <div class="team-label home">{homeTeam}</div>
+      <div class="team-label home">{homeTeam} (Left Half)</div>
       <div class="legend-items">
         <span class="item">
           <span class="dot-filled home"></span>
@@ -120,7 +278,7 @@
     </div>
 
     <div class="legend-row">
-      <div class="team-label away">{awayTeam}</div>
+      <div class="team-label away">{awayTeam} (Right Half)</div>
       <div class="legend-items">
         <span class="item">
           <span class="dot-filled away"></span>
@@ -169,14 +327,113 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-lg);
+    position: relative;
   }
 
-  .pitch {
+  :global(.Opta-Responsive-Svg) {
     width: 100%;
     height: auto;
-    aspect-ratio: 150 / 100;
+    aspect-ratio: 843.2 / 552.8;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  :global(.Opta-Field rect[width="800"]) {
+    fill: #0d5f3b !important;
+  }
+
+  :global(.Opta-Markings line) {
+    stroke: rgba(255, 255, 255, 0.2);
+    stroke-width: 1;
+  }
+
+  :global(.Opta-Markings circle) {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.2);
+    stroke-width: 1;
+  }
+
+  :global(.Opta-Markings path) {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.2);
+    stroke-width: 1;
+  }
+
+  :global(.Opta-Spot) {
+    fill: rgba(255, 255, 255, 0.3);
+  }
+
+  :global(.Opta-events-layer rect) {
+    fill: transparent !important;
+    pointer-events: none;
+  }
+
+  :global(.shot-circle) {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+
+  :global(.shot-circle:hover) {
+    opacity: 1 !important;
+    stroke-width: 0.6;
+  }
+
+  :global(.shot-number) {
+    font-size: 12px;
+    font-weight: bold;
+    stroke: rgba(0, 0, 0, 0.5);
+    stroke-width: 0.5;
+  }
+
+  :global(.shot-number.home),
+  :global(.shot-number.away) {
+    fill: white;
+  }
+
+  .tooltip {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.95);
+    color: var(--color-text-primary);
+    padding: var(--space-md);
+    border-radius: 4px;
+    font-size: 0.7rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    pointer-events: none;
+    z-index: 100;
+    width: 240px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+  }
+
+  .tooltip-row {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-md);
+    padding: 4px 0;
+  }
+
+  .tooltip-row:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+  }
+
+  .tooltip-row.description {
+    flex-direction: column;
+    border-bottom: none;
+    padding-top: 6px;
+    margin-top: 6px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .tooltip .label {
+    font-weight: 600;
+    color: var(--color-text-secondary);
+  }
+
+  .tooltip .value {
+    font-family: monospace;
+    color: var(--color-text-primary);
   }
 
   .legend {
