@@ -4,6 +4,7 @@ import { loadMatches, getMatchById, getMatchStats, getMatchTimeline, getMatchLiv
 import MatchHero from '../../components/match/MatchHero.svelte';
 import KeyStats from '../../components/match/KeyStats.svelte';
 import ShotMap from '../../components/match/ShotMap.svelte';
+import GoalMap from '../../components/match/GoalMap.svelte';
 import PhasesOfPlay from '../../components/match/PhasesOfPlay.svelte';
 import PressIntensity from '../../components/match/PressIntensity.svelte';
 import BallProgression from '../../components/match/BallProgression.svelte';
@@ -45,6 +46,11 @@ const playerStats = getMatchPlayerStats(id);
       <section class="viz-section">
         <h2>Shots</h2>
         <ShotMap matchStats={matchStats} timeline={timeline} homeTeam={match.homeTeam} awayTeam={match.awayTeam} homeScore={match.homeScore} awayScore={match.awayScore} liveData={liveData} client:load />
+      </section>
+
+      <section class="viz-section viz-full-width">
+        <h2>Shots on Goal</h2>
+        <GoalMap timeline={timeline} liveData={liveData} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
       </section>
 
       <section class="viz-section viz-full-width">
