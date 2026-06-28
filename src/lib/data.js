@@ -140,3 +140,54 @@ export function getMatchLive(matchId) {
   if (!fs.existsSync(livePath)) return {};
   return JSON.parse(fs.readFileSync(livePath, 'utf-8'));
 }
+
+function parseMinute(str) {
+  if (!str) return null;
+  const clean = str.replace(/'/g, '');
+  const [base, extra] = clean.split('+');
+  return parseInt(base, 10) + (extra ? parseInt(extra, 10) : 0);
+}
+
+export function loadAllGoals() {
+  const matches = loadMatches();
+  const goals = [];
+
+  matches.forEach((match) => {
+    const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', match.id);
+    const timelinePath = path.join(matchDir, 'timeline.json');
+    const livePath = path.join(matchDir, 'live.json');
+    if (!fs.existsSync(timelinePath) || !fs.existsSync(livePath)) return;
+
+    const timeline = JSON.parse(fs.readFileSync(timelinePath, 'utf-8'));
+    const live = JSON.parse(fs.readFileSync(livePath, 'utf-8'));
+
+    const homeName = live.HomeTeam?.TeamName?.[0]?.Description || 'Home';
+    const awayName = live.AwayTeam?.TeamName?.[0]?.Description || 'Away';
+    const dateStr = live.Date ? live.Date.slice(0, 10) : null;
+    const duration = parseMinute(live.MatchTime);
+
+    (timeline.Event || [])
+      .filter((e) => e.Type === 0)
+      .forEach((e) => {
+        const desc = e.EventDescription?.[0]?.Description || '';
+        const scorer = desc.match(/^([^(]+)/)?.[1]?.trim() || null;
+        goals.push({
+          matchId: match.id,
+          date: dateStr,
+          matchName: `${homeName} v ${awayName}`,
+          minute: parseMinute(e.MatchMinute),
+          period: e.Period,
+          goalId: e.EventId,
+          duration,
+          scorer,
+        });
+      });
+  });
+
+  goals.sort((a, b) => {
+    if (a.date < b.date) return -1;
+    if (a.date > b.date) return 1;
+    return (a.minute ?? 0) - (b.minute ?? 0);
+  });
+  return goals;
+}

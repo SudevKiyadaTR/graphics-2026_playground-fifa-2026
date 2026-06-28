@@ -1,0 +1,226 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadAllGoals } from '../lib/data.js';
+
+const goals = loadAllGoals();
+
+// Stats for cards
+// Period 3 = first half, Period 5 = second half (from timeline.json)
+const firstHalfStoppage = goals.filter((g) => g.period === 3 && g.minute > 45).length;
+const secondHalfStoppage = goals.filter((g) => g.period === 5 && g.minute > 90).length;
+const totalStoppage = firstHalfStoppage + secondHalfStoppage;
+
+const uniqueMatches = new Set(goals.map((g) => g.matchId)).size;
+const avgGoalsPerMatch = uniqueMatches ? (goals.length / uniqueMatches).toFixed(2) : 0;
+
+// Top scorer from goal events
+const scorerCounts: Record<string, number> = {};
+for (const g of goals) {
+  if (g.scorer) scorerCounts[g.scorer] = (scorerCounts[g.scorer] ?? 0) + 1;
+}
+const topScorer = Object.entries(scorerCounts).sort((a, b) => b[1] - a[1])[0];
+
+// Match with most goals
+const goalsByMatch: Record<string, { name: string; count: number }> = {};
+for (const g of goals) {
+  if (!goalsByMatch[g.matchId]) goalsByMatch[g.matchId] = { name: g.matchName, count: 0 };
+  goalsByMatch[g.matchId].count++;
+}
+const topMatch = Object.values(goalsByMatch).sort((a, b) => b.count - a.count)[0];
+
+const latestGoal = goals.reduce((latest, g) => (g.minute ?? 0) > (latest?.minute ?? 0) ? g : latest, goals[0]);
+
+// CSV content built at build time
+const csvRows = [
+  ['#', 'Match ID', 'Date', 'Match', 'Minute', 'Scorer', 'Goal ID', 'Duration'],
+  ...goals.map((g, i) => [i + 1, g.matchId, g.date, g.matchName, g.minute ?? '', g.scorer ?? '', g.goalId, g.duration ?? '']),
+];
+const csvContent = csvRows.map((r) => r.map((v) => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\n');
+---
+
+<Base title="All Goals — FIFA 2026 Dashboard">
+  <div class="page-header">
+    <h1>All Goals</h1>
+    <p>{goals.length} goals across {uniqueMatches} matches</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <span class="card-value">{goals.length}</span>
+      <span class="card-label">Total Goals</span>
+    </div>
+    <div class="card">
+      <span class="card-value">{totalStoppage}</span>
+      <span class="card-label">Stoppage Time Goals</span>
+      <span class="card-sub">{firstHalfStoppage} after 45' · {secondHalfStoppage} after 90'</span>
+    </div>
+    <div class="card">
+      <span class="card-value">{avgGoalsPerMatch}</span>
+      <span class="card-label">Avg Goals / Match</span>
+    </div>
+    {topScorer && (
+      <div class="card">
+        <span class="card-value">{topScorer[1]}</span>
+        <span class="card-label">Top Scorer</span>
+        <span class="card-sub">{topScorer[0]}</span>
+      </div>
+    )}
+    {topMatch && (
+      <div class="card">
+        <span class="card-value">{topMatch.count}</span>
+        <span class="card-label">Most Goals in a Match</span>
+        <span class="card-sub">{topMatch.name}</span>
+      </div>
+    )}
+    {latestGoal && (
+      <div class="card">
+        <span class="card-value">{latestGoal.minute}'</span>
+        <span class="card-label">Latest Goal</span>
+        <span class="card-sub">{latestGoal.scorer ?? '—'} · {latestGoal.matchName}</span>
+      </div>
+    )}
+  </div>
+
+  <div class="table-toolbar">
+    <button id="download-csv" class="btn-download">Download CSV</button>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="num">#</th>
+          <th>Match ID</th>
+          <th>Date</th>
+          <th>Match</th>
+          <th class="num">Minute</th>
+          <th>Scorer</th>
+          <th>Goal ID</th>
+          <th class="num">Duration</th>
+        </tr>
+      </thead>
+      <tbody>
+        {goals.map((g, i) => (
+          <tr>
+            <td class="num">{i + 1}</td>
+            <td class="mono">{g.matchId}</td>
+            <td class="mono">{g.date}</td>
+            <td>{g.matchName}</td>
+            <td class="num">{g.minute ?? '—'}</td>
+            <td>{g.scorer ?? '—'}</td>
+            <td class="mono">{g.goalId}</td>
+            <td class="num">{g.duration ?? '—'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Base>
+
+<script is:inline define:vars={{ csvContent }}>
+  document.getElementById('download-csv').addEventListener('click', () => {
+    const blob = new Blob([csvContent], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'fifa-2026-goals.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+</script>
+
+<style>
+  .page-header {
+    margin-bottom: var(--space-xl);
+  }
+  .page-header p {
+    font: var(--font-body-lg);
+    color: var(--color-text-secondary);
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    margin-bottom: var(--space-2xl);
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    padding: var(--space-lg);
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    min-width: 160px;
+    flex: 1;
+  }
+  .card-value {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--color-text-primary);
+  }
+  .card-label {
+    font: var(--font-label);
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.7rem;
+  }
+  .card-sub {
+    font: var(--font-body-sm);
+    color: var(--color-text-secondary);
+    margin-top: var(--space-xs);
+  }
+
+  .table-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: var(--space-md);
+  }
+  .btn-download {
+    padding: var(--space-sm) var(--space-lg);
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font: var(--font-body-sm);
+    color: var(--color-text-primary);
+    cursor: pointer;
+  }
+  .btn-download:hover {
+    background: var(--color-border);
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font: var(--font-body-sm);
+  }
+  th, td {
+    padding: var(--space-sm) var(--space-md);
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+    white-space: nowrap;
+  }
+  th {
+    font: var(--font-label);
+    color: var(--color-text-secondary);
+    background: var(--color-bg-surface);
+  }
+  tr:hover td {
+    background: var(--color-bg-surface);
+  }
+  .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .mono {
+    font-family: monospace;
+    font-size: 0.85em;
+    color: var(--color-text-secondary);
+  }
+</style>
