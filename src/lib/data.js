@@ -134,6 +134,138 @@ export function getMatchTimeline(matchId) {
   return data.Event || [];
 }
 
+export function loadPlayerStatsPerMatch() {
+  const matches = loadMatches();
+  const { nameMap } = buildPlayerNameMap();
+  const rows = [];
+
+  matches.forEach((match) => {
+    const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', match.id);
+    const playerStatsPath = path.join(matchDir, 'player-stats.json');
+    if (!fs.existsSync(playerStatsPath)) return;
+
+    const raw = JSON.parse(fs.readFileSync(playerStatsPath, 'utf-8'));
+    Object.entries(raw).forEach(([playerId, stats]) => {
+      const nameInfo = nameMap.get(playerId);
+      const row = {
+        matchId: match.id,
+        playerName: nameInfo?.name || `Player ${playerId}`,
+        teamName: nameInfo?.teamName || 'Unknown',
+      };
+      stats.forEach(([key, value]) => {
+        row[key] = value;
+      });
+      rows.push(row);
+    });
+  });
+
+  return rows;
+}
+
+export function loadPlayerStatsConsolidated() {
+  const matches = loadMatches();
+  const { nameMap } = buildPlayerNameMap();
+  const playerMap = new Map();
+
+  matches.forEach((match) => {
+    const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', match.id);
+    const playerStatsPath = path.join(matchDir, 'player-stats.json');
+    if (!fs.existsSync(playerStatsPath)) return;
+
+    const raw = JSON.parse(fs.readFileSync(playerStatsPath, 'utf-8'));
+    Object.entries(raw).forEach(([playerId, stats]) => {
+      if (!playerMap.has(playerId)) {
+        const nameInfo = nameMap.get(playerId);
+        playerMap.set(playerId, {
+          playerName: nameInfo?.name || `Player ${playerId}`,
+          teamName: nameInfo?.teamName || 'Unknown',
+          matchCount: 0,
+        });
+      }
+      const player = playerMap.get(playerId);
+      player.matchCount += 1;
+      stats.forEach(([key, value]) => {
+        if (typeof value === 'number') {
+          player[key] = (player[key] ?? 0) + value;
+        }
+      });
+    });
+  });
+
+  return Array.from(playerMap.values()).sort((a, b) => (b.Goals ?? 0) - (a.Goals ?? 0));
+}
+
+export function loadGoalkeeperStats() {
+  const matches = loadMatches();
+  const { nameMap } = buildPlayerNameMap();
+  const gkMap = new Map();
+
+  // Build GK ID set from all live.json files
+  const gkIds = new Set();
+  matches.forEach((match) => {
+    const livePath = path.join(SCRAPED_DATA_DIR, 'matches', match.id, 'live.json');
+    if (!fs.existsSync(livePath)) return;
+    const live = JSON.parse(fs.readFileSync(livePath, 'utf-8'));
+    [live.HomeTeam, live.AwayTeam].filter(Boolean).forEach((team) => {
+      (team.Players || []).forEach((p) => {
+        if (p.Position === 0) gkIds.add(p.IdPlayer);
+      });
+    });
+  });
+
+  const SUM_KEYS = [
+    'GoalkeeperSaves', 'GoalkeeperSavesOnTarget', 'GoalKicks',
+    'GoalkeeperDefensiveActionsInsidePenaltyArea', 'GoalkeeperDefensiveActionsOutsidePenaltyArea',
+    'DistributionsCompletedUnderPressure', 'DistributionsUnderPressure',
+    'Passes', 'PassesCompleted', 'TimePlayed',
+  ];
+
+  matches.forEach((match) => {
+    const psPath = path.join(SCRAPED_DATA_DIR, 'matches', match.id, 'player-stats.json');
+    if (!fs.existsSync(psPath)) return;
+    const raw = JSON.parse(fs.readFileSync(psPath, 'utf-8'));
+
+    gkIds.forEach((gkId) => {
+      if (!raw[gkId]) return;
+      const stats = Object.fromEntries(raw[gkId].map(([k, v]) => [k, v]));
+
+      if (!gkMap.has(gkId)) {
+        const nameInfo = nameMap.get(gkId);
+        gkMap.set(gkId, {
+          playerId: String(gkId),
+          playerName: nameInfo?.name || `Player ${gkId}`,
+          teamName: nameInfo?.teamName || 'Unknown',
+          matchCount: 0,
+          ...Object.fromEntries(SUM_KEYS.map((k) => [k, 0])),
+          shotsOnTargetFaced: 0,
+        });
+      }
+      const gk = gkMap.get(gkId);
+      gk.matchCount += 1;
+      SUM_KEYS.forEach((k) => { gk[k] += stats[k] ?? 0; });
+      // infer shots-on-target faced: saves / savePercentage
+      const sp = stats.GoalkeeperSavePercentage;
+      const sv = stats.GoalkeeperSaves ?? 0;
+      if (sp > 0 && sv > 0) gk.shotsOnTargetFaced += sv / sp;
+    });
+  });
+
+  return Array.from(gkMap.values())
+    .filter((gk) => gk.matchCount > 0)
+    .map((gk) => ({
+      ...gk,
+      savePercentage: gk.shotsOnTargetFaced > 0
+        ? gk.GoalkeeperSaves / gk.shotsOnTargetFaced
+        : null,
+      distributionAccuracy: gk.DistributionsUnderPressure > 0
+        ? gk.DistributionsCompletedUnderPressure / gk.DistributionsUnderPressure
+        : null,
+      passAccuracy: gk.Passes > 0 ? gk.PassesCompleted / gk.Passes : null,
+      totalDefensiveActions: gk.GoalkeeperDefensiveActionsInsidePenaltyArea + gk.GoalkeeperDefensiveActionsOutsidePenaltyArea,
+    }))
+    .sort((a, b) => b.GoalkeeperSaves - a.GoalkeeperSaves);
+}
+
 export function getMatchLive(matchId) {
   const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
   const livePath = path.join(matchDir, 'live.json');

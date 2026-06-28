@@ -1,0 +1,452 @@
+---
+import Base from '../layouts/Base.astro';
+import GoalkeeperTable from '../components/GoalkeeperTable.svelte';
+import { loadGoalkeeperStats } from '../lib/data.js';
+
+const gks = loadGoalkeeperStats();
+const withSaves = gks.filter((g) => g.GoalkeeperSaves > 0);
+
+// Summary cards
+const totalSaves = gks.reduce((s, g) => s + g.GoalkeeperSaves, 0);
+const totalGKs = gks.length;
+const bestSavePct = [...gks]
+  .filter((g) => g.shotsOnTargetFaced >= 3 && g.savePercentage != null)
+  .sort((a, b) => b.savePercentage - a.savePercentage)[0];
+const mostSaves = gks[0];
+const mostDefActions = [...gks].sort((a, b) => b.totalDefensiveActions - a.totalDefensiveActions)[0];
+const mostGoalKicks = [...gks].sort((a, b) => b.GoalKicks - a.GoalKicks)[0];
+
+// Bar chart: top 15 GKs by saves (horizontal bars)
+const BAR_W = 600;
+const BAR_H = 28;
+const BAR_GAP = 6;
+const LABEL_W = 160;
+const NUM_W = 40;
+const chartGks = withSaves.slice(0, 15);
+const maxSaves = chartGks[0]?.GoalkeeperSaves || 1;
+const savesChartH = chartGks.length * (BAR_H + BAR_GAP);
+
+// Scatter: saves vs save% (only GKs with ≥3 shots on target faced)
+const scatterGks = gks.filter((g) => g.shotsOnTargetFaced >= 3 && g.savePercentage != null);
+const SC_W = 520;
+const SC_H = 320;
+const SC_PAD = { top: 20, right: 20, bottom: 40, left: 48 };
+const scInnerW = SC_W - SC_PAD.left - SC_PAD.right;
+const scInnerH = SC_H - SC_PAD.top - SC_PAD.bottom;
+const maxScSaves = Math.max(...scatterGks.map((g) => g.GoalkeeperSaves), 1);
+const scX = (saves: number) => (saves / maxScSaves) * scInnerW;
+const scY = (pct: number) => scInnerH - pct * scInnerH;
+
+// Distribution accuracy chart: GKs with ≥3 distributions under pressure
+const distGks = gks
+  .filter((g) => g.DistributionsUnderPressure >= 3 && g.distributionAccuracy != null)
+  .sort((a, b) => b.distributionAccuracy - a.distributionAccuracy)
+  .slice(0, 15);
+---
+
+<Base title="Goalkeepers — FIFA 2026 Dashboard">
+  <div class="page-header">
+    <h1>Goalkeepers</h1>
+    <p>{totalGKs} goalkeepers · {totalSaves} total saves</p>
+  </div>
+
+  <!-- Summary cards -->
+  <div class="cards">
+    <div class="card">
+      <span class="card-value">{totalSaves}</span>
+      <span class="card-label">Total Saves</span>
+    </div>
+    {mostSaves && (
+      <div class="card">
+        <span class="card-value">{mostSaves.GoalkeeperSaves}</span>
+        <span class="card-label">Most Saves</span>
+        <span class="card-sub">{mostSaves.playerName} · {mostSaves.teamName}</span>
+      </div>
+    )}
+    {bestSavePct && (
+      <div class="card">
+        <span class="card-value">{(bestSavePct.savePercentage * 100).toFixed(1)}%</span>
+        <span class="card-label">Best Save% (≥3 SoT)</span>
+        <span class="card-sub">{bestSavePct.playerName} · {bestSavePct.teamName}</span>
+      </div>
+    )}
+    {mostDefActions && (
+      <div class="card">
+        <span class="card-value">{mostDefActions.totalDefensiveActions}</span>
+        <span class="card-label">Most Def. Actions</span>
+        <span class="card-sub">{mostDefActions.playerName} · {mostDefActions.teamName}</span>
+      </div>
+    )}
+    {mostGoalKicks && (
+      <div class="card">
+        <span class="card-value">{mostGoalKicks.GoalKicks}</span>
+        <span class="card-label">Most Goal Kicks</span>
+        <span class="card-sub">{mostGoalKicks.playerName} · {mostGoalKicks.teamName}</span>
+      </div>
+    )}
+  </div>
+
+  <!-- Charts row -->
+  <div class="charts-row">
+
+    <!-- Saves leaderboard -->
+    <section class="chart-section">
+      <h2 class="section-title">Saves Leaderboard</h2>
+      <div class="chart-wrap">
+        <svg
+          width="100%"
+          viewBox={`0 0 ${LABEL_W + BAR_W + NUM_W + 16} ${savesChartH}`}
+          class="chart-svg"
+        >
+          {chartGks.map((gk, i) => {
+            const y = i * (BAR_H + BAR_GAP);
+            const barLen = (gk.GoalkeeperSaves / maxSaves) * BAR_W;
+            const isBest = i === 0;
+            return (
+              <>
+                <text
+                  x={LABEL_W - 8}
+                  y={y + BAR_H / 2 + 5}
+                  text-anchor="end"
+                  class={`bar-label ${isBest ? 'bar-label--best' : ''}`}
+                >
+                  {gk.playerName.length > 20 ? gk.playerName.slice(0, 19) + '…' : gk.playerName}
+                </text>
+                <rect
+                  x={LABEL_W}
+                  y={y}
+                  width={barLen}
+                  height={BAR_H}
+                  rx="3"
+                  class={`bar-rect ${isBest ? 'bar-rect--best' : ''}`}
+                />
+                <text
+                  x={LABEL_W + barLen + 6}
+                  y={y + BAR_H / 2 + 5}
+                  class="bar-value"
+                >
+                  {gk.GoalkeeperSaves}
+                </text>
+              </>
+            );
+          })}
+        </svg>
+      </div>
+    </section>
+
+    <!-- Save% vs Shots on Target scatter -->
+    <section class="chart-section">
+      <h2 class="section-title">Save% vs Shots Faced (≥3 SoT)</h2>
+      <div class="chart-wrap">
+        <svg width="100%" viewBox={`0 0 ${SC_W} ${SC_H}`} class="chart-svg">
+          <g transform={`translate(${SC_PAD.left},${SC_PAD.top})`}>
+            <!-- Grid lines -->
+            {[0, 0.25, 0.5, 0.75, 1.0].map((pct) => (
+              <>
+                <line
+                  x1={0} y1={scY(pct)} x2={scInnerW} y2={scY(pct)}
+                  stroke="var(--color-border)" stroke-width="1"
+                />
+                <text x={-6} y={scY(pct) + 4} text-anchor="end" class="axis-label">
+                  {(pct * 100).toFixed(0)}%
+                </text>
+              </>
+            ))}
+            <!-- X axis labels -->
+            {[0, Math.round(maxScSaves / 4), Math.round(maxScSaves / 2), Math.round(maxScSaves * 3 / 4), maxScSaves].map((v) => (
+              <text x={scX(v)} y={scInnerH + 24} text-anchor="middle" class="axis-label">
+                {v}
+              </text>
+            ))}
+            <!-- Axis titles -->
+            <text x={scInnerW / 2} y={scInnerH + 38} text-anchor="middle" class="axis-title">
+              Saves
+            </text>
+            <!-- Dots -->
+            {scatterGks.map((gk) => (
+              <g class="scatter-dot-group">
+                <circle
+                  cx={scX(gk.GoalkeeperSaves)}
+                  cy={scY(gk.savePercentage)}
+                  r="5"
+                  class="scatter-dot"
+                />
+                <title>{gk.playerName} ({gk.teamName}) — {gk.GoalkeeperSaves} saves, {(gk.savePercentage * 100).toFixed(1)}% save rate</title>
+              </g>
+            ))}
+            <!-- Label top performers -->
+            {scatterGks
+              .filter((g) => g.GoalkeeperSaves >= 4 || g.savePercentage >= 0.85)
+              .map((gk) => (
+                <text
+                  x={scX(gk.GoalkeeperSaves) + 7}
+                  y={scY(gk.savePercentage) + 4}
+                  class="scatter-label"
+                >
+                  {gk.playerName.split(' ').pop()}
+                </text>
+              ))
+            }
+          </g>
+        </svg>
+      </div>
+    </section>
+  </div>
+
+  <!-- Distribution accuracy chart -->
+  {distGks.length > 0 && (
+    <section class="chart-section chart-section--full">
+      <h2 class="section-title">Distribution Accuracy Under Pressure (≥3 attempts)</h2>
+      <div class="chart-wrap">
+        <svg
+          width="100%"
+          viewBox={`0 0 ${LABEL_W + BAR_W + NUM_W + 16} ${distGks.length * (BAR_H + BAR_GAP)}`}
+          class="chart-svg"
+        >
+          {distGks.map((gk, i) => {
+            const y = i * (BAR_H + BAR_GAP);
+            const barLen = gk.distributionAccuracy * BAR_W;
+            return (
+              <>
+                <text
+                  x={LABEL_W - 8}
+                  y={y + BAR_H / 2 + 5}
+                  text-anchor="end"
+                  class="bar-label"
+                >
+                  {gk.playerName.length > 20 ? gk.playerName.slice(0, 19) + '…' : gk.playerName}
+                </text>
+                <rect x={LABEL_W} y={y} width={BAR_W} height={BAR_H} rx="3" class="bar-bg" />
+                <rect x={LABEL_W} y={y} width={barLen} height={BAR_H} rx="3" class="bar-rect bar-rect--dist" />
+                <text x={LABEL_W + barLen + 6} y={y + BAR_H / 2 + 5} class="bar-value">
+                  {(gk.distributionAccuracy * 100).toFixed(1)}%
+                </text>
+              </>
+            );
+          })}
+        </svg>
+      </div>
+    </section>
+  )}
+
+  <!-- Defensive actions breakdown -->
+  <section class="chart-section chart-section--full">
+    <h2 class="section-title">Defensive Actions: Inside vs Outside Penalty Area</h2>
+    <div class="chart-wrap">
+      <svg
+        width="100%"
+        viewBox={`0 0 ${LABEL_W + BAR_W + NUM_W + 16} ${
+          gks.filter(g => g.totalDefensiveActions > 0).slice(0, 15).length * (BAR_H + BAR_GAP)
+        }`}
+        class="chart-svg"
+      >
+        {gks
+          .filter((g) => g.totalDefensiveActions > 0)
+          .slice(0, 15)
+          .map((gk, i) => {
+            const maxDA = gks.filter(g => g.totalDefensiveActions > 0)[0]?.totalDefensiveActions || 1;
+            const y = i * (BAR_H + BAR_GAP);
+            const insideLen = (gk.GoalkeeperDefensiveActionsInsidePenaltyArea / maxDA) * BAR_W;
+            const outsideLen = (gk.GoalkeeperDefensiveActionsOutsidePenaltyArea / maxDA) * BAR_W;
+            return (
+              <>
+                <text x={LABEL_W - 8} y={y + BAR_H / 2 + 5} text-anchor="end" class="bar-label">
+                  {gk.playerName.length > 20 ? gk.playerName.slice(0, 19) + '…' : gk.playerName}
+                </text>
+                <!-- inside box -->
+                <rect x={LABEL_W} y={y} width={insideLen} height={BAR_H / 2 - 1} rx="2" class="bar-rect--inside" />
+                <!-- outside box -->
+                <rect x={LABEL_W} y={y + BAR_H / 2 + 1} width={outsideLen} height={BAR_H / 2 - 1} rx="2" class="bar-rect--outside" />
+                <text x={LABEL_W + Math.max(insideLen, outsideLen) + 6} y={y + BAR_H / 2 + 5} class="bar-value">
+                  {gk.GoalkeeperDefensiveActionsInsidePenaltyArea}+{gk.GoalkeeperDefensiveActionsOutsidePenaltyArea}
+                </text>
+              </>
+            );
+          })
+        }
+      </svg>
+      <div class="legend">
+        <span class="legend-item legend-item--inside">Inside box</span>
+        <span class="legend-item legend-item--outside">Outside box</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Full sortable table -->
+  <section>
+    <h2 class="section-title">All Goalkeeper Stats</h2>
+    <p class="section-sub">Click any column header to sort</p>
+    <GoalkeeperTable goalkeepers={gks} client:load />
+  </section>
+</Base>
+
+<style>
+  .page-header {
+    margin-bottom: var(--space-xl);
+  }
+  .page-header p {
+    font: var(--font-body-lg);
+    color: var(--color-text-secondary);
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    margin-bottom: var(--space-2xl);
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    padding: var(--space-lg);
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    min-width: 160px;
+    flex: 1;
+  }
+  .card-value {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--color-text-primary);
+  }
+  .card-label {
+    font: var(--font-label);
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.7rem;
+  }
+  .card-sub {
+    font: var(--font-body-sm);
+    color: var(--color-text-secondary);
+    margin-top: var(--space-xs);
+  }
+
+  .charts-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+    margin-bottom: var(--space-xl);
+  }
+  @media (max-width: 900px) {
+    .charts-row {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .chart-section {
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: var(--space-lg);
+    margin-bottom: var(--space-xl);
+  }
+  .chart-section--full {
+    width: 100%;
+  }
+
+  .section-title {
+    font: var(--font-display-sm);
+    color: var(--color-text-primary);
+    margin: 0 0 var(--space-md) 0;
+  }
+  .section-sub {
+    font: var(--font-body-sm);
+    color: var(--color-text-secondary);
+    margin: calc(-1 * var(--space-sm)) 0 var(--space-md);
+  }
+
+  .chart-wrap {
+    overflow-x: auto;
+  }
+  .chart-svg {
+    display: block;
+  }
+
+  /* SVG text styles via global (scoped won't reach SVG text) */
+  .legend {
+    display: flex;
+    gap: var(--space-lg);
+    margin-top: var(--space-sm);
+    font: var(--font-body-sm);
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    color: var(--color-text-secondary);
+  }
+  .legend-item::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    border-radius: 2px;
+  }
+  .legend-item--inside::before {
+    background: #4fb3e8;
+  }
+  .legend-item--outside::before {
+    background: #7c5cce;
+  }
+</style>
+
+<style is:global>
+  /* SVG styles must be global to reach SVG elements */
+  .bar-label {
+    font-size: 12px;
+    fill: var(--color-text-secondary);
+  }
+  .bar-label--best {
+    fill: var(--color-text-primary);
+    font-weight: 600;
+  }
+  .bar-rect {
+    fill: #253144;
+  }
+  .bar-rect--best {
+    fill: #4fb3e8;
+  }
+  .bar-rect--dist {
+    fill: #2bb56a;
+  }
+  .bar-bg {
+    fill: #1a2535;
+  }
+  .bar-value {
+    font-size: 12px;
+    fill: var(--color-text-secondary);
+    font-variant-numeric: tabular-nums;
+  }
+  .axis-label {
+    font-size: 11px;
+    fill: var(--color-text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .axis-title {
+    font-size: 11px;
+    fill: var(--color-text-secondary);
+  }
+  .scatter-dot {
+    fill: #4fb3e8;
+    opacity: 0.75;
+    transition: opacity 0.15s;
+  }
+  .scatter-dot-group:hover .scatter-dot {
+    opacity: 1;
+    r: 7;
+  }
+  .scatter-label {
+    font-size: 10px;
+    fill: var(--color-text-secondary);
+  }
+  .bar-rect--inside {
+    fill: #4fb3e8;
+  }
+  .bar-rect--outside {
+    fill: #7c5cce;
+  }
+</style>
