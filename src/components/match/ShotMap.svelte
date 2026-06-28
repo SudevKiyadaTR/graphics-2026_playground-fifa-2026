@@ -5,6 +5,7 @@
   export let awayTeam = '';
   export let homeScore = 0;
   export let awayScore = 0;
+  export let liveData = {};
 
   let hoveredShot = null;
   let tooltipPos = { x: 0, y: 0 };
@@ -18,18 +19,9 @@
     return statMap;
   };
 
-  // Extract team IDs from first shot event
-  let homeTeamId = null;
-  let awayTeamId = null;
-
-  const timelineShots = (Array.isArray(timeline) ? timeline : []).filter(e => e.Type === 12 || e.Type === 0);
-  if (timelineShots.length > 0) {
-    const firstShot = timelineShots[0];
-    // Assume first team in timeline is home, find corresponding team for comparison
-    homeTeamId = String(firstShot.IdTeam);
-    // Find first shot from different team for away
-    awayTeamId = String(timelineShots.find(e => String(e.IdTeam) !== homeTeamId)?.IdTeam || firstShot.IdTeam);
-  }
+  // Authoritative team IDs from live data
+  const homeTeamId = String(liveData.HomeTeam?.IdTeam || '');
+  const awayTeamId = String(liveData.AwayTeam?.IdTeam || '');
 
   const homeStats = getTeamStats(homeTeamId, matchStats);
   const awayStats = getTeamStats(awayTeamId, matchStats);
@@ -52,23 +44,10 @@
 
   const allShots = shotEvents.map(e => {
       const description = e.EventDescription?.[0]?.Description || '';
-      let x = e.PositionX !== undefined ? e.PositionX : 50;
-      const isSecondHalf = e.Period === 5 || e.Period === 10; // Normalize second half coordinates
-
-      // In second half, coordinates are flipped - normalize to attacking direction
-      if (isSecondHalf && String(e.IdTeam) === homeTeamId) {
-        x = 100 - x;
-      }
-      if (isSecondHalf && String(e.IdTeam) !== homeTeamId) {
-        x = 100 - x;
-      }
-
-      let y = e.PositionY !== undefined ? e.PositionY : 50;
-
-      // Flip Y coordinate vertically for first half shots to normalize perspective
-      if (!isSecondHalf) {
-        y = 100 - y;
-      }
+      // Period 5/10 = second half; teams swap ends so flip both axes to normalize
+      const isSecondHalf = e.Period === 5 || e.Period === 10;
+      const x = isSecondHalf ? 100 - e.PositionX : e.PositionX;
+      const y = isSecondHalf ? 100 - e.PositionY : e.PositionY;
 
       return {
         x: x,
@@ -91,16 +70,19 @@
   const CENTER_X = 400;
 
   // Split field: home team (left 0-400), away team (right 400-800)
+  // Flip x so home attacks the LEFT goal (home on left, away on right)
+  const toSvgX = (x) => ((100 - x) / 100) * FIELD_WIDTH;
+
   const homeShots = allShots.filter(s => s.isHome).map((s, idx) => ({
     ...s,
-    svgX: (s.x / 100) * FIELD_WIDTH,
+    svgX: toSvgX(s.x),
     svgY: (s.y / 100) * FIELD_HEIGHT,
     shotNumber: idx + 1
   }));
 
   const awayShots = allShots.filter(s => !s.isHome).map((s, idx) => ({
     ...s,
-    svgX: (s.x / 100) * FIELD_WIDTH,
+    svgX: toSvgX(s.x),
     svgY: (s.y / 100) * FIELD_HEIGHT,
     shotNumber: idx + 1
   }));
@@ -164,6 +146,10 @@
         <path d="M44.43914525481061,-53.71769884275655A69.71677559912854,69.71677559912854 0 0,1 44.43914525481062,53.71769884275654L44.43914525481062,53.71769884275654A69.71677559912854,69.71677559912854 0 0,0 44.43914525481061,-53.71769884275655Z" transform="translate(92,262)"></path>
         <path d="M-44.43914525481061,53.71769884275655A69.71677559912854,69.71677559912854 0 0,1 -44.4391452548106,-53.717698842756555L-44.4391452548106,-53.717698842756555A69.71677559912854,69.71677559912854 0 0,0 -44.43914525481061,53.71769884275655Z" transform="translate(708,262)"></path>
       </g>
+
+      <!-- Team side labels -->
+      <text x="100" y="24" text-anchor="middle" class="side-label home-side">{homeTeam}</text>
+      <text x="700" y="24" text-anchor="middle" class="side-label away-side">{awayTeam}</text>
 
       <!-- Home team shots -->
       {#each homeShots as shot, i (i)}
@@ -264,7 +250,7 @@
 
   <div class="legend">
     <div class="legend-row">
-      <div class="team-label home">{homeTeam} (Left Half)</div>
+      <div class="team-label home">{homeTeam}</div>
       <div class="legend-items">
         <span class="item">
           <span class="dot-filled home"></span>
@@ -278,7 +264,7 @@
     </div>
 
     <div class="legend-row">
-      <div class="team-label away">{awayTeam} (Right Half)</div>
+      <div class="team-label away">{awayTeam}</div>
       <div class="legend-items">
         <span class="item">
           <span class="dot-filled away"></span>
@@ -377,6 +363,17 @@
     opacity: 1 !important;
     stroke-width: 0.6;
   }
+
+  :global(.side-label) {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  :global(.home-side) { fill: var(--color-home); }
+  :global(.away-side) { fill: var(--color-away); }
 
   :global(.shot-number) {
     font-size: 12px;

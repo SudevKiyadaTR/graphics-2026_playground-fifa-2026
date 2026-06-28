@@ -44,7 +44,7 @@ const playerStats = getMatchPlayerStats(id);
       <!-- Row 1: Shot Map + Phases -->
       <section class="viz-section">
         <h2>Shots</h2>
-        <ShotMap matchStats={matchStats} timeline={timeline} homeTeam={match.homeTeam} awayTeam={match.awayTeam} homeScore={match.homeScore} awayScore={match.awayScore} client:load />
+        <ShotMap matchStats={matchStats} timeline={timeline} homeTeam={match.homeTeam} awayTeam={match.awayTeam} homeScore={match.homeScore} awayScore={match.awayScore} liveData={liveData} client:load />
       </section>
 
       <section class="viz-section viz-full-width">
