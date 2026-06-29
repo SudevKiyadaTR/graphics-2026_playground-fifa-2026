@@ -295,7 +295,7 @@ export function loadAllGoals() {
 
     const homeName = live.HomeTeam?.TeamName?.[0]?.Description || 'Home';
     const awayName = live.AwayTeam?.TeamName?.[0]?.Description || 'Away';
-    const dateStr = live.Date ? live.Date.slice(0, 10) : null;
+    const dateStr = (live.LocalDate || live.Date || '').slice(0, 10) || null;
     const duration = parseMinute(live.MatchTime);
 
     (timeline.Event || [])
@@ -308,6 +308,7 @@ export function loadAllGoals() {
           date: dateStr,
           matchName: `${homeName} v ${awayName}`,
           minute: parseMinute(e.MatchMinute),
+          rawMinute: e.MatchMinute ?? null,
           period: e.Period,
           goalId: e.EventId,
           duration,

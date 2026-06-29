@@ -20,38 +20,37 @@
 
 <div class="hero">
   <div class="match-info">
-    <div class="team home">
-      <div class="team-badge">{homeTeamName.slice(0, 3).toUpperCase()}</div>
-      <div class="team-name">{homeTeamName}</div>
-      <div class="tactics">({homeTactics})</div>
-    </div>
-
-    <div class="score-box">
-      <div class="score">
-        {match.homeScore !== null ? match.homeScore : '-'}
-        <span class="separator">-</span>
-        {match.awayScore !== null ? match.awayScore : '-'}
+    <div class="teams-row">
+      <div class="team home">
+        <div class="team-name">{homeTeamName}</div>
+        <div class="tactics">({homeTactics})</div>
       </div>
-      <div class="meta">
-        <span>{match.stage}</span>
-        <span>•</span>
-        <span>{match.group}</span>
+
+      <div class="score-box">
+        <div class="score">
+          {match.homeScore !== null ? match.homeScore : '-'}
+          <span class="separator">-</span>
+          {match.awayScore !== null ? match.awayScore : '-'}
+        </div>
+        <div class="meta">
+          <span>{match.stage}</span>
+          <span>•</span>
+          <span>{match.group}</span>
+        </div>
+        <div class="subline">
+          <span>{new Date(match.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+          <span>•</span>
+          <span>{stadiumName}</span>
+          <span>•</span>
+          <span>Attendance: {attendance}</span>
+        </div>
+      </div>
+
+      <div class="team away">
+        <div class="team-name">{awayTeamName}</div>
+        <div class="tactics">({awayTactics})</div>
       </div>
     </div>
-
-    <div class="team away">
-      <div class="team-badge">{awayTeamName.slice(0, 3).toUpperCase()}</div>
-      <div class="team-name">{awayTeamName}</div>
-      <div class="tactics">({awayTactics})</div>
-    </div>
-  </div>
-
-  <div class="subline">
-    <span>{new Date(match.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
-    <span>•</span>
-    <span>{stadiumName}</span>
-    <span>•</span>
-    <span>Attendance: {attendance}</span>
   </div>
 </div>
 
@@ -61,10 +60,6 @@
   }
 
   .match-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--space-xl);
     padding: var(--space-xl);
     background: var(--color-bg-surface);
     border: 1px solid var(--color-border);
@@ -72,31 +67,16 @@
     margin-bottom: var(--space-lg);
   }
 
+  .teams-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-xl);
+  }
+
   .team {
     flex: 1;
     text-align: center;
-  }
-
-  .team-badge {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 1.5rem;
-    border-radius: 50%;
-    margin: 0 auto var(--space-sm);
-  }
-
-  .team.home .team-badge {
-    background: var(--color-home);
-    color: white;
-  }
-
-  .team.away .team-badge {
-    background: var(--color-away);
-    color: white;
   }
 
   .team-name {
@@ -111,7 +91,7 @@
   }
 
   .score-box {
-    flex: 0.8;
+    flex: 1.4;
     text-align: center;
   }
 
@@ -141,20 +121,15 @@
     display: flex;
     gap: var(--space-sm);
     justify-content: center;
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     color: var(--color-text-secondary);
+    margin-top: var(--space-sm);
   }
 
   @media (max-width: 768px) {
-    .match-info {
+    .teams-row {
       flex-direction: column;
       gap: var(--space-lg);
-    }
-
-    .team-badge {
-      width: 60px;
-      height: 60px;
-      font-size: 1.25rem;
     }
 
     .score {

@@ -1,0 +1,3193 @@
+{
+  "competitionId": 285023,
+  "matchId": 151630,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-26T10:24:01.522656Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 390259,
+      "attackingRank": 13,
+      "defensiveRank": 20,
+      "creativityRank": 8,
+      "attackingScore": 4.971397876739502,
+      "defensiveScore": 4.656888008117676,
+      "creativityScore": 6.667660236358643,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Weston McKENNIE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ويستون ماكيني"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Weston McKENNIE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Weston McKENNIE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Weston McKENNIE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Weston McKENNIE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Weston McKENNIE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウェストン・マッケニー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "웨스턴 맥케니"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Weston McKENNIE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Weston McKENNIE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Уэстон МакКЕННИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "4406F0AD-8F60-4A98-89C089797BFE804D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4406f0ad-8f60-4a98-89c0-89797bfe804d/McKENNIE-Weston_390259"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 390267,
+      "attackingRank": 5,
+      "defensiveRank": 14,
+      "creativityRank": 3,
+      "attackingScore": 6.083499431610107,
+      "defensiveScore": 4.822619438171387,
+      "creativityScore": 7.450272560119629,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Christian PULISIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كريستيان بوليسيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Christian PULISIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Christian PULISIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Christian PULISIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Christian PULISIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Christian PULISIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クリスチャン・プリシッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크리스티안 풀리시치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Christian PULISIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Christian PULISIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кристиан ПУЛИСИЧ"
+        }
+      ],
+      "playerPicture": {
+        "id": "34D1C247-2A09-4FD6-87BC71EC687A54AA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/34d1c247-2a09-4fd6-87bc-71ec687a54aa/PULISIC-Christian_390267"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 390272,
+      "attackingRank": 3,
+      "defensiveRank": 3,
+      "creativityRank": 19,
+      "attackingScore": 7.812369346618652,
+      "defensiveScore": 6.4729766845703125,
+      "creativityScore": 5.1880974769592285,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Auston TRUSTY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوستون تراستي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Auston TRUSTY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Auston TRUSTY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Auston TRUSTY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Auston TRUSTY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Auston TRUSTY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストン・トラスティ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오스턴 트러스티"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Auston TRUSTY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Auston TRUSTY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Остон ТРАСТИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "奥斯顿-特鲁斯蒂"
+        }
+      ],
+      "playerPicture": {
+        "id": "E14EE5AA-4770-492A-9E5195343310E5D9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e14ee5aa-4770-492a-9e51-95343310e5d9/TRUSTY-Auston_390272"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 390278,
+      "attackingRank": 7,
+      "defensiveRank": 15,
+      "creativityRank": 14,
+      "attackingScore": 5.407748222351074,
+      "defensiveScore": 4.803365707397461,
+      "creativityScore": 5.9298176765441895,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alex ZENDEJAS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أليكس زيندياس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Alex ZENDEJAS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alex ZENDEJAS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Alex ZENDEJAS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Alex ZENDEJAS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Alex ZENDEJAS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アレックス・ゼンデハス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알렉스 젠데하스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alex ZENDEJAS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Alex ZENDEJAS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алекс ЗЕНДЕХАС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "亚历克斯·赞德哈斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "C23FE669-C31A-45E3-B5B2BBE9ECB8B4DE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c23fe669-c31a-45e3-b5b2-bbe9ecb8b4de/ZENDEJAS-Alex_390278"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 406280,
+      "attackingRank": 8,
+      "defensiveRank": 18,
+      "creativityRank": 13,
+      "attackingScore": 5.1643781661987305,
+      "defensiveScore": 4.725520133972168,
+      "creativityScore": 5.935070991516113,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Sergino DEST"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سيرجينو ديست"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Sergino DEST"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sergino DEST"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Sergino DEST"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Sergino DEST"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sergino DEST"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "セルジーノ・デスト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "세르지노 데스트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Sergino DEST"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Sergino DEST"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Сержино ДЕСТ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "塞尔吉诺·德斯特"
+        }
+      ],
+      "playerPicture": {
+        "id": "5EE00BD8-552E-4E02-B680B16534E53493",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5ee00bd8-552e-4e02-b680-b16534e53493/DEST-Sergino_406280"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 406304,
+      "attackingRank": 15,
+      "defensiveRank": 22,
+      "creativityRank": 22,
+      "attackingScore": 4.628440856933594,
+      "defensiveScore": 4.562200546264648,
+      "creativityScore": 4.856003284454346,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Timothy WEAH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تيموثي ويه"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Timothy WEAH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Timothy WEAH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Timothy WEAH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Timothy WEAH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Timothy WEAH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ティモシー・ウィア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "티모시 위아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Timothy WEAH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Timothy WEAH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тимоти ВЕА"
+        }
+      ],
+      "playerPicture": {
+        "id": "C0DCFA0A-B862-4CD2-9C33034BD18DC231",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c0dcfa0a-b862-4cd2-9c33-034bd18dc231/WEAH-Timothy_406304"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 419055,
+      "attackingRank": 10,
+      "defensiveRank": 16,
+      "creativityRank": 17,
+      "attackingScore": 5.044875144958496,
+      "defensiveScore": 4.760150909423828,
+      "creativityScore": 5.54703950881958,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Brenden AARONSON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بريندن آرونسون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brenden AARONSON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brenden AARONSON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brenden AARONSON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brenden AARONSON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brenden AARONSON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブレンデン・アーロンソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브렌든 아론슨"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brenden AARONSON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Brenden AARONSON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бренден ААРОНСОН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "布伦登·阿伦森"
+        }
+      ],
+      "playerPicture": {
+        "id": "8352F743-68BC-4077-AD835CD22F1A62DD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8352f743-68bc-4077-ad83-5cd22f1a62dd/AARONSON-Brenden_419055"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 419068,
+      "attackingRank": 12,
+      "defensiveRank": 11,
+      "creativityRank": 6,
+      "attackingScore": 5.009440898895264,
+      "defensiveScore": 5.019161701202393,
+      "creativityScore": 6.791644096374512,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Giovanni REYNA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيوفاني رينا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Giovanni REYNA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Giovanni REYNA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Giovanni REYNA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Giovanni REYNA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giovanni REYNA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョバンニ・レイナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "조반니 레이나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Giovanni REYNA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Giovanni REYNA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джованни Рейна"
+        }
+      ],
+      "playerPicture": {
+        "id": "B30D701D-D9EB-4B2D-8DB46841FC9ED1A9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b30d701d-d9eb-4b2d-8db4-6841fc9ed1a9/REYNA-Giovanni_419068"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 419077,
+      "attackingRank": 24,
+      "defensiveRank": 8,
+      "creativityRank": 24,
+      "attackingScore": 4,
+      "defensiveScore": 5.852412223815918,
+      "creativityScore": 4.175451278686523,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 14,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 14,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mark McKENZIE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مارك ماكنزي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mark McKENZIE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Mark McKENZIE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mark McKENZIE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mark McKENZIE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Mark McKENZIE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マーク・マッケンジー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마크 맥켄지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Mark McKENZIE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Mark McKENZIE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марк Маккензи"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "马克·麦肯齐"
+        }
+      ],
+      "playerPicture": {
+        "id": "492AD87D-F9A1-449E-936164323405107B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/492ad87d-f9a1-449e-9361-64323405107b/McKENZIE-Mark_419077"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 419082,
+      "attackingRank": 16,
+      "defensiveRank": 19,
+      "creativityRank": 21,
+      "attackingScore": 4.5821099281311035,
+      "defensiveScore": 4.715740203857422,
+      "creativityScore": 5.1377482414245605,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ricardo PEPI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ريكاردو بيبي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ricardo PEPI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ricardo PEPI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ricardo PEPI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ricardo PEPI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ricardo PEPI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "リカルド・ペピ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "리카르도 페피"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ricardo PEPI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ricardo PEPI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рикардо ПЕПИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "里卡多·佩皮"
+        }
+      ],
+      "playerPicture": {
+        "id": "2A7C4D85-FA83-40EC-A953D4CEBBD63480",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2a7c4d85-fa83-40ec-a953-d4cebbd63480/PEPI-Ricardo_419082"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 423700,
+      "attackingRank": 22,
+      "defensiveRank": 1,
+      "creativityRank": 10,
+      "attackingScore": 4.2693352699279785,
+      "defensiveScore": 6.581518173217773,
+      "creativityScore": 6.059611797332764,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Joe SCALLY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جو سكالي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Joe SCALLY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Joe SCALLY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Joe SCALLY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Joe SCALLY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Joe SCALLY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョー・スカリー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "조 스칼리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Joe SCALLY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Joe SCALLY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джо СКАЛЛИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "约瑟夫·斯卡利"
+        }
+      ],
+      "playerPicture": {
+        "id": "86A32B0D-9007-4451-BBC6A383A284F32F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/86a32b0d-9007-4451-bbc6-a383a284f32f/SCALLY-Joe_423700"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 436599,
+      "attackingRank": 21,
+      "defensiveRank": 2,
+      "creativityRank": 20,
+      "attackingScore": 4.335772514343262,
+      "defensiveScore": 6.5611138343811035,
+      "creativityScore": 5.177333354949951,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Miles ROBINSON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مايلز روبنسون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Miles ROBINSON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Miles ROBINSON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Miles ROBINSON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Miles ROBINSON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Miles ROBINSON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マイルズ・ロビンソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마일스 로빈슨"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Miles ROBINSON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Miles ROBINSON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Майлз РОБИНСОН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "迈尔斯·罗宾逊"
+        }
+      ],
+      "playerPicture": {
+        "id": "30B49573-5890-4DC2-8E78A8AB7D00D43E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/30b49573-5890-4dc2-8e78-a8ab7d00d43e/ROBINSON-Miles_436599"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 464542,
+      "attackingRank": 9,
+      "defensiveRank": 7,
+      "creativityRank": 12,
+      "attackingScore": 5.084884166717529,
+      "defensiveScore": 6.201141357421875,
+      "creativityScore": 5.994696140289307,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alex FREEMAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أليكس فريمان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Alex FREEMAN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alex FREEMAN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Alex FREEMAN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Alex FREEMAN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Alex FREEMAN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アレックス・フリーマン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알렉스 프리먼"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alex FREEMAN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Alex FREEMAN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алекс ФРИМЭН"
+        }
+      ],
+      "playerPicture": {
+        "id": "554008B5-0520-4B67-8CABC72BA087471F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/554008b5-0520-4b67-8cab-c72ba087471f/FREEMAN-Alex_464542"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 499912,
+      "attackingRank": 1,
+      "defensiveRank": 24,
+      "creativityRank": 2,
+      "attackingScore": 9.005586624145508,
+      "defensiveScore": 4.403635025024414,
+      "creativityScore": 7.922402858734131,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 14,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Sebastian BERHALTER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سيباستيان بيرهالتر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Sebastian BERHALTER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sebastian BERHALTER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Sebastian BERHALTER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Sebastian BERHALTER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sebastian BERHALTER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "セバスティアン・ベルハルター"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "세바스티안 베르할터"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Sebastian BERHALTER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Sebastian BERHALTER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Себастьян БЕРХАЛТЕР"
+        }
+      ],
+      "playerPicture": {
+        "id": "EF9AEDBE-E6E8-4EBA-9E62BEAC982879EF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ef9aedbe-e6e8-4eba-9e62-beac982879ef/BERHALTER-Sebastian_499912"
+      }
+    },
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 389907,
+      "attackingRank": 23,
+      "defensiveRank": 4,
+      "creativityRank": 18,
+      "attackingScore": 4.045888423919678,
+      "defensiveScore": 6.455293655395508,
+      "creativityScore": 5.18992280960083,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Salih OZCAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "صالح أوزكان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Salih OZCAN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Salih OZCAN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Salih OZCAN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Salih OZCAN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Salih OZCAN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "サリフ・オズカン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "살리흐 오즈칸"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Salih OZCAN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Salih OZCAN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Салих ОЗКАН"
+        }
+      ],
+      "playerPicture": {
+        "id": "1E968B8D-1B4C-4BCE-86B78A4AD87EEF3A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1e968b8d-1b4c-4bce-86b7-8a4ad87eef3a/OZCAN-Salih_389907"
+      }
+    },
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 406249,
+      "attackingRank": 20,
+      "defensiveRank": 6,
+      "creativityRank": 23,
+      "attackingScore": 4.381218910217285,
+      "defensiveScore": 6.203635215759277,
+      "creativityScore": 4.850854396820068,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ozan KABAK"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوزان كاباك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ozan KABAK"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ozan KABAK"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ozan KABAK"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ozan KABAK"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ozan KABAK"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オザン・カバク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오잔 카박"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ozan KABAK"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ozan KABAK"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Озан КАБАК"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "奥赞·卡巴克"
+        }
+      ],
+      "playerPicture": {
+        "id": "C42910DB-C5E6-4706-BC991E08456BD3EF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c42910db-c5e6-4706-bc99-1e08456bd3ef/KABAK-Ozan_406249"
+      }
+    },
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 433072,
+      "attackingRank": 19,
+      "defensiveRank": 5,
+      "creativityRank": 9,
+      "attackingScore": 4.397857666015625,
+      "defensiveScore": 6.433188438415527,
+      "creativityScore": 6.316897869110107,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Zeki CELIK"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "زيكي سيليك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Zeki CELIK"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Zeki CELIK"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Zeki CELIK"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Zeki CELIK"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Zeki CELIK"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ゼキ・チェリック"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "제키 셀릭"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Zeki CELIK"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Zeki CELIK"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Зеки ЧЕЛИК"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "泽基•切利克"
+        }
+      ],
+      "playerPicture": {
+        "id": "903B63C2-AB06-47B8-911CBF4F026601FD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/903b63c2-ab06-47b8-911c-bf4f026601fd/CELIK-Zeki_433072"
+      }
+    },
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 433118,
+      "attackingRank": 6,
+      "defensiveRank": 10,
+      "creativityRank": 4,
+      "attackingScore": 5.917932987213135,
+      "defensiveScore": 5.103719234466553,
+      "creativityScore": 7.387975215911865,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Orkun KOKCU"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوركون كوكجو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Orkun KOKCU"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Orkun KOKCU"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Orkun KOKCU"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Orkun KOKCU"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Orkun KOKCU"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オルクン・コクチュ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오르쿤 코크추"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Orkun KOKCU"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Orkun KOKCU"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Оркун КОКЧУ"
+        }
+      ],
+      "playerPicture": {
+        "id": "90A510FF-865F-4293-A59B8A92E12A89B0",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/90a510ff-865f-4293-a59b-8a92e12a89b0/KOKCU-Orkun_433118"
+      }
+    },
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 484065,
+      "attackingRank": 17,
+      "defensiveRank": 12,
+      "creativityRank": 16,
+      "attackingScore": 4.464543342590332,
+      "defensiveScore": 5.013880729675293,
+      "creativityScore": 5.791301727294922,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Eren ELMALI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إيرين إلمالي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Eren ELMALI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Eren ELMALI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Eren ELMALI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Eren ELMALI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Eren ELMALI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エレン・エルマリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에렌 엘말리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Eren ELMALI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Eren ELMALI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эрен ЭЛЬМАЛИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "9E9CF618-403B-4984-801D3E82F0E11D3E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9e9cf618-403b-4984-801d-3e82f0e11d3e/ELMALI-Eren_484065"
+      }
+    },
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 484082,
+      "attackingRank": 14,
+      "defensiveRank": 9,
+      "creativityRank": 15,
+      "attackingScore": 4.6839423179626465,
+      "defensiveScore": 5.340917110443115,
+      "creativityScore": 5.80244779586792,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Abdulkerim BARDAKCI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "عبد الكريم بارداكجي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Abdulkerim BARDAKCI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Abdulkerim BARDAKCI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Abdulkerim BARDAKCI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Abdulkerim BARDAKCI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Abdulkerim BARDAKCI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アブドゥルケリム・バルダクチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "압둘케림 바르닥치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Abdulkerim BARDAKCI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Abdulkerim BARDAKCI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Абдулкерим БАРДАКЧИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "DE2B1023-3AEE-4233-B83D07F94FD288D4",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/de2b1023-3aee-4233-b83d-07f94fd288d4/BARDAKCI-Abdulkerim_484082"
+      }
+    },
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 484087,
+      "attackingRank": 2,
+      "defensiveRank": 13,
+      "creativityRank": 1,
+      "attackingScore": 8.68491268157959,
+      "defensiveScore": 4.969235420227051,
+      "creativityScore": 8.327446937561035,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Arda GULER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أردا غولر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Arda GULER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Arda GULER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Arda GULER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Arda GULER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Arda GULER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルダ・ギュレル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르다 굴러"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Arda GULER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Arda GULER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Арда ГУЛЕР"
+        }
+      ],
+      "playerPicture": {
+        "id": "E2F26175-13AC-4850-ACD76408DE06CE19",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e2f26175-13ac-4850-acd7-6408de06ce19/GULER-Arda_484087"
+      }
+    },
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 484112,
+      "attackingRank": 11,
+      "defensiveRank": 21,
+      "creativityRank": 11,
+      "attackingScore": 5.03568172454834,
+      "defensiveScore": 4.590970039367676,
+      "creativityScore": 6.054422855377197,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Kenan YILDIZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كينان يلدز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kenan YILDIZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Kenan YILDIZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Kenan YILDIZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kenan YILDIZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Kenan YILDIZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ケナン・イルディズ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "케난 일디즈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Kenan YILDIZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Kenan YILDIZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кенан ЙИЛДИЗ"
+        }
+      ],
+      "playerPicture": {
+        "id": "7DFF809E-A965-4B36-A7B58DA772FC96A5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7dff809e-a965-4b36-a7b5-8da772fc96a5/YILDIZ-Kenan_484112"
+      }
+    },
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 484139,
+      "attackingRank": 4,
+      "defensiveRank": 23,
+      "creativityRank": 5,
+      "attackingScore": 7.5293450355529785,
+      "defensiveScore": 4.4969377517700195,
+      "creativityScore": 6.95342493057251,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Baris Alper YILMAZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "باريس ألبير ييلماز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Baris Alper YILMAZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Baris Alper YILMAZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Baris Alper YILMAZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Baris Alper YILMAZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Baris Alper YILMAZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "バリシュ・アルペル・イルマズ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "바리스 알페르 일마즈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Baris Alper YILMAZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Baris Alper YILMAZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Барис Альпер ЙИЛМАЗ"
+        }
+      ],
+      "playerPicture": {
+        "id": "49E46D17-BF69-41B1-A8DF5AEABF137C7D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/49e46d17-bf69-41b1-a8df-5aeabf137c7d/YILMAZ-Baris-Alper_484139"
+      }
+    },
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 486076,
+      "attackingRank": 18,
+      "defensiveRank": 17,
+      "creativityRank": 7,
+      "attackingScore": 4.416997909545898,
+      "defensiveScore": 4.755002021789551,
+      "creativityScore": 6.687122821807861,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Oguz AYDIN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوغوز أيدين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Oguz AYDIN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Oguz AYDIN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Oguz AYDIN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Oguz AYDIN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Oguz AYDIN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オグズ・アイディン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오구즈 아이다인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Oguz AYDIN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Oguz AYDIN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Огуз АЙДЫН"
+        }
+      ],
+      "playerPicture": {
+        "id": "B29233E3-0131-45EB-96E4AD77044A1959",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b29233e3-0131-45eb-96e4-ad77044a1959/AYDIN-Oguz_486076"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43972,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Türkiye"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تركيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Türkei"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Turquía"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Turquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Turki"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Turchia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トルコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "튀르키예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Turquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Турция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "土耳其"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/TUR",
+      "playerId": 441181,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.275310039520264,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 6.324187755584717,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ugurcan CAKIR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوغورجان تشاكير"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ugurcan CAKIR"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ugurcan CAKIR"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ugurcan CAKIR"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ugurcan CAKIR"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ugurcan CAKIR"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウグルジャン・チャキル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우구르칸 차키르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ugurcan CAKIR"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ugurcan CAKIR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Угуркан ЧАКИР"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乌古尔坎·卡基尔"
+        }
+      ],
+      "playerPicture": {
+        "id": "6CEDAF47-2A99-4E31-BB0D46CE78DF26A6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6cedaf47-2a99-4e31-bb0d-46ce78df26a6/CAKIR-Ugurcan_441181"
+      }
+    },
+    {
+      "teamId": 43921,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "USA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "الولايات المتحدة الأمريكية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "USA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EE. UU."
+        },
+        {
+          "locale": "fr-FR",
+          "description": "États-Unis"
+        },
+        {
+          "locale": "id-ID",
+          "description": "AS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "USA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アメリカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미국"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EUA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "США"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "美国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/USA",
+      "playerId": 448217,
+      "inPossessionRank": 2,
+      "inPossessionScore": 5.645319938659668,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 5.1111955642700195,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Matt TURNER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مات تيرنر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Matt TURNER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Matt TURNER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Matt TURNER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Matt TURNER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Matt TURNER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マット・ターナー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "맷 터너"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Matt TURNER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Matt TURNER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мэтт ТУРНЕР"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "马特·特纳"
+        }
+      ],
+      "playerPicture": {
+        "id": "01FB042F-5DE5-41DF-81047445672FDCA5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/01fb042f-5de5-41df-8104-7445672fdca5/TURNER-Matt_448217"
+      }
+    }
+  ]
+}

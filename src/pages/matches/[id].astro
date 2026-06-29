@@ -1,15 +1,10 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { loadMatches, getMatchById, getMatchStats, getMatchTimeline, getMatchLive, getMatchPlayerStats } from '../../lib/data.js';
+import { loadMatches, getMatchById, getMatchStats, getMatchTimeline, getMatchLive } from '../../lib/data.js';
 import MatchHero from '../../components/match/MatchHero.svelte';
-import KeyStats from '../../components/match/KeyStats.svelte';
 import ShotMap from '../../components/match/ShotMap.svelte';
 import GoalMap from '../../components/match/GoalMap.svelte';
-import PhasesOfPlay from '../../components/match/PhasesOfPlay.svelte';
-import PressIntensity from '../../components/match/PressIntensity.svelte';
-import BallProgression from '../../components/match/BallProgression.svelte';
 import EventTimeline from '../../components/match/EventTimeline.svelte';
-import PlayerHighlights from '../../components/match/PlayerHighlights.svelte';
 
 export function getStaticPaths() {
   const matches = loadMatches();
@@ -28,7 +23,6 @@ if (!match) {
 const matchStats = getMatchStats(id);
 const timeline = getMatchTimeline(id);
 const liveData = getMatchLive(id);
-const playerStats = getMatchPlayerStats(id);
 ---
 
 <Base title={`${match.homeTeam} vs ${match.awayTeam} - FIFA 2026`}>
@@ -37,13 +31,8 @@ const playerStats = getMatchPlayerStats(id);
 
     <MatchHero match={match} liveData={liveData} client:load />
 
-    <section class="key-stats-section">
-      <KeyStats matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
-    </section>
-
     <div class="visualizations">
-      <!-- Row 1: Shot Map + Phases -->
-      <section class="viz-section">
+      <section class="viz-section viz-full-width">
         <h2>Shots</h2>
         <ShotMap matchStats={matchStats} timeline={timeline} homeTeam={match.homeTeam} awayTeam={match.awayTeam} homeScore={match.homeScore} awayScore={match.awayScore} liveData={liveData} client:load />
       </section>
@@ -54,30 +43,8 @@ const playerStats = getMatchPlayerStats(id);
       </section>
 
       <section class="viz-section viz-full-width">
-        <h2>Phases of Play</h2>
-        <PhasesOfPlay matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
-      </section>
-
-      <!-- Row 2: Pressing + Ball Progression -->
-      <section class="viz-section">
-        <h2>Pressure & Possession</h2>
-        <PressIntensity matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
-      </section>
-
-      <section class="viz-section">
-        <h2>Ball Progression</h2>
-        <BallProgression matchStats={matchStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} client:load />
-      </section>
-
-      <!-- Row 3: Timeline + Players -->
-      <section class="viz-section viz-full-width">
         <h2>Match Events</h2>
         <EventTimeline timeline={timeline} homeTeam={match.homeTeam} awayTeam={match.awayTeam} liveData={liveData} client:load />
-      </section>
-
-      <section class="viz-section">
-        <h2>Top Performers</h2>
-        <PlayerHighlights playerStats={playerStats} homeTeam={match.homeTeam} awayTeam={match.awayTeam} liveData={liveData} client:load />
       </section>
     </div>
   </div>
@@ -99,10 +66,6 @@ const playerStats = getMatchPlayerStats(id);
 
   .back-link:hover {
     opacity: 0.8;
-  }
-
-  .key-stats-section {
-    margin-bottom: var(--space-2xl);
   }
 
   .visualizations {

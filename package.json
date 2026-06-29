@@ -16,7 +16,8 @@
   "dependencies": {
     "@tanstack/svelte-table": "^8.21.3",
     "@tanstack/table-core": "^8.21.3",
-    "astro": "^5.0.0"
+    "astro": "^5.0.0",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "@astrojs/svelte": "^5.0.0",

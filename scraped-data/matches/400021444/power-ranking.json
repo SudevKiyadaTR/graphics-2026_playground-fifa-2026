@@ -1,0 +1,3285 @@
+{
+  "competitionId": 285023,
+  "matchId": 151611,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-26T04:09:45.327596Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 386339,
+      "attackingRank": 20,
+      "defensiveRank": 14,
+      "creativityRank": 13,
+      "attackingScore": 4.227347373962402,
+      "defensiveScore": 5.6833977699279785,
+      "creativityScore": 5.889499187469482,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Guillermo MARTINEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غويليرمو مارتينيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Guillermo MARTINEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Guillermo MARTINEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Guillermo MARTINEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Guillermo MARTINEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Guillermo MARTINEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ギジェルモ・マルティネス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "길레르모 마르티네스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Guillermo MARTINEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Guillermo MARTINEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Гильермо МАРТИНЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "吉列尔莫·马丁内斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "7F04E2D8-1F0B-491E-85515A856979BC97",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7f04e2d8-1f0b-491e-8551-5a856979bc97/MARTINEZ-Guillermo_386339"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 395516,
+      "attackingRank": 24,
+      "defensiveRank": 1,
+      "creativityRank": 22,
+      "attackingScore": 4,
+      "defensiveScore": 7.6580939292907715,
+      "creativityScore": 5.115976810455322,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Cesar MONTES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سيزار مونتيس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Cesar MONTES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Cesar MONTES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Cesar MONTES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Cesar MONTES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Cesar MONTES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "セサル・モンテス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "세자르 몬테스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Cesar MONTES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Cesar MONTES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Сезар МОНТЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "C8C3FA3A-9001-4221-AB3C754158C0AD8A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c8c3fa3a-9001-4221-ab3c-754158c0ad8a/MONTES-Cesar_395516"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 400634,
+      "attackingRank": 21,
+      "defensiveRank": 4,
+      "creativityRank": 23,
+      "attackingScore": 4.073514461517334,
+      "defensiveScore": 6.672491550445557,
+      "creativityScore": 4.648270606994629,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Edson ALVAREZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إدسون ألفاريز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Edson ALVAREZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Edson ALVAREZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Edson ALVAREZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Edson ALVAREZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Edson ALVAREZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エドソン・アルバレス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에드슨 알바레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Edson ALVAREZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Edson ALVAREZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эдсон АЛЬВАРЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃德森·阿尔瓦雷斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "B1581870-6BEF-4C29-9A06F306BBF03CA8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b1581870-6bef-4c29-9a06-f306bbf03ca8/ALVAREZ-Edson_400634"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 403585,
+      "attackingRank": 5,
+      "defensiveRank": 17,
+      "creativityRank": 1,
+      "attackingScore": 5.3883376121521,
+      "defensiveScore": 5.282548427581787,
+      "creativityScore": 8.06124210357666,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Roberto ALVARADO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "روبرتو ألفارادو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Roberto ALVARADO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Roberto ALVARADO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Roberto ALVARADO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Roberto ALVARADO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Roberto ALVARADO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ロベルト・アルバラド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "로베르토 알바라도"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Roberto ALVARADO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Roberto ALVARADO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Роберто АЛЬВАРАДО"
+        }
+      ],
+      "playerPicture": {
+        "id": "B1A8A14A-2A27-4524-A6ED679ACA39D35D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b1a8a14a-2a27-4524-a6ed-679aca39d35d/ALVARADO-Roberto_403585"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 403596,
+      "attackingRank": 3,
+      "defensiveRank": 3,
+      "creativityRank": 5,
+      "attackingScore": 5.881865978240967,
+      "defensiveScore": 6.810571193695068,
+      "creativityScore": 6.94659423828125,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jorge SANCHEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "خورخي سانشيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jorge SANCHEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jorge SANCHEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jorge SANCHEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jorge SANCHEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jorge SANCHEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ホルヘ・サンチェス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호르헤 산체스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jorge SANCHEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jorge SANCHEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорхе САНЧЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "8640D435-8ABA-4B52-A8649952D3A6DB5C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8640d435-8aba-4b52-a864-9952d3a6db5c/SANCHEZ-Jorge_403596"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 429157,
+      "attackingRank": 2,
+      "defensiveRank": 10,
+      "creativityRank": 7,
+      "attackingScore": 7.150485515594482,
+      "defensiveScore": 5.98202657699585,
+      "creativityScore": 6.913796901702881,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Julian QUINONES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جوليان كينونيس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Julian QUINONES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Julian QUINONES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Julian QUINONES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Julian QUINONES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Julian QUINONES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フリアン・キノーネス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "줄리안 키노네스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Julian QUINONES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Julian QUINONES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хулиан КИНОНЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "EA06BECB-97B2-4F89-84645E0854CB7F81",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ea06becb-97b2-4f89-8464-5e0854cb7f81/QUINONES-Julian_429157"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 430759,
+      "attackingRank": 6,
+      "defensiveRank": 18,
+      "creativityRank": 9,
+      "attackingScore": 5.246675968170166,
+      "defensiveScore": 5.240417003631592,
+      "creativityScore": 6.64325475692749,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Santiago GIMENEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سانتياغو جيمينيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Santiago GIMENEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Santiago GIMENEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Santiago GIMENEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Santiago GIMENEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Santiago GIMENEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "サンティアゴ・ヒメネス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "산티아고 히메네스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Santiago GIMENEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Santiago GIMENEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Сантьяго ХИМЕНЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "圣地亚哥·吉梅内斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "0E27D0C6-E057-4D0C-A6033843FCD0C542",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0e27d0c6-e057-4d0c-a603-3843fcd0c542/GIMENEZ-Santiago_430759"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 430763,
+      "attackingRank": 9,
+      "defensiveRank": 12,
+      "creativityRank": 6,
+      "attackingScore": 5.0535502433776855,
+      "defensiveScore": 5.844686031341553,
+      "creativityScore": 6.918432712554932,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Luis ROMO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لويس رومو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Luis ROMO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Luis ROMO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Luis ROMO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Luis ROMO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Luis ROMO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルイス・ロモ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루이스 로모"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Luis ROMO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Luis ROMO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Луис РОМО"
+        }
+      ],
+      "playerPicture": {
+        "id": "BC7F864E-C553-4995-9EB362139E29A7D7",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/bc7f864e-c553-4995-9eb3-62139e29a7d7/ROMO-Luis_430763"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 441261,
+      "attackingRank": 19,
+      "defensiveRank": 2,
+      "creativityRank": 20,
+      "attackingScore": 4.38356351852417,
+      "defensiveScore": 7.392672061920166,
+      "creativityScore": 5.231046199798584,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Israel REYES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسرائيل رييس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Israel REYES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Israel REYES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Israel REYES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Israel REYES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Israel REYES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イスラエル・レイエス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이스라엘 레예스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Israel REYES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Israel REYES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Исраэль РЕЙЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "伊斯列尔·雷耶斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "1E7C7C32-135C-46BA-9AFF429BFB1478AA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1e7c7c32-135c-46ba-9aff-429bfb1478aa/REYES-Israel_441261"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 461177,
+      "attackingRank": 13,
+      "defensiveRank": 13,
+      "creativityRank": 16,
+      "attackingScore": 4.700052738189697,
+      "defensiveScore": 5.691412448883057,
+      "creativityScore": 5.547215938568115,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Obed VARGAS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوبيد فارغاس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Obed VARGAS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Obed VARGAS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Obed VARGAS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Obed VARGAS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Obed VARGAS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オベド・バルガス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오베드 바르가스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Obed VARGAS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Obed VARGAS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Обед ВАРГАС"
+        }
+      ],
+      "playerPicture": {
+        "id": "C0990D50-6120-459C-A66ABD91EE7E46BC",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c0990d50-6120-459c-a66a-bd91ee7e46bc/VARGAS-Obed_461177"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 500037,
+      "attackingRank": 11,
+      "defensiveRank": 21,
+      "creativityRank": 2,
+      "attackingScore": 4.940443992614746,
+      "defensiveScore": 4.618314266204834,
+      "creativityScore": 7.226349830627441,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Gilberto MORA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيلبرتو مورا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Gilberto MORA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Gilberto MORA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Gilberto MORA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Gilberto MORA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Gilberto MORA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジルベルト・モラ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "길베르토 모라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Gilberto MORA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Gilberto MORA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Гильберто МОРА"
+        }
+      ],
+      "playerPicture": {
+        "id": "028C85E0-509A-43C4-904A58CE2D4F6F24",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/028c85e0-509a-43c4-904a-58ce2d4f6f24/MORA-Gilberto_500037"
+      }
+    },
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 500038,
+      "attackingRank": 1,
+      "defensiveRank": 6,
+      "creativityRank": 3,
+      "attackingScore": 8.633441925048828,
+      "defensiveScore": 6.1485114097595215,
+      "creativityScore": 7.21177339553833,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mateo CHAVEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماتيو تشافيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mateo CHAVEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Mateo CHAVEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mateo CHAVEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mateo CHAVEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Mateo CHAVEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マテオ・チャベス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마테오 차베스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Mateo CHAVEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Mateo CHAVEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Матео ЧАВЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "8E8884EE-8964-4FB7-82D88A5D341E79A6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8e8884ee-8964-4fb7-82d8-8a5d341e79a6/CHAVEZ-Mateo_500038"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 401481,
+      "attackingRank": 14,
+      "defensiveRank": 16,
+      "creativityRank": 17,
+      "attackingScore": 4.6569695472717285,
+      "defensiveScore": 5.3556318283081055,
+      "creativityScore": 5.520573139190674,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Patrik Schick"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "باتريك شيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Patrik Schick"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Patrik Schick"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Patrik Schick"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Patrik Schick"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Patrik Schick"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パトリック・シック"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파트릭 시크"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Patrik Schick"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Patrik Schick"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Патрик Шик"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "帕特里克·希克"
+        }
+      ],
+      "playerPicture": {
+        "id": "725E8C7E-C712-45BE-9E0AEC5B121E84AD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/725e8c7e-c712-45be-9e0a-ec5b121e84ad/SCHICK-Patrik_401481"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 433668,
+      "attackingRank": 16,
+      "defensiveRank": 7,
+      "creativityRank": 15,
+      "attackingScore": 4.488441467285156,
+      "defensiveScore": 6.126413822174072,
+      "creativityScore": 5.603930950164795,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Michal SADILEK"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ميشال ساديليك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Michal SADILEK"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Michal SADILEK"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Michal SADILEK"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Michal SADILEK"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Michal SADILEK"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ミハル・サディレック"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미할 사딜렉"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Michal SADILEK"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Michal SADILEK"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Михал САДИЛЕК"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "米夏尔•萨迪莱克"
+        }
+      ],
+      "playerPicture": {
+        "id": "00599F60-D24B-4377-B1C203BDA4F835BE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/00599f60-d24b-4377-b1c2-03bda4f835be/SADILEK-Michal_433668"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 433754,
+      "attackingRank": 15,
+      "defensiveRank": 22,
+      "creativityRank": 8,
+      "attackingScore": 4.58880090713501,
+      "defensiveScore": 4.50139856338501,
+      "creativityScore": 6.7040228843688965,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Adam HLOZEK"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "آدم هلوزيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Adam HLOZEK"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Adam HLOZEK"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Adam HLOZEK"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Adam HLOZEK"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Adam HLOZEK"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アダム・フロゼク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아담 흐로제크"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Adam HLOZEK"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Adam HLOZEK"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Адам ХЛОЗЕК"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "亚当•赫洛热克"
+        }
+      ],
+      "playerPicture": {
+        "id": "530C1EA8-C013-4858-BB7D0B71A763A1A1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/530c1ea8-c013-4858-bb7d-0b71a763a1a1/HLOZEK-Adam_433754"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 441167,
+      "attackingRank": 17,
+      "defensiveRank": 5,
+      "creativityRank": 14,
+      "attackingScore": 4.436486721038818,
+      "defensiveScore": 6.4298601150512695,
+      "creativityScore": 5.6142449378967285,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Tomas HOLES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "توماس هوليس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tomas HOLES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Tomas HOLES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tomas HOLES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tomas HOLES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tomas HOLES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トマーシュ・ホレス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "토마스 홀레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tomas HOLES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Tomas HOLES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Томаш ХОЛЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "托马斯·霍尔斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "25D4147E-8CC2-4262-BBA53E47680A3F23",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/25d4147e-8cc2-4262-bba5-3e47680a3f23/HOLES-Tomas_441167"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 441170,
+      "attackingRank": 22,
+      "defensiveRank": 15,
+      "creativityRank": 21,
+      "attackingScore": 4.013741970062256,
+      "defensiveScore": 5.543576240539551,
+      "creativityScore": 5.150726318359375,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ladislav KREJCI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لاديسلاف كريتشي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ladislav KREJCI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ladislav KREJCI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ladislav KREJCI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ladislav KREJCI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ladislav KREJCI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラディスラフ・クレイチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라디슬라프 크레이치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ladislav KREJCI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ladislav KREJCI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ладислав КРЕЙЧИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "拉迪斯拉夫·克雷杰奇"
+        }
+      ],
+      "playerPicture": {
+        "id": "04CA9E4E-8AB3-458E-A6892AC49094FB23",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/04ca9e4e-8ab3-458e-a689-2ac49094fb23/KREJCI-Ladislav_441170"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 472908,
+      "attackingRank": 18,
+      "defensiveRank": 11,
+      "creativityRank": 4,
+      "attackingScore": 4.419612884521484,
+      "defensiveScore": 5.84663200378418,
+      "creativityScore": 7.075022220611572,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Vladimir COUFAL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فلاديمير كوفال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Vladimir COUFAL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Vladimir COUFAL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Vladimir COUFAL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Vladimir COUFAL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Vladimir COUFAL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウラジミール・クーファル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "블라디미르 쿠팔"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Vladimir COUFAL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Vladimir COUFAL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Владимир КОУФАЛ"
+        }
+      ],
+      "playerPicture": {
+        "id": "E013F16F-8ADA-4532-B3C4B674B0E08CC9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e013f16f-8ada-4532-b3c4-b674b0e08cc9/COUFAL-Vladimir_472908"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 483936,
+      "attackingRank": 10,
+      "defensiveRank": 24,
+      "creativityRank": 11,
+      "attackingScore": 5.032562732696533,
+      "defensiveScore": 3.665998935699463,
+      "creativityScore": 6.199265003204346,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "David DOUDERA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ديفيد دوديرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "David DOUDERA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "David DOUDERA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "David DOUDERA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "David DOUDERA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "David DOUDERA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "デビッド・ドゥデラ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "데이비드 두데라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "David DOUDERA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "David DOUDERA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Давид ДОУДЕРА"
+        }
+      ],
+      "playerPicture": {
+        "id": "04FA0573-E1FA-4158-A14D7129641CC700",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/04fa0573-e1fa-4158-a14d-7129641cc700/DOUDERA-David_483936"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 484011,
+      "attackingRank": 12,
+      "defensiveRank": 8,
+      "creativityRank": 12,
+      "attackingScore": 4.714057922363281,
+      "defensiveScore": 6.048182010650635,
+      "creativityScore": 5.935886383056641,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lukas PROVOD"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لوكاس بروفود"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Lukas PROVOD"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Lukas PROVOD"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Lukas PROVOD"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Lukas PROVOD"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Lukas PROVOD"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルカス・プロヴォド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루카스 프로보드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Lukas PROVOD"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Lukas PROVOD"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лукас ПРОВОД"
+        }
+      ],
+      "playerPicture": {
+        "id": "E5E6A265-9886-4E25-97C0C4F2F230277D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e5e6a265-9886-4e25-97c0-c4f2f230277d/PROVOD-Lukas_484011"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 486080,
+      "attackingRank": 22,
+      "defensiveRank": 9,
+      "creativityRank": 24,
+      "attackingScore": 4.013741970062256,
+      "defensiveScore": 6.035011291503906,
+      "creativityScore": 4.644832134246826,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Robin HRANAC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "روبن هراناتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Robin HRANAC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Robin HRANAC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Robin HRANAC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Robin HRANAC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Robin HRANAC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ロビン・フラナック"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "로빈 흐라나츠"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Robin HRANAC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Robin HRANAC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Робин ХРАНАЦ"
+        }
+      ],
+      "playerPicture": {
+        "id": "9550C125-89E2-497F-A098BCDCEB0243E7",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9550c125-89e2-497f-a098-bcdceb0243e7/HRANAC-Robin_486080"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 486081,
+      "attackingRank": 7,
+      "defensiveRank": 19,
+      "creativityRank": 19,
+      "attackingScore": 5.209096431732178,
+      "defensiveScore": 4.932396411895752,
+      "creativityScore": 5.397389888763428,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lukas CERV"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لوكاس سيرف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Lukas CERV"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Lukas CERV"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Lukas CERV"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Lukas CERV"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Lukas CERV"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルーカス・チェルフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루카스 체르브"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Lukas CERV"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Lukas CERV"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лукас ЦЕРВ"
+        }
+      ],
+      "playerPicture": {
+        "id": "87CE4B61-FD6D-4CA3-901D6DFE039DD809",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/87ce4b61-fd6d-4ca3-901d-6dfe039dd809/CERV-Lukas_486081"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 486082,
+      "attackingRank": 8,
+      "defensiveRank": 20,
+      "creativityRank": 18,
+      "attackingScore": 5.1046576499938965,
+      "defensiveScore": 4.702732563018799,
+      "creativityScore": 5.410223484039307,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Pavel SULC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بافيل سولك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Pavel SULC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Pavel SULC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pavel SULC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pavel SULC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Pavel SULC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パヴェル・スルチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파벨 술크"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Pavel SULC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Pavel SULC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Павел СУЛЦ"
+        }
+      ],
+      "playerPicture": {
+        "id": "A45CA4C8-04D9-4321-A1001E57B2D7BBDA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a45ca4c8-04d9-4321-a100-1e57b2d7bbda/SULC-Pavel_486082"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 519985,
+      "attackingRank": 4,
+      "defensiveRank": 23,
+      "creativityRank": 10,
+      "attackingScore": 5.468476295471191,
+      "defensiveScore": 4.15629768371582,
+      "creativityScore": 6.494120121002197,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Denis VISINSKY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دينيس فيسينسكي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Denis VISINSKY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Denis VISINSKY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Denis VISINSKY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Denis VISINSKY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Denis VISINSKY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "デニス・ヴィシンスキー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "데니스 비신스키"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Denis VISINSKY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Denis VISINSKY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Денис ВИСИНСКИЙ"
+        }
+      ],
+      "playerPicture": {
+        "id": "60B4E376-F163-4918-8742A2F6ADA5FC84",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/60b4e376-f163-4918-8742-a2f6ada5fc84/VISINSKY-Denis_519985"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43911,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Mexico"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المكسيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mexiko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "México"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mexique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Meksiko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Messico"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "メキシコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "멕시코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "México"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мексика"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "墨西哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MEX",
+      "playerId": 485070,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.367609977722168,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 6.779828071594238,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Raul RANGEL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "راؤول رانجيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Raul RANGEL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Raul RANGEL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Raul RANGEL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Raul RANGEL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Raul RANGEL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラウル・ランゲル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라울 랑겔"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Raul RANGEL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Raul RANGEL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рауль РАНГЕЛЬ"
+        }
+      ],
+      "playerPicture": {
+        "id": "3EA092AE-841D-4DC6-9CA078EB4DFB97C7",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3ea092ae-841d-4dc6-9ca0-78eb4dfb97c7/RANGEL-Raul_485070"
+      }
+    },
+    {
+      "teamId": 43995,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Czechia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشيكيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tschechien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chequia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tchéquie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ceko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Repubblica Ceca"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チェコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "체코"
+        },
+        {
+          "locale": "lt-LT",
+          "description": "Čekija"
+        },
+        {
+          "locale": "pl-PL",
+          "description": "Czechy"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tchéquia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чехия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "捷克"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CZE",
+      "playerId": 484012,
+      "inPossessionRank": 2,
+      "inPossessionScore": 6.309414386749268,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 5.603427410125732,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Matej KOVAR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماتيج كوفار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Matej KOVAR"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Matej KOVAR"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Matej KOVAR"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Matej KOVAR"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Matej KOVAR"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マテイ・コヴァル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마테이 코바르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Matej KOVAR"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Matej KOVAR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Матей КОВАР"
+        }
+      ],
+      "playerPicture": {
+        "id": "06F2BDBF-6411-4F1C-885B3C745E37363E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/06f2bdbf-6411-4f1c-885b-3c745e37363e/KOVAR-Matej_484012"
+      }
+    }
+  ]
+}

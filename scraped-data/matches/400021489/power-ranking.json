@@ -1,0 +1,3475 @@
+{
+  "competitionId": 285023,
+  "matchId": 151660,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-26T22:42:55.259647Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 389867,
+      "attackingRank": 3,
+      "defensiveRank": 17,
+      "creativityRank": 1,
+      "attackingScore": 6.177613735198975,
+      "defensiveScore": 4.913240909576416,
+      "creativityScore": 8.584025382995605,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Kylian MBAPPE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كيليان مبابي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kylian MBAPPE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Kylian MBAPPE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Kylian MBAPPE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kylian MBAPPE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Kylian MBAPPE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キリアン・エムバペ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "킬리안 음바페"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Kylian MBAPPE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Kylian MBAPPE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Килиан МБАППЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "66F6087D-9563-4644-8F105614EF6E1E51",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/66f6087d-9563-4644-8f10-5614ef6e1e51/MBAPPE-Kylian_389867"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 389876,
+      "attackingRank": 17,
+      "defensiveRank": 1,
+      "creativityRank": 21,
+      "attackingScore": 4.515285015106201,
+      "defensiveScore": 7.432613849639893,
+      "creativityScore": 5.150570392608643,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Dayot UPAMECANO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دايوت أوبامكانو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Dayot UPAMECANO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Dayot UPAMECANO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Dayot UPAMECANO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Dayot UPAMECANO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Dayot UPAMECANO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダヨ・ウパメカノ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다요트 우파메카노"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Dayot UPAMECANO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Dayot UPAMECANO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дайо Упамекано"
+        }
+      ],
+      "playerPicture": {
+        "id": "DAAE69AE-72E0-4E42-812FD19D74D12478",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/daae69ae-72e0-4e42-812f-d19d74d12478/UPAMECANO-Dayot_389876"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 398680,
+      "attackingRank": 1,
+      "defensiveRank": 18,
+      "creativityRank": 2,
+      "attackingScore": 8.4647798538208,
+      "defensiveScore": 4.804086208343506,
+      "creativityScore": 7.8561320304870605,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ousmane DEMBELE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوسمان ديمبيلي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ousmane DEMBELE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ousmane DEMBELE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ousmane DEMBELE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ousmane DEMBELE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ousmane DEMBELE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウスマン・デンベレ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우스만 뎀벨레"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ousmane DEMBELE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ousmane DEMBELE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Усман ДЕМБЕЛЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "E6EEE717-FD8C-4F8F-A7E0C4F978FE327F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e6eee717-fd8c-4f8f-a7e0-c4f978fe327f/DEMBELE-Ousmane_398680"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 405881,
+      "attackingRank": 23,
+      "defensiveRank": 8,
+      "creativityRank": 24,
+      "attackingScore": 4.285714149475098,
+      "defensiveScore": 5.757561683654785,
+      "creativityScore": 4.879010200500488,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Maxence Lacroix"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماكسانس لاكروا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Maxence Lacroix"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Maxence Lacroix"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maxence Lacroix"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maxence Lacroix"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Maxence Lacroix"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マクサン・ラクロワ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "막상스 라크루아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Maxence Lacroix"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Maxence Lacroix"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Максенс Лакруа"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "马克桑·拉克鲁瓦"
+        }
+      ],
+      "playerPicture": {
+        "id": "A250EE2E-C181-46BB-B56527D12A7B1878",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a250ee2e-c181-46bb-b565-27d12a7b1878/LACROIX-Maxence_405881"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 405893,
+      "attackingRank": 13,
+      "defensiveRank": 2,
+      "creativityRank": 19,
+      "attackingScore": 4.699069499969482,
+      "defensiveScore": 7.400595188140869,
+      "creativityScore": 5.2631072998046875,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Aurelien TCHOUAMENI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوريليان تشواميني"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Aurelien TCHOUAMENI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Aurelien TCHOUAMENI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Aurelien TCHOUAMENI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aurelien TCHOUAMENI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Aurelien TCHOUAMENI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーレリアン・チュアメニ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오렐리앙 추아메니"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Aurelien TCHOUAMENI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Aurelien TCHOUAMENI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Орельен ТЧУАМЕНИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "8575FEE6-68AE-4BE0-95297E5C392E06E6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8575fee6-68ae-4be0-9529-7e5c392e06e6/TCHOUAMENI-Aurelien_405893"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 408042,
+      "attackingRank": 26,
+      "defensiveRank": 10,
+      "creativityRank": 25,
+      "attackingScore": 3.3500099182128906,
+      "defensiveScore": 5.6458916664123535,
+      "creativityScore": 4.751059055328369,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Theo HERNANDEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ثيو هيرنانديز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Theo HERNANDEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Theo HERNANDEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Theo HERNANDEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Theo HERNANDEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Theo HERNANDEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "テオ・エルナンデス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "테오 에르난데스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Theo HERNANDEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Theo HERNANDEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тео ЭРНАНДЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西奥·埃尔南德斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "6F76533F-FECA-4811-A010E6E296B29DB8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6f76533f-feca-4811-a010-e6e296b29db8/HERNANDEZ-Theo_408042"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 419166,
+      "attackingRank": 11,
+      "defensiveRank": 3,
+      "creativityRank": 17,
+      "attackingScore": 4.776192665100098,
+      "defensiveScore": 6.339658260345459,
+      "creativityScore": 5.541586399078369,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ibrahima KONATE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إبراهيما كوناتي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ibrahima KONATE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ibrahima KONATE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ibrahima KONATE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ibrahima KONATE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ibrahima KONATE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イブラヒマ・コナテ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이브라히마 코나테"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ibrahima KONATE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ibrahima KONATE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ибрахима Конате"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "易卜拉希马·科纳特"
+        }
+      ],
+      "playerPicture": {
+        "id": "DE7E635E-41B2-4383-9FBFD38E6C737D51",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/de7e635e-41b2-4383-9fbf-d38e6c737d51/KONATE-Ibrahima_419166"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 430707,
+      "attackingRank": 25,
+      "defensiveRank": 4,
+      "creativityRank": 8,
+      "attackingScore": 4.10976505279541,
+      "defensiveScore": 6.067278861999512,
+      "creativityScore": 6.290709495544434,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jules KOUNDE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جول كوندي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jules KOUNDE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jules KOUNDE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jules KOUNDE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jules KOUNDE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jules KOUNDE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジュール・クンデ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "줄스 쿤데"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jules KOUNDE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jules KOUNDE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Жюль КУНДЕ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "朱尔斯·昆德"
+        }
+      ],
+      "playerPicture": {
+        "id": "31B384B6-20B7-4629-AB33AA67CF403FC3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/31b384b6-20b7-4629-ab33-aa67cf403fc3/KOUNDE-Jules_430707"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 431861,
+      "attackingRank": 10,
+      "defensiveRank": 13,
+      "creativityRank": 13,
+      "attackingScore": 4.821603298187256,
+      "defensiveScore": 5.1073737144470215,
+      "creativityScore": 5.7515387535095215,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Rayan CHERKI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ريان شيركي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Rayan CHERKI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Rayan CHERKI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Rayan CHERKI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Rayan CHERKI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Rayan CHERKI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラヤン・シェルキ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라얀 체르키"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Rayan CHERKI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Rayan CHERKI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Раян ЧЕРКИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "E1FE82BA-026B-4F05-87BAC1FB49F670E5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e1fe82ba-026b-4f05-87ba-c1fb49f670e5/CHERKI-Rayan_431861"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 464114,
+      "attackingRank": 2,
+      "defensiveRank": 5,
+      "creativityRank": 6,
+      "attackingScore": 6.55340051651001,
+      "defensiveScore": 6.032461643218994,
+      "creativityScore": 6.778786659240723,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Desire DOUE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ديزير دو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Desire DOUE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Desire DOUE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Desire DOUE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Desire DOUE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Desire DOUE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "デズィア・ドゥエ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "데지레 두에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Desire DOUE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Desire DOUE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дезире ДУЭ"
+        }
+      ],
+      "playerPicture": {
+        "id": "CA4E60DF-4C45-48E9-89E470CE6AC3B3B1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ca4e60df-4c45-48e9-89e4-70ce6ac3b3b1/DOUE-Desire_464114"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 484860,
+      "attackingRank": 7,
+      "defensiveRank": 7,
+      "creativityRank": 5,
+      "attackingScore": 5.3027729988098145,
+      "defensiveScore": 5.837878704071045,
+      "creativityScore": 6.837562561035156,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Bradley BARCOLA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "برادلي باركولا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bradley BARCOLA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bradley BARCOLA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bradley BARCOLA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bradley BARCOLA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bradley BARCOLA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラッドリー・バルコラ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브래들리 바르콜라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bradley BARCOLA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bradley BARCOLA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Брэдли БАРКОЛА"
+        }
+      ],
+      "playerPicture": {
+        "id": "10E80EF7-3AA9-4C07-9639E8BC04828D31",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/10e80ef7-3aa9-4c07-9639-e8bc04828d31/BARCOLA-Bradley_484860"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 485655,
+      "attackingRank": 9,
+      "defensiveRank": 6,
+      "creativityRank": 4,
+      "attackingScore": 5.028378009796143,
+      "defensiveScore": 5.993785381317139,
+      "creativityScore": 7.416259288787842,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Michael OLISE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مايكل أوليز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Michael OLISE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Michael OLISE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Michael OLISE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Michael OLISE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Michael OLISE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マイケル・オリゼ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마이클 올리세"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Michael OLISE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Michael OLISE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Михаэль ОЛИСЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "979CC206-E23B-4B21-8D40843607BA8964",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/979cc206-e23b-4b21-8d40-843607ba8964/OLISE-Michael_485655"
+      }
+    },
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 485677,
+      "attackingRank": 12,
+      "defensiveRank": 20,
+      "creativityRank": 7,
+      "attackingScore": 4.775998592376709,
+      "defensiveScore": 4.542568683624268,
+      "creativityScore": 6.515552043914795,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Manu KONE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مانو كون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Manu KONE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Manu KONE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Manu KONE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Manu KONE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Manu KONE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マヌ・コネ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마누 코네"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Manu KONE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Manu KONE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ману КОНЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "FAB8DCFA-7C16-4C88-ADEB51CF932E3ABC",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/fab8dcfa-7c16-4c88-adeb-51cf932e3abc/KONE-Manu_485677"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 419662,
+      "attackingRank": 22,
+      "defensiveRank": 22,
+      "creativityRank": 20,
+      "attackingScore": 4.297990798950195,
+      "defensiveScore": 4.314608573913574,
+      "creativityScore": 5.165351867675781,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jorgen STRAND LARSEN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يورغن ستراند لارسن"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jorgen STRAND LARSEN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jorgen STRAND LARSEN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jorgen STRAND LARSEN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jorgen STRAND LARSEN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jorgen STRAND LARSEN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヨルゲン・ストランド・ラーセン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "요르겐 스트란드 라르센"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jorgen STRAND LARSEN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jorgen STRAND LARSEN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Йорген СТРАНД ЛАРСЕН"
+        }
+      ],
+      "playerPicture": {
+        "id": "116D01B5-9D0D-4456-A5A80E63A16B9862",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/116d01b5-9d0d-4456-a5a8-0e63a16b9862/STRAND-LARSEN-Jorgen_419662"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 419672,
+      "attackingRank": 21,
+      "defensiveRank": 12,
+      "creativityRank": 23,
+      "attackingScore": 4.323727607727051,
+      "defensiveScore": 5.138758659362793,
+      "creativityScore": 4.9043192863464355,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Leo OSTIGARD"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ليو أوستيغارد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Leo OSTIGARD"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Leo OSTIGARD"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Leo OSTIGARD"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Leo OSTIGARD"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Leo OSTIGARD"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "レオ・オスティガード"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "레오 오스티가르드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Leo OSTIGARD"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Leo OSTIGARD"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лео ОСТИГАРД"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "莱奥·奥斯蒂高"
+        }
+      ],
+      "playerPicture": {
+        "id": "548ECD96-6FC9-40F2-B0207B3A02391341",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/548ecd96-6fc9-40f2-b020-7b3a02391341/OSTIGARD-Leo_419672"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 419681,
+      "attackingRank": 5,
+      "defensiveRank": 25,
+      "creativityRank": 15,
+      "attackingScore": 5.38571310043335,
+      "defensiveScore": 4.1442646980285645,
+      "creativityScore": 5.702779293060303,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Kristian Thorstvedt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كريستيان ثورستفيدت"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kristian Thorstvedt"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Kristian Thorstvedt"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Kristian Thorstvedt"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kristian Thorstvedt"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Kristian Thorstvedt"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クリスティアン・トルストヴェット"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크리스티안 토르스트베트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Kristian Thorstvedt"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Kristian Thorstvedt"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кристиан Торстведт"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克里斯蒂安·托斯特维特"
+        }
+      ],
+      "playerPicture": {
+        "id": "4680DF24-B4B3-46E5-9B3801800898AFA5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4680df24-b4b3-46e5-9b38-01800898afa5/THORSTVEDT-Kristian_419681"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 433067,
+      "attackingRank": 18,
+      "defensiveRank": 24,
+      "creativityRank": 16,
+      "attackingScore": 4.474410533905029,
+      "defensiveScore": 4.1959943771362305,
+      "creativityScore": 5.687158107757568,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Morten Thorsby"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مورتن ثورسبي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Morten Thorsby"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Morten Thorsby"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Morten Thorsby"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Morten Thorsby"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Morten Thorsby"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モーテン・トースビー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모르텐 토르스비"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Morten Thorsby"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Morten Thorsby"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мортен Торсби"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "莫腾·索斯比"
+        }
+      ],
+      "playerPicture": {
+        "id": "B1EA3949-8267-4285-B1ED200204779D50",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b1ea3949-8267-4285-b1ed-200204779d50/THORSBY-Morten_433067"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 477470,
+      "attackingRank": 6,
+      "defensiveRank": 26,
+      "creativityRank": 10,
+      "attackingScore": 5.368228435516357,
+      "defensiveScore": 3.4790356159210205,
+      "creativityScore": 5.963046073913574,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Oscar BOBB"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوسكار بوب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Oscar BOBB"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Oscar BOBB"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Oscar BOBB"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Oscar BOBB"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Oscar BOBB"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オスカー・ボブ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오스카 밥"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Oscar BOBB"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Oscar BOBB"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Оскар БОББ"
+        }
+      ],
+      "playerPicture": {
+        "id": "8CADF37E-EA31-43D7-BC0D935E74ADFE95",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8cadf37e-ea31-43d7-bc0d-935e74adfe95/BOBB-Oscar_477470"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 483442,
+      "attackingRank": 19,
+      "defensiveRank": 23,
+      "creativityRank": 14,
+      "attackingScore": 4.418511867523193,
+      "defensiveScore": 4.282952785491943,
+      "creativityScore": 5.709052085876465,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Patrick BERG"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "باتريك بيرغ"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Patrick BERG"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Patrick BERG"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Patrick BERG"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Patrick BERG"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Patrick BERG"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パトリック・ベルグ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "패트릭 베르그"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Patrick BERG"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Patrick BERG"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Патрик БЕРГ"
+        }
+      ],
+      "playerPicture": {
+        "id": "AA692FB8-40C4-4273-A58346CA3F57C34C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/aa692fb8-40c4-4273-a583-46ca3f57c34c/BERG-Patrick_483442"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 483497,
+      "attackingRank": 24,
+      "defensiveRank": 19,
+      "creativityRank": 12,
+      "attackingScore": 4.236944198608398,
+      "defensiveScore": 4.747898578643799,
+      "creativityScore": 5.889266490936279,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Fredrik AURSNES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فريدريك أورسنز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Fredrik AURSNES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Fredrik AURSNES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Fredrik AURSNES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Fredrik AURSNES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Fredrik AURSNES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フレドリック・オーシュネス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프레드릭 오스네스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Fredrik AURSNES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Fredrik AURSNES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Фредрик АУРСНЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "5BF9F1D6-B7EC-4C50-9337059F6EB0C097",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5bf9f1d6-b7ec-4c50-9337-059f6eb0c097/AURSNES-Fredrik_483497"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 483530,
+      "attackingRank": 16,
+      "defensiveRank": 14,
+      "creativityRank": 9,
+      "attackingScore": 4.6223273277282715,
+      "defensiveScore": 5.0802178382873535,
+      "creativityScore": 6.074361324310303,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Fredrik Andre BJORKAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فريدريك أندريه بيوركان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Fredrik Andre BJORKAN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Fredrik Andre BJORKAN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Fredrik Andre BJORKAN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Fredrik Andre BJORKAN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Fredrik Andre BJORKAN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フレドリック・アンドレ・ビョルカン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프레드릭 안드레 비요르칸"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Fredrik Andre BJORKAN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Fredrik Andre BJORKAN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Фредрик Андре БЬОРКАН"
+        }
+      ],
+      "playerPicture": {
+        "id": "D46985D1-90F0-4E2A-91F2D00C0C98D796",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/d46985d1-90f0-4e2a-91f2-d00c0c98d796/BJORKAN-Fredrik-Andre_483530"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 489696,
+      "attackingRank": 14,
+      "defensiveRank": 21,
+      "creativityRank": 18,
+      "attackingScore": 4.670314311981201,
+      "defensiveScore": 4.499321937561035,
+      "creativityScore": 5.363820552825928,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Sondre LANGAS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سوندري لانغاس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Sondre LANGAS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Sondre LANGAS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Sondre LANGAS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Sondre LANGAS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Sondre LANGAS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ソンドレ・ランガス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "손드레 랑가스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Sondre LANGAS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Sondre LANGAS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Сондре ЛАНГАС"
+        }
+      ],
+      "playerPicture": {
+        "id": "31DDA581-EF96-4AB5-A82D9F5F59A3DD31",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/31dda581-ef96-4ab5-a82d-9f5f59a3dd31/LANGAS-Sondre_489696"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 494625,
+      "attackingRank": 15,
+      "defensiveRank": 15,
+      "creativityRank": 22,
+      "attackingScore": 4.633111476898193,
+      "defensiveScore": 5.075367450714111,
+      "creativityScore": 4.96619176864624,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Marcus HOLMGREN PEDERSEN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماركوس هولمغرين بيدرسن"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marcus HOLMGREN PEDERSEN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marcus HOLMGREN PEDERSEN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Marcus HOLMGREN PEDERSEN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Marcus HOLMGREN PEDERSEN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marcus HOLMGREN PEDERSEN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マーカス・ホルムグレン・ペダーセン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마커스 홀름그렌 페더슨"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marcus HOLMGREN PEDERSEN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marcus HOLMGREN PEDERSEN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Маркус ХОЛМГРЕН ПЕДЕРСЕН"
+        }
+      ],
+      "playerPicture": {
+        "id": "7C96CBED-5DF4-46F9-B1F4B9ABBBE7E9D1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7c96cbed-5df4-46f9-b1f4-b9abbbe7e9d1/HOLMGREN-PEDERSEN-Marcus_494625"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 494626,
+      "attackingRank": 8,
+      "defensiveRank": 9,
+      "creativityRank": 3,
+      "attackingScore": 5.284600257873535,
+      "defensiveScore": 5.7535529136657715,
+      "creativityScore": 7.683802127838135,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Andreas SCHJELDERUP"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أندرياس شيلدروب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Andreas SCHJELDERUP"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Andreas SCHJELDERUP"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Andreas SCHJELDERUP"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Andreas SCHJELDERUP"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Andreas SCHJELDERUP"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アンドレアス・シェルデルップ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "안드레아스 셸데루프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Andreas SCHJELDERUP"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Andreas SCHJELDERUP"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Андреас ШЕЛЬДЕРУП"
+        }
+      ],
+      "playerPicture": {
+        "id": "22F44194-F9C4-46C1-8621F9680F7D73BC",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/22f44194-f9c4-46c1-8621-f9680f7d73bc/SCHJELDERUP-Andreas_494626"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 494627,
+      "attackingRank": 4,
+      "defensiveRank": 11,
+      "creativityRank": 11,
+      "attackingScore": 5.755425930023193,
+      "defensiveScore": 5.352364540100098,
+      "creativityScore": 5.911710262298584,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Thelo AASGAARD"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ثيلو آسغارد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Thelo AASGAARD"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Thelo AASGAARD"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Thelo AASGAARD"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Thelo AASGAARD"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Thelo AASGAARD"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "テロ・アースガード"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "텔로 아스가드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Thelo AASGAARD"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Thelo AASGAARD"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тело ААСГААРД"
+        }
+      ],
+      "playerPicture": {
+        "id": "46E2BCE8-3733-457F-83079FD06EEDA4CE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/46e2bce8-3733-457f-8307-9fd06eeda4ce/AASGAARD-Thelo_494627"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 520112,
+      "attackingRank": 20,
+      "defensiveRank": 16,
+      "creativityRank": 26,
+      "attackingScore": 4.359836101531982,
+      "defensiveScore": 4.9217448234558105,
+      "creativityScore": 4.519864559173584,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Henrik FALCHENER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هنريك فالشنر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Henrik FALCHENER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Henrik FALCHENER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Henrik FALCHENER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Henrik FALCHENER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Henrik FALCHENER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヘンリック・ファルケナー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "헨릭 팔케너"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Henrik FALCHENER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Henrik FALCHENER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хенрик ФАЛЬХЕНЕР"
+        }
+      ],
+      "playerPicture": {
+        "id": "2990FADE-76FD-431E-B7EC6551CA61DE8C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2990fade-76fd-431e-b7ec-6551ca61de8c/FALCHENER-Henrik_520112"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43946,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "France"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرنسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frankreich"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Francia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "France"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Prancis"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Francia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프랑스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "França"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "França"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Франция"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法国"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/FRA",
+      "playerId": 448332,
+      "inPossessionRank": 2,
+      "inPossessionScore": 5.227005481719971,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 6.146251678466797,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mike MAIGNAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مايك ماينان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mike MAIGNAN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Mike MAIGNAN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mike MAIGNAN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mike MAIGNAN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Mike MAIGNAN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マイク・マイニャン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마이크 마이냥"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Mike MAIGNAN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Mike MAIGNAN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Майк МЭЙНЯН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "迈克·迈尼昂"
+        }
+      ],
+      "playerPicture": {
+        "id": "3F92A933-A22D-4F58-8F4FB51370AEACF4",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3f92a933-a22d-4f58-8f4f-b51370aeacf4/MAIGNAN-Mike_448332"
+      }
+    },
+    {
+      "teamId": 43961,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Norway"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "النرويج"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Norwegen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noruega"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Norvège"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Norwegia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Norvegia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノルウェー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노르웨이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noruega"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Норвегия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "挪威"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NOR",
+      "playerId": 483535,
+      "inPossessionRank": 1,
+      "inPossessionScore": 5.921633243560791,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 5.942318916320801,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Egil SELVIK"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إيجيل سيلفيك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Egil SELVIK"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egil SELVIK"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Egil SELVIK"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Egil SELVIK"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egil SELVIK"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エギル・セルヴィク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에길 셀빅"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egil SELVIK"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Egil SELVIK"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эгил СЕЛВИК"
+        }
+      ],
+      "playerPicture": {
+        "id": "B6E7F73A-C70C-4F7C-B0A437C8961FB019",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b6e7f73a-c70c-4f7c-b0a4-37c8961fb019/SELVIK-Egil_483535"
+      }
+    }
+  ]
+}

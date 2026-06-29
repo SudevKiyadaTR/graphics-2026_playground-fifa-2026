@@ -1,0 +1,3451 @@
+{
+  "competitionId": 285023,
+  "matchId": 151678,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-28T00:55:16.812127Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 372342,
+      "attackingRank": 5,
+      "defensiveRank": 15,
+      "creativityRank": 10,
+      "attackingScore": 5.339184284210205,
+      "defensiveScore": 5.259425640106201,
+      "creativityScore": 6.410365104675293,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ismael DIAZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسماعيل دياز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ismael DIAZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ismael DIAZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ismael DIAZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ismael DIAZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ismael DIAZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イスマエル・ディアス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이스마엘 디아즈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ismael DIAZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ismael DIAZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Исмаэль ДИАС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "伊斯梅尔·迪亚兹"
+        }
+      ],
+      "playerPicture": {
+        "id": "5D8477C7-2F01-40FD-BC37FBB35A936957",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5d8477c7-2f01-40fd-bc37-fbb35a936957/DIAZ-Ismael_372342"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 385030,
+      "attackingRank": 20,
+      "defensiveRank": 14,
+      "creativityRank": 18,
+      "attackingScore": 4.300364971160889,
+      "defensiveScore": 5.381091117858887,
+      "creativityScore": 5.784848690032959,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Fidel ESCOBAR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فيديل إسكوبار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Fidel ESCOBAR"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Fidel ESCOBAR"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Fidel ESCOBAR"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Fidel ESCOBAR"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Fidel ESCOBAR"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フィデル・エスコバル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "피델 에스코바르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Fidel ESCOBAR"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Fidel ESCOBAR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Фидель ЭСКОБАР"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "菲德尔·埃斯科巴"
+        }
+      ],
+      "playerPicture": {
+        "id": "0163854C-2DC3-4F41-8994AF78CC54AD9F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0163854c-2dc3-4f41-8994-af78cc54ad9f/ESCOBAR-Fidel_385030"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 385031,
+      "attackingRank": 8,
+      "defensiveRank": 25,
+      "creativityRank": 5,
+      "attackingScore": 5.288159370422363,
+      "defensiveScore": 4.32491397857666,
+      "creativityScore": 6.727771759033203,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Amir MURILLO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أمير موريلو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Amir MURILLO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Amir MURILLO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Amir MURILLO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Amir MURILLO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Amir MURILLO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アミール・ムリージョ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아미르 무릴로"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Amir MURILLO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Amir MURILLO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Амир МУРИЛЬО"
+        }
+      ],
+      "playerPicture": {
+        "id": "018C385A-4EC9-457E-8C6B71ED2BE9C0FD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/018c385a-4ec9-457e-8c6b-71ed2be9c0fd/MURILLO-Amir_385031"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 395581,
+      "attackingRank": 14,
+      "defensiveRank": 23,
+      "creativityRank": 13,
+      "attackingScore": 4.837078094482422,
+      "defensiveScore": 4.425870418548584,
+      "creativityScore": 6.087907314300537,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Cristian MARTINEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كريستيان مارتينيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Cristian MARTINEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Cristian MARTINEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Cristian MARTINEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Cristian MARTINEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Cristian MARTINEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クリスティアン・マルティネス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크리스티안 마르티네스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Cristian MARTINEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Cristian MARTINEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кристиан МАРТИНЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克里斯蒂安·马丁内斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "153E5B43-6E20-486D-BF4CD0FF9615E9C6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/153e5b43-6e20-486d-bf4c-d0ff9615e9c6/MARTINEZ-Cristian_395581"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 400416,
+      "attackingRank": 15,
+      "defensiveRank": 24,
+      "creativityRank": 20,
+      "attackingScore": 4.798357963562012,
+      "defensiveScore": 4.337099075317383,
+      "creativityScore": 5.37333345413208,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Edgar Yoel BARCENAS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إدغار يويل بارسيناس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Edgar Yoel BARCENAS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Edgar Yoel BARCENAS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Edgar Yoel BARCENAS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Edgar Yoel BARCENAS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Edgar Yoel BARCENAS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エドガー・ヨエル・バルセナス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에드가 요엘 바르세나스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Edgar Yoel BARCENAS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Edgar Yoel BARCENAS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эдгар Йоэль БАРСЕНАС"
+        }
+      ],
+      "playerPicture": {
+        "id": "C34B4B07-7452-4E8B-A429AD73F1F9277D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c34b4b07-7452-4e8b-a429-ad73f1f9277d/BARCENAS-Edgar-Yoel_400416"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 411174,
+      "attackingRank": 17,
+      "defensiveRank": 22,
+      "creativityRank": 19,
+      "attackingScore": 4.618621826171875,
+      "defensiveScore": 4.484491348266602,
+      "creativityScore": 5.442759037017822,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jose FAJARDO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "خوسيه فاجاردو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jose FAJARDO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jose FAJARDO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jose FAJARDO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jose FAJARDO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jose FAJARDO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ホセ・ファハルド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호세 파하르도"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jose FAJARDO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jose FAJARDO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хосе ФАХАРДО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "何塞·法哈多"
+        }
+      ],
+      "playerPicture": {
+        "id": "B120B6EF-1340-49C3-9400DBE883606D5E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b120b6ef-1340-49c3-9400-dbe883606d5e/FAJARDO-Jose_411174"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 411176,
+      "attackingRank": 4,
+      "defensiveRank": 19,
+      "creativityRank": 11,
+      "attackingScore": 5.463814735412598,
+      "defensiveScore": 4.9102678298950195,
+      "creativityScore": 6.193642616271973,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jose Luis RODRIGUEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "خوسيه لويس رودريغيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jose Luis RODRIGUEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jose Luis RODRIGUEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jose Luis RODRIGUEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jose Luis RODRIGUEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jose Luis RODRIGUEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ホセ・ルイス・ロドリゲス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호세 루이스 로드리게스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jose Luis RODRIGUEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jose Luis RODRIGUEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хосе Луис РОДРИГЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "何塞·路易斯·罗德里格斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "61C1C941-31D5-456D-B55FDC30700ADBA9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/61c1c941-31d5-456d-b55f-dc30700adba9/RODRIGUEZ-Jose-Luis_411176"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 418715,
+      "attackingRank": 20,
+      "defensiveRank": 13,
+      "creativityRank": 22,
+      "attackingScore": 4.300364971160889,
+      "defensiveScore": 5.450501918792725,
+      "creativityScore": 5.118122100830078,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jose CORDOBA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "خوسيه كوردوبا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jose CORDOBA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jose CORDOBA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jose CORDOBA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jose CORDOBA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jose CORDOBA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ホセ・コルドバ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호세 코르도바"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jose CORDOBA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jose CORDOBA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хосе КОРДОБА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "何塞·科尔多瓦"
+        }
+      ],
+      "playerPicture": {
+        "id": "BA65E55E-DD66-4931-BAE7CA55B6F0C719",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ba65e55e-dd66-4931-bae7-ca55b6f0c719/CORDOBA-Jose_418715"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 418729,
+      "attackingRank": 11,
+      "defensiveRank": 12,
+      "creativityRank": 8,
+      "attackingScore": 5.019435405731201,
+      "defensiveScore": 5.4996562004089355,
+      "creativityScore": 6.563487529754639,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Carlos HARVEY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كارلوس هارفي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Carlos HARVEY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Carlos HARVEY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Carlos HARVEY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Carlos HARVEY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Carlos HARVEY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カルロス・ハーヴェイ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "카를로스 하비"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Carlos HARVEY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Carlos HARVEY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Карлос ХАРВИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "卡洛斯·哈维"
+        }
+      ],
+      "playerPicture": {
+        "id": "498810DE-6369-469E-8DF9DB21395D1EE0",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/498810de-6369-469e-8df9-db21395d1ee0/HARVEY-Carlos_418729"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 418747,
+      "attackingRank": 9,
+      "defensiveRank": 21,
+      "creativityRank": 9,
+      "attackingScore": 5.182198524475098,
+      "defensiveScore": 4.519413948059082,
+      "creativityScore": 6.521586894989014,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Tomas RODRIGUEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "توماس رودريغيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Tomas RODRIGUEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Tomas RODRIGUEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Tomas RODRIGUEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Tomas RODRIGUEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Tomas RODRIGUEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トマス・ロドリゲス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "토마스 로드리게스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Tomas RODRIGUEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Tomas RODRIGUEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Томас РОДРИГЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "托马斯·罗德里格斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "1F4BD86B-0E56-41F3-9F805E7388FF9848",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1f4bd86b-0e56-41f3-9f80-5e7388ff9848/RODRIGUEZ-Tomas_418747"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 441239,
+      "attackingRank": 18,
+      "defensiveRank": 20,
+      "creativityRank": 25,
+      "attackingScore": 4.451113700866699,
+      "defensiveScore": 4.75474214553833,
+      "creativityScore": 4.846593379974365,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jorge GUTIERREZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "خورخي غوتيريز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jorge GUTIERREZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jorge GUTIERREZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jorge GUTIERREZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jorge GUTIERREZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jorge GUTIERREZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ホルヘ・グティエレス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호르헤 구티에레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jorge GUTIERREZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jorge GUTIERREZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорхе ГУТИЕРРЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "豪尔赫·古铁雷斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "B324619D-D774-4BB5-876B40845697EFE8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b324619d-d774-4bb5-876b-40845697efe8/GUTIERREZ-Jorge_441239"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 441240,
+      "attackingRank": 23,
+      "defensiveRank": 7,
+      "creativityRank": 23,
+      "attackingScore": 4.224341869354248,
+      "defensiveScore": 6.800612449645996,
+      "creativityScore": 5.060237407684326,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Andres ANDRADE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أندريس أندرادي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Andres ANDRADE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Andres ANDRADE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Andres ANDRADE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Andres ANDRADE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Andres ANDRADE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アンドレス・アンドラーデ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "안드레스 안드라데"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Andres ANDRADE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Andres ANDRADE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Андрес АНДРАДЕ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "安德烈斯·安德拉德"
+        }
+      ],
+      "playerPicture": {
+        "id": "7CB0D726-E204-4173-830C0384EB857207",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7cb0d726-e204-4173-830c-0384eb857207/ANDRADE-Andres_441240"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 466669,
+      "attackingRank": 10,
+      "defensiveRank": 16,
+      "creativityRank": 17,
+      "attackingScore": 5.181606292724609,
+      "defensiveScore": 5.138404846191406,
+      "creativityScore": 5.9755706787109375,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Azarias LONDONO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أزارياس لوندونو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Azarias LONDONO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Azarias LONDONO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Azarias LONDONO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Azarias LONDONO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Azarias LONDONO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アザリアス・ロンドノ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아자리아스 론도노"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Azarias LONDONO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Azarias LONDONO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Азариас ЛОНДОНО"
+        }
+      ],
+      "playerPicture": {
+        "id": "CB7B28B7-DBCB-4240-A32DC5E6CD289240",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/cb7b28b7-dbcb-4240-a32d-c5e6cd289240/LONDONO-Azarias_466669"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 369419,
+      "attackingRank": 2,
+      "defensiveRank": 18,
+      "creativityRank": 21,
+      "attackingScore": 7.257601737976074,
+      "defensiveScore": 5.023025989532471,
+      "creativityScore": 5.300354957580566,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Harry KANE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هاري كين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Harry KANE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Harry KANE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Harry KANE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Harry KANE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Harry KANE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ハリー・ケイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "해리 케인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Harry KANE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Harry KANE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Гарри КЕЙН"
+        }
+      ],
+      "playerPicture": {
+        "id": "5AD83FE6-1139-4F92-A97C669052EB1755",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5ad83fe6-1139-4f92-a97c-669052eb1755/KANE-Harry_369419"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 401470,
+      "attackingRank": 7,
+      "defensiveRank": 26,
+      "creativityRank": 1,
+      "attackingScore": 5.331539630889893,
+      "defensiveScore": 4.2810163497924805,
+      "creativityScore": 8.629382133483887,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Marcus RASHFORD"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماركوس راشفورد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marcus RASHFORD"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marcus RASHFORD"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Marcus RASHFORD"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Marcus RASHFORD"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marcus RASHFORD"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マーカス・ラッシュフォード"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마커스 래시포드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marcus RASHFORD"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marcus RASHFORD"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Маркус РАШФОРД"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "马库斯·拉什福德"
+        }
+      ],
+      "playerPicture": {
+        "id": "1C89A3E5-8D8F-474F-A0FE8C39FAA3DC8D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1c89a3e5-8d8f-474f-a0fe-8c39faa3dc8d/RASHFORD-Marcus_401470"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 403049,
+      "attackingRank": 26,
+      "defensiveRank": 2,
+      "creativityRank": 24,
+      "attackingScore": 4,
+      "defensiveScore": 7.562824249267578,
+      "creativityScore": 4.936888694763184,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ezri KONSA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إزري كونسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ezri KONSA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ezri KONSA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ezri KONSA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ezri KONSA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ezri KONSA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エズリ・コンサ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에즈리 콘사"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ezri KONSA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ezri KONSA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эзри КОНСА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃兹里·康萨"
+        }
+      ],
+      "playerPicture": {
+        "id": "54B28723-92E1-42E8-97B5162F5099CF60",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/54b28723-92e1-42e8-97b5-162f5099cf60/KONSA-Ezri_403049"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 405841,
+      "attackingRank": 25,
+      "defensiveRank": 5,
+      "creativityRank": 14,
+      "attackingScore": 4.059844970703125,
+      "defensiveScore": 6.978641510009766,
+      "creativityScore": 6.0329437255859375,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Marc GUEHI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مارك غوي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marc GUEHI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marc GUEHI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Marc GUEHI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Marc GUEHI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marc GUEHI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マルク・ゲヒ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마크 게히"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marc GUEHI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marc GUEHI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марк ГЕХИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "马克·盖希"
+        }
+      ],
+      "playerPicture": {
+        "id": "C9686F87-8ABD-45FB-A1E0321EE8470DD6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c9686f87-8abd-45fb-a1e0-321ee8470dd6/GUEHI-Marc_405841"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 448196,
+      "attackingRank": 3,
+      "defensiveRank": 11,
+      "creativityRank": 3,
+      "attackingScore": 5.980130672454834,
+      "defensiveScore": 5.5467681884765625,
+      "creativityScore": 7.527538776397705,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Bukayo SAKA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بوكايو ساكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bukayo SAKA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bukayo SAKA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bukayo SAKA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bukayo SAKA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bukayo SAKA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブカヨ・サカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "부카요 사카"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bukayo SAKA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bukayo SAKA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Букайо САКА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "布卡约·萨卡"
+        }
+      ],
+      "playerPicture": {
+        "id": "B1182D25-62AD-4AD8-8BAE2B7577569484",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b1182d25-62ad-4ad8-8bae-2b7577569484/MUMIN-Abdul_441336"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 448202,
+      "attackingRank": 1,
+      "defensiveRank": 4,
+      "creativityRank": 2,
+      "attackingScore": 9.44245719909668,
+      "defensiveScore": 7.050966739654541,
+      "creativityScore": 8.561675071716309,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jude BELLINGHAM"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جود بيلينغهام"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jude BELLINGHAM"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jude BELLINGHAM"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jude BELLINGHAM"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jude BELLINGHAM"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jude BELLINGHAM"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジュード・ベリンガム"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "주드 벨링엄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jude BELLINGHAM"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jude BELLINGHAM"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джуд БЕЛЛИНГХЭМ"
+        }
+      ],
+      "playerPicture": {
+        "id": "D711B37F-EC06-4EA7-BB5250BA0A42EF67",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/d711b37f-ec06-4ea7-bb52-50ba0a42ef67/BELLINGHAM-Jude_448202"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 463780,
+      "attackingRank": 19,
+      "defensiveRank": 6,
+      "creativityRank": 15,
+      "attackingScore": 4.386946678161621,
+      "defensiveScore": 6.843963146209717,
+      "creativityScore": 6.003867149353027,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nico OREILLY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيكو أوريلي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nico OREILLY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nico OREILLY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nico OREILLY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nico OREILLY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nico OREILLY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニコ・オライリー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "니코 오라일리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nico OREILLY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nico OREILLY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нико ОРЕЙЛИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "6A6BE1C6-3496-49BA-81CA354BDB2F404C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6a6be1c6-3496-49ba-81ca-354bdb2f404c/OREILLY-Nico_390761"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 463809,
+      "attackingRank": 22,
+      "defensiveRank": 1,
+      "creativityRank": 26,
+      "attackingScore": 4.289602756500244,
+      "defensiveScore": 7.738920211791992,
+      "creativityScore": 4.843719005584717,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jarell QUANSAH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جاريل كوانسا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jarell QUANSAH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jarell QUANSAH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jarell QUANSAH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jarell QUANSAH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jarell QUANSAH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジャレル・クアンサ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "자렐 콴사"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jarell QUANSAH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jarell QUANSAH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джарелл КВАНСА"
+        }
+      ],
+      "playerPicture": {
+        "id": "60C5FB68-C640-45DC-A49375E1D9F3450C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/60c5fb68-c640-45dc-a493-75e1d9f3450c/QUANSAH-Jarell_463809"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 473113,
+      "attackingRank": 12,
+      "defensiveRank": 17,
+      "creativityRank": 6,
+      "attackingScore": 4.997162818908691,
+      "defensiveScore": 5.090175151824951,
+      "creativityScore": 6.612999439239502,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Eberechi EZE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إبيريتشي إيزي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Eberechi EZE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Eberechi EZE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Eberechi EZE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Eberechi EZE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Eberechi EZE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エベレチ・エゼ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에베레치 에제"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Eberechi EZE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Eberechi EZE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эберечи ЭЗЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "C08BF1D9-1DCE-4862-B8102F9E198A4950",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c08bf1d9-1dce-4862-b810-2f9e198a4950/EZE-Eberechi_473113"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 481610,
+      "attackingRank": 16,
+      "defensiveRank": 3,
+      "creativityRank": 7,
+      "attackingScore": 4.798023700714111,
+      "defensiveScore": 7.391857147216797,
+      "creativityScore": 6.601537227630615,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Elliot ANDERSON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إليوت أندرسون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Elliot ANDERSON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Elliot ANDERSON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Elliot ANDERSON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Elliot ANDERSON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Elliot ANDERSON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エリオット・アンダーソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엘리엇 앤더슨"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Elliot ANDERSON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Elliot ANDERSON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эллиот Андерсон"
+        }
+      ],
+      "playerPicture": {
+        "id": "8DA5855F-C957-4151-94A0731E9714249F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8da5855f-c957-4151-94a0-731e9714249f/ANDERSON-Elliot_481610"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 489732,
+      "attackingRank": 6,
+      "defensiveRank": 10,
+      "creativityRank": 12,
+      "attackingScore": 5.338583946228027,
+      "defensiveScore": 5.85011100769043,
+      "creativityScore": 6.1766276359558105,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Noni MADUEKE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نوني مادويكي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Noni MADUEKE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noni MADUEKE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Noni MADUEKE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Noni MADUEKE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Noni MADUEKE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ノニ・マドゥエケ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "노니 마두에케"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noni MADUEKE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Noni MADUEKE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нони МАДУЭКЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "115733F4-8E52-477A-867F063F1E2C7752",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/115733f4-8e52-477a-867f-063f1e2c7752/MADUEKE-Noni_489732"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 492716,
+      "attackingRank": 24,
+      "defensiveRank": 8,
+      "creativityRank": 16,
+      "attackingScore": 4.120585918426514,
+      "defensiveScore": 6.189702987670898,
+      "creativityScore": 5.993892192840576,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Morgan ROGERS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مورغان روجرز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Morgan ROGERS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Morgan ROGERS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Morgan ROGERS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Morgan ROGERS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Morgan ROGERS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モーガン・ロジャース"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모건 로저스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Morgan ROGERS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Morgan ROGERS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Морган РОГЕРС"
+        }
+      ],
+      "playerPicture": {
+        "id": "426BFDB9-3999-4826-81B8DD33691A45A2",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/426bfdb9-3999-4826-81b8-dd33691a45a2/ROGERS-Morgan_492716"
+      }
+    },
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 506329,
+      "attackingRank": 13,
+      "defensiveRank": 9,
+      "creativityRank": 4,
+      "attackingScore": 4.874438285827637,
+      "defensiveScore": 6.138185977935791,
+      "creativityScore": 6.796019554138184,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Djed SPENCE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيد سبنس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Djed SPENCE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Djed SPENCE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Djed SPENCE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Djed SPENCE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Djed SPENCE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジェド・スペンス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "제드 스펜스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Djed SPENCE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Djed SPENCE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джед СПЕНС"
+        }
+      ],
+      "playerPicture": {
+        "id": "03356BAA-B368-4192-BF86AD3033E57AD2",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/03356baa-b368-4192-bf86-ad3033e57ad2/SPENCE-Djed_506329"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43942,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "England"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إنجلترا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "England"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angleterre"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Inggris"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Inghilterra"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イングランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잉글랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Inglaterra"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Англия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "英格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ENG",
+      "playerId": 336022,
+      "inPossessionRank": 2,
+      "inPossessionScore": 6.074812889099121,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 7.406641960144043,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jordan PICKFORD"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جوردان بيكفورد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jordan PICKFORD"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jordan PICKFORD"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jordan PICKFORD"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jordan PICKFORD"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jordan PICKFORD"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョーダン・ピックフォード"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "조던 픽포드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jordan PICKFORD"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jordan PICKFORD"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джордан ПИКФОРД"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乔丹·皮克福德"
+        }
+      ],
+      "playerPicture": {
+        "id": "5F9B3BBF-EDB5-4956-BCE72D0A8E77F6AB",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5f9b3bbf-edb5-4956-bce7-2d0a8e77f6ab/PICKFORD-Jordan_336022"
+      }
+    },
+    {
+      "teamId": 43914,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Panama"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بنما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Panama"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Panamá"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Panama"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Panama"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パナマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파나마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Panamá"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Панама"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴拿马"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/PAN",
+      "playerId": 441241,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.8311591148376465,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 6.823456764221191,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Orlando MOSQUERA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أورلاندو موسكويرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Orlando MOSQUERA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Orlando MOSQUERA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Orlando MOSQUERA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Orlando MOSQUERA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Orlando MOSQUERA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オルランド・モスケラ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "올란도 모스케라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Orlando MOSQUERA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Orlando MOSQUERA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Орландо МОСКЕРА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "奥兰多·莫斯克拉"
+        }
+      ],
+      "playerPicture": {
+        "id": "050825B5-4CAD-4874-8AA9FDF8BDA50819",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/050825b5-4cad-4874-8aa9-fdf8bda50819/MOSQUERA-Orlando_441241"
+      }
+    }
+  ]
+}

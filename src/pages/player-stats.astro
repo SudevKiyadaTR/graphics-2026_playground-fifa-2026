@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import PlayerStatsTable from '../components/PlayerStatsTable.svelte';
+import { loadPlayerStatsPerMatch, loadPlayerStatsConsolidated } from '../lib/data.js';
+
+const matchRows = loadPlayerStatsPerMatch();
+const consolidatedRows = loadPlayerStatsConsolidated();
+
+const FIXED_KEYS = new Set(['matchId', 'playerName', 'teamName', 'matchCount']);
+const statKeys = matchRows.length > 0
+  ? Object.keys(matchRows[0]).filter((k) => !FIXED_KEYS.has(k))
+  : [];
+---
+
+<Base title="Player Stats — FIFA 2026 Dashboard">
+  <div class="page-header">
+    <h1>Player Stats</h1>
+    <p>{consolidatedRows.length} players · {matchRows.length} match appearances · {statKeys.length} stat columns</p>
+  </div>
+
+  <PlayerStatsTable
+    matchRows={matchRows}
+    consolidatedRows={consolidatedRows}
+    statKeys={statKeys}
+    client:load
+  />
+</Base>
+
+<style>
+  .page-header {
+    margin-bottom: var(--space-lg);
+  }
+
+  .page-header p {
+    font: var(--font-mono);
+    color: var(--color-text-secondary);
+    margin-top: var(--space-sm);
+  }
+</style>

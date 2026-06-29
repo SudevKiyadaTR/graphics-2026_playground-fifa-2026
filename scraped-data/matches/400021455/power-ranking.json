@@ -1,0 +1,3197 @@
+{
+  "competitionId": 285023,
+  "matchId": 151624,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-25T02:27:51.009404Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 308386,
+      "attackingRank": 11,
+      "defensiveRank": 1,
+      "creativityRank": 5,
+      "attackingScore": 4.899662494659424,
+      "defensiveScore": 7.861238956451416,
+      "creativityScore": 6.812702655792236,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كاسيميرو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カゼミーロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "카세미루"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "КАСЕМИРО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "卡塞米罗"
+        }
+      ],
+      "playerPicture": {
+        "id": "49558D20-3D5D-4AFB-BF2A9DC1AB60A6E6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/49558d20-3d5d-4afb-bf2a-9dc1ab60a6e6/CASEMIRO_308386"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 314197,
+      "attackingRank": 4,
+      "defensiveRank": 16,
+      "creativityRank": 7,
+      "attackingScore": 5.311095237731934,
+      "defensiveScore": 5.420878887176514,
+      "creativityScore": 6.296680927276611,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "NEYMAR JR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيمار جونيور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "NEYMAR JR"
+        },
+        {
+          "locale": "es-ES",
+          "description": "NEYMAR JR"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "NEYMAR JR"
+        },
+        {
+          "locale": "id-ID",
+          "description": "NEYMAR JR"
+        },
+        {
+          "locale": "it-IT",
+          "description": "NEYMAR JR"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ネイマール・ジュニア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네이마르 주니어"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "NEYMAR JR"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "NEYMAR JR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Неймар-младший"
+        }
+      ],
+      "playerPicture": {
+        "id": "49424AD5-F8D5-485A-A55B07C22B49BD07",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/49424ad5-f8d5-485a-a55b-07c22b49bd07/NEYMAR_314197"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 332946,
+      "attackingRank": 23,
+      "defensiveRank": 6,
+      "creativityRank": 13,
+      "attackingScore": 4,
+      "defensiveScore": 5.726509094238281,
+      "creativityScore": 5.7089056968688965,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماركيهوس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マルキーニョス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마르키뉴스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "МАРКИНЬОС"
+        }
+      ],
+      "playerPicture": {
+        "id": "30069661-F88D-4FF7-9C4E071A5CF3C093",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/30069661-f88d-4ff7-9c4e-071a5cf3c093/MARQUINHOS_332946"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 335656,
+      "attackingRank": 23,
+      "defensiveRank": 3,
+      "creativityRank": 12,
+      "attackingScore": 4,
+      "defensiveScore": 7.187427043914795,
+      "creativityScore": 5.8589911460876465,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "DANILO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دانيلو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "DANILO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "DANILO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "DANILO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "DANILO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "DANILO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダニーロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다닐로"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "DANILO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "DANILO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ДАНИЛО"
+        }
+      ],
+      "playerPicture": {
+        "id": "364F443F-83DF-4E8E-803C765FEAE146A3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/364f443f-83df-4e8e-803c-765feae146a3/DANILO_335656"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 367981,
+      "attackingRank": 13,
+      "defensiveRank": 12,
+      "creativityRank": 17,
+      "attackingScore": 4.809586524963379,
+      "defensiveScore": 5.5336761474609375,
+      "creativityScore": 5.532258033752441,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دوغلاس سانتوس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダグラス・サントス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "더글라스 산토스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дуглас Сантос"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "道格拉斯·桑托斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "7CEF9B58-DA05-42BA-AFE9AEBCD4D40A0E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7cef9b58-da05-42ba-afe9-aebcd4d40a0e/DOUGLAS-SANTOS_367981"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 394456,
+      "attackingRank": 16,
+      "defensiveRank": 4,
+      "creativityRank": 18,
+      "attackingScore": 4.417454242706299,
+      "defensiveScore": 6.414942264556885,
+      "creativityScore": 5.430752277374268,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "FABINHO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فابينيو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "FABINHO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "FABINHO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "FABINHO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "FABINHO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "FABINHO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ファビーニョ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파비뉴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "FABINHO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "FABINHO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Фабиньо"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法比尼奥"
+        }
+      ],
+      "playerPicture": {
+        "id": "F32CD105-D97B-4A7B-8EB0258271640A72",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f32cd105-d97b-4a7b-8eb0-258271640a72/FABINHO_394456"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 405742,
+      "attackingRank": 1,
+      "defensiveRank": 15,
+      "creativityRank": 6,
+      "attackingScore": 8.786200523376465,
+      "defensiveScore": 5.431282043457031,
+      "creativityScore": 6.7569499015808105,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فينيكوس جونيور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "es-ES",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "id-ID",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "it-IT",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヴィニシウス・ジュニア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "비니시우스 주니어"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ВИНИСИУС ЖУНИОР"
+        }
+      ],
+      "playerPicture": {
+        "id": "1C2722C3-A70B-49D8-BDB477109161F533",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1c2722c3-a70b-49d8-bdb4-77109161f533/VINICIUS-JUNIOR_405742"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 411726,
+      "attackingRank": 8,
+      "defensiveRank": 7,
+      "creativityRank": 3,
+      "attackingScore": 4.982791423797607,
+      "defensiveScore": 5.658897399902344,
+      "creativityScore": 7.0732855796813965,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لوكاس باكيتا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルーカス・パケタ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루카스 파케타"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лукас ПАКЕТА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "卢卡斯·帕奎塔"
+        }
+      ],
+      "playerPicture": {
+        "id": "7D7FCE96-8D80-43C3-AA72C45C44D370C5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7d7fce96-8d80-43c3-aa72-c45c44d370c5/LUCAS-PAQUETA_411726"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 430597,
+      "attackingRank": 16,
+      "defensiveRank": 14,
+      "creativityRank": 16,
+      "attackingScore": 4.417454242706299,
+      "defensiveScore": 5.431736469268799,
+      "creativityScore": 5.537683963775635,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غابرييل مارتينيلي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ガブリエル・マルティネッリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "가브리엘 마르티넬리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ГАБРИЭЛЬ МАРТИНЕЛЛИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "4EF5DBD2-50DC-4DEF-8AE55C9F6FEE72C2",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4ef5dbd2-50dc-4def-8ae5-5c9f6fee72c2/GABRIEL-MARTINELLI_430597"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 430601,
+      "attackingRank": 14,
+      "defensiveRank": 2,
+      "creativityRank": 19,
+      "attackingScore": 4.666933536529541,
+      "defensiveScore": 7.354464054107666,
+      "creativityScore": 5.417809009552002,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غابرييل ماغالهايس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ガブリエル・マガリャエス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "가브리엘 마갈레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ГАБРИЭЛЬ МАГАЛЬЯЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "B5870A76-5391-40B7-A348E2B17995637B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b5870a76-5391-40b7-a348-e2b17995637b/GABRIEL-MAGALHAES_430601"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 430605,
+      "attackingRank": 3,
+      "defensiveRank": 18,
+      "creativityRank": 1,
+      "attackingScore": 5.797414302825928,
+      "defensiveScore": 4.9802680015563965,
+      "creativityScore": 7.418464660644531,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "برونو غيمارايس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブルーノ・ギマランイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브루노 기마랑이스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "БРУНО ГИМАРАЭС"
+        }
+      ],
+      "playerPicture": {
+        "id": "0215CB23-C389-4C5A-9BB0C7044AE7059A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0215cb23-c389-4c5a-9bb0-c7044ae7059a/BRUNO-GUIMARAES_430605"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 430609,
+      "attackingRank": 2,
+      "defensiveRank": 11,
+      "creativityRank": 9,
+      "attackingScore": 6.6936564445495605,
+      "defensiveScore": 5.59769868850708,
+      "creativityScore": 6.2595696449279785,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماتيوس كونها"
+        },
+        {
+          "locale": "de-DE",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マテウス・クーニャ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마테우스 쿠냐"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "МАТЕУС КУНЯ"
+        }
+      ],
+      "playerPicture": {
+        "id": "9189DA72-E1B5-4E7B-800D7EECA119F08C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9189da72-e1b5-4e7b-800d-7eeca119f08c/MATHEUS-CUNHA_430609"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 475036,
+      "attackingRank": 9,
+      "defensiveRank": 5,
+      "creativityRank": 2,
+      "attackingScore": 4.954963684082031,
+      "defensiveScore": 5.965915679931641,
+      "creativityScore": 7.40634822845459,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رايان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラヤン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라얀"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Райан"
+        }
+      ],
+      "playerPicture": {
+        "id": "C5DE4283-2FBB-4691-8DE439959AD7B755",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c5de4283-2fbb-4691-8de4-39959ad7b755/RAYAN_475036"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 401334,
+      "attackingRank": 20,
+      "defensiveRank": 19,
+      "creativityRank": 14,
+      "attackingScore": 4.231457710266113,
+      "defensiveScore": 4.719712257385254,
+      "creativityScore": 5.588176250457764,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "John McGinn"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جون ماكجين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "John McGinn"
+        },
+        {
+          "locale": "es-ES",
+          "description": "John McGinn"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "John McGinn"
+        },
+        {
+          "locale": "id-ID",
+          "description": "John McGinn"
+        },
+        {
+          "locale": "it-IT",
+          "description": "John McGinn"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョン・マクギン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "존 맥긴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "John McGinn"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "John McGinn"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джон Макгинн"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "约翰·麦金"
+        }
+      ],
+      "playerPicture": {
+        "id": "AF6CEADD-A14F-47C0-9F30FD85D71A94CD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/af6ceadd-a14f-47c0-9f30-fd85d71a94cd/McGINN-John_401334"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 401339,
+      "attackingRank": 18,
+      "defensiveRank": 10,
+      "creativityRank": 20,
+      "attackingScore": 4.324662685394287,
+      "defensiveScore": 5.614126205444336,
+      "creativityScore": 5.297062873840332,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Andy ROBERTSON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "آندي روبرتسون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Andy ROBERTSON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Andy ROBERTSON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Andy ROBERTSON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Andy ROBERTSON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Andy ROBERTSON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アンディ・ロバートソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "앤디 로버트슨"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Andy ROBERTSON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Andy ROBERTSON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Энди РОБЕРТСОН"
+        }
+      ],
+      "playerPicture": {
+        "id": "BA94C3AA-E071-4ADD-B4025D3F8DF8ACB9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ba94c3aa-e071-4add-b402-5d3f8df8acb9/ROBERTSON-Andy_401339"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 401712,
+      "attackingRank": 6,
+      "defensiveRank": 24,
+      "creativityRank": 4,
+      "attackingScore": 5.02197790145874,
+      "defensiveScore": 4.276779651641846,
+      "creativityScore": 6.991683483123779,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Kieran Tierney"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كيران تيرني"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kieran Tierney"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Kieran Tierney"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Kieran Tierney"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kieran Tierney"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Kieran Tierney"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "キアラン・ティアニー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "키어런 티어니"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Kieran Tierney"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Kieran Tierney"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Киран Тирни"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "基兰·蒂尔尼"
+        }
+      ],
+      "playerPicture": {
+        "id": "D2B1D878-BBCC-4E16-BB777A90A01D0E37",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/d2b1d878-bbcc-4e16-bb77-7a90a01d0e37/TIERNEY-Kieran_401712"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 430147,
+      "attackingRank": 21,
+      "defensiveRank": 20,
+      "creativityRank": 23,
+      "attackingScore": 4.0954508781433105,
+      "defensiveScore": 4.649496078491211,
+      "creativityScore": 4.721846103668213,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jack Hendry"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جاك هندري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jack Hendry"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jack Hendry"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jack Hendry"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jack Hendry"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jack Hendry"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジャック・ヘンドリー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잭 헨드리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jack Hendry"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jack Hendry"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джек Хендри"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "杰克·亨德利"
+        }
+      ],
+      "playerPicture": {
+        "id": "4C09CB0F-5174-41B5-A47EDCFB5506B282",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4c09cb0f-5174-41b5-a47e-dcfb5506b282/HENDRY-Jack_430147"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 433694,
+      "attackingRank": 19,
+      "defensiveRank": 17,
+      "creativityRank": 11,
+      "attackingScore": 4.275341510772705,
+      "defensiveScore": 5.3385491371154785,
+      "creativityScore": 5.951817989349365,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nathan PATTERSON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ناثان باترسون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nathan PATTERSON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nathan PATTERSON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nathan PATTERSON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nathan PATTERSON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nathan PATTERSON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ネイサン・パターソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네이선 패터슨"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nathan PATTERSON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nathan PATTERSON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Натан ПАТТЕРСОН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "内森·帕特森"
+        }
+      ],
+      "playerPicture": {
+        "id": "3FC20068-FF61-482E-AE76B63E24985F42",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3fc20068-ff61-482e-ae76-b63e24985f42/PATTERSON-Nathan_433694"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 433787,
+      "attackingRank": 7,
+      "defensiveRank": 13,
+      "creativityRank": 15,
+      "attackingScore": 4.9925312995910645,
+      "defensiveScore": 5.52619743347168,
+      "creativityScore": 5.554205894470215,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Scott McTominay"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سكوت ماكتوميناي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Scott McTominay"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Scott McTominay"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Scott McTominay"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Scott McTominay"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scott McTominay"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコット・マクトミネイ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스콧 맥토미나이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Scott McTominay"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Scott McTominay"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Скотт МакТоминей"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "斯科特·麦克托米奈"
+        }
+      ],
+      "playerPicture": {
+        "id": "483440E3-5BDC-46E2-9B8077E880B5FD85",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/483440e3-5bdc-46e2-9b80-77e880b5fd85/McTOMINAY-Scott_433787"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 442431,
+      "attackingRank": 22,
+      "defensiveRank": 9,
+      "creativityRank": 24,
+      "attackingScore": 4.037271022796631,
+      "defensiveScore": 5.632254123687744,
+      "creativityScore": 4.66679048538208,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Scott MCKENNA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سكوت ماكينا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Scott MCKENNA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Scott MCKENNA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Scott MCKENNA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Scott MCKENNA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scott MCKENNA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコット・マッケナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스콧 맥케나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Scott MCKENNA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Scott MCKENNA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Скотт МакКенна"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "斯科特·麦肯纳"
+        }
+      ],
+      "playerPicture": {
+        "id": "073EBE12-5BA9-4DE4-87292A0B0E942B43",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/073ebe12-5ba9-4de4-8729-2a0b0e942b43/McKENNA-Scott_442431"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 442434,
+      "attackingRank": 10,
+      "defensiveRank": 8,
+      "creativityRank": 10,
+      "attackingScore": 4.932265758514404,
+      "defensiveScore": 5.651769638061523,
+      "creativityScore": 6.05879545211792,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lewis FERGUSON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لويس فيرغسون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Lewis FERGUSON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Lewis FERGUSON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Lewis FERGUSON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Lewis FERGUSON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Lewis FERGUSON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルイス・ファーガソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루이스 퍼거슨"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Lewis FERGUSON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Lewis FERGUSON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Льюис ФЕРГЮСОН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "刘易斯·弗格森"
+        }
+      ],
+      "playerPicture": {
+        "id": "D5D3101D-C2CB-4A29-BCCF914370459CFA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/d5d3101d-c2cb-4a29-bccf-914370459cfa/FERGUSON-Lewis_442434"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 484045,
+      "attackingRank": 15,
+      "defensiveRank": 23,
+      "creativityRank": 22,
+      "attackingScore": 4.6295952796936035,
+      "defensiveScore": 4.374629974365234,
+      "creativityScore": 5.023044109344482,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lawrence SHANKLAND"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لورانس شانكلاند"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Lawrence SHANKLAND"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Lawrence SHANKLAND"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Lawrence SHANKLAND"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Lawrence SHANKLAND"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Lawrence SHANKLAND"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ローレンス・シャンクランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "로렌스 샹클랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Lawrence SHANKLAND"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Lawrence SHANKLAND"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лоуренс ШАНКЛАНД"
+        }
+      ],
+      "playerPicture": {
+        "id": "6A373A65-CA0E-4C4B-A61BB98C73FDEFDD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6a373a65-ca0e-4c4b-a61b-b98c73fdefdd/SHANKLAND-Lawrence_484045"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 484051,
+      "attackingRank": 12,
+      "defensiveRank": 21,
+      "creativityRank": 8,
+      "attackingScore": 4.878228187561035,
+      "defensiveScore": 4.630746841430664,
+      "creativityScore": 6.287541389465332,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Kenny McLEAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كيني ماكلين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kenny McLEAN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Kenny McLEAN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Kenny McLEAN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kenny McLEAN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Kenny McLEAN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ケニー・マクリーン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "케니 맥클린"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Kenny McLEAN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Kenny McLEAN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кенни Маклин"
+        }
+      ],
+      "playerPicture": {
+        "id": "E1F470CA-8805-4250-8C3039AA30A16AC9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e1f470ca-8805-4250-8c30-39aa30a16ac9/McLEAN-Kenny_484051"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 485131,
+      "attackingRank": 5,
+      "defensiveRank": 22,
+      "creativityRank": 21,
+      "attackingScore": 5.035072326660156,
+      "defensiveScore": 4.4880475997924805,
+      "creativityScore": 5.19262170791626,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ben GANNON-DOAK"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بن غانون-دوك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ben GANNON-DOAK"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ben GANNON-DOAK"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ben GANNON-DOAK"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ben GANNON-DOAK"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ben GANNON-DOAK"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベン・ガノン＝ドーク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벤 가논-도크"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ben GANNON-DOAK"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ben GANNON-DOAK"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бен ГАННОН-ДОАК"
+        }
+      ],
+      "playerPicture": {
+        "id": "7CF469CC-72F7-4C4B-9312817920757AF3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7cf469cc-72f7-4c4b-9312-817920757af3/GANNON-DOAK-Ben_485131"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 308370,
+      "inPossessionRank": 2,
+      "inPossessionScore": 4.74235200881958,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 6.436594486236572,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أليسون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アリソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알리송"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "АЛИССОН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "艾莉森"
+        }
+      ],
+      "playerPicture": {
+        "id": "6B051628-D407-41CE-8A60DC354AC4CCB8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6b051628-d407-41ce-8a60-dc354ac4ccb8/ALISSON_308370"
+      }
+    },
+    {
+      "teamId": 43967,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Scotland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسكتلندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schottland"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Escocia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Écosse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Skotlandia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Scozia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スコットランド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스코틀랜드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Escócia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шотландия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "苏格兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SCO",
+      "playerId": 411301,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.18837833404541,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 5.18154239654541,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Angus Gunn"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أنجوس غان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Angus Gunn"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Angus Gunn"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Angus Gunn"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Angus Gunn"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Angus Gunn"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アンガス・ガン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "앵거스 건"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Angus Gunn"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Angus Gunn"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ангус Ганн"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "安格斯·古恩"
+        }
+      ],
+      "playerPicture": {
+        "id": "C13202B1-F3B1-4FE1-BC720EE5B3135BBC",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c13202b1-f3b1-4fe1-bc72-0ee5b3135bbc/GUNN-Angus_411301"
+      }
+    }
+  ]
+}

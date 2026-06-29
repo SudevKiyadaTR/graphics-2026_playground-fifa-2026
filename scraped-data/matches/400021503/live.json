@@ -1335,8 +1335,8 @@
         ],
         "Position": 1,
         "PlayerPicture": {
-          "Id": null,
-          "PictureUrl": null
+          "Id": "DE1F05C2-772C-4C3C-8410B653F3E812C9",
+          "PictureUrl": "https://digitalhub.fifa.com/transform/de1f05c2-772c-4c3c-8410-b653f3e812c9/KHUSANOV-Abdukodir_479068"
         },
         "FieldStatus": 0,
         "LineupX": null,
@@ -2248,6 +2248,24 @@
           {
             "Locale": "en-GB",
             "Description": "Enrico CASTELLACCI"
+          }
+        ]
+      },
+      {
+        "IdStaff": "353678",
+        "IdCountry": "UZB",
+        "Role": 8,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Gurgen ISRAELYAN"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Gurgen ISRAELYAN"
           }
         ]
       }

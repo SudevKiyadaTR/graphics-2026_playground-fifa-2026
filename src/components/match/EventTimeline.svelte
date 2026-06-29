@@ -11,7 +11,7 @@
     5: { label: 'Sub', icon: '🔄' },
   };
 
-  const parseMinute = (str) => parseInt(str) || 0;
+  const parseMinute = (str) => str.replace(/'/g, '').split('+').reduce((s, p) => s + (parseInt(p) || 0), 0);
 
   const events = Array.isArray(timeline)
     ? timeline
@@ -24,7 +24,22 @@
         }))
     : [];
 
-  const maxMinute = Math.max(90, ...events.map(e => e.minute));
+  // pair Delay(83) → Resume(78) events into drink break ranges
+  const drinkBreaks = (() => {
+    if (!Array.isArray(timeline)) return [];
+    const breaks = [];
+    let pending = null;
+    for (const e of timeline) {
+      if (e.Type === 83 && e.MatchMinute) pending = parseMinute(e.MatchMinute);
+      else if (e.Type === 78 && e.MatchMinute && pending !== null) {
+        breaks.push({ start: pending, end: parseMinute(e.MatchMinute) });
+        pending = null;
+      }
+    }
+    return breaks;
+  })();
+
+  const maxMinute = Math.max(90, ...events.map(e => e.minute), ...drinkBreaks.map(b => b.end));
   const pct = (m) => `${(m / maxMinute) * 100}%`;
 
   const getPlayerName = (playerId) => {
@@ -42,25 +57,27 @@
   {#if events.length === 0}
     <p class="empty">No significant events recorded</p>
   {:else}
-    <div class="tl-row home">
-      {#each events.filter(e => e.isHome) as e (e.EventId)}
-        <span class="dot" style="left:{pct(e.minute)}" data-tip={tooltip(e)}>{e.icon}</span>
+    <div class="track">
+      {#each drinkBreaks as b}
+        <span class="drink-break" style="left:{pct(b.start)};width:calc({pct(b.end)} - {pct(b.start)})" data-tip="Drink break {b.start}'–{b.end}'"></span>
       {/each}
-    </div>
 
-    <div class="axis">
-      <span class="tick" style="left:0">0'</span>
-      <span class="tick" style="left:50%">45'</span>
-      {#if maxMinute > 90}
-        <span class="tick" style="left:{pct(90)}">90'</span>
-      {/if}
-      <span class="tick end">{maxMinute}'</span>
-    </div>
+      <div class="tl-row home">
+        {#each events.filter(e => e.isHome) as e (e.EventId)}
+          <span class="dot" style="left:{pct(e.minute)}" data-tip={tooltip(e)}>{e.icon}</span>
+        {/each}
+      </div>
 
-    <div class="tl-row away">
-      {#each events.filter(e => !e.isHome) as e (e.EventId)}
-        <span class="dot" style="left:{pct(e.minute)}" data-tip={tooltip(e)}>{e.icon}</span>
-      {/each}
+      <div class="axis">
+        <span class="tick" style="left:0">0'</span>
+        <span class="tick end">{maxMinute}'</span>
+      </div>
+
+      <div class="tl-row away">
+        {#each events.filter(e => !e.isHome) as e (e.EventId)}
+          <span class="dot" style="left:{pct(e.minute)}" data-tip={tooltip(e)}>{e.icon}</span>
+        {/each}
+      </div>
     </div>
 
     <div class="legend">
@@ -86,6 +103,7 @@
     font-size: 1.1rem;
     cursor: default;
     line-height: 1;
+    z-index: 1;
   }
 
   .home .dot { bottom: 0; }
@@ -133,6 +151,41 @@
 
   .tick:first-child { transform: none; }
   .tick.end { right: 0; left: auto; transform: none; }
+
+  .track {
+    position: relative;
+  }
+
+  .drink-break {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(100, 180, 255, 0.15);
+    border-left: 1px solid rgba(100, 180, 255, 0.5);
+    border-right: 1px solid rgba(100, 180, 255, 0.5);
+    z-index: 0;
+  }
+
+  .drink-break[data-tip]::after {
+    content: attr(data-tip);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    background: var(--color-bg-raised, #1e1e2e);
+    color: var(--color-text-primary, #fff);
+    border: 1px solid rgba(100, 180, 255, 0.6);
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 10;
+  }
+
+  .drink-break[data-tip]:hover::after { opacity: 1; }
 
   .legend {
     display: flex;

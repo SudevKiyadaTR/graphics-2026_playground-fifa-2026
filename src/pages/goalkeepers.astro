@@ -55,12 +55,14 @@ const distGks = gks
     <div class="card">
       <span class="card-value">{totalSaves}</span>
       <span class="card-label">Total Saves</span>
+      <span class="card-desc">All on-target shots stopped across every match in the tournament.</span>
     </div>
     {mostSaves && (
       <div class="card">
         <span class="card-value">{mostSaves.GoalkeeperSaves}</span>
         <span class="card-label">Most Saves</span>
         <span class="card-sub">{mostSaves.playerName} · {mostSaves.teamName}</span>
+        <span class="card-desc">Goalkeeper with the highest raw save count in the tournament.</span>
       </div>
     )}
     {bestSavePct && (
@@ -68,6 +70,7 @@ const distGks = gks
         <span class="card-value">{(bestSavePct.savePercentage * 100).toFixed(1)}%</span>
         <span class="card-label">Best Save% (≥3 SoT)</span>
         <span class="card-sub">{bestSavePct.playerName} · {bestSavePct.teamName}</span>
+        <span class="card-desc">Saves divided by shots on target faced. Minimum 3 shots faced to qualify.</span>
       </div>
     )}
     {mostDefActions && (
@@ -75,6 +78,7 @@ const distGks = gks
         <span class="card-value">{mostDefActions.totalDefensiveActions}</span>
         <span class="card-label">Most Def. Actions</span>
         <span class="card-sub">{mostDefActions.playerName} · {mostDefActions.teamName}</span>
+        <span class="card-desc">Clearances, interceptions, and interventions both inside and outside the penalty area.</span>
       </div>
     )}
     {mostGoalKicks && (
@@ -82,6 +86,7 @@ const distGks = gks
         <span class="card-value">{mostGoalKicks.GoalKicks}</span>
         <span class="card-label">Most Goal Kicks</span>
         <span class="card-sub">{mostGoalKicks.playerName} · {mostGoalKicks.teamName}</span>
+        <span class="card-desc">Goal kicks taken — a proxy for how often a keeper had to restart play from the back.</span>
       </div>
     )}
   </div>
@@ -92,6 +97,7 @@ const distGks = gks
     <!-- Saves leaderboard -->
     <section class="chart-section">
       <h2 class="section-title">Saves Leaderboard</h2>
+      <p class="section-desc">Top 15 goalkeepers by total saves made. The more saves, the busier the keeper — though a high count can reflect a team under pressure as much as individual quality.</p>
       <div class="chart-wrap">
         <svg
           width="100%"
@@ -137,6 +143,7 @@ const distGks = gks
     <!-- Save% vs Shots on Target scatter -->
     <section class="chart-section">
       <h2 class="section-title">Save% vs Shots Faced (≥3 SoT)</h2>
+      <p class="section-desc">Each dot is a goalkeeper. Right = more shots faced, up = better save rate. The best keepers sit top-right: high volume and high efficiency. Hover a dot for details.</p>
       <div class="chart-wrap">
         <svg width="100%" viewBox={`0 0 ${SC_W} ${SC_H}`} class="chart-svg">
           <g transform={`translate(${SC_PAD.left},${SC_PAD.top})`}>
@@ -197,6 +204,7 @@ const distGks = gks
   {distGks.length > 0 && (
     <section class="chart-section chart-section--full">
       <h2 class="section-title">Distribution Accuracy Under Pressure (≥3 attempts)</h2>
+      <p class="section-desc">How accurately a keeper passes or throws when an opponent is pressing them. A high percentage means staying composed in tight situations and keeping possession for the team.</p>
       <div class="chart-wrap">
         <svg
           width="100%"
@@ -232,6 +240,7 @@ const distGks = gks
   <!-- Defensive actions breakdown -->
   <section class="chart-section chart-section--full">
     <h2 class="section-title">Defensive Actions: Inside vs Outside Penalty Area</h2>
+    <p class="section-desc">Total defensive interventions split by where they happened. Actions outside the box (purple) show a sweeper-keeper style; actions inside (blue) are the bread-and-butter shot-stopping situations.</p>
     <div class="chart-wrap">
       <svg
         width="100%"
@@ -324,6 +333,12 @@ const distGks = gks
     color: var(--color-text-secondary);
     margin-top: var(--space-xs);
   }
+  .card-desc {
+    font: var(--font-body-sm);
+    color: var(--color-text-muted);
+    margin-top: var(--space-sm);
+    line-height: 1.45;
+  }
 
   .charts-row {
     display: grid;
@@ -357,6 +372,12 @@ const distGks = gks
     font: var(--font-body-sm);
     color: var(--color-text-secondary);
     margin: calc(-1 * var(--space-sm)) 0 var(--space-md);
+  }
+  .section-desc {
+    font: var(--font-body-sm);
+    color: var(--color-text-muted);
+    margin: calc(-1 * var(--space-xs)) 0 var(--space-md);
+    line-height: 1.5;
   }
 
   .chart-wrap {

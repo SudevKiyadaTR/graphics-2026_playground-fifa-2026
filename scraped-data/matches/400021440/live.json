@@ -1014,6 +1014,24 @@
     ],
     "Staffs": [
       {
+        "IdStaff": "523082",
+        "IdCountry": "CZE",
+        "Role": 15,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Petr ZEMAN"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Petr ZEMAN"
+          }
+        ]
+      },
+      {
         "IdStaff": "523091",
         "IdCountry": "SVK",
         "Role": 12,

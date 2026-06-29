@@ -434,9 +434,9 @@
   }
 
   .legend {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--space-lg);
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2xl);
   }
 
   .legend-row {
