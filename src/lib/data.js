@@ -296,7 +296,8 @@ export function loadAllGoals() {
     const homeName = live.HomeTeam?.TeamName?.[0]?.Description || 'Home';
     const awayName = live.AwayTeam?.TeamName?.[0]?.Description || 'Away';
     const dateStr = (live.LocalDate || live.Date || '').slice(0, 10) || null;
-    const duration = parseMinute(live.MatchTime);
+    const secondHalfEnd = (timeline.Event || []).find((e) => e.Type === 8 && e.Period === 5);
+    const duration = secondHalfEnd ? parseMinute(secondHalfEnd.MatchMinute) : parseMinute(live.MatchTime);
 
     (timeline.Event || [])
       .filter((e) => e.Type === 0)
