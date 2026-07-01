@@ -34,8 +34,8 @@ const latestGoal = goals.reduce((latest, g) => (g.minute ?? 0) > (latest?.minute
 const isStoppage = (g) => (g.period === 3 && g.minute > 45) || (g.period === 5 && g.minute > 90);
 
 const csvRows = [
-  ['#', 'Match ID', 'Date', 'Match', 'Minute', 'Raw Minute', 'Type', 'Scorer', 'Goal ID', 'Duration'],
-  ...goals.map((g, i) => [i + 1, g.matchId, g.date, g.matchName, g.minute ?? '', g.rawMinute ?? '', isStoppage(g) ? 'stoppage' : 'normal', g.scorer ?? '', g.goalId, g.duration ?? '']),
+  ['sr', 'matchId', 'match_date', 'match', 'minute_goal', 'goalType', 'goalId', 'match_duration', 'commentary'],
+  ...goals.map((g, i) => [i + 1, g.matchId, g.date, g.matchName, g.minute ?? '', isStoppage(g) ? 'stoppage' : 'normal', g.goalId, g.duration ?? '', '']),
 ];
 const csvContent = csvRows.map((r) => r.map((v) => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\n');
 ---

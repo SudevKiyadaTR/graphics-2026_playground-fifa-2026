@@ -1,0 +1,3221 @@
+{
+  "competitionId": 285023,
+  "matchId": 151681,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-29T20:33:01.045445Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 390541,
+      "attackingRank": 20,
+      "defensiveRank": 13,
+      "creativityRank": 24,
+      "attackingScore": 4.262199878692627,
+      "defensiveScore": 5.589866638183594,
+      "creativityScore": 5.003602027893066,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Shogo TANIGUCHI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "شوغو تانيغوتشي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Shogo TANIGUCHI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Shogo TANIGUCHI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Shogo TANIGUCHI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Shogo TANIGUCHI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Shogo TANIGUCHI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "谷口彰悟"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "타니구치 쇼고"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Shogo TANIGUCHI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Shogo TANIGUCHI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шого ТАНИГУЧИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "谷口彰悟"
+        }
+      ],
+      "playerPicture": {
+        "id": "339C7CE2-356D-4B5F-8AED58E4040A6F62",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/339c7ce2-356d-4b5f-8aed-58e4040a6f62/TANIGUCHI-Shogo_390541"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 391646,
+      "attackingRank": 14,
+      "defensiveRank": 12,
+      "creativityRank": 11,
+      "attackingScore": 4.644012451171875,
+      "defensiveScore": 5.609254360198975,
+      "creativityScore": 6.213172912597656,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ritsu DOAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ريتسو دوان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ritsu DOAN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ritsu DOAN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ritsu DOAN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ritsu DOAN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ritsu DOAN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "堂安律"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "리츠 도안"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ritsu DOAN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ritsu DOAN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рицу ДОАН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "杜安律"
+        }
+      ],
+      "playerPicture": {
+        "id": "E69DF72A-0135-4989-802CE2C85556CD00",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e69df72a-0135-4989-802c-e2c85556cd00/DOAN-Ritsu_391646"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 395321,
+      "attackingRank": 13,
+      "defensiveRank": 18,
+      "creativityRank": 5,
+      "attackingScore": 4.728724002838135,
+      "defensiveScore": 5.014777183532715,
+      "creativityScore": 6.4902777671813965,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Junya ITO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جونيا إيتو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Junya ITO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Junya ITO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Junya ITO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Junya ITO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Junya ITO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "伊東純也"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이토 준야"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Junya ITO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Junya ITO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джуня ИТО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "伊东纯也"
+        }
+      ],
+      "playerPicture": {
+        "id": "87CE677A-E78D-474C-BFD7B7DC77E89E62",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/87ce677a-e78d-474c-bfd7-b7dc77e89e62/ITO-Junya_395321"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 403274,
+      "attackingRank": 20,
+      "defensiveRank": 22,
+      "creativityRank": 13,
+      "attackingScore": 4.262199878692627,
+      "defensiveScore": 4.61928653717041,
+      "creativityScore": 6.093276023864746,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Hiroki ITO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هيروكي إيتو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Hiroki ITO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Hiroki ITO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Hiroki ITO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Hiroki ITO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Hiroki ITO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "伊藤洋輝"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "히로키 이토"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Hiroki ITO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Hiroki ITO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хироки ИТО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "伊藤洋辉"
+        }
+      ],
+      "playerPicture": {
+        "id": "68EBC735-7E69-4908-98B7B6D691E9CBF7",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/68ebc735-7e69-4908-98b7-b6d691e9cbf7/ITO-Hiroki_403274"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 403289,
+      "attackingRank": 19,
+      "defensiveRank": 19,
+      "creativityRank": 20,
+      "attackingScore": 4.383532524108887,
+      "defensiveScore": 5.014666557312012,
+      "creativityScore": 5.532582759857178,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Takehiro TOMIYASU"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تاكيهيرو تومياسو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Takehiro TOMIYASU"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Takehiro TOMIYASU"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Takehiro TOMIYASU"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Takehiro TOMIYASU"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Takehiro TOMIYASU"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "冨安健洋"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "타케히로 토미야스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Takehiro TOMIYASU"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Takehiro TOMIYASU"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Такехиро ТОМИЯСУ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "富安健洋"
+        }
+      ],
+      "playerPicture": {
+        "id": "959B632F-531D-420A-85AF5D0FC3C83D5F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/959b632f-531d-420a-85af-5d0fc3c83d5f/TOMIYASU-Takehiro_403289"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 405522,
+      "attackingRank": 18,
+      "defensiveRank": 21,
+      "creativityRank": 17,
+      "attackingScore": 4.465206623077393,
+      "defensiveScore": 4.837071418762207,
+      "creativityScore": 5.791520118713379,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Keito Nakamura"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كيتو ناكامورا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Keito Nakamura"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Keito Nakamura"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Keito Nakamura"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Keito Nakamura"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Keito Nakamura"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "中村敬斗"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "케이토 나카무라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Keito Nakamura"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Keito Nakamura"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кейто Накамура"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "中村敬斗"
+        }
+      ],
+      "playerPicture": {
+        "id": "FA77E0E6-716B-463E-B210252BBD18E2D9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/fa77e0e6-716b-463e-b210-252bbd18e2d9/NAKAMURA-Keito_405522"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 405528,
+      "attackingRank": 7,
+      "defensiveRank": 15,
+      "creativityRank": 8,
+      "attackingScore": 5.041866779327393,
+      "defensiveScore": 5.4831671714782715,
+      "creativityScore": 6.4193572998046875,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Yukinari Sugawara"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يوكيناري سوغاوارا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Yukinari Sugawara"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Yukinari Sugawara"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Yukinari Sugawara"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Yukinari Sugawara"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Yukinari Sugawara"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "菅原由勢"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "유키나리 스가와라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Yukinari Sugawara"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Yukinari Sugawara"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Юкинари Сугавара"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "菅原由势"
+        }
+      ],
+      "playerPicture": {
+        "id": "09574B48-F59B-436B-B0DBAB4816A96EDE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/09574b48-f59b-436b-b0db-ab4816a96ede/SUGAWARA-Yukinari_405528"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 430407,
+      "attackingRank": 16,
+      "defensiveRank": 8,
+      "creativityRank": 9,
+      "attackingScore": 4.587132453918457,
+      "defensiveScore": 5.867135524749756,
+      "creativityScore": 6.298372745513916,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Daizen MAEDA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دايزن مايدا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Daizen MAEDA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Daizen MAEDA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Daizen MAEDA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Daizen MAEDA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Daizen MAEDA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "前田大然"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다이젠 마에다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Daizen MAEDA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Daizen MAEDA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дайдзен МАЭДА"
+        }
+      ],
+      "playerPicture": {
+        "id": "42BCFAD9-F62C-4238-A0E62F38B3757E2A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/42bcfad9-f62c-4238-a0e6-2f38b3757e2a/MAEDA-Daizen_430407"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 430413,
+      "attackingRank": 9,
+      "defensiveRank": 23,
+      "creativityRank": 23,
+      "attackingScore": 4.892931938171387,
+      "defensiveScore": 4.266221523284912,
+      "creativityScore": 5.153882026672363,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ayase UEDA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أياسي أويدا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ayase UEDA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ayase UEDA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ayase UEDA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ayase UEDA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ayase UEDA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "上田綺世"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아야세 우에다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ayase UEDA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ayase UEDA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аясе УЭДА"
+        }
+      ],
+      "playerPicture": {
+        "id": "1B05E82F-94E8-470D-9C12F9BDF1A0E080",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1b05e82f-94e8-470d-9c12-f9bdf1a0e080/UEDA-Ayase_430413"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 448557,
+      "attackingRank": 17,
+      "defensiveRank": 24,
+      "creativityRank": 19,
+      "attackingScore": 4.521572113037109,
+      "defensiveScore": 3.8976335525512695,
+      "creativityScore": 5.713864803314209,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Daichi KAMADA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دايتشي كامادا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Daichi KAMADA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Daichi KAMADA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Daichi KAMADA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Daichi KAMADA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Daichi KAMADA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "鎌田大地"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다이치 카마다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Daichi KAMADA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Daichi KAMADA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Даичи Камада"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "镰田大地"
+        }
+      ],
+      "playerPicture": {
+        "id": "40432F8C-1B4A-444E-B3A4709164E708D6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/40432f8c-1b4a-444e-b3a4-709164e708d6/KAMADA-Daichi_448557"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 479294,
+      "attackingRank": 1,
+      "defensiveRank": 4,
+      "creativityRank": 10,
+      "attackingScore": 8.407864570617676,
+      "defensiveScore": 6.119683742523193,
+      "creativityScore": 6.287196159362793,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Kaishu SANO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كايشو سانو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kaishu SANO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Kaishu SANO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Kaishu SANO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kaishu SANO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Kaishu SANO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "佐野海舟"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "카이슈 사노"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Kaishu SANO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Kaishu SANO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кайшу САНО"
+        }
+      ],
+      "playerPicture": {
+        "id": "F5CACA4B-2A48-4D7D-906E1C2C39A6F15C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f5caca4b-2a48-4d7d-906e-1c2c39a6f15c/SANO-Kaishu_479294"
+      }
+    },
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 498455,
+      "attackingRank": 8,
+      "defensiveRank": 11,
+      "creativityRank": 18,
+      "attackingScore": 4.920534610748291,
+      "defensiveScore": 5.70745849609375,
+      "creativityScore": 5.7262444496154785,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Junnosuke SUZUKI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جونوسوكي سوزوكي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Junnosuke SUZUKI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Junnosuke SUZUKI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Junnosuke SUZUKI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Junnosuke SUZUKI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Junnosuke SUZUKI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "鈴木淳之介"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스즈키 준노스케"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Junnosuke SUZUKI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Junnosuke SUZUKI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дзюнносуке СУЗУКИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "8C87DC57-4626-4945-A93AB6F5A5620947",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8c87dc57-4626-4945-a93a-b6f5a5620947/SUZUKI-Junnosuke_498455"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 308386,
+      "attackingRank": 3,
+      "defensiveRank": 1,
+      "creativityRank": 12,
+      "attackingScore": 7.822206974029541,
+      "defensiveScore": 8.035768508911133,
+      "creativityScore": 6.144069194793701,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كاسيميرو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カゼミーロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "카세미루"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "CASEMIRO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "КАСЕМИРО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "卡塞米罗"
+        }
+      ],
+      "playerPicture": {
+        "id": "49558D20-3D5D-4AFB-BF2A9DC1AB60A6E6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/49558d20-3d5d-4afb-bf2a-9dc1ab60a6e6/CASEMIRO_308386"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 332946,
+      "attackingRank": 23,
+      "defensiveRank": 10,
+      "creativityRank": 22,
+      "attackingScore": 4,
+      "defensiveScore": 5.740423679351807,
+      "creativityScore": 5.244930744171143,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماركيهوس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マルキーニョス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마르키뉴스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "MARQUINHOS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "МАРКИНЬОС"
+        }
+      ],
+      "playerPicture": {
+        "id": "30069661-F88D-4FF7-9C4E071A5CF3C093",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/30069661-f88d-4ff7-9c4e-071a5cf3c093/MARQUINHOS_332946"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 335656,
+      "attackingRank": 22,
+      "defensiveRank": 6,
+      "creativityRank": 15,
+      "attackingScore": 4.085714340209961,
+      "defensiveScore": 6.012261867523193,
+      "creativityScore": 5.865363597869873,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "DANILO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دانيلو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "DANILO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "DANILO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "DANILO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "DANILO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "DANILO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダニーロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다닐로"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "DANILO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "DANILO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ДАНИЛО"
+        }
+      ],
+      "playerPicture": {
+        "id": "364F443F-83DF-4E8E-803C765FEAE146A3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/364f443f-83df-4e8e-803c-765feae146a3/DANILO_335656"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 367981,
+      "attackingRank": 23,
+      "defensiveRank": 3,
+      "creativityRank": 6,
+      "attackingScore": 4,
+      "defensiveScore": 6.650553226470947,
+      "creativityScore": 6.462466716766357,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دوغلاس سانتوس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダグラス・サントス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "더글라스 산토스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "DOUGLAS SANTOS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дуглас Сантос"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "道格拉斯·桑托斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "7CEF9B58-DA05-42BA-AFE9AEBCD4D40A0E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7cef9b58-da05-42ba-afe9-aebcd4d40a0e/DOUGLAS-SANTOS_367981"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 405742,
+      "attackingRank": 5,
+      "defensiveRank": 16,
+      "creativityRank": 1,
+      "attackingScore": 5.702213287353516,
+      "defensiveScore": 5.2881975173950195,
+      "creativityScore": 7.927151203155518,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فينيكوس جونيور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "es-ES",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "id-ID",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "it-IT",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヴィニシウス・ジュニア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "비니시우스 주니어"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "VINICIUS JUNIOR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ВИНИСИУС ЖУНИОР"
+        }
+      ],
+      "playerPicture": {
+        "id": "1C2722C3-A70B-49D8-BDB477109161F533",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1c2722c3-a70b-49d8-bdb4-77109161f533/VINICIUS-JUNIOR_405742"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 411726,
+      "attackingRank": 10,
+      "defensiveRank": 7,
+      "creativityRank": 14,
+      "attackingScore": 4.880722999572754,
+      "defensiveScore": 5.8996405601501465,
+      "creativityScore": 5.946606636047363,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لوكاس باكيتا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルーカス・パケタ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루카스 파케타"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "LUCAS PAQUETA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лукас ПАКЕТА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "卢卡斯·帕奎塔"
+        }
+      ],
+      "playerPicture": {
+        "id": "7D7FCE96-8D80-43C3-AA72C45C44D370C5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7d7fce96-8d80-43c3-aa72-c45c44d370c5/LUCAS-PAQUETA_411726"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 430597,
+      "attackingRank": 2,
+      "defensiveRank": 14,
+      "creativityRank": 4,
+      "attackingScore": 8.235456466674805,
+      "defensiveScore": 5.575531959533691,
+      "creativityScore": 6.7313761711120605,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غابرييل مارتينيلي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ガブリエル・マルティネッリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "가브리엘 마르티넬리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "GABRIEL MARTINELLI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ГАБРИЭЛЬ МАРТИНЕЛЛИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "4EF5DBD2-50DC-4DEF-8AE55C9F6FEE72C2",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4ef5dbd2-50dc-4def-8ae5-5c9f6fee72c2/GABRIEL-MARTINELLI_430597"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 430601,
+      "attackingRank": 12,
+      "defensiveRank": 9,
+      "creativityRank": 2,
+      "attackingScore": 4.856575965881348,
+      "defensiveScore": 5.852260112762451,
+      "creativityScore": 7.531436443328857,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غابرييل ماغالهايس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ガブリエル・マガリャエス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "가브리엘 마갈레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "GABRIEL MAGALHAES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ГАБРИЭЛЬ МАГАЛЬЯЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "B5870A76-5391-40B7-A348E2B17995637B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b5870a76-5391-40b7-a348-e2b17995637b/GABRIEL-MAGALHAES_430601"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 430605,
+      "attackingRank": 4,
+      "defensiveRank": 2,
+      "creativityRank": 3,
+      "attackingScore": 5.7380523681640625,
+      "defensiveScore": 7.709057331085205,
+      "creativityScore": 6.793045997619629,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "برونو غيمارايس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブルーノ・ギマランイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브루노 기마랑이스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "BRUNO GUIMARAES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "БРУНО ГИМАРАЭС"
+        }
+      ],
+      "playerPicture": {
+        "id": "0215CB23-C389-4C5A-9BB0C7044AE7059A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0215cb23-c389-4c5a-9bb0-c7044ae7059a/BRUNO-GUIMARAES_430605"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 430609,
+      "attackingRank": 6,
+      "defensiveRank": 20,
+      "creativityRank": 21,
+      "attackingScore": 5.2713236808776855,
+      "defensiveScore": 5.010364055633545,
+      "creativityScore": 5.4861063957214355,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماتيوس كونها"
+        },
+        {
+          "locale": "de-DE",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マテウス・クーニャ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마테우스 쿠냐"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "MATHEUS CUNHA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "МАТЕУС КУНЯ"
+        }
+      ],
+      "playerPicture": {
+        "id": "9189DA72-E1B5-4E7B-800D7EECA119F08C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9189da72-e1b5-4e7b-800d-7eeca119f08c/MATHEUS-CUNHA_430609"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 463746,
+      "attackingRank": 11,
+      "defensiveRank": 17,
+      "creativityRank": 16,
+      "attackingScore": 4.8747687339782715,
+      "defensiveScore": 5.1583571434021,
+      "creativityScore": 5.852468967437744,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "ENDRICK"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إندريك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "ENDRICK"
+        },
+        {
+          "locale": "es-ES",
+          "description": "ENDRICK"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "ENDRICK"
+        },
+        {
+          "locale": "id-ID",
+          "description": "ENDRICK"
+        },
+        {
+          "locale": "it-IT",
+          "description": "ENDRICK"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エンドリック"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "엔드릭"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "ENDRICK"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "ENDRICK"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ЭНДРИК"
+        }
+      ],
+      "playerPicture": {
+        "id": "A3EDA53D-B792-4CBF-8924159D1B6D75AF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a3eda53d-b792-4cbf-8924-159d1b6d75af/ENDRICK_463746"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 475036,
+      "attackingRank": 15,
+      "defensiveRank": 5,
+      "creativityRank": 7,
+      "attackingScore": 4.596390724182129,
+      "defensiveScore": 6.054020881652832,
+      "creativityScore": 6.455516338348389,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رايان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラヤン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라얀"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "RAYAN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Райан"
+        }
+      ],
+      "playerPicture": {
+        "id": "C5DE4283-2FBB-4691-8DE439959AD7B755",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c5de4283-2fbb-4691-8de4-39959ad7b755/RAYAN_475036"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43819,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Japan"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "اليابان"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Japan"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Japón"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Japon"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jepang"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Giappone"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "日本"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "일본"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Japão"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Japão"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Япония"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "日本"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/JPN",
+      "playerId": 405530,
+      "inPossessionRank": 1,
+      "inPossessionScore": 7.169487953186035,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 6.488646030426025,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Zion Suzuki"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "زيون سوزوكي"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "鈴木彩艶"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "지온 스즈키"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Зион Сузуки"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "铃木彩艳"
+        }
+      ],
+      "playerPicture": {
+        "id": "7A045252-7C97-4F14-94934977E3E3156E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7a045252-7c97-4f14-9493-4977e3e3156e/SUZUKI-Zion_405530"
+      }
+    },
+    {
+      "teamId": 43924,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Brazil"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرازيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brasilien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brasil"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brésil"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brasil"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brasile"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラジル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라질"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brasil"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бразилия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴西"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BRA",
+      "playerId": 308370,
+      "inPossessionRank": 2,
+      "inPossessionScore": 4.651965141296387,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 4.998388290405273,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أليسون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アリソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알리송"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "ALISSON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "АЛИССОН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "艾莉森"
+        }
+      ],
+      "playerPicture": {
+        "id": "6B051628-D407-41CE-8A60DC354AC4CCB8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6b051628-d407-41ce-8a60-dc354ac4ccb8/ALISSON_308370"
+      }
+    }
+  ]
+}

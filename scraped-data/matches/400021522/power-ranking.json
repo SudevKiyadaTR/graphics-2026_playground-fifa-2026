@@ -1,0 +1,3842 @@
+{
+  "competitionId": 285023,
+  "matchId": 151680,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-06-30T05:28:40.636631Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 400721,
+      "attackingRank": 14,
+      "defensiveRank": 3,
+      "creativityRank": 9,
+      "attackingScore": 5.015644073486328,
+      "defensiveScore": 6.406869888305664,
+      "creativityScore": 5.957980155944824,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Achraf HAKIMI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أشرف حكيمي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Achraf HAKIMI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Achraf HAKIMI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Achraf HAKIMI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Achraf HAKIMI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Achraf HAKIMI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アシュラフ・ハキミ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아크라프 하키미"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Achraf HAKIMI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Achraf HAKIMI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ашраф ХАКИМИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "22C6CA49-7262-4799-8A9F530E427321AC",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/22c6ca49-7262-4799-8a9f-530e427321ac/HAKIMI-Achraf_400721"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 403083,
+      "attackingRank": 2,
+      "defensiveRank": 4,
+      "creativityRank": 29,
+      "attackingScore": 7.966758728027344,
+      "defensiveScore": 6.24811315536499,
+      "creativityScore": 4.227481365203857,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 15,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Issa Diop"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إيسا ديوب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Issa Diop"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Issa Diop"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Issa Diop"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Issa Diop"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Issa Diop"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イッサ・ディオプ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이사 디옵"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Issa Diop"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Issa Diop"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Исса Диоп"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "伊萨·迪奥普"
+        }
+      ],
+      "playerPicture": {
+        "id": "A89DC777-6262-4C1E-8B22A9A9E5BF7300",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a89dc777-6262-4c1e-8b22-a9a9e5bf7300/DIOP-Issa_403083"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 411680,
+      "attackingRank": 29,
+      "defensiveRank": 1,
+      "creativityRank": 18,
+      "attackingScore": 4.109345436096191,
+      "defensiveScore": 7.867086887359619,
+      "creativityScore": 5.591707706451416,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 15,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Noussair MAZRAOUI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نصير مزراوي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Noussair MAZRAOUI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Noussair MAZRAOUI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Noussair MAZRAOUI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Noussair MAZRAOUI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Noussair MAZRAOUI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヌサイール・マズラウィ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "누사르 마즈라우이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Noussair MAZRAOUI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Noussair MAZRAOUI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нуссаир МАЗРАУИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "纳塞尔·马兹拉维"
+        }
+      ],
+      "playerPicture": {
+        "id": "000D2B43-36FF-4FE5-90D823C96E555C56",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/000d2b43-36ff-4fe5-90d8-23c96e555c56/MAZRAOUI-Noussair_411680"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 424071,
+      "attackingRank": 13,
+      "defensiveRank": 6,
+      "creativityRank": 17,
+      "attackingScore": 5.031149864196777,
+      "defensiveScore": 5.785475730895996,
+      "creativityScore": 5.614565849304199,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Anass SALAH EDDINE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أنس صلاح الدين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Anass SALAH EDDINE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Anass SALAH EDDINE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Anass SALAH EDDINE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Anass SALAH EDDINE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Anass SALAH EDDINE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アナス・サラ・エディン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아나스 살라 에딘"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Anass SALAH EDDINE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Anass SALAH EDDINE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Анасс САЛАХ ЭДДИН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿纳斯·萨拉赫·艾丁"
+        }
+      ],
+      "playerPicture": {
+        "id": "06A01D87-4CC8-4A19-B4C3B4902454E44E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/06a01d87-4cc8-4a19-b4c3-b4902454e44e/SALAH-EDDINE-Anass_424071"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 430740,
+      "attackingRank": 25,
+      "defensiveRank": 24,
+      "creativityRank": 26,
+      "attackingScore": 4.459344387054443,
+      "defensiveScore": 4.678817272186279,
+      "creativityScore": 4.969583988189697,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 14,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Brahim DIAZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "براهيم دياز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brahim DIAZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brahim DIAZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brahim DIAZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brahim DIAZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brahim DIAZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブラヒム・ディアス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라힘 디아스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brahim DIAZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Brahim DIAZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Брахим ДИАС"
+        }
+      ],
+      "playerPicture": {
+        "id": "B05C2233-CB0A-4ABC-9413E56AD25F0899",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b05c2233-cb0a-4abc-9413-e56ad25f0899/DIAZ-Brahim_430740"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 433426,
+      "attackingRank": 10,
+      "defensiveRank": 10,
+      "creativityRank": 21,
+      "attackingScore": 5.2724289894104,
+      "defensiveScore": 5.342288494110107,
+      "creativityScore": 5.393609046936035,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Soufiane RAHIMI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سفيان رحيمي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Soufiane RAHIMI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Soufiane RAHIMI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Soufiane RAHIMI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Soufiane RAHIMI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Soufiane RAHIMI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スフィアン・ラヒミ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "수피안 라히미"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Soufiane RAHIMI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Soufiane RAHIMI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Суфиан РАХИМИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "7DE765A2-F6C6-4D70-BADDA929C4CAB547",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7de765a2-f6c6-4d70-badd-a929c4cab547/RAHIMI-Soufiane_433426"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 441307,
+      "attackingRank": 11,
+      "defensiveRank": 25,
+      "creativityRank": 2,
+      "attackingScore": 5.19097375869751,
+      "defensiveScore": 4.65892219543457,
+      "creativityScore": 7.750784873962402,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 14,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Azzedine OUNAHI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "عز الدين أوناهي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Azzedine OUNAHI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Azzedine OUNAHI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Azzedine OUNAHI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Azzedine OUNAHI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Azzedine OUNAHI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アゼディン・ウナヒ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아제딘 우나히"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Azzedine OUNAHI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Azzedine OUNAHI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аззедин УНАХИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿泽丁·欧纳济"
+        }
+      ],
+      "playerPicture": {
+        "id": "F823C3DA-D540-436C-9B56BFCCDC4B51BC",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f823c3da-d540-436c-9b56-bfccdc4b51bc/OUNAHI-Azzedine_441307"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 448598,
+      "attackingRank": 22,
+      "defensiveRank": 28,
+      "creativityRank": 4,
+      "attackingScore": 4.549313545227051,
+      "defensiveScore": 4.415937423706055,
+      "creativityScore": 6.748800754547119,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 15,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ismael SAIBARI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسماعيل سايباري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ismael SAIBARI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ismael SAIBARI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ismael SAIBARI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ismael SAIBARI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ismael SAIBARI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イスマエル・サイバリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이스마엘 사이바리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ismael SAIBARI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ismael SAIBARI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Исмаэль САИБАРИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "伊斯梅尔·赛巴里"
+        }
+      ],
+      "playerPicture": {
+        "id": "250526C6-26B5-4425-8A21231C7952E34D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/250526c6-26b5-4425-8a21-231c7952e34d/SAIBARI-Ismael_448598"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 448607,
+      "attackingRank": 24,
+      "defensiveRank": 16,
+      "creativityRank": 28,
+      "attackingScore": 4.4906744956970215,
+      "defensiveScore": 5.106750011444092,
+      "creativityScore": 4.880200386047363,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 14,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Chadi RIAD"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "شادي رياض"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Chadi RIAD"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chadi RIAD"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Chadi RIAD"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Chadi RIAD"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Chadi RIAD"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "チャディ・リアド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "차디 리아드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Chadi RIAD"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Chadi RIAD"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чади РИАД"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "查迪·里亚德"
+        }
+      ],
+      "playerPicture": {
+        "id": "074F7DA4-2459-4F56-B2450B496782D067",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/074f7da4-2459-4f56-b245-0b496782d067/RIAD-Chadi_448607"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 448612,
+      "attackingRank": 7,
+      "defensiveRank": 7,
+      "creativityRank": 16,
+      "attackingScore": 5.341971397399902,
+      "defensiveScore": 5.459519863128662,
+      "creativityScore": 5.693103790283203,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Bilal EL KHANNOUSS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلال الخانوس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bilal EL KHANNOUSS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bilal EL KHANNOUSS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bilal EL KHANNOUSS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bilal EL KHANNOUSS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bilal EL KHANNOUSS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ビラル・エル・カンヌス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "빌랄 엘 칸누스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bilal EL KHANNOUSS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bilal EL KHANNOUSS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Билал ЭЛЬ-ХАННУС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比拉尔·艾尔·汉努斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "8E73A0CB-8200-4870-B0BC12901DE8076F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8e73a0cb-8200-4870-b0bc-12901de8076f/EL-KHANNOUSS-Bilal_448612"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 485740,
+      "attackingRank": 20,
+      "defensiveRank": 2,
+      "creativityRank": 22,
+      "attackingScore": 4.633655548095703,
+      "defensiveScore": 7.05110502243042,
+      "creativityScore": 5.3887619972229,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Neil EL AYNAOUI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيل إل أيناوي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Neil EL AYNAOUI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Neil EL AYNAOUI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Neil EL AYNAOUI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Neil EL AYNAOUI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Neil EL AYNAOUI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニール・エル・アイナウイ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "닐 엘 아이나우이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Neil EL AYNAOUI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Neil EL AYNAOUI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нил ЭЛЬ-АЙНАУИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "3D04AF2C-60A8-48C8-BE3ED13BF5373C0C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3d04af2c-60a8-48c8-be3e-d13bf5373c0c/EL-AYNAOUI-Neil_485740"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 485760,
+      "attackingRank": 8,
+      "defensiveRank": 12,
+      "creativityRank": 8,
+      "attackingScore": 5.333954811096191,
+      "defensiveScore": 5.2681379318237305,
+      "creativityScore": 6.123484134674072,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ayyoub BOUADDI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أيوب بوعادي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ayyoub BOUADDI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ayyoub BOUADDI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ayyoub BOUADDI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ayyoub BOUADDI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ayyoub BOUADDI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アユーブ・ブアディ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아유브 부아디"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ayyoub BOUADDI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ayyoub BOUADDI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аюб БУАДДИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "37FAFCB6-10C1-4E8D-B2A7898AE14FA1A3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/37fafcb6-10c1-4e8d-b2a7-898ae14fa1a3/BOUADDI-Ayyoub_485760"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 494293,
+      "attackingRank": 3,
+      "defensiveRank": 22,
+      "creativityRank": 3,
+      "attackingScore": 5.949406147003174,
+      "defensiveScore": 4.872772216796875,
+      "creativityScore": 7.386760234832764,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Chemsdine TALBI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "شمس الدين تالبي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Chemsdine TALBI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Chemsdine TALBI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Chemsdine TALBI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Chemsdine TALBI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Chemsdine TALBI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "シェムスディン・タルビ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "셤스딘 탈비"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Chemsdine TALBI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Chemsdine TALBI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Шемсдин ТАЛБИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "B6D54DCF-25E8-4E0F-A15560E051B4A86E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b6d54dcf-25e8-4e0f-a155-60e051b4a86e/TALBI-Chemsdine_494293"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 505097,
+      "attackingRank": 18,
+      "defensiveRank": 14,
+      "creativityRank": 13,
+      "attackingScore": 4.713475227355957,
+      "defensiveScore": 5.120202541351318,
+      "creativityScore": 5.852225303649902,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Samir EL MOURABET"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سمير المرابط"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Samir EL MOURABET"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Samir EL MOURABET"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Samir EL MOURABET"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Samir EL MOURABET"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Samir EL MOURABET"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "サミール・エル・ムラベット"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "사미르 엘 무라베트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Samir EL MOURABET"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Samir EL MOURABET"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Самир ЭЛЬ-МУРАБЕТ"
+        }
+      ],
+      "playerPicture": {
+        "id": "1C4672EA-A846-45F7-AE8585EC7559A30C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1c4672ea-a846-45f7-ae85-85ec7559a30c/EL-MOURABET-Samir_505097"
+      }
+    },
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 505112,
+      "attackingRank": 15,
+      "defensiveRank": 20,
+      "creativityRank": 10,
+      "attackingScore": 4.878786563873291,
+      "defensiveScore": 4.979397773742676,
+      "creativityScore": 5.897911071777344,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Gessime YASSINE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جسيمة ياسين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Gessime YASSINE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Gessime YASSINE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Gessime YASSINE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Gessime YASSINE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Gessime YASSINE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジェシム・ヤシン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "제심 야신"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Gessime YASSINE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Gessime YASSINE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Гессим ЯССИН"
+        }
+      ],
+      "playerPicture": {
+        "id": "DD763E4F-0CFE-44B1-8E18EA842260C807",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/dd763e4f-0cfe-44b1-8e18-ea842260c807/YASSINE-Gessime_505112"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 336088,
+      "attackingRank": 21,
+      "defensiveRank": 19,
+      "creativityRank": 25,
+      "attackingScore": 4.597790241241455,
+      "defensiveScore": 4.9844207763671875,
+      "creativityScore": 4.987865924835205,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nathan AKE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ناثان آكي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nathan AKE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nathan AKE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nathan AKE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nathan AKE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nathan AKE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ナタン・アケ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네이선 아케"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nathan AKE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nathan AKE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Натан АКЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "E44B0C79-CB0B-4CE8-BACE7530A516371F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e44b0c79-cb0b-4ce8-bace-7530a516371f/AKE-Nathan_336088"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 397786,
+      "attackingRank": 26,
+      "defensiveRank": 13,
+      "creativityRank": 19,
+      "attackingScore": 4.446659088134766,
+      "defensiveScore": 5.153825759887695,
+      "creativityScore": 5.561127185821533,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Virgil VAN DIJK"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فيرجيل فان ديك"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Virgil VAN DIJK"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Virgil VAN DIJK"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Virgil VAN DIJK"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Virgil VAN DIJK"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Virgil VAN DIJK"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヴァージル・ファン・ダイク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "버질 반 다이크"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Virgil VAN DIJK"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Virgil VAN DIJK"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Виргил ВАН ДИЙК"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "维吉尔·范戴克"
+        }
+      ],
+      "playerPicture": {
+        "id": "DF0E21EB-C210-4EA6-AB2C0AC13635A9F8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/df0e21eb-c210-4ea6-ab2c-0ac13635a9f8/VAN-DIJK-Virgil_397786"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 422657,
+      "attackingRank": 28,
+      "defensiveRank": 18,
+      "creativityRank": 23,
+      "attackingScore": 4.321868419647217,
+      "defensiveScore": 4.987257957458496,
+      "creativityScore": 5.357082843780518,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 14,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Frenkie DE JONG"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرينكي دي يونغ"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Frenkie DE JONG"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Frenkie DE JONG"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Frenkie DE JONG"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Frenkie DE JONG"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Frenkie DE JONG"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フレンキー・デ・ヨング"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프렌키 데 용"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Frenkie DE JONG"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Frenkie DE JONG"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Френки ДЕ ЙОНГ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "弗兰基·德容"
+        }
+      ],
+      "playerPicture": {
+        "id": "FE8176F7-BF45-49FC-BD5E0BFD0C834992",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/fe8176f7-bf45-49fc-bd5e-0bfd0c834992/DE-JONG-Frenkie_422657"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 424051,
+      "attackingRank": 23,
+      "defensiveRank": 23,
+      "creativityRank": 14,
+      "attackingScore": 4.5251922607421875,
+      "defensiveScore": 4.706718444824219,
+      "creativityScore": 5.844468593597412,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Brian BROBBEY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "براين بروبي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brian BROBBEY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brian BROBBEY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brian BROBBEY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brian BROBBEY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brian BROBBEY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブライアン・ブロビー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브라이언 브로비"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brian BROBBEY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Brian BROBBEY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Брайан БРОББИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "布赖恩·布罗比"
+        }
+      ],
+      "playerPicture": {
+        "id": "15246275-FF97-404C-BAC3CE793D98C744",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/15246275-ff97-404c-bac3-ce793d98c744/BROBBEY-Brian_424051"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 430176,
+      "attackingRank": 6,
+      "defensiveRank": 15,
+      "creativityRank": 24,
+      "attackingScore": 5.517142295837402,
+      "defensiveScore": 5.107715606689453,
+      "creativityScore": 5.147912502288818,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ryan GRAVENBERCH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رايان جرافنبرخ"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ryan GRAVENBERCH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ryan GRAVENBERCH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ryan GRAVENBERCH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ryan GRAVENBERCH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ryan GRAVENBERCH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ライアン・グラヴェンベルク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라이언 그라벤베르흐"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ryan GRAVENBERCH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ryan GRAVENBERCH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Райан ГРАВЕНБЕРХ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞安·格雷文伯奇"
+        }
+      ],
+      "playerPicture": {
+        "id": "AD5FE14F-B29C-4C20-8477B00BF14C413F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ad5fe14f-b29c-4c20-8477-b00bf14c413f/GRAVENBERCH-Ryan_430176"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 436612,
+      "attackingRank": 19,
+      "defensiveRank": 27,
+      "creativityRank": 7,
+      "attackingScore": 4.670588970184326,
+      "defensiveScore": 4.438019752502441,
+      "creativityScore": 6.15624475479126,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Denzel DUMFRIES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دينزل دومفريز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Denzel DUMFRIES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Denzel DUMFRIES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Denzel DUMFRIES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Denzel DUMFRIES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Denzel DUMFRIES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "デンゼル・ダムフリーズ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "덴젤 덤프리스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Denzel DUMFRIES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Denzel DUMFRIES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дензел ДУМФРИС"
+        }
+      ],
+      "playerPicture": {
+        "id": "F2A2746B-7691-40C4-A05260DB3219A856",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f2a2746b-7691-40c4-a052-60db3219a856/DUMFRIES-Denzel_436612"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 448140,
+      "attackingRank": 5,
+      "defensiveRank": 9,
+      "creativityRank": 27,
+      "attackingScore": 5.670057773590088,
+      "defensiveScore": 5.423174858093262,
+      "creativityScore": 4.965961933135986,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 14,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Micky VAN DE VEN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ميكي فان دي فين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Micky VAN DE VEN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Micky VAN DE VEN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Micky VAN DE VEN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Micky VAN DE VEN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Micky VAN DE VEN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ミッキー・ヴァン・デ・ヴェン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미키 반 데 벤"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Micky VAN DE VEN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Micky VAN DE VEN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мики ВАН ДЕ ВЕН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "米奇·范德文"
+        }
+      ],
+      "playerPicture": {
+        "id": "F9F50877-4CD1-4AB9-83D82908AD6FBC70",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f9f50877-4cd1-4ab9-83d8-2908ad6fbc70/VAN-DE-VEN-Micky_448140"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 448149,
+      "attackingRank": 17,
+      "defensiveRank": 21,
+      "creativityRank": 5,
+      "attackingScore": 4.80258846282959,
+      "defensiveScore": 4.890063762664795,
+      "creativityScore": 6.6256184577941895,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Teun KOOPMEINERS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تون كوبماينرز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Teun KOOPMEINERS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Teun KOOPMEINERS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Teun KOOPMEINERS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Teun KOOPMEINERS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Teun KOOPMEINERS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "テウン・クープマイナーズ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "툰 쿠프마이너스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Teun KOOPMEINERS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Teun KOOPMEINERS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тейн КОПМЕЙНЕРС"
+        }
+      ],
+      "playerPicture": {
+        "id": "DD457729-E889-46E1-9845F6E1B194893E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/dd457729-e889-46e1-9845-f6e1b194893e/KOOPMEINERS-Teun_448149"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 448152,
+      "attackingRank": 1,
+      "defensiveRank": 29,
+      "creativityRank": 12,
+      "attackingScore": 8.707913398742676,
+      "defensiveScore": 4.152301788330078,
+      "creativityScore": 5.863990783691406,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 14,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Cody GAKPO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كودي غاكبو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Cody GAKPO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Cody GAKPO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Cody GAKPO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Cody GAKPO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Cody GAKPO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コディ・ガクポ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코디 가크포"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Cody GAKPO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Cody GAKPO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Коди ГАКПО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "科迪·贾克波"
+        }
+      ],
+      "playerPicture": {
+        "id": "BBB5637F-0587-4DDD-8A82604C0D921BB3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/bbb5637f-0587-4ddd-8a82-604c0d921bb3/GAKPO-Cody_448152"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 448159,
+      "attackingRank": 12,
+      "defensiveRank": 11,
+      "creativityRank": 6,
+      "attackingScore": 5.0575385093688965,
+      "defensiveScore": 5.337546348571777,
+      "creativityScore": 6.574795246124268,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Wout WEGHORST"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فوت ويغهورست"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Wout WEGHORST"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Wout WEGHORST"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Wout WEGHORST"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Wout WEGHORST"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Wout WEGHORST"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウォウト・ウェグホルスト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우트 베호르스트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Wout WEGHORST"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Wout WEGHORST"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Вут ВЕГХОРСТ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "沃特·韦霍斯特"
+        }
+      ],
+      "playerPicture": {
+        "id": "3B0DE826-85E3-4404-9DBC6E6AC7675AE3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3b0de826-85e3-4404-9dbc-6e6ac7675ae3/WEGHORST-Wout_448159"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 483512,
+      "attackingRank": 16,
+      "defensiveRank": 5,
+      "creativityRank": 20,
+      "attackingScore": 4.8592529296875,
+      "defensiveScore": 5.945668697357178,
+      "creativityScore": 5.46478796005249,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jorrel HATO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جوريل هاتو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jorrel HATO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jorrel HATO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jorrel HATO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jorrel HATO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jorrel HATO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョレル・ハト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "조렐 하토"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jorrel HATO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jorrel HATO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джоррелл ХАТО"
+        }
+      ],
+      "playerPicture": {
+        "id": "16B4BF89-FC63-492A-AFD16F400E8EED92",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/16b4bf89-fc63-492a-afd1-6f400e8eed92/HATO-Jorrel_483512"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 484859,
+      "attackingRank": 9,
+      "defensiveRank": 8,
+      "creativityRank": 15,
+      "attackingScore": 5.296555519104004,
+      "defensiveScore": 5.4588775634765625,
+      "creativityScore": 5.792994976043701,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Quinten TIMBER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوينتين تيمبر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Quinten TIMBER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Quinten TIMBER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Quinten TIMBER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Quinten TIMBER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Quinten TIMBER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クインテン・ティンバー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "퀸텐 팀버"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Quinten TIMBER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Quinten TIMBER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Квинтен ТИМБЕР"
+        }
+      ],
+      "playerPicture": {
+        "id": "AC98DA17-3346-4D88-B52F4CE34C82F587",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ac98da17-3346-4d88-b52f-4ce34c82f587/TIMBER-Quinten_484859"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 489517,
+      "attackingRank": 27,
+      "defensiveRank": 17,
+      "creativityRank": 11,
+      "attackingScore": 4.336904048919678,
+      "defensiveScore": 5.008800506591797,
+      "creativityScore": 5.87360143661499,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jan Paul VAN HECKE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يان بول فان هيكي"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヤン・ポール・ファン・ヘッケ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "얀 폴 반 헤케"
+        }
+      ],
+      "playerPicture": {
+        "id": "EB113FDD-D066-44A9-A0DC7BF075FDC57F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/eb113fdd-d066-44a9-a0dc-7bf075fdc57f/VAN-HECKE-Jan-Paul_489517"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 489518,
+      "attackingRank": 4,
+      "defensiveRank": 26,
+      "creativityRank": 1,
+      "attackingScore": 5.786381721496582,
+      "defensiveScore": 4.5894455909729,
+      "creativityScore": 8.269052505493164,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Crysencio SUMMERVILLE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كريسينسيو سمرفيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Crysencio SUMMERVILLE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Crysencio SUMMERVILLE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Crysencio SUMMERVILLE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Crysencio SUMMERVILLE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Crysencio SUMMERVILLE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クリセンシオ・サマービル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크리센시오 서머빌"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Crysencio SUMMERVILLE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Crysencio SUMMERVILLE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Крисенсио Саммервилл"
+        }
+      ],
+      "playerPicture": {
+        "id": "86E9F724-FC5F-4969-92E3AC658DAFACDD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/86e9f724-fc5f-4969-92e3-ac658dafacdd/SUMMERVILLE-Crysencio_489518"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43872,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Morocco"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "المغرب"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marokko"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marruecos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maroc"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maroko"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marocco"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モロッコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모로코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marrocos"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марокко"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "摩洛哥"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/MAR",
+      "playerId": 356956,
+      "inPossessionRank": 2,
+      "inPossessionScore": 4.374951362609863,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 5.552954196929932,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Yassine BOUNOU"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ياسين بونو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Yassine BOUNOU"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Yassine BOUNOU"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Yassine BOUNOU"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Yassine BOUNOU"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Yassine BOUNOU"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヤシン・ブヌ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "야신 부누"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Yassine BOUNOU"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Yassine BOUNOU"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Яссин БУНУ"
+        }
+      ],
+      "playerPicture": {
+        "id": "338AE8A7-8734-423E-AE542F783DBA77CE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/338ae8a7-8734-423e-ae54-2f783dba77ce/BOUNOU-Yassine_356956"
+      }
+    },
+    {
+      "teamId": 43960,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Netherlands"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هولندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Niederlande"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Países Bajos"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pays-Bas"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belanda"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paesi Bassi"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オランダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네덜란드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Holanda"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нидерланды"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "荷兰"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/NED",
+      "playerId": 424081,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.484628200531006,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 5.492578983306885,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Bart Verbruggen"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بارت فيربروغن"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Bart Verbruggen"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bart Verbruggen"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Bart Verbruggen"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Bart Verbruggen"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Bart Verbruggen"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "バート・フェルブルッゲン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "바트 베르브루겐"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bart Verbruggen"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Bart Verbruggen"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Барт Вербругген"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "巴特·维布鲁根"
+        }
+      ],
+      "playerPicture": {
+        "id": "44BFD693-27D5-4D36-823E5FF0E6CD2524",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/44bfd693-27d5-4d36-823e-5ff0e6cd2524/VERBRUGGEN-Bart_424081"
+      }
+    }
+  ]
+}
