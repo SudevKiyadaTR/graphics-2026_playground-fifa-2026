@@ -3,6 +3,7 @@
   import { writable } from 'svelte/store';
 
   export let data = [];
+  export let base = '/';
 
   let searchTerm = '';
   let sorting = writable([]);
@@ -114,7 +115,7 @@
     <tbody>
       {#each rows as row (row.id)}
         <tr
-          on:click={() => (window.location.href = `/matches/${row.original.id}`)}
+          on:click={() => (window.location.href = `${base}matches/${row.original.id}`)}
           class="clickable-row"
         >
           {#each row.getVisibleCells() as cell (cell.id)}

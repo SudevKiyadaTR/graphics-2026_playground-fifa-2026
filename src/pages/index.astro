@@ -52,7 +52,7 @@ const draws = played.filter(m => m.homeScore === m.awayScore).length;
   {allFixtures.length > 0 && (
     <section class="fixtures-section">
       <h2>Fixtures</h2>
-      <FixturesTable data={allFixtures} client:load />
+      <FixturesTable data={allFixtures} base={import.meta.env.BASE_URL} client:load />
     </section>
   )}
 
