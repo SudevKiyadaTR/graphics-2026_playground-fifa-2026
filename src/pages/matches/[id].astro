@@ -27,7 +27,7 @@ const liveData = getMatchLive(id);
 
 <Base title={`${match.homeTeam} vs ${match.awayTeam} - FIFA 2026`}>
   <div class="match-page">
-    <a href="/" class="back-link">← Back to Dashboard</a>
+    <a href={import.meta.env.BASE_URL} class="back-link">← Back to Dashboard</a>
 
     <MatchHero match={match} liveData={liveData} client:load />
 
