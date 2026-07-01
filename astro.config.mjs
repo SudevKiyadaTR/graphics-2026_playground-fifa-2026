@@ -4,5 +4,6 @@ import svelte from '@astrojs/svelte';
 export default defineConfig({
   integrations: [svelte()],
   output: 'static',
-  site: 'https://sudevkiyada.com/fifa-2026',
+  site: 'https://SudevKiyadaTR.github.io',
+  base: '/graphics-2026_playground-fifa-2026',
 });
