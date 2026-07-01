@@ -313,11 +313,13 @@ export function loadAllGoals() {
           goalId: e.EventId,
           duration,
           scorer,
+          timestamp: e.Timestamp ?? null,
         });
       });
   });
 
   goals.sort((a, b) => {
+    if (a.timestamp && b.timestamp) return a.timestamp < b.timestamp ? -1 : a.timestamp > b.timestamp ? 1 : 0;
     if (a.date < b.date) return -1;
     if (a.date > b.date) return 1;
     return (a.minute ?? 0) - (b.minute ?? 0);

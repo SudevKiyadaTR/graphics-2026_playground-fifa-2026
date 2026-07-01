@@ -1,0 +1,235 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadMatches, getMatchTimeline, getMatchLive } from '../lib/data.js';
+
+const matches = loadMatches();
+
+function parseMinute(str: string | undefined): { base: number; extra: number } | null {
+  if (!str) return null;
+  const clean = str.replace(/'/g, '');
+  const [base, extra] = clean.split('+');
+  return { base: parseInt(base, 10), extra: extra ? parseInt(extra, 10) : 0 };
+}
+
+interface Row {
+  matchId: string;
+  match: string;
+  date: string;
+  stage: string;
+  fhTotal: number | null;
+  fhExtra: number | null;
+  shTotal: number | null;
+  shExtra: number | null;
+}
+
+const rows: Row[] = matches.map((match: any) => {
+  const timeline = getMatchTimeline(match.id);
+  const live = getMatchLive(match.id);
+
+  const homeName = live.HomeTeam?.TeamName?.[0]?.Description || match.homeTeam;
+  const awayName = live.AwayTeam?.TeamName?.[0]?.Description || match.awayTeam;
+
+  const endEvents = (timeline as any[]).filter((e) => e.Type === 8);
+  const firstHalfEnd = endEvents.find((e) => e.Period === 3);
+  const secondHalfEnd = endEvents.find((e) => e.Period === 5);
+
+  const fh = parseMinute(firstHalfEnd?.MatchMinute);
+  const sh = parseMinute(secondHalfEnd?.MatchMinute);
+
+  return {
+    matchId: match.id,
+    match: `${homeName} v ${awayName}`,
+    date: match.date?.slice(0, 10) ?? '',
+    stage: match.stage ?? '',
+    fhTotal: fh ? fh.base + fh.extra : null,
+    fhExtra: fh?.extra ?? null,
+    shTotal: sh ? sh.base + sh.extra : null,
+    shExtra: sh?.extra ?? null,
+  };
+}).filter((r: Row) => r.fhTotal != null || r.shTotal != null);
+
+rows.sort((a: Row, b: Row) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+
+const totalFhExtra = rows.reduce((s: number, r: Row) => s + (r.fhExtra ?? 0), 0);
+const totalShExtra = rows.reduce((s: number, r: Row) => s + (r.shExtra ?? 0), 0);
+const avgFhExtra = rows.length ? (totalFhExtra / rows.length).toFixed(1) : '—';
+const avgShExtra = rows.length ? (totalShExtra / rows.length).toFixed(1) : '—';
+---
+
+<Base title="Stoppage Time — FIFA 2026 Dashboard">
+  <div class="page-header">
+    <h1>Stoppage Time</h1>
+    <p>{rows.length} matches</p>
+    <button id="dl-btn" class="dl-btn">Download CSV</button>
+  </div>
+
+  <script is:inline define:vars={{ rows }}>
+    document.getElementById('dl-btn').addEventListener('click', () => {
+      const header = 'match,date,stage,fh_total,fh_added,sh_total,sh_added,total_added';
+      const lines = rows.map(r =>
+        [r.match, r.date, r.stage, r.fhTotal ?? '', r.fhExtra ?? '', r.shTotal ?? '', r.shExtra ?? '', (r.fhExtra ?? 0) + (r.shExtra ?? 0)].join(',')
+      );
+      const blob = new Blob([header + '\n' + lines.join('\n')], { type: 'text/csv' });
+      const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: 'stoppage-time.csv' });
+      a.click();
+    });
+  </script>
+
+  <div class="cards">
+    <div class="card">
+      <span class="card-value">{avgFhExtra}</span>
+      <span class="card-label">Avg 1st Half Added</span>
+    </div>
+    <div class="card">
+      <span class="card-value">{avgShExtra}</span>
+      <span class="card-label">Avg 2nd Half Added</span>
+    </div>
+    <div class="card">
+      <span class="card-value">{totalFhExtra + totalShExtra}</span>
+      <span class="card-label">Total Added Time</span>
+      <span class="card-sub">{totalFhExtra} 1st · {totalShExtra} 2nd</span>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="num">#</th>
+          <th>Match</th>
+          <th>Date</th>
+          <th>Stage</th>
+          <th class="num">1st Half</th>
+          <th class="num">1st Added</th>
+          <th class="num">2nd Half</th>
+          <th class="num">2nd Added</th>
+          <th class="num">Total Added</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((r: Row, i: number) => (
+          <tr>
+            <td class="num">{i + 1}</td>
+            <td><a href={`${import.meta.env.BASE_URL}matches/${r.matchId}`}>{r.match}</a></td>
+            <td class="mono">{r.date}</td>
+            <td>{r.stage}</td>
+            <td class="num">{r.fhTotal ?? '—'}</td>
+            <td class="num">{r.fhExtra ?? '—'}</td>
+            <td class="num">{r.shTotal ?? '—'}</td>
+            <td class="num">{r.shExtra ?? '—'}</td>
+            <td class="num total">{(r.fhExtra ?? 0) + (r.shExtra ?? 0) || '—'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Base>
+
+<style>
+  .page-header {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-xl);
+  }
+  .dl-btn {
+    margin-left: auto;
+    padding: var(--space-xs) var(--space-md);
+    font: var(--font-label);
+    background: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+  }
+  .dl-btn:hover {
+    border-color: var(--color-text-primary);
+    color: var(--color-text-primary);
+  }
+  .page-header p {
+    font: var(--font-body-lg);
+    color: var(--color-text-secondary);
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    margin-bottom: var(--space-2xl);
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    padding: var(--space-lg);
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    min-width: 160px;
+    flex: 1;
+  }
+  .card-value {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--color-text-primary);
+  }
+  .card-label {
+    font: var(--font-label);
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.7rem;
+  }
+  .card-sub {
+    font: var(--font-body-sm);
+    color: var(--color-text-secondary);
+    margin-top: var(--space-xs);
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font: var(--font-body-sm);
+  }
+  th, td {
+    padding: var(--space-sm) var(--space-md);
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+    white-space: nowrap;
+  }
+  th {
+    font: var(--font-label);
+    color: var(--color-text-secondary);
+    background: var(--color-bg-surface);
+  }
+  tr:hover td {
+    background: var(--color-bg-surface);
+  }
+  .num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .mono {
+    font-family: monospace;
+    font-size: 0.85em;
+    color: var(--color-text-secondary);
+  }
+  .stoppage {
+    color: var(--color-text-secondary);
+  }
+  .total {
+    font-weight: 600;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
