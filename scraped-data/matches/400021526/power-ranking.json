@@ -1,0 +1,3616 @@
+{
+  "competitionId": 285023,
+  "matchId": 151691,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-07-03T03:30:32.596548Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 241559,
+      "attackingRank": 22,
+      "defensiveRank": 17,
+      "creativityRank": 6,
+      "attackingScore": 4.249224662780762,
+      "defensiveScore": 4.816840171813965,
+      "creativityScore": 6.828608989715576,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Luka MODRIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لوكا مودريتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Luka MODRIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Luka MODRIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Luka MODRIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Luka MODRIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Luka MODRIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルカ・モドリッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루카 모드리치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Luka MODRIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Luka MODRIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лука МОДРИЧ"
+        }
+      ],
+      "playerPicture": {
+        "id": "CBFF6A19-CCE4-45EE-986984CF30CE5676",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/cbff6a19-cce4-45ee-9869-84cf30ce5676/MODRIC-Luka_241559"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 339987,
+      "attackingRank": 5,
+      "defensiveRank": 22,
+      "creativityRank": 7,
+      "attackingScore": 5.342526912689209,
+      "defensiveScore": 4.480769157409668,
+      "creativityScore": 6.332876682281494,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mateo KOVACIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماتيو كوفاتشيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mateo KOVACIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Mateo KOVACIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mateo KOVACIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mateo KOVACIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Mateo KOVACIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マテオ・コヴァチッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마테오 코바치치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Mateo KOVACIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Mateo KOVACIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Матео КОВАЧИЧ"
+        }
+      ],
+      "playerPicture": {
+        "id": "5D230F74-1E00-4B42-A880844FE2AEE964",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5d230f74-1e00-4b42-a880-844fe2aee964/KOVACIC-Mateo_339987"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 359381,
+      "attackingRank": 2,
+      "defensiveRank": 11,
+      "creativityRank": 5,
+      "attackingScore": 7.885721683502197,
+      "defensiveScore": 5.33685302734375,
+      "creativityScore": 6.904587268829346,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ivan PERISIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إيفان بيريسيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ivan PERISIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ivan PERISIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ivan PERISIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ivan PERISIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ivan PERISIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イヴァン・ペリシッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이반 페리시치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ivan PERISIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ivan PERISIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Иван ПЕРИШИЧ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "伊万·佩里西奇"
+        }
+      ],
+      "playerPicture": {
+        "id": "BA7EA3AB-0EF6-4CDD-834C79A94739FE26",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ba7ea3ab-0ef6-4cdd-834c-79a94739fe26/PERISIC-Ivan_359381"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 380005,
+      "attackingRank": 12,
+      "defensiveRank": 10,
+      "creativityRank": 22,
+      "attackingScore": 4.8196892738342285,
+      "defensiveScore": 5.476709365844727,
+      "creativityScore": 5.355108737945557,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mario PASALIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماريو باساليتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mario PASALIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Mario PASALIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mario PASALIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mario PASALIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Mario PASALIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マリオ・パサリッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마리오 파살리치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Mario PASALIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Mario PASALIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марио Пасалич"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "马里奥·帕萨里克"
+        }
+      ],
+      "playerPicture": {
+        "id": "F3C0FD5E-6814-4ACC-822A2152E1CF79DE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f3c0fd5e-6814-4acc-822a-2152e1cf79de/PASALIC-Mario_380005"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 409191,
+      "attackingRank": 27,
+      "defensiveRank": 25,
+      "creativityRank": 20,
+      "attackingScore": 3.631798267364502,
+      "defensiveScore": 4.260995388031006,
+      "creativityScore": 5.442719459533691,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nikola VLASIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيكولا فلاسيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nikola VLASIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nikola VLASIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nikola VLASIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nikola VLASIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nikola VLASIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニコラ・ヴラシッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "니콜라 블라시치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nikola VLASIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nikola VLASIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Никола ВЛАСИЧ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "尼古拉·弗拉希奇"
+        }
+      ],
+      "playerPicture": {
+        "id": "59A64DB7-C267-432D-9172CF012B37C0B5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/59a64db7-c267-432d-9172-cf012b37c0b5/VLASIC-Nikola_409191"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 430070,
+      "attackingRank": 9,
+      "defensiveRank": 19,
+      "creativityRank": 11,
+      "attackingScore": 4.911529541015625,
+      "defensiveScore": 4.707399368286133,
+      "creativityScore": 5.884205341339111,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ante BUDIMIR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أنتي بوديمير"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ante BUDIMIR"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ante BUDIMIR"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ante BUDIMIR"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ante BUDIMIR"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ante BUDIMIR"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アンテ・ブディミル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "안테 부디미르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ante BUDIMIR"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ante BUDIMIR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Анте БУДИМИР"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "安特·布迪米尔"
+        }
+      ],
+      "playerPicture": {
+        "id": "135F8F1C-6E03-43B8-A18A8914B4A4BD7A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/135f8f1c-6e03-43b8-a18a-8914b4a4bd7a/BUDIMIR-Ante_430070"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 433667,
+      "attackingRank": 22,
+      "defensiveRank": 20,
+      "creativityRank": 4,
+      "attackingScore": 4.249224662780762,
+      "defensiveScore": 4.689318656921387,
+      "creativityScore": 7.017185688018799,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Josip STANISIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يوسيب ستانيسيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Josip STANISIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Josip STANISIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Josip STANISIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Josip STANISIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Josip STANISIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヨシップ・スタニシッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "요시프 스타니시치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Josip STANISIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Josip STANISIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Йосип СТАНИШИЧ"
+        }
+      ],
+      "playerPicture": {
+        "id": "C1F59CF4-DB22-4B38-AF85AB5692105F95",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c1f59cf4-db22-4b38-af85-ab5692105f95/STANISIC-Josip_433667"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 448171,
+      "attackingRank": 22,
+      "defensiveRank": 18,
+      "creativityRank": 16,
+      "attackingScore": 4.249224662780762,
+      "defensiveScore": 4.747715950012207,
+      "creativityScore": 5.48000431060791,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Josip SUTALO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جوزيب سوتالو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Josip SUTALO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Josip SUTALO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Josip SUTALO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Josip SUTALO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Josip SUTALO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヨシップ・スタロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "요시프 수탈로"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Josip SUTALO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Josip SUTALO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Йосип СУТАЛО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "约瑟普·舒塔洛"
+        }
+      ],
+      "playerPicture": {
+        "id": "5B23D028-3BF8-4355-83647838975C264F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5b23d028-3bf8-4355-8364-7838975c264f/SUTALO-Josip_448171"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 448174,
+      "attackingRank": 20,
+      "defensiveRank": 27,
+      "creativityRank": 15,
+      "attackingScore": 4.29552698135376,
+      "defensiveScore": 4.14801025390625,
+      "creativityScore": 5.508960247039795,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Marin PONGRACIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مارين بونغراتشيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marin PONGRACIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marin PONGRACIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Marin PONGRACIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Marin PONGRACIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marin PONGRACIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マリン・ポングラチッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마린 폰그라치치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marin PONGRACIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marin PONGRACIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марин ПОНГРАЧИЧ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "马林·彭拉契奇"
+        }
+      ],
+      "playerPicture": {
+        "id": "002F5150-852A-45F5-9A9B46CD3DCAFACE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/002f5150-852a-45f5-9a9b-46cd3dcaface/PONGRACIC-Marin_448174"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 482774,
+      "attackingRank": 10,
+      "defensiveRank": 23,
+      "creativityRank": 21,
+      "attackingScore": 4.872625827789307,
+      "defensiveScore": 4.429894924163818,
+      "creativityScore": 5.3863301277160645,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Martin BATURINA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مارتن باتورينا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Martin BATURINA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Martin BATURINA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Martin BATURINA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Martin BATURINA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Martin BATURINA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マーティン・バトゥリーナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마틴 바투리나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Martin BATURINA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Martin BATURINA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мартин Батурина"
+        }
+      ],
+      "playerPicture": {
+        "id": "B9125A74-A920-4FFC-922B68D57C524F4E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b9125a74-a920-4ffc-922b-68d57c524f4e/BATURINA-Martin_482774"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 485066,
+      "attackingRank": 7,
+      "defensiveRank": 8,
+      "creativityRank": 9,
+      "attackingScore": 4.966033935546875,
+      "defensiveScore": 5.504600524902344,
+      "creativityScore": 6.128757476806641,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Petar SUCIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بيتار سوتشيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Petar SUCIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Petar SUCIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Petar SUCIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Petar SUCIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Petar SUCIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ペタル・スチッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "페타르 수치치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Petar SUCIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Petar SUCIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Петар СУЧИЧ"
+        }
+      ],
+      "playerPicture": {
+        "id": "89C383C2-39BA-413D-B945E42DD2D47C6D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/89c383c2-39ba-413d-b945-e42dd2d47c6d/SUCIC-Petar_485066"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 485068,
+      "attackingRank": 6,
+      "defensiveRank": 15,
+      "creativityRank": 8,
+      "attackingScore": 5.052908897399902,
+      "defensiveScore": 5.016566276550293,
+      "creativityScore": 6.154908657073975,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Igor MATANOVIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إيغور ماتانوفيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Igor MATANOVIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Igor MATANOVIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Igor MATANOVIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Igor MATANOVIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Igor MATANOVIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "イゴール・マタノヴィッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이고르 마타노비치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Igor MATANOVIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Igor MATANOVIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Игорь МАТАНОВИЧ"
+        }
+      ],
+      "playerPicture": {
+        "id": "72C82C16-DA76-4F5A-A8495B84343228EB",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/72c82c16-da76-4f5a-a849-5b84343228eb/MATANOVIC-Igor_485068"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 201200,
+      "attackingRank": 3,
+      "defensiveRank": 24,
+      "creativityRank": 27,
+      "attackingScore": 6.3529276847839355,
+      "defensiveScore": 4.318352699279785,
+      "creativityScore": 4.506726264953613,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 14,
+      "creativityRankWithinTeam": 15,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "CRISTIANO RONALDO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كريستيانو رونالدو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "CRISTIANO RONALDO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "CRISTIANO RONALDO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "CRISTIANO RONALDO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "CRISTIANO RONALDO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "CRISTIANO RONALDO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クリスティアーノ・ロナウド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크리스티아누 호날두"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "CRISTIANO RONALDO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "CRISTIANO RONALDO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "КРИСТИАНО РОНАЛДУ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克里斯蒂亚诺·罗纳尔多"
+        }
+      ],
+      "playerPicture": {
+        "id": "7B63F223-FDA2-4D56-B218F143F0ABD2D8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7b63f223-fda2-4d56-b218-f143f0abd2d8/CRISTIANO-RONALDO_201200"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 368649,
+      "attackingRank": 14,
+      "defensiveRank": 2,
+      "creativityRank": 10,
+      "attackingScore": 4.7411699295043945,
+      "defensiveScore": 7.2190165519714355,
+      "creativityScore": 6.007240295410156,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "JOAO CANCELO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جواو كانسيلو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "JOAO CANCELO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "JOAO CANCELO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "JOAO CANCELO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "JOAO CANCELO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "JOAO CANCELO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョアン・カンセロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "조아오 칸셀루"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "JOAO CANCELO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "JOAO CANCELO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Жоао Канселу"
+        }
+      ],
+      "playerPicture": {
+        "id": "BB6C8016-D4B5-4434-9BBA1EC8CAC37300",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/bb6c8016-d4b5-4434-9bba-1ec8cac37300/JOAO-CANCELO_368649"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 384752,
+      "attackingRank": 26,
+      "defensiveRank": 1,
+      "creativityRank": 13,
+      "attackingScore": 4.038960933685303,
+      "defensiveScore": 7.371214866638184,
+      "creativityScore": 5.791502475738525,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 14,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "RUBEN DIAS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "روبن دياس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "RUBEN DIAS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "RUBEN DIAS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "RUBEN DIAS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "RUBEN DIAS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "RUBEN DIAS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルベン・ディアス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루벤 디아스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "RUBEN DIAS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "RUBEN DIAS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рубен Диас"
+        }
+      ],
+      "playerPicture": {
+        "id": "7EAB2FA3-E7D1-4876-AAAAA44A9E923750",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7eab2fa3-e7d1-4876-aaaa-a44a9e923750/RUBEN-DIAS_384752"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 395205,
+      "attackingRank": 16,
+      "defensiveRank": 14,
+      "creativityRank": 19,
+      "attackingScore": 4.71482515335083,
+      "defensiveScore": 5.060712814331055,
+      "creativityScore": 5.447192668914795,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "BERNARDO SILVA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "برناردو سيلفا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "BERNARDO SILVA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "BERNARDO SILVA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "BERNARDO SILVA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "BERNARDO SILVA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "BERNARDO SILVA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルナルド・シルバ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "베르나르두 실바"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "BERNARDO SILVA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "BERNARDO SILVA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "БЕРНАРДО СИЛЬВА"
+        }
+      ],
+      "playerPicture": {
+        "id": "97535989-5B6F-414B-A58254A0C48DF12A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/97535989-5b6f-414b-a582-54a0c48df12a/BERNARDO-SILVA_395205"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 395206,
+      "attackingRank": 15,
+      "defensiveRank": 12,
+      "creativityRank": 17,
+      "attackingScore": 4.729469299316406,
+      "defensiveScore": 5.310988903045654,
+      "creativityScore": 5.475841999053955,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "BRUNO FERNANDES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "برونو فرنانديز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "BRUNO FERNANDES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "BRUNO FERNANDES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "BRUNO FERNANDES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "BRUNO FERNANDES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "BRUNO FERNANDES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブルーノ・フェルナンデス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브루노 페르난데스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "BRUNO FERNANDES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "BRUNO FERNANDES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "БРУНО ФЕРНАНДЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "布鲁诺·费尔南德斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "4A31C35D-C697-4C1A-AC51A120B82A3D83",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4a31c35d-c697-4c1a-ac51-a120b82a3d83/BRUNO-FERNANDES_395206"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 395212,
+      "attackingRank": 16,
+      "defensiveRank": 7,
+      "creativityRank": 14,
+      "attackingScore": 4.71482515335083,
+      "defensiveScore": 5.874823093414307,
+      "creativityScore": 5.715956687927246,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "NELSON SEMEDO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيلسون سيميدو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "NELSON SEMEDO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "NELSON SEMEDO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "NELSON SEMEDO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "NELSON SEMEDO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "NELSON SEMEDO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ネルソン・セメド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "넬슨 세메도"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "NELSON SEMEDO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "NELSON SEMEDO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "НЕЛСОН СЕМЕДО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "内尔松·塞梅多"
+        }
+      ],
+      "playerPicture": {
+        "id": "7B97EA5C-F883-424A-9133EEAD7E175B00",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7b97ea5c-f883-424a-9133-eead7e175b00/NELSON-SEMEDO_395212"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 395216,
+      "attackingRank": 18,
+      "defensiveRank": 13,
+      "creativityRank": 3,
+      "attackingScore": 4.707740306854248,
+      "defensiveScore": 5.063971042633057,
+      "creativityScore": 7.062746524810791,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "RUBEN NEVES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "روبن نيفيس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "RUBEN NEVES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "RUBEN NEVES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "RUBEN NEVES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "RUBEN NEVES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "RUBEN NEVES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルーベン・ネヴェス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루벤 네베스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "RUBEN NEVES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "RUBEN NEVES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "РУБЕН НЕВЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "884A330C-BE4C-442D-BECB2D601C7574D1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/884a330c-be4c-442d-becb-2d601c7574d1/RUBEN-NEVES_395216"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 418548,
+      "attackingRank": 19,
+      "defensiveRank": 3,
+      "creativityRank": 24,
+      "attackingScore": 4.4214301109313965,
+      "defensiveScore": 6.483231544494629,
+      "creativityScore": 4.874697208404541,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "PEDRO NETO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بيدرو نيتو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "PEDRO NETO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "PEDRO NETO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "PEDRO NETO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "PEDRO NETO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "PEDRO NETO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ペドロ・ネト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "페드로 네토"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "PEDRO NETO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "PEDRO NETO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ПЕДРО НЕТО"
+        }
+      ],
+      "playerPicture": {
+        "id": "E4E58ACB-F7AF-402C-A7B8E284583CE14F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e4e58acb-f7af-402c-a7b8-e284583ce14f/PEDRO-NETO_418548"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 418550,
+      "attackingRank": 4,
+      "defensiveRank": 21,
+      "creativityRank": 1,
+      "attackingScore": 6.106174945831299,
+      "defensiveScore": 4.511872291564941,
+      "creativityScore": 7.787463665008545,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "RAFAEL LEAO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رافائيل ليو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "RAFAEL LEAO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "RAFAEL LEAO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "RAFAEL LEAO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "RAFAEL LEAO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "RAFAEL LEAO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラファエル・レアオ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라파엘 레아오"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "RAFAEL LEAO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "RAFAEL LEAO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "РАФАЭЛЬ ЛЕАО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "拉斐尔·莱奥"
+        }
+      ],
+      "playerPicture": {
+        "id": "A5A760A7-7B47-42ED-83023EA75DBE9FC4",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a5a760a7-7b47-42ed-8302-3ea75dbe9fc4/RAFAEL-LEAO_418550"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 433195,
+      "attackingRank": 8,
+      "defensiveRank": 6,
+      "creativityRank": 2,
+      "attackingScore": 4.936051368713379,
+      "defensiveScore": 6.040812015533447,
+      "creativityScore": 7.626269817352295,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "NUNO MENDES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نونو مينديز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "NUNO MENDES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "NUNO MENDES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "NUNO MENDES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "NUNO MENDES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "NUNO MENDES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヌノ・メンデス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "누노 멘데스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "NUNO MENDES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "NUNO MENDES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нуно Мендес"
+        }
+      ],
+      "playerPicture": {
+        "id": "F8D5D7B8-BB64-4427-80D1911D68B2DD1A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f8d5d7b8-bb64-4427-80d1-911d68b2dd1a/NUNO-MENDES_433195"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 441149,
+      "attackingRank": 13,
+      "defensiveRank": 16,
+      "creativityRank": 23,
+      "attackingScore": 4.775734901428223,
+      "defensiveScore": 4.949934482574463,
+      "creativityScore": 5.203670978546143,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "VITINHA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فيتينها"
+        },
+        {
+          "locale": "de-DE",
+          "description": "VITINHA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "VITINHA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "VITINHA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "VITINHA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "VITINHA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヴィティニャ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "비티냐"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "VITINHA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "VITINHA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ВИТИНХА"
+        }
+      ],
+      "playerPicture": {
+        "id": "8D21116D-608F-409B-932B71C1EE1A043C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8d21116d-608f-409b-932b-71c1ee1a043c/VITINHA_441149"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 448081,
+      "attackingRank": 1,
+      "defensiveRank": 5,
+      "creativityRank": 12,
+      "attackingScore": 8.193336486816406,
+      "defensiveScore": 6.237903118133545,
+      "creativityScore": 5.821231365203857,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "GONCALO RAMOS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غونكالو راموس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "GONCALO RAMOS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "GONCALO RAMOS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "GONCALO RAMOS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "GONCALO RAMOS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "GONCALO RAMOS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ゴンサロ・ラモス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "곤살루 라모스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "GONCALO RAMOS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "GONCALO RAMOS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ГОНСАЛО РАМОС"
+        }
+      ],
+      "playerPicture": {
+        "id": "040F6A55-0F54-430E-A03BBB994EE40921",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/040f6a55-0f54-430e-a03b-bb994ee40921/GONCALO-RAMOS_448081"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 484141,
+      "attackingRank": 21,
+      "defensiveRank": 26,
+      "creativityRank": 26,
+      "attackingScore": 4.250180244445801,
+      "defensiveScore": 4.225079536437988,
+      "creativityScore": 4.711236000061035,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 15,
+      "creativityRankWithinTeam": 14,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "JOAO NEVES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جواو نيفيس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "JOAO NEVES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "JOAO NEVES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "JOAO NEVES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "JOAO NEVES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "JOAO NEVES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョアン・ネヴェス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "조아오 네베스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "JOAO NEVES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "JOAO NEVES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Жоао Невеш"
+        }
+      ],
+      "playerPicture": {
+        "id": "C79CF261-45B2-484B-860F9ADAC3ED7D17",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c79cf261-45b2-484b-860f-9adac3ed7d17/JOAO-NEVES_484141"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 485081,
+      "attackingRank": 11,
+      "defensiveRank": 9,
+      "creativityRank": 18,
+      "attackingScore": 4.842044353485107,
+      "defensiveScore": 5.503434181213379,
+      "creativityScore": 5.450583457946777,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "FRANCISCO CONCEICAO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فرانسيسكو كونسيكاو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "FRANCISCO CONCEICAO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "FRANCISCO CONCEICAO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "FRANCISCO CONCEICAO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "FRANCISCO CONCEICAO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "FRANCISCO CONCEICAO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フランシスコ・コンセイソン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "프란시스코 콘세이카오"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "FRANCISCO CONCEICAO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "FRANCISCO CONCEICAO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ФРАНСИСКО КОНСЕЙСАН"
+        }
+      ],
+      "playerPicture": {
+        "id": "1CB86E09-CF4E-4B60-884909D17DD1F8AD",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1cb86e09-cf4e-4b60-8849-09d17dd1f8ad/FRANCISCO-CONCEICAO_485081"
+      }
+    },
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 489704,
+      "attackingRank": 25,
+      "defensiveRank": 4,
+      "creativityRank": 25,
+      "attackingScore": 4.065201282501221,
+      "defensiveScore": 6.41980504989624,
+      "creativityScore": 4.869743347167969,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "RENATO VEIGA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ريناتو فيغا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "RENATO VEIGA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "RENATO VEIGA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "RENATO VEIGA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "RENATO VEIGA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "RENATO VEIGA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "レナート・ヴェイガ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "레나토 베이가"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "RENATO VEIGA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "RENATO VEIGA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "РЕНАТО ВЕЙГА"
+        }
+      ],
+      "playerPicture": {
+        "id": "556C6A9A-FACB-4A04-8B6815BEE3974C9F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/556c6a9a-facb-4a04-8b68-15bee3974c9f/RENATO-VEIGA_489704"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43963,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "البرتغال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Portugal"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Portugal"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Portugal"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Portogallo"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポルトガル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "포르투갈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Portugal"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Portugal"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Португалия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "葡萄牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/POR",
+      "playerId": 403001,
+      "inPossessionRank": 2,
+      "inPossessionScore": 4.45172643661499,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 6.6103034019470215,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "DIOGO COSTA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ديوغو كوستا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "DIOGO COSTA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "DIOGO COSTA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "DIOGO COSTA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "DIOGO COSTA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "DIOGO COSTA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ディオゴ・コスタ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "디오고 코스타"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "DIOGO COSTA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "DIOGO COSTA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ДИОГО КОСТА"
+        }
+      ],
+      "playerPicture": {
+        "id": "7C3541E5-A8CB-458C-B3687F57C1B5AE03",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7c3541e5-a8cb-458c-b368-7f57c1b5ae03/DIOGO-COSTA_403001"
+      }
+    },
+    {
+      "teamId": 43938,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Croatia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كرواتيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kroatien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Croacia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Croatie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kroasia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Croazia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クロアチア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크로아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Croácia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хорватия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克罗地亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/CRO",
+      "playerId": 369029,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.08927583694458,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 4.817593574523926,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Dominik LIVAKOVIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دومينيك ليفاكوفيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Dominik LIVAKOVIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Dominik LIVAKOVIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Dominik LIVAKOVIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Dominik LIVAKOVIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Dominik LIVAKOVIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ドミニク・リヴァコヴィッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "도미니크 리바코비치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Dominik LIVAKOVIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Dominik LIVAKOVIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Доминик ЛИВАКОВИЧ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "多米尼克·利瓦科维奇"
+        }
+      ],
+      "playerPicture": {
+        "id": "6F54CF31-4FD8-4DFF-AAA79DB6BF2FA2EC",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6f54cf31-4fd8-4dff-aaa7-9db6bf2fa2ec/LIVAKOVIC-Dominik_369029"
+      }
+    }
+  ]
+}
