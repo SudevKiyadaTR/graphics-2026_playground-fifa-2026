@@ -1,0 +1,3677 @@
+{
+  "competitionId": 285023,
+  "matchId": 151692,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-07-03T23:16:27.447767Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 344654,
+      "attackingRank": 11,
+      "defensiveRank": 22,
+      "creativityRank": 8,
+      "attackingScore": 5.034366130828857,
+      "defensiveScore": 4.821462631225586,
+      "creativityScore": 6.546184062957764,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "MOHAMED SALAH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "محمد صلاح"
+        },
+        {
+          "locale": "de-DE",
+          "description": "MOHAMED SALAH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "MOHAMED SALAH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "MOHAMED SALAH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "MOHAMED SALAH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "MOHAMED SALAH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モハメド・サラー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모하메드 살라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "MOHAMED SALAH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "MOHAMED SALAH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "МОХАМЕД САЛАХ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "穆罕默德·萨拉赫"
+        }
+      ],
+      "playerPicture": {
+        "id": "8D5236B8-ACAC-4946-AF8E5B007BCFA284",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8d5236b8-acac-4946-af8e-5b007bcfa284/MOHAMED-SALAH_344654"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 344661,
+      "attackingRank": 16,
+      "defensiveRank": 1,
+      "creativityRank": 27,
+      "attackingScore": 4.794658660888672,
+      "defensiveScore": 7.215747356414795,
+      "creativityScore": 4.324249267578125,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "RAMY RABIA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رامي رابيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "RAMY RABIA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "RAMY RABIA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "RAMY RABIA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "RAMY RABIA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "RAMY RABIA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラミー・ラビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라미 라비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "RAMY RABIA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "RAMY RABIA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "РАМИ РАБИЯ"
+        }
+      ],
+      "playerPicture": {
+        "id": "403C9E6D-EFE6-4917-86EAC7EDDC442208",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/403c9e6d-efe6-4917-86ea-c7eddc442208/RABIA-Ramy_344661"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 363863,
+      "attackingRank": 15,
+      "defensiveRank": 11,
+      "creativityRank": 15,
+      "attackingScore": 4.806135654449463,
+      "defensiveScore": 5.510200023651123,
+      "creativityScore": 5.9811577796936035,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "TREZEGUET"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تريزيغيت"
+        },
+        {
+          "locale": "de-DE",
+          "description": "TREZEGUET"
+        },
+        {
+          "locale": "es-ES",
+          "description": "TREZEGUET"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "TREZEGUET"
+        },
+        {
+          "locale": "id-ID",
+          "description": "TREZEGUET"
+        },
+        {
+          "locale": "it-IT",
+          "description": "TREZEGUET"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "トレゼゲ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "트레제게"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "TREZEGUET"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "TREZEGUET"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ТРЕЗЕГЕТ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "特雷齐盖"
+        }
+      ],
+      "playerPicture": {
+        "id": "FD2622C8-9BD4-40F0-BB166B3311BB1811",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/fd2622c8-9bd4-40f0-bb16-6b3311bb1811/TREZEGUET_363863"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 369267,
+      "attackingRank": 27,
+      "defensiveRank": 2,
+      "creativityRank": 28,
+      "attackingScore": 4.089822292327881,
+      "defensiveScore": 6.976287841796875,
+      "creativityScore": 4.131643772125244,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "YASSER IBRAHIM"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ياسر إبراهيم"
+        },
+        {
+          "locale": "de-DE",
+          "description": "YASSER IBRAHIM"
+        },
+        {
+          "locale": "es-ES",
+          "description": "YASSER IBRAHIM"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "YASSER IBRAHIM"
+        },
+        {
+          "locale": "id-ID",
+          "description": "YASSER IBRAHIM"
+        },
+        {
+          "locale": "it-IT",
+          "description": "YASSER IBRAHIM"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヤセル・イブラヒム"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "야세르 이브라힘"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "YASSER IBRAHIM"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "YASSER IBRAHIM"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ЯССЕР ИБРАГИМ"
+        }
+      ],
+      "playerPicture": {
+        "id": "028AFC10-053B-443F-819CD95AE0D46A55",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/028afc10-053b-443f-819c-d95ae0d46a55/YASSER-IBRAHIM_369267"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 407022,
+      "attackingRank": 7,
+      "defensiveRank": 14,
+      "creativityRank": 2,
+      "attackingScore": 5.198688983917236,
+      "defensiveScore": 5.416976451873779,
+      "creativityScore": 7.273625373840332,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "KARIM HAFEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كريم حافظ"
+        },
+        {
+          "locale": "de-DE",
+          "description": "KARIM HAFEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "KARIM HAFEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "KARIM HAFEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "KARIM HAFEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "KARIM HAFEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カリム・ハフェズ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "카림 하페즈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "KARIM HAFEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "KARIM HAFEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Карим Хафез"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "卡里姆·哈菲兹"
+        }
+      ],
+      "playerPicture": {
+        "id": "2CD7CE59-AA56-4018-8D9C5628A27E13C4",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2cd7ce59-aa56-4018-8d9c-5628a27e13c4/KARIM-HAFEZ_407022"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 408950,
+      "attackingRank": 28,
+      "defensiveRank": 20,
+      "creativityRank": 16,
+      "attackingScore": 4,
+      "defensiveScore": 4.9420905113220215,
+      "creativityScore": 5.841712474822998,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "MOHAMED HANY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "محمد هاني"
+        },
+        {
+          "locale": "de-DE",
+          "description": "MOHAMED HANY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "MOHAMED HANY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "MOHAMED HANY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "MOHAMED HANY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "MOHAMED HANY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モハメド・ハニー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모하메드 하니"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "MOHAMED HANY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "MOHAMED HANY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "МОХАМЕД ХАНИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "04F8EF57-E16F-49DE-B7D4AD430C4C430C",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/04f8ef57-e16f-49de-b7d4-ad430c4c430c/MOHAMED-HANY_408950"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 424106,
+      "attackingRank": 4,
+      "defensiveRank": 18,
+      "creativityRank": 1,
+      "attackingScore": 5.47806453704834,
+      "defensiveScore": 5.033929347991943,
+      "creativityScore": 7.782809257507324,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Haissem HASSAN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "حسيم حسن"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Haissem HASSAN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Haissem HASSAN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Haissem HASSAN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Haissem HASSAN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Haissem HASSAN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ハイセム・ハッサン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "하셈 하산"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Haissem HASSAN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Haissem HASSAN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хайсем ХАССАН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "海森·哈桑"
+        }
+      ],
+      "playerPicture": {
+        "id": "88BEF92D-4236-4445-9D6FC2674E218A60",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/88bef92d-4236-4445-9d6f-c2674e218a60/HAISSEM-HASSAN_424106"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 429095,
+      "attackingRank": 21,
+      "defensiveRank": 16,
+      "creativityRank": 24,
+      "attackingScore": 4.4999189376831055,
+      "defensiveScore": 5.273610591888428,
+      "creativityScore": 5.512180328369141,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "HAMDY FATHY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "حمدي فتحي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "HAMDY FATHY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "HAMDY FATHY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "HAMDY FATHY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "HAMDY FATHY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "HAMDY FATHY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ハムディ・ファティ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "함디 파티"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "HAMDY FATHY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "HAMDY FATHY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ХАМДИ ФАТХИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哈迪·法蒂"
+        }
+      ],
+      "playerPicture": {
+        "id": "2DE277F5-CEA7-47F9-9635F9FB3A205C2A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2de277f5-cea7-47f9-9635-f9fb3a205c2a/HAMDY-FATHY_429095"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 430476,
+      "attackingRank": 20,
+      "defensiveRank": 24,
+      "creativityRank": 4,
+      "attackingScore": 4.52325439453125,
+      "defensiveScore": 4.771746635437012,
+      "creativityScore": 7.111827373504639,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "OMAR MARMOUSH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "عمر مرموش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "OMAR MARMOUSH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "OMAR MARMOUSH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "OMAR MARMOUSH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "OMAR MARMOUSH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "OMAR MARMOUSH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オマル・マルムシュ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "오마르 마르무쉬"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "OMAR MARMOUSH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "OMAR MARMOUSH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Омар Мармуш"
+        }
+      ],
+      "playerPicture": {
+        "id": "A3F5A36A-57B4-407B-A07E7B5F6D19AF5B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a3f5a36a-57b4-407b-a07e-7b5f6d19af5b/OMAR-MARMOUSH_430476"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 430482,
+      "attackingRank": 1,
+      "defensiveRank": 7,
+      "creativityRank": 14,
+      "attackingScore": 8.465359687805176,
+      "defensiveScore": 5.889489650726318,
+      "creativityScore": 6.006289482116699,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "EMAM ASHOUR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إمام عاشور"
+        },
+        {
+          "locale": "de-DE",
+          "description": "EMAM ASHOUR"
+        },
+        {
+          "locale": "es-ES",
+          "description": "EMAM ASHOUR"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "EMAM ASHOUR"
+        },
+        {
+          "locale": "id-ID",
+          "description": "EMAM ASHOUR"
+        },
+        {
+          "locale": "it-IT",
+          "description": "EMAM ASHOUR"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エマム・アシュール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에마무 아슈르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "EMAM ASHOUR"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "EMAM ASHOUR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эмам Ашур"
+        }
+      ],
+      "playerPicture": {
+        "id": "6D203B10-285B-4800-B448E34D2B3A3E09",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6d203b10-285b-4800-b448-e34d2b3a3e09/EMAM-ASHOUR_430482"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 461788,
+      "attackingRank": 10,
+      "defensiveRank": 4,
+      "creativityRank": 19,
+      "attackingScore": 5.059048652648926,
+      "defensiveScore": 6.758317947387695,
+      "creativityScore": 5.758573055267334,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "MARAWAN ATTIA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماروان عطية"
+        },
+        {
+          "locale": "de-DE",
+          "description": "MARAWAN ATTIA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "MARAWAN ATTIA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "MARAWAN ATTIA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "MARAWAN ATTIA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "MARAWAN ATTIA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マラワン・アッティア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마라완 아티아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "MARAWAN ATTIA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "MARAWAN ATTIA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "МАРАВАН АТТИЯ"
+        }
+      ],
+      "playerPicture": {
+        "id": "CF051F82-C8A8-4328-94392AB64F616B83",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/cf051f82-c8a8-4328-9439-2ab64f616b83/MARAWAN-ATTIA_461788"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 483161,
+      "attackingRank": 24,
+      "defensiveRank": 26,
+      "creativityRank": 13,
+      "attackingScore": 4.410096168518066,
+      "defensiveScore": 4.7576189041137695,
+      "creativityScore": 6.026908874511719,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "MOSTAFA ZICO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصطفى زيكو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "MOSTAFA ZICO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "MOSTAFA ZICO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "MOSTAFA ZICO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "MOSTAFA ZICO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "MOSTAFA ZICO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モスタファ・ジコ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모스타파 지코"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "MOSTAFA ZICO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "MOSTAFA ZICO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "МОСТАФА ЗИКО"
+        }
+      ],
+      "playerPicture": {
+        "id": "F417B544-6A3C-46A9-AF78D43D6CEDCAD1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/f417b544-6a3c-46a9-af78-d43d6cedcad1/MOSTAFA-ZICO_483161"
+      }
+    },
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 483182,
+      "attackingRank": 22,
+      "defensiveRank": 3,
+      "creativityRank": 26,
+      "attackingScore": 4.451786041259766,
+      "defensiveScore": 6.768893718719482,
+      "creativityScore": 5.007615566253662,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "HOSSAM ABDELMAGUID"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "حسام عبد المجيد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "HOSSAM ABDELMAGUID"
+        },
+        {
+          "locale": "es-ES",
+          "description": "HOSSAM ABDELMAGUID"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "HOSSAM ABDELMAGUID"
+        },
+        {
+          "locale": "id-ID",
+          "description": "HOSSAM ABDELMAGUID"
+        },
+        {
+          "locale": "it-IT",
+          "description": "HOSSAM ABDELMAGUID"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ホッサム・アブデルマグイド"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호삼 압델마구이드"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "HOSSAM ABDELMAGUID"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "HOSSAM ABDELMAGUID"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ХОССАМ АБДЕЛЬМАГУИД"
+        }
+      ],
+      "playerPicture": {
+        "id": "406EF52D-C003-4108-B9C2126B4AD8354B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/406ef52d-c003-4108-b9c2-126b4ad8354b/HOSSAM-ABDELMAGUID_483182"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 349342,
+      "attackingRank": 5,
+      "defensiveRank": 25,
+      "creativityRank": 7,
+      "attackingScore": 5.304507732391357,
+      "defensiveScore": 4.7608962059021,
+      "creativityScore": 6.699892520904541,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Aziz BEHICH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "عزيز بيهيش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Aziz BEHICH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Aziz BEHICH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Aziz BEHICH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aziz BEHICH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Aziz BEHICH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アジズ・ベヒッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아지즈 베히치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Aziz BEHICH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Aziz BEHICH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Азиз БЕХИЧ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿齐兹·贝希"
+        }
+      ],
+      "playerPicture": {
+        "id": "7B166229-D82D-4323-9C79EB973E996408",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7b166229-d82d-4323-9c79-eb973e996408/BEHICH-Aziz_349342"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 355775,
+      "attackingRank": 23,
+      "defensiveRank": 13,
+      "creativityRank": 18,
+      "attackingScore": 4.4349589347839355,
+      "defensiveScore": 5.473241329193115,
+      "creativityScore": 5.816552639007568,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jackson IRVINE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جاكسون إيرفين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jackson IRVINE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jackson IRVINE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jackson IRVINE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jackson IRVINE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jackson IRVINE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジャクソン・アーバイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "잭슨 어바인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jackson IRVINE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jackson IRVINE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джексон ИРВИН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "杰克逊·埃尔文"
+        }
+      ],
+      "playerPicture": {
+        "id": "7726492B-0996-47A2-AAFDBD362844D9DF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7726492b-0996-47a2-aafd-bd362844d9df/IRVINE-Jackson_355775"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 404319,
+      "attackingRank": 6,
+      "defensiveRank": 8,
+      "creativityRank": 10,
+      "attackingScore": 5.214019775390625,
+      "defensiveScore": 5.5860090255737305,
+      "creativityScore": 6.331418514251709,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ajdin HRUSTIC"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أجدين هروستيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ajdin HRUSTIC"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ajdin HRUSTIC"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ajdin HRUSTIC"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ajdin HRUSTIC"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ajdin HRUSTIC"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アイジン・フルスティッチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아진 흐루스티치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ajdin HRUSTIC"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ajdin HRUSTIC"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Айджин ХРУСТИЧ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿杰丁·赫鲁斯蒂克"
+        }
+      ],
+      "playerPicture": {
+        "id": "C63012A5-37F8-4317-8A6960F861FB03A7",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c63012a5-37f8-4317-8a69-60f861fb03a7/HRUSTIC-Ajdin_404319"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 406606,
+      "attackingRank": 9,
+      "defensiveRank": 10,
+      "creativityRank": 17,
+      "attackingScore": 5.06345796585083,
+      "defensiveScore": 5.548857688903809,
+      "creativityScore": 5.836857318878174,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Awer MABIL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوير مابيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Awer MABIL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Awer MABIL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Awer MABIL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Awer MABIL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Awer MABIL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アワー・マビル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아워 마빌"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Awer MABIL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Awer MABIL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Авер МАБИЛ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿维尔·马比尔"
+        }
+      ],
+      "playerPicture": {
+        "id": "9BEAA464-B945-4D89-B310025EEA682693",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9beaa464-b945-4d89-b310-025eea682693/MABIL-Awer_406606"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 423522,
+      "attackingRank": 8,
+      "defensiveRank": 17,
+      "creativityRank": 12,
+      "attackingScore": 5.1057562828063965,
+      "defensiveScore": 5.040072441101074,
+      "creativityScore": 6.161800861358643,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jordan BOS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جوردان بوس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jordan BOS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jordan BOS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jordan BOS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jordan BOS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jordan BOS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョーダン・ボス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "조던 보스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jordan BOS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jordan BOS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джордан БОС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乔丹·博斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "4B537554-D211-4B77-AA310935973FDD50",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/4b537554-d211-4b77-aa31-0935973fdd50/BOS-Jordan_423522"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 430440,
+      "attackingRank": 13,
+      "defensiveRank": 28,
+      "creativityRank": 6,
+      "attackingScore": 4.876982688903809,
+      "defensiveScore": 4.533409118652344,
+      "creativityScore": 6.813933372497559,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 15,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Aiden ONEILL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أيدن أونيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Aiden ONEILL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Aiden ONEILL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Aiden ONEILL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aiden ONEILL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Aiden ONEILL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エイデン・オニール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "에이든 오닐"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Aiden ONEILL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Aiden ONEILL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Эйден О'Нил"
+        }
+      ],
+      "playerPicture": {
+        "id": "A7DC9D98-0215-4756-995A09B61830AB8B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a7dc9d98-0215-4756-995a-09b61830ab8b/ONEILL-Aiden_430440"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 430442,
+      "attackingRank": 25,
+      "defensiveRank": 6,
+      "creativityRank": 20,
+      "attackingScore": 4.2377471923828125,
+      "defensiveScore": 5.902178764343262,
+      "creativityScore": 5.756009578704834,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 14,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Harry SOUTTAR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هاري سوتار"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Harry SOUTTAR"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Harry SOUTTAR"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Harry SOUTTAR"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Harry SOUTTAR"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Harry SOUTTAR"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ハリー・サッター"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "해리 사타"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Harry SOUTTAR"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Harry SOUTTAR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Гарри СОУТТАР"
+        }
+      ],
+      "playerPicture": {
+        "id": "6777563E-5036-4252-9809A0CC21D96147",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/6777563e-5036-4252-9809-a0cc21d96147/SOUTTAR-Harry_430442"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 430452,
+      "attackingRank": 14,
+      "defensiveRank": 19,
+      "creativityRank": 11,
+      "attackingScore": 4.874605655670166,
+      "defensiveScore": 5.029842376708984,
+      "creativityScore": 6.255644798278809,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Connor METCALFE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كونور ميتكالف"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Connor METCALFE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Connor METCALFE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Connor METCALFE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Connor METCALFE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Connor METCALFE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コナー・メトカーフ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "코너 메트칼프"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Connor METCALFE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Connor METCALFE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Коннор МЕТКАЛФ"
+        }
+      ],
+      "playerPicture": {
+        "id": "A539F793-3D95-46B8-805E67156152AC8B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a539f793-3d95-46b8-805e-67156152ac8b/METCALFE-Connor_430452"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 448014,
+      "attackingRank": 18,
+      "defensiveRank": 5,
+      "creativityRank": 5,
+      "attackingScore": 4.609508514404297,
+      "defensiveScore": 6.308854103088379,
+      "creativityScore": 6.884276866912842,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alessandro CIRCATI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أليساندرو سيركاتي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Alessandro CIRCATI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alessandro CIRCATI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Alessandro CIRCATI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Alessandro CIRCATI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Alessandro CIRCATI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アレッサンドロ・チルカティ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알레산드로 치르카티"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alessandro CIRCATI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Alessandro CIRCATI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алессандро ЧИРКАТИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "亚历山德罗·奇卡蒂"
+        }
+      ],
+      "playerPicture": {
+        "id": "0BBF6585-1C6B-4416-8A3F31A1D8D1625B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0bbf6585-1c6b-4416-8a3f-31a1d8d1625b/CIRCATI-Alessandro_448014"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 448015,
+      "attackingRank": 2,
+      "defensiveRank": 12,
+      "creativityRank": 3,
+      "attackingScore": 5.688620567321777,
+      "defensiveScore": 5.500335693359375,
+      "creativityScore": 7.225790977478027,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Cristian VOLPATO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كريستيان فولباتو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Cristian VOLPATO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Cristian VOLPATO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Cristian VOLPATO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Cristian VOLPATO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Cristian VOLPATO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クリスティアン・ヴォルパト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "크리스티안 볼파토"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Cristian VOLPATO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Cristian VOLPATO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кристиан ВОЛПАТО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "克里斯蒂安·沃尔帕托"
+        }
+      ],
+      "playerPicture": {
+        "id": "E455AE41-95F0-454B-BD12ABDAFFA68B7D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e455ae41-95f0-454b-bd12-abdaffa68b7d/VOLPATO-Cristian_448015"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 486306,
+      "attackingRank": 3,
+      "defensiveRank": 15,
+      "creativityRank": 23,
+      "attackingScore": 5.526938438415527,
+      "defensiveScore": 5.279571056365967,
+      "creativityScore": 5.594689846038818,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 14,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nestory IRANKUNDA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيستوري إيرانكوندا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nestory IRANKUNDA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nestory IRANKUNDA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nestory IRANKUNDA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nestory IRANKUNDA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nestory IRANKUNDA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ネストリー・イランクンダ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네스토리 이란쿤다"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nestory IRANKUNDA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nestory IRANKUNDA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нестори ИРАНКУНДА"
+        }
+      ],
+      "playerPicture": {
+        "id": "EBC599F9-D929-4C6C-A60E7F081CFB7BD6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ebc599f9-d929-4c6c-a60e-7f081cfb7bd6/IRANKUNDA-Nestory_486306"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 494411,
+      "attackingRank": 19,
+      "defensiveRank": 21,
+      "creativityRank": 22,
+      "attackingScore": 4.605269908905029,
+      "defensiveScore": 4.882079124450684,
+      "creativityScore": 5.598998069763184,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Kai TREWIN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كاي تروين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kai TREWIN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Kai TREWIN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Kai TREWIN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kai TREWIN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Kai TREWIN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カイ・トレウィン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "카이 트레윈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Kai TREWIN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Kai TREWIN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кай ТРЕВИН"
+        }
+      ],
+      "playerPicture": {
+        "id": "5753796C-C01E-444E-88965C6C79DCD9FB",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5753796c-c01e-444e-8896-5c6c79dcd9fb/TREWIN-Kai_494411"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 498421,
+      "attackingRank": 17,
+      "defensiveRank": 9,
+      "creativityRank": 9,
+      "attackingScore": 4.715863227844238,
+      "defensiveScore": 5.558972358703613,
+      "creativityScore": 6.427051067352295,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Paul OKON-ENGSTLER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بول أوكون-إنجستلر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Paul OKON-ENGSTLER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Paul OKON-ENGSTLER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Paul OKON-ENGSTLER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Paul OKON-ENGSTLER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Paul OKON-ENGSTLER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ポール・オコン＝エングストラー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "폴 오콘-엥스트러"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Paul OKON-ENGSTLER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Paul OKON-ENGSTLER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Пол ОКОН-ЭНГСТЛЕР"
+        }
+      ],
+      "playerPicture": {
+        "id": "C010F6A9-53AF-4D79-B16DF25B96670225",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c010f6a9-53af-4d79-b16d-f25b96670225/OKON-ENGSTLER-Paul_498421"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 498806,
+      "attackingRank": 12,
+      "defensiveRank": 23,
+      "creativityRank": 21,
+      "attackingScore": 5.004715442657471,
+      "defensiveScore": 4.808692932128906,
+      "creativityScore": 5.675774574279785,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mohamed TOURE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "محمد توري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mohamed TOURE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Mohamed TOURE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mohamed TOURE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mohamed TOURE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Mohamed TOURE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モハメド・トゥーレ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모하메드 투레"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Mohamed TOURE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Mohamed TOURE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мохамед ТУРЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "069AF350-E4D8-4B30-AF2D6938B9A379FA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/069af350-e4d8-4b30-af2d-6938b9a379fa/TOURE-Mohamed_498806"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 504931,
+      "attackingRank": 26,
+      "defensiveRank": 27,
+      "creativityRank": 25,
+      "attackingScore": 4.19199800491333,
+      "defensiveScore": 4.552508354187012,
+      "creativityScore": 5.122188091278076,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 15,
+      "defensiveRankWithinTeam": 14,
+      "creativityRankWithinTeam": 15,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lucas HERRINGTON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لوكاس هيرينغتون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Lucas HERRINGTON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Lucas HERRINGTON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Lucas HERRINGTON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Lucas HERRINGTON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Lucas HERRINGTON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルーカス・ヘリントン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루카스 헤링턴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Lucas HERRINGTON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Lucas HERRINGTON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Лукас ХЕРРИНГТОН"
+        }
+      ],
+      "playerPicture": {
+        "id": "B0E45418-FF7E-4FDF-A7AC8E7BF2D63624",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b0e45418-ff7e-4fdf-a7ac-8e7bf2d63624/HERRINGTON-Lucas_504931"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43855,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Egypt"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ägypten"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Egipto"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Égypte"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mesir"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Egitto"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "エジプト"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "이집트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Egito"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Египет"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "埃及"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/EGY",
+      "playerId": 416906,
+      "inPossessionRank": 2,
+      "inPossessionScore": 5.034186840057373,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 5.522708415985107,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "MOSTAFA SHOUBIR"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مصطفى شوبير"
+        },
+        {
+          "locale": "de-DE",
+          "description": "MOSTAFA SHOUBIR"
+        },
+        {
+          "locale": "es-ES",
+          "description": "MOSTAFA SHOUBIR"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "MOSTAFA SHOUBIR"
+        },
+        {
+          "locale": "id-ID",
+          "description": "MOSTAFA SHOUBIR"
+        },
+        {
+          "locale": "it-IT",
+          "description": "MOSTAFA SHOUBIR"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "モスタファ・シュビール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "모스타파 쇼비르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "MOSTAFA SHOUBIR"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "MOSTAFA SHOUBIR"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мостафа Шубир"
+        }
+      ],
+      "playerPicture": {
+        "id": "0FA52C2D-3A6C-49CF-AC83DDC4A08D57E3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0fa52c2d-3a6c-49cf-ac83-ddc4a08d57e3/MOSTAFA-SHOUBIR_416906"
+      }
+    },
+    {
+      "teamId": 43976,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Australia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أستراليا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Australien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Australia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Australie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Australia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Australia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "オーストラリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호주"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Austrália"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Австралия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "澳大利亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/AUS",
+      "playerId": 494557,
+      "inPossessionRank": 1,
+      "inPossessionScore": 5.826889514923096,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 5.453833103179932,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Patrick BEACH"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "باتريك بيتش"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Patrick BEACH"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Patrick BEACH"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Patrick BEACH"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Patrick BEACH"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Patrick BEACH"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パトリック・ビーチ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "패트릭 비치"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Patrick BEACH"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Patrick BEACH"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Патрик БИЧ"
+        }
+      ],
+      "playerPicture": {
+        "id": "0EA3C68C-C425-41C4-B973C60E2D5B4685",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0ea3c68c-c425-41c4-b973-c60e2d5b4685/BEACH-Patrick_494557"
+      }
+    }
+  ]
+}
