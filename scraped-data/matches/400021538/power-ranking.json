@@ -1,0 +1,3473 @@
+{
+  "competitionId": 285023,
+  "matchId": 151704,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-07-10T22:28:51.791655Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 290821,
+      "attackingRank": 13,
+      "defensiveRank": 18,
+      "creativityRank": 18,
+      "attackingScore": 4.581588268280029,
+      "defensiveScore": 4.728189468383789,
+      "creativityScore": 5.305936336517334,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Axel WITSEL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أكسل فيتسل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Axel WITSEL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Axel WITSEL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Axel WITSEL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Axel WITSEL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Axel WITSEL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アクセル・ヴィツェル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "악셀 위첼"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Axel WITSEL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Axel WITSEL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аксель ВИТСЕЛЬ"
+        }
+      ],
+      "playerPicture": {
+        "id": "FF0110D3-0721-4983-BC62018A993D8486",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ff0110d3-0721-4983-bc62-018a993d8486/WITSEL-Axel_290821"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 358112,
+      "attackingRank": 13,
+      "defensiveRank": 20,
+      "creativityRank": 13,
+      "attackingScore": 4.581588268280029,
+      "defensiveScore": 4.630618095397949,
+      "creativityScore": 5.433776378631592,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Romelu LUKAKU"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "روميلو لوكاكو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Romelu LUKAKU"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Romelu LUKAKU"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Romelu LUKAKU"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Romelu LUKAKU"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Romelu LUKAKU"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ロメル・ルカク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "로멜루 루카쿠"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Romelu LUKAKU"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Romelu LUKAKU"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ромелу ЛУКАКУ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "罗梅卢·卢卡库"
+        }
+      ],
+      "playerPicture": {
+        "id": "302B7FB7-6964-4A52-8DB49C12778B80FA",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/302b7fb7-6964-4a52-8db4-9c12778b80fa/LUKAKU-Romelu_358112"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 358120,
+      "attackingRank": 6,
+      "defensiveRank": 14,
+      "creativityRank": 6,
+      "attackingScore": 4.964359760284424,
+      "defensiveScore": 4.977262020111084,
+      "creativityScore": 6.15044641494751,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Kevin DE BRUYNE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كيفن دي بروين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kevin DE BRUYNE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Kevin DE BRUYNE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Kevin DE BRUYNE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kevin DE BRUYNE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Kevin DE BRUYNE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ケヴィン・デ・ブライネ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "케빈 데 브루인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Kevin DE BRUYNE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Kevin DE BRUYNE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кевин ДЕ БРУЙНЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "41FB7DE3-9F9E-44F1-B63F0551F5D33B2B",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/41fb7de3-9f9e-44f1-b63f-0551f5d33b2b/DE-BRUYNE-Kevin_358120"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 411443,
+      "attackingRank": 4,
+      "defensiveRank": 25,
+      "creativityRank": 3,
+      "attackingScore": 5.021980285644531,
+      "defensiveScore": 4.000951290130615,
+      "creativityScore": 6.907398700714111,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Timothy CASTAGNE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تيموثي كاستاني"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Timothy CASTAGNE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Timothy CASTAGNE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Timothy CASTAGNE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Timothy CASTAGNE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Timothy CASTAGNE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ティモシー・カスターニュ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "티모시 카스타뉴"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Timothy CASTAGNE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Timothy CASTAGNE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тимоти КАСТАГН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "蒂莫西·卡斯塔涅"
+        }
+      ],
+      "playerPicture": {
+        "id": "58F1CC7C-04F4-43BA-BC8285C1226FB7A2",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/58f1cc7c-04f4-43ba-bc82-85c1226fb7a2/CASTAGNE-Timothy_411443"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 448341,
+      "attackingRank": 5,
+      "defensiveRank": 21,
+      "creativityRank": 1,
+      "attackingScore": 4.994164943695068,
+      "defensiveScore": 4.5076985359191895,
+      "creativityScore": 8.177702903747559,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jeremy DOKU"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيريمي دوكو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jeremy DOKU"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jeremy DOKU"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jeremy DOKU"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jeremy DOKU"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jeremy DOKU"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジェレミー・ドク"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "제레미 도쿠"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jeremy DOKU"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jeremy DOKU"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джереми ДОКУ"
+        }
+      ],
+      "playerPicture": {
+        "id": "DF41BE47-900D-41FE-90EBB493F7609869",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/df41be47-900d-41fe-90eb-b493f7609869/DOKU-Jeremy_448341"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 448343,
+      "attackingRank": 21,
+      "defensiveRank": 9,
+      "creativityRank": 24,
+      "attackingScore": 4.343597888946533,
+      "defensiveScore": 5.540569305419922,
+      "creativityScore": 4.900328636169434,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Hans VANAKEN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "هانز فاناكين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Hans VANAKEN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Hans VANAKEN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Hans VANAKEN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Hans VANAKEN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Hans VANAKEN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ハンス・ヴァナケン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "한스 바나켄"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Hans VANAKEN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Hans VANAKEN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ханс ВАНАКЕН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "汉斯·范纳肯"
+        }
+      ],
+      "playerPicture": {
+        "id": "9018CA03-C5C1-4DC1-8D4F7EE07308DC55",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9018ca03-c5c1-4dc1-8d4f-7ee07308dc55/VANAKEN-Hans_448343"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 448355,
+      "attackingRank": 20,
+      "defensiveRank": 24,
+      "creativityRank": 15,
+      "attackingScore": 4.3902387619018555,
+      "defensiveScore": 4.307560920715332,
+      "creativityScore": 5.348014831542969,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Leandro TROSSARD"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لياندرو تروسارد"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Leandro TROSSARD"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Leandro TROSSARD"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Leandro TROSSARD"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Leandro TROSSARD"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Leandro TROSSARD"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "レアンドロ・トロサール"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "레안드로 트로사르"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Leandro TROSSARD"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Leandro TROSSARD"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Леандро ТРОССАРД"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "莱昂德罗·特罗萨德"
+        }
+      ],
+      "playerPicture": {
+        "id": "78476568-5ABB-4047-B6C0FD9651E0F39D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/78476568-5abb-4047-b6c0-fd9651e0f39d/TROSSARD-Leandro_448355"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 448360,
+      "attackingRank": 23,
+      "defensiveRank": 6,
+      "creativityRank": 21,
+      "attackingScore": 4.156865119934082,
+      "defensiveScore": 5.660765647888184,
+      "creativityScore": 5.0767083168029785,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Brandon MECHELE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "براندون ميشيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Brandon MECHELE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Brandon MECHELE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Brandon MECHELE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Brandon MECHELE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Brandon MECHELE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブランドン・メケレ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브랜든 메첼"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Brandon MECHELE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Brandon MECHELE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Брэндон МЕХЕЛЕ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "布兰登·梅切勒"
+        }
+      ],
+      "playerPicture": {
+        "id": "DDA9E35D-EEDF-403B-8953A5DC213FBF67",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/dda9e35d-eedf-403b-8953-a5dc213fbf67/MECHELE-Brandon_448360"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 448362,
+      "attackingRank": 1,
+      "defensiveRank": 13,
+      "creativityRank": 20,
+      "attackingScore": 8.145751953125,
+      "defensiveScore": 5.017360210418701,
+      "creativityScore": 5.159397602081299,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Charles DE KETELAERE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تشارلز دي كيتيلير"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Charles DE KETELAERE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Charles DE KETELAERE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Charles DE KETELAERE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Charles DE KETELAERE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Charles DE KETELAERE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "シャルル・デ・ケテラーレ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "샤를 드 케텔라레"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Charles DE KETELAERE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Charles DE KETELAERE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Чарльз ДЕ КЕТЕЛАРЕ"
+        }
+      ],
+      "playerPicture": {
+        "id": "2CE231C2-05F7-4353-921C242C863A8D54",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2ce231c2-05f7-4353-921c-242c863a8d54/DE-KETELAERE-Charles_448362"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 448373,
+      "attackingRank": 8,
+      "defensiveRank": 23,
+      "creativityRank": 22,
+      "attackingScore": 4.698176860809326,
+      "defensiveScore": 4.450700283050537,
+      "creativityScore": 5.066647052764893,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Maxim DE CUYPER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ماكسيم دي كويبر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Maxim DE CUYPER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Maxim DE CUYPER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Maxim DE CUYPER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Maxim DE CUYPER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Maxim DE CUYPER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マキシム・デ・カイパー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "막심 드 쿠이퍼"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Maxim DE CUYPER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Maxim DE CUYPER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Максим ДЕ КУЙПЕР"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "马克西姆·德·屈佩"
+        }
+      ],
+      "playerPicture": {
+        "id": "1C22DFC4-3EB2-4778-B310EF4B62AEF0C6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1c22dfc4-3eb2-4778-b310-ef4b62aef0c6/DE-CUYPER-Maxim_448373"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 495349,
+      "attackingRank": 23,
+      "defensiveRank": 10,
+      "creativityRank": 17,
+      "attackingScore": 4.156865119934082,
+      "defensiveScore": 5.473650932312012,
+      "creativityScore": 5.313732624053955,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nicolas RASKIN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيكولاس راسكين"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nicolas RASKIN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nicolas RASKIN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nicolas RASKIN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nicolas RASKIN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nicolas RASKIN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニコラス・ラスキン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "니콜라스 라스킨"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nicolas RASKIN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nicolas RASKIN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Николас РАСКИН"
+        }
+      ],
+      "playerPicture": {
+        "id": "2A366682-88F4-4D6F-AE54E474030615CC",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2a366682-88f4-4d6f-ae54-e474030615cc/RASKIN-Nicolas_495349"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 506088,
+      "attackingRank": 13,
+      "defensiveRank": 12,
+      "creativityRank": 16,
+      "attackingScore": 4.581588268280029,
+      "defensiveScore": 5.121273040771484,
+      "creativityScore": 5.322157382965088,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Joaquin SEYS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جواكين سيس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Joaquin SEYS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Joaquin SEYS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Joaquin SEYS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Joaquin SEYS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Joaquin SEYS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ホアキン・セイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "호아킨 세이스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Joaquin SEYS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Joaquin SEYS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хоакин СЕЙС"
+        }
+      ],
+      "playerPicture": {
+        "id": "33C2B9DE-5AE7-4FA1-8DB86CFF8E2B02F0",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/33c2b9de-5ae7-4fa1-8db8-6cff8e2b02f0/SEYS-Joaquin_506088"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 514166,
+      "attackingRank": 22,
+      "defensiveRank": 5,
+      "creativityRank": 25,
+      "attackingScore": 4.179072380065918,
+      "defensiveScore": 5.854562282562256,
+      "creativityScore": 4.573746681213379,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nathan NGOY"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ناثان نغوي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nathan NGOY"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nathan NGOY"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nathan NGOY"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nathan NGOY"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nathan NGOY"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ネイサン・ンゴイ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "네이선 응오이"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nathan NGOY"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nathan NGOY"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Натан НГОЙ"
+        }
+      ],
+      "playerPicture": {
+        "id": "77BEA513-328C-4AF6-A1B689EFDFEB03AE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/77bea513-328c-4af6-a1b6-89efdfeb03ae/NGOY-Nathan_514166"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 335999,
+      "attackingRank": 25,
+      "defensiveRank": 2,
+      "creativityRank": 14,
+      "attackingScore": 4.02929162979126,
+      "defensiveScore": 6.733775615692139,
+      "creativityScore": 5.409318447113037,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Aymeric LAPORTE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أيمريك لابورت"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Aymeric LAPORTE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Aymeric LAPORTE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Aymeric LAPORTE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Aymeric LAPORTE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Aymeric LAPORTE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アイメリック・ラポルテ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아메릭 라포르트"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Aymeric LAPORTE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Aymeric LAPORTE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Аймерик ЛАПОРТ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "艾默里克·拉波尔特"
+        }
+      ],
+      "playerPicture": {
+        "id": "E923CA38-381D-4187-9D409F5F72434530",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e923ca38-381d-4187-9d40-9f5f72434530/LAPORTE-Aymeric_335999"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 405545,
+      "attackingRank": 16,
+      "defensiveRank": 15,
+      "creativityRank": 19,
+      "attackingScore": 4.462405681610107,
+      "defensiveScore": 4.970324993133545,
+      "creativityScore": 5.200927257537842,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ferran TORRES"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فيران توريس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ferran TORRES"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ferran TORRES"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ferran TORRES"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ferran TORRES"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ferran TORRES"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フェラン・トーレス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "페란 토레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ferran TORRES"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ferran TORRES"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ферран ТОРРЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "费兰·托雷斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "AA65D133-F0FB-4379-9B1B6C9DC2F40195",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/aa65d133-f0fb-4379-9b1b-6c9dc2f40195/TORRES-Ferran_405545"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 411375,
+      "attackingRank": 19,
+      "defensiveRank": 1,
+      "creativityRank": 8,
+      "attackingScore": 4.409477710723877,
+      "defensiveScore": 7.145600318908691,
+      "creativityScore": 6.001999855041504,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "RODRI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "رودري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "RODRI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "RODRI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "RODRI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "RODRI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "RODRI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ロドリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "로드리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "RODRI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "RODRI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Родри"
+        }
+      ],
+      "playerPicture": {
+        "id": "295AB5B2-4DBF-42B9-918B04FB4AE0EC0A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/295ab5b2-4dbf-42b9-918b-04fb4ae0ec0a/RODRI_411375"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 423646,
+      "attackingRank": 17,
+      "defensiveRank": 3,
+      "creativityRank": 7,
+      "attackingScore": 4.427353382110596,
+      "defensiveScore": 6.165055751800537,
+      "creativityScore": 6.081278324127197,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "PEDRI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بيدري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "PEDRI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "PEDRI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "PEDRI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "PEDRI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "PEDRI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ペドリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "페드리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "PEDRI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "PEDRI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "ПЕДРИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "75A5861E-008F-460C-81E48085FA2CC961",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/75a5861e-008f-460c-81e4-8085fa2cc961/PEDRI_423646"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 430144,
+      "attackingRank": 18,
+      "defensiveRank": 4,
+      "creativityRank": 11,
+      "attackingScore": 4.427082538604736,
+      "defensiveScore": 6.1243109703063965,
+      "creativityScore": 5.758827209472656,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Pedro PORRO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بيدرو بورو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Pedro PORRO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Pedro PORRO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pedro PORRO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pedro PORRO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Pedro PORRO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ペドロ・ポロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "페드로 포로"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Pedro PORRO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Pedro PORRO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Педро ПОРРО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "佩德罗·波罗"
+        }
+      ],
+      "playerPicture": {
+        "id": "2C33B0C7-C399-4EAC-98B266F35E77886A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2c33b0c7-c399-4eac-98b2-66f35e77886a/PORRO-Pedro_430144"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 430718,
+      "attackingRank": 2,
+      "defensiveRank": 19,
+      "creativityRank": 12,
+      "attackingScore": 7.788077354431152,
+      "defensiveScore": 4.668171405792236,
+      "creativityScore": 5.461090564727783,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Fabian RUIZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فابيان رويز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Fabian RUIZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Fabian RUIZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Fabian RUIZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Fabian RUIZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Fabian RUIZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ファビアン・ルイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파비안 루이즈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Fabian RUIZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Fabian RUIZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Фабиан РУИС"
+        }
+      ],
+      "playerPicture": {
+        "id": "C40DED96-190D-41C8-90F26A253A63B33D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c40ded96-190d-41c8-90f2-6a253a63b33d/RUIZ-Fabian_430718"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 430735,
+      "attackingRank": 11,
+      "defensiveRank": 22,
+      "creativityRank": 10,
+      "attackingScore": 4.612753868103027,
+      "defensiveScore": 4.499989986419678,
+      "creativityScore": 5.76980447769165,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Marc CUCURELLA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مارك كوكوريلا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Marc CUCURELLA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Marc CUCURELLA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Marc CUCURELLA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Marc CUCURELLA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Marc CUCURELLA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マルク・ククレラ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마크 쿠쿠렐라"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Marc CUCURELLA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Marc CUCURELLA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Марк Кукурелья"
+        }
+      ],
+      "playerPicture": {
+        "id": "3BC6B871-A4B2-4201-8885A77420F4C7C9",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3bc6b871-a4b2-4201-8885-a77420f4c7c9/CUCURELLA-Marc_430735"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 430750,
+      "attackingRank": 7,
+      "defensiveRank": 7,
+      "creativityRank": 4,
+      "attackingScore": 4.794699192047119,
+      "defensiveScore": 5.568793773651123,
+      "creativityScore": 6.49536657333374,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Dani OLMO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "داني أولمو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Dani OLMO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Dani OLMO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Dani OLMO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Dani OLMO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Dani OLMO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダニ・オルモ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다니 올모"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Dani OLMO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Dani OLMO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дани ОЛЬМО"
+        }
+      ],
+      "playerPicture": {
+        "id": "C3F3E67A-90C1-469A-A4E1263A470DB989",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/c3f3e67a-90c1-469a-a4e1-263a470db989/OLMO-Dani_430750"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 430751,
+      "attackingRank": 10,
+      "defensiveRank": 8,
+      "creativityRank": 23,
+      "attackingScore": 4.622561931610107,
+      "defensiveScore": 5.550233364105225,
+      "creativityScore": 4.963675498962402,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Mikel OYARZABAL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ميكيل أويارزابال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Mikel OYARZABAL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Mikel OYARZABAL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Mikel OYARZABAL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Mikel OYARZABAL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Mikel OYARZABAL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ミケル・オヤルサバル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미켈 오야르사발"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Mikel OYARZABAL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Mikel OYARZABAL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Микель ОЯРСАБАЛЬ"
+        }
+      ],
+      "playerPicture": {
+        "id": "2F46ED20-B155-4201-8B97BADBC3619450",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/2f46ed20-b155-4201-8b97-badbc3619450/OYARZABAL-Mikel_430751"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 447860,
+      "attackingRank": 9,
+      "defensiveRank": 16,
+      "creativityRank": 5,
+      "attackingScore": 4.645941257476807,
+      "defensiveScore": 4.843130588531494,
+      "creativityScore": 6.2649359703063965,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Alex BAENA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أليكس باينا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Alex BAENA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Alex BAENA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Alex BAENA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Alex BAENA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Alex BAENA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アレックス・バエナ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "알렉스 바에나"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Alex BAENA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Alex BAENA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Алекс БАЭНА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿莱克斯·巴埃纳"
+        }
+      ],
+      "playerPicture": {
+        "id": "19C2A085-E986-4C5B-8AF7AA98F7ADC36E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/19c2a085-e986-4c5b-8af7-aa98f7adc36e/BAENA-Alex_447860"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 474973,
+      "attackingRank": 12,
+      "defensiveRank": 11,
+      "creativityRank": 9,
+      "attackingScore": 4.591263771057129,
+      "defensiveScore": 5.328201770782471,
+      "creativityScore": 5.836110591888428,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Pau CUBARSI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "باو كوبارسي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Pau CUBARSI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Pau CUBARSI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Pau CUBARSI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Pau CUBARSI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Pau CUBARSI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "パウ・クバルシ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파우 쿠바르시"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Pau CUBARSI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Pau CUBARSI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Пау КУБАРСИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "02B8F052-FA36-41A9-807EE8F7C6A96D61",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/02b8f052-fa36-41a9-807e-e8f7c6a96d61/CUBARSI-Pau_474973"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 484320,
+      "attackingRank": 3,
+      "defensiveRank": 17,
+      "creativityRank": 2,
+      "attackingScore": 5.238633632659912,
+      "defensiveScore": 4.834009170532227,
+      "creativityScore": 7.166110515594482,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Lamine YAMAL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لامين يامال"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Lamine YAMAL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Lamine YAMAL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Lamine YAMAL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Lamine YAMAL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Lamine YAMAL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ラミン・ヤマル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "라민 야말"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Lamine YAMAL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Lamine YAMAL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ламин ЯМАЛ"
+        }
+      ],
+      "playerPicture": {
+        "id": "37B631D3-C340-4590-91A8BB00BD5F1E89",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/37b631d3-c340-4590-91a8-bb00bd5f1e89/YAMAL-Lamine_484320"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 358106,
+      "inPossessionRank": 1,
+      "inPossessionScore": 7.15268087387085,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 6.3000168800354,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Thibaut COURTOIS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "تيبو كورتوا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Thibaut COURTOIS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Thibaut COURTOIS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Thibaut COURTOIS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Thibaut COURTOIS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Thibaut COURTOIS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ティボ・クルトワ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "티보 쿠르투아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Thibaut COURTOIS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Thibaut COURTOIS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Тибо Куртуа"
+        }
+      ],
+      "playerPicture": {
+        "id": "B630BDBE-3615-43B0-B7158DA37B1ECFA6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b630bdbe-3615-43b0-b715-8da37b1ecfa6/COURTOIS-Thibaut_358106"
+      }
+    },
+    {
+      "teamId": 43935,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Belgium"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بلجيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Belgien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Belgique"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Belgia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Belgio"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ベルギー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "벨기에"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Bélgica"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бельгия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "比利时"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/BEL",
+      "playerId": 495348,
+      "inPossessionRank": 2,
+      "inPossessionScore": 6.670315265655518,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 6.173740863800049,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Senne LAMMENS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سين لامينز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Senne LAMMENS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Senne LAMMENS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Senne LAMMENS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Senne LAMMENS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Senne LAMMENS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "センネ・ラメンス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "센네 람멘스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Senne LAMMENS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Senne LAMMENS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Сенне ЛАММЕНС"
+        }
+      ],
+      "playerPicture": {
+        "id": "9E407610-B85C-45D8-847A2BAE1D24E699",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9e407610-b85c-45d8-847a-2bae1d24e699/LAMMENS-Senne_495348"
+      }
+    },
+    {
+      "teamId": 43969,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Spain"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "إسبانيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Spanien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "España"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Espagne"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Spanyol"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Spagna"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スペイン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스페인"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Espanha"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Espanha"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Испания"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西班牙"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/ESP",
+      "playerId": 430753,
+      "inPossessionRank": 3,
+      "inPossessionScore": 6.202395915985107,
+      "defendingTheGoalRank": 3,
+      "defendingTheGoalScore": 5.9143147468566895,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Unai SIMON"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أوناي سيمون"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Unai SIMON"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Unai SIMON"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Unai SIMON"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Unai SIMON"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Unai SIMON"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ウナイ・シモン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "우나이 시몬"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Unai SIMON"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Unai SIMON"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Унаи СИМОН"
+        }
+      ],
+      "playerPicture": {
+        "id": "41E0F920-BD7D-4BD6-882BC83ED33E3F26",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/41e0f920-bd7d-4bd6-882b-c83ed33e3f26/SIMON-Unai_430753"
+      }
+    }
+  ]
+}
