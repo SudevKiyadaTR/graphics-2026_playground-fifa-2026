@@ -1047,20 +1047,20 @@
     ],
     "Staffs": [
       {
-        "IdStaff": "522828",
+        "IdStaff": "522822",
         "IdCountry": "BEL",
         "Role": 12,
         "PictureUrl": null,
         "Name": [
           {
             "Locale": "en-GB",
-            "Description": "Bram GIELEN"
+            "Description": "Charle JASPERS"
           }
         ],
         "Alias": [
           {
             "Locale": "en-GB",
-            "Description": "Bram GIELEN"
+            "Description": "Charle JASPERS"
           }
         ]
       },
@@ -1101,24 +1101,6 @@
         ]
       },
       {
-        "IdStaff": "522822",
-        "IdCountry": "BEL",
-        "Role": 12,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Charle JASPERS"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Charle JASPERS"
-          }
-        ]
-      },
-      {
         "IdStaff": "516937",
         "IdCountry": "BEL",
         "Role": 15,
@@ -1133,6 +1115,42 @@
           {
             "Locale": "en-GB",
             "Description": "Brahim HACENE"
+          }
+        ]
+      },
+      {
+        "IdStaff": "516939",
+        "IdCountry": "BEL",
+        "Role": 9999,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Maxim WOUTERS"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Maxim WOUTERS"
+          }
+        ]
+      },
+      {
+        "IdStaff": "522832",
+        "IdCountry": "BEL",
+        "Role": 9999,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Dylan VANHAEREN"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Dylan VANHAEREN"
           }
         ]
       },
@@ -1155,20 +1173,20 @@
         ]
       },
       {
-        "IdStaff": "516939",
+        "IdStaff": "522828",
         "IdCountry": "BEL",
-        "Role": 9999,
+        "Role": 12,
         "PictureUrl": null,
         "Name": [
           {
             "Locale": "en-GB",
-            "Description": "Maxim WOUTERS"
+            "Description": "Bram GIELEN"
           }
         ],
         "Alias": [
           {
             "Locale": "en-GB",
-            "Description": "Maxim WOUTERS"
+            "Description": "Bram GIELEN"
           }
         ]
       }
@@ -1215,25 +1233,6 @@
         "SpecialStatus": null
       },
       {
-        "IdCoach": "411588",
-        "IdCountry": "FRA",
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Teddy PELLERIN"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Teddy PELLERIN"
-          }
-        ],
-        "Role": 1,
-        "SpecialStatus": null
-      },
-      {
         "IdCoach": "182160",
         "IdCountry": "SEN",
         "PictureUrl": "https://digitalhub.fifa.com/transform/645eef32-064a-47f6-a2b7-6711e29c1679/THIAW-Pape_182160",
@@ -1250,6 +1249,25 @@
           }
         ],
         "Role": 0,
+        "SpecialStatus": null
+      },
+      {
+        "IdCoach": "411588",
+        "IdCountry": "FRA",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Teddy PELLERIN"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Teddy PELLERIN"
+          }
+        ],
+        "Role": 1,
         "SpecialStatus": null
       }
     ],
@@ -2125,6 +2143,42 @@
     ],
     "Staffs": [
       {
+        "IdStaff": "182156",
+        "IdCountry": "SEN",
+        "Role": 16,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Lamine DIATTA"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Lamine DIATTA"
+          }
+        ]
+      },
+      {
+        "IdStaff": "448826",
+        "IdCountry": "FRA",
+        "Role": 15,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Christophe DORMOY"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Christophe DORMOY"
+          }
+        ]
+      },
+      {
         "IdStaff": "523352",
         "IdCountry": "FRA",
         "Role": 12,
@@ -2139,6 +2193,24 @@
           {
             "Locale": "en-GB",
             "Description": "Hussein FARHAT"
+          }
+        ]
+      },
+      {
+        "IdStaff": "516680",
+        "IdCountry": "FRA",
+        "Role": 9999,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Fares MOURI"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Fares MOURI"
           }
         ]
       },
@@ -2179,38 +2251,38 @@
         ]
       },
       {
-        "IdStaff": "411585",
+        "IdStaff": "182142",
         "IdCountry": "SEN",
-        "Role": 6,
+        "Role": 2,
         "PictureUrl": null,
         "Name": [
           {
             "Locale": "en-GB",
-            "Description": "Mama GOUMBALA"
+            "Description": "Tony SYLVA"
           }
         ],
         "Alias": [
           {
             "Locale": "en-GB",
-            "Description": "Mama GOUMBALA"
+            "Description": "Tony SYLVA"
           }
         ]
       },
       {
-        "IdStaff": "182156",
+        "IdStaff": "448827",
         "IdCountry": "SEN",
-        "Role": 16,
+        "Role": 1,
         "PictureUrl": null,
         "Name": [
           {
             "Locale": "en-GB",
-            "Description": "Lamine DIATTA"
+            "Description": "Toumani KONE"
           }
         ],
         "Alias": [
           {
             "Locale": "en-GB",
-            "Description": "Lamine DIATTA"
+            "Description": "Toumani KONE"
           }
         ]
       },
@@ -2233,20 +2305,20 @@
         ]
       },
       {
-        "IdStaff": "182142",
+        "IdStaff": "411585",
         "IdCountry": "SEN",
-        "Role": 2,
+        "Role": 6,
         "PictureUrl": null,
         "Name": [
           {
             "Locale": "en-GB",
-            "Description": "Tony SYLVA"
+            "Description": "Mama GOUMBALA"
           }
         ],
         "Alias": [
           {
             "Locale": "en-GB",
-            "Description": "Tony SYLVA"
+            "Description": "Mama GOUMBALA"
           }
         ]
       }

@@ -97,25 +97,6 @@
     "Abbreviation": "SUI",
     "Coaches": [
       {
-        "IdCoach": "210655",
-        "IdCountry": "SUI",
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Davide CALLA"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Davide CALLA"
-          }
-        ],
-        "Role": 1,
-        "SpecialStatus": null
-      },
-      {
         "IdCoach": "157842",
         "IdCountry": "SUI",
         "PictureUrl": "https://digitalhub.fifa.com/transform/0951d425-6260-40aa-8905-0e79111bdf42/YAKIN-Murat_157842",
@@ -132,6 +113,25 @@
           }
         ],
         "Role": 0,
+        "SpecialStatus": null
+      },
+      {
+        "IdCoach": "210655",
+        "IdCountry": "SUI",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Davide CALLA"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Davide CALLA"
+          }
+        ],
+        "Role": 1,
         "SpecialStatus": null
       }
     ],
@@ -990,42 +990,6 @@
         ]
       },
       {
-        "IdStaff": "262817",
-        "IdCountry": "SUI",
-        "Role": 15,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Philippe TSCHOLL"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Philippe TSCHOLL"
-          }
-        ]
-      },
-      {
-        "IdStaff": "448108",
-        "IdCountry": "GER",
-        "Role": 9999,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Kevin EHMES"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Kevin EHMES"
-          }
-        ]
-      },
-      {
         "IdStaff": "522303",
         "IdCountry": "ESP",
         "Role": 10,
@@ -1062,6 +1026,24 @@
         ]
       },
       {
+        "IdStaff": "262817",
+        "IdCountry": "SUI",
+        "Role": 15,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Philippe TSCHOLL"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Philippe TSCHOLL"
+          }
+        ]
+      },
+      {
         "IdStaff": "356391",
         "IdCountry": "SUI",
         "Role": 2,
@@ -1080,6 +1062,24 @@
         ]
       },
       {
+        "IdStaff": "448108",
+        "IdCountry": "GER",
+        "Role": 9999,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Kevin EHMES"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Kevin EHMES"
+          }
+        ]
+      },
+      {
         "IdStaff": "448110",
         "IdCountry": "SUI",
         "Role": 1,
@@ -1094,6 +1094,24 @@
           {
             "Locale": "en-GB",
             "Description": "Roger KASPAR"
+          }
+        ]
+      },
+      {
+        "IdStaff": "480544",
+        "IdCountry": "SUI",
+        "Role": 15,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Damien CASAGRANDE"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Damien CASAGRANDE"
           }
         ]
       }
@@ -1121,25 +1139,6 @@
     "Abbreviation": "ALG",
     "Coaches": [
       {
-        "IdCoach": "231639",
-        "IdCountry": "SUI",
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Davide MORANDI"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Davide MORANDI"
-          }
-        ],
-        "Role": 1,
-        "SpecialStatus": null
-      },
-      {
         "IdCoach": "377066",
         "IdCountry": "SUI",
         "PictureUrl": "https://digitalhub.fifa.com/transform/c9398a63-4014-4ade-8074-b7a713bce872/PETKOVIC-Vladimir_377066",
@@ -1156,6 +1155,25 @@
           }
         ],
         "Role": 0,
+        "SpecialStatus": null
+      },
+      {
+        "IdCoach": "231639",
+        "IdCountry": "SUI",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Davide MORANDI"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Davide MORANDI"
+          }
+        ],
+        "Role": 1,
         "SpecialStatus": null
       },
       {
@@ -1993,60 +2011,6 @@
     ],
     "Staffs": [
       {
-        "IdStaff": "436349",
-        "IdCountry": "ALG",
-        "Role": 3,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Kamel GRINE"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Kamel GRINE"
-          }
-        ]
-      },
-      {
-        "IdStaff": "433630",
-        "IdCountry": "ALG",
-        "Role": 6,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Brahim TENKHI"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Brahim TENKHI"
-          }
-        ]
-      },
-      {
-        "IdStaff": "437895",
-        "IdCountry": "SUI",
-        "Role": 12,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Paolo RONGONI"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Paolo RONGONI"
-          }
-        ]
-      },
-      {
         "IdStaff": "522543",
         "IdCountry": "ALG",
         "Role": 2,
@@ -2061,42 +2025,6 @@
           {
             "Locale": "en-GB",
             "Description": "Nacereddine BERARMA"
-          }
-        ]
-      },
-      {
-        "IdStaff": "377180",
-        "IdCountry": "ALG",
-        "Role": 15,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Ali YEKDAH"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Ali YEKDAH"
-          }
-        ]
-      },
-      {
-        "IdStaff": "522542",
-        "IdCountry": "ITA",
-        "Role": 2,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Guido NANNI"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Guido NANNI"
           }
         ]
       },
@@ -2119,6 +2047,24 @@
         ]
       },
       {
+        "IdStaff": "377180",
+        "IdCountry": "ALG",
+        "Role": 15,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Ali YEKDAH"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Ali YEKDAH"
+          }
+        ]
+      },
+      {
         "IdStaff": "512133",
         "IdCountry": "ALG",
         "Role": 1,
@@ -2133,6 +2079,96 @@
           {
             "Locale": "en-GB",
             "Description": "Bilel BENALI"
+          }
+        ]
+      },
+      {
+        "IdStaff": "433630",
+        "IdCountry": "ALG",
+        "Role": 6,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Brahim TENKHI"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Brahim TENKHI"
+          }
+        ]
+      },
+      {
+        "IdStaff": "436349",
+        "IdCountry": "ALG",
+        "Role": 3,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Kamel GRINE"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Kamel GRINE"
+          }
+        ]
+      },
+      {
+        "IdStaff": "522542",
+        "IdCountry": "ITA",
+        "Role": 2,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Guido NANNI"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Guido NANNI"
+          }
+        ]
+      },
+      {
+        "IdStaff": "437895",
+        "IdCountry": "SUI",
+        "Role": 12,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Paolo RONGONI"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Paolo RONGONI"
+          }
+        ]
+      },
+      {
+        "IdStaff": "522534",
+        "IdCountry": "ALG",
+        "Role": 1,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Said SELMANE"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Said SELMANE"
           }
         ]
       }

@@ -97,25 +97,6 @@
     "Abbreviation": "FRA",
     "Coaches": [
       {
-        "IdCoach": "207353",
-        "IdCountry": "FRA",
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Guy Stéphan"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Guy STEPHAN"
-          }
-        ],
-        "Role": 1,
-        "SpecialStatus": null
-      },
-      {
         "IdCoach": "48455",
         "IdCountry": "FRA",
         "PictureUrl": "https://digitalhub.fifa.com/transform/38ce0161-6896-4b2a-ac42-700d51e5acac/DESCHAMPS-Didier_48455",
@@ -132,6 +113,25 @@
           }
         ],
         "Role": 0,
+        "SpecialStatus": null
+      },
+      {
+        "IdCoach": "207353",
+        "IdCountry": "FRA",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Guy Stéphan"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Guy STEPHAN"
+          }
+        ],
+        "Role": 1,
         "SpecialStatus": null
       }
     ],
@@ -1027,6 +1027,24 @@
         ]
       },
       {
+        "IdStaff": "380500",
+        "IdCountry": "FRA",
+        "Role": 1,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Nicolas PIRY"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Nicolas PIRY"
+          }
+        ]
+      },
+      {
         "IdStaff": "184635",
         "IdCountry": "FRA",
         "Role": 2,
@@ -1097,24 +1115,6 @@
             "Description": "Bachir NEHAR"
           }
         ]
-      },
-      {
-        "IdStaff": "380500",
-        "IdCountry": "FRA",
-        "Role": 1,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Nicolas PIRY"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Nicolas PIRY"
-          }
-        ]
       }
     ],
     "FootballType": 0,
@@ -1140,25 +1140,6 @@
     "Abbreviation": "SWE",
     "Coaches": [
       {
-        "IdCoach": "522403",
-        "IdCountry": "SWE",
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Andreas GEORGSON"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Andreas GEORGSON"
-          }
-        ],
-        "Role": 1,
-        "SpecialStatus": null
-      },
-      {
         "IdCoach": "214675",
         "IdCountry": "SWE",
         "PictureUrl": null,
@@ -1172,6 +1153,25 @@
           {
             "Locale": "en-GB",
             "Description": "Sebastian LARSSON"
+          }
+        ],
+        "Role": 1,
+        "SpecialStatus": null
+      },
+      {
+        "IdCoach": "522394",
+        "IdCountry": "SWE",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Lars HAMBERG"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Lars HAMBERG"
           }
         ],
         "Role": 1,
@@ -1197,19 +1197,19 @@
         "SpecialStatus": null
       },
       {
-        "IdCoach": "522394",
+        "IdCoach": "522403",
         "IdCountry": "SWE",
         "PictureUrl": null,
         "Name": [
           {
             "Locale": "en-GB",
-            "Description": "Lars HAMBERG"
+            "Description": "Andreas GEORGSON"
           }
         ],
         "Alias": [
           {
             "Locale": "en-GB",
-            "Description": "Lars HAMBERG"
+            "Description": "Andreas GEORGSON"
           }
         ],
         "Role": 1,
@@ -2034,6 +2034,42 @@
     ],
     "Staffs": [
       {
+        "IdStaff": "480326",
+        "IdCountry": "SWE",
+        "Role": 15,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Jonas WERNER"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Jonas WERNER"
+          }
+        ]
+      },
+      {
+        "IdStaff": "522402",
+        "IdCountry": "SWE",
+        "Role": 12,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Olle EKMAN"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Olle EKMAN"
+          }
+        ]
+      },
+      {
         "IdStaff": "440440",
         "IdCountry": "SWE",
         "Role": 7,
@@ -2068,42 +2104,6 @@
             "Description": "Linus KANDOLIN"
           }
         ]
-      },
-      {
-        "IdStaff": "522402",
-        "IdCountry": "SWE",
-        "Role": 12,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Olle EKMAN"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Olle EKMAN"
-          }
-        ]
-      },
-      {
-        "IdStaff": "480326",
-        "IdCountry": "SWE",
-        "Role": 15,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Jonas WERNER"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Jonas WERNER"
-          }
-        ]
       }
     ],
     "FootballType": 0,
@@ -2135,6 +2135,29 @@
         {
           "Locale": "en-GB",
           "Description": "Referee"
+        }
+      ]
+    },
+    {
+      "IdCountry": "USA",
+      "OfficialId": "428431",
+      "NameShort": [
+        {
+          "Locale": "en-GB",
+          "Description": "Tori PENSO"
+        }
+      ],
+      "Name": [
+        {
+          "Locale": "en-GB",
+          "Description": "Tori Penso"
+        }
+      ],
+      "OfficialType": 4,
+      "TypeLocalized": [
+        {
+          "Locale": "en-GB",
+          "Description": "Fourth official"
         }
       ]
     }

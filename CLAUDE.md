@@ -5,6 +5,7 @@
 Static tournament dashboard for FIFA World Cup 2026. A Node.js scraper runs on a schedule (cron/GitHub Actions) and writes raw JSON to `scraped-data/`. Astro reads those files at build time, renders static pages, and embeds Svelte components for client-side interactivity (e.g., player table filtering).
 
 **Architecture:**
+
 - **Data:** JSON files written by scraper to `scraped-data/`
 - **Build:** Astro (static site generator) loads JSON at build time
 - **Interactivity:** Svelte components for client-side filtering/sorting
@@ -127,6 +128,7 @@ $: doubled = count * 2;  // runs whenever count changes
 ```
 
 **Two-way binding:**
+
 - `bind:value={variable}` for inputs/selects
 - `bind:checked={boolean}` for checkboxes
 - `bind:this={element}` for DOM refs

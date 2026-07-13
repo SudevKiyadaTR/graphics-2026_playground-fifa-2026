@@ -311,11 +311,9 @@
       ]
     },
     {
-      "EventId": "572827710",
+      "EventId": "39219216",
       "IdTeam": "43935",
       "IdPlayer": "495349",
-      "IdSubPlayer": "448362",
-      "IdSubTeam": "43935",
       "Timestamp": "2026-07-07T00:09:02.815Z",
       "MatchMinute": "9'",
       "Period": 3,
@@ -341,7 +339,7 @@
       ]
     },
     {
-      "EventId": "564030529",
+      "EventId": "39219212",
       "IdTeam": "43935",
       "IdPlayer": "448362",
       "Timestamp": "2026-07-07T00:09:03.636Z",
@@ -371,12 +369,14 @@
       ]
     },
     {
-      "EventId": "564030531",
+      "EventId": "39219214",
       "IdTeam": "43935",
       "IdPlayer": "448362",
+      "IdSubPlayer": "495349",
+      "IdSubTeam": "43935",
       "Timestamp": "2026-07-07T00:09:03.636Z",
-      "MatchMinute": "9'",
-      "Period": 3,
+      "MatchMinute": "0'",
+      "Period": 2,
       "HomeGoals": 0,
       "AwayGoals": 1,
       "Type": 0,

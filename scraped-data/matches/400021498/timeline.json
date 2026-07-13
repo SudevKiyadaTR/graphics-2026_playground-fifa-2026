@@ -1147,7 +1147,7 @@
       ]
     },
     {
-      "EventId": "2142269715",
+      "EventId": "452926587",
       "IdTeam": "43820",
       "IdPlayer": "431230",
       "Timestamp": "2026-06-17T05:14:06.29Z",
@@ -1175,7 +1175,7 @@
       ]
     },
     {
-      "EventId": "2131949789",
+      "EventId": "448373889",
       "IdTeam": "43820",
       "IdPlayer": "431212",
       "Timestamp": "2026-06-17T05:14:14.559Z",
@@ -1205,9 +1205,11 @@
       ]
     },
     {
-      "EventId": "2131949791",
+      "EventId": "448373891",
       "IdTeam": "43820",
       "IdPlayer": "431212",
+      "IdSubPlayer": "431230",
+      "IdSubTeam": "43820",
       "Timestamp": "2026-06-17T05:14:14.559Z",
       "MatchMinute": "50'",
       "Period": 5,

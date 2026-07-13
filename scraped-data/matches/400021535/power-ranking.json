@@ -1,0 +1,3834 @@
+{
+  "competitionId": 285023,
+  "matchId": 151701,
+  "period": 6,
+  "fullTime": true,
+  "messageTimeUtc": "2026-07-08T03:39:15.805701Z",
+  "outfieldPlayers": [
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 269058,
+      "attackingRank": 16,
+      "defensiveRank": 21,
+      "creativityRank": 15,
+      "attackingScore": 4.467558860778809,
+      "defensiveScore": 5.637159824371338,
+      "creativityScore": 5.752717018127441,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيمس رودريغيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ハメス・ロドリゲス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "하메스 로드리게스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "James RODRIGUEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хамес РОДРИГЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "詹姆斯·罗德里格斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "800CC17F-8F64-4D16-90E9C5AB79C4D302",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/800cc17f-8f64-4d16-90e9-c5ab79c4d302/RODRIGUEZ-James_269058"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 356704,
+      "attackingRank": 9,
+      "defensiveRank": 14,
+      "creativityRank": 3,
+      "attackingScore": 5.1881303787231445,
+      "defensiveScore": 6.125691890716553,
+      "creativityScore": 6.9307541847229,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Juan QUINTERO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "خوان كوينتيرو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Juan QUINTERO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Juan QUINTERO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Juan QUINTERO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Juan QUINTERO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Juan QUINTERO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "フアン・キンテロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "후안 킨테로"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Juan QUINTERO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Juan QUINTERO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Хуан КИНТЕРО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "胡安·昆特罗"
+        }
+      ],
+      "playerPicture": {
+        "id": "AB12E549-2406-4BBB-A4200F9CCEF2C09E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ab12e549-2406-4bbb-a420-0f9ccef2c09e/QUINTERO-Juan_356704"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 386013,
+      "attackingRank": 10,
+      "defensiveRank": 2,
+      "creativityRank": 24,
+      "attackingScore": 4.884731292724609,
+      "defensiveScore": 7.451000213623047,
+      "creativityScore": 5.050673007965088,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دافينسون سانشيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダビンソン・サンチェス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다빈손 산체스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Davinson SANCHEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Давинсон САНЧЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "戴文森·桑切斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "CE6F352E-52E7-4265-9BC9D482292FE4FB",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/ce6f352e-52e7-4265-9bc9-d482292fe4fb/SANCHEZ-Davinson_386013"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 394500,
+      "attackingRank": 28,
+      "defensiveRank": 7,
+      "creativityRank": 6,
+      "attackingScore": 4.010700702667236,
+      "defensiveScore": 7.027143955230713,
+      "creativityScore": 6.3846821784973145,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "يوهان موخيكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ヨハン・モヒカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "요한 모히카"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Johan MOJICA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Йохан МОХИКА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "约翰·莫吉卡"
+        }
+      ],
+      "playerPicture": {
+        "id": "EFD8E0C0-6D52-43F0-95CEB9C258914603",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/efd8e0c0-6d52-43f0-95ce-b9c258914603/MOJICA-Johan_394500"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 395550,
+      "attackingRank": 25,
+      "defensiveRank": 5,
+      "creativityRank": 17,
+      "attackingScore": 4.221800804138184,
+      "defensiveScore": 7.332251071929932,
+      "creativityScore": 5.619381427764893,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جيفرسون ليرما"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジェファーソン・レルマ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "제퍼슨 레르마"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jefferson LERMA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джефферсон ЛЕРМА"
+        }
+      ],
+      "playerPicture": {
+        "id": "961B906C-13D4-4869-942A5F5D2E3FAB3E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/961b906c-13d4-4869-942a-5f5d2e3fab3e/LERMA-Jefferson_395550"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 405755,
+      "attackingRank": 4,
+      "defensiveRank": 23,
+      "creativityRank": 2,
+      "attackingScore": 5.711029529571533,
+      "defensiveScore": 5.56322717666626,
+      "creativityScore": 7.1833953857421875,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جامينتون كامباز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジャミントン・カンパス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "자민톤 캄파즈"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jaminton CAMPAZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джаминтон КАМПАЗ"
+        }
+      ],
+      "playerPicture": {
+        "id": "CD3D4AFC-5780-444F-80CAFC55B53A5329",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/cd3d4afc-5780-444f-80ca-fc55b53a5329/CAMPAZ-Leandro_405755"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 418881,
+      "attackingRank": 7,
+      "defensiveRank": 17,
+      "creativityRank": 14,
+      "attackingScore": 5.2356977462768555,
+      "defensiveScore": 5.966117858886719,
+      "creativityScore": 5.768136024475098,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Cucho HERNANDEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كوتشو هيرنانديز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Cucho HERNANDEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Cucho HERNANDEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Cucho HERNANDEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Cucho HERNANDEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Cucho HERNANDEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "クチョ・エルナンデス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "쿠초 에르난데스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Cucho HERNANDEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Cucho HERNANDEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Кучо ЭРНАНДЕС"
+        }
+      ],
+      "playerPicture": {
+        "id": "A54CC361-8A38-4340-BBAA1DAB41B73626",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a54cc361-8a38-4340-bbaa-1dab41b73626/HERNANDEZ-Cucho_418881"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 428886,
+      "attackingRank": 2,
+      "defensiveRank": 27,
+      "creativityRank": 1,
+      "attackingScore": 5.812241554260254,
+      "defensiveScore": 5.1642656326293945,
+      "creativityScore": 7.3919477462768555,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لويس دياز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルイス・ディアス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루이스 디아스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Luis DIAZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Луис ДИАС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "路易斯·迪亚兹"
+        }
+      ],
+      "playerPicture": {
+        "id": "E1E5FB3A-67CB-4E0D-9A7095B7CC6D5EBF",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e1e5fb3a-67cb-4e0d-9a70-95b7cc6d5ebf/DIAZ-Luis_428886"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 428905,
+      "attackingRank": 13,
+      "defensiveRank": 29,
+      "creativityRank": 26,
+      "attackingScore": 4.700963497161865,
+      "defensiveScore": 4.897668361663818,
+      "creativityScore": 4.918369293212891,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 14,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "لويس سواريز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルイス・スアレス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루이스 수아레스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Luis SUAREZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Луис СУАРЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "路易斯·苏亚雷斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "898B7742-30E2-4B72-8470DBCDF5D5E058",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/898b7742-30e2-4b72-8470-dbcdf5d5e058/SUAREZ-Luis_428905"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 431200,
+      "attackingRank": 28,
+      "defensiveRank": 3,
+      "creativityRank": 27,
+      "attackingScore": 4.010700702667236,
+      "defensiveScore": 7.390140056610107,
+      "creativityScore": 4.762808322906494,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دانييل مونوز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダニエル・ムニョス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "다니엘 무뇨스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Daniel MUNOZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Даниэль МУНОС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "丹尼尔·穆诺兹"
+        }
+      ],
+      "playerPicture": {
+        "id": "597B88E8-D3AB-4F1F-9BA5C031478769D3",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/597b88e8-d3ab-4f1f-9ba5-c031478769d3/MUNOZ-Daniel_431200"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 441622,
+      "attackingRank": 12,
+      "defensiveRank": 8,
+      "creativityRank": 29,
+      "attackingScore": 4.796380043029785,
+      "defensiveScore": 6.846534729003906,
+      "creativityScore": 4.507544040679932,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 14,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جون لوكومي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョン・ルクミ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "존 루쿠미"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jhon LUCUMI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джон ЛУКУМИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "乔恩·卢库米"
+        }
+      ],
+      "playerPicture": {
+        "id": "73D7EA6F-CA50-4665-97CF4C319351DCE6",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/73d7ea6f-ca50-4665-97cf-4c319351dce6/LUCUMI-Jhon_441622"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 463902,
+      "attackingRank": 6,
+      "defensiveRank": 22,
+      "creativityRank": 25,
+      "attackingScore": 5.292540073394775,
+      "defensiveScore": 5.580522060394287,
+      "creativityScore": 4.9612531661987305,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غوستافو بويرتا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "グスタボ・プエルタ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "구스타보 푸에르타"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Gustavo PUERTA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Густаво ПУЭРТА"
+        }
+      ],
+      "playerPicture": {
+        "id": "818F768E-54DA-4C5F-88EF8F596240C2B5",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/818f768e-54da-4c5f-88ef-8f596240c2b5/PUERTA-Gustavo_463902"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 470760,
+      "attackingRank": 5,
+      "defensiveRank": 16,
+      "creativityRank": 11,
+      "attackingScore": 5.3298211097717285,
+      "defensiveScore": 5.978271484375,
+      "creativityScore": 6.124092102050781,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جون أرياس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジョン・アリアス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "존 아리아스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Jhon ARIAS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джон АРИАС"
+        }
+      ],
+      "playerPicture": {
+        "id": "1449EFE8-A491-4D19-8C7DC6FB0B6E8D0F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/1449efe8-a491-4d19-8c7d-c6fb0b6e8d0f/ARIAS-Jhon_470760"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 473050,
+      "attackingRank": 3,
+      "defensiveRank": 19,
+      "creativityRank": 4,
+      "attackingScore": 5.745171070098877,
+      "defensiveScore": 5.921117305755615,
+      "creativityScore": 6.7781081199646,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Richard RIOS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ريتشارد ريوس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Richard RIOS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Richard RIOS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Richard RIOS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Richard RIOS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Richard RIOS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "リチャード・リオス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "리차드 리오스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Richard RIOS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Richard RIOS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ричард РИОС"
+        }
+      ],
+      "playerPicture": {
+        "id": "3BEEEF45-2AF9-4641-AA2324AABB1FF865",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3beeef45-2af9-4641-aa23-24aabb1ff865/RIOS-Richard_473050"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 311558,
+      "attackingRank": 11,
+      "defensiveRank": 26,
+      "creativityRank": 7,
+      "attackingScore": 4.861064434051514,
+      "defensiveScore": 5.325270652770996,
+      "creativityScore": 6.341320514678955,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 3,
+      "defensiveRankWithinTeam": 14,
+      "creativityRankWithinTeam": 2,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Granit XHAKA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "غرانيت شاكا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Granit XHAKA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Granit XHAKA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Granit XHAKA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Granit XHAKA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Granit XHAKA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "グラニット・シャカ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "그라니트 샤카"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Granit XHAKA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Granit XHAKA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Гранит КСАКА"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "格兰尼特·扎卡"
+        }
+      ],
+      "playerPicture": {
+        "id": "A6C333CC-3042-4094-9EC0094479B8CA3A",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/a6c333cc-3042-4094-9ec0-094479b8ca3a/XHAKA-Granit_311558"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 313559,
+      "attackingRank": 22,
+      "defensiveRank": 24,
+      "creativityRank": 23,
+      "attackingScore": 4.329391002655029,
+      "defensiveScore": 5.536102294921875,
+      "creativityScore": 5.431498050689697,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 11,
+      "defensiveRankWithinTeam": 12,
+      "creativityRankWithinTeam": 14,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ricardo RODRIGUEZ"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ريكاردو رودريغيز"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ricardo RODRIGUEZ"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ricardo RODRIGUEZ"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ricardo RODRIGUEZ"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ricardo RODRIGUEZ"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ricardo RODRIGUEZ"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "リカルド・ロドリゲス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "리카르도 로드리게스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ricardo RODRIGUEZ"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ricardo RODRIGUEZ"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рикардо РОДРИГЕС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "里卡多·罗德里格斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "07F27983-8EEE-43F3-B68CB45B6F806785",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/07f27983-8eee-43f3-b68c-b45b6f806785/RODRIGUEZ-Ricardo_313559"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 356412,
+      "attackingRank": 14,
+      "defensiveRank": 6,
+      "creativityRank": 10,
+      "attackingScore": 4.6786909103393555,
+      "defensiveScore": 7.148690700531006,
+      "creativityScore": 6.1661553382873535,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 4,
+      "defensiveRankWithinTeam": 3,
+      "creativityRankWithinTeam": 5,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Silvan WIDMER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سيلفان ويدمر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Silvan WIDMER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Silvan WIDMER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Silvan WIDMER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Silvan WIDMER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Silvan WIDMER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "シルヴァン・ヴィドマー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "실반 위드머"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Silvan WIDMER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Silvan WIDMER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Сильван ВИДМЕР"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "西尔万·威德默"
+        }
+      ],
+      "playerPicture": {
+        "id": "41A8791F-677E-4106-B2E49D71011C561D",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/41a8791f-677e-4106-b2e4-9d71011c561d/WIDMER-Silvan_356412"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 393480,
+      "attackingRank": 26,
+      "defensiveRank": 13,
+      "creativityRank": 28,
+      "attackingScore": 4.134312629699707,
+      "defensiveScore": 6.394174098968506,
+      "creativityScore": 4.759165287017822,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 14,
+      "defensiveRankWithinTeam": 8,
+      "creativityRankWithinTeam": 15,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Breel EMBOLO"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "بريل إمبولو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Breel EMBOLO"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Breel EMBOLO"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Breel EMBOLO"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Breel EMBOLO"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Breel EMBOLO"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ブリー・エンボロ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "브릴 엠볼로"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Breel EMBOLO"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Breel EMBOLO"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Бреэль ЭМБОЛО"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "布雷尔·恩博洛"
+        }
+      ],
+      "playerPicture": {
+        "id": "B2483096-041C-489B-A1C56D930F380909",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b2483096-041c-489b-a1c5-6d930f380909/EMBOLO-Breel_393480"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 398509,
+      "attackingRank": 19,
+      "defensiveRank": 1,
+      "creativityRank": 16,
+      "attackingScore": 4.380670070648193,
+      "defensiveScore": 7.912325382232666,
+      "creativityScore": 5.730492115020752,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 8,
+      "defensiveRankWithinTeam": 1,
+      "creativityRankWithinTeam": 8,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Nico ELVEDI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "نيكو إلفيدي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Nico ELVEDI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Nico ELVEDI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Nico ELVEDI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Nico ELVEDI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Nico ELVEDI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ニコ・エルヴェディ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "니코 엘베디"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Nico ELVEDI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Nico ELVEDI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Нико ЭЛВЕДИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "尼科·埃尔维迪"
+        }
+      ],
+      "playerPicture": {
+        "id": "5631CB24-DBA7-44DD-AC2C1C67B14D7649",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/5631cb24-dba7-44dd-ac2c-1c67b14d7649/ELVEDI-Nico_398509"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 401448,
+      "attackingRank": 17,
+      "defensiveRank": 11,
+      "creativityRank": 21,
+      "attackingScore": 4.467197895050049,
+      "defensiveScore": 6.480758190155029,
+      "creativityScore": 5.530147075653076,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 6,
+      "defensiveRankWithinTeam": 6,
+      "creativityRankWithinTeam": 12,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Denis ZAKARIA"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دينيس زاكاريا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Denis ZAKARIA"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Denis ZAKARIA"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Denis ZAKARIA"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Denis ZAKARIA"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Denis ZAKARIA"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "デニス・ザカリア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "데니스 자카리아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Denis ZAKARIA"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Denis ZAKARIA"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Денис ЗАКАРИЯ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "丹尼斯·扎卡里亚"
+        }
+      ],
+      "playerPicture": {
+        "id": "E47D229B-D092-4759-82E00E5F88B2C894",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/e47d229b-d092-4759-82e0-0e5f88b2c894/ZAKARIA-Denis_401448"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 402021,
+      "attackingRank": 27,
+      "defensiveRank": 25,
+      "creativityRank": 19,
+      "attackingScore": 4.0530924797058105,
+      "defensiveScore": 5.4222092628479,
+      "creativityScore": 5.6071672439575195,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 15,
+      "defensiveRankWithinTeam": 13,
+      "creativityRankWithinTeam": 10,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Remo FREULER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ريمو فرويلر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Remo FREULER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Remo FREULER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Remo FREULER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Remo FREULER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Remo FREULER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "レモ・フロイラー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "레모 프뢰러"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Remo FREULER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Remo FREULER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ремо ФРЕУЛЕР"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "雷莫·弗罗伊勒"
+        }
+      ],
+      "playerPicture": {
+        "id": "821A56DC-683D-4326-A78421E25428A18F",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/821a56dc-683d-4326-a784-21e25428a18f/FREULER-Remo_402021"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 405178,
+      "attackingRank": 24,
+      "defensiveRank": 4,
+      "creativityRank": 20,
+      "attackingScore": 4.24645471572876,
+      "defensiveScore": 7.363752365112305,
+      "creativityScore": 5.578995704650879,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 13,
+      "defensiveRankWithinTeam": 2,
+      "creativityRankWithinTeam": 11,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Manuel AKANJI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "مانويل أكانجي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Manuel AKANJI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Manuel AKANJI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Manuel AKANJI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Manuel AKANJI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Manuel AKANJI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "マヌエル・アカンジ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "마누엘 아칸지"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Manuel AKANJI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Manuel AKANJI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Мануэль АКАНДЖИ"
+        }
+      ],
+      "playerPicture": {
+        "id": "3A90610E-9F70-434A-B8B0450A1EA81D75",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/3a90610e-9f70-434a-b8b0-450a1ea81d75/AKANJI-Manuel_405178"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 411226,
+      "attackingRank": 15,
+      "defensiveRank": 28,
+      "creativityRank": 13,
+      "attackingScore": 4.654874324798584,
+      "defensiveScore": 4.994344711303711,
+      "creativityScore": 5.944021701812744,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 5,
+      "defensiveRankWithinTeam": 15,
+      "creativityRankWithinTeam": 7,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Djibril SOW"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جبريل سو"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Djibril SOW"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Djibril SOW"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Djibril SOW"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Djibril SOW"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Djibril SOW"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ジブリル・ソウ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "지브릴 소"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Djibril SOW"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Djibril SOW"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Джибриль СОВ"
+        }
+      ],
+      "playerPicture": {
+        "id": "64B86B6F-824E-4EF9-AA1E43CFFF2A7DF1",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/64b86b6f-824e-4ef9-aa1e-43cfff2a7df1/SOW-Djibril_411226"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 448103,
+      "attackingRank": 8,
+      "defensiveRank": 20,
+      "creativityRank": 12,
+      "attackingScore": 5.201301574707031,
+      "defensiveScore": 5.79022741317749,
+      "creativityScore": 6.106163501739502,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 2,
+      "defensiveRankWithinTeam": 11,
+      "creativityRankWithinTeam": 6,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Fabian RIEDER"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "فابيان ريدر"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Fabian RIEDER"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Fabian RIEDER"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Fabian RIEDER"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Fabian RIEDER"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Fabian RIEDER"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ファビアン・リーダー"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "파비안 리더"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Fabian RIEDER"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Fabian RIEDER"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Фабиан РИЕДЕР"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "法比安·里德尔"
+        }
+      ],
+      "playerPicture": {
+        "id": "7E5B9FB5-DFCF-47E7-B185EBD6D915E0BE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/7e5b9fb5-dfcf-47e7-b185-ebd6d915e0be/RIEDER-Fabian_448103"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 448104,
+      "attackingRank": 21,
+      "defensiveRank": 9,
+      "creativityRank": 18,
+      "attackingScore": 4.345805644989014,
+      "defensiveScore": 6.603893280029297,
+      "creativityScore": 5.613002777099609,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 10,
+      "defensiveRankWithinTeam": 4,
+      "creativityRankWithinTeam": 9,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Cedric ITTEN"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سيدريك إيتن"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Cedric ITTEN"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Cedric ITTEN"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Cedric ITTEN"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Cedric ITTEN"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Cedric ITTEN"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "セドリック・イッテン"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "세드릭 이텐"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Cedric ITTEN"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Cedric ITTEN"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Седрик ИТТЕН"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "塞德里克·伊滕"
+        }
+      ],
+      "playerPicture": {
+        "id": "B9CC3593-AA7E-4F6F-B22B2CDEAE513A1E",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b9cc3593-aa7e-4f6f-b22b-2cdeae513a1e/ITTEN-Cedric_448104"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 448114,
+      "attackingRank": 1,
+      "defensiveRank": 12,
+      "creativityRank": 8,
+      "attackingScore": 5.900753498077393,
+      "defensiveScore": 6.403966426849365,
+      "creativityScore": 6.316208362579346,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 1,
+      "defensiveRankWithinTeam": 7,
+      "creativityRankWithinTeam": 3,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Dan NDOYE"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "دان ندوي"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Dan NDOYE"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Dan NDOYE"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Dan NDOYE"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Dan NDOYE"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Dan NDOYE"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ダン・ンドイェ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "단 은도예"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Dan NDOYE"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Dan NDOYE"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Дан НДОЙЕ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "丹·恩多耶"
+        }
+      ],
+      "playerPicture": {
+        "id": "B536DBBE-88A2-4CAF-97C06BAAC25C43FE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/b536dbbe-88a2-4caf-97c0-6baac25c43fe/NDOYE-Dan_448114"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 448120,
+      "attackingRank": 18,
+      "defensiveRank": 18,
+      "creativityRank": 9,
+      "attackingScore": 4.418203353881836,
+      "defensiveScore": 5.953765392303467,
+      "creativityScore": 6.257391929626465,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 7,
+      "defensiveRankWithinTeam": 10,
+      "creativityRankWithinTeam": 4,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ardon JASHARI"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "أردون جاشاري"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ardon JASHARI"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ardon JASHARI"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ardon JASHARI"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ardon JASHARI"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ardon JASHARI"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "アルドン・ジャシャリ"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "아르돈 자샤리"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ardon JASHARI"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ardon JASHARI"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Ардон ДЖАШАРИ"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "阿登·贾莎莉"
+        }
+      ],
+      "playerPicture": {
+        "id": "9E9FC9ED-5B8E-4C1E-A4E3C29201D34DAE",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/9e9fc9ed-5b8e-4c1e-a4e3-c29201d34dae/JASHARI-Ardon_448120"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 448131,
+      "attackingRank": 20,
+      "defensiveRank": 10,
+      "creativityRank": 22,
+      "attackingScore": 4.361306190490723,
+      "defensiveScore": 6.526977062225342,
+      "creativityScore": 5.4598493576049805,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 9,
+      "defensiveRankWithinTeam": 5,
+      "creativityRankWithinTeam": 13,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Ruben VARGAS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "روبن فارغاس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Ruben VARGAS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Ruben VARGAS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Ruben VARGAS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Ruben VARGAS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Ruben VARGAS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ルーベン・バルガス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "루벤 바르가스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Ruben VARGAS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Ruben VARGAS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Рубен ВАРГАС"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "鲁文·巴尔加斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "625F7CE0-81A9-4BAB-9B18C9EC395B5096",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/625f7ce0-81a9-4bab-9b18-c9ec395b5096/VARGAS-Ruben_448131"
+      }
+    },
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 493221,
+      "attackingRank": 23,
+      "defensiveRank": 15,
+      "creativityRank": 5,
+      "attackingScore": 4.284942626953125,
+      "defensiveScore": 6.04108190536499,
+      "creativityScore": 6.397224426269531,
+      "attackingRankChange": null,
+      "defensiveRankChange": null,
+      "creativityRankChange": null,
+      "attackingRankWithinTeam": 12,
+      "defensiveRankWithinTeam": 9,
+      "creativityRankWithinTeam": 1,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Miro MUHEIM"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "ميرو موهيم"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Miro MUHEIM"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Miro MUHEIM"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Miro MUHEIM"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Miro MUHEIM"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Miro MUHEIM"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "ミロ・ムハイム"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "미로 무하임"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Miro MUHEIM"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Miro MUHEIM"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Миро МУХЕЙМ"
+        }
+      ],
+      "playerPicture": {
+        "id": "D3EFD73B-690B-417D-A6450A45B5C00BC8",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/d3efd73b-690b-417d-a645-0a45b5c00bc8/MUHEIM-Miro_493221"
+      }
+    }
+  ],
+  "goalkeepers": [
+    {
+      "teamId": 43971,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Switzerland"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "سويسرا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Schweiz"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Suiza"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Suisse"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Swiss"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Svizzera"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "スイス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "스위스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Suíça"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Швейцария"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "瑞士"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/SUI",
+      "playerId": 448107,
+      "inPossessionRank": 1,
+      "inPossessionScore": 6.5873541831970215,
+      "defendingTheGoalRank": 1,
+      "defendingTheGoalScore": 7.005680084228516,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Gregor KOBEL"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "جريجور كوبيل"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Gregor KOBEL"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Gregor KOBEL"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Gregor KOBEL"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Gregor KOBEL"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Gregor KOBEL"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "グレゴール・コベル"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "그레고르 코벨"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Gregor KOBEL"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Gregor KOBEL"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Грегор КОБЕЛЬ"
+        }
+      ],
+      "playerPicture": {
+        "id": "8C199208-00CD-46CA-877BF0FD4FB08E31",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/8c199208-00cd-46ca-877b-f0fd4fb08e31/KOBEL-Gregor_448107"
+      }
+    },
+    {
+      "teamId": 43926,
+      "teamName": [
+        {
+          "locale": "en-GB",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كولومبيا"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Kolumbien"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Colombia"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Colombie"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Kolombia"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Colombia"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "コロンビア"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "콜롬비아"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Colômbia"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Колумбия"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "哥伦比亚"
+        }
+      ],
+      "teamFlag": "https://api.fifa.com/api/v3/picture/flags-{format}-{size}/COL",
+      "playerId": 360642,
+      "inPossessionRank": 2,
+      "inPossessionScore": 6.036816120147705,
+      "defendingTheGoalRank": 2,
+      "defendingTheGoalScore": 6.569314479827881,
+      "inPossessionRankChange": null,
+      "defendingTheGoalRankChange": null,
+      "playerName": [
+        {
+          "locale": "en-GB",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "ar-SA",
+          "description": "كاميلو فارغاس"
+        },
+        {
+          "locale": "de-DE",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "es-ES",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "fr-FR",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "id-ID",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "it-IT",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "ja-JP",
+          "description": "カミロ・バルガス"
+        },
+        {
+          "locale": "ko-KR",
+          "description": "카밀로 바르가스"
+        },
+        {
+          "locale": "pt-BR",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "pt-PT",
+          "description": "Camilo VARGAS"
+        },
+        {
+          "locale": "ru-RU",
+          "description": "Камило Варгас"
+        },
+        {
+          "locale": "zh-CN",
+          "description": "卡米洛·瓦加斯"
+        }
+      ],
+      "playerPicture": {
+        "id": "0A3646B6-8B61-4004-A4600AAD23A8FF36",
+        "pictureUrl": "https://digitalhub.fifa.com/transform/0a3646b6-8b61-4004-a460-0aad23a8ff36/VARGAS-Camilo_360642"
+      }
+    }
+  ]
+}
