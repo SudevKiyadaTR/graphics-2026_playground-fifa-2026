@@ -8,6 +8,7 @@
     "preview": "astro preview",
     "scrape": "node scripts/scrape.js",
     "scrape:force": "node scripts/scrape.js --force",
+    "scrape:gk": "node scripts/scrape-goalkeepers.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
