@@ -29,7 +29,7 @@
     { key: 'teamName', label: 'Team', numeric: false },
     { key: 'matchCount', label: 'GP', numeric: true },
     { key: 'GoalkeeperSaves', label: 'Saves', numeric: true },
-    { key: 'GoalkeeperSavesOnTarget', label: 'SoT Faced', numeric: true },
+    { key: 'shotsOnTargetFaced', label: 'SoT Faced', numeric: true },
     { key: 'savePercentage', label: 'Save%', numeric: true, format: pct },
     { key: 'totalDefensiveActions', label: 'Def. Actions', numeric: true },
     { key: 'GoalkeeperDefensiveActionsInsidePenaltyArea', label: 'DA Inside', numeric: true },

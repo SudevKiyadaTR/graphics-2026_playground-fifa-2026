@@ -15,6 +15,15 @@ const STATS_BASE_URL = "https://fdh-api.fifa.com/v1";
 const RATE_LIMIT_MS = 50;
 const PER_MATCH_RATE_LIMIT_MS = 300;
 
+// A finalized match's player-stats has full stat records (~112 fields) for players who
+// featured. Truncated scrapes (feed not yet published) cap every record well below this.
+// We treat a file as complete if ANY player has a full record — bench-player stubs, which
+// are legitimately tiny, don't trip it because starters still carry full records.
+const MIN_FULL_PLAYER_KEYS = 100;
+// Cap re-fetches of a still-incomplete match so a permanently-thin upstream feed can't
+// trigger an unbounded retry loop across daily runs.
+const MAX_PLAYER_STATS_RETRIES = 5;
+
 const FORCE = process.argv.includes("--force");
 
 // Ensure output directory exists
@@ -52,13 +61,29 @@ function shouldFetch(filepath) {
 }
 
 function loadManifest() {
-  if (!fs.existsSync(MANIFEST_FILE)) {
-    return { lastScrape: null, scrapedMatches: {} };
-  }
+  const empty = { lastScrape: null, scrapedMatches: {}, playerStatsRetries: {} };
+  if (!fs.existsSync(MANIFEST_FILE)) return empty;
   try {
-    return JSON.parse(fs.readFileSync(MANIFEST_FILE, "utf-8"));
+    return { ...empty, ...JSON.parse(fs.readFileSync(MANIFEST_FILE, "utf-8")) };
   } catch {
-    return { lastScrape: null, scrapedMatches: {} };
+    return empty;
+  }
+}
+
+// True when the file exists and holds at least one full player record — i.e. the match's
+// stats feed was finalized when scraped, not a truncated/pre-publish snapshot.
+function recordsComplete(data) {
+  return Object.values(data || {}).some(
+    (r) => Array.isArray(r) && r.length >= MIN_FULL_PLAYER_KEYS
+  );
+}
+
+function playerStatsComplete(filepath) {
+  if (!fs.existsSync(filepath)) return false;
+  try {
+    return recordsComplete(JSON.parse(fs.readFileSync(filepath, "utf-8")));
+  } catch {
+    return false;
   }
 }
 
@@ -77,9 +102,13 @@ function getMatchesToScrape(matches, manifest) {
 
   return matches.filter((match) => {
     if (!match.propertyId) return false;
-    if (manifest.scrapedMatches[match.id]) return false;
-    // Only scrape finished matches.
-    return isFinishedMatch(match);
+    if (!isFinishedMatch(match)) return false;
+    if (!manifest.scrapedMatches[match.id]) return true;
+    // Already scraped: revisit only if player-stats came back incomplete and we still
+    // have retries left (lets the data self-heal if FIFA finalizes the feed later).
+    const filepath = path.join(DATA_DIR, "matches", String(match.id), "player-stats.json");
+    const retries = manifest.playerStatsRetries[match.id] ?? 0;
+    return !playerStatsComplete(filepath) && retries < MAX_PLAYER_STATS_RETRIES;
   });
 }
 
@@ -278,10 +307,11 @@ async function fetchTeamsEndpoint(matches, label, filename) {
   console.log(`✓ Fetched ${fetched} ${label} (skipped ${skipped} existing)`);
 }
 
-async function fetchPlayerStats(matches) {
+async function fetchPlayerStats(matches, manifest) {
   console.log("\nFetching player statistics...");
   let fetched = 0;
   let skipped = 0;
+  let stillIncomplete = 0;
 
   for (const match of matches) {
     if (!match.propertyId) {
@@ -291,7 +321,9 @@ async function fetchPlayerStats(matches) {
     const matchDir = path.join(DATA_DIR, "matches", String(match.id));
     await ensureDir(matchDir);
     const filepath = path.join(matchDir, "player-stats.json");
-    if (!shouldFetch(filepath)) {
+    const complete = playerStatsComplete(filepath);
+    // Skip only files that are already present AND complete (unless --force).
+    if (!FORCE && fs.existsSync(filepath) && complete) {
       skipped++;
       continue;
     }
@@ -301,8 +333,18 @@ async function fetchPlayerStats(matches) {
     try {
       const data = await fetchJson(url);
       if (data) {
-        fs.writeFileSync(filepath, JSON.stringify(data, null, 2));
-        fetched++;
+        const newComplete = recordsComplete(data);
+        // Never overwrite a complete file with an incomplete refetch (guards --force too).
+        if (!fs.existsSync(filepath) || !complete || newComplete) {
+          fs.writeFileSync(filepath, JSON.stringify(data, null, 2));
+          fetched++;
+        }
+        if (newComplete) {
+          delete manifest.playerStatsRetries[match.id];
+        } else {
+          manifest.playerStatsRetries[match.id] = (manifest.playerStatsRetries[match.id] ?? 0) + 1;
+          stillIncomplete++;
+        }
       }
       await sleep(PER_MATCH_RATE_LIMIT_MS);
     } catch (error) {
@@ -310,7 +352,8 @@ async function fetchPlayerStats(matches) {
     }
   }
 
-  console.log(`✓ Fetched ${fetched} player statistics (skipped ${skipped} existing)`);
+  const tail = stillIncomplete ? `, ${stillIncomplete} still incomplete upstream` : "";
+  console.log(`✓ Fetched ${fetched} player statistics (skipped ${skipped} complete${tail})`);
 }
 
 async function fetchLiveMatchData(matches) {
@@ -399,7 +442,7 @@ async function main() {
     await fetchTimelines(toScrape);
     await fetchTeamsEndpoint(toScrape, "match statistics", "match-stats.json");
     await fetchTeamsEndpoint(toScrape, "team statistics", "team-stats.json");
-    await fetchPlayerStats(toScrape);
+    await fetchPlayerStats(toScrape, manifest);
     await fetchPowerRanking(toScrape);
     await fetchLiveMatchData(toScrape);
 
@@ -416,4 +459,22 @@ async function main() {
   }
 }
 
-main();
+function selfCheck() {
+  const full = Array.from({ length: MIN_FULL_PLAYER_KEYS }, (_, i) => [`k${i}`, 0]);
+  const stub = [["TimePlayed", 14.2]];
+  const assert = (c, m) => {
+    if (!c) throw new Error(`selfCheck failed: ${m}`);
+  };
+  // A file with any full record is complete, even alongside bench stubs.
+  assert(recordsComplete({ a: full, b: stub }), "full+stub should be complete");
+  // All-thin (truncated scrape) is incomplete; so is an empty payload.
+  assert(!recordsComplete({ a: stub, b: stub }), "all-stub should be incomplete");
+  assert(!recordsComplete({}), "empty should be incomplete");
+  console.log("✓ selfCheck passed");
+}
+
+if (process.argv.includes("--selfcheck")) {
+  selfCheck();
+} else {
+  main();
+}
