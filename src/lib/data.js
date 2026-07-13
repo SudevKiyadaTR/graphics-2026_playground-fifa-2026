@@ -281,6 +281,14 @@ export function loadGoalkeeperStats() {
     .sort((a, b) => b.GoalkeeperSaves - a.GoalkeeperSaves);
 }
 
+// Opta-sourced goalkeeper table, pre-aggregated by scripts/scrape-goalkeepers.js into
+// goalkeepers.json. Kept separate from the FIFA-sourced loadGoalkeeperStats() above.
+export function loadGoalkeeperStatsOpta() {
+  const filePath = path.join(SCRAPED_DATA_DIR, "goalkeepers.json");
+  if (!fs.existsSync(filePath)) return [];
+  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+}
+
 export function getMatchLive(matchId) {
   const matchDir = path.join(SCRAPED_DATA_DIR, "matches", matchId);
   const livePath = path.join(matchDir, "live.json");
