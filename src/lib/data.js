@@ -1,12 +1,12 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
-const SCRAPED_DATA_DIR = './scraped-data';
+const SCRAPED_DATA_DIR = "./scraped-data";
 
 export function loadMatches() {
-  const filePath = path.join(SCRAPED_DATA_DIR, 'matches.json');
+  const filePath = path.join(SCRAPED_DATA_DIR, "matches.json");
   if (!fs.existsSync(filePath)) return [];
-  const content = fs.readFileSync(filePath, 'utf-8');
+  const content = fs.readFileSync(filePath, "utf-8");
   return JSON.parse(content);
 }
 
@@ -16,12 +16,12 @@ function buildPlayerNameMap() {
   const teamNameMap = new Map(); // Cache team names by ID
 
   matches.forEach((match) => {
-    const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', match.id);
-    const liveDataPath = path.join(matchDir, 'live.json');
+    const matchDir = path.join(SCRAPED_DATA_DIR, "matches", match.id);
+    const liveDataPath = path.join(matchDir, "live.json");
 
     if (!fs.existsSync(liveDataPath)) return;
 
-    const liveData = JSON.parse(fs.readFileSync(liveDataPath, 'utf-8'));
+    const liveData = JSON.parse(fs.readFileSync(liveDataPath, "utf-8"));
 
     const teams = [liveData.HomeTeam, liveData.AwayTeam].filter(Boolean);
     teams.forEach((team) => {
@@ -55,25 +55,25 @@ export function loadAllPlayerStats() {
   const playerMap = new Map();
 
   matches.forEach((match) => {
-    const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', match.id);
-    const playerStatsPath = path.join(matchDir, 'player-stats.json');
+    const matchDir = path.join(SCRAPED_DATA_DIR, "matches", match.id);
+    const playerStatsPath = path.join(matchDir, "player-stats.json");
 
     if (!fs.existsSync(playerStatsPath)) return;
 
-    const playerStatsRaw = JSON.parse(fs.readFileSync(playerStatsPath, 'utf-8'));
+    const playerStatsRaw = JSON.parse(fs.readFileSync(playerStatsPath, "utf-8"));
 
     Object.entries(playerStatsRaw).forEach(([playerId, stats]) => {
-      const goalsEntry = stats.find((s) => s[0] === 'Goals');
+      const goalsEntry = stats.find((s) => s[0] === "Goals");
       const goals = goalsEntry ? goalsEntry[1] : 0;
 
-      const assistsEntry = stats.find((s) => s[0] === 'Assists');
+      const assistsEntry = stats.find((s) => s[0] === "Assists");
       const assists = assistsEntry ? assistsEntry[1] : 0;
 
       if (goals > 0 || assists > 0) {
         if (!playerMap.has(playerId)) {
           const nameInfo = nameMap.get(playerId);
           const playerName = String(nameInfo?.name || `Player ${playerId}`);
-          const teamName = String(nameInfo?.teamName || 'Unknown');
+          const teamName = String(nameInfo?.teamName || "Unknown");
 
           playerMap.set(playerId, {
             id: String(playerId),
@@ -104,33 +104,33 @@ export function getMatchById(id) {
 }
 
 export function getMatchPlayerStats(matchId) {
-  const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
-  const playerStatsPath = path.join(matchDir, 'player-stats.json');
+  const matchDir = path.join(SCRAPED_DATA_DIR, "matches", matchId);
+  const playerStatsPath = path.join(matchDir, "player-stats.json");
 
   if (!fs.existsSync(playerStatsPath)) return {};
 
-  return JSON.parse(fs.readFileSync(playerStatsPath, 'utf-8'));
+  return JSON.parse(fs.readFileSync(playerStatsPath, "utf-8"));
 }
 
 export function getMatchStats(matchId) {
-  const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
-  const statsPath = path.join(matchDir, 'match-stats.json');
+  const matchDir = path.join(SCRAPED_DATA_DIR, "matches", matchId);
+  const statsPath = path.join(matchDir, "match-stats.json");
   if (!fs.existsSync(statsPath)) return {};
-  return JSON.parse(fs.readFileSync(statsPath, 'utf-8'));
+  return JSON.parse(fs.readFileSync(statsPath, "utf-8"));
 }
 
 export function getTeamStats(matchId) {
-  const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
-  const statsPath = path.join(matchDir, 'team-stats.json');
+  const matchDir = path.join(SCRAPED_DATA_DIR, "matches", matchId);
+  const statsPath = path.join(matchDir, "team-stats.json");
   if (!fs.existsSync(statsPath)) return {};
-  return JSON.parse(fs.readFileSync(statsPath, 'utf-8'));
+  return JSON.parse(fs.readFileSync(statsPath, "utf-8"));
 }
 
 export function getMatchTimeline(matchId) {
-  const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
-  const timelinePath = path.join(matchDir, 'timeline.json');
+  const matchDir = path.join(SCRAPED_DATA_DIR, "matches", matchId);
+  const timelinePath = path.join(matchDir, "timeline.json");
   if (!fs.existsSync(timelinePath)) return [];
-  const data = JSON.parse(fs.readFileSync(timelinePath, 'utf-8'));
+  const data = JSON.parse(fs.readFileSync(timelinePath, "utf-8"));
   return data.Event || [];
 }
 
@@ -140,17 +140,17 @@ export function loadPlayerStatsPerMatch() {
   const rows = [];
 
   matches.forEach((match) => {
-    const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', match.id);
-    const playerStatsPath = path.join(matchDir, 'player-stats.json');
+    const matchDir = path.join(SCRAPED_DATA_DIR, "matches", match.id);
+    const playerStatsPath = path.join(matchDir, "player-stats.json");
     if (!fs.existsSync(playerStatsPath)) return;
 
-    const raw = JSON.parse(fs.readFileSync(playerStatsPath, 'utf-8'));
+    const raw = JSON.parse(fs.readFileSync(playerStatsPath, "utf-8"));
     Object.entries(raw).forEach(([playerId, stats]) => {
       const nameInfo = nameMap.get(playerId);
       const row = {
         matchId: match.id,
         playerName: nameInfo?.name || `Player ${playerId}`,
-        teamName: nameInfo?.teamName || 'Unknown',
+        teamName: nameInfo?.teamName || "Unknown",
       };
       stats.forEach(([key, value]) => {
         row[key] = value;
@@ -168,24 +168,24 @@ export function loadPlayerStatsConsolidated() {
   const playerMap = new Map();
 
   matches.forEach((match) => {
-    const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', match.id);
-    const playerStatsPath = path.join(matchDir, 'player-stats.json');
+    const matchDir = path.join(SCRAPED_DATA_DIR, "matches", match.id);
+    const playerStatsPath = path.join(matchDir, "player-stats.json");
     if (!fs.existsSync(playerStatsPath)) return;
 
-    const raw = JSON.parse(fs.readFileSync(playerStatsPath, 'utf-8'));
+    const raw = JSON.parse(fs.readFileSync(playerStatsPath, "utf-8"));
     Object.entries(raw).forEach(([playerId, stats]) => {
       if (!playerMap.has(playerId)) {
         const nameInfo = nameMap.get(playerId);
         playerMap.set(playerId, {
           playerName: nameInfo?.name || `Player ${playerId}`,
-          teamName: nameInfo?.teamName || 'Unknown',
+          teamName: nameInfo?.teamName || "Unknown",
           matchCount: 0,
         });
       }
       const player = playerMap.get(playerId);
       player.matchCount += 1;
       stats.forEach(([key, value]) => {
-        if (typeof value === 'number') {
+        if (typeof value === "number") {
           player[key] = (player[key] ?? 0) + value;
         }
       });
@@ -203,9 +203,9 @@ export function loadGoalkeeperStats() {
   // Build GK ID set from all live.json files
   const gkIds = new Set();
   matches.forEach((match) => {
-    const livePath = path.join(SCRAPED_DATA_DIR, 'matches', match.id, 'live.json');
+    const livePath = path.join(SCRAPED_DATA_DIR, "matches", match.id, "live.json");
     if (!fs.existsSync(livePath)) return;
-    const live = JSON.parse(fs.readFileSync(livePath, 'utf-8'));
+    const live = JSON.parse(fs.readFileSync(livePath, "utf-8"));
     [live.HomeTeam, live.AwayTeam].filter(Boolean).forEach((team) => {
       (team.Players || []).forEach((p) => {
         if (p.Position === 0) gkIds.add(p.IdPlayer);
@@ -214,16 +214,22 @@ export function loadGoalkeeperStats() {
   });
 
   const SUM_KEYS = [
-    'GoalkeeperSaves', 'GoalkeeperSavesOnTarget', 'GoalKicks',
-    'GoalkeeperDefensiveActionsInsidePenaltyArea', 'GoalkeeperDefensiveActionsOutsidePenaltyArea',
-    'DistributionsCompletedUnderPressure', 'DistributionsUnderPressure',
-    'Passes', 'PassesCompleted', 'TimePlayed',
+    "GoalkeeperSaves",
+    "GoalkeeperSavesOnTarget",
+    "GoalKicks",
+    "GoalkeeperDefensiveActionsInsidePenaltyArea",
+    "GoalkeeperDefensiveActionsOutsidePenaltyArea",
+    "DistributionsCompletedUnderPressure",
+    "DistributionsUnderPressure",
+    "Passes",
+    "PassesCompleted",
+    "TimePlayed",
   ];
 
   matches.forEach((match) => {
-    const psPath = path.join(SCRAPED_DATA_DIR, 'matches', match.id, 'player-stats.json');
+    const psPath = path.join(SCRAPED_DATA_DIR, "matches", match.id, "player-stats.json");
     if (!fs.existsSync(psPath)) return;
-    const raw = JSON.parse(fs.readFileSync(psPath, 'utf-8'));
+    const raw = JSON.parse(fs.readFileSync(psPath, "utf-8"));
 
     gkIds.forEach((gkId) => {
       if (!raw[gkId]) return;
@@ -234,7 +240,7 @@ export function loadGoalkeeperStats() {
         gkMap.set(gkId, {
           playerId: String(gkId),
           playerName: nameInfo?.name || `Player ${gkId}`,
-          teamName: nameInfo?.teamName || 'Unknown',
+          teamName: nameInfo?.teamName || "Unknown",
           matchCount: 0,
           ...Object.fromEntries(SUM_KEYS.map((k) => [k, 0])),
           shotsOnTargetFaced: 0,
@@ -242,11 +248,18 @@ export function loadGoalkeeperStats() {
       }
       const gk = gkMap.get(gkId);
       gk.matchCount += 1;
-      SUM_KEYS.forEach((k) => { gk[k] += stats[k] ?? 0; });
-      // infer shots-on-target faced: saves / savePercentage
+      SUM_KEYS.forEach((k) => {
+        gk[k] += stats[k] ?? 0;
+      });
+      // Shots on target faced (FBref/Opta save% denominator). The feed's GoalsConceded
+      // field is missing in ~half of matches, so back-infer from the reliable per-match
+      // save% (= on-target saves / on-target faced). Fall back to goals conceded only when
+      // there were no on-target saves. Cross-checked against Fox Sports GA — matches to ±1
+      // (the gap being penalties/own goals, which aren't on-target shot stops).
+      const sot = stats.GoalkeeperSavesOnTarget ?? 0;
       const sp = stats.GoalkeeperSavePercentage;
-      const sv = stats.GoalkeeperSaves ?? 0;
-      if (sp > 0 && sv > 0) gk.shotsOnTargetFaced += sv / sp;
+      gk.shotsOnTargetFaced +=
+        sot > 0 && sp > 0 ? Math.round(sot / sp) : (stats.GoalsConceded ?? 0);
     });
   });
 
@@ -254,29 +267,31 @@ export function loadGoalkeeperStats() {
     .filter((gk) => gk.matchCount > 0)
     .map((gk) => ({
       ...gk,
-      savePercentage: gk.shotsOnTargetFaced > 0
-        ? gk.GoalkeeperSaves / gk.shotsOnTargetFaced
-        : null,
-      distributionAccuracy: gk.DistributionsUnderPressure > 0
-        ? gk.DistributionsCompletedUnderPressure / gk.DistributionsUnderPressure
-        : null,
+      savePercentage:
+        gk.shotsOnTargetFaced > 0 ? gk.GoalkeeperSavesOnTarget / gk.shotsOnTargetFaced : null,
+      distributionAccuracy:
+        gk.DistributionsUnderPressure > 0
+          ? gk.DistributionsCompletedUnderPressure / gk.DistributionsUnderPressure
+          : null,
       passAccuracy: gk.Passes > 0 ? gk.PassesCompleted / gk.Passes : null,
-      totalDefensiveActions: gk.GoalkeeperDefensiveActionsInsidePenaltyArea + gk.GoalkeeperDefensiveActionsOutsidePenaltyArea,
+      totalDefensiveActions:
+        gk.GoalkeeperDefensiveActionsInsidePenaltyArea +
+        gk.GoalkeeperDefensiveActionsOutsidePenaltyArea,
     }))
     .sort((a, b) => b.GoalkeeperSaves - a.GoalkeeperSaves);
 }
 
 export function getMatchLive(matchId) {
-  const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', matchId);
-  const livePath = path.join(matchDir, 'live.json');
+  const matchDir = path.join(SCRAPED_DATA_DIR, "matches", matchId);
+  const livePath = path.join(matchDir, "live.json");
   if (!fs.existsSync(livePath)) return {};
-  return JSON.parse(fs.readFileSync(livePath, 'utf-8'));
+  return JSON.parse(fs.readFileSync(livePath, "utf-8"));
 }
 
 function parseMinute(str) {
   if (!str) return null;
-  const clean = str.replace(/'/g, '');
-  const [base, extra] = clean.split('+');
+  const clean = str.replace(/'/g, "");
+  const [base, extra] = clean.split("+");
   return parseInt(base, 10) + (extra ? parseInt(extra, 10) : 0);
 }
 
@@ -285,24 +300,26 @@ export function loadAllGoals() {
   const goals = [];
 
   matches.forEach((match) => {
-    const matchDir = path.join(SCRAPED_DATA_DIR, 'matches', match.id);
-    const timelinePath = path.join(matchDir, 'timeline.json');
-    const livePath = path.join(matchDir, 'live.json');
+    const matchDir = path.join(SCRAPED_DATA_DIR, "matches", match.id);
+    const timelinePath = path.join(matchDir, "timeline.json");
+    const livePath = path.join(matchDir, "live.json");
     if (!fs.existsSync(timelinePath) || !fs.existsSync(livePath)) return;
 
-    const timeline = JSON.parse(fs.readFileSync(timelinePath, 'utf-8'));
-    const live = JSON.parse(fs.readFileSync(livePath, 'utf-8'));
+    const timeline = JSON.parse(fs.readFileSync(timelinePath, "utf-8"));
+    const live = JSON.parse(fs.readFileSync(livePath, "utf-8"));
 
-    const homeName = live.HomeTeam?.TeamName?.[0]?.Description || 'Home';
-    const awayName = live.AwayTeam?.TeamName?.[0]?.Description || 'Away';
-    const dateStr = (live.LocalDate || live.Date || '').slice(0, 10) || null;
+    const homeName = live.HomeTeam?.TeamName?.[0]?.Description || "Home";
+    const awayName = live.AwayTeam?.TeamName?.[0]?.Description || "Away";
+    const dateStr = (live.LocalDate || live.Date || "").slice(0, 10) || null;
     const secondHalfEnd = (timeline.Event || []).find((e) => e.Type === 8 && e.Period === 5);
-    const duration = secondHalfEnd ? parseMinute(secondHalfEnd.MatchMinute) : parseMinute(live.MatchTime);
+    const duration = secondHalfEnd
+      ? parseMinute(secondHalfEnd.MatchMinute)
+      : parseMinute(live.MatchTime);
 
     (timeline.Event || [])
       .filter((e) => e.Type === 0)
       .forEach((e) => {
-        const desc = e.EventDescription?.[0]?.Description || '';
+        const desc = e.EventDescription?.[0]?.Description || "";
         const scorer = desc.match(/^([^(]+)/)?.[1]?.trim() || null;
         goals.push({
           matchId: match.id,
@@ -320,7 +337,8 @@ export function loadAllGoals() {
   });
 
   goals.sort((a, b) => {
-    if (a.timestamp && b.timestamp) return a.timestamp < b.timestamp ? -1 : a.timestamp > b.timestamp ? 1 : 0;
+    if (a.timestamp && b.timestamp)
+      return a.timestamp < b.timestamp ? -1 : a.timestamp > b.timestamp ? 1 : 0;
     if (a.date < b.date) return -1;
     if (a.date > b.date) return 1;
     return (a.minute ?? 0) - (b.minute ?? 0);

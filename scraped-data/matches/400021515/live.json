@@ -97,44 +97,6 @@
     "Abbreviation": "AUS",
     "Coaches": [
       {
-        "IdCoach": "178308",
-        "IdCountry": "AUS",
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Hayden FOXE"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Hayden FOXE"
-          }
-        ],
-        "Role": 1,
-        "SpecialStatus": null
-      },
-      {
-        "IdCoach": "197514",
-        "IdCountry": "AUS",
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Mile JEDINAK"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Mile JEDINAK"
-          }
-        ],
-        "Role": 1,
-        "SpecialStatus": null
-      },
-      {
         "IdCoach": "154065",
         "IdCountry": "AUS",
         "PictureUrl": "https://digitalhub.fifa.com/transform/186370fc-5a39-49f3-b7cd-709e763838d9/POPOVIC-Tony_154065",
@@ -167,6 +129,44 @@
           {
             "Locale": "en-GB",
             "Description": "Paul OKON"
+          }
+        ],
+        "Role": 1,
+        "SpecialStatus": null
+      },
+      {
+        "IdCoach": "178308",
+        "IdCountry": "AUS",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Hayden FOXE"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Hayden FOXE"
+          }
+        ],
+        "Role": 1,
+        "SpecialStatus": null
+      },
+      {
+        "IdCoach": "197514",
+        "IdCountry": "AUS",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Mile JEDINAK"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Mile JEDINAK"
           }
         ],
         "Role": 1,
@@ -1013,6 +1013,24 @@
     ],
     "Staffs": [
       {
+        "IdStaff": "190649",
+        "IdCountry": "AUS",
+        "Role": 15,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Mark JONES"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Mark JONES"
+          }
+        ]
+      },
+      {
         "IdStaff": "518196",
         "IdCountry": "AUS",
         "Role": 12,
@@ -1045,24 +1063,6 @@
           {
             "Locale": "en-GB",
             "Description": "Joel FREEME"
-          }
-        ]
-      },
-      {
-        "IdStaff": "190649",
-        "IdCountry": "AUS",
-        "Role": 15,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Mark JONES"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Mark JONES"
           }
         ]
       },
@@ -1126,6 +1126,25 @@
     "Abbreviation": "EGY",
     "Coaches": [
       {
+        "IdCoach": "183024",
+        "IdCountry": "EGY",
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "MOHAMED ABDELWAHED"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "MOHAMED ABDELWAHED"
+          }
+        ],
+        "Role": 1,
+        "SpecialStatus": null
+      },
+      {
         "IdCoach": "174595",
         "IdCountry": "EGY",
         "PictureUrl": "https://digitalhub.fifa.com/transform/95af748d-2976-473b-938f-055fa4d71916/HOSSAM-HASSAN_174595",
@@ -1158,25 +1177,6 @@
           {
             "Locale": "en-GB",
             "Description": "TAREK SOLIMAN"
-          }
-        ],
-        "Role": 1,
-        "SpecialStatus": null
-      },
-      {
-        "IdCoach": "183024",
-        "IdCountry": "EGY",
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "MOHAMED ABDELWAHED"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "MOHAMED ABDELWAHED"
           }
         ],
         "Role": 1,
@@ -2028,6 +2028,24 @@
     ],
     "Staffs": [
       {
+        "IdStaff": "344679",
+        "IdCountry": "EGY",
+        "Role": 2,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "SAAFAN ELSAGHIR"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "SAAFAN ELSAGHIR"
+          }
+        ]
+      },
+      {
         "IdStaff": "433462",
         "IdCountry": "EGY",
         "Role": 13,
@@ -2042,6 +2060,42 @@
           {
             "Locale": "en-GB",
             "Description": "Ali Mohamed ALI"
+          }
+        ]
+      },
+      {
+        "IdStaff": "514938",
+        "IdCountry": "EGY",
+        "Role": 13,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "Mina SAMEH"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "Mina SAMEH"
+          }
+        ]
+      },
+      {
+        "IdStaff": "174596",
+        "IdCountry": "EGY",
+        "Role": 16,
+        "PictureUrl": null,
+        "Name": [
+          {
+            "Locale": "en-GB",
+            "Description": "IBRAHIM HASSAN"
+          }
+        ],
+        "Alias": [
+          {
+            "Locale": "en-GB",
+            "Description": "IBRAHIM HASSAN"
           }
         ]
       },
@@ -2082,42 +2136,6 @@
         ]
       },
       {
-        "IdStaff": "174596",
-        "IdCountry": "EGY",
-        "Role": 16,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "IBRAHIM HASSAN"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "IBRAHIM HASSAN"
-          }
-        ]
-      },
-      {
-        "IdStaff": "514938",
-        "IdCountry": "EGY",
-        "Role": 13,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "Mina SAMEH"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "Mina SAMEH"
-          }
-        ]
-      },
-      {
         "IdStaff": "409924",
         "IdCountry": "EGY",
         "Role": 15,
@@ -2132,24 +2150,6 @@
           {
             "Locale": "en-GB",
             "Description": "Mohamed ABOUELELA"
-          }
-        ]
-      },
-      {
-        "IdStaff": "344679",
-        "IdCountry": "EGY",
-        "Role": 2,
-        "PictureUrl": null,
-        "Name": [
-          {
-            "Locale": "en-GB",
-            "Description": "SAAFAN ELSAGHIR"
-          }
-        ],
-        "Alias": [
-          {
-            "Locale": "en-GB",
-            "Description": "SAAFAN ELSAGHIR"
           }
         ]
       }

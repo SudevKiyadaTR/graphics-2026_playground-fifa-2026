@@ -6,11 +6,11 @@ Dark, data-dense, sporty. Focused on clarity and quick scanning of tournament in
 
 ### Typeface Stack
 
-| Role                      | Family               | Weight   | Usage                           |
-| ------------------------- | -------------------- | -------- | ------------------------------- |
-| Display (titles, scores)  | **Barlow Condensed** | 700, 800 | Uppercase, tournament authority |
-| UI / Body                 | **Inter**            | 400, 500 | All prose, labels, UI text      |
-| Data (tables, numbers)    | **DM Mono**          | 400, 500 | All numeric readouts            |
+| Role                     | Family               | Weight   | Usage                           |
+| ------------------------ | -------------------- | -------- | ------------------------------- |
+| Display (titles, scores) | **Barlow Condensed** | 700, 800 | Uppercase, tournament authority |
+| UI / Body                | **Inter**            | 400, 500 | All prose, labels, UI text      |
+| Data (tables, numbers)   | **DM Mono**          | 400, 500 | All numeric readouts            |
 
 Load from Google Fonts:
 
@@ -55,30 +55,30 @@ Dark background with layered surfaces. All colors designed for ≥ 3:1 contrast 
 ```css
 :root {
   /* Backgrounds */
-  --color-bg-base: #0d1017;      /* page background */
-  --color-bg-surface: #141b27;   /* cards, panels */
-  --color-bg-raised: #1c2638;    /* hover, active */
+  --color-bg-base: #0d1017; /* page background */
+  --color-bg-surface: #141b27; /* cards, panels */
+  --color-bg-raised: #1c2638; /* hover, active */
 
   /* Borders */
   --color-border: #253144;
   --color-border-subtle: #1a2535;
 
   /* Text */
-  --color-text-primary: #f0f4f8;    /* body, labels */
-  --color-text-secondary: #7d95b0;  /* secondary labels */
-  --color-text-muted: #4a6070;      /* captions, placeholders */
+  --color-text-primary: #f0f4f8; /* body, labels */
+  --color-text-secondary: #7d95b0; /* secondary labels */
+  --color-text-muted: #4a6070; /* captions, placeholders */
 
   /* Status colors */
-  --color-positive: #2bb56a;  /* wins, rankings up */
-  --color-negative: #e8394b;  /* losses, rankings down */
-  --color-neutral: #7d95b0;   /* draws, neutral state */
+  --color-positive: #2bb56a; /* wins, rankings up */
+  --color-negative: #e8394b; /* losses, rankings down */
+  --color-neutral: #7d95b0; /* draws, neutral state */
 
   /* Team colors */
-  --color-home: #4fb3e8;   /* home team (blue) */
-  --color-away: #e8394b;   /* away team (red) */
-  --color-accent-1: #f0a04a;  /* third series */
-  --color-accent-2: #7c5cce;  /* fourth series */
-  --color-accent-3: #2bb56a;  /* fifth series */
+  --color-home: #4fb3e8; /* home team (blue) */
+  --color-away: #e8394b; /* away team (red) */
+  --color-accent-1: #f0a04a; /* third series */
+  --color-accent-2: #7c5cce; /* fourth series */
+  --color-accent-3: #2bb56a; /* fifth series */
 }
 ```
 
@@ -232,7 +232,7 @@ Dark background with layered surfaces. All colors designed for ≥ 3:1 contrast 
 ```css
 .select {
   appearance: none;
-  background: var(--color-bg-surface) url('data:image/svg+xml...') no-repeat right 8px center;
+  background: var(--color-bg-surface) url("data:image/svg+xml...") no-repeat right 8px center;
   background-size: 16px;
   padding: 8px 32px 8px 10px;
   border: 1px solid var(--color-border);
@@ -276,14 +276,14 @@ Base grid: **8px**. All margins, padding, gaps in multiples of 8.
 
 ## Match Timeline Events
 
-| Event            | Color                    |
-| ---------------- | ------------------------ |
-| Goal             | `--color-positive`       |
-| Yellow card      | `#f0c040`                |
-| Red card         | `--color-negative`       |
-| Substitution     | `--color-home` (generic) |
-| Own goal         | `--color-accent-1`       |
-| Penalty          | `--color-accent-2`       |
+| Event        | Color                    |
+| ------------ | ------------------------ |
+| Goal         | `--color-positive`       |
+| Yellow card  | `#f0c040`                |
+| Red card     | `--color-negative`       |
+| Substitution | `--color-home` (generic) |
+| Own goal     | `--color-accent-1`       |
+| Penalty      | `--color-accent-2`       |
 
 Minute labels: `--font-mono`, `--color-text-secondary`  
 Player names: `--font-body-sm`, `--color-text-primary`

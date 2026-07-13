@@ -2,10 +2,7 @@
   "mcpServers": {
     "chrome": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-chrome"
-      ]
+      "args": ["-y", "@modelcontextprotocol/server-chrome"]
     }
   },
   "enabledPlugins": {

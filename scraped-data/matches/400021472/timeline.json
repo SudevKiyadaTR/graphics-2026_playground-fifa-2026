@@ -481,7 +481,7 @@
       ]
     },
     {
-      "EventId": "1404626967",
+      "EventId": "1055955075",
       "IdTeam": "43960",
       "IdPlayer": "436612",
       "Timestamp": "2026-06-20T17:16:16.432Z",
@@ -509,7 +509,7 @@
       ]
     },
     {
-      "EventId": "1396825104",
+      "EventId": "1014220935",
       "IdTeam": "43960",
       "IdPlayer": "424051",
       "Timestamp": "2026-06-20T17:16:16.572Z",
@@ -537,9 +537,11 @@
       ]
     },
     {
-      "EventId": "1396825106",
+      "EventId": "1014220937",
       "IdTeam": "43960",
       "IdPlayer": "424051",
+      "IdSubPlayer": "436612",
+      "IdSubTeam": "43960",
       "Timestamp": "2026-06-20T17:16:16.572Z",
       "MatchMinute": "17'",
       "Period": 3,
