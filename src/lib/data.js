@@ -195,6 +195,100 @@ export function loadPlayerStatsConsolidated() {
   return Array.from(playerMap.values()).sort((a, b) => (b.Goals ?? 0) - (a.Goals ?? 0));
 }
 
+// FIFA-sourced team stats, aggregated across all matches per team from team-stats.json.
+export function loadTeamStatsConsolidated() {
+  const matches = loadMatches();
+  const { teamNameMap } = buildPlayerNameMap();
+  const teamMap = new Map();
+
+  matches.forEach((match) => {
+    const statsPath = path.join(SCRAPED_DATA_DIR, "matches", match.id, "team-stats.json");
+    if (!fs.existsSync(statsPath)) return;
+    const raw = JSON.parse(fs.readFileSync(statsPath, "utf-8"));
+
+    Object.entries(raw).forEach(([teamId, stats]) => {
+      if (!teamMap.has(teamId)) {
+        teamMap.set(teamId, {
+          teamName: teamNameMap.get(teamId) || `Team ${teamId}`,
+          matchCount: 0,
+          possessionSum: 0,
+        });
+      }
+      const team = teamMap.get(teamId);
+      team.matchCount += 1;
+      stats.forEach(([key, value]) => {
+        if (typeof value === "number") {
+          team[key] = (team[key] ?? 0) + value;
+        }
+      });
+      const possession = stats.find((s) => s[0] === "Possession")?.[1];
+      if (typeof possession === "number") team.possessionSum += possession;
+    });
+  });
+
+  return Array.from(teamMap.values())
+    .map(({ possessionSum, ...team }) => ({
+      ...team,
+      avgPossession: team.matchCount > 0 ? possessionSum / team.matchCount : null,
+      goalDifference: (team.Goals ?? 0) - (team.GoalsConceded ?? 0),
+    }))
+    .sort((a, b) => (b.Goals ?? 0) - (a.Goals ?? 0));
+}
+
+// These are team-outcome stats the Opta feed repeats on every player's row for a match
+// (not a per-player action), so they must be read once per team-match, not summed per row.
+const OPTA_TEAM_LEVEL_FIELDS = ["goalsConceded", "penGoalsConceded"];
+
+// Opta-sourced team stats, derived by summing each team's players' per-match stats
+// (players-opta.json) — the Opta feed has no team-level totals endpoint.
+export function loadTeamStatsOpta() {
+  const { matchRows } = loadPlayerStatsOpta();
+  const teamMap = new Map();
+
+  matchRows.forEach((row) => {
+    const key = row.teamCode || row.teamName;
+    if (!teamMap.has(key)) {
+      teamMap.set(key, {
+        teamName: row.teamName,
+        teamCode: row.teamCode,
+        matchIds: new Set(),
+        teamLevelByMatch: new Map(),
+      });
+    }
+    const team = teamMap.get(key);
+    team.matchIds.add(row.matchId);
+    const prevTeamLevel = team.teamLevelByMatch.get(row.matchId) ?? {};
+    team.teamLevelByMatch.set(
+      row.matchId,
+      Object.fromEntries(
+        OPTA_TEAM_LEVEL_FIELDS.map((f) => [f, Math.max(prevTeamLevel[f] ?? 0, row[f] ?? 0)])
+      )
+    );
+    Object.entries(row).forEach(([k, v]) => {
+      if (typeof v === "number" && !OPTA_TEAM_LEVEL_FIELDS.includes(k)) {
+        team[k] = (team[k] ?? 0) + v;
+      }
+    });
+  });
+
+  return Array.from(teamMap.values())
+    .map(({ matchIds, teamLevelByMatch, ...team }) => {
+      const teamLevelTotals = Object.fromEntries(
+        OPTA_TEAM_LEVEL_FIELDS.map((f) => [
+          f,
+          Array.from(teamLevelByMatch.values()).reduce((s, m) => s + (m[f] ?? 0), 0),
+        ])
+      );
+      return {
+        ...team,
+        ...teamLevelTotals,
+        matchCount: matchIds.size,
+        goalDifference: (team.goals ?? 0) - (teamLevelTotals.goalsConceded ?? 0),
+      };
+    })
+    .sort((a, b) => (b.goals ?? 0) - (a.goals ?? 0));
+}
+
 export function loadGoalkeeperStats() {
   const matches = loadMatches();
   const { nameMap } = buildPlayerNameMap();
@@ -286,6 +380,15 @@ export function loadGoalkeeperStats() {
 export function loadGoalkeeperStatsOpta() {
   const filePath = path.join(SCRAPED_DATA_DIR, "goalkeepers.json");
   if (!fs.existsSync(filePath)) return [];
+  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+}
+
+// Opta-sourced player stats (all positions), pre-aggregated by
+// scripts/scrape-players-opta.js into players-opta.json. Kept separate from the
+// FIFA-sourced loadPlayerStatsPerMatch/loadPlayerStatsConsolidated above.
+export function loadPlayerStatsOpta() {
+  const filePath = path.join(SCRAPED_DATA_DIR, "players-opta.json");
+  if (!fs.existsSync(filePath)) return { matchRows: [], consolidatedRows: [] };
   return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 }
 
