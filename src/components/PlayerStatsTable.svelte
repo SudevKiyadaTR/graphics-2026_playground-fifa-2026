@@ -10,12 +10,17 @@
   export let matchRows = [];
   export let consolidatedRows = [];
   export let statKeys = [];
-
-  const DEFAULT_STATS = [
+  export let defaultStats = [
     'Goals', 'Assists', 'XG', 'AttemptAtGoal', 'AttemptAtGoalOnTarget',
     'Passes', 'PassesCompleted', 'TimePlayed', 'YellowCards', 'RedCards',
     'TakeOnsCompleted', 'TopSpeed', 'TotalDistance', 'FoulsFor', 'FoulsAgainst',
   ];
+  export let entityKey = 'playerName';
+  export let entityHeader = 'Player';
+  export let showTeamColumn = true;
+  export let searchPlaceholder = 'Player, team...';
+  export let csvPrefix = 'player-stats';
+  export let consolidatedTabLabel = 'By Player';
 
   let activeTab = 'consolidated';
   let columnSearch = '';
@@ -26,24 +31,19 @@
   $: visibleStats = (() => {
     const base = showAllColumns
       ? statKeys
-      : DEFAULT_STATS.filter((s) => statKeys.includes(s));
+      : defaultStats.filter((s) => statKeys.includes(s));
     return columnSearch
       ? base.filter((k) => k.toLowerCase().includes(columnSearch.toLowerCase()))
       : base;
   })();
 
-  $: fixedColumns =
-    activeTab === 'per-match'
-      ? [
-          { accessorKey: 'playerName', header: 'Player' },
-          { accessorKey: 'teamName', header: 'Team' },
-          { accessorKey: 'matchId', header: 'Match ID' },
-        ]
-      : [
-          { accessorKey: 'playerName', header: 'Player' },
-          { accessorKey: 'teamName', header: 'Team' },
-          { accessorKey: 'matchCount', header: 'GP' },
-        ];
+  $: fixedColumns = [
+    { accessorKey: entityKey, header: entityHeader },
+    ...(showTeamColumn ? [{ accessorKey: 'teamName', header: 'Team' }] : []),
+    ...(activeTab === 'per-match'
+      ? [{ accessorKey: 'matchId', header: 'Match ID' }]
+      : [{ accessorKey: 'matchCount', header: 'GP' }]),
+  ];
 
   $: statColumns = visibleStats.map((key) => ({
     accessorKey: key,
@@ -110,7 +110,7 @@
     const csv = [headers.join(','), ...csvRows.map((r) => r.join(','))].join('\n');
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv' }));
-    a.download = `player-stats-${activeTab}.csv`;
+    a.download = `${csvPrefix}-${activeTab}.csv`;
     a.click();
     URL.revokeObjectURL(a.href);
   }
@@ -123,15 +123,17 @@
       class:active={activeTab === 'consolidated'}
       on:click={() => switchTab('consolidated')}
     >
-      By Player
+      {consolidatedTabLabel}
     </button>
-    <button
-      class="tab"
-      class:active={activeTab === 'per-match'}
-      on:click={() => switchTab('per-match')}
-    >
-      By Match
-    </button>
+    {#if matchRows.length > 0}
+      <button
+        class="tab"
+        class:active={activeTab === 'per-match'}
+        on:click={() => switchTab('per-match')}
+      >
+        By Match
+      </button>
+    {/if}
   </div>
 
   <div class="controls">
@@ -140,7 +142,7 @@
       <input
         id="row-filter"
         type="text"
-        placeholder="Player, team..."
+        placeholder={searchPlaceholder}
         bind:value={$globalFilter}
         class="text-input"
       />

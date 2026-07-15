@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import PlayerStatsTable from '../components/PlayerStatsTable.svelte';
+import { loadTeamStatsConsolidated } from '../lib/data.js';
+
+const consolidatedRows = loadTeamStatsConsolidated();
+
+const FIXED_KEYS = new Set(['teamName', 'matchCount']);
+const statKeys = consolidatedRows.length > 0
+  ? Object.keys(consolidatedRows[0]).filter((k) => !FIXED_KEYS.has(k))
+  : [];
+
+const DEFAULT_STATS = [
+  'Goals', 'GoalsConceded', 'goalDifference', 'XG', 'avgPossession',
+  'AttemptAtGoal', 'AttemptAtGoalOnTarget', 'AttemptAtGoalAgainst',
+  'DefensivePressuresApplied', 'ForcedTurnovers', 'Passes', 'PassesCompleted',
+  'FoulsFor', 'FoulsAgainst', 'YellowCards', 'RedCards',
+];
+---
+
+<Base title="Teams — FIFA 2026 Dashboard">
+  <div class="page-header">
+    <h1>Teams</h1>
+    <p>{consolidatedRows.length} teams · {statKeys.length} stat columns · FIFA source</p>
+  </div>
+
+  <PlayerStatsTable
+    consolidatedRows={consolidatedRows}
+    statKeys={statKeys}
+    defaultStats={DEFAULT_STATS}
+    entityKey="teamName"
+    entityHeader="Team"
+    showTeamColumn={false}
+    searchPlaceholder="Team..."
+    csvPrefix="team-stats"
+    consolidatedTabLabel="By Team"
+    client:load
+  />
+</Base>
+
+<style>
+  .page-header {
+    margin-bottom: var(--space-lg);
+  }
+
+  .page-header p {
+    font: var(--font-mono);
+    color: var(--color-text-secondary);
+    margin-top: var(--space-sm);
+  }
+</style>
