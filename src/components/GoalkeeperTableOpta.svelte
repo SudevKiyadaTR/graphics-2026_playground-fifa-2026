@@ -39,7 +39,29 @@
     { key: 'totalClearance', label: 'Clearances', numeric: true },
     { key: 'passPct', label: 'Pass%', numeric: true, format: pct },
   ];
+
+  const csvCell = (v) => {
+    const s = v == null ? '' : String(v);
+    return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+  };
+
+  function downloadCsv() {
+    const rows = [
+      COLS.map((c) => c.label),
+      ...sorted.map((gk) => COLS.map((c) => gk[c.key])),
+    ];
+    const csv = rows.map((row) => row.map(csvCell).join(',')).join('\n');
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'goalkeepers-opta.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+  }
 </script>
+
+<button class="csv-btn" on:click={downloadCsv}>Download CSV</button>
 
 <div class="table-wrap">
   <table>
@@ -80,6 +102,19 @@
 </div>
 
 <style>
+  .csv-btn {
+    margin-bottom: var(--space-sm);
+    padding: var(--space-xs) var(--space-md);
+    font: var(--font-body-sm);
+    color: var(--color-text-secondary);
+    background: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .csv-btn:hover {
+    color: var(--color-text-primary);
+  }
   .table-wrap {
     overflow-x: auto;
   }

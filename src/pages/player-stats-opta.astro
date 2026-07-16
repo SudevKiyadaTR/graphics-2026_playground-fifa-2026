@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import PlayerStatsTable from '../components/PlayerStatsTable.svelte';
+import { loadPlayerStatsOpta } from '../lib/data.js';
+
+/** @type {{ matchRows: Array<Record<string, any>>, consolidatedRows: Array<Record<string, any>> }} */
+const { matchRows, consolidatedRows } = loadPlayerStatsOpta();
+
+const FIXED_KEYS = new Set(['matchId', 'playerName', 'teamName', 'teamCode', 'matchCount']);
+const statKeys = [...new Set(matchRows.flatMap((r) => Object.keys(r)))].filter(
+  (k) => !FIXED_KEYS.has(k)
+);
+
+const OPTA_DEFAULT_STATS = [
+  'goals', 'goalAssist', 'totalScoringAtt', 'ontargetScoringAtt',
+  'totalPass', 'accuratePass', 'minsPlayed', 'yellowCard', 'redCard',
+  'totalTackle', 'wonTackle', 'fouls', 'wasFouled',
+];
+---
+
+<Base title="Player Stats (Opta) — FIFA 2026 Dashboard">
+  <div class="page-header">
+    <h1>Player Stats — Opta</h1>
+    <p>{consolidatedRows.length} players · {matchRows.length} match appearances · {statKeys.length} stat columns</p>
+  </div>
+
+  <PlayerStatsTable
+    matchRows={matchRows}
+    consolidatedRows={consolidatedRows}
+    statKeys={statKeys}
+    defaultStats={OPTA_DEFAULT_STATS}
+    client:load
+  />
+</Base>
+
+<style>
+  .page-header {
+    margin-bottom: var(--space-lg);
+  }
+
+  .page-header p {
+    font: var(--font-mono);
+    color: var(--color-text-secondary);
+    margin-top: var(--space-sm);
+  }
+</style>

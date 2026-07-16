@@ -14,10 +14,12 @@
     'Goals', 'Assists', 'XG', 'AttemptAtGoal', 'AttemptAtGoalOnTarget',
     'Passes', 'PassesCompleted', 'TimePlayed', 'YellowCards', 'RedCards',
     'TakeOnsCompleted', 'TopSpeed', 'TotalDistance', 'FoulsFor', 'FoulsAgainst',
+    'avgDistance', 'percWalk', 'shotSuccess', 'shotSuccessTarget',
   ];
   export let entityKey = 'playerName';
   export let entityHeader = 'Player';
   export let showTeamColumn = true;
+  export let showPositionColumn = false;
   export let searchPlaceholder = 'Player, team...';
   export let csvPrefix = 'player-stats';
   export let consolidatedTabLabel = 'By Player';
@@ -39,9 +41,15 @@
 
   $: fixedColumns = [
     { accessorKey: entityKey, header: entityHeader },
+    ...(showPositionColumn ? [{ accessorKey: 'position', header: 'Pos' }] : []),
     ...(showTeamColumn ? [{ accessorKey: 'teamName', header: 'Team' }] : []),
     ...(activeTab === 'per-match'
-      ? [{ accessorKey: 'matchId', header: 'Match ID' }]
+      ? [
+          { accessorKey: 'matchId', header: 'Match ID' },
+          { accessorKey: 'matchDuration', header: 'Duration' },
+          { accessorKey: 'MatchWentIntoExtraTime', header: 'ET' },
+          { accessorKey: 'playerPlayedFullMatch', header: 'Full Match' },
+        ]
       : [{ accessorKey: 'matchCount', header: 'GP' }]),
   ];
 

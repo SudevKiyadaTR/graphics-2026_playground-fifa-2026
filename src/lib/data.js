@@ -10,6 +10,8 @@ export function loadMatches() {
   return JSON.parse(content);
 }
 
+const POSITION_LABELS = { 0: "GK", 1: "DF", 2: "MF", 3: "FW" };
+
 function buildPlayerNameMap() {
   const matches = loadMatches();
   const nameMap = new Map();
@@ -39,6 +41,7 @@ function buildPlayerNameMap() {
               name: playerName,
               teamId: teamId,
               teamName: teamName,
+              position: POSITION_LABELS[player.Position] || "—",
             });
           }
         });
@@ -134,6 +137,34 @@ export function getMatchTimeline(matchId) {
   return data.Event || [];
 }
 
+function addDerivedPlayerStats(row) {
+  const games = row.matchCount ?? 1;
+  row.avgDistance = row.TotalDistance !== undefined ? row.TotalDistance / games : undefined;
+  row.percWalk = row.TotalDistance ? (row.DistanceWalking / row.TotalDistance) * 100 : undefined;
+  row.shotSuccess = row.Goals > 0 ? row.Goals / row.AttemptAtGoal : 0;
+  row.shotSuccessTarget = row.Goals > 0 ? row.Goals / row.AttemptAtGoalOnTarget : 0;
+  return row;
+}
+
+function getMatchTiming(matchId) {
+  const matchDir = path.join(SCRAPED_DATA_DIR, "matches", matchId);
+  const timelinePath = path.join(matchDir, "timeline.json");
+  const livePath = path.join(matchDir, "live.json");
+
+  const periodEnds = fs.existsSync(timelinePath)
+    ? (JSON.parse(fs.readFileSync(timelinePath, "utf-8")).Event || []).filter(
+        (e) => e.Type === 8 && e.MatchMinute
+      )
+    : [];
+  const lastEnd = periodEnds.reduce((max, e) => (!max || e.Period > max.Period ? e : max), null);
+  const live = fs.existsSync(livePath) ? JSON.parse(fs.readFileSync(livePath, "utf-8")) : {};
+
+  return {
+    matchDuration: lastEnd ? parseMinute(lastEnd.MatchMinute) : parseMinute(live.MatchTime),
+    matchWentIntoExtraTime: periodEnds.some((e) => e.Period > 5),
+  };
+}
+
 export function loadPlayerStatsPerMatch() {
   const matches = loadMatches();
   const { nameMap } = buildPlayerNameMap();
@@ -144,6 +175,7 @@ export function loadPlayerStatsPerMatch() {
     const playerStatsPath = path.join(matchDir, "player-stats.json");
     if (!fs.existsSync(playerStatsPath)) return;
 
+    const { matchDuration, matchWentIntoExtraTime } = getMatchTiming(match.id);
     const raw = JSON.parse(fs.readFileSync(playerStatsPath, "utf-8"));
     Object.entries(raw).forEach(([playerId, stats]) => {
       const nameInfo = nameMap.get(playerId);
@@ -151,11 +183,15 @@ export function loadPlayerStatsPerMatch() {
         matchId: match.id,
         playerName: nameInfo?.name || `Player ${playerId}`,
         teamName: nameInfo?.teamName || "Unknown",
+        position: nameInfo?.position || "—",
+        matchDuration,
+        MatchWentIntoExtraTime: matchWentIntoExtraTime,
       };
       stats.forEach(([key, value]) => {
         row[key] = value;
       });
-      rows.push(row);
+      row.playerPlayedFullMatch = row.SubstitutionsIn === 0 && row.SubstitutionsOut === 0;
+      rows.push(addDerivedPlayerStats(row));
     });
   });
 
@@ -179,6 +215,7 @@ export function loadPlayerStatsConsolidated() {
         playerMap.set(playerId, {
           playerName: nameInfo?.name || `Player ${playerId}`,
           teamName: nameInfo?.teamName || "Unknown",
+          position: nameInfo?.position || "—",
           matchCount: 0,
         });
       }
@@ -192,7 +229,9 @@ export function loadPlayerStatsConsolidated() {
     });
   });
 
-  return Array.from(playerMap.values()).sort((a, b) => (b.Goals ?? 0) - (a.Goals ?? 0));
+  return Array.from(playerMap.values())
+    .map(addDerivedPlayerStats)
+    .sort((a, b) => (b.Goals ?? 0) - (a.Goals ?? 0));
 }
 
 // FIFA-sourced team stats, aggregated across all matches per team from team-stats.json.

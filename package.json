@@ -9,6 +9,7 @@
     "scrape": "node scripts/scrape.js",
     "scrape:force": "node scripts/scrape.js --force",
     "scrape:gk": "node scripts/scrape-goalkeepers.js",
+    "scrape:players-opta": "node scripts/scrape-players-opta.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",

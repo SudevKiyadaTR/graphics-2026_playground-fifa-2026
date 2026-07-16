@@ -6,7 +6,10 @@ import { loadPlayerStatsPerMatch, loadPlayerStatsConsolidated } from '../lib/dat
 const matchRows = loadPlayerStatsPerMatch();
 const consolidatedRows = loadPlayerStatsConsolidated();
 
-const FIXED_KEYS = new Set(['matchId', 'playerName', 'teamName', 'matchCount']);
+const FIXED_KEYS = new Set([
+  'matchId', 'playerName', 'teamName', 'position', 'matchCount',
+  'matchDuration', 'MatchWentIntoExtraTime', 'playerPlayedFullMatch',
+]);
 const statKeys = matchRows.length > 0
   ? Object.keys(matchRows[0]).filter((k) => !FIXED_KEYS.has(k))
   : [];
@@ -22,6 +25,7 @@ const statKeys = matchRows.length > 0
     matchRows={matchRows}
     consolidatedRows={consolidatedRows}
     statKeys={statKeys}
+    showPositionColumn={true}
     client:load
   />
 </Base>
